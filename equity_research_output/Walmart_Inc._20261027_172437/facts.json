@@ -1,0 +1,391 @@
+{
+  "ticker": "WMT",
+  "company": "Walmart Inc.",
+  "cik": "0000104169",
+  "report_period": "2026-01-31",
+  "facts": {
+    "revenue": {
+      "tag": "Revenues",
+      "period_end": "2026-01-31",
+      "fy": 2026,
+      "filing": "0000104169-26-000055",
+      "value": 713163000000,
+      "prior_period_end": "2025-01-31",
+      "prior_filing": "0000104169-26-000055",
+      "prior_value": 680985000000
+    },
+    "operating_income": {
+      "tag": "OperatingIncomeLoss",
+      "period_end": "2026-01-31",
+      "fy": 2026,
+      "filing": "0000104169-26-000055",
+      "value": 29825000000,
+      "prior_period_end": "2025-01-31",
+      "prior_filing": "0000104169-26-000055",
+      "prior_value": 29348000000
+    },
+    "net_income": {
+      "tag": "NetIncomeLoss",
+      "period_end": "2026-01-31",
+      "fy": 2026,
+      "filing": "0000104169-26-000055",
+      "value": 21893000000,
+      "prior_period_end": "2025-01-31",
+      "prior_filing": "0000104169-26-000055",
+      "prior_value": 19436000000
+    },
+    "diluted_eps": {
+      "tag": "EarningsPerShareDiluted",
+      "period_end": "2026-01-31",
+      "fy": 2026,
+      "filing": "0000104169-26-000055",
+      "value": 2.73,
+      "prior_period_end": "2025-01-31",
+      "prior_filing": "0000104169-26-000055",
+      "prior_value": 2.41
+    },
+    "stockholders_equity": {
+      "tag": "StockholdersEquity",
+      "period_end": "2026-01-31",
+      "fy": 2026,
+      "filing": "0000104169-26-000055",
+      "value": 99617000000,
+      "prior_period_end": "2025-01-31",
+      "prior_filing": "0000104169-26-000055",
+      "prior_value": 91013000000
+    },
+    "long_term_debt": {
+      "tag": "LongTermDebtNoncurrent",
+      "period_end": "2026-01-31",
+      "fy": 2026,
+      "filing": "0000104169-26-000055",
+      "value": 34624000000,
+      "prior_period_end": "2025-01-31",
+      "prior_filing": "0000104169-26-000055",
+      "prior_value": 33401000000
+    },
+    "current_portion_of_long_term_debt": {
+      "tag": "LongTermDebtCurrent",
+      "period_end": "2026-01-31",
+      "fy": 2026,
+      "filing": "0000104169-26-000055",
+      "value": 3542000000,
+      "prior_period_end": "2025-01-31",
+      "prior_filing": "0000104169-26-000055",
+      "prior_value": 2598000000
+    },
+    "cash_from_operations": {
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "period_end": "2026-01-31",
+      "fy": 2026,
+      "filing": "0000104169-26-000055",
+      "value": 41565000000,
+      "prior_period_end": "2025-01-31",
+      "prior_filing": "0000104169-26-000055",
+      "prior_value": 36443000000
+    },
+    "additions_to_property_and_equipment": {
+      "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "period_end": "2026-01-31",
+      "fy": 2026,
+      "filing": "0000104169-26-000055",
+      "value": 26642000000,
+      "prior_period_end": "2025-01-31",
+      "prior_filing": "0000104169-26-000055",
+      "prior_value": 23783000000
+    }
+  },
+  "peers": {
+    "AMZN": {
+      "cik": "0001018724",
+      "report_period": "2025-12-31",
+      "facts": {
+        "revenue": {
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_end": "2025-12-31",
+          "fy": 2025,
+          "filing": "0001018724-26-000004",
+          "value": 716924000000,
+          "prior_period_end": "2024-12-31",
+          "prior_filing": "0001018724-26-000004",
+          "prior_value": 637959000000
+        },
+        "operating_income": {
+          "tag": "OperatingIncomeLoss",
+          "period_end": "2025-12-31",
+          "fy": 2025,
+          "filing": "0001018724-26-000004",
+          "value": 79975000000,
+          "prior_period_end": "2024-12-31",
+          "prior_filing": "0001018724-26-000004",
+          "prior_value": 68593000000
+        },
+        "net_income": {
+          "tag": "NetIncomeLoss",
+          "period_end": "2025-12-31",
+          "fy": 2025,
+          "filing": "0001018724-26-000004",
+          "value": 77670000000,
+          "prior_period_end": "2024-12-31",
+          "prior_filing": "0001018724-26-000004",
+          "prior_value": 59248000000
+        },
+        "diluted_eps": {
+          "tag": "EarningsPerShareDiluted",
+          "period_end": "2025-12-31",
+          "fy": 2025,
+          "filing": "0001018724-26-000004",
+          "value": 7.17,
+          "prior_period_end": "2024-12-31",
+          "prior_filing": "0001018724-26-000004",
+          "prior_value": 5.53
+        },
+        "stockholders_equity": {
+          "tag": "StockholdersEquity",
+          "period_end": "2025-12-31",
+          "fy": 2025,
+          "filing": "0001018724-26-000004",
+          "value": 411065000000,
+          "prior_period_end": "2024-12-31",
+          "prior_filing": "0001018724-26-000004",
+          "prior_value": 285970000000
+        },
+        "long_term_debt": {
+          "tag": "LongTermDebtNoncurrent",
+          "period_end": "2025-12-31",
+          "fy": 2025,
+          "filing": "0001018724-26-000004",
+          "value": 65648000000,
+          "prior_period_end": "2024-12-31",
+          "prior_filing": "0001018724-26-000004",
+          "prior_value": 52623000000
+        },
+        "current_portion_of_long_term_debt": {
+          "tag": "LongTermDebtCurrent",
+          "period_end": "2025-12-31",
+          "fy": 2025,
+          "filing": "0001018724-26-000004",
+          "value": 2748000000,
+          "prior_period_end": "2024-12-31",
+          "prior_filing": "0001018724-26-000004",
+          "prior_value": 5017000000
+        },
+        "cash_from_operations": {
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "period_end": "2025-12-31",
+          "fy": 2025,
+          "filing": "0001018724-26-000004",
+          "value": 139514000000,
+          "prior_period_end": "2024-12-31",
+          "prior_filing": "0001018724-26-000004",
+          "prior_value": 115877000000
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "PaymentsToAcquireProductiveAssets",
+          "period_end": "2025-12-31",
+          "fy": 2025,
+          "filing": "0001018724-26-000004",
+          "value": 131819000000,
+          "prior_period_end": "2024-12-31",
+          "prior_filing": "0001018724-26-000004",
+          "prior_value": 82999000000
+        }
+      },
+      "operating_margin": 0.11155296795755199
+    },
+    "KR": {
+      "cik": "0000056873",
+      "report_period": "2026-01-31",
+      "facts": {
+        "revenue": {
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0001104659-26-037723",
+          "value": 147642000000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "operating_income": {
+          "tag": "OperatingIncomeLoss",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0001104659-26-037723",
+          "value": 1890000000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "net_income": {
+          "tag": "NetIncomeLoss",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0001104659-26-037723",
+          "value": 1016000000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "diluted_eps": {
+          "tag": "EarningsPerShareDiluted",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0001104659-26-037723",
+          "value": 1.54,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "stockholders_equity": {
+          "tag": "StockholdersEquity",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0001104659-26-037723",
+          "value": 5927000000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "long_term_debt": {
+          "tag": "LongTermDebtNoncurrent",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0001104659-26-037723",
+          "value": 14509000000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "current_portion_of_long_term_debt": {
+          "tag": "LongTermDebtCurrent",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0001104659-26-037723",
+          "value": 1366000000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "cash_from_operations": {
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0001104659-26-037723",
+          "value": 7311000000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "PaymentsToAcquireProductiveAssets",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0001104659-26-037723",
+          "value": 3855000000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        }
+      },
+      "operating_margin": 0.012801235420815215
+    },
+    "DLTR": {
+      "cik": "0000935703",
+      "report_period": "2026-01-31",
+      "facts": {
+        "revenue": {
+          "tag": "Revenues",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0000935703-26-000025",
+          "value": 19411800000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "operating_income": {
+          "tag": "OperatingIncomeLoss",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0000935703-26-000025",
+          "value": 1653100000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "net_income": {
+          "tag": "NetIncomeLoss",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0000935703-26-000025",
+          "value": 1282500000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "diluted_eps": {
+          "tag": "EarningsPerShareDiluted",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0000935703-26-000025",
+          "value": 6.22,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "stockholders_equity": {
+          "tag": "StockholdersEquity",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0000935703-26-000025",
+          "value": 3754900000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "long_term_debt": {
+          "tag": "LongTermDebtNoncurrent",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0000935703-26-000025",
+          "value": 2431700000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "current_portion_of_long_term_debt": {
+          "tag": "LongTermDebtCurrent",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0000935703-26-000025",
+          "value": 0,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "cash_from_operations": {
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": null,
+          "value": null,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "PaymentsToAcquireProductiveAssets",
+          "period_end": "2026-01-31",
+          "fy": 2025,
+          "filing": "0000935703-26-000025",
+          "value": 1134000000,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        }
+      },
+      "operating_margin": 0.08515954213416582
+    }
+  }
+}

@@ -22,7 +22,9 @@ SEC_BASE = "https://www.sec.gov"
 DATA_BASE = "https://data.sec.gov"
 COMPANY_TICKERS_URL = f"{SEC_BASE}/files/company_tickers.json"
 CONCEPTS: dict[str, dict[str, Any]] = {
-    "revenue": {"tags": ["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues", "SalesRevenueNet", "SalesRevenueGoodsNet", "RevenueFromContractWithCustomerIncludingAssessedTax"], "kind": "duration", "unit": "USD"},
+    # Prefer total Revenues when a filer reports it. Fall back to other
+    # standard revenue concepts when that tag is unavailable for a peer.
+    "revenue": {"tags": ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet", "SalesRevenueGoodsNet", "RevenueFromContractWithCustomerIncludingAssessedTax"], "kind": "duration", "unit": "USD"},
     "operating_income": {"tags": ["OperatingIncomeLoss"], "kind": "duration", "unit": "USD"},
     "net_income": {"tags": ["NetIncomeLoss", "ProfitLoss"], "kind": "duration", "unit": "USD"},
     "diluted_eps": {"tags": ["EarningsPerShareDiluted"], "kind": "duration", "unit": "USD/shares"},
@@ -221,12 +223,21 @@ class Desk:
         _, tag, rows = max(candidates, key=lambda x: (x[0], -spec["tags"].index(x[1])))
         return tag, rows
 
-    def get_fy_fact(self, rows: list[dict[str, Any]], target_end: str, target_fy: int) -> dict[str, Any] | None:
-        matches = [r for r in rows if r.get("end") == target_end and r.get("fy") == target_fy]
-        if not matches:
-            matches = [r for r in rows if r.get("fy") == target_fy]
-        if not matches:
-            matches = [r for r in rows if r.get("end", "").startswith(f"{target_fy}-")]
+    def get_fy_fact(self, rows: list[dict[str, Any]], target_end: str, previous: bool = False) -> dict[str, Any] | None:
+        if not rows:
+            return None
+        if not previous:
+            # Require the exact revenue period end so every current metric
+            # belongs to the same fiscal year-end.
+            matches = [r for r in rows if r.get("end") == target_end]
+        else:
+            target_date = datetime.fromisoformat(target_end).date()
+            try:
+                prior_end = target_date.replace(year=target_date.year - 1).isoformat()
+            except ValueError:
+                # A February 29 period end maps to February 28 in a non-leap year.
+                prior_end = target_date.replace(year=target_date.year - 1, day=28).isoformat()
+            matches = [r for r in rows if r.get("end") == prior_end]
         if not matches:
             return None
         return max(matches, key=lambda r: r.get("filed", ""))
@@ -240,9 +251,9 @@ class Desk:
         output: dict[str, Any] = {}
         for metric, spec in CONCEPTS.items():
             tag, rows = self.select_fact(facts, metric)
-            current = self.get_fy_fact(rows, target_end, target_fy) if rows else None
-            previous = self.get_fy_fact(rows, "", target_fy - 1) if rows else None
-            output[metric] = {"tag": tag, "period_end": current.get("end") if current else target_end, "fy": target_fy, "filing": current.get("accn") if current else None, "value": current.get("val") if current else None, "prior_period_end": previous.get("end") if previous else None, "prior_filing": previous.get("accn") if previous else None, "prior_value": previous.get("val") if previous else None}
+            current = self.get_fy_fact(rows, target_end) if rows else None
+            prior = self.get_fy_fact(rows, target_end, previous=True) if rows else None
+            output[metric] = {"tag": tag, "period_end": current.get("end") if current else target_end, "fy": target_fy, "filing": current.get("accn") if current else None, "value": current.get("val") if current else None, "prior_period_end": prior.get("end") if prior else None, "prior_filing": prior.get("accn") if prior else None, "prior_value": prior.get("val") if prior else None}
         return output, target_end, target_fy
 
     @staticmethod
@@ -302,23 +313,26 @@ class Desk:
             self.step2()
         release = self.html_to_text(self.get(self.filings["8-K"].release_url).content)
         lines = release.splitlines()
-        revenue_hits = [line for line in lines if re.search(r"quarter(?:ly)?\s+revenue", line, re.I) and re.search(r"\$\s*[\d,.]+", line)]
+        revenue_hits = [line for line in lines if not re.search(r"fiscal year|annual", line, re.I) and (re.search(r"quarter(?:ly)?\s+revenue", line, re.I) or re.search(r"revenue\s+of\s+\$\s*[\d,.]+\s*(?:billion|million)", line, re.I)) and re.search(r"\$\s*[\d,.]+", line)]
         eps_hits = [line for line in lines if re.search(r"diluted", line, re.I) and re.search(r"earnings\s+per\s+share|\bEPS\b|per-share", line, re.I) and re.search(r"\$\s*[\d,.]+|\b\d+\.\d+\b", line)]
         hits = list(dict.fromkeys(revenue_hits + eps_hits))
-        if not hits:
-            def first_amount_after(start: int) -> str | None:
-                for candidate in lines[start + 1:]:
-                    value = candidate.strip().replace("$", "").replace(",", "")
-                    if re.fullmatch(r"\d+(?:\.\d+)?", value):
-                        return candidate.strip().replace("$", "").strip()
-                return None
+        def first_amount_after(start: int) -> str | None:
+            for candidate in lines[start + 1:]:
+                value = candidate.strip().replace("$", "").replace(",", "")
+                if re.fullmatch(r"\d+(?:\.\d+)?", value):
+                    return candidate.strip().replace("$", "").strip()
+            return None
+        if not revenue_hits:
             total_revenue_i = next((i for i, line in enumerate(lines) if re.fullmatch(r"Total revenue", line.strip(), re.I)), None)
-            income_i = next((i for i, line in enumerate(lines) if re.search(r"NET INCOME PER COMMON SHARE", line, re.I)), None)
-            diluted_i = next((i for i, line in enumerate(lines) if income_i is not None and i > income_i and re.fullmatch(r"Diluted", line.strip(), re.I)), None)
             total_revenue = first_amount_after(total_revenue_i) if total_revenue_i is not None else None
-            diluted_eps = first_amount_after(diluted_i) if diluted_i is not None else None
             if total_revenue:
                 hits.append(f"Total revenue (quarterly, in millions): {total_revenue}")
+        if not eps_hits:
+            diluted_i = next((i for i, line in enumerate(lines) if re.search(r"diluted\s+net income per common share", line, re.I)), None)
+            if diluted_i is None:
+                income_i = next((i for i, line in enumerate(lines) if re.search(r"NET INCOME PER COMMON SHARE", line, re.I)), None)
+                diluted_i = next((i for i, line in enumerate(lines) if income_i is not None and i > income_i and re.fullmatch(r"Diluted", line.strip(), re.I)), None)
+            diluted_eps = first_amount_after(diluted_i) if diluted_i is not None else None
             if diluted_eps:
                 hits.append(f"Diluted earnings per share (quarterly): ${diluted_eps}")
         print("  Release lines that state quarterly total revenue and diluted EPS:")
