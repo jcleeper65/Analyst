@@ -1,0 +1,129 @@
+{
+  "ticker": "MS",
+  "company": "MORGAN STANLEY",
+  "cik": "0000895421",
+  "report_period": "2025-12-31",
+  "facts": {
+    "revenue": {
+      "tag": "RevenuesNetOfInterestExpense",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": "0000895421-26-000086",
+      "value": 70645000000,
+      "prior_period_end": "2024-12-31",
+      "prior_filing": "0000895421-26-000086",
+      "prior_value": 61761000000
+    },
+    "operating_income": {
+      "tag": null,
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": null,
+      "value": null,
+      "prior_period_end": null,
+      "prior_filing": null,
+      "prior_value": null
+    },
+    "net_income": {
+      "tag": "ProfitLoss",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": "0000895421-26-000086",
+      "value": 17025000000,
+      "prior_period_end": "2024-12-31",
+      "prior_filing": "0000895421-26-000086",
+      "prior_value": 13529000000
+    },
+    "noncontrolling_interest_income": {
+      "tag": "NetIncomeLossAttributableToNonredeemableNoncontrollingInterest",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": "0000895421-26-000086",
+      "value": 164000000,
+      "prior_period_end": "2024-12-31",
+      "prior_filing": "0000895421-26-000086",
+      "prior_value": 139000000
+    },
+    "net_income_attributable_to_parent": {
+      "tag": "NetIncomeLoss",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": "0000895421-26-000086",
+      "value": 16861000000,
+      "prior_period_end": "2024-12-31",
+      "prior_filing": "0000895421-26-000086",
+      "prior_value": 13390000000
+    },
+    "diluted_eps": {
+      "tag": "EarningsPerShareDiluted",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": "0000895421-26-000086",
+      "value": 10.21,
+      "prior_period_end": "2024-12-31",
+      "prior_filing": "0000895421-26-000086",
+      "prior_value": 7.95
+    },
+    "stockholders_equity": {
+      "tag": "StockholdersEquity",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": "0000895421-26-000086",
+      "value": 111632000000,
+      "prior_period_end": "2024-12-31",
+      "prior_filing": "0000895421-26-000086",
+      "prior_value": 104511000000
+    },
+    "long_term_debt": {
+      "tag": "LongTermDebt",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": "0000895421-26-000086",
+      "value": 341681000000,
+      "prior_period_end": "2024-12-31",
+      "prior_filing": "0000895421-26-000086",
+      "prior_value": 284307000000
+    },
+    "current_portion_of_long_term_debt": {
+      "tag": "LongTermDebtCurrent",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": null,
+      "value": null,
+      "prior_period_end": null,
+      "prior_filing": null,
+      "prior_value": null
+    },
+    "short_term_borrowings": {
+      "tag": "ShortTermBorrowings",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": null,
+      "value": null,
+      "prior_period_end": null,
+      "prior_filing": null,
+      "prior_value": null
+    },
+    "cash_from_operations": {
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": "0000895421-26-000086",
+      "value": -17889000000,
+      "prior_period_end": "2024-12-31",
+      "prior_filing": "0000895421-26-000086",
+      "prior_value": 1362000000
+    },
+    "additions_to_property_and_equipment": {
+      "tag": "PaymentsForProceedsFromProductiveAssets",
+      "period_end": "2025-12-31",
+      "fy": 2025,
+      "filing": "0000895421-26-000086",
+      "value": 2898000000,
+      "prior_period_end": "2024-12-31",
+      "prior_filing": "0000895421-26-000086",
+      "prior_value": 3462000000
+    }
+  },
+  "peers": {}
+}
