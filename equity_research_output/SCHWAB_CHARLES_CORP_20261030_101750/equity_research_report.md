@@ -1,0 +1,164 @@
+Filings read: 10-K 0000316709-26-000009, 10-Q 0000316709-26-000031, 8-K 0000316709-26-000035
+Run time: 2026-10-30T10:27:08-04:00
+
+## Overview
+
+### Overview
+
+The Charles Schwab Corporation (CSC) is a financial institution operating as a savings and loan holding company. "The Charles Schwab Corporation (CSC) is a savings and loan holding company" [10-K.txt:L210]. Through its subsidiaries, CSC engages in "wealth management, securities brokerage, banking, asset management, custody, and financial advisory services" [10-K.txt:L210]. At December 31, 2025, Schwab held "$11.90 trillion in client assets, 38.5 million active brokerage accounts, 5.7 million workplace plan participant accounts, and 2.2 million banking accounts" [10-K.txt:L210].
+
+Principal operating subsidiaries include "Charles Schwab & Co., Inc. (CS&Co), incorporated in 1971, a securities broker-dealer" [10-K.txt:L213], "Charles Schwab Bank, SSB (CSB), our principal banking entity" [10-K.txt:L215], and "Charles Schwab Investment Management, Inc. (CSIM), the investment advisor for Schwab’s proprietary mutual funds" [10-K.txt:L217].
+
+Schwab conducts its operations through two reportable segments: "Investor Services and Advisor Services" [10-K.txt:L221]. The Investor Services segment provides "retail brokerage, investment advisory, and banking and trust services to individual investors, and retirement plan and business services, as well as other corporate brokerage services, to businesses and their employees" [10-K.txt:L221]. The Advisor Services segment provides "custodial, trading, banking and trust, and support services to independent registered investment advisors (RIAs), independent retirement advisors, and recordkeepers" [10-K.txt:L221].
+
+Schwab's primary revenue streams comprise "net interest revenue, asset management and administration fees, trading revenue, and bank deposit account fees" [10-K.txt:L318]. In 2025, total net revenues reached "$23,921" million [10-K.txt:L1043]. Net interest revenue was "$11,750" million [10-K.txt:L1290], representing "49%" of total net revenues [10-K.txt:L1292]. Asset management and administration fees totaled "$6,506" million [10-K.txt:L1339], representing "27%" of net revenues [10-K.txt:L1341]. Trading revenue totaled "$3,921" million [10-K.txt:L1388], representing "17%" of net revenues [10-K.txt:L1390]. Bank deposit account fees reached "$977" million [10-K.txt:L1400], representing "4%" of net revenues [10-K.txt:L1402].
+
+## Market Positioning and Growth Outlook
+
+### Market Positioning and Growth Outlook
+
+Schwab positions its operations under a client-centered operating strategy designated as "Through Clients’ Eyes" [10-K.txt:L223]. Management estimates that investable wealth in the United States "currently exceeds $80 trillion, which means the Company’s $11.90 trillion in client assets leaves substantial opportunity for growth" [10-K.txt:L225].
+
+Within Investor Services, Schwab faces competition from "brokerage, wealth management, and asset management firms, as well as banks, trust companies, financial technology (fintech) companies, and retirement service providers" [10-K.txt:L226]. Within Advisor Services, competition includes "institutional custodians, wirehouses, regional and independent broker-dealers, fintech custodians, banks, and trust companies" [10-K.txt:L226].
+
+Across both segments, Schwab relies on specific competitive advantages:
+- Scale and Size: "As one of the largest investment services firms in the U.S., we are able to spread operating costs and amortize new investments over a large base of clients" [10-K.txt:L231].
+- Operating Efficiency: "Coupled with scale, our operating efficiency and sharing of infrastructure across different businesses creates a cost advantage that enables us to competitively price products and services" [10-K.txt:L233].
+- Operating Structure: "Providing bank, wealth, and asset management services to broker-dealer clients helps serve a wider array of needs, thereby deepening relationships, enhancing the stability of client assets, and enabling diversified revenue streams" [10-K.txt:L235].
+- Reputation: "Schwab’s reputation and brand across multiple constituents enable us to attract clients and employees while credibly introducing new products to the market" [10-K.txt:L237].
+- Client Focus: Differentiators also include Schwab's "Service Culture" [10-K.txt:L239] and its "Willingness to Disrupt" [10-K.txt:L241].
+
+Growth catalysts and operating performance in 2025 demonstrated expanding client engagement:
+- Core net new client assets totaled "$519.4 billion, increasing 42% from the prior year, and resulting in an annualized organic growth rate of 5.1%" [10-K.txt:L1175].
+- Clients opened "4.7 million new brokerage accounts, an increase of 13% from the prior year" [10-K.txt:L1175].
+- Active brokerage accounts reached "38.5 million as of December 31, 2025, up 6% from year-end 2024" [10-K.txt:L1175].
+- Trading activity increased as "clients’ DATs were 7.7 million for full-year 2025 and 8.3 million in the fourth quarter, increasing 31% over both the prior year-to-date and fourth-quarter periods" [10-K.txt:L1175].
+- Margin lending served as a key growth catalyst: "margin loans ending the year at $112.3 billion, up 34% from year-end 2024 and up 16% during the fourth quarter alone" [10-K.txt:L1188], driven by "strong client demand and engagement amid rising equity markets and long/short strategies implemented by RIA clients" [10-K.txt:L1188].
+- Lower funding costs supported margins: "The Company reduced bank supplemental funding in 2025 by $44.8 billion, or 90%, to $5.1 billion at year-end 2025" [10-K.txt:L1188].
+- Integration milestones delivered planned efficiencies: "The Company’s integration of Ameritrade was completed as of December 31, 2024" [10-K.txt:L1225], successfully migrating "approximately $1.9 trillion in client assets across more than 17 million client accounts, including 7,000 RIAs" [10-K.txt:L1225], and achieving "annualized run-rate cost synergies of approximately $2.0 billion" [10-K.txt:L1225]. Incremental operational streamlining actions generated "approximately $500 million of incremental run-rate cost savings in addition to integration synergies" [10-K.txt:L1226].
+
+## Valuation Insights
+
+### 1. Annual Financial Facts (FY 2025 and FY 2024)
+
+- **Revenue**:
+  - FY 2025: 23,921,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `Revenues`, period end: 2025-12-31).
+  - FY 2024: 19,606,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `Revenues`, period end: 2024-12-31).
+- **Net Income & Net Income Attributable to Parent**:
+  - FY 2025: 8,852,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `NetIncomeLoss`, period end: 2025-12-31).
+  - FY 2024: 5,942,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `NetIncomeLoss`, period end: 2024-12-31).
+- **Diluted Earnings Per Share (EPS)**:
+  - FY 2025: 4.65 USD (Filing accession: 0000316709-26-000009, XBRL tag: `EarningsPerShareDiluted`, period end: 2025-12-31).
+  - FY 2024: 2.99 USD (Filing accession: 0000316709-26-000009, XBRL tag: `EarningsPerShareDiluted`, period end: 2024-12-31).
+- **Stockholders' Equity**:
+  - FY 2025: 49,425,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `StockholdersEquity`, period end: 2025-12-31).
+  - FY 2024: 48,375,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `StockholdersEquity`, period end: 2024-12-31).
+- **Long-Term Debt**:
+  - FY 2025: 22,199,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities`, period end: 2025-12-31).
+  - FY 2024: 22,428,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities`, period end: 2024-12-31).
+- **Cash from Operations**:
+  - FY 2025: 9,311,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `NetCashProvidedByUsedInOperatingActivities`, period end: 2025-12-31).
+  - FY 2024: 2,670,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `NetCashProvidedByUsedInOperatingActivities`, period end: 2024-12-31).
+- **Additions to Property and Equipment**:
+  - FY 2025: 548,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `PaymentsToAcquirePropertyPlantAndEquipment`, period end: 2025-12-31).
+  - FY 2024: 620,000,000 USD (Filing accession: 0000316709-26-000009, XBRL tag: `PaymentsToAcquirePropertyPlantAndEquipment`, period end: 2024-12-31).
+- **Operating Income, Noncontrolling Interest Income, Current Portion of Long-Term Debt, Short-Term Borrowings**:
+  - Values are null / not reported in the filing inputs.
+
+---
+
+### 2. Supplied Computed Ratios and Metrics
+
+- **Revenue Growth**:
+  - Exact supplied arithmetic: `(23921000000 - 19606000000) / 19606000000`
+  - Supplied value: 22.008568805467714%
+  - Sources: Filing 0000316709-26-000009, XBRL tag `Revenues`, period end 2025-12-31; Filing 0000316709-26-000009, XBRL tag `Revenues`, period end 2024-12-31.
+- **Operating Margin**:
+  - Exact supplied arithmetic: `None / 23921000000`
+  - Supplied value: null
+  - Sources: Source unavailable for operating income; Filing 0000316709-26-000009, XBRL tag `Revenues`, period end 2025-12-31.
+  - Note: Operating income is null, so operating margin cannot be calculated.
+- **Return on Average Equity (ROAE)**:
+  - Exact supplied arithmetic: `8852000000 / ((49425000000 + 48375000000) / 2)`
+  - Supplied value: 18.102249488752555%
+  - Basis / Method used by program: Reported net income fact divided by the simple average of current and prior year-end stockholders' equity.
+  - Sources: Filing 0000316709-26-000009, XBRL tag `NetIncomeLoss`, period end 2025-12-31; Filing 0000316709-26-000009, XBRL tag `StockholdersEquity`, period end 2025-12-31; Filing 0000316709-26-000009, XBRL tag `StockholdersEquity`, period end 2024-12-31.
+- **Debt-to-Equity**:
+  - Exact supplied arithmetic: `(22199000000) / 49425000000`
+  - Supplied value: 0.44914516944865956
+  - Basis / Definition used by program: Complete long-term debt plus separately reported short-term borrowings when available; excludes repos and other secured financings.
+  - Sources: Filing 0000316709-26-000009, XBRL tag `LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities`, period end 2025-12-31; Filing 0000316709-26-000009, XBRL tag `StockholdersEquity`, period end 2025-12-31.
+- **Free Cash Flow**:
+  - Exact supplied arithmetic: `9311000000 - 548000000`
+  - Supplied value: 8,763,000,000 USD
+  - Sources: Filing 0000316709-26-000009, XBRL tag `NetCashProvidedByUsedInOperatingActivities`, period end 2025-12-31; Filing 0000316709-26-000009, XBRL tag `PaymentsToAcquirePropertyPlantAndEquipment`, period end 2025-12-31.
+- **Price-to-Earnings (P/E) Ratio**:
+  - Exact supplied arithmetic: `88.76 / 4.65`
+  - Supplied value: 19.08817204301075
+  - Sources: Stock price of 88.76 supplied via `--price` command-line argument; Filing 0000316709-26-000009, XBRL tag `EarningsPerShareDiluted`, period end 2025-12-31.
+
+---
+
+### 3. Latest Quarter Results (Filing accession: 0000316709-26-000035, Release file: `earnings_release_Ex99-1.txt`)
+
+- **Net Revenues**:
+  - Reported net revenues for 3Q26: 7,171 million USD (`earnings_release_Ex99-1.txt:L96`, `earnings_release_Ex99-1.txt:L307`).
+  - Net revenues increased 17% year-over-year to a record 7.2 billion USD (`earnings_release_Ex99-1.txt:L9`, `earnings_release_Ex99-1.txt:L42`, `earnings_release_Ex99-1.txt:L193`).
+- **Diluted Earnings Per Share (EPS)**:
+  - GAAP diluted EPS: 1.62 USD (`earnings_release_Ex99-1.txt:L10`, `earnings_release_Ex99-1.txt:L14`, `earnings_release_Ex99-1.txt:L48`, `earnings_release_Ex99-1.txt:L131`, `earnings_release_Ex99-1.txt:L415`, `earnings_release_Ex99-1.txt:L2766`), up 29% versus 3Q25 (`earnings_release_Ex99-1.txt:L12`, `earnings_release_Ex99-1.txt:L48`, `earnings_release_Ex99-1.txt:L681`).
+  - Adjusted diluted EPS: 1.69 USD (`earnings_release_Ex99-1.txt:L10`, `earnings_release_Ex99-1.txt:L16`, `earnings_release_Ex99-1.txt:L48`, `earnings_release_Ex99-1.txt:L142`, `earnings_release_Ex99-1.txt:L2812`), up 36% (`earnings_release_Ex99-1.txt:L150`).
+  - Condition / Definition of adjustment: Adjusted EPS excludes 151 million USD of pre-tax transaction-related costs (acquisition and integration-related costs and amortization of acquired intangibles) (`earnings_release_Ex99-1.txt:L14`, `earnings_release_Ex99-1.txt:L205`).
+- **Net Income**:
+  - GAAP net income: 2,906 million USD (`earnings_release_Ex99-1.txt:L108`) or 2.9 billion USD (`earnings_release_Ex99-1.txt:L14`), up 28% year-over-year (`earnings_release_Ex99-1.txt:L116`).
+  - Adjusted net income: 3,021 million USD (`earnings_release_Ex99-1.txt:L119`) or 3.0 billion USD (`earnings_release_Ex99-1.txt:L16`), up 28% year-over-year (`earnings_release_Ex99-1.txt:L127`).
+- **Operating Segments and Commentary**:
+  - Net interest revenue: 3,476 million USD (`earnings_release_Ex99-1.txt:L282`, `earnings_release_Ex99-1.txt:L1396`), up 14% year-over-year from 3,050 million USD in 3Q25 (`earnings_release_Ex99-1.txt:L283`, `earnings_release_Ex99-1.txt:L446`). Net interest margin expanded quarter-over-quarter to 3.04% (`earnings_release_Ex99-1.txt:L195`).
+  - Asset management and administration fees: Increased 14% year-over-year to 1.9 billion USD (`earnings_release_Ex99-1.txt:L201`).
+  - Trading revenue: 1,158 million USD (`earnings_release_Ex99-1.txt:L292`), up 16% year-over-year from 995 million USD in 3Q25 (`earnings_release_Ex99-1.txt:L203`, `earnings_release_Ex99-1.txt:L293`, `earnings_release_Ex99-1.txt:L471`).
+  - Core net new assets: Record quarterly core net new assets of 190.4 billion USD, up 38% year-over-year (`earnings_release_Ex99-1.txt:L8`).
+  - Common stock repurchases: Repurchased 4.7 million shares of common stock for 0.5 billion USD during the quarter (`earnings_release_Ex99-1.txt:L217`).
+- **Margins and Capital Ratios**:
+  - GAAP pre-tax profit margin: 52.7% (`earnings_release_Ex99-1.txt:L153`).
+  - Adjusted pre-tax profit margin: 54.8% (`earnings_release_Ex99-1.txt:L162`).
+  - Annualized return on average common stockholders’ equity (GAAP): 25% (`earnings_release_Ex99-1.txt:L2839`).
+  - Annualized return on tangible common equity (non-GAAP): 44% (`earnings_release_Ex99-1.txt:L2892`).
+  - Preliminary GAAP Tier 1 Leverage Ratio: 8.9% for CSC and 10.6% for CSB (`earnings_release_Ex99-1.txt:L2907-L2908`).
+  - Preliminary Adjusted Tier 1 Leverage Ratio (non-GAAP): 7.0% (`earnings_release_Ex99-1.txt:L2932`), reflecting the inclusion of accumulated other comprehensive income (AOCI) (`earnings_release_Ex99-1.txt:L2560`).
+
+---
+
+### 4. Peers Comparison
+
+- Peer comparison data was not supplied in the input context (peers object is empty `{}`). No peer calculations or peer estimates are made.
+
+## Future Developments and Strategic Recommendations
+
+### Future Developments
+
+Key business developments, expansion initiatives, and regulatory developments include:
+
+1. Acquisition of Forge Global Holdings, Inc.:
+On November 6, 2025, Schwab entered into a definitive agreement to acquire "Forge Global Holdings, Inc. (Forge), operator of a leading private market platform and trading marketplace, in a transaction valued at approximately $660 million" [10-K.txt:L244]. Management anticipates that "incorporating Forge’s private company investment capabilities will enhance Schwab’s ability to meet the evolving needs of investors across our growing client base" [10-K.txt:L244]. The transaction received stockholder approval in January 2026 and "is expected to close in March 2026, subject to customary closing conditions, including regulatory approvals" [10-K.txt:L244]. Relatedly, in late 2025, the company introduced "Schwab Private Issuer Equity Services provides a complete equity management solution designed to support private companies in the late stages prior to an initial public offering" [10-K.txt:L298].
+
+2. Expansion into Digital Assets:
+Schwab currently offers "cryptocurrency exchange-trade products (ETPs), options on select cryptocurrency ETPs, cryptocurrency futures" [10-K.txt:L264]. In the next phase, "In 2026, the Company anticipates it will begin offering expanded client access to trading in digital assets including spot trading in select cryptocurrencies" [10-K.txt:L512]. However, management explicitly hedges: "Expansion of digital asset client offerings presents significant new risks to the Company, including risks related to digital asset custody, trading, settlement, and liquidity, and increased risk related to fraud and other illicit activity" [10-K.txt:L512].
+
+3. Regulatory Developments:
+Several regulatory matters evolved during 2025:
+- Market Structure Proposals: "On June 12, 2025, the SEC withdrew certain notices of proposed rulemaking issued between March 2022 and November 2023, which the Company had been evaluating. The withdrawn proposals included the December 2022 equity market structure rule proposals, “Order Competition Rule” and “Regulation Best Execution”" [10-K.txt:L1228].
+- Brokered Deposits: "On March 3, 2025, the FDIC also withdrew certain notices of proposed rulemaking issued in 2023 and 2024 that the Company had been evaluating, including the July 2024 proposal related to the brokered deposits framework" [10-K.txt:L1229].
+- DOL Fiduciary Rule: Following federal district court stays on the Department of Labor fiduciary rule, "in November 2025 the Department of Labor formally withdrew its appeal and the stay remains in place" [10-K.txt:L1230].
+- Capital and Debt Proposals: Pending rule proposals include an August 2023 interagency proposal that "would require CSC and our banking subsidiaries to maintain outstanding minimum levels of eligible long-term debt" [10-K.txt:L1237] and a July 2023 proposal that "would require us to include AOCI in regulatory capital and to calculate our risk-weighted assets using a revised risk-based approach" [10-K.txt:L1238].
+
+## Investment Recommendation
+
+Rating: Buy.
+
+Thesis:
+The Charles Schwab Corporation maintains strong business scale and financial expansion. For FY 2025, revenue increased to 23,921,000,000 USD from 19,606,000,000 USD in FY 2024, representing supplied revenue growth of 22.008568805467714%. Core net new client assets expanded 42% from the prior year to $519.4 billion, and bank supplemental funding decreased by $44.8 billion, or 90%, to $5.1 billion at year-end 2025. Although management explicitly hedges that expansion into digital assets presents significant new risks regarding custody, trading, settlement, liquidity, and illicit activity, and pending regulatory proposals could require minimum eligible long-term debt or the inclusion of AOCI in regulatory capital, the firm demonstrates strong profitability and cash generation.
+
+Deciding Number and Citation:
+Free Cash Flow: 8,763,000,000 USD (Sources: Filing 0000316709-26-000009, XBRL tag `NetCashProvidedByUsedInOperatingActivities`, period end 2025-12-31; Filing 0000316709-26-000009, XBRL tag `PaymentsToAcquirePropertyPlantAndEquipment`, period end 2025-12-31).
+
+Why It Matters:
+This metric matters because it demonstrates that the firm converts operational activity into substantial surplus cash after capital expenditures of 548,000,000 USD. This cash generation provides the liquidity necessary to fund strategic initiatives, absorb potential regulatory capital changes, and support capital distribution to stockholders, such as the repurchase of 4.7 million common shares for 0.5 billion USD in 3Q26.

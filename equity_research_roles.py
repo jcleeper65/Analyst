@@ -120,7 +120,9 @@ def _json_call(client: Any, model: str, role: str, instructions: str, envelope: 
                 raise RuntimeError(f"Antigravity call failed for {role}: {result_event.get('error', process.stderr.strip())}")
             structured = result_event.get("structured_output")
             if not isinstance(structured, dict):
-                finish_event = next((item for item in reversed(events) if item.get("event") == "step_update" and item.get("step_update", {}).get("step_type") == "finish"), {})
+                finish_event = next((item for item in reversed(events) if item.get("event") == "step_update" and item.get("step_update", {}).get("tool_name") == "finish"), {})
+                if not finish_event:
+                    finish_event = next((item for item in reversed(events) if item.get("event") == "step_update" and item.get("step_update", {}).get("step_type") == "finish"), {})
                 parameters = finish_event.get("step_update", {}).get("tool_info", {}).get("parameters")
                 if isinstance(parameters, dict):
                     structured = parameters
