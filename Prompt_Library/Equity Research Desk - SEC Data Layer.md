@@ -1,6 +1,6 @@
 # Equity Research Desk: SEC Data Layer
 
-Build the data-collection and calculation layer of an equity-research desk in Python. Model the workflow on Section 3.1 of Francis and Zhang (2026). Do not add analyst or model roles; those will be specified later.
+Build the data-collection, calculation, and model-analysis layer of an equity-research desk in Python. Model the workflow on Section 3.1 of Francis and Zhang (2026).
 
 ## Inputs and request settings
 
@@ -33,6 +33,17 @@ Print each step as it runs.
 - Label every derived ratio or amount as `Computed`.
 - Print the source for every input beside the calculation. For SEC facts, include the XBRL tag, period end, and filing accession. For price, identify the `--price` command-line argument as the source.
 - Do not present a computed number if any numeric input has no source. A Manager role added later must refuse to compile a computed number when any of its inputs lacks a source.
+
+## Model roles and report
+
+- After the seven SEC data steps, use the official OpenAI Python SDK. Read `API_KEY` from the project `.env`; allow `OPENAI_MODEL` to select the model, with `gpt-5.5` as the default. Store prompts in code and keep each call independent.
+- Run four separate roles: Research Analyst, Financial Analyst, Investment Advisor, and Strategy Manager. Print each role name as it runs.
+- Give each role its own instructions. Send each role only a Strategy Manager task envelope encoded as JSON with `task`, `context`, and `expected_output`.
+- Research Analyst uses the 10-K Business and MD&A sections and earnings release. Cover business model, competitive position, catalysts, and recent developments. Quote and cite a source line for every factual claim.
+- Financial Analyst uses only the Step 4 facts, Step 5 calculator outputs, Step 6 quarter, and Step 7 peers. Cite every number to its filing accession and XBRL tag with period end, or to an earnings-release line. Show the supplied arithmetic for each ratio. Do not calculate in the model. It may request another ratio from the Python calculator.
+- Investment Advisor receives only the Research Analyst and Financial Analyst outputs. Give a thesis, a Buy, Hold, or Sell rating, and one cited deciding number.
+- Strategy Manager checks that Overview; Market Positioning and Growth Outlook; Valuation Insights; Future Developments and Strategic Recommendations; and Investment Recommendation are present and consistent. Send each failing part to its role once, then compile the report.
+- Save the Markdown report in the run folder. Its first line lists the filings read and their accession numbers. Its second line gives the run time. Print the report path.
 
 ## Completion response
 

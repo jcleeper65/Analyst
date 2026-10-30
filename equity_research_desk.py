@@ -8,7 +8,7 @@ import json
 import os
 import re
 import sys
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -69,6 +69,9 @@ class Desk:
         self.submissions: dict[str, Any] = {}
         self.filings: dict[str, Filing] = {}
         self.facts: dict[str, Any] = {}
+        self.peer_results: dict[str, Any] = {}
+        self.computed_metrics: dict[str, Any] = {}
+        self.quarter_results: dict[str, Any] = {}
         self.report_period = ""
         self.output_dir: Path | None = None
 
@@ -185,13 +188,11 @@ class Desk:
             self.step2()
         self.ensure_output()
         names = {"10-K": "10-K.txt", "10-Q": "10-Q.txt", "8-K": "earnings_release_Ex99-1.txt"}
-        saved = {}
         for form, filing in self.filings.items():
             url = filing.release_url if form == "8-K" else filing.document_url
             txt = self.html_to_text(self.get(url).content)
             path = self.output_dir / names[form]
             path.write_text(txt, encoding="utf-8")
-            saved[form] = str(path)
             print(f"  Saved {form}: {path}")
         print(f"  Downloaded and converted 3 filing documents to plain text in {self.output_dir}.")
 
@@ -373,7 +374,6 @@ class Desk:
         if long_term_base_complete and self.has_fact_source(short_debt_item):
             debt_components.append(short_debt_item)
         debt_inputs_sourced = bool(debt_components) and all(self.has_fact_source(item) for item in debt_components)
-        current_debt_sourced = self.has_fact_source(f["current_portion_of_long_term_debt"])
         cfo_sourced = self.has_fact_source(f["cash_from_operations"])
         capex_sourced = self.has_fact_source(f["additions_to_property_and_equipment"])
         eps_sourced = self.has_fact_source(f["diluted_eps"])
@@ -386,6 +386,14 @@ class Desk:
         fcf = cfo - capex if cfo_sourced and capex_sourced and cfo is not None and capex is not None else None
         diluted_eps = f["diluted_eps"]["value"]
         pe = ratio(self.price, diluted_eps) if self.price is not None and eps_sourced else None
+        self.computed_metrics = {
+            "revenue_growth": {"formula": f"({rev} - {prev_rev}) / {prev_rev}", "value": growth * 100 if growth is not None else None, "unit": "%", "sources": [self.fact_source(f["revenue"]), self.fact_source(f["revenue"], prior=True)]},
+            "operating_margin": {"formula": f"{op} / {rev}", "value": op_margin * 100 if op_margin is not None else None, "unit": "%", "sources": [self.fact_source(f["operating_income"]), self.fact_source(f["revenue"])]},
+            "return_on_average_equity": {"formula": f"{parent_net} / (({eq} + {prev_eq}) / 2)", "value": roe * 100 if roe is not None else None, "unit": "%", "method": "reported net income fact divided by the simple average of current and prior year-end stockholders' equity", "sources": [self.fact_source(f["net_income_attributable_to_parent"]), self.fact_source(f["stockholders_equity"]), self.fact_source(f["stockholders_equity"], prior=True)]},
+            "debt_to_equity": {"formula": f"({' + '.join(str(item.get('value')) for item in debt_components) or 'n/a'}) / {eq}", "value": debt_equity, "unit": "ratio", "definition": "complete long-term debt plus separately reported short-term borrowings when available; excludes repos and other secured financings", "sources": [self.fact_source(item) for item in debt_components] + [self.fact_source(f["stockholders_equity"])]},
+            "free_cash_flow": {"formula": f"{cfo} - {capex}", "value": fcf, "unit": "USD", "sources": [self.fact_source(f["cash_from_operations"]), self.fact_source(f["additions_to_property_and_equipment"])]},
+            "pe": {"formula": f"{self.price} / {diluted_eps}", "value": pe, "unit": "ratio", "sources": ["--price command-line argument", self.fact_source(f["diluted_eps"])]},
+        }
         print("  Calculator (amounts in USD; ratios shown as percentages where stated).")
         print(f"  Computed revenue growth = ({self.input_value(f['revenue'])} - {self.input_value(f['revenue'], prior=True)}) / {self.input_value(f['revenue'], prior=True)} = {self.number(growth * 100 if growth is not None else None)}% | inputs: revenue [{self.fact_source(f['revenue'])}]; prior revenue [{self.fact_source(f['revenue'], prior=True)}]")
         if op_margin is not None:
@@ -512,6 +520,51 @@ class Desk:
                     table_revenue_hit, table_eps_hit = local_revenue_hit, local_eps_hit
                     break
 
+        # Some issuers label quarterly and annual columns as week durations,
+        # such as 16 Weeks Ended and 52 Weeks Ended, with dates below them.
+        if not (table_revenue_hit and table_eps_hit):
+            date_pattern = re.compile(r"\b[A-Z][a-z]+\s+\d{1,2},\s+20\d{2}\b")
+            for table in soup.find_all("table"):
+                table_rows = [[cell.get_text(" ", strip=True) for cell in row.find_all(["th", "td"])] for row in table.find_all("tr")]
+                duration_row_index = next((i for i, row in enumerate(table_rows) if len(re.findall(r"\b\d+\s+Weeks?\s+Ended\b", " ".join(row), re.I)) >= 2), None)
+                if duration_row_index is None:
+                    continue
+                date_row_index = next((i for i in range(duration_row_index + 1, min(duration_row_index + 4, len(table_rows))) if sum(bool(date_pattern.fullmatch(cell.strip())) for cell in table_rows[i]) >= 2), None)
+                if date_row_index is None:
+                    continue
+                date_cols = [(i, datetime.strptime(cell.strip(), "%B %d, %Y")) for i, cell in enumerate(table_rows[date_row_index]) if date_pattern.fullmatch(cell.strip())]
+                duration_group_count = len(re.findall(r"\b\d+\s+Weeks?\s+Ended\b", " ".join(table_rows[duration_row_index]), re.I))
+                if len(date_cols) < 4 or duration_group_count < 2 or len(date_cols) % duration_group_count:
+                    continue
+                dates_per_group = len(date_cols) // duration_group_count
+                quarter_dates = date_cols[:dates_per_group]
+                quarter_ordinal = max(range(len(quarter_dates)), key=lambda i: quarter_dates[i][1])
+                latest_period = quarter_dates[quarter_ordinal][1].strftime("%B %d, %Y")
+                unit_match = re.search(r"\bin (millions|thousands|billions)\b", " ".join(cell for row in table_rows for cell in row), re.I)
+                quarter_unit = f"USD {unit_match.group(1).lower()}" if unit_match else "USD as shown"
+                local_revenue_hit = None
+                local_eps_hit = None
+                in_common_eps_section = False
+                for row in table_rows[date_row_index + 1:]:
+                    if not row:
+                        continue
+                    label = row[0].strip()
+                    if re.search(r"net income per common share|earnings per common share", label, re.I):
+                        in_common_eps_section = True
+                        continue
+                    numbers = [cell.strip().replace("$", "").replace(",", "") for cell in row[1:] if re.fullmatch(r"\s*\$?\s*\d[\d,]*(?:\.\d+)?\s*", cell)]
+                    if quarter_ordinal >= len(numbers):
+                        continue
+                    value = numbers[quarter_ordinal]
+                    if local_revenue_hit is None and re.fullmatch(r"total\s+revenues?", label, re.I):
+                        local_revenue_hit = f"Reported total revenue (latest quarter ended {latest_period}, {quarter_unit}): {value}"
+                    if in_common_eps_section and re.fullmatch(r"diluted", label, re.I):
+                        local_eps_hit = f"GAAP diluted EPS (quarter ended {latest_period}): ${value}"
+                        in_common_eps_section = False
+                if local_revenue_hit and local_eps_hit:
+                    table_revenue_hit, table_eps_hit = local_revenue_hit, local_eps_hit
+                    break
+
         revenue_hits = [] if table_revenue_hit else [line for line in lines if not re.search(r"fiscal year|annual|forecast|guidance|expect|project", line, re.I) and (re.search(r"quarter(?:ly)?\s+(?:net\s+)?revenue", line, re.I) or re.search(r"(?:net\s+)?revenues?\s+of\s+\$\s*[\d,.]+\s*(?:billion|million)", line, re.I)) and re.search(r"\$\s*[\d,.]+", line)]
         eps_hits = [] if table_eps_hit else [line for line in lines if not re.search(r"forecast|guidance|expect|project", line, re.I) and (re.search(r"diluted", line, re.I) and re.search(r"earnings\s+per\s+share|per\s+diluted\s+share|per-share", line, re.I) or re.search(r"\bEPS\s+of\s+\$", line, re.I)) and re.search(r"\$\s*[\d,.]+|\b\d+\.\d+\b", line)]
         hits = ([table_revenue_hit] if table_revenue_hit else revenue_hits) + ([table_eps_hit] if table_eps_hit else eps_hits)
@@ -539,6 +592,7 @@ class Desk:
         for line in hits:
             print(f"  {line}")
         adjusted_eps_lines = [line for line in lines if len(line) <= 150 and ((re.search(r"reported\s+EPS\s+from\s+\$?[\d.]+\s+to\s+\$?[\d.]+", line, re.I) and re.search(r"excluding|non-GAAP|adjusted", line, re.I)) or re.search(r"GAAP.*\$[\d.]+.*\$[\d.]+.*adjusted", line, re.I))]
+        self.quarter_results = {"results": hits, "adjusted_eps_flags": adjusted_eps_lines, "release_file": "earnings_release_Ex99-1.txt", "filing_accession": self.filings["8-K"].accession}
         for line in adjusted_eps_lines:
             print(f"  Flagged adjusted/non-GAAP figure (not used for diluted EPS): {line}")
         if not hits:
@@ -575,6 +629,8 @@ class Desk:
             for method in methods:
                 method()
             self.save_facts()
+            from equity_research_roles import create_report
+            create_report(self)
         else:
             methods[only_step - 1]()
             self.save_facts()
