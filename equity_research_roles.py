@@ -30,7 +30,10 @@ ROLE_INSTRUCTIONS = {
     ),
     "Financial Analyst": (
         "You are the Financial Analyst. Use only the JSON input. Never calculate or estimate any number in the model. Use calculator results supplied in the input. "
-        "For every number, cite its filing accession and XBRL tag with period end, or cite the earnings-release line. Show the exact supplied arithmetic for every ratio. "
+        "For every number stated from a filing, immediately give the filing accession, the exact source line or XBRL tag, and the period when supplied. Quote the exact source line or tag with the number. "
+        "For earnings-release numbers, cite the release filename and exact line number, then quote that line. For XBRL numbers, cite the accession, exact tag, and period end, then quote the tag and supplied value. "
+        "If a filing does not state a number, write exactly 'not stated in the filings'; do not estimate, infer, or fill it from outside knowledge. "
+        "A computed number is allowed only when you show its exact arithmetic and cite and quote every sourced input used. Label each such result as computed. "
         "When a filing gives more than one definition or basis, state which one the program used. Do not present unsupported numbers. "
         "If you need another ratio, return it in calculator_requests using numerator_key, denominator_key, scale (1 or 100), and name. "
         "Return one JSON object with fields draft (string) and calculator_requests (array)."
