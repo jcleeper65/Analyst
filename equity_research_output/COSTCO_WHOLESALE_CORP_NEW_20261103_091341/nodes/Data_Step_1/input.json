@@ -1,0 +1,13 @@
+{
+  "task": "Resolve the requested ticker to its SEC CIK and create a run folder.",
+  "context": {
+    "ticker": "COST",
+    "peers": [
+      "WMT",
+      "TGT",
+      "BJ"
+    ],
+    "price": 992.13
+  },
+  "expected_output": "step1"
+}

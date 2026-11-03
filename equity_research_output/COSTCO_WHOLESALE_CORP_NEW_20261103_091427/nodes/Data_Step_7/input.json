@@ -1,0 +1,13 @@
+{
+  "task": "Fetch peer facts and calculate peer operating margins.",
+  "context": {
+    "ticker": "COST",
+    "peers": [
+      "WMT",
+      "TGT",
+      "BJ"
+    ],
+    "price": 992.13
+  },
+  "expected_output": "step7"
+}

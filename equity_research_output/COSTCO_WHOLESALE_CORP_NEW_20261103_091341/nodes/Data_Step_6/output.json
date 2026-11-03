@@ -1,0 +1,24 @@
+{
+  "result": "{\"results\": [\"Reported total revenue (latest quarter ended August 30, 2026, USD as shown): 95723\", \"GAAP diluted EPS (quarter ended August 30, 2026): $6.75\", \"Prior-year total revenue (August 31, 2025, USD as shown): 86156\"], \"adjusted_eps_flags\": [], \"release_file\": \"earnings_release_Ex99-1.txt\", \"filing_accession\": \"0000909832-26-000084\", \"total_revenue\": 95723.0, \"prior_year_total_revenue\": 86156.0, \"quarter_revenue_growth_percent\": 11.104275964529458, \"revenue_source\": \"earnings_release_Ex99-1.txt:L83-L84; quote: \\\"Total revenue\\\\n95,723\\\"\", \"prior_revenue_source\": \"earnings_release_Ex99-1.txt:L83-L85; quote: \\\"Total revenue\\\\n95,723\\\\n86,156\\\"\", \"diluted_eps\": 6.75, \"diluted_eps_source\": \"earnings_release_Ex99-1.txt:L137-L137; quote: \\\"6.75\\\"\", \"nonrecurring_benefit_per_share\": 0.15, \"nonrecurring_benefit_source\": \"earnings_release_Ex99-1.txt:L44; quote: \\\"Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.\\\"\", \"nonrecurring_benefit_percent_of_fy_eps\": 0.722543352601156}",
+  "state": {
+    "results": [
+      "Reported total revenue (latest quarter ended August 30, 2026, USD as shown): 95723",
+      "GAAP diluted EPS (quarter ended August 30, 2026): $6.75",
+      "Prior-year total revenue (August 31, 2025, USD as shown): 86156"
+    ],
+    "adjusted_eps_flags": [],
+    "release_file": "earnings_release_Ex99-1.txt",
+    "filing_accession": "0000909832-26-000084",
+    "total_revenue": 95723.0,
+    "prior_year_total_revenue": 86156.0,
+    "quarter_revenue_growth_percent": 11.104275964529458,
+    "revenue_source": "earnings_release_Ex99-1.txt:L83-L84; quote: \"Total revenue\\n95,723\"",
+    "prior_revenue_source": "earnings_release_Ex99-1.txt:L83-L85; quote: \"Total revenue\\n95,723\\n86,156\"",
+    "diluted_eps": 6.75,
+    "diluted_eps_source": "earnings_release_Ex99-1.txt:L137-L137; quote: \"6.75\"",
+    "nonrecurring_benefit_per_share": 0.15,
+    "nonrecurring_benefit_source": "earnings_release_Ex99-1.txt:L44; quote: \"Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.\"",
+    "nonrecurring_benefit_percent_of_fy_eps": 0.722543352601156
+  },
+  "output_dir": "/Users/jacksonleeper/Documents/Purdue_MSBAIM/Mod 2/AI for Finance/Repos/Analyst/equity_research_output/COSTCO_WHOLESALE_CORP_NEW_20261103_091341"
+}

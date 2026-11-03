@@ -1,0 +1,13 @@
+{
+  "task": "Calculate ratios and free cash flow in Python.",
+  "context": {
+    "ticker": "COST",
+    "peers": [
+      "WMT",
+      "TGT",
+      "BJ"
+    ],
+    "price": 992.13
+  },
+  "expected_output": "step5"
+}

@@ -1,0 +1,525 @@
+{
+  "task": "Verify every non-thesis number. Check the stated period and definition, and give source-backed corrections for wrong or unsupported values.",
+  "context": {
+    "compiled_report": "Filings read: 10-K 0000909832-26-000093, 10-Q 0000909832-26-000051, 8-K 0000909832-26-000084\nRun time: 2026-11-03T09:31:50-05:00\n\n## Overview\nCostco Wholesale Corporation operates a global network of membership warehouses and e-commerce sites (\"Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand. Costco also operates e-commerce sites in the U.S., Canada, the U..K., Mexico, Korea, Taiwan, Japan, Australia, and China.\" earnings_release_Ex99-1.txt:L45). For the fourth quarter ended August 30, 2026, net sales increased 11.2% to $93.9 billion (\"Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year.\" earnings_release_Ex99-1.txt:L10), and net sales for the fiscal year increased 10.1% to $297.2 billion (\"Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.\" earnings_release_Ex99-1.txt:L10). Net income for the fourth quarter reached $2.998 billion, or $6.75 per diluted share (\"Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year.\" earnings_release_Ex99-1.txt:L44), which was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds (\"This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values.\" earnings_release_Ex99-1.txt:L44). Full fiscal year net income totaled $9.226 billion, or $20.76 per diluted share (\"Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.\" earnings_release_Ex99-1.txt:L44). Total revenue for the fiscal year reached $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093].\n\n## Market Positioning and Growth Outlook\nThe 10-K states total revenue of “303,154” for FY2026 and “275,235” for FY2025 (10-K.txt:L1165; 10-K.txt:L1166); revenue growth is 14.14%, four percentage points above the growth calculated from those figures [computed using formula (303154 / 275235 - 1) * 100 based on 10-K.txt:L1165 and 10-K.txt:L1166].\n\nCostco demonstrates solid growth with fiscal year revenue reaching $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093] compared to $275,235,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101] for the prior fiscal year, representing a computed revenue growth of 10.143695387577887% [computed using formula (303154000000 - 275235000000) / 275235000000 based on XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101]. Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], up from $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101] in the prior year, yielding a computed operating margin of 3.8544766026507977% [computed using formula 11685000000 / 303154000000 based on XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093]. In peer comparison, Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%; Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%; and BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.\n\n## Valuation Insights\nThe P/E ratio is computed at 47.79046242774566 [computed using formula 992.13 / 20.76 based on user-supplied --price at run time 2026-11-03T09:31:50-05:00 and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093]. This rich valuation prices in substantial future growth expectations while earnings include non-recurring items like the $0.15 per diluted share from IEEPA tariff refunds [earnings_release_Ex99-1.txt:L44], which represents 0.722543352601156% of FY diluted EPS [computed using formula 0.15 / 20.76 * 100 based on earnings_release_Ex99-1.txt:L44 and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093].\n\n## Future Developments and Strategic Recommendations\nCostco continues to expand its warehouse footprint globally, operating 939 warehouses (\"Costco currently operates 939 warehouses...\" earnings_release_Ex99-1.txt:L45) alongside its e-commerce channels. Capital expenditures (additions to property and equipment) were $6,435,000,000 [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093] out of net cash provided by operating activities of $15,817,000,000 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093], leading to a computed free cash flow of $9,382,000,000 [computed using formula 15817000000 - 6435000000 based on XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093]. Strategic recommendations include reinvesting robust free cash flow into international expansion, digital infrastructure enhancements, and member value propositions.\n",
+    "saved_filing_texts": {
+      "earnings_release_Ex99-1.txt": "earnings_release_Ex99-1.txt:L8: COSTCO WHOLESALE CORPORATION REPORTS FOURTH QUARTER AND FISCAL YEAR 2026 OPERATING RESULTS\nearnings_release_Ex99-1.txt:L9: ISSAQUAH, Wash., September 24, 2026 - Costco Wholesale Corporation (“Costco” or the “Company”) (Nasdaq: COST) today announced its operating results for the 16-week fourth quarter and the 52-week fiscal year ended August 30, 2026.\nearnings_release_Ex99-1.txt:L10: Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.\nearnings_release_Ex99-1.txt:L11: Comparable sales for the fourth quarter and fiscal year were as follows:\nearnings_release_Ex99-1.txt:L12: 16 Weeks\nearnings_release_Ex99-1.txt:L42: 20.7%\nearnings_release_Ex99-1.txt:L43: *Excluding the impacts from changes in gasoline prices and foreign exchange.\nearnings_release_Ex99-1.txt:L44: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.\nearnings_release_Ex99-1.txt:L45: Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand. Costco also operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China.\nearnings_release_Ex99-1.txt:L46: A conference call to discuss these results is scheduled for 2:00 p.m. (PT) today, September 24, 2026, and will be available via a webcast on investor.costco.com (click “Events & Presentations”).\nearnings_release_Ex99-1.txt:L47: Press Release",
+      "10-K.txt": "10-K.txt:L1163: 4,828\n10-K.txt:L1164: Total revenue\n10-K.txt:L1165: 303,154\n10-K.txt:L1166: 275,235\n10-K.txt:L1167: 254,453\n10-K.txt:L1168: OPERATING EXPENSES"
+    },
+    "saved_facts": {
+      "ticker": "COST",
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "cik": "0000909832",
+      "report_period": "2026-08-30",
+      "facts": {
+        "revenue": {
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 303154000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 275235000000
+        },
+        "operating_income": {
+          "tag": "OperatingIncomeLoss",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 11685000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 10383000000
+        },
+        "net_income": {
+          "tag": "NetIncomeLoss",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 9226000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 8099000000
+        },
+        "noncontrolling_interest_income": {
+          "tag": null,
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": null,
+          "value": null,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "net_income_attributable_to_parent": {
+          "tag": "NetIncomeLoss",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 9226000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 8099000000
+        },
+        "diluted_eps": {
+          "tag": "EarningsPerShareDiluted",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 20.76,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 18.21
+        },
+        "stockholders_equity": {
+          "tag": "StockholdersEquity",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 35803000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 29164000000
+        },
+        "long_term_debt": {
+          "tag": "LongTermDebtNoncurrent",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 3914000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 5713000000
+        },
+        "current_portion_of_long_term_debt": {
+          "tag": "LongTermDebtCurrent",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 2248000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 75000000
+        },
+        "short_term_borrowings": {
+          "tag": "ShortTermBorrowings",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": null,
+          "value": null,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "cash_from_operations": {
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 15817000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 13335000000
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 6435000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 5498000000
+        }
+      },
+      "peers": {
+        "WMT": {
+          "cik": "0000104169",
+          "report_period": "2026-01-31",
+          "facts": {
+            "revenue": {
+              "tag": "Revenues",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 713163000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 680985000000
+            },
+            "operating_income": {
+              "tag": "OperatingIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 29825000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 29348000000
+            },
+            "net_income": {
+              "tag": "ProfitLoss",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 22270000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 20157000000
+            },
+            "noncontrolling_interest_income": {
+              "tag": "NetIncomeLossAttributableToNonredeemableNoncontrollingInterest",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "net_income_attributable_to_parent": {
+              "tag": "NetIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 21893000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 19436000000
+            },
+            "diluted_eps": {
+              "tag": "EarningsPerShareDiluted",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 2.73,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 2.41
+            },
+            "stockholders_equity": {
+              "tag": "StockholdersEquity",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 99617000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 91013000000
+            },
+            "long_term_debt": {
+              "tag": "LongTermDebt",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 38166000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 35999000000
+            },
+            "current_portion_of_long_term_debt": {
+              "tag": "LongTermDebtCurrent",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 3542000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 2598000000
+            },
+            "short_term_borrowings": {
+              "tag": "ShortTermBorrowings",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 6596000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 3068000000
+            },
+            "cash_from_operations": {
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 41565000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 36443000000
+            },
+            "additions_to_property_and_equipment": {
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 26642000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 23783000000
+            }
+          },
+          "operating_margin": 4.182073382943311,
+          "operating_margin_unit": "%"
+        },
+        "TGT": {
+          "cik": "0000027419",
+          "report_period": "2026-01-31",
+          "facts": {
+            "revenue": {
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 104780000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 106566000000
+            },
+            "operating_income": {
+              "tag": "OperatingIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 5117000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 5566000000
+            },
+            "net_income": {
+              "tag": "NetIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 3705000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 4091000000
+            },
+            "noncontrolling_interest_income": {
+              "tag": null,
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "net_income_attributable_to_parent": {
+              "tag": "NetIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 3705000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 4091000000
+            },
+            "diluted_eps": {
+              "tag": "EarningsPerShareDiluted",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 8.13,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 8.86
+            },
+            "stockholders_equity": {
+              "tag": "StockholdersEquity",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 16165000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 14666000000
+            },
+            "long_term_debt": {
+              "tag": "LongTermDebt",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 14398000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 13904000000
+            },
+            "current_portion_of_long_term_debt": {
+              "tag": "LongTermDebtCurrent",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "short_term_borrowings": {
+              "tag": "ShortTermBorrowings",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "cash_from_operations": {
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 6562000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 7367000000
+            },
+            "additions_to_property_and_equipment": {
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 3727000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 2891000000
+            }
+          },
+          "operating_margin": 4.8835655659477,
+          "operating_margin_unit": "%"
+        },
+        "BJ": {
+          "cik": "0001531152",
+          "report_period": "2026-01-31",
+          "facts": {
+            "revenue": {
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 21457274000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 20501804000
+            },
+            "operating_income": {
+              "tag": "OperatingIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 816604000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 772206000
+            },
+            "net_income": {
+              "tag": "NetIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 578377000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 534417000
+            },
+            "noncontrolling_interest_income": {
+              "tag": null,
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "net_income_attributable_to_parent": {
+              "tag": "NetIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 578377000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 534417000
+            },
+            "diluted_eps": {
+              "tag": "EarningsPerShareDiluted",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 4.38,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 4
+            },
+            "stockholders_equity": {
+              "tag": "StockholdersEquity",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 2197659000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 1847454000
+            },
+            "long_term_debt": {
+              "tag": "LongTermDebt",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 399099000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 398807000
+            },
+            "current_portion_of_long_term_debt": {
+              "tag": "LongTermDebtCurrent",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 120000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 175000000
+            },
+            "short_term_borrowings": {
+              "tag": "ShortTermBorrowings",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "cash_from_operations": {
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 1030056000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 900872000
+            },
+            "additions_to_property_and_equipment": {
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 702048000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 587983000
+            }
+          },
+          "operating_margin": 3.8057210808791457,
+          "operating_margin_unit": "%"
+        }
+      }
+    }
+  },
+  "expected_output": "JSON object with checks. Each check has claim, status (correct, wrong, or unsupported), reason, correction, and source."
+}

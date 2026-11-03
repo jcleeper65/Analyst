@@ -1,0 +1,13 @@
+{
+  "task": "Resolve ticker to CIK",
+  "context": {
+    "ticker": "COST",
+    "peers": [
+      "WMT",
+      "TGT",
+      "BJ"
+    ],
+    "price": 992.13
+  },
+  "expected_output": "Step 1 data and status"
+}

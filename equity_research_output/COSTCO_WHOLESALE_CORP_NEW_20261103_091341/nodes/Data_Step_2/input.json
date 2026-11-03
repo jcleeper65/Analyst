@@ -1,0 +1,13 @@
+{
+  "task": "Find the latest annual, quarterly, and Item 2.02 earnings filings.",
+  "context": {
+    "ticker": "COST",
+    "peers": [
+      "WMT",
+      "TGT",
+      "BJ"
+    ],
+    "price": 992.13
+  },
+  "expected_output": "step2"
+}

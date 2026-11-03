@@ -1,0 +1,13 @@
+{
+  "task": "Find required filings",
+  "context": {
+    "ticker": "COST",
+    "peers": [
+      "WMT",
+      "TGT",
+      "BJ"
+    ],
+    "price": 992.13
+  },
+  "expected_output": "Step 2 data and status"
+}

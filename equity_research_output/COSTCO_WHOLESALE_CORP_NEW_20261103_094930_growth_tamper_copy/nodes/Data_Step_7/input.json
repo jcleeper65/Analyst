@@ -1,0 +1,13 @@
+{
+  "task": "Fetch peer facts",
+  "context": {
+    "ticker": "COST",
+    "peers": [
+      "WMT",
+      "TGT",
+      "BJ"
+    ],
+    "price": 992.13
+  },
+  "expected_output": "Step 7 data and status"
+}

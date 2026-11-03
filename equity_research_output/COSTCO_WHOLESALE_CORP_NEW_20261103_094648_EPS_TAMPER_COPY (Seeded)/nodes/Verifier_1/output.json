@@ -1,0 +1,102 @@
+{
+  "checks": [
+    {
+      "claim": "Net sales for the fourth quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year.",
+      "status": "correct",
+      "reason": "The claim is directly supported by the text in earnings_release_Ex99-1.txt:L10.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L10"
+    },
+    {
+      "claim": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+      "status": "correct",
+      "reason": "The claim is directly supported by the text in earnings_release_Ex99-1.txt:L10.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L10"
+    },
+    {
+      "claim": "Net income for the fourth quarter was $2.998 billion, or $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year.",
+      "status": "correct",
+      "reason": "The claim is directly supported by the text in earnings_release_Ex99-1.txt:L44.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L44"
+    },
+    {
+      "claim": "Full fiscal year net income totaled $9.226 billion, or $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.",
+      "status": "correct",
+      "reason": "The claim is directly supported by the text in earnings_release_Ex99-1.txt:L44.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L44"
+    },
+    {
+      "claim": "Total revenue for the fiscal year reached $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093].",
+      "status": "correct",
+      "reason": "The claim matches the reported XBRL fact value for revenue.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093, tag RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "claim": "Costco demonstrates solid growth with fiscal year revenue reaching $303,154,000,000 compared to $275,235,000,000 for the prior fiscal year, representing a computed revenue growth of 10.143695387577887%.",
+      "status": "correct",
+      "reason": "Computed accurately using (303154000000 - 275235000000) / 275235000000 based on the provided XBRL tags.",
+      "correction": null,
+      "source": "Filings 0000909832-26-000093 and 0000909832-25-000101"
+    },
+    {
+      "claim": "Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], up from $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101] in the prior year, yielding a computed operating margin of 3.8544766026507977%.",
+      "status": "correct",
+      "reason": "Computed accurately using 11685000000 / 303154000000 based on the provided XBRL tags.",
+      "correction": null,
+      "source": "Filings 0000909832-26-000093 and 0000909832-25-000101"
+    },
+    {
+      "claim": "Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%.",
+      "status": "correct",
+      "reason": "The claim matches the reported XBRL fact values for WMT.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055, tag Revenues"
+    },
+    {
+      "claim": "Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%.",
+      "status": "correct",
+      "reason": "The claim matches the reported XBRL fact values for TGT.",
+      "correction": null,
+      "source": "Filing 0000027419-26-000016, tag RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "claim": "BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.",
+      "status": "correct",
+      "reason": "The claim matches the reported XBRL fact values for BJ.",
+      "correction": null,
+      "source": "Filing 0001531152-26-000007, tag RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "claim": "The P/E ratio is computed at 47.79046242774566 [computed using formula 992.13 / 20.76 based on user-supplied --price at run time 2026-11-03T09:31:50-05:00 and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093].",
+      "status": "correct",
+      "reason": "Computed correctly using the user-supplied price and diluted EPS from filings.",
+      "correction": null,
+      "source": "Runtime price and filing 0000909832-26-000093"
+    },
+    {
+      "claim": "This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values, which represents 0.722543352601156% of FY diluted EPS.",
+      "status": "correct",
+      "reason": "Computed accurately using 0.15 / 20.76 * 100 based on earnings release and XBRL diluted EPS.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L44 and filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand.",
+      "status": "correct",
+      "reason": "The claim is directly supported by the text in earnings_release_Ex99-1.txt:L45.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L45"
+    },
+    {
+      "claim": "Capital expenditures (additions to property and equipment) were $6,435,000,000 [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093] out of net cash provided by operating activities of $15,817,000,000 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093], leading to a computed free cash flow of $9,382,000,000.",
+      "status": "correct",
+      "reason": "Computed accurately using 15817000000 - 6435000000 based on the provided XBRL tags.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093"
+    }
+  ]
+}

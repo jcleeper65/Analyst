@@ -1,0 +1,137 @@
+{
+  "checks": [
+    {
+      "claim": "Net sales for the fourth quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year.",
+      "status": "correct",
+      "reason": "Supported by earnings_release_Ex99-1.txt:L10.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L10"
+    },
+    {
+      "claim": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+      "status": "correct",
+      "reason": "Supported by earnings_release_Ex99-1.txt:L10.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L10"
+    },
+    {
+      "claim": "Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year.",
+      "status": "correct",
+      "reason": "Supported by earnings_release_Ex99-1.txt:L44.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L44"
+    },
+    {
+      "claim": "Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.",
+      "status": "correct",
+      "reason": "Supported by earnings_release_Ex99-1.txt:L44 and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L44; filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Total revenue for the fiscal year reached $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093].",
+      "status": "correct",
+      "reason": "Supported by XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax for period end 2026-08-30 in filing 0000909832-26-000093.",
+      "correction": null,
+      "source": "filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Prior fiscal year revenue reached $275,235,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101].",
+      "status": "correct",
+      "reason": "Supported by XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax for period end 2025-08-31 in filing 0000909832-25-000101.",
+      "correction": null,
+      "source": "filing 0000909832-25-000101"
+    },
+    {
+      "claim": "Computed revenue growth of 10.143695387577887% [computed using formula (303154000000 - 275235000000) / 275235000000].",
+      "status": "correct",
+      "reason": "Mathematically correct based on the cited revenue figures.",
+      "correction": null,
+      "source": "filing 0000909832-26-000093 and filing 0000909832-25-000101"
+    },
+    {
+      "claim": "Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093].",
+      "status": "correct",
+      "reason": "Supported by XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093.",
+      "correction": null,
+      "source": "filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Prior year operating income was $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101].",
+      "status": "correct",
+      "reason": "Supported by XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101.",
+      "correction": null,
+      "source": "filing 0000909832-25-000101"
+    },
+    {
+      "claim": "Computed operating margin of 3.8544766026507977% [computed using formula 11685000000 / 303154000000].",
+      "status": "correct",
+      "reason": "Mathematically correct based on the cited operating income and revenue.",
+      "correction": null,
+      "source": "filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%.",
+      "status": "correct",
+      "reason": "Supported by filing 0000104169-26-000055.",
+      "correction": null,
+      "source": "filing 0000104169-26-000055"
+    },
+    {
+      "claim": "Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%.",
+      "status": "correct",
+      "reason": "Supported by filing 0000027419-26-000016.",
+      "correction": null,
+      "source": "filing 0000027419-26-000016"
+    },
+    {
+      "claim": "BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.",
+      "status": "correct",
+      "reason": "Supported by filing 0001531152-26-000007.",
+      "correction": null,
+      "source": "filing 0001531152-26-000007"
+    },
+    {
+      "claim": "The P/E ratio is computed at 47.79046242774566 [computed using formula 992.13 / 20.76 based on user-supplied --price at run time 2026-11-03T09:31:50-05:00 and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093].",
+      "status": "correct",
+      "reason": "Mathematically correct based on the provided user-supplied price (992.13) and EPS (20.76).",
+      "correction": null,
+      "source": "user-supplied price and filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds [earnings_release_Ex99-1.txt:L44] represents 0.722543352601156% of FY diluted EPS [computed using formula 0.15 / 20.76 * 100].",
+      "status": "correct",
+      "reason": "Mathematically correct based on earnings release and EPS facts.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L44 and filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Costco currently operates 939 warehouses (\"Costco currently operates 939 warehouses...\" earnings_release_Ex99-1.txt:L45).",
+      "status": "correct",
+      "reason": "Supported by earnings_release_Ex99-1.txt:L45.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L45"
+    },
+    {
+      "claim": "Capital expenditures (additions to property and equipment) were $6,435,000,000 [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093].",
+      "status": "correct",
+      "reason": "Supported by XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093.",
+      "correction": null,
+      "source": "filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Net cash provided by operating activities of $15,817,000,000 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093].",
+      "status": "correct",
+      "reason": "Supported by XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093.",
+      "correction": null,
+      "source": "filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Computed free cash flow of $9,382,000,000 [computed using formula 15817000000 - 6435000000].",
+      "status": "correct",
+      "reason": "Mathematically correct based on operating cash flow and capital expenditures.",
+      "correction": null,
+      "source": "filing 0000909832-26-000093"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "task": "Extract quarterly revenue and diluted EPS from the earnings release.",
+  "context": {
+    "ticker": "COST",
+    "peers": [
+      "WMT",
+      "TGT",
+      "BJ"
+    ],
+    "price": 992.13
+  },
+  "expected_output": "step6"
+}

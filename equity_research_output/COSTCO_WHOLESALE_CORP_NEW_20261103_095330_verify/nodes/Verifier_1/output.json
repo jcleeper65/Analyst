@@ -1,0 +1,445 @@
+{
+  "checks": [
+    {
+      "claim": "Net sales of $ 297,247 million for the 52-week fiscal year ended August 30, 2026",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L69-L75 and L10.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L69-L75"
+    },
+    {
+      "claim": "Membership fees of 5,907 million for the 52-week fiscal year ended August 30, 2026",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L78-L81.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L78-L81"
+    },
+    {
+      "claim": "Total revenue of 303,154 million for the 52-week fiscal year ended August 30, 2026",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L83-L86 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L83-L86"
+    },
+    {
+      "claim": "Net sales for the fourth quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L10.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L10"
+    },
+    {
+      "claim": "Membership fees for the fourth quarter were 1,850 million",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L78-L79.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L78-L79"
+    },
+    {
+      "claim": "Net income for the fiscal year was $9.226 billion, $20.76 per diluted share",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L44 and XBRL tag NetIncomeLoss and EarningsPerShareDiluted.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L44"
+    },
+    {
+      "claim": "Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L44.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L44"
+    },
+    {
+      "claim": "Non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L44.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L44"
+    },
+    {
+      "claim": "Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L45.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L45"
+    },
+    {
+      "claim": "Total company comparable sales increased 9.4% (6.7% adjusted)",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L34-L35.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L34-L35"
+    },
+    {
+      "claim": "U.S. comparable sales increased 10.7% (7.2% adjusted)",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L19-L20.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L19-L20"
+    },
+    {
+      "claim": "Canada comparable sales increased 5.0% (4.6% adjusted)",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L24-L25.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L24-L25"
+    },
+    {
+      "claim": "Other International comparable sales increased 7.0% (6.2% adjusted)",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L29-L30.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L29-L30"
+    },
+    {
+      "claim": "Digitally-Enabled sales increased 19.5% in the fourth quarter (19.8% adjusted) and 20.9% for the 52-week fiscal year (20.7% adjusted)",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L38-L42.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L38-L42"
+    },
+    {
+      "claim": "Revenue for the fiscal year ended 2026-08-30 is 303154000000 and prior year is 275235000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax in filings 0000909832-26-000093 and 0000909832-25-000101.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093 and 0000909832-25-000101"
+    },
+    {
+      "claim": "Operating Income for the fiscal year ended 2026-08-30 is 11685000000 and prior year is 10383000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag OperatingIncomeLoss.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093 and 0000909832-25-000101"
+    },
+    {
+      "claim": "Net Income for the fiscal year ended 2026-08-30 is 9226000000 and prior year is 8099000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag NetIncomeLoss.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093 and 0000909832-25-000101"
+    },
+    {
+      "claim": "Diluted EPS for the fiscal year ended 2026-08-30 is 20.76 and prior year is 18.21",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag EarningsPerShareDiluted.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093 and 0000909832-25-000101"
+    },
+    {
+      "claim": "Stockholders' Equity for the fiscal year ended 2026-08-30 is 35803000000 and prior year is 29164000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag StockholdersEquity.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093 and 0000909832-25-000101"
+    },
+    {
+      "claim": "Long-Term Debt for the fiscal year ended 2026-08-30 is 3914000000 and prior year is 5713000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag LongTermDebtNoncurrent.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093 and 0000909832-25-000101"
+    },
+    {
+      "claim": "Current Portion of Long-Term Debt for the fiscal year ended 2026-08-30 is 2248000000 and prior year is 75000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag LongTermDebtCurrent.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093 and 0000909832-25-000101"
+    },
+    {
+      "claim": "Net Cash Provided by Operating Activities for the fiscal year ended 2026-08-30 is 15817000000 and prior year is 13335000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag NetCashProvidedByUsedInOperatingActivities and 10-K.txt:L1000.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093 and 10-K.txt:L1000"
+    },
+    {
+      "claim": "Additions to Property and Equipment for the fiscal year ended 2026-08-30 is 6435000000 and prior year is 5498000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag PaymentsToAcquirePropertyPlantAndEquipment.",
+      "correction": null,
+      "source": "Filing 0000909832-26-000093 and 0000909832-25-000101"
+    },
+    {
+      "claim": "Revenue Growth computed as 10.143695387577887%",
+      "status": "correct",
+      "reason": "Calculation matches inputs: (303154000000 - 275235000000) / 275235000000.",
+      "correction": null,
+      "source": "XBRL tags"
+    },
+    {
+      "claim": "Operating Margin computed as 3.8544766026507977%",
+      "status": "correct",
+      "reason": "Calculation matches inputs: 11685000000 / 303154000000.",
+      "correction": null,
+      "source": "XBRL tags"
+    },
+    {
+      "claim": "Return on Average Equity computed as 28.402111841396398%",
+      "status": "correct",
+      "reason": "Calculation matches inputs: 9226000000 / ((35803000000 + 29164000000) / 2).",
+      "correction": null,
+      "source": "XBRL tags"
+    },
+    {
+      "claim": "Debt to Equity computed as 0.17210848252939698",
+      "status": "correct",
+      "reason": "Calculation matches inputs: (3914000000 + 2248000000) / 35803000000.",
+      "correction": null,
+      "source": "XBRL tags"
+    },
+    {
+      "claim": "Free Cash Flow computed as 9382000000 USD",
+      "status": "correct",
+      "reason": "Calculation matches inputs: 15817000000 - 6435000000.",
+      "correction": null,
+      "source": "XBRL tags"
+    },
+    {
+      "claim": "Price-to-Earnings (P/E) computed as 47.79046242774566",
+      "status": "correct",
+      "reason": "Calculation matches inputs: 992.13 / 20.76.",
+      "correction": null,
+      "source": "User-supplied price and XBRL diluted EPS"
+    },
+    {
+      "claim": "Reported total revenue (quarter ended August 30, 2026): 95723.0 USD",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L83-L84.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L83-L84"
+    },
+    {
+      "claim": "Prior-year total revenue (quarter ended August 31, 2025): 86156.0 USD",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L83-L85.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L83-L85"
+    },
+    {
+      "claim": "Quarter revenue growth computed as 11.104275964529458%",
+      "status": "correct",
+      "reason": "Calculation matches inputs: (95723.0 - 86156.0) / 86156.0 * 100.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt"
+    },
+    {
+      "claim": "GAAP diluted EPS (quarter ended August 30, 2026): $6.75",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L137.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L137"
+    },
+    {
+      "claim": "Q4 nonrecurring refund percent of FY EPS computed as 0.722543352601156%",
+      "status": "correct",
+      "reason": "Calculation matches inputs: 0.15 / 20.76 * 100.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L44 and XBRL tag EarningsPerShareDiluted"
+    },
+    {
+      "claim": "WMT Revenue for fiscal period end 2026-01-31 is 713163000000 and prior period is 680985000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag Revenues in filing 0000104169-26-000055 and 0000104169-25-000021.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "WMT Operating Income for fiscal period end 2026-01-31 is 29825000000 and prior period is 29348000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag OperatingIncomeLoss.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "WMT Net Income (ProfitLoss) for fiscal period end 2026-01-31 is 22270000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag ProfitLoss.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "WMT Net Income Attributable to Parent for fiscal period end 2026-01-31 is 21893000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag NetIncomeLoss.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "WMT Diluted EPS for fiscal period end 2026-01-31 is 2.73",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag EarningsPerShareDiluted.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "WMT Stockholders' Equity for fiscal period end 2026-01-31 is 99617000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag StockholdersEquity.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "WMT Long-Term Debt for fiscal period end 2026-01-31 is 38166000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag LongTermDebt.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "WMT Current Portion of Long-Term Debt for fiscal period end 2026-01-31 is 3542000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag LongTermDebtCurrent.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "WMT Short-Term Borrowings for fiscal period end 2026-01-31 is 6596000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag ShortTermBorrowings.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "WMT Cash from Operations for fiscal period end 2026-01-31 is 41565000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag NetCashProvidedByUsedInOperatingActivities.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "WMT Additions to Property and Equipment for fiscal period end 2026-01-31 is 26642000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag PaymentsToAcquirePropertyPlantAndEquipment.",
+      "correction": null,
+      "source": "Filing 0000104169-26-000055"
+    },
+    {
+      "claim": "TGT Revenue for fiscal period end 2026-01-31 is 104780000000 and prior period is 106566000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax in filings 0000027419-26-000016 and 0000027419-25-000018.",
+      "correction": null,
+      "source": "Filing 0000027419-26-000016"
+    },
+    {
+      "claim": "TGT Operating Income for fiscal period end 2026-01-31 is 5117000000 and prior period is 5566000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag OperatingIncomeLoss.",
+      "correction": null,
+      "source": "Filing 0000027419-26-000016"
+    },
+    {
+      "claim": "TGT Net Income for fiscal period end 2026-01-31 is 3705000000 and prior period is 4091000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag NetIncomeLoss.",
+      "correction": null,
+      "source": "Filing 0000027419-26-000016"
+    },
+    {
+      "claim": "TGT Diluted EPS for fiscal period end 2026-01-31 is 8.13 and prior period is 8.86",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag EarningsPerShareDiluted.",
+      "correction": null,
+      "source": "Filing 0000027419-26-000016"
+    },
+    {
+      "claim": "TGT Stockholders' Equity for fiscal period end 2026-01-31 is 16165000000 and prior period is 14666000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag StockholdersEquity.",
+      "correction": null,
+      "source": "Filing 0000027419-26-000016"
+    },
+    {
+      "claim": "TGT Long-Term Debt for fiscal period end 2026-01-31 is 14398000000 and prior period is 13904000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag LongTermDebt.",
+      "correction": null,
+      "source": "Filing 0000027419-26-000016"
+    },
+    {
+      "claim": "TGT Cash from Operations for fiscal period end 2026-01-31 is 6562000000 and prior period is 7367000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag NetCashProvidedByUsedInOperatingActivities.",
+      "correction": null,
+      "source": "Filing 0000027419-26-000016"
+    },
+    {
+      "claim": "TGT Additions to Property and Equipment for fiscal period end 2026-01-31 is 3727000000 and prior period is 2891000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag PaymentsToAcquirePropertyPlantAndEquipment.",
+      "correction": null,
+      "source": "Filing 0000027419-26-000016"
+    },
+    {
+      "claim": "BJ Revenue for fiscal period end 2026-01-31 is 21457274000 and prior period is 20501804000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax in filings 0001531152-26-000007 and 0001531152-25-000013.",
+      "correction": null,
+      "source": "Filing 0001531152-26-000007"
+    },
+    {
+      "claim": "BJ Operating Income for fiscal period end 2026-01-31 is 816604000 and prior period is 772206000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag OperatingIncomeLoss.",
+      "correction": null,
+      "source": "Filing 0001531152-26-000007"
+    },
+    {
+      "claim": "BJ Net Income for fiscal period end 2026-01-31 is 578377000 and prior period is 534417000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag NetIncomeLoss.",
+      "correction": null,
+      "source": "Filing 0001531152-26-000007"
+    },
+    {
+      "claim": "BJ Diluted EPS for fiscal period end 2026-01-31 is 4.38 and prior period is 4.00",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag EarningsPerShareDiluted.",
+      "correction": null,
+      "source": "Filing 0001531152-26-000007"
+    },
+    {
+      "claim": "BJ Stockholders' Equity for fiscal period end 2026-01-31 is 2197659000 and prior period is 1847454000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag StockholdersEquity.",
+      "correction": null,
+      "source": "Filing 0001531152-26-000007"
+    },
+    {
+      "claim": "BJ Long-Term Debt for fiscal period end 2026-01-31 is 399099000 and prior period is 398807000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag LongTermDebt.",
+      "correction": null,
+      "source": "Filing 0001531152-26-000007"
+    },
+    {
+      "claim": "BJ Current Portion of Long-Term Debt for fiscal period end 2026-01-31 is 120000000 and prior period is 175000000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag LongTermDebtCurrent.",
+      "correction": null,
+      "source": "Filing 0001531152-26-000007"
+    },
+    {
+      "claim": "BJ Cash from Operations for fiscal period end 2026-01-31 is 1030056000 and prior period is 900872000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag NetCashProvidedByUsedInOperatingActivities.",
+      "correction": null,
+      "source": "Filing 0001531152-26-000007"
+    },
+    {
+      "claim": "BJ Additions to Property and Equipment for fiscal period end 2026-01-31 is 702048000 and prior period is 587983000",
+      "status": "correct",
+      "reason": "Confirmed by XBRL tag PaymentsToAcquirePropertyPlantAndEquipment.",
+      "correction": null,
+      "source": "Filing 0001531152-26-000007"
+    },
+    {
+      "claim": "During the 52-week period, capital outlays included Additions to property and equipment of (6,435) million",
+      "status": "correct",
+      "reason": "Confirmed by earnings_release_Ex99-1.txt:L309-L310.",
+      "correction": null,
+      "source": "earnings_release_Ex99-1.txt:L309-L310"
+    }
+  ]
+}

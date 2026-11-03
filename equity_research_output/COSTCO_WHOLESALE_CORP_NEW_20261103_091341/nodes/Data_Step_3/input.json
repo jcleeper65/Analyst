@@ -1,0 +1,13 @@
+{
+  "task": "Download filing documents and save plain text.",
+  "context": {
+    "ticker": "COST",
+    "peers": [
+      "WMT",
+      "TGT",
+      "BJ"
+    ],
+    "price": 992.13
+  },
+  "expected_output": "step3"
+}
