@@ -1,0 +1,9 @@
+{
+  "task": "Extract quarterly results",
+  "context": {
+    "ticker": "COST",
+    "peers": [],
+    "price": 100.0
+  },
+  "expected_output": "Step 6 data and status"
+}

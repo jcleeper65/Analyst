@@ -1,0 +1,9 @@
+{
+  "task": "Download filing texts",
+  "context": {
+    "ticker": "COST",
+    "peers": [],
+    "price": 100.0
+  },
+  "expected_output": "Step 3 data and status"
+}

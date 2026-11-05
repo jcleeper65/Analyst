@@ -1,0 +1,60 @@
+{
+  "draft": "VALUATION INSIGHTS: COST, fiscal year ended 2026-08-30\n\nScope: This draft uses only the supplied XBRL facts, supplied calculations, latest-quarter release lines, 10-K passages and peer data. I performed no calculations. Every calculated figure below is labelled \"computed, rechecked given calculations\" and reproduces the supplied arithmetic.\n\n1. CASH GENERATION: SUPPORTED\n- Operating cash flow was 15,817,000,000 in FY2026 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093]. The prior year was 13,335,000,000 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2025-08-31, filing 0000909832-25-000101].\n- Capital spending (additions to property and equipment) was 6,435,000,000 [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093]. The prior year was 5,498,000,000 [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2025-08-31, filing 0000909832-25-000101].\n- Free cash flow, computed, rechecked given calculations: 15,817,000,000 - 6,435,000,000 = 9,382,000,000 USD. Inputs: operating cash flow [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093] and capex [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093].\n- Operating cash flow covered capital spending with cash left over. Capex rose, but not by enough to absorb the increase in operating cash flow.\n- Financing context: \"Net cash used in financing activities totaled $3,355 in 2026, compared to $3,775 in 2025.\" [10-K.txt:L1020]. The line cites dividends, repurchases, and repayments of short-term and long-term debt. Amounts are in millions as shown in the filing.\n- Prior-year free cash flow was not supplied as a calculation. I requested it below rather than computing it.\n\n2. PROFITABILITY: SUPPORTED\n- Operating margin, computed, rechecked given calculations: 11,685,000,000 / 303,154,000,000 = 3.8544766026507977%. Definition: operating income divided by revenue. Inputs: [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093] and [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093].\n- Return on average equity, computed, rechecked given calculations: 9,226,000,000 / ((35,803,000,000 + 29,164,000,000) / 2) = 28.402111841396398%. Definition: reported NetIncomeLoss divided by the simple average of current and prior year-end StockholdersEquity. Inputs: [XBRL tag NetIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093]; [XBRL tag StockholdersEquity, period end 2026-08-30, filing 0000909832-26-000093]; [XBRL tag StockholdersEquity, period end 2025-08-31, filing 0000909832-25-000101].\n- Noncontrolling interest income: not available in the supplied XBRL data. None of the supplied filing passages address it, so it is not established by the supplied evidence. Net income attributable to parent is supplied under the same NetIncomeLoss tag as net income, so the return on equity above uses that single reported figure.\n- Revenue growth, computed, rechecked given calculations: (303,154,000,000 - 275,235,000,000) / 275,235,000,000 = 10.143695387577887%. Inputs: [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093] and [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101].\n- Diluted EPS was 20.76 against 18.21 in the prior year [XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093; period end 2025-08-31, filing 0000909832-25-000101]. Operating income was 11,685,000,000 against 10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093; period end 2025-08-31, filing 0000909832-25-000101]. I have not judged the EPS growth in isolation. Prior-year operating margin and return on equity were not supplied, so margin trend is not established; I requested them below.\n\n3. LATEST QUARTER (quarter ended 2026-08-30, release accession 0000909832-26-000084)\n- Total revenue was 95,723 against 86,156 a year earlier (USD as shown) [earnings_release_Ex99-1.txt:L83-L85: \"Total revenue\\n95,723\\n86,156\"].\n- Quarterly revenue growth, computed, rechecked given calculations: (95,723.0 - 86,156.0) / 86,156.0 * 100 = 11.104275964529458%.\n- Quarterly diluted EPS was 6.75 [earnings_release_Ex99-1.txt:L137; quote: \"6.75\"]. The release says: \"This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values.\" [earnings_release_Ex99-1.txt:L44].\n- Non-recurring refund as a share of FY EPS, computed, rechecked given calculations: 0.15 / 20.76 * 100 = 0.722543352601156%. Inputs: [earnings_release_Ex99-1.txt:L44] and [XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093].\n- The supplied adjusted_eps_flags list is empty. The 0.15 benefit is a small part of full-year EPS.\n\n4. FUNDING RISK: MIXED\n- Debt to equity, computed, rechecked given calculations: (3,914,000,000 + 2,248,000,000) / 35,803,000,000 = 0.17210848252939698 (ratio).\n- Components included:\n  - Long-term debt, noncurrent: [XBRL tag LongTermDebtNoncurrent, period end 2026-08-30, filing 0000909832-26-000093] = 3,914,000,000.\n  - Current portion of long-term debt, included once: [XBRL tag LongTermDebtCurrent, period end 2026-08-30, filing 0000909832-26-000093] = 2,248,000,000.\n  - Denominator: [XBRL tag StockholdersEquity, period end 2026-08-30, filing 0000909832-26-000093] = 35,803,000,000.\n- The supplied definition excludes repos, secured financings, and lease liabilities not captured by the selected debt tags. The ratio is therefore a narrow measure of funded debt.\n- Leverage is low on this definition, but the maturity profile shifted. Noncurrent debt fell from 5,713,000,000 to 3,914,000,000 [XBRL tag LongTermDebtNoncurrent, period end 2025-08-31, filing 0000909832-25-000101]. The current portion rose from 75,000,000 to 2,248,000,000 [XBRL tag LongTermDebtCurrent, period end 2025-08-31, filing 0000909832-25-000101]. This is why the assessment is mixed rather than fully supported.\n- Short-term borrowings: [XBRL tag ShortTermBorrowings, period end 2026-08-30] is not available in the supplied XBRL data. The filing passages resolve the gap:\n  - \"There were no short-term borrowings outstanding at the end of 2026, and short-term borrowings were immaterial at the end of 2025.\" [10-K.txt:L2278, Note 4, Short-Term Borrowings].\n  - \"There were no short-term borrowings outstanding under the bank credit facilities at the end of 2026. Short-term borrowings were immaterial at the end of 2025 and were included in other current liabilities on the consolidated balance sheets.\" [10-K.txt:L1030].\n  - The FY2025 amount is described only as \"immaterial\"; no exact FY2025 figure is established by the supplied evidence.\n- Other disclosed debt context: three series of Guaranteed Senior Notes totalling approximately $500 were issued by the Japan subsidiary in 2026, and repayments of long-term debt were $69 in 2026 [10-K.txt:L1022]. Bank credit facility borrowing capacity was $2,118 at August 30, 2026 [10-K.txt:L1030]. Amounts are in millions as shown.\n\n5. VALUATION: UNSUPPORTED\n- Supplied P/E, computed, rechecked given calculations: 100.0 / 20.76 = 4.816955684007707 (ratio). Input: [XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093].\n- Price source: user-supplied --price at run time 2026-11-05T09:43:44-05:00. A market quote timestamp was not provided.\n- Peers: the supplied peer set is empty, so no peer P/E is available and no peer comparison can be made.\n- Comparability limit: the 100.0 price is unverified and has no quote timestamp. Management's disclosed 2026 repurchase average price was $950.90 per share [10-K.txt:L1028]. The supplied price is far from that figure, so I do not treat the 4.8 P/E as reliable evidence of valuation. A verified, time-stamped price and peer figures are needed.\n\n6. WHAT WOULD CHANGE MY VIEW\n- Measure: net cash provided by operating activities, currently 15,817,000,000 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093].\n- Direction: a next-reported result below the current 15,817,000,000, especially alongside capex above the current 6,435,000,000, would weaken the cash-generation assessment. It would also reduce free cash flow coverage of the 2,248,000,000 current debt maturity.\n\nCalculations requested: prior-year free cash flow, operating cash flow growth, capex growth, prior-year operating margin and return on equity, and a P/E using a verified, time-stamped price. Peer figures are needed for the valuation comparison.\n\nInsight: Free cash flow of 9,382,000,000 USD after 6,435,000,000 of capital spending gives a cushion against the 2,248,000,000 current portion of long-term debt, which was 75,000,000 a year earlier. [Computed, rechecked given calculations: 15,817,000,000 - 6,435,000,000 = 9,382,000,000, from [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093] and [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093]; current debt: [XBRL tag LongTermDebtCurrent, period end 2026-08-30, filing 0000909832-26-000093] and [XBRL tag LongTermDebtCurrent, period end 2025-08-31, filing 0000909832-25-000101]]",
+  "calculator_requests": [
+    {
+      "name": "prior_year_free_cash_flow",
+      "formula": "13335000000 - 5498000000",
+      "inputs": [
+        "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2025-08-31, filing 0000909832-25-000101",
+        "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2025-08-31, filing 0000909832-25-000101"
+      ]
+    },
+    {
+      "name": "operating_cash_flow_growth",
+      "formula": "(15817000000 - 13335000000) / 13335000000 * 100",
+      "inputs": [
+        "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093",
+        "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2025-08-31, filing 0000909832-25-000101"
+      ]
+    },
+    {
+      "name": "capex_growth",
+      "formula": "(6435000000 - 5498000000) / 5498000000 * 100",
+      "inputs": [
+        "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093",
+        "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2025-08-31, filing 0000909832-25-000101"
+      ]
+    },
+    {
+      "name": "prior_year_operating_margin",
+      "formula": "10383000000 / 275235000000 * 100",
+      "inputs": [
+        "XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101",
+        "XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101"
+      ]
+    },
+    {
+      "name": "diluted_eps_growth",
+      "formula": "(20.76 - 18.21) / 18.21 * 100",
+      "inputs": [
+        "XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093",
+        "XBRL tag EarningsPerShareDiluted, period end 2025-08-31, filing 0000909832-25-000101"
+      ]
+    },
+    {
+      "name": "pe_with_verified_price",
+      "formula": "verified_time_stamped_market_price / 20.76",
+      "inputs": [
+        "A verified, time-stamped COST market price (not supplied)",
+        "XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093"
+      ]
+    },
+    {
+      "name": "peer_pe_comparison",
+      "formula": "peer price / peer diluted EPS for compatible fiscal periods",
+      "inputs": [
+        "Peer prices and diluted EPS with compatible periods and definitions (the supplied peers object is empty)"
+      ]
+    }
+  ]
+}

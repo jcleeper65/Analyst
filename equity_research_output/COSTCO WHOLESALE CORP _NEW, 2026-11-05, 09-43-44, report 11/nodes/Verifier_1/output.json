@@ -1,0 +1,431 @@
+{
+  "checks": [
+    {
+      "claim": "Insight 1: Membership fee revenue rose 11% in 2026",
+      "status": "correct",
+      "reason": "The 10-K MD&A highlights state 'Membership fee revenue increased 11% to $5,907' for fiscal 2026 (52 weeks ended August 30, 2026).",
+      "correction": "None",
+      "source": "10-K.txt:L713 (accession 0000909832-26-000093)"
+    },
+    {
+      "claim": "Insight 1: Membership fee revenue was $5,907 in 2026 (USD millions)",
+      "status": "correct",
+      "reason": "L713 gives $5,907. The 10-K MD&A is stated in millions (L684). The figure is also consistent with the revenue facts: net sales 297,247 + 5,907 = 303,154, which matches the XBRL revenue.",
+      "correction": "None",
+      "source": "10-K.txt:L713, L684, L1155; XBRL RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, accession 0000909832-26-000093"
+    },
+    {
+      "claim": "Insight 1: The fee increase explained about 30% of membership income growth in 2026",
+      "status": "correct",
+      "reason": "L854 says 'The fee income increase accounted for approximately 30% and 40% of membership income growth during 2026 and 2025.' The 30% is the 2026 figure.",
+      "correction": "None",
+      "source": "10-K.txt:L854 (accession 0000909832-26-000093)"
+    },
+    {
+      "claim": "Insight 1: The fee increase explained about 40% of membership income growth in 2025",
+      "status": "correct",
+      "reason": "The same sentence in L854 gives approximately 40% for 2025. The inference that the other drivers' share rose (about 60% to about 70%) follows from the two stated percentages.",
+      "correction": "None",
+      "source": "10-K.txt:L854"
+    },
+    {
+      "claim": "Insight 2: Free cash flow of 9,382,000,000 USD (15,817,000,000 - 6,435,000,000)",
+      "status": "correct",
+      "reason": "Arithmetic: 15,817 - 6,435 = 9,382. The definition is operating cash flow minus additions to property and equipment, using the inputs cited.",
+      "correction": "None",
+      "source": "XBRL NetCashProvidedByUsedInOperatingActivities and PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, accession 0000909832-26-000093; 10-K.txt:L1000, L1007"
+    },
+    {
+      "claim": "Insight 2: Operating cash flow of 15,817,000,000 in FY2026",
+      "status": "correct",
+      "reason": "The XBRL fact value is 15,817,000,000. The 10-K L1000 says $15,817 (millions). The earnings release shows 15,825 on a line labeled 'Subject to Reclassification', which is a different, unaudited figure.",
+      "correction": "None",
+      "source": "XBRL NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, accession 0000909832-26-000093; 10-K.txt:L1000"
+    },
+    {
+      "claim": "Insight 2: Capital spending of 6,435,000,000",
+      "status": "correct",
+      "reason": "The XBRL PaymentsToAcquirePropertyPlantAndEquipment fact is 6,435,000,000 for the period ended 2026-08-30. The 10-K and release also show $6,435 / (6,435).",
+      "correction": "None",
+      "source": "XBRL PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, accession 0000909832-26-000093; 10-K.txt:L1007; earnings_release_Ex99-1.txt:L310"
+    },
+    {
+      "claim": "Insight 2: Current portion of long-term debt of 2,248,000,000 at FY2026 year-end",
+      "status": "correct",
+      "reason": "The XBRL LongTermDebtCurrent value is 2,248,000,000 at 2026-08-30. The release balance sheet shows 2,248.",
+      "correction": "None",
+      "source": "XBRL LongTermDebtCurrent, period end 2026-08-30, accession 0000909832-26-000093; earnings_release_Ex99-1.txt:L227"
+    },
+    {
+      "claim": "Insight 2: Current portion of long-term debt was 75,000,000 a year earlier",
+      "status": "correct",
+      "reason": "The XBRL prior value is 75,000,000 at 2025-08-31, and the release shows 75.",
+      "correction": "None",
+      "source": "XBRL LongTermDebtCurrent, period end 2025-08-31, accession 0000909832-25-000101; earnings_release_Ex99-1.txt:L228"
+    },
+    {
+      "claim": "Overview: 939, 914, and 890 warehouses at FY2026, FY2025 and FY2024 year-ends",
+      "status": "correct",
+      "reason": "L177 gives these counts at August 30, 2026, August 31, 2025 and September 1, 2024.",
+      "correction": "None",
+      "source": "10-K.txt:L177"
+    },
+    {
+      "claim": "Fewer than 4,000 active SKUs per warehouse",
+      "status": "correct",
+      "reason": "L187 states 'less than 4,000 active stock keeping units (SKUs) per warehouse'.",
+      "correction": "None",
+      "source": "10-K.txt:L187"
+    },
+    {
+      "claim": "FY2026 net sales increased 10% to $297,247 (millions)",
+      "status": "correct",
+      "reason": "L709 states this. The income statement net sales line shows 297,247.",
+      "correction": "None",
+      "source": "10-K.txt:L709, L1155"
+    },
+    {
+      "claim": "Net income increased 14% to $9,226, $20.76 per diluted share, versus $8,099 and $18.21 in 2025",
+      "status": "correct",
+      "reason": "L721 gives these figures. The income statement shows net income of 9,226 and 8,099, and the Diluted row shows 20.76 and 18.21 for the 52 weeks ended Aug 30, 2026 and Aug 31, 2025. 9,226/8,099 is about 13.9%, which rounds to 14%.",
+      "correction": "None",
+      "source": "10-K.txt:L721, L1206, L1208, L1219-L1223 (Diluted EPS 20.76 / 18.21; accession 0000909832-26-000093)"
+    },
+    {
+      "claim": "Quarter net sales increased 11.2% to $93.9 billion from $84.4 billion",
+      "status": "correct",
+      "reason": "Release L10 states this for the 16-week fourth quarter.",
+      "correction": "None",
+      "source": "earnings_release_Ex99-1.txt:L10 (accession 0000909832-26-000084)"
+    },
+    {
+      "claim": "U.S. and Canadian operations were 86% of net sales and 83% of operating income in 2026",
+      "status": "correct",
+      "reason": "L350 states 'comprised 86% and 83% of net sales and operating income in 2026'.",
+      "correction": "None",
+      "source": "10-K.txt:L350"
+    },
+    {
+      "claim": "California was 26% of U.S. net sales in 2026",
+      "status": "correct",
+      "reason": "L350 states this.",
+      "correction": "None",
+      "source": "10-K.txt:L350"
+    },
+    {
+      "claim": "International operations generated 27% of net sales and 35% of operating income in 2026",
+      "status": "correct",
+      "reason": "L407 states 'generated 27% and 35% of our net sales and operating income'.",
+      "correction": "None",
+      "source": "10-K.txt:L407"
+    },
+    {
+      "claim": "Gasoline was 11% of total net sales in 2026",
+      "status": "correct",
+      "reason": "L207 states this.",
+      "correction": "None",
+      "source": "10-K.txt:L207"
+    },
+    {
+      "claim": "Comparable sales increased 5% in average ticket and 3% in shopping frequency",
+      "status": "correct",
+      "reason": "L835 states this.",
+      "correction": "None",
+      "source": "10-K.txt:L835"
+    },
+    {
+      "claim": "Release fiscal-year comparable sales of 8.4% (reported) and 6.6% (excluding gasoline price and FX)",
+      "status": "correct",
+      "reason": "Release L36 shows 8.4% and L37 shows 6.6%, and footnote L43 says the adjusted figures exclude gasoline price and FX. The 8.4% is consistent with the 10-K's 8% comparable sales increase (L835). The row labels fall outside the supplied excerpt, so the 'total company' label is inferred from the values.",
+      "correction": "None",
+      "source": "earnings_release_Ex99-1.txt:L36, L37, L43; 10-K.txt:L835"
+    },
+    {
+      "claim": "Core merchandise sales increased $17,136 or 8%",
+      "status": "correct",
+      "reason": "L837 states this.",
+      "correction": "None",
+      "source": "10-K.txt:L837"
+    },
+    {
+      "claim": "Higher gasoline prices added $3,501 or 130 bp to net sales; FX added $1,332 or 49 bp",
+      "status": "correct",
+      "reason": "L711, L838 and L839 give these amounts and basis-point impacts.",
+      "correction": "None",
+      "source": "10-K.txt:L711, L838, L839"
+    },
+    {
+      "claim": "Gasoline volume increased 7%, adding $1,913 or 71 bp to net sales",
+      "status": "correct",
+      "reason": "L838 states this.",
+      "correction": "None",
+      "source": "10-K.txt:L838"
+    },
+    {
+      "claim": "Paid members of 84,100 (2026) vs 81,000 (2025)",
+      "status": "correct",
+      "reason": "L223 and L224 give these counts. Units are thousands.",
+      "correction": "None",
+      "source": "10-K.txt:L223, L224"
+    },
+    {
+      "claim": "Total cardholders of 150,400 vs 145,200",
+      "status": "correct",
+      "reason": "L231 and L232 give these counts.",
+      "correction": "None",
+      "source": "10-K.txt:L231, L232"
+    },
+    {
+      "claim": "Executive members of 42,300, 38,700 and 35,400; 75.2% of worldwide net sales in 2026",
+      "status": "correct",
+      "reason": "L237 states both the member counts and the approximately 75.2% sales penetration.",
+      "correction": "None",
+      "source": "10-K.txt:L237"
+    },
+    {
+      "claim": "Renewal rate of 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026",
+      "status": "correct",
+      "reason": "L238 states this.",
+      "correction": "None",
+      "source": "10-K.txt:L238"
+    },
+    {
+      "claim": "Digitally-enabled comparable sales increased 21% in 2026",
+      "status": "correct",
+      "reason": "L836 states this.",
+      "correction": "None",
+      "source": "10-K.txt:L836"
+    },
+    {
+      "claim": "Core-category gross margin up 15 bp; company gross margin ex-gasoline inflation 11.22%, up 10 bp",
+      "status": "correct",
+      "reason": "L885 and L884 state these figures.",
+      "correction": "None",
+      "source": "10-K.txt:L884, L885"
+    },
+    {
+      "claim": "Reported gross margin percentage 11.09% vs 11.12% in 2025",
+      "status": "correct",
+      "reason": "L878 shows 11.09% (2026) and L880 shows 11.12% (2025). L884 says it decreased three basis points.",
+      "correction": "None",
+      "source": "10-K.txt:L878, L880, L884"
+    },
+    {
+      "claim": "SG&A percentage decreased 10 bp; ex-gasoline inflation 9.26%, up one bp",
+      "status": "correct",
+      "reason": "L905 states this.",
+      "correction": "None",
+      "source": "10-K.txt:L905"
+    },
+    {
+      "claim": "Operating cash flow was 15,817,000,000 in FY2026 and 13,335,000,000 in FY2025",
+      "status": "correct",
+      "reason": "XBRL facts show 15,817,000,000 (2026-08-30, accession 0000909832-26-000093) and 13,335,000,000 (2025-08-31, accession 0000909832-25-000101). L1000 agrees in millions.",
+      "correction": "None",
+      "source": "XBRL NetCashProvidedByUsedInOperatingActivities; 10-K.txt:L1000"
+    },
+    {
+      "claim": "Capex of 6,435,000,000 in FY2026 and 5,498,000,000 in FY2025",
+      "status": "correct",
+      "reason": "XBRL PaymentsToAcquirePropertyPlantAndEquipment shows 6,435,000,000 and 5,498,000,000. The release shows (6,435) and (5,498).",
+      "correction": "None",
+      "source": "XBRL PaymentsToAcquirePropertyPlantAndEquipment, period ends 2026-08-30 (0000909832-26-000093) and 2025-08-31 (0000909832-25-000101); earnings_release_Ex99-1.txt:L310-L311"
+    },
+    {
+      "claim": "Net cash used in financing activities of $3,355 in 2026 vs $3,775 in 2025",
+      "status": "correct",
+      "reason": "L1020 states this, in millions.",
+      "correction": "None",
+      "source": "10-K.txt:L1020"
+    },
+    {
+      "claim": "Operating margin 3.8544766026507977% (11,685,000,000 / 303,154,000,000)",
+      "status": "correct",
+      "reason": "11,685 / 303,154 is about 3.854%. Definition: OperatingIncomeLoss divided by RevenueFromContractWithCustomerExcludingAssessedTax, which is total revenue including membership fees. Operating income divided by net sales alone would be about 3.93%, so the definition choice matters and is stated.",
+      "correction": "None",
+      "source": "XBRL OperatingIncomeLoss 11,685,000,000 and RevenueFromContractWithCustomerExcludingAssessedTax 303,154,000,000, period end 2026-08-30, accession 0000909832-26-000093"
+    },
+    {
+      "claim": "Return on average equity 28.402111841396398%",
+      "status": "correct",
+      "reason": "9,226 / ((35,803 + 29,164) / 2) = 9,226 / 32,483.5, which is about 28.40%. The definition (net income over the simple average of year-end equity) is stated and the inputs match the XBRL facts.",
+      "correction": "None",
+      "source": "XBRL NetIncomeLoss 9,226,000,000 and StockholdersEquity 35,803,000,000 (2026-08-30, 0000909832-26-000093); StockholdersEquity 29,164,000,000 (2025-08-31, 0000909832-25-000101)"
+    },
+    {
+      "claim": "Revenue growth 10.143695387577887% ((303,154 - 275,235) / 275,235)",
+      "status": "correct",
+      "reason": "27,919 / 275,235 is about 10.144%. The inputs match the XBRL revenue facts for both periods.",
+      "correction": "None",
+      "source": "XBRL RevenueFromContractWithCustomerExcludingAssessedTax, 2026-08-30 (0000909832-26-000093) and 2025-08-31 (0000909832-25-000101)"
+    },
+    {
+      "claim": "Diluted EPS 20.76 (FY2026) vs 18.21 (FY2025)",
+      "status": "correct",
+      "reason": "The 10-K income statement per-share Diluted row shows 20.76 for the 52 weeks ended August 30, 2026 and 18.21 for August 31, 2025. These agree with the XBRL EarningsPerShareDiluted facts.",
+      "correction": "None",
+      "source": "10-K.txt:L1219-L1223 (Diluted row, 20.76 at L1221, 18.21 at L1223), accession 0000909832-26-000093; XBRL EarningsPerShareDiluted"
+    },
+    {
+      "claim": "Operating income of 11,685,000,000 vs 10,383,000,000",
+      "status": "correct",
+      "reason": "The XBRL OperatingIncomeLoss facts match for 2026-08-30 and 2025-08-31. The supplied 10-K text excerpt omits the operating income row, so the XBRL tag is the support.",
+      "correction": "None",
+      "source": "XBRL OperatingIncomeLoss, 2026-08-30 (0000909832-26-000093) and 2025-08-31 (0000909832-25-000101)"
+    },
+    {
+      "claim": "Latest-quarter total revenue 95,723 vs 86,156",
+      "status": "correct",
+      "reason": "The release 'Total revenue' row shows 95,723 and 86,156 (USD millions). The cited lines are L83-L85.",
+      "correction": "None",
+      "source": "earnings_release_Ex99-1.txt:L83-L85"
+    },
+    {
+      "claim": "Quarterly revenue growth 11.104275964529458%",
+      "status": "correct",
+      "reason": "(95,723 - 86,156) / 86,156 = 9,567 / 86,156, which is about 11.104%.",
+      "correction": "None",
+      "source": "earnings_release_Ex99-1.txt:L83-L85"
+    },
+    {
+      "claim": "Quarterly diluted EPS was 6.75, cited to earnings_release_Ex99-1.txt:L137",
+      "status": "wrong",
+      "reason": "The value 6.75 is right, but the citation fails. L137 sits under the 'Basic' per-share header at L135, so it is the basic EPS row and does not establish diluted EPS. The release text at L44 supports $6.75 per diluted share for the fourth quarter.",
+      "correction": "Quarterly diluted EPS of $6.75 (vs $5.87 last year) is supported by earnings_release_Ex99-1.txt:L44, not L137.",
+      "source": "earnings_release_Ex99-1.txt:L44 (accession 0000909832-26-000084); L135-L137 is the Basic row"
+    },
+    {
+      "claim": "Non-recurring IEEPA tariff refund benefit of $0.15 per diluted share in the fourth quarter",
+      "status": "correct",
+      "reason": "L44 states 'a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment'.",
+      "correction": "None",
+      "source": "earnings_release_Ex99-1.txt:L44"
+    },
+    {
+      "claim": "Refund as share of FY EPS 0.722543352601156% (0.15 / 20.76)",
+      "status": "correct",
+      "reason": "0.15 / 20.76 is about 0.7225%. FY diluted EPS 20.76 is supported by the 10-K income statement Diluted row at L1221.",
+      "correction": "None",
+      "source": "earnings_release_Ex99-1.txt:L44; 10-K.txt:L1221"
+    },
+    {
+      "claim": "Debt to equity 0.17210848252939698 ((3,914,000,000 + 2,248,000,000) / 35,803,000,000)",
+      "status": "correct",
+      "reason": "6,162 / 35,803 is about 0.1721. The inputs match the XBRL facts. The definition is funded debt (noncurrent plus current portion) over stockholders' equity, and the report states it excludes leases.",
+      "correction": "None",
+      "source": "XBRL LongTermDebtNoncurrent 3,914,000,000, LongTermDebtCurrent 2,248,000,000, StockholdersEquity 35,803,000,000, period end 2026-08-30, accession 0000909832-26-000093"
+    },
+    {
+      "claim": "Noncurrent long-term debt fell from 5,713,000,000 to 3,914,000,000",
+      "status": "correct",
+      "reason": "XBRL LongTermDebtNoncurrent is 5,713,000,000 at 2025-08-31 and 3,914,000,000 at 2026-08-30.",
+      "correction": "None",
+      "source": "XBRL LongTermDebtNoncurrent, 2025-08-31 (0000909832-25-000101) and 2026-08-30 (0000909832-26-000093)"
+    },
+    {
+      "claim": "Short-term borrowings: none outstanding at end of 2026, immaterial at end of 2025",
+      "status": "correct",
+      "reason": "L2278 and L1030 state this. The XBRL ShortTermBorrowings value is null, and the report correctly says no exact FY2025 figure is given.",
+      "correction": "None",
+      "source": "10-K.txt:L2278, L1030"
+    },
+    {
+      "claim": "Japan subsidiary Guaranteed Senior Notes of about $500 issued in 2026; repayments of long-term debt of $69 in 2026",
+      "status": "correct",
+      "reason": "L1022 states both figures.",
+      "correction": "None",
+      "source": "10-K.txt:L1022"
+    },
+    {
+      "claim": "Bank credit facility borrowing capacity of $2,118 at August 30, 2026",
+      "status": "correct",
+      "reason": "L1030 states this (vs $1,220 at the end of 2025).",
+      "correction": "None",
+      "source": "10-K.txt:L1030"
+    },
+    {
+      "claim": "P/E of 4.816955684007707 (100.0 / 20.76)",
+      "status": "correct",
+      "reason": "100 / 20.76 is about 4.817, so the arithmetic is correct. The 100.0 price is user-supplied at run time and not independently verified. The EPS input 20.76 matches the 10-K income statement Diluted row. The report itself flags the P/E as unreliable.",
+      "correction": "None. The result depends entirely on the unverified user-supplied price.",
+      "source": "10-K.txt:L1221 (Diluted EPS 20.76, fiscal year ended Aug 30, 2026, accession 0000909832-26-000093); XBRL EarningsPerShareDiluted"
+    },
+    {
+      "claim": "Price of 100.0 per share used for P/E",
+      "status": "unsupported",
+      "reason": "No supplied filing or fact supports this price. It is a user-supplied input with no quote timestamp, so it is not independently verified. It is also far from the $950.90 average repurchase price in L1028, which is a different measure.",
+      "correction": "No source-backed price is available. A verified, time-stamped market quote is needed.",
+      "source": "User-supplied --price (not in filings)"
+    },
+    {
+      "claim": "2026 average repurchase price of $950.90 per share",
+      "status": "correct",
+      "reason": "L1028 states 891,000 shares repurchased at an average price of $950.90 in 2026.",
+      "correction": "None",
+      "source": "10-K.txt:L1028"
+    },
+    {
+      "claim": "28 new warehouses including three relocations; 25 net new (18 U.S., five Canada, two Other International); 27 new in 2025",
+      "status": "correct",
+      "reason": "L707 states this, and 18 + 5 + 2 = 25.",
+      "correction": "None",
+      "source": "10-K.txt:L707"
+    },
+    {
+      "claim": "Plan to open up to 33 new warehouses, including five relocations, in 2027",
+      "status": "correct",
+      "reason": "L1018 states this.",
+      "correction": "None",
+      "source": "10-K.txt:L1018"
+    },
+    {
+      "claim": "Intention to spend approximately $7,500 on capital expenditures in fiscal 2027",
+      "status": "correct",
+      "reason": "L1009 gives approximately $7,500 and L1011 gives 2027. The sentence is fragmented by the text extraction but is consistent.",
+      "correction": "None",
+      "source": "10-K.txt:L1009, L1011"
+    },
+    {
+      "claim": "Cash and cash equivalents and short-term investments of $21,301 and $15,284 at August 30, 2026 and August 31, 2025",
+      "status": "correct",
+      "reason": "L989 states this.",
+      "correction": "None",
+      "source": "10-K.txt:L989"
+    },
+    {
+      "claim": "Earnings release shows operating cash flow of 15,825 vs the 10-K's $15,817",
+      "status": "correct",
+      "reason": "Release L306 shows 15,825 under a statement labeled 'Subject to Reclassification' (L277). The 10-K L1000 and the XBRL fact show 15,817. The discrepancy is real, and the 10-K and XBRL figure is the one to use.",
+      "correction": "None",
+      "source": "earnings_release_Ex99-1.txt:L306, L277; 10-K.txt:L1000"
+    },
+    {
+      "claim": "355,000 employees worldwide at the end of 2026; wage scale top increased by $1.00 per hour in March 2026",
+      "status": "correct",
+      "reason": "L244 gives 355,000 employees and L270 gives the $1.00 per hour increase.",
+      "correction": "None",
+      "source": "10-K.txt:L244, L270"
+    },
+    {
+      "claim": "IEEPA refunds: received $184 ($174 refunds, $10 interest income); $155 additional after year-end",
+      "status": "correct",
+      "reason": "L726 states these amounts.",
+      "correction": "None",
+      "source": "10-K.txt:L726"
+    },
+    {
+      "claim": "Board approved a 13% increase in the quarterly cash dividend",
+      "status": "correct",
+      "reason": "L723 states this. L1024 shows the quarterly dividend rising from $1.30 to $1.47, which is about 13%.",
+      "correction": "None",
+      "source": "10-K.txt:L723, L1024"
+    },
+    {
+      "claim": "Current portion of long-term debt 2,248 vs 75 in the earnings release",
+      "status": "correct",
+      "reason": "Release L227 shows 2,248 and L228 shows 75.",
+      "correction": "None",
+      "source": "earnings_release_Ex99-1.txt:L227-L228"
+    }
+  ]
+}

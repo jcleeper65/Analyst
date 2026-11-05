@@ -1,0 +1,9 @@
+{
+  "task": "Fetch XBRL facts",
+  "context": {
+    "ticker": "COST",
+    "peers": [],
+    "price": 100.0
+  },
+  "expected_output": "Step 4 data and status"
+}

@@ -1,0 +1,9 @@
+{
+  "task": "Find required filings",
+  "context": {
+    "ticker": "COST",
+    "peers": [],
+    "price": 100.0
+  },
+  "expected_output": "Step 2 data and status"
+}
