@@ -1,0 +1,205 @@
+{
+  "code_checks": [
+    {
+      "claim": "Filings read: 10-K 0000909832-26-000093, 10-Q 0000909832-26-000051, 8-K 0000909832-26-000084",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Run time: 2026-11-03T09:31:50-05:00",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Costco Wholesale Corporation operates a global network of membership warehouses and e-commerce sites (\"Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand. Costco also operates e-commerce sites in the U.S., Canada, the U..K., Mexico, Korea, Taiwan, Japan, Australia, and China.\" earnings_release_Ex99-1.txt:L45). For the fourth quarter ended August 30, 2026, net sales increased 11.2% to $93.9 billion (\"Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year.\" earnings_release_Ex99-1.txt:L10), and net sales for the fiscal year increased 10.1% to $297.2 billion (\"Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.\" earnings_release_Ex99-1.txt:L10). Net income for the fourth quarter reached $2.998 billion, or $6.75 per diluted share (\"Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year.\" earnings_release_Ex99-1.txt:L44), which was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds (\"This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values.\" earnings_release_Ex99-1.txt:L44). Full fiscal year net income totaled $9.226 billion, or $20.76 per diluted share (\"Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.\" earnings_release_Ex99-1.txt:L44). Total revenue for the fiscal year reached $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093].",
+      "status": "correct",
+      "reason": "Compared cited value exactly with saved facts",
+      "correction": "",
+      "source": "XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Costco demonstrates solid growth with fiscal year revenue reaching $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093] compared to $275,235,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101] for the prior fiscal year, representing a computed revenue growth of 10.143695387577887% [computed using formula (303154000000 - 275235000000) / 275235000000 based on XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101]. Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], up from $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101] in the prior year, yielding a computed operating margin of 3.8544766026507977% [computed using formula 11685000000 / 303154000000 based on XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093]. In peer comparison, Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%; Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%; and BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.",
+      "status": "correct",
+      "reason": "Compared cited value exactly with saved facts",
+      "correction": "",
+      "source": "XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Costco demonstrates solid growth with fiscal year revenue reaching $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093] compared to $275,235,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101] for the prior fiscal year, representing a computed revenue growth of 10.143695387577887% [computed using formula (303154000000 - 275235000000) / 275235000000 based on XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101]. Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], up from $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101] in the prior year, yielding a computed operating margin of 3.8544766026507977% [computed using formula 11685000000 / 303154000000 based on XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093]. In peer comparison, Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%; Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%; and BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.",
+      "status": "correct",
+      "reason": "Compared cited value exactly with saved facts",
+      "correction": "",
+      "source": "XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101"
+    },
+    {
+      "claim": "Costco demonstrates solid growth with fiscal year revenue reaching $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093] compared to $275,235,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101] for the prior fiscal year, representing a computed revenue growth of 10.143695387577887% [computed using formula (303154000000 - 275235000000) / 275235000000 based on XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101]. Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], up from $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101] in the prior year, yielding a computed operating margin of 3.8544766026507977% [computed using formula 11685000000 / 303154000000 based on XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093]. In peer comparison, Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%; Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%; and BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.",
+      "status": "correct",
+      "reason": "Compared cited value exactly with saved facts",
+      "correction": "",
+      "source": "XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Costco demonstrates solid growth with fiscal year revenue reaching $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093] compared to $275,235,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101] for the prior fiscal year, representing a computed revenue growth of 10.143695387577887% [computed using formula (303154000000 - 275235000000) / 275235000000 based on XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101]. Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], up from $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101] in the prior year, yielding a computed operating margin of 3.8544766026507977% [computed using formula 11685000000 / 303154000000 based on XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093]. In peer comparison, Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%; Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%; and BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.",
+      "status": "correct",
+      "reason": "Compared cited value exactly with saved facts",
+      "correction": "",
+      "source": "XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101"
+    },
+    {
+      "claim": "Costco demonstrates solid growth with fiscal year revenue reaching $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093] compared to $275,235,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101] for the prior fiscal year, representing a computed revenue growth of 10.143695387577887% [computed using formula (303154000000 - 275235000000) / 275235000000 based on XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101]. Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], up from $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101] in the prior year, yielding a computed operating margin of 3.8544766026507977% [computed using formula 11685000000 / 303154000000 based on XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093]. In peer comparison, Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%; Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%; and BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.",
+      "status": "correct",
+      "reason": "Compared cited value exactly with saved facts",
+      "correction": "",
+      "source": "XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055"
+    },
+    {
+      "claim": "Costco demonstrates solid growth with fiscal year revenue reaching $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093] compared to $275,235,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101] for the prior fiscal year, representing a computed revenue growth of 10.143695387577887% [computed using formula (303154000000 - 275235000000) / 275235000000 based on XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101]. Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], up from $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101] in the prior year, yielding a computed operating margin of 3.8544766026507977% [computed using formula 11685000000 / 303154000000 based on XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093]. In peer comparison, Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%; Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%; and BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.",
+      "status": "correct",
+      "reason": "Compared cited value exactly with saved facts",
+      "correction": "",
+      "source": "XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016"
+    },
+    {
+      "claim": "Costco demonstrates solid growth with fiscal year revenue reaching $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093] compared to $275,235,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101] for the prior fiscal year, representing a computed revenue growth of 10.143695387577887% [computed using formula (303154000000 - 275235000000) / 275235000000 based on XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2025-08-31, filing 0000909832-25-000101]. Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], up from $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101] in the prior year, yielding a computed operating margin of 3.8544766026507977% [computed using formula 11685000000 / 303154000000 based on XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093]. In peer comparison, Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%; Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%; and BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.",
+      "status": "correct",
+      "reason": "Compared cited value exactly with saved facts",
+      "correction": "",
+      "source": "XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007"
+    },
+    {
+      "claim": "The P/E ratio is computed at 47.79046242774566 [computed using formula 992.13 / 20.76 based on user-supplied --price at run time 2026-11-03T09:31:50-05:00 and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093]. This rich valuation prices in substantial future growth expectations while earnings include non-recurring items like the $0.15 per diluted share from IEEPA tariff refunds [earnings_release_Ex99-1.txt:L44], which represents 0.722543352601156% of FY diluted EPS [computed using formula 0.15 / 20.76 * 100 based on earnings_release_Ex99-1.txt:L44 and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093].",
+      "status": "wrong",
+      "reason": "Compared citation with saved filing line, allowing formatting differences",
+      "correction": "Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.",
+      "source": "earnings_release_Ex99-1.txt:L44: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+    },
+    {
+      "claim": "The P/E ratio is computed at 47.79046242774566 [computed using formula 992.13 / 20.76 based on user-supplied --price at run time 2026-11-03T09:31:50-05:00 and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093]. This rich valuation prices in substantial future growth expectations while earnings include non-recurring items like the $0.15 per diluted share from IEEPA tariff refunds [earnings_release_Ex99-1.txt:L44], which represents 0.722543352601156% of FY diluted EPS [computed using formula 0.15 / 20.76 * 100 based on earnings_release_Ex99-1.txt:L44 and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093].",
+      "status": "unsupported",
+      "reason": "Cited filing line is unavailable",
+      "correction": "",
+      "source": "computed using formula 0.15 / 20.76 * 100 based on earnings_release_Ex99-1.txt:L44"
+    },
+    {
+      "claim": "Costco continues to expand its warehouse footprint globally, operating 939 warehouses (\"Costco currently operates 939 warehouses...\" earnings_release_Ex99-1.txt:L45) alongside its e-commerce channels. Capital expenditures (additions to property and equipment) were $6,435,000,000 [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093] out of net cash provided by operating activities of $15,817,000,000 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093], leading to a computed free cash flow of $9,382,000,000 [computed using formula 15817000000 - 6435000000 based on XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093]. Strategic recommendations include reinvesting robust free cash flow into international expansion, digital infrastructure enhancements, and member value propositions.",
+      "status": "correct",
+      "reason": "Compared cited value exactly with saved facts",
+      "correction": "",
+      "source": "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Costco continues to expand its warehouse footprint globally, operating 939 warehouses (\"Costco currently operates 939 warehouses...\" earnings_release_Ex99-1.txt:L45) alongside its e-commerce channels. Capital expenditures (additions to property and equipment) were $6,435,000,000 [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093] out of net cash provided by operating activities of $15,817,000,000 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093], leading to a computed free cash flow of $9,382,000,000 [computed using formula 15817000000 - 6435000000 based on XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093 and XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093]. Strategic recommendations include reinvesting robust free cash flow into international expansion, digital infrastructure enhancements, and member value propositions.",
+      "status": "correct",
+      "reason": "Compared cited value exactly with saved facts",
+      "correction": "",
+      "source": "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093"
+    }
+  ],
+  "model_checks": {
+    "checks": [
+      {
+        "claim": "Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year.",
+        "status": "correct",
+        "reason": "Cited directly from earnings release Ex99-1.txt:L10.",
+        "correction": null,
+        "source": "earnings_release_Ex99-1.txt:L10"
+      },
+      {
+        "claim": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+        "status": "correct",
+        "reason": "Cited directly from earnings release Ex99-1.txt:L10.",
+        "correction": null,
+        "source": "earnings_release_Ex99-1.txt:L10"
+      },
+      {
+        "claim": "Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year.",
+        "status": "correct",
+        "reason": "Cited directly from earnings release Ex99-1.txt:L44.",
+        "correction": null,
+        "source": "earnings_release_Ex99-1.txt:L44"
+      },
+      {
+        "claim": "Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.",
+        "status": "correct",
+        "reason": "Cited directly from earnings release Ex99-1.txt:L44.",
+        "correction": null,
+        "source": "earnings_release_Ex99-1.txt:L44"
+      },
+      {
+        "claim": "Total revenue for the fiscal year reached $303,154,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093].",
+        "status": "correct",
+        "reason": "Matches saved fact for revenue with tag RevenueFromContractWithCustomerExcludingAssessedTax for period ended 2026-08-30.",
+        "correction": null,
+        "source": "10-K 0000909832-26-000093"
+      },
+      {
+        "claim": "Costco demonstrates solid growth with fiscal year revenue reaching $303,154,000,000 compared to $275,235,000,000 for the prior fiscal year, representing a computed revenue growth of 10.143695387577887%.",
+        "status": "correct",
+        "reason": "Computed correctly using (303154000000 - 275235000000) / 275235000000 based on XBRL facts.",
+        "correction": null,
+        "source": "10-K 0000909832-26-000093 and 10-K 0000909832-25-000101"
+      },
+      {
+        "claim": "Operating income was $11,685,000,000 [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], up from $10,383,000,000 [XBRL tag OperatingIncomeLoss, period end 2025-08-31, filing 0000909832-25-000101] in the prior year, yielding a computed operating margin of 3.8544766026507977%.",
+        "status": "correct",
+        "reason": "Matches saved fact and calculation 11685000000 / 303154000000.",
+        "correction": null,
+        "source": "10-K 0000909832-26-000093"
+      },
+      {
+        "claim": "Walmart Inc. (WMT) reported revenue of $713,163,000,000 [XBRL tag Revenues, period end 2026-01-31, filing 0000104169-26-000055] with an operating margin of 4.182073382943311%",
+        "status": "correct",
+        "reason": "Matches peer saved facts for WMT.",
+        "correction": null,
+        "source": "10-K 0000104169-26-000055"
+      },
+      {
+        "claim": "Target Corporation (TGT) reported revenue of $104,780,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0000027419-26-000016] with an operating margin of 4.8835655659477%",
+        "status": "correct",
+        "reason": "Matches peer saved facts for TGT.",
+        "correction": null,
+        "source": "10-K 0000027419-26-000016"
+      },
+      {
+        "claim": "BJ's Wholesale Club Holdings, Inc. (BJ) reported revenue of $21,457,274,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-01-31, filing 0001531152-26-000007] with an operating margin of 3.8057210808791457%.",
+        "status": "correct",
+        "reason": "Matches peer saved facts for BJ.",
+        "correction": null,
+        "source": "10-K 0001531152-26-000007"
+      },
+      {
+        "claim": "The P/E ratio is computed at 47.79046242774566 [computed using formula 992.13 / 20.76 based on user-supplied --price at run time and XBRL tag EarningsPerShareDiluted].",
+        "status": "correct",
+        "reason": "Computed correctly using the user-supplied price and diluted EPS fact.",
+        "correction": null,
+        "source": "10-K 0000909832-26-000093"
+      },
+      {
+        "claim": "This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds [earnings_release_Ex99-1.txt:L44], which represents 0.722543352601156% of FY diluted EPS [computed using formula 0.15 / 20.76 * 100 based on earnings_release_Ex99-1.txt:L44 and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093].",
+        "status": "correct",
+        "reason": "Matches calculation 0.15 / 20.76 * 100 and earnings release text.",
+        "correction": null,
+        "source": "earnings_release_Ex99-1.txt:L44 and 10-K 0000909832-26-000093"
+      },
+      {
+        "claim": "Costco currently operates 939 warehouses (\"Costco currently operates 939 warehouses...\" earnings_release_Ex99-1.txt:L45)",
+        "status": "correct",
+        "reason": "Cited directly from earnings release Ex99-1.txt:L45.",
+        "correction": null,
+        "source": "earnings_release_Ex99-1.txt:L45"
+      },
+      {
+        "claim": "Capital expenditures (additions to property and equipment) were $6,435,000,000 [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093] out of net cash provided by operating activities of $15,817,000,000 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093], leading to a computed free cash flow of $9,382,000,000 [computed using formula 15817000000 - 6435000000].",
+        "status": "correct",
+        "reason": "Matches saved facts for operating cash flow and capex, and the subtraction is correct.",
+        "correction": null,
+        "source": "10-K 0000909832-26-000093"
+      }
+    ]
+  },
+  "verified_report": "/Users/jacksonleeper/Documents/Purdue_MSBAIM/Mod 2/AI for Finance/Repos/Analyst/equity_research_output/COSTCO WHOLESALE CORP _NEW, 2026-11-03, 09-34-33, verify 3/verified_report.md"
+}

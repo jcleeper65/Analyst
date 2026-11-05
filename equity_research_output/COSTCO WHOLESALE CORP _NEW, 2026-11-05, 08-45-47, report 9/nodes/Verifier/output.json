@@ -1,0 +1,996 @@
+{
+  "code_checks": [
+    {
+      "claim": "**Source limits.** The 10-K Business and MD&A sections were not available: \"10-K.txt: Item 1 section was not found.\" and \"10-K.txt: Item 7 section was not found.\" Only the earnings release (earnings_release_Ex99-1.txt) can be cited. Business-model detail, stated competitive advantages, revenue concentration and management's growth plans from Item 1 and Item 7 are therefore \"not stated in the files.\" Management's growth is treated as a claim to test, and the release is the only evidence.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Costco reported fiscal 2026 results for the period ended August 30, 2026: \"Costco Wholesale Corporation (“Costco” or the “Company”) (Nasdaq: COST) today announced its operating results for the 16-week fourth quarter and the 52-week fiscal year ended August 30, 2026.\" [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L9: ISSAQUAH, Wash., September 24, 2026 - Costco Wholesale Corporation (“Costco” or the “Company”) (Nasdaq: COST) today announced its operating results for the 16-week fourth quarter and the 52-week fiscal year ended August 30, 2026."
+    },
+    {
+      "claim": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L10: Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year."
+    },
+    {
+      "claim": "Membership fees",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L78: Membership fees"
+    },
+    {
+      "claim": "5,907",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L81: 5,907"
+    },
+    {
+      "claim": "5,323",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L82: 5,323"
+    },
+    {
+      "claim": "11,685",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L102: 11,685"
+    },
+    {
+      "claim": "10,383",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L103: 10,383"
+    },
+    {
+      "claim": "9,226",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L131: 9,226"
+    },
+    {
+      "claim": "8,099",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L133: 8,099"
+    },
+    {
+      "claim": "This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L44: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+    },
+    {
+      "claim": "[",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L81: 5,907"
+    },
+    {
+      "claim": "\"5,907\" and [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L44: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+    },
+    {
+      "claim": "**Criterion 1, Demand durability: SUPPORTED, with gaps.**",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L10: Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year."
+    },
+    {
+      "claim": "8.4%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L36: 8.4%"
+    },
+    {
+      "claim": "6.6%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L37: 6.6%"
+    },
+    {
+      "claim": "*Excluding the impacts from changes in gasoline prices and foreign exchange.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L43: *Excluding the impacts from changes in gasoline prices and foreign exchange."
+    },
+    {
+      "claim": "6.7%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L35: 6.7%"
+    },
+    {
+      "claim": "1,850",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L79: 1,850"
+    },
+    {
+      "claim": "1,724",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L80: 1,724"
+    },
+    {
+      "claim": "3,006",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L224: 3,006"
+    },
+    {
+      "claim": "2,854",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L225: 2,854"
+    },
+    {
+      "claim": "**Criterion 2, Competitive position: MIXED.**",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "6.6%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L22: 6.6%"
+    },
+    {
+      "claim": "6.7%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L27: 6.7%"
+    },
+    {
+      "claim": "6.5%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L32: 6.5%"
+    },
+    {
+      "claim": "U.S.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L18: U.S."
+    },
+    {
+      "claim": "20.7%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L42: 20.7%"
+    },
+    {
+      "claim": "Digitally-Enabled",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L38: Digitally-Enabled"
+    },
+    {
+      "claim": "264,279",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L92: 264,279"
+    },
+    {
+      "claim": "239,886",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L93: 239,886"
+    },
+    {
+      "claim": "27,190",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L97: 27,190"
+    },
+    {
+      "claim": "24,966",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L98: 24,966"
+    },
+    {
+      "claim": "**Criterion 3, Growth execution: MIXED.**",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L45: Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand. Costco also operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China."
+    },
+    {
+      "claim": "Costco also operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L45: Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand. Costco also operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China."
+    },
+    {
+      "claim": "(6,435)",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L310: (6,435)"
+    },
+    {
+      "claim": "(5,498)",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L311: (5,498)"
+    },
+    {
+      "claim": "35,633",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L197: 35,633"
+    },
+    {
+      "claim": "31,909",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L198: 31,909"
+    },
+    {
+      "claim": "15,825",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L306: 15,825"
+    },
+    {
+      "claim": "13,335",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L307: 13,335"
+    },
+    {
+      "claim": "20,207",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L177: 20,207"
+    },
+    {
+      "claim": "14,161",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L179: 14,161"
+    },
+    {
+      "claim": "2,674",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L291: 2,674"
+    },
+    {
+      "claim": "2,426",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L292: 2,426"
+    },
+    {
+      "claim": "[",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L42: 20.7%"
+    },
+    {
+      "claim": "\"20.7%\" versus [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L37: 6.6%"
+    },
+    {
+      "claim": "**1) CASH GENERATION – SUPPORTED**",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited NetCashProvidedByUsedInOperatingActivities value: 15817000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited PaymentsToAcquirePropertyPlantAndEquipment value: 6435000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited NetCashProvidedByUsedInOperatingActivities value: 15817000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited PaymentsToAcquirePropertyPlantAndEquipment value: 6435000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "**2) PROFITABILITY – SUPPORTED, WITH A THIN-MARGIN CAVEAT**",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited OperatingIncomeLoss value: 11685000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited RevenueFromContractWithCustomerExcludingAssessedTax value: 303154000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited NetIncomeLoss value: 9226000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag NetIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited StockholdersEquity value: 35803000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag StockholdersEquity, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited StockholdersEquity value: 29164000000; period 2025-08-31; filing 0000909832-25-000101",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag StockholdersEquity, period end 2025-08-31, filing 0000909832-25-000101"
+    },
+    {
+      "claim": "Cited NetIncomeLoss value: 9226000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag NetIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "- Prior-year operating margin was not supplied, so margin change is not assessed. Operating income was 11,685,000,000 versus 10,383,000,000 [XBRL tag OperatingIncomeLoss, period ends 2026-08-30 and 2025-08-31, filings 0000909832-26-000093 and 0000909832-25-000101].",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "- Peer operating margins as supplied; periods are not aligned, see Valuation: WMT 4.182073382943311% (period end 2026-01-31), TGT 4.8835655659477% (period end 2026-01-31), BJ 3.8057210808791457% (period end 2026-01-31). Same definition (operating income / revenue), but the Costco year ends seven months later and WMT's revenue tag is Revenues, not RevenueFromContractWithCustomerExcludingAssessedTax.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "**3) FUNDING RISK – SUPPORTED (LOW LEVERAGE), WITH A MATURITY-TIMING FLAG**",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "- Debt to equity, computed, rechecked given calculations: (3914000000 + 2248000000) / 35803000000 = 0.17210848252939698 ratio.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited LongTermDebtNoncurrent value: 3914000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag LongTermDebtNoncurrent, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited LongTermDebtCurrent value: 2248000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag LongTermDebtCurrent, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited StockholdersEquity value: 35803000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag StockholdersEquity, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "- The mix shifted. Current portion was 2,248,000,000 versus 75,000,000 a year earlier [XBRL tag LongTermDebtCurrent, period ends 2026-08-30 and 2025-08-31, filings 0000909832-26-000093 and 0000909832-25-000101]. Noncurrent debt was 3,914,000,000 versus 5,713,000,000 [XBRL tag LongTermDebtNoncurrent, same periods and filings]. More debt is due within a year, but 15,817,000,000 of operating cash flow is the funding source cited above.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "**4) VALUATION – MIXED (PEER P/E NOT AVAILABLE; PRICE SOURCE LIMITED)**",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited EarningsPerShareDiluted value: 20.76; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "- Price source: user-supplied --price at run time 2026-11-05T08:45:47-05:00. The market quote timestamp was not provided, so the price date is unverified.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited EarningsPerShareDiluted value: 2.73; period 2026-01-31; filing 0000104169-26-000055",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag EarningsPerShareDiluted, period end 2026-01-31, filing 0000104169-26-000055"
+    },
+    {
+      "claim": "- Comparability limits: peer fiscal periods end 2026-01-31, versus Costco's 2026-08-30. WMT's fiscal year is labelled fy 2026 and TGT/BJ fy 2025. No peer valuation conclusion is drawn.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "**5) LATEST QUARTER (quarter ended 2026-08-30; release accession 0000909832-26-000084)**",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "- Total revenue was 95,723 versus 86,156 (USD as shown) [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L83: Total revenue"
+    },
+    {
+      "claim": "- Quarter revenue growth, computed, rechecked given calculations: (95723.0 - 86156.0) / 86156.0 * 100 = 11.104275964529458%. Full-year revenue growth, computed, rechecked given calculations: (303154000000 - 275235000000) / 275235000000 = 10.143695387577887%. Inputs: [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period ends 2026-08-30 and 2025-08-31, filings 0000909832-26-000093 and 0000909832-25-000101].",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "- Quarter GAAP diluted EPS was $6.75 versus $5.87 [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L44: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+    },
+    {
+      "claim": "Cited EarningsPerShareDiluted value: 20.76; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L44: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+    },
+    {
+      "claim": "Inputs: [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L44: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+    },
+    {
+      "claim": "**6) WHAT WOULD CHANGE MY VIEW**",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "- Measure: free cash flow. Current value is 9,382,000,000 (computed, rechecked given calculations: 15817000000 - 6435000000) for the year ended 2026-08-30 [XBRL tags NetCashProvidedByUsedInOperatingActivities and PaymentsToAcquirePropertyPlantAndEquipment, filing 0000909832-26-000093].",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "- Capex rose to 6,435,000,000 from 5,498,000,000. If the next reported annual free cash flow falls below 9,382,000,000 because capex keeps rising faster than operating cash flow, I would downgrade cash generation to mixed. That would matter more at a 47.79046242774566 P/E and with 2,248,000,000 of debt now current.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited NetCashProvidedByUsedInOperatingActivities value: 15817000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "wrong",
+      "reason": "XBRL value or citation does not match saved facts",
+      "correction": "15817000000",
+      "source": "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited PaymentsToAcquirePropertyPlantAndEquipment value: 6435000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited LongTermDebtCurrent value: 2248000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag LongTermDebtCurrent, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited LongTermDebtCurrent value: 75000000; period 2025-08-31; filing 0000909832-25-000101",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag LongTermDebtCurrent, period end 2025-08-31, filing 0000909832-25-000101"
+    },
+    {
+      "claim": "20.7%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L42: 20.7%"
+    },
+    {
+      "claim": "(6,435)",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L310: (6,435)"
+    },
+    {
+      "claim": "5,907",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L81: 5,907"
+    },
+    {
+      "claim": "2,248",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L227: 2,248"
+    },
+    {
+      "claim": "75",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L228: 75"
+    },
+    {
+      "claim": "non-recurring benefit of $0.15 per diluted share",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L44: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+    },
+    {
+      "claim": "- Recommendation: retrieve the 10-K Items 1 and 7 before concluding on competitive advantage. They should cover member counts, renewal rates, opening plans and segment profitability, none of which can be verified from this release.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "6.6%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L37: 6.6%"
+    },
+    {
+      "claim": "6.7%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L35: 6.7%"
+    },
+    {
+      "claim": "8.4%",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L36: 8.4%"
+    },
+    {
+      "claim": "[",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L44: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+    },
+    {
+      "claim": "Cited EarningsPerShareDiluted value: 20.76; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "wrong",
+      "reason": "XBRL value or citation does not match saved facts",
+      "correction": "20.76",
+      "source": "XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited NetCashProvidedByUsedInOperatingActivities value: 15817000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093"
+    },
+    {
+      "claim": "Cited PaymentsToAcquirePropertyPlantAndEquipment value: 6435000000; period 2026-08-30; filing 0000909832-26-000093",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093"
+    }
+  ],
+  "model_checks": {
+    "checks": [
+      {
+        "claim": "Insight 1: Membership fees were $5,907 million in fiscal 2026 versus $5,323 million the prior year.",
+        "status": "correct",
+        "reason": "In the release, the label at L78 is followed by Q4 values (L79 1,850; L80 1,724) and then fiscal-year values (L81 5,907; L82 5,323), in $ millions. The 10-K MD&A (L713) also says membership fee revenue 'increased 11% to $5,907'. The column order is inferred from the label and value sequence, because the header lines were not supplied.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L78-L82; 10-K.txt:L713"
+      },
+      {
+        "claim": "Insight 1: The fourth-quarter tariff-refund benefit was $0.15 per diluted share and was non-recurring.",
+        "status": "correct",
+        "reason": "L44 states 'a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values.'",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L44"
+      },
+      {
+        "claim": "Insight 2: Digitally-enabled adjusted 52-week comps were 20.7%, versus total company adjusted 52-week comps of 6.6%.",
+        "status": "correct",
+        "reason": "The columns are 16 weeks, 16 weeks adjusted, 52 weeks, 52 weeks adjusted. Digitally-Enabled (label L38) shows 19.5, 19.8, 20.9, 20.7, so the 52-week adjusted figure is 20.7% at L42. Total Company (label L33) shows 9.4, 6.7, 8.4, 6.6, so the 52-week adjusted figure is 6.6% at L37. L43 confirms 'Adjusted' means excluding gasoline price and foreign exchange effects. The header lines L13-L15 were not supplied, so the column order is inferred.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L33-L43"
+      },
+      {
+        "claim": "Insight 3: Capital spending was 6,435,000,000.",
+        "status": "correct",
+        "reason": "The XBRL tag PaymentsToAcquirePropertyPlantAndEquipment for period end 2026-08-30 (filing 0000909832-26-000093) is 6,435,000,000. The release shows additions to property and equipment of (6,435) $ millions at L310.",
+        "correction": "None needed.",
+        "source": "XBRL PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093; earnings_release_Ex99-1.txt:L310"
+      },
+      {
+        "claim": "Insight 3: Free cash flow was 9,382,000,000, computed as 15,817,000,000 - 6,435,000,000.",
+        "status": "correct",
+        "reason": "The arithmetic is right and uses operating cash flow minus capex, the standard definition. The inputs match the XBRL facts for fiscal 2026 in filing 0000909832-26-000093. The earnings release shows operating cash flow of 15,825 (L306), which is 8 million higher than the XBRL 15,817. Using the release figure would give 9,390 million. The supplied 10-K text excerpt does not include the cash flow statement, so this gap cannot be reconciled. The XBRL basis is the filed 10-K tag and is the one used.",
+        "correction": "None needed on the XBRL basis. Disclose that the release's operating cash flow of 15,825 would give free cash flow of 9,390 million.",
+        "source": "XBRL NetCashProvidedByUsedInOperatingActivities and PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093; earnings_release_Ex99-1.txt:L306, L310"
+      },
+      {
+        "claim": "Insight 3: The current portion of long-term debt rose to 2,248,000,000 from 75,000,000.",
+        "status": "correct",
+        "reason": "The XBRL tag LongTermDebtCurrent is 2,248,000,000 at 2026-08-30 (filing 0000909832-26-000093) and 75,000,000 at 2025-08-31 (prior filing 0000909832-25-000101). The release balance sheet shows 2,248 and 75 $ millions at L227 and L228.",
+        "correction": "None needed.",
+        "source": "XBRL LongTermDebtCurrent, period ends 2026-08-30 and 2025-08-31; earnings_release_Ex99-1.txt:L226-L228"
+      },
+      {
+        "claim": "Insight 4: Fourth-quarter diluted EPS was $6.75.",
+        "status": "correct",
+        "reason": "L44 says 'Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year.' This is a quarterly figure, correctly labelled as fourth quarter.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L44"
+      },
+      {
+        "claim": "Insight 4: The one-time benefit was $0.15 per diluted share.",
+        "status": "correct",
+        "reason": "L44 states a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds. The 10-K MD&A gives $184 million received in 2026 ($174 million as a merchandise-cost reduction and $10 million as interest income). It does not state a per-share figure.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L44; 10-K.txt:L726"
+      },
+      {
+        "claim": "Insight 5: P/E of 47.79046242774566 (992.13 / 20.76).",
+        "status": "correct",
+        "reason": "The arithmetic is right: 992.13 / 20.76 = 47.7905. The EPS input is annual GAAP diluted EPS of $20.76 for the 52 weeks ended August 30, 2026, from the 10-K income statement (see the separate EPS check). The 992.13 price is user-supplied at run time and not independently verified. No quote timestamp was provided.",
+        "correction": "None needed on the arithmetic. The price is user-supplied and unverified.",
+        "source": "10-K.txt:L1219-L1221 (accession 0000909832-26-000093); XBRL EarningsPerShareDiluted, period end 2026-08-30"
+      },
+      {
+        "claim": "Insight 5: Free cash flow was 9,382,000,000 after 6,435,000,000 of capital spending.",
+        "status": "correct",
+        "reason": "This is the same calculation as above. 15,817,000,000 - 6,435,000,000 = 9,382,000,000, using the XBRL facts. The release's operating cash flow of 15,825 differs (see the free cash flow check).",
+        "correction": "None needed on the XBRL basis.",
+        "source": "XBRL NetCashProvidedByUsedInOperatingActivities and PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093"
+      },
+      {
+        "claim": "Annual GAAP diluted EPS was $20.76 for fiscal 2026 and $18.21 for fiscal 2025.",
+        "status": "correct",
+        "reason": "The 10-K income statement for the 52 weeks ended August 30, 2026 shows Diluted EPS of $20.76 (L1221) for 2026 and $18.21 (L1223) for 2025, under the 'Diluted' row at L1219. The XBRL tag EarningsPerShareDiluted matches. The release at L44 agrees.",
+        "correction": "None needed.",
+        "source": "10-K.txt:L1219-L1223, 52 weeks ended August 30, 2026, accession 0000909832-26-000093; earnings_release_Ex99-1.txt:L44"
+      },
+      {
+        "claim": "Fiscal-year net sales increased 10.1% to $297.2 billion from $269.9 billion. Q4 net sales increased 11.2% to $93.9 billion from $84.4 billion.",
+        "status": "correct",
+        "reason": "Both statements appear in L10. The 10-K net sales of 297,247 (L1155) and the release prior-year figure of 269,912 (L77) are consistent with the rounded values.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L10, L77; 10-K.txt:L1155"
+      },
+      {
+        "claim": "Operating income was 11,685 versus 10,383 ($ millions). Net income was 9,226 versus 8,099 ($ millions).",
+        "status": "correct",
+        "reason": "Release L102/L103 show 11,685 and 10,383, and L131/L133 show 9,226 and 8,099. The XBRL OperatingIncomeLoss and NetIncomeLoss values match, and 10-K net income is 9,226 / 8,099 (L1206/L1208).",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L102-L103, L131-L133; 10-K.txt:L1206-L1208"
+      },
+      {
+        "claim": "Comparable sales: total company 52-week 8.4% (L36), adjusted 6.6% (L37), Q4 adjusted 6.7% (L35).",
+        "status": "correct",
+        "reason": "Total Company row: 9.4% (L34), 6.7% (L35), 8.4% (L36), 6.6% (L37). Under the 16 weeks / 16 weeks adjusted / 52 weeks / 52 weeks adjusted order, the cited values are right. The column order is inferred because header lines L13-L15 were not supplied.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L33-L37"
+      },
+      {
+        "claim": "Q4 membership fees were 1,850 vs 1,724. Deferred membership fees were 3,006 vs 2,854 ($ millions).",
+        "status": "correct",
+        "reason": "Release L79/L80 show 1,850 and 1,724. L224/L225 show 3,006 and 2,854 under 'Deferred membership fees'.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L79-L80, L223-L225"
+      },
+      {
+        "claim": "Adjusted fiscal-year comps: U.S. 6.6%, Canada 6.7%, Other International 6.5%.",
+        "status": "correct",
+        "reason": "The 52-week adjusted column is the fourth value in each row: U.S. 10.7, 7.2, 8.2, 6.6 (L22); Canada 5.0, 4.6, 7.8, 6.7 (L27); Other International 7.0, 6.2, 9.8, 6.5 (L32).",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L18-L32"
+      },
+      {
+        "claim": "Merchandise costs were 264,279 vs 239,886. SG&A was 27,190 vs 24,966 ($ millions).",
+        "status": "correct",
+        "reason": "Release L92/L93 show merchandise costs of 264,279 and 239,886. L97/L98 show SG&A of 27,190 and 24,966.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L92-L98"
+      },
+      {
+        "claim": "Footprint: 939 warehouses, including 647 U.S./Puerto Rico, 115 Canada, 43 Mexico, 37 Japan, 29 UK, 20 Korea, 15 Australia, 14 Taiwan, 7 China, 5 Spain, 3 France, 2 Sweden, and 1 each in Iceland and New Zealand.",
+        "status": "correct",
+        "reason": "The list is quoted exactly from L45, and the components sum to 939 (647+115+43+37+29+20+15+14+7+5+3+2+1+1). The 10-K also says 939 at August 30, 2026 (L177, L1883).",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L45; 10-K.txt:L177, L1883"
+      },
+      {
+        "claim": "Additions to property and equipment were (6,435) vs (5,498). Net property and equipment was 35,633 vs 31,909 ($ millions).",
+        "status": "correct",
+        "reason": "Release L310/L311 show (6,435) and (5,498). L197/L198 show 35,633 and 31,909.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L196-L198, L309-L311"
+      },
+      {
+        "claim": "Operating cash flow was 15,825 vs 13,335 ($ millions), per the release. Cash and cash equivalents were 20,207 vs 14,161.",
+        "status": "correct",
+        "reason": "The release shows 15,825 and 13,335 at L306/L307, and cash of 20,207 and 14,161 at L177/L179, so each is quoted correctly. However, the XBRL operating cash flow for fiscal 2026 in the 10-K filing is 15,817,000,000, which does not match the release's 15,825. The report uses both figures without flagging the 8 million difference.",
+        "correction": "Flag the difference. The release shows 15,825 million and the XBRL 10-K fact shows 15,817 million. The supplied 10-K excerpt has no cash flow statement to adjudicate.",
+        "source": "earnings_release_Ex99-1.txt:L177-L179, L305-L307; XBRL NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093"
+      },
+      {
+        "claim": "Depreciation and amortization was 2,674 vs 2,426 ($ millions).",
+        "status": "correct",
+        "reason": "Release L291/L292 show 2,674 and 2,426.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L290-L292"
+      },
+      {
+        "claim": "Operating cash flow was 15,817,000,000 (fiscal 2026) and 13,335,000,000 (fiscal 2025).",
+        "status": "correct",
+        "reason": "The saved XBRL facts show 15,817,000,000 (period end 2026-08-30, filing 0000909832-26-000093) and 13,335,000,000 (period end 2025-08-31, filing 0000909832-25-000101). The release shows 15,825 for 2026 (L306) but 13,335 for 2025 (L307).",
+        "correction": "None needed on the XBRL basis. Note that the release shows 15,825 for 2026.",
+        "source": "XBRL NetCashProvidedByUsedInOperatingActivities; earnings_release_Ex99-1.txt:L306-L307"
+      },
+      {
+        "claim": "Capital spending was 6,435,000,000 (2026) and 5,498,000,000 (2025).",
+        "status": "correct",
+        "reason": "The XBRL facts and the release (L310/L311) agree.",
+        "correction": "None needed.",
+        "source": "XBRL PaymentsToAcquirePropertyPlantAndEquipment, filings 0000909832-26-000093 and 0000909832-25-000101; earnings_release_Ex99-1.txt:L310-L311"
+      },
+      {
+        "claim": "Operating margin of 3.8544766026507977% (11,685,000,000 / 303,154,000,000).",
+        "status": "correct",
+        "reason": "The arithmetic is right. The denominator is the XBRL total revenue of 303,154 million, which equals net sales of 297,247 plus membership fees of 5,907. That is the consistent total-revenue definition, matching the peer revenue basis. A net-sales denominator would give about 3.93%.",
+        "correction": "None needed.",
+        "source": "XBRL OperatingIncomeLoss and RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093; 10-K.txt:L1155; earnings_release_Ex99-1.txt:L81"
+      },
+      {
+        "claim": "Return on average equity of 28.402111841396398% (9,226,000,000 / ((35,803,000,000 + 29,164,000,000) / 2)).",
+        "status": "correct",
+        "reason": "The average equity is 32,483.5 million, and 9,226 / 32,483.5 = 28.40%. The definition (net income divided by the simple average of current and prior year-end equity) is stated and applied consistently. Equity values rest on the saved XBRL facts only. The balance sheet equity lines were not in the supplied text.",
+        "correction": "None needed.",
+        "source": "XBRL NetIncomeLoss and StockholdersEquity, period ends 2026-08-30 and 2025-08-31, filings 0000909832-26-000093 and 0000909832-25-000101"
+      },
+      {
+        "claim": "Net income attributable to parent equals net income at 9,226,000,000. Noncontrolling interest income is not stated.",
+        "status": "correct",
+        "reason": "The saved facts show noncontrolling_interest_income with a null tag and value, and net_income_attributable_to_parent equal to net income at 9,226,000,000. The 10-K income statement shows NET INCOME of 9,226 at L1206.",
+        "correction": "None needed.",
+        "source": "Saved facts net_income and net_income_attributable_to_parent, filing 0000909832-26-000093; 10-K.txt:L1204-L1206"
+      },
+      {
+        "claim": "Peer operating margins: WMT 4.182073382943311%, TGT 4.8835655659477%, BJ 3.8057210808791457%, all for period end 2026-01-31.",
+        "status": "correct",
+        "reason": "Recomputed from the saved facts: WMT 29,825 / 713,163 = 4.182%, TGT 5,117 / 104,780 = 4.884%, BJ 816.604 / 21,457.274 = 3.806%. Period ends are 2026-01-31 for all three. The caveats are accurate: Costco's fiscal year ends about seven months later, and WMT's revenue tag is Revenues.",
+        "correction": "None needed.",
+        "source": "Saved facts peers WMT (0000104169-26-000055), TGT (0000027419-26-000016), BJ (0001531152-26-000007)"
+      },
+      {
+        "claim": "Debt to equity of 0.17210848252939698 ((3,914,000,000 + 2,248,000,000) / 35,803,000,000).",
+        "status": "correct",
+        "reason": "6,162 / 35,803 = 0.1721. The definition stated is noncurrent plus current long-term debt over equity, with no short-term borrowings, repos, or leases. The current portion of 2,248 is also in the release (L227).",
+        "correction": "None needed.",
+        "source": "XBRL LongTermDebtNoncurrent, LongTermDebtCurrent, StockholdersEquity, period end 2026-08-30, filing 0000909832-26-000093; earnings_release_Ex99-1.txt:L227"
+      },
+      {
+        "claim": "Noncurrent debt was 3,914,000,000 versus 5,713,000,000 a year earlier.",
+        "status": "correct",
+        "reason": "The saved facts show LongTermDebtNoncurrent of 3,914,000,000 (2026-08-30) and 5,713,000,000 (2025-08-31, filing 0000909832-25-000101). The supplied filing text does not independently show this line, so support comes from the XBRL facts alone.",
+        "correction": "None needed.",
+        "source": "XBRL LongTermDebtNoncurrent, filings 0000909832-26-000093 and 0000909832-25-000101"
+      },
+      {
+        "claim": "ShortTermBorrowings for Costco is 'not stated in the files' (filing null).",
+        "status": "wrong",
+        "reason": "The saved fact is null, but the 10-K does state the amount. L1030 says 'There were no short-term borrowings outstanding under the bank credit facilities at the end of 2026. Short-term borrowings were immaterial at the end of 2025 and were included in other current liabilities.'",
+        "correction": "Short-term borrowings were zero at the end of fiscal 2026 and immaterial at the end of fiscal 2025, per the 10-K. The XBRL tag is simply not populated.",
+        "source": "10-K.txt:L1030 (accession 0000909832-26-000093)"
+      },
+      {
+        "claim": "P/E: EPS of 20.76 versus 18.21 prior year. Peer diluted EPS: WMT 2.73, TGT 8.13, BJ 4.38.",
+        "status": "correct",
+        "reason": "Costco EPS is confirmed at 10-K.txt L1221 (20.76) and L1223 (18.21). Peer EPS matches the saved facts: WMT 2.73 (period end 2026-01-31, fy 2026), TGT 8.13 and BJ 4.38 (period end 2026-01-31, fy 2025). The peer fiscal-period caveat is accurate. The price is user-supplied and not independently verified.",
+        "correction": "None needed.",
+        "source": "10-K.txt:L1219-L1223; saved facts peers WMT 0000104169-26-000055, TGT 0000027419-26-000016, BJ 0001531152-26-000007"
+      },
+      {
+        "claim": "Latest quarter total revenue was 95,723 versus 86,156 (USD as shown, $ millions).",
+        "status": "correct",
+        "reason": "Release L83-L85 show 'Total revenue', 95,723 and 86,156. The 16-week fourth quarter ended August 30, 2026. The release accession 0000909832-26-000084 matches the 8-K listed in the report.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L83-L85; 8-K 0000909832-26-000084"
+      },
+      {
+        "claim": "Quarter revenue growth was 11.104275964529458%. Full-year revenue growth was 10.143695387577887%.",
+        "status": "correct",
+        "reason": "(95,723 - 86,156) / 86,156 = 11.104%. (303,154 - 275,235) / 275,235 = 10.144%. Both are on a total-revenue basis (net sales plus membership fees). The 10.1% net-sales growth in the release (L10) is on a different basis but is consistent with this.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L83-L85; XBRL RevenueFromContractWithCustomerExcludingAssessedTax, period ends 2026-08-30 and 2025-08-31, filings 0000909832-26-000093 and 0000909832-25-000101"
+      },
+      {
+        "claim": "Quarter GAAP diluted EPS was $6.75 versus $5.87 last year.",
+        "status": "correct",
+        "reason": "L44 gives $6.75 per diluted share for the fourth quarter versus $5.87 last year.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L44"
+      },
+      {
+        "claim": "The $0.15 benefit is 0.722543352601156% of fiscal-year diluted EPS (0.15 / 20.76).",
+        "status": "correct",
+        "reason": "0.15 / 20.76 = 0.7225%. Inputs are L44 and the fiscal 2026 annual diluted EPS of $20.76 (10-K L1221). The denominator is annual EPS, so the figure measures share of full-year EPS, not of Q4 EPS.",
+        "correction": "None needed. For reference, 0.15 is about 2.2% of Q4 EPS of 6.75.",
+        "source": "earnings_release_Ex99-1.txt:L44; 10-K.txt:L1221"
+      },
+      {
+        "claim": "Capex rose to 6,435,000,000 from 5,498,000,000, with 2,248,000,000 of debt now current. Free cash flow was 9,382,000,000.",
+        "status": "correct",
+        "reason": "These values match the XBRL facts and the release, as verified above. The threshold in the 'what would change my view' item is a forward-looking condition, not a reported number.",
+        "correction": "None needed.",
+        "source": "XBRL PaymentsToAcquirePropertyPlantAndEquipment, LongTermDebtCurrent, NetCashProvidedByUsedInOperatingActivities, filing 0000909832-26-000093; earnings_release_Ex99-1.txt:L227, L310-L311"
+      },
+      {
+        "claim": "Catalysts and watch items: 20.7% (L42), (6,435) (L310), 5,907 (L81), current portion of debt 2,248 (L227) from 75 (L228).",
+        "status": "correct",
+        "reason": "Each cited line contains the quoted value: L42 20.7%, L310 (6,435), L81 5,907, L227 2,248, L228 75.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L42, L81, L227-L228, L310"
+      },
+      {
+        "claim": "Comparable sales test values: fiscal 2026 adjusted 6.6% (L37), Q4 adjusted 6.7% (L35), headline 8.4% (L36).",
+        "status": "correct",
+        "reason": "Total Company row values at L35, L36 and L37 match the quotes. The 'leaned on gasoline and currency effects' remark is interpretation, and L43 defines 'Adjusted' as excluding gasoline price and foreign exchange changes.",
+        "correction": "None needed.",
+        "source": "earnings_release_Ex99-1.txt:L35-L37, L43"
+      },
+      {
+        "claim": "Planned openings are 'not stated in the files'.",
+        "status": "wrong",
+        "reason": "The 10-K does state plans. L1017-L1018 say the company will 'plan to open up to 33 new warehouses, including five relocations, in 2027'. The 10-K text also contains Item 1 (L176) and Item 7 (L683), although the report says those sections were not found.",
+        "correction": "The 10-K says Costco plans to open up to 33 new warehouses in fiscal 2027, including five relocations. The same passage describes fiscal 2026 openings including three relocations. The count of fiscal 2026 openings is truncated in the supplied text.",
+        "source": "10-K.txt:L1017-L1018 (accession 0000909832-26-000093)"
+      }
+    ]
+  },
+  "verified_report": "/Users/jacksonleeper/Documents/Purdue_MSBAIM/Mod 2/AI for Finance/Repos/Analyst/equity_research_output/COSTCO WHOLESALE CORP _NEW, 2026-11-05, 08-45-47, report 9/verified_report.md"
+}

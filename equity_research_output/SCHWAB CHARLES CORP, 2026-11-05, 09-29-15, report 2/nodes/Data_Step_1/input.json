@@ -1,0 +1,9 @@
+{
+  "task": "Resolve ticker to CIK",
+  "context": {
+    "ticker": "SCHW",
+    "peers": [],
+    "price": 93.37
+  },
+  "expected_output": "Step 1 data and status"
+}

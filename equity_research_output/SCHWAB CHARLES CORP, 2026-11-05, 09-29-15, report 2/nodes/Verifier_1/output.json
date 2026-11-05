@@ -1,0 +1,368 @@
+{
+  "checks": [
+    {
+      "claim": "Insight 1: 'The 20.08x P/E' (93.37 / 4.65 = 20.079569892473117)",
+      "status": "correct",
+      "reason": "The arithmetic is right: 93.37 / 4.65 = 20.0796, which rounds to 20.08x. The EPS denominator is the FY2025 GAAP diluted EPS of 4.65. The 93.37 price is user-supplied and not independently verified.",
+      "correction": "No correction needed. The multiple is valid only given the user-supplied price.",
+      "source": "Arithmetic on the supplied inputs; EPS from 10-K.txt L3920-L3922 (Diluted, $4.65, FY ended 2025-12-31, accession 0000316709-26-000009)"
+    },
+    {
+      "claim": "Insight 1: 'a user-supplied 93.37 price'",
+      "status": "unsupported",
+      "reason": "No supplied filing contains a SCHW price of 93.37 for the run date. The report labels it user-supplied (--price) with no quote timestamp, so it is not independently verified. The 10-K's only price is $103.92 at January 30, 2026, a different date, so it neither confirms nor contradicts 93.37.",
+      "correction": "Treat 93.37 as a user-supplied input that is not independently verified. No filing-based correction is possible.",
+      "source": "Saved facts and filings contain no market price; 10-K.txt L628 gives $103.92 at 2026-01-30 for reference only"
+    },
+    {
+      "claim": "Insight 1: 'FY2025 diluted EPS of 4.65'",
+      "status": "correct",
+      "reason": "The 10-K income statement per-share row 'Earnings Per Common Shares Outstanding – Diluted' shows $4.65 in the 2025 column, matching XBRL EarningsPerShareDiluted.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L3920-L3922 (Diluted, $, 4.65), column year ended 2025-12-31 per L3792, accession 0000316709-26-000009; saved_facts diluted_eps 4.65"
+    },
+    {
+      "claim": "Insight 1: 'run time 2026-11-05'",
+      "status": "correct",
+      "reason": "The report header gives the run time as 2026-11-05T09:29:15-05:00.",
+      "correction": "No correction needed.",
+      "source": "Compiled report header 'Run time: 2026-11-05T09:29:15-05:00'"
+    },
+    {
+      "claim": "Insight 2: 'FY2025 net interest revenue growth of 28%'",
+      "status": "correct",
+      "reason": "The value and period are right. The 10-K says net interest revenue was $11.8 billion in 2025, up 28% from 2024, and 'increased $2.6 billion, or 28%'. The Insight cites L1188, but that line does not contain the 28%; the supporting lines are L1179 and L1759.",
+      "correction": "Value stands at 28%. Cite 10-K.txt L1179 and L1759 for this figure, not L1188.",
+      "source": "10-K.txt L1179 and L1759 (FY2025, accession 0000316709-26-000009)"
+    },
+    {
+      "claim": "Insight 2: 'bank supplemental funding was cut 90%'",
+      "status": "correct",
+      "reason": "The 10-K states the Company reduced bank supplemental funding in 2025 by $44.8 billion, or 90%.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1188 (FY2025, accession 0000316709-26-000009)"
+    },
+    {
+      "claim": "Insight 2: 'to $5.1 billion' (and the quoted '$44.8 billion' reduction)",
+      "status": "correct",
+      "reason": "The 10-K says the balance was $5.1 billion at year-end 2025, and the reduction was $44.8 billion. L1761 repeats the $5.1 billion. The start and end points are consistent with the 2024 balance of $49.9 billion at L1219 (49.9 - 44.8 = 5.1).",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1188, L1761 (year-end 2025); 2024 balance $49.9B at L1219"
+    },
+    {
+      "claim": "Insight 3: 'At 20.08x P/E on FY2025 diluted EPS of 4.65' (93.37 / 4.65 = 20.079569892473117)",
+      "status": "correct",
+      "reason": "The arithmetic is right and rounds to 20.08x. The price is user-supplied and not independently verified.",
+      "correction": "No correction needed.",
+      "source": "Arithmetic on the supplied inputs; 10-K.txt L3920-L3922 (Diluted EPS $4.65, FY2025, accession 0000316709-26-000009)"
+    },
+    {
+      "claim": "Insight 3: 'FY2025 diluted EPS of 4.65' (XBRL EarningsPerShareDiluted, period end 2025-12-31, filing 0000316709-26-000009)",
+      "status": "correct",
+      "reason": "The 10-K income statement per-share row and the XBRL fact both show 4.65 for FY2025.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L3920-L3922, accession 0000316709-26-000009; saved_facts.diluted_eps value 4.65"
+    },
+    {
+      "claim": "Other: Revenue growth 22.008568805467714% = (23,921,000,000 - 19,606,000,000) / 19,606,000,000",
+      "status": "correct",
+      "reason": "4,315 / 19,606 = 22.0086%. Both inputs match the saved Revenues facts. The 10-K text also says net revenues rose 22%.",
+      "correction": "No correction needed.",
+      "source": "saved_facts.revenue (FY2025 filing 0000316709-26-000009; prior FY2024 filing 0000316709-25-000010); 10-K.txt L1179"
+    },
+    {
+      "claim": "Other: Revenues of 23,921,000,000 (FY2025) and 19,606,000,000 (FY2024)",
+      "status": "correct",
+      "reason": "The saved XBRL facts match. The 10-K text gives $23.9 billion for 2025 and $19.6 billion for 2024.",
+      "correction": "No correction needed.",
+      "source": "saved_facts.revenue; 10-K.txt L1179, L1208"
+    },
+    {
+      "claim": "Other: Net income rose from 5,942,000,000 to 8,852,000,000",
+      "status": "correct",
+      "reason": "The saved facts match. The 10-K shows net income of 8,852 for 2025 and 5,942 for 2024.",
+      "correction": "No correction needed.",
+      "source": "saved_facts.net_income; 10-K.txt L11003, L11420, L11422"
+    },
+    {
+      "claim": "Other: Diluted EPS 4.65 versus 2.99 (FY2025 vs FY2024)",
+      "status": "correct",
+      "reason": "The income statement diluted EPS row shows 4.65 for 2025 and 2.99 for 2024.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L3920-L3924 (accession 0000316709-26-000009); saved_facts.diluted_eps"
+    },
+    {
+      "claim": "Other: Net income $8.9 billion, rising 49%; diluted EPS $4.65, up 56%",
+      "status": "correct",
+      "reason": "The MD&A states these figures. They also check arithmetically: 8,852 / 5,942 = +48.97%, and 4.65 / 2.99 = +55.5%.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1176"
+    },
+    {
+      "claim": "Other: Operating cash flow 9,311,000,000 (FY2025); prior year 2,670,000,000",
+      "status": "correct",
+      "reason": "The saved XBRL facts match. The 10-K text says $9.3 billion for 2025 and $2.7 billion for 2024.",
+      "correction": "No correction needed.",
+      "source": "saved_facts.cash_from_operations; 10-K.txt L2957, L2958"
+    },
+    {
+      "claim": "Other: Capital spending 548,000,000 (FY2025); prior year 620,000,000",
+      "status": "correct",
+      "reason": "The values match the saved PaymentsToAcquirePropertyPlantAndEquipment facts. The supplied 10-K lines do not show the cash-flow line itself. The MD&A describes capital expenditures as 2.5% of net revenues (about $598 million), so that measure may be defined differently from the XBRL payments tag.",
+      "correction": "Keep the figures as XBRL cash payments for PP&E. Do not equate them with the 2.5% MD&A capex measure.",
+      "source": "saved_facts.additions_to_property_and_equipment; 10-K.txt L2386 for the 2.5% reference"
+    },
+    {
+      "claim": "Other: Free cash flow 9,311,000,000 - 548,000,000 = 8,763,000,000",
+      "status": "correct",
+      "reason": "The subtraction is right, and both inputs match the saved facts.",
+      "correction": "No correction needed.",
+      "source": "saved_facts.cash_from_operations and additions_to_property_and_equipment, FY2025"
+    },
+    {
+      "claim": "Other: Investing inflows $24.5B, financing outflows $29.7B, paydowns of FHLB and other short-term borrowings $14.0B, buybacks $7.3B, Series G redemption $2.5B",
+      "status": "correct",
+      "reason": "All of these amounts appear in the cash-flow passage.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L2957"
+    },
+    {
+      "claim": "Other: ROAE 18.102249488752555% = 8,852 / ((49,425 + 48,375) / 2)",
+      "status": "correct",
+      "reason": "The average equity is 48,900, and 8,852 / 48,900 = 18.10%. Both equity values match the saved StockholdersEquity facts. This is total stockholders' equity, not common equity. The 10-K's own return on average common equity is 21% (L1183), which is a different definition.",
+      "correction": "No correction needed. Do not compare the 18.10% with the 10-K's 21% or the release's 25%.",
+      "source": "saved_facts.net_income and stockholders_equity (FY2025 filing 0000316709-26-000009; prior filing 0000316709-25-000010); 10-K.txt L1183"
+    },
+    {
+      "claim": "Other: Stockholders' equity 49,425,000,000 (2025) and 48,375,000,000 (2024)",
+      "status": "correct",
+      "reason": "The values match the saved XBRL facts. The balance sheet is consistent with them: assets of $491.0B (L1188) less total liabilities of 441,570 (L4101) leave about $49.4B.",
+      "correction": "No correction needed.",
+      "source": "saved_facts.stockholders_equity; 10-K.txt L1188, L4101"
+    },
+    {
+      "claim": "Other: Q3 2026 GAAP diluted EPS 1.62",
+      "status": "correct",
+      "reason": "The release states earnings per share of $1.62. The GAAP row is at L128-L130.",
+      "correction": "No correction needed.",
+      "source": "earnings_release_Ex99-1.txt L14, L128-L130 (three months ended 2026-09-30, accession 0000316709-26-000035)"
+    },
+    {
+      "claim": "Other: Adjusted EPS 1.69, excluding $151 million of pre-tax transaction-related costs",
+      "status": "correct",
+      "reason": "The release states $151 million at L14 and adjusted EPS of $1.69 at L16. The report cites only L14 for the 1.69, which is a minor citation gap.",
+      "correction": "Cite L14 and L16 together for these figures.",
+      "source": "earnings_release_Ex99-1.txt L14, L16"
+    },
+    {
+      "claim": "Other: Quarterly revenue growth 16.88671556642217% = (7,171 - 6,135) / 6,135",
+      "status": "correct",
+      "reason": "1,036 / 6,135 = 16.887%. The release rounds this to 17% and $7.2 billion.",
+      "correction": "No correction needed.",
+      "source": "earnings_release_Ex99-1.txt L96, L98, L99, L193"
+    },
+    {
+      "claim": "Other: Quarterly GAAP pre-tax profit margin 52.7%",
+      "status": "correct",
+      "reason": "The release shows 52.7 on the GAAP pre-tax profit margin row.",
+      "correction": "No correction needed.",
+      "source": "earnings_release_Ex99-1.txt L151-L153"
+    },
+    {
+      "claim": "Other: Annualized GAAP return on average common stockholders' equity of 25% (Q3 2026)",
+      "status": "correct",
+      "reason": "The release shows 25%. The column headers (2026, 2025) at L2836-L2837 are not labeled with the quarter, so the exact period depends on the table layout.",
+      "correction": "No correction needed.",
+      "source": "earnings_release_Ex99-1.txt L2838-L2840"
+    },
+    {
+      "claim": "Other: Debt to equity 0.44914516944865956 = 22,199,000,000 / 49,425,000,000",
+      "status": "correct",
+      "reason": "22,199 / 49,425 = 0.4491. The long-term debt of 22,199 matches the balance sheet line at L4098 and the saved fact. This ratio excludes short-term borrowings, repos, and lease liabilities.",
+      "correction": "No correction needed.",
+      "source": "saved_facts.long_term_debt and stockholders_equity; 10-K.txt L4098"
+    },
+    {
+      "claim": "Other: Prior-year long-term debt 22,428,000,000",
+      "status": "correct",
+      "reason": "The 2024 column of the balance sheet shows 22,428, and the saved prior value matches.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L4099, L7851; saved_facts.long_term_debt prior_value"
+    },
+    {
+      "claim": "Other: Other short-term borrowings $6.9 billion (2025); balance sheet 6,913 and 5,999",
+      "status": "correct",
+      "reason": "The note says $6.9 billion for 2025, and the balance sheet shows 6,913 for 2025 and 5,999 for 2024.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L7962-L7964, L4091-L4093"
+    },
+    {
+      "claim": "Other: Maturity table: FHLB borrowings 1,850 and other short-term borrowings 6,913 for 2026",
+      "status": "correct",
+      "reason": "Both amounts appear in the maturity table, with a total of 8,763.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L8007-L8016"
+    },
+    {
+      "claim": "Other: Securities loaned liabilities $25.1 billion",
+      "status": "correct",
+      "reason": "The 10-K states $25.1 billion at December 31, 2025.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L2954"
+    },
+    {
+      "claim": "Other: Client assets $11.90 trillion, 38.5 million active brokerage accounts, 5.7 million workplace participant accounts, 2.2 million banking accounts (Dec 31, 2025)",
+      "status": "correct",
+      "reason": "All four figures match the 10-K business overview.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L210"
+    },
+    {
+      "claim": "Other: Q3 2026 scale: 40.3 million active brokerage accounts, 5.9 million workplace accounts, 2.4 million banking accounts, $13.33 trillion client assets",
+      "status": "correct",
+      "reason": "All four figures match the release boilerplate.",
+      "correction": "No correction needed.",
+      "source": "earnings_release_Ex99-1.txt L239"
+    },
+    {
+      "claim": "Other: FY2025 total net revenues up 22% to $23.9B; net interest revenue $11.8B, up 28%",
+      "status": "correct",
+      "reason": "The MD&A states these figures.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1179"
+    },
+    {
+      "claim": "Other: Funds generated 50%, 49%, 44% of asset management and administration fees in 2025, 2024, 2023",
+      "status": "correct",
+      "reason": "The 10-K gives the same percentages for the same years.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1977"
+    },
+    {
+      "claim": "Other: Investable wealth exceeds $80 trillion; $11.90 trillion in client assets",
+      "status": "correct",
+      "reason": "Management's estimate is quoted accurately.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L225"
+    },
+    {
+      "claim": "Other: Core net new assets $519.4B, up 42%, annualized organic growth 5.1%; active accounts 38.5M, up 6%",
+      "status": "correct",
+      "reason": "All figures match the MD&A.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1175"
+    },
+    {
+      "claim": "Other: Q3 2026: 1.2 million new brokerage accounts, $190.4B core net new assets, 5.8% annualized growth; core NNA up 38% versus 3Q25",
+      "status": "correct",
+      "reason": "All figures match the release.",
+      "correction": "No correction needed.",
+      "source": "earnings_release_Ex99-1.txt L22, L56"
+    },
+    {
+      "claim": "Other: 2025 net outflows of $20.8 billion from off-platform brokered CDs issued by CSB",
+      "status": "correct",
+      "reason": "The footnote states this amount for 2025.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1162"
+    },
+    {
+      "claim": "Other: Client transactional sweep cash $492.8B, up $7.1B versus the prior quarter-end",
+      "status": "correct",
+      "reason": "Both figures match the release.",
+      "correction": "No correction needed.",
+      "source": "earnings_release_Ex99-1.txt L197"
+    },
+    {
+      "claim": "Other: DATs 7.7 million for full-year 2025 and 8.3 million in Q4, up 31%; Q3 2026 daily average trading volume 10.7 million, up 44% versus 3Q25",
+      "status": "correct",
+      "reason": "The 10-K and the release both state these figures.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1175; earnings_release_Ex99-1.txt L67"
+    },
+    {
+      "claim": "Other: Net revenues up 22% for both segments; segment expenses excluding interest up 5% and 4%",
+      "status": "correct",
+      "reason": "Both statements match the segment discussion.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L2691, L2703"
+    },
+    {
+      "claim": "Other: Net interest revenue increased $2.6 billion, or 28%, in 2025",
+      "status": "correct",
+      "reason": "The 10-K states this directly.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1759"
+    },
+    {
+      "claim": "Other: Margin loans $112.3B, up 34%; bank loans $58.0B, up 28% (year-end 2025)",
+      "status": "correct",
+      "reason": "Both figures match the MD&A.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1188"
+    },
+    {
+      "claim": "Other: Q3 2026 margin loans $187.9B, up 14% QoQ, including $60.7B related to long/short strategies; bank loans $72.3B, up 35% YoY",
+      "status": "correct",
+      "reason": "All figures match the release.",
+      "correction": "No correction needed.",
+      "source": "earnings_release_Ex99-1.txt L62, L64"
+    },
+    {
+      "claim": "Other: Quarterly net revenues up 17% to a record $7.2B; asset management and administration fees up 14% to $1.9B",
+      "status": "correct",
+      "reason": "Both figures match the release commentary.",
+      "correction": "No correction needed.",
+      "source": "earnings_release_Ex99-1.txt L193, L201"
+    },
+    {
+      "claim": "Other: FY2026 expense guidance of approximately 5.5% to 6.5%; Q3 2026 GAAP expenses up 9% year-over-year",
+      "status": "correct",
+      "reason": "Both statements are in the filings. The guidance covers full-year 2026 and the 9% is a single-quarter comparison, so they are not the same period.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L2368; earnings_release_Ex99-1.txt L205"
+    },
+    {
+      "claim": "Other: Capex was 2.5% of total net revenues in 2025 versus a previously expected range of approximately 3-5%",
+      "status": "correct",
+      "reason": "The 10-K states both figures.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L2386"
+    },
+    {
+      "claim": "Other: Q2 2026 incremental capital expenditures of $633 million",
+      "status": "correct",
+      "reason": "The release footnote states this amount and the corresponding liability in long-term debt.",
+      "correction": "No correction needed.",
+      "source": "earnings_release_Ex99-1.txt L1014"
+    },
+    {
+      "claim": "Other: Forge transaction valued at approximately $660 million, expected to close in March 2026",
+      "status": "correct",
+      "reason": "Both the value and the expected close match the 10-K.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L244, L1197"
+    },
+    {
+      "claim": "Other: Total common stock repurchased in 2025 was $7.3 billion",
+      "status": "correct",
+      "reason": "The 10-K states this amount.",
+      "correction": "No correction needed.",
+      "source": "10-K.txt L1193"
+    },
+    {
+      "claim": "Other: Operating margin (null) and operating income not available",
+      "status": "correct",
+      "reason": "The saved facts show operating_income with a null tag and a null value, so no operating margin can be computed from the supplied data.",
+      "correction": "No correction needed. Operating margin remains unsupported by the supplied data.",
+      "source": "saved_facts.operating_income (tag null, value null)"
+    },
+    {
+      "claim": "Other: No peer data (peers: {}) supports no peer P/E comparison",
+      "status": "correct",
+      "reason": "The saved facts contain an empty peers object.",
+      "correction": "No correction needed.",
+      "source": "saved_facts.peers = {}"
+    }
+  ]
+}

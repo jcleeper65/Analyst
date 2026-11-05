@@ -1,0 +1,592 @@
+{
+  "checks": [
+    {
+      "claim": "At December 31, 2025, Schwab had $11.90 trillion in client assets, 38.5 million active brokerage accounts, 5.7 million workplace plan participant accounts, and 2.2 million banking accounts.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L210: The Charles Schwab Corporation (CSC) is a savings and loan holding company. CSC engages, through its subsidiaries (collectively referred to as Schwab or the Company), in wealth management, securities brokerage, banking, asset management, custody, and financial advisory services. At December 31, 2025, Schwab had $11.90 trillion in client assets, 38.5 million active brokerage accounts, 5.7 million workplace plan participant accounts, and 2.2 million banking accounts."
+    },
+    {
+      "claim": "through two segments – Investor Services and Advisor Services",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L221: Schwab provides financial services to individuals and institutional clients through two segments – Investor Services and Advisor Services. The Investor Services segment provides retail brokerage, investment advisory, and banking and trust services to individual investors, and retirement plan and business services, as well as other corporate brokerage services, to businesses and their employees. The Advisor Services segment provides custodial, trading, banking and trust, and support services to independent registered investment advisors (RIAs), independent retirement advisors, and recordkeepers. These services are further described in the segment discussion below."
+    },
+    {
+      "claim": "with 40.3 million active brokerage accounts, 5.9 million workplace plan participant accounts, 2.4 million banking accounts, and $13.33 trillion in client assets",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L239: The Charles Schwab Corporation (NYSE: SCHW) is a leading provider of financial services, with 40.3 million active brokerage accounts, 5.9 million workplace plan participant accounts, 2.4 million banking accounts, and $13.33 trillion in client assets. Through its operating subsidiaries, the company provides a full range of wealth management, securities brokerage, banking, asset management, custody, and financial advisory services to individual investors and independent investment advisors. Its broker-dealer subsidiary, Charles Schwab & Co., Inc. (member SIPC,"
+    },
+    {
+      "claim": "Schwab’s largest sources of net revenues are net interest revenue, asset management and administration fees, trading revenue, and bank deposit account fees.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L318: Schwab’s largest sources of net revenues are net interest revenue, asset management and administration fees, trading revenue, and bank deposit account fees. These revenue streams are supported by the combination of our broker-dealer, bank, and asset management operating subsidiaries, each of which brings specific capabilities that enable us to provide clients with the products and services they are seeking."
+    },
+    {
+      "claim": "Net interest revenue was $11.8 billion in 2025, up 28% from 2024",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L1179: Total net revenues increased 22% year-over-year to $23.9 billion in 2025. Net interest revenue was $11.8 billion in 2025, up 28% from 2024, due primarily to lower interest expense from reductions in bank supplemental funding and lower rates on funding sources, as well as growth in margin and bank lending and higher segregated cash and investments, which more than offset lower yields on interest-earning assets due to lower market rates. Asset management and administration fees totaled $6.5 billion in 2025, increasing 14% from 2024, due primarily to higher client asset balances, reflecting market appreciation, asset gathering, and growth in managed investing solutions and money market funds. Trading revenue was $3.9 billion in 2025, rising 20% from 2024, due primarily to higher trading volume. Bank deposit account fee revenue increased to $977 million in 2025, up 34% from the prior year, due primarily to higher net yields, partially offset by lower BDA balances."
+    },
+    {
+      "claim": "Under the 2023 IDA agreement, uninvested cash within eligible brokerage client accounts is swept off-balance sheet to deposit accounts at the TD Depository Institutions.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L322: Bank deposit account fees are primarily recognized pursuant to the Second Amended and Restated Insured Deposit Account Agreement (2023 IDA agreement) with TD Bank USA, National Association and TD Bank, National Association (together, the TD Depository Institutions). Under the 2023 IDA agreement, uninvested cash within eligible brokerage client accounts is swept off-balance sheet to deposit accounts at the TD Depository Institutions. Schwab provides recordkeeping and support services to the TD Depository Institutions for bank deposit account fees."
+    },
+    {
+      "claim": "generated 50%, 49%, and 44% of the asset management and administration fees earned during 2025, 2024, and 2023, respectively",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L1977: and other NTF funds. The following funds generated 50%, 49%, and 44% of the asset management and administration fees earned during 2025, 2024, and 2023, respectively:"
+    },
+    {
+      "claim": "currently exceeds $80 trillion, which means the Company’s $11.90 trillion in client assets leaves substantial opportunity for growth",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L225: Management estimates that investable wealth in the United States (U.S.) (consisting of assets in defined contribution, retail wealth management and brokerage, and registered investment advisor channels, along with bank deposits) currently exceeds $80 trillion, which means the Company’s $11.90 trillion in client assets leaves substantial opportunity for growth. Our strategy is based on the principle that developing trusted relationships will translate into more assets from both new and existing clients, ultimately driving more revenue, and along with expense discipline and thoughtful capital management, will generate earnings growth and build long-term stockholder value."
+    },
+    {
+      "claim": "creates a cost advantage that enables us to competitively price products and services",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L233: Operating Efficiency – Coupled with scale, our operating efficiency and sharing of infrastructure across different businesses creates a cost advantage that enables us to competitively price products and services while profitably serving clients of various sizes across multiple channels."
+    },
+    {
+      "claim": "Core net new assets for 2025 totaled $519.4 billion, increasing 42% from the prior year, and resulting in an annualized organic growth rate of 5.1%.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L1175: With equity market gains and strong client asset gathering, Schwab’s total client assets reached $11.90 trillion at December 31, 2025, up 18% on the year. Core net new assets for 2025 totaled $519.4 billion, increasing 42% from the prior year, and resulting in an annualized organic growth rate of 5.1%. In 2025, clients opened 4.7 million new brokerage accounts, an increase of 13% from the prior year, and active brokerage accounts totaled 38.5 million as of December 31, 2025, up 6% from year-end 2024. Our clients were highly engaged with the markets in 2025; clients’ DATs were 7.7 million for full-year 2025 and 8.3 million in the fourth quarter, increasing 31% over both the prior year-to-date and fourth-quarter periods."
+    },
+    {
+      "claim": "active brokerage accounts totaled 38.5 million as of December 31, 2025, up 6% from year-end 2024",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L1175: With equity market gains and strong client asset gathering, Schwab’s total client assets reached $11.90 trillion at December 31, 2025, up 18% on the year. Core net new assets for 2025 totaled $519.4 billion, increasing 42% from the prior year, and resulting in an annualized organic growth rate of 5.1%. In 2025, clients opened 4.7 million new brokerage accounts, an increase of 13% from the prior year, and active brokerage accounts totaled 38.5 million as of December 31, 2025, up 6% from year-end 2024. Our clients were highly engaged with the markets in 2025; clients’ DATs were 7.7 million for full-year 2025 and 8.3 million in the fourth quarter, increasing 31% over both the prior year-to-date and fourth-quarter periods."
+    },
+    {
+      "claim": "clients opened 1.2 million new brokerage accounts and entrusted Schwab with $190.4 billion in core net new assets – an annualized growth rate of 5.8%.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L22: “During the third quarter, clients opened 1.2 million new brokerage accounts and entrusted Schwab with $190.4 billion in core net new assets – an annualized growth rate of 5.8%. We are delivering new capabilities and solutions, while our leading value proposition continues to resonate with investors and RIAs.”"
+    },
+    {
+      "claim": "Core net new assets totaled $190.4 billion, up 38% versus 3Q25",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L56: Core net new assets totaled $190.4 billion, up 38% versus 3Q25"
+    },
+    {
+      "claim": "2025 includes net outflows of $20.8 billion from off-platform brokered CDs issued by CSB.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L1162: 2025 includes net outflows of $20.8 billion from off-platform brokered CDs issued by CSB. 2024 includes net outflows of $14.6 billion from off-platform brokered CDs issued by CSB, an inflow of $10.3 billion from a mutual fund clearing services client, and an outflow of $1.0 billion from an international relationship. 2023 includes net inflows of $32.5 billion from off-platform brokered CDs issued by CSB and $12.0 billion from a mutual fund clearing services client and outflows of $13.0 billion from an international relationship."
+    },
+    {
+      "claim": "Client transactional sweep cash balances ended September at $492.8 billion, an increase of $7.1 billion versus the prior quarter-end, reflecting continued demand for long/short strategies and organic growth, partially offset by client asset allocation decisions",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L197: Client transactional sweep cash balances ended September at $492.8 billion, an increase of $7.1 billion versus the prior quarter-end, reflecting continued demand for long/short strategies and organic growth, partially offset by client asset allocation decisions"
+    },
+    {
+      "claim": "clients’ DATs were 7.7 million for full-year 2025 and 8.3 million in the fourth quarter, increasing 31% over both the prior year-to-date and fourth-quarter periods",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L1175: With equity market gains and strong client asset gathering, Schwab’s total client assets reached $11.90 trillion at December 31, 2025, up 18% on the year. Core net new assets for 2025 totaled $519.4 billion, increasing 42% from the prior year, and resulting in an annualized organic growth rate of 5.1%. In 2025, clients opened 4.7 million new brokerage accounts, an increase of 13% from the prior year, and active brokerage accounts totaled 38.5 million as of December 31, 2025, up 6% from year-end 2024. Our clients were highly engaged with the markets in 2025; clients’ DATs were 7.7 million for full-year 2025 and 8.3 million in the fourth quarter, increasing 31% over both the prior year-to-date and fourth-quarter periods."
+    },
+    {
+      "claim": "Daily average trading volume equaled 10.7 million – up 44% versus 3Q25",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L67: Daily average trading volume equaled 10.7 million – up 44% versus 3Q25"
+    },
+    {
+      "claim": "Total net revenues increased by 22% for both Investor Services and Advisor Services in 2025 compared to 2024.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L2691: Total net revenues increased by 22% for both Investor Services and Advisor Services in 2025 compared to 2024. Net interest revenue increased for both segments primarily due to reductions in bank supplemental funding, lower average rates paid on funding sources, and growth of margin and bank lending balances, partially offset by lower yields on interest-earning assets. Asset management and administration fees increased for both segments primarily due to higher balances in money market funds, Schwab equity and bond funds, ETFs, and CTFs, and Mutual Fund OneSource"
+    },
+    {
+      "claim": "Investor Services and Advisor Services total expenses excluding interest increased by 5% and 4%, respectively, in 2025 compared to 2024.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L2703: Investor Services and Advisor Services total expenses excluding interest increased by 5% and 4%, respectively, in 2025 compared to 2024. Compensation and benefits expense increased in both segments primarily due to annual merit increases, higher incentive compensation, and higher employee-related costs. Professional services expense increased in both segments due to overall growth of the business and increased utilization of technology and other professional services. Occupancy and equipment expense increased in both segments primarily due to higher technology equipment and software costs related to growth of the business, as well as building expenses, and a property tax benefit reflected in 2024. Regulatory fees and assessments decreased in both segments, primarily due to a reduction in FDIC assessments in 2025 and lower FDIC special assessments from 2024 to 2025."
+    },
+    {
+      "claim": "Net income reached $8.9 billion in 2025, rising 49% from 2024, and diluted EPS was $4.65, an increase of 56% over the prior year.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L1176: Schwab’s financial performance in 2025 reflected strong asset gathering, sustained client engagement and equity market appreciation, continued demand for Schwab’s lending offerings and managed investing solutions, as well as reduction of higher-cost funding and balanced expense management. Net income reached $8.9 billion in 2025, rising 49% from 2024, and diluted EPS was $4.65, an increase of 56% over the prior year. Adjusted diluted EPS"
+    },
+    {
+      "claim": "Net interest revenue increased $2.6 billion, or 28%, in 2025 from 2024 primarily due to lower balances of bank supplemental funding, lower average rates paid on funding sources, growth in margin and bank lending",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L1759: Net interest revenue increased $2.6 billion, or 28%, in 2025 from 2024 primarily due to lower balances of bank supplemental funding, lower average rates paid on funding sources, growth in margin and bank lending, and increases in securities lending revenue, partially offset by lower yields on floating-rate assets due to lower market rates. Average interest-earning assets for 2025 decreased slightly compared to 2024. This decrease was primarily due to lower average balances in AFS and HTM securities, as cash inflows from investment securities were used to pay down bank supplemental funding, largely offset by higher balances of cash and investments segregated, growth in margin lending which was supported by higher payables to brokerage clients and payables to brokers, dealers, and clearing organizations, and increased bank lending."
+    },
+    {
+      "claim": "Increased price competition from other financial services firms to attract clients, such as reduced commissions, higher deposit rates, reduced mutual fund or ETF expense ratios, or the increased use of incentives, could impact our results of operations and financial condition.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L519: We operate in a highly competitive environment with a broad array of competitors from large integrated banks to venture-capital-backed private companies. We continually monitor our pricing in relation to competitors and periodically adjust interest rates on deposits and loans, fees for advisory services, expense ratios on mutual funds and ETFs, trade commission rates, and other pricing and incentives to sustain our competitive position. Increased price competition from other financial services firms to attract clients, such as reduced commissions, higher deposit rates, reduced mutual fund or ETF expense ratios, or the increased use of incentives, could impact our results of operations and financial condition."
+    },
+    {
+      "claim": "Bank loans totaled $58.0 billion at year-end 2025, increasing 28% during the year",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L1188: Schwab supported strong client demand for margin and bank lending in 2025, while significantly reducing bank supplemental funding to within a range generally consistent with our diversified funding strategy. Balance sheet assets totaled $491.0 billion as of December 31, 2025, higher by 2% from year-end 2024. Principal and interest from our AFS and HTM securities portfolios along with normal client cash behavior supported reduction of bank supplemental funding, which has included brokered CDs, FHLB borrowings, and borrowings under repurchase agreements at our banks. The Company reduced bank supplemental funding in 2025 by $44.8 billion, or 90%, to $5.1 billion at year-end 2025. Client sweep cash trends improved in 2025, with bank sweep deposits and payables to brokerage clients increasing by a total of $36.6 billion, or 12%. Client demand for margin loans increased significantly in 2025, with margin loans ending the year at $112.3 billion, up 34% from year-end 2024 and up 16% during the fourth quarter alone, supported by growth in bank and broker-dealer sweep cash, as well as wholesale funding. The growth in margin lending in 2025 reflects strong client demand and engagement amid rising equity markets and long/short strategies implemented by RIA clients. Bank loans totaled $58.0 billion at year-end 2025, increasing 28% during the year due primarily to growth of PALs and First Mortgages, which ended the year at $26.6 billion and $30.5 billion, respectively."
+    },
+    {
+      "claim": "Margin loan balances increased 14% quarter-over-quarter to $187.9 billion at quarter-end, including $60.7 billion related to long/short strategies",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L64: Margin loan balances increased 14% quarter-over-quarter to $187.9 billion at quarter-end, including $60.7 billion related to long/short strategies"
+    },
+    {
+      "claim": "Bank loan balances equaled $72.3 billion at September month-end, up 35% year-over-year",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L62: Bank loan balances equaled $72.3 billion at September month-end, up 35% year-over-year"
+    },
+    {
+      "claim": "Quarterly net revenues grew year-over-year by 17% to a record $7.2 billion",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L193: Quarterly net revenues grew year-over-year by 17% to a record $7.2 billion"
+    },
+    {
+      "claim": "Asset management and administration fees grew by 14% year-over-year to $1.9 billion",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L201: Asset management and administration fees grew by 14% year-over-year to $1.9 billion, powered by the firm’s organic growth and investors’ increased utilization of our wealth and asset management solutions"
+    },
+    {
+      "claim": "We currently anticipate total expenses excluding interest in full-year 2026 will increase approximately 5.5% to 6.5% from 2025.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L2368: Total expenses excluding interest increased $548 million, or 5%, in 2025 from 2024, and decreased $545 million, or 4%, in 2024 from 2023. Adjusted total expenses, which excludes acquisition and integration-related costs, amortization of acquired intangible assets, and restructuring costs, increased $681 million, or 6%, in 2025 from 2024 and $240 million, or 2%, in 2024 from 2023. See Non-GAAP Financial Measures for further details and a reconciliation of such measures to GAAP reported results. We currently anticipate total expenses excluding interest in full-year 2026 will increase approximately 5.5% to 6.5% from 2025. We currently expect the Company’s acquisition of Forge to close in March 2026, and costs related to the operations and integration of Forge would be in addition to the 5.5% to 6.5% expected growth in expenses."
+    },
+    {
+      "claim": "GAAP expenses for the quarter increased 9% year-over-year",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L205: GAAP expenses for the quarter increased 9% year-over-year; excluding acquisition and integration-related costs and the amortization of acquired intangibles of $151 million, adjusted total expenses"
+    },
+    {
+      "claim": "costs related to the operations and integration of Forge would be in addition to the 5.5% to 6.5% expected growth in expenses",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L2368: Total expenses excluding interest increased $548 million, or 5%, in 2025 from 2024, and decreased $545 million, or 4%, in 2024 from 2023. Adjusted total expenses, which excludes acquisition and integration-related costs, amortization of acquired intangible assets, and restructuring costs, increased $681 million, or 6%, in 2025 from 2024 and $240 million, or 2%, in 2024 from 2023. See Non-GAAP Financial Measures for further details and a reconciliation of such measures to GAAP reported results. We currently anticipate total expenses excluding interest in full-year 2026 will increase approximately 5.5% to 6.5% from 2025. We currently expect the Company’s acquisition of Forge to close in March 2026, and costs related to the operations and integration of Forge would be in addition to the 5.5% to 6.5% expected growth in expenses."
+    },
+    {
+      "claim": "Capital expenditures were 2.5% of total net revenues in 2025, slightly lower than our previously disclosed expected range of approximately 3-5% of total net revenues.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L2386: Capital expenditures were 2.5% of total net revenues in 2025, slightly lower than our previously disclosed expected range of approximately 3-5% of total net revenues. We anticipate capital expenditures for 2026 to be within our longer term expectation of 3-5% of total net revenues."
+    },
+    {
+      "claim": "Second quarter of 2026 includes incremental capital expenditures of $633 million related to a multi-year software license agreement with a corresponding liability recognized in long-term debt.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L1014: Second quarter of 2026 includes incremental capital expenditures of $633 million related to a multi-year software license agreement with a corresponding liability recognized in long-term debt."
+    },
+    {
+      "claim": "SCHW Valuation Insights, FY ended 2025-12-31, with the latest quarter (three months ended 2026-09-30, filing 0000316709-26-000035). No calculations were performed by the model. Every computed figure below is a supplied calculation, labeled \"computed, rechecked given calculations.\"",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited Revenues value: 23921000000; period 2025-12-31; filing 0000316709-26-000009",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag Revenues, period end 2025-12-31, filing 0000316709-26-000009"
+    },
+    {
+      "claim": "Cited Revenues value: 19606000000; period 2024-12-31; filing 0000316709-25-000010",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag Revenues, period end 2024-12-31, filing 0000316709-25-000010"
+    },
+    {
+      "claim": "Cited NetIncomeLoss value: None; period 2025-12-31; filing 0000316709-26-000009; prior period end 2024-12-31, filing 0000316709-25-000010",
+      "status": "unsupported",
+      "reason": "XBRL value or citation does not match saved facts",
+      "correction": "",
+      "source": "XBRL tag NetIncomeLoss, period end 2025-12-31, filing 0000316709-26-000009; prior period end 2024-12-31, filing 0000316709-25-000010"
+    },
+    {
+      "claim": "Cited EarningsPerShareDiluted value: None; period 2025-12-31; filing 0000316709-26-000009; prior period end 2024-12-31, filing 0000316709-25-000010",
+      "status": "unsupported",
+      "reason": "XBRL value or citation does not match saved facts",
+      "correction": "",
+      "source": "XBRL tag EarningsPerShareDiluted, period end 2025-12-31, filing 0000316709-26-000009; prior period end 2024-12-31, filing 0000316709-25-000010"
+    },
+    {
+      "claim": "1) CASH GENERATION: MIXED (strong FY2025 level, but the prior-year base was low and the drivers are not explained in the supplied evidence)",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited NetCashProvidedByUsedInOperatingActivities value: 9311000000; period 2025-12-31; filing 0000316709-26-000009",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2025-12-31, filing 0000316709-26-000009"
+    },
+    {
+      "claim": "Cited PaymentsToAcquirePropertyPlantAndEquipment value: 548000000; period 2025-12-31; filing 0000316709-26-000009",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2025-12-31, filing 0000316709-26-000009"
+    },
+    {
+      "claim": "- Free cash flow, computed, rechecked given calculations: 9311000000 - 548000000 = 8,763,000,000 USD. Inputs: the two FY2025 XBRL facts cited above.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Net cash inflows from operations during 2025 were $9.3 billion.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L2957: The Company’s cash and cash equivalents increased $3.9 billion from year-end 2024 to $46.0 billion at December 31, 2025; cash and cash equivalents, including amounts restricted, increased $4.1 billion from year-end 2024 to $69.7 billion at December 31, 2025. These increases were due to net investing cash inflows of $24.5 billion, which were driven by net inflows of $37.6 billion from our AFS and HTM securities, partially offset by net outflows of $12.8 billion due to strong growth in bank loans. Net cash inflows from operations during 2025 were $9.3 billion. Increases in investing and operating cash flows were partially offset by net financing outflows of $29.7 billion, primarily due to paydowns of FHLB borrowings and other short-term borrowings by a net total of $14.0 billion, repurchases of common and nonvoting common stock for $7.3 billion, and the redemption of Series G preferred stock for $2.5 billion. Additionally, net financing outflows related to decreases in bank deposits during 2025 were $3.4 billion, primarily due to a decrease of $25.7 billion in brokered CDs, partially offset by a $21.8 billion increase in deposits swept from brokerage accounts."
+    },
+    {
+      "claim": "net financing outflows of $29.7 billion, primarily due to paydowns of FHLB borrowings and other short-term borrowings by a net total of $14.0 billion, repurchases of common and nonvoting common stock for $7.3 billion, and the redemption of Series G preferred stock for $2.5 billion.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L2957: The Company’s cash and cash equivalents increased $3.9 billion from year-end 2024 to $46.0 billion at December 31, 2025; cash and cash equivalents, including amounts restricted, increased $4.1 billion from year-end 2024 to $69.7 billion at December 31, 2025. These increases were due to net investing cash inflows of $24.5 billion, which were driven by net inflows of $37.6 billion from our AFS and HTM securities, partially offset by net outflows of $12.8 billion due to strong growth in bank loans. Net cash inflows from operations during 2025 were $9.3 billion. Increases in investing and operating cash flows were partially offset by net financing outflows of $29.7 billion, primarily due to paydowns of FHLB borrowings and other short-term borrowings by a net total of $14.0 billion, repurchases of common and nonvoting common stock for $7.3 billion, and the redemption of Series G preferred stock for $2.5 billion. Additionally, net financing outflows related to decreases in bank deposits during 2025 were $3.4 billion, primarily due to a decrease of $25.7 billion in brokered CDs, partially offset by a $21.8 billion increase in deposits swept from brokerage accounts."
+    },
+    {
+      "claim": "- Why mixed: operating cash flow was 2,670,000,000 in 2024 [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "10-K.txt:L2958: The Company’s cash and cash equivalents decreased $1.3 billion from year-end 2023 to $42.1 billion at December 31, 2024; cash and cash equivalents, including amounts restricted, decreased $9.0 billion from year-end 2023 to $65.5 billion at December 31, 2024. These decreases reflected a net reduction of bank supplemental funding balances of $29.7 billion and maturities of long-term debt of $3.7 billion. Bank deposits decreased in 2024 by $30.8 billion, which reflected a net decrease in brokered CDs of $20.6 billion, as well as a $9.7 billion decrease in deposits swept from brokerage accounts due to client cash allocations and engagement with equity markets. The average pace of client cash allocations out of sweep products into higher-yielding investment solutions decreased in 2024. The Company reduced FHLB borrowings and other short-term borrowings by a net total of $10.3 billion. Partially offsetting the decrease in bank deposits and repayment of borrowings, net investing cash inflows from our AFS and HTM securities totaled $40.9 billion in 2024 and net cash inflows from operations totaled $2.7 billion."
+    },
+    {
+      "claim": "2) PROFITABILITY: MIXED",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "- Operating margin: operating income is not available in the supplied XBRL data [operating_income tag null]. The supplied operating_margin formula is \"None / 23921000000\" with value null. The supplied missing-fact filing passages contain no operating income line, so operating margin is not established by the supplied evidence.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited NetIncomeLoss value: 8852000000; period 2025-12-31; filing 0000316709-26-000009",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag NetIncomeLoss, period end 2025-12-31, filing 0000316709-26-000009"
+    },
+    {
+      "claim": "Cited StockholdersEquity value: 49425000000; period 2025-12-31; filing 0000316709-26-000009",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag StockholdersEquity, period end 2025-12-31, filing 0000316709-26-000009"
+    },
+    {
+      "claim": "Cited StockholdersEquity value: 48375000000; period 2024-12-31; filing 0000316709-25-000010",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag StockholdersEquity, period end 2024-12-31, filing 0000316709-25-000010"
+    },
+    {
+      "claim": "- Latest quarter (three months ended 2026-09-30): GAAP diluted EPS was 1.62 [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L128: Diluted earnings per common share"
+    },
+    {
+      "claim": "Excluding $151 million of pre-tax transaction-related costs",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L14: – The Charles Schwab Corporation reported net income for the third quarter totaling $2.9 billion, or earnings per share of $1.62. Excluding $151 million of pre-tax transaction-related costs, adjusted"
+    },
+    {
+      "claim": "Inputs: [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L96: 7,171"
+    },
+    {
+      "claim": "and [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L98: 6,135"
+    },
+    {
+      "claim": "- The release also shows a quarterly GAAP pre-tax profit margin of 52.7% [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L151: Pre-tax profit margin"
+    },
+    {
+      "claim": "and an annualized GAAP return on average common stockholders' equity of 25% [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L2838: Return on average common stockholders’ equity — annualized (GAAP)"
+    },
+    {
+      "claim": "3) FUNDING RISK: MIXED",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities value: 22199000000; period 2025-12-31; filing 0000316709-26-000009",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities, period end 2025-12-31, filing 0000316709-26-000009"
+    },
+    {
+      "claim": "Cited StockholdersEquity value: 49425000000; period 2025-12-31; filing 0000316709-26-000009",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag StockholdersEquity, period end 2025-12-31, filing 0000316709-26-000009"
+    },
+    {
+      "claim": "Total other short-term borrowings outstanding at December 31, 2025 and 2024 were $ 6.9 billion and $",
+      "status": "wrong",
+      "reason": "Quoted text does not match the cited filing line",
+      "correction": "Total other short-term borrowings outstanding at December 31, 2025 and 2024 were $",
+      "source": "10-K.txt:L7962: Total other short-term borrowings outstanding at December 31, 2025 and 2024 were $"
+    },
+    {
+      "claim": "The balance sheet lines read \"Other short-term borrowings\" 6,913 and 5,999 [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "10-K.txt:L4091: Other short-term borrowings"
+    },
+    {
+      "claim": "- The maturity table lists FHLB borrowings of 1,850 and other short-term borrowings of 6,913 for 2026 [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "10-K.txt:L8007: Annual maturities on FHLB borrowings and other short-term borrowings outstanding at December 31, 2025 are as follows:"
+    },
+    {
+      "claim": "liabilities for securities loaned totaled $25.1 billion and are included in payables to brokers, dealers, and clearing organizations",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L2954: CS&Co maintains unsecured uncommitted bank credit lines with a group of banks as a source of short-term liquidity, which can also be accessed by CSC. CS&Co also maintains secured uncommitted lines of credit, under which CS&Co may borrow on a short-term basis and pledge either client margin securities or firm securities as collateral, based on the terms of the agreements. CS&Co also engages with external financial institutions in repurchase agreements collateralized by client margin securities as a source of liquidity. Additionally, CS&Co is able to lend eligible securities held in client brokerage accounts in exchange for cash collateral as a source of short-term liquidity. As of December 31, 2025, liabilities for securities loaned totaled $25.1 billion and are included in payables to brokers, dealers, and clearing organizations on the consolidated balance sheets. At December 31, 2025, $15.0 billion of securities loaned had overnight and continuous remaining contractual maturities; $10.1 billion of securities loaned had contractual maturities of 35-95 days and had a weighted-average interest rate of 3.97%. See Item 8 – Note 17 for additional information on securities lending activities."
+    },
+    {
+      "claim": "incremental capital expenditures of $633 million related to a multi-year software license agreement with a corresponding liability recognized in long-term debt.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L1014: Second quarter of 2026 includes incremental capital expenditures of $633 million related to a multi-year software license agreement with a corresponding liability recognized in long-term debt."
+    },
+    {
+      "claim": "- Why mixed: the supplied ratio of 0.449 is moderate, but it covers only part of the funding stack. A fuller leverage measure is not established by the supplied evidence, so I request it below.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "4) VALUATION: UNSUPPORTED",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited EarningsPerShareDiluted value: 4.65; period 2025-12-31; filing 0000316709-26-000009",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag EarningsPerShareDiluted, period end 2025-12-31, filing 0000316709-26-000009"
+    },
+    {
+      "claim": "Newer GAAP quarterly EPS was 1.62 for the three months ended 2026-09-30 [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L128: Diluted earnings per common share"
+    },
+    {
+      "claim": "- Peers: the supplied peer data is empty (peers: {}). A peer P/E comparison is not established by the supplied evidence, so the 20.08x multiple cannot be judged as cheap or expensive.",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "Cited NetCashProvidedByUsedInOperatingActivities value: 9311000000; period 2025-12-31; filing 0000316709-26-000009",
+      "status": "unsupported",
+      "reason": "Source value appears in paragraph; claim-to-value association requires model review",
+      "correction": "",
+      "source": "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2025-12-31, filing 0000316709-26-000009"
+    },
+    {
+      "claim": "Insight: The 20.08x P/E rests on a mismatch, a user-supplied 93.37 price with no quote timestamp (run time 2026-11-05) against FY2025 diluted EPS of 4.65, and no peer figures were supplied to anchor it. [Computed, rechecked given calculations: 93.37 / 4.65 = 20.079569892473117 ratio; inputs: user-supplied --price at run time 2026-11-05T09:29:15-05:00, market quote timestamp not provided; XBRL tag EarningsPerShareDiluted, period end 2025-12-31, filing 0000316709-26-000009]",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    },
+    {
+      "claim": "is expected to close in March 2026, subject to customary closing conditions, including regulatory approvals.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L244: On November 6, 2025, Schwab announced that it had entered into a definitive agreement to acquire Forge Global Holdings, Inc. (Forge), operator of a leading private market platform and trading marketplace, in a transaction valued at approximately $660 million. The Company anticipates that incorporating Forge’s private company investment capabilities will enhance Schwab’s ability to meet the evolving needs of investors across our growing client base. The transaction was approved by Forge’s stockholders in January 2026, and is expected to close in March 2026, subject to customary closing conditions, including regulatory approvals."
+    },
+    {
+      "claim": "we may not realize the anticipated benefits from an acquisition, including our acquisition of Forge, in a timely manner or at all",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L509: We evaluate potential strategic transactions, including business combinations, acquisitions, and dispositions. Any such transaction, including our acquisition of Forge, could have a material impact on our financial position, results of operations, or cash flows. The process of evaluating, negotiating, effecting, and integrating any such strategic transaction may divert management’s attention from other business concerns, and might cause the loss of key clients, employees, and business partners. Moreover, integrating businesses and systems may result in unforeseen expenditures as well as numerous risks and uncertainties, including the need to integrate operational, financial, and management information systems and management controls, integrate relationships with clients and business partners, and manage facilities and employees in different geographic areas. The integration process could result in the disruption of ongoing businesses or changes to inconsistent standards, controls, procedures and policies that could adversely affect our ability to maintain relationships with clients, employees, outsourced service providers and vendors. In addition, an acquisition may cause us to assume liabilities or become subject to litigation or regulatory proceedings or require the amortization of a large amount of acquired intangible assets. Further, we may not realize the anticipated benefits from an acquisition, including our acquisition of Forge, in a timely manner or at all, and any future acquisition could be dilutive to our current stockholders’ percentage ownership or to earnings per common share (EPS)."
+    },
+    {
+      "claim": "expanded access to select cryptocurrencies expected to be offered to clients beginning in 2026",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L264: Digital assets – cryptocurrency exchange-trade products (ETPs), options on select cryptocurrency ETPs, cryptocurrency futures, with expanded access to select cryptocurrencies expected to be offered to clients beginning in 2026;"
+    },
+    {
+      "claim": "plans to expand digital assets available in Schwab Crypto",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L71: trading platform and plans to expand digital assets available in Schwab Crypto"
+    },
+    {
+      "claim": "Client demand for digital assets is uncertain and may fluctuate significantly due to market volatility, regulatory developments, or changes in investor sentiment.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L512: In 2026, the Company anticipates it will begin offering expanded client access to trading in digital assets including spot trading in select cryptocurrencies. Expansion of digital asset client offerings presents significant new risks to the Company, including risks related to digital asset custody, trading, settlement, and liquidity, and increased risk related to fraud and other illicit activity. Client demand for digital assets is uncertain and may fluctuate significantly due to market volatility, regulatory developments, or changes in investor sentiment. The regulatory landscape for cryptocurrencies is evolving and uncertain, and changes in laws, regulations, or regulatory interpretations could prohibit or limit our ability to offer these products, increase compliance costs, or expose us to increased regulatory scrutiny."
+    },
+    {
+      "claim": "Total common stock repurchased during the year amounted to $7.3 billion.",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "10-K.txt:L1193: The Company returned meaningful excess capital in 2025. Total common stock repurchased during the year amounted to $7.3 billion. In addition, the Company increased its common dividend by 8% to $.27 per share in the first quarter of 2025, and redeemed its Series G preferred stock for $2.5 billion in the second quarter. Inclusive of these capital actions and organic capital generation from net income, the Company’s consolidated Tier 1 Leverage Ratio was 9.3% at year-end 2025, down from 9.9% at December 31, 2024. Our consolidated adjusted Tier 1 Leverage Ratio"
+    },
+    {
+      "claim": "$60.7 billion related to long/short strategies",
+      "status": "unsupported",
+      "reason": "Quote matches; claim meaning, period, and definition require model review",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L64: Margin loan balances increased 14% quarter-over-quarter to $187.9 billion at quarter-end, including $60.7 billion related to long/short strategies"
+    },
+    {
+      "claim": "Part of it came from funding-cost relief [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "10-K.txt:L1759: Net interest revenue increased $2.6 billion, or 28%, in 2025 from 2024 primarily due to lower balances of bank supplemental funding, lower average rates paid on funding sources, growth in margin and bank lending, and increases in securities lending revenue, partially offset by lower yields on floating-rate assets due to lower market rates. Average interest-earning assets for 2025 decreased slightly compared to 2024. This decrease was primarily due to lower average balances in AFS and HTM securities, as cash inflows from investment securities were used to pay down bank supplemental funding, largely offset by higher balances of cash and investments segregated, growth in margin lending which was supported by higher payables to brokerage clients and payables to brokers, dealers, and clearing organizations, and increased bank lending."
+    },
+    {
+      "claim": "Track whether expense growth returns toward the guided 5.5% to 6.5% range, and how much of any overage is Forge [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "10-K.txt:L2368: Total expenses excluding interest increased $548 million, or 5%, in 2025 from 2024, and decreased $545 million, or 4%, in 2024 from 2023. Adjusted total expenses, which excludes acquisition and integration-related costs, amortization of acquired intangible assets, and restructuring costs, increased $681 million, or 6%, in 2025 from 2024 and $240 million, or 2%, in 2024 from 2023. See Non-GAAP Financial Measures for further details and a reconciliation of such measures to GAAP reported results. We currently anticipate total expenses excluding interest in full-year 2026 will increase approximately 5.5% to 6.5% from 2025. We currently expect the Company’s acquisition of Forge to close in March 2026, and costs related to the operations and integration of Forge would be in addition to the 5.5% to 6.5% expected growth in expenses."
+    },
+    {
+      "claim": "Watch the dependence on TD-linked deposit fees given the shrinking BDA base [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "10-K.txt:L2233: Bank deposit account fees increased $248 million, or 34%, in 2025 compared to 2024, primarily due to a decrease in the amount paid to clients as a result of lower interest rates. This was partially offset by lower average BDA balances, which reduced the base on which bank deposit account fees are earned. The decrease in average BDA balances in 2025 compared to 2024 was primarily due to the transfer of $6.7 billion of BDA balances to Schwab’s balance sheet after September 10, 2025, as well as client cash allocation decisions in 2024 in response to elevated short-term market interest rates through most of 2024. Pursuant to the 2023 IDA agreement, after September 10, 2025, Schwab has broader discretion to withdraw balances, subject to certain constraints, as described in Item 8"
+    },
+    {
+      "claim": "A next-filing (FY2026 10-K) annualized core net new asset organic growth rate below the 5.1% reported for 2025 [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "10-K.txt:L1175: With equity market gains and strong client asset gathering, Schwab’s total client assets reached $11.90 trillion at December 31, 2025, up 18% on the year. Core net new assets for 2025 totaled $519.4 billion, increasing 42% from the prior year, and resulting in an annualized organic growth rate of 5.1%. In 2025, clients opened 4.7 million new brokerage accounts, an increase of 13% from the prior year, and active brokerage accounts totaled 38.5 million as of December 31, 2025, up 6% from year-end 2024. Our clients were highly engaged with the markets in 2025; clients’ DATs were 7.7 million for full-year 2025 and 8.3 million in the fourth quarter, increasing 31% over both the prior year-to-date and fourth-quarter periods."
+    },
+    {
+      "claim": "It would show the 2025 gain, and the 5.8% quarterly rate in the Q3 2026 release [",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "earnings_release_Ex99-1.txt:L22: “During the third quarter, clients opened 1.2 million new brokerage accounts and entrusted Schwab with $190.4 billion in core net new assets – an annualized growth rate of 5.8%. We are delivering new capabilities and solutions, while our leading value proposition continues to resonate with investors and RIAs.”"
+    },
+    {
+      "claim": "[",
+      "status": "unsupported",
+      "reason": "Line existence alone does not establish support for this claim",
+      "correction": "",
+      "source": "10-K.txt:L1188: Schwab supported strong client demand for margin and bank lending in 2025, while significantly reducing bank supplemental funding to within a range generally consistent with our diversified funding strategy. Balance sheet assets totaled $491.0 billion as of December 31, 2025, higher by 2% from year-end 2024. Principal and interest from our AFS and HTM securities portfolios along with normal client cash behavior supported reduction of bank supplemental funding, which has included brokered CDs, FHLB borrowings, and borrowings under repurchase agreements at our banks. The Company reduced bank supplemental funding in 2025 by $44.8 billion, or 90%, to $5.1 billion at year-end 2025. Client sweep cash trends improved in 2025, with bank sweep deposits and payables to brokerage clients increasing by a total of $36.6 billion, or 12%. Client demand for margin loans increased significantly in 2025, with margin loans ending the year at $112.3 billion, up 34% from year-end 2024 and up 16% during the fourth quarter alone, supported by growth in bank and broker-dealer sweep cash, as well as wholesale funding. The growth in margin lending in 2025 reflects strong client demand and engagement amid rising equity markets and long/short strategies implemented by RIA clients. Bank loans totaled $58.0 billion at year-end 2025, increasing 28% during the year due primarily to growth of PALs and First Mortgages, which ended the year at $26.6 billion and $30.5 billion, respectively."
+    },
+    {
+      "claim": "Insight: At 20.08x P/E on FY2025 diluted EPS of 4.65, with no peer figures supplied and no quote timestamp on the price, the valuation cannot confirm that strong results are not already priced in, which argues for Hold rather than Buy. [Computed, rechecked given calculations: 93.37 / 4.65 = 20.079569892473117 ratio; XBRL tag EarningsPerShareDiluted, period end 2025-12-31, filing 0000316709-26-000009]",
+      "status": "unsupported",
+      "reason": "Number has no source citation",
+      "correction": "",
+      "source": ""
+    }
+  ]
+}

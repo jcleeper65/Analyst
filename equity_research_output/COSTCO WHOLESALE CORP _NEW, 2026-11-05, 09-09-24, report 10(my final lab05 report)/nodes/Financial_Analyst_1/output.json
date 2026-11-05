@@ -1,0 +1,84 @@
+{
+  "draft": "COST (FY ended 2026-08-30): Valuation Insights\n\nScope note: I did not calculate anything. Every ratio below is a supplied calculation, labelled \"computed, rechecked given calculations\", with its arithmetic and input citations reproduced. Calculations I could not take from the supplied data are listed in calculator_requests.\n\n1. CASH GENERATION: SUPPORTED\n- Operating cash flow was 15,817,000,000 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093]. The prior year was 13,335,000,000 [same tag, period end 2025-08-31, filing 0000909832-25-000101].\n- Capital spending was 6,435,000,000 [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093]. The prior year was 5,498,000,000 [same tag, period end 2025-08-31, filing 0000909832-25-000101].\n- Free cash flow (computed, rechecked given calculations): 15,817,000,000 - 6,435,000,000 = 9,382,000,000 USD. Inputs: the two FY2026 tags cited above.\n- Prior-year free cash flow, capex as a share of operating cash flow, and growth rates were not supplied. I have requested them.\n- Revenue of 303,154,000,000 versus 275,235,000,000 [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period ends 2026-08-30 and 2025-08-31, filings 0000909832-26-000093 and 0000909832-25-000101] is supported by operating cash flow that exceeds capex.\n- Supplied revenue growth (computed, rechecked given calculations): (303154000000 - 275235000000) / 275235000000 = 10.143695387577887%.\n- Cash financing activity: net cash used in financing activities was $3,355 in 2026 versus $3,775 in 2025 [10-K.txt:L1020]. Dollar amounts in 10-K lines are as shown in the filing text.\n\n2. PROFITABILITY: SUPPORTED, WITH THIN-MARGIN CONTEXT\n- Operating margin (computed, rechecked given calculations): 11685000000 / 303154000000 = 3.8544766026507977%. Definition: operating income divided by total revenue. Inputs: [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093] and [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093].\n- Return on average equity (computed, rechecked given calculations): 9226000000 / ((35803000000 + 29164000000) / 2) = 28.402111841396398%. Definition: reported net income fact divided by the simple average of current and prior year-end stockholders' equity. Inputs:\n  - [XBRL tag NetIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093]\n  - [XBRL tag StockholdersEquity, period end 2026-08-30, filing 0000909832-26-000093]\n  - [XBRL tag StockholdersEquity, period end 2025-08-31, filing 0000909832-25-000101]\n- Noncontrolling interest income is not available in the supplied XBRL data (tag null). The supplied 10-K passages do not address it, so it is not established by the supplied evidence. The numerator is therefore the NetIncomeLoss fact, which the supplied data also uses as net income attributable to parent.\n- Peer operating margins as supplied (computed, rechecked given calculations by the supplied peer data):\n  - WMT 4.182073382943311% (period end 2026-01-31)\n  - TGT 4.8835655659477% (period end 2026-01-31)\n  - BJ 3.8057210808791457% (period end 2026-01-31)\n  - Comparability limit: the peers' periods end 2026-01-31, about seven months before COST's 2026-08-30. This is a loose comparison only.\n- Peer return on equity was not supplied.\n\n3. FUNDING RISK: SUPPORTED, WITH A DEFINITION LIMIT\n- Debt to equity (computed, rechecked given calculations): (3914000000 + 2248000000) / 35803000000 = 0.17210848252939698 ratio.\n- Debt components included, with the current portion counted once:\n  - [XBRL tag LongTermDebtNoncurrent, period end 2026-08-30, filing 0000909832-26-000093] = 3,914,000,000\n  - [XBRL tag LongTermDebtCurrent, period end 2026-08-30, filing 0000909832-26-000093] = 2,248,000,000\n  - Denominator: [XBRL tag StockholdersEquity, period end 2026-08-30, filing 0000909832-26-000093] = 35,803,000,000\n- Excluded by the supplied definition: repos, secured financings, and lease liabilities not captured by the selected debt tags.\n- Debt structure moved toward near-term maturities. LongTermDebtNoncurrent was 5,713,000,000 at 2025-08-31 and LongTermDebtCurrent was 75,000,000 at 2025-08-31 [filing 0000909832-25-000101]. At 2026-08-30 they were 3,914,000,000 and 2,248,000,000. The cash balance was not supplied, so coverage of the current portion is not established by the supplied evidence.\n- ShortTermBorrowings is not available in the supplied XBRL data. The supplied filing passages say:\n  - \"There were no short-term borrowings outstanding under the bank credit facilities at the end of 2026.\" [10-K.txt:L1030]. This is limited to the bank credit facilities, so I do not treat it as zero for all short-term debt.\n  - \"There were no short-term borrowings outstanding at the end of 2026, and short-term borrowings were immaterial at the end of 2025.\" [10-K.txt:L2278, Note 4, Short-Term Borrowings]. This appears in the note on the bank credit facilities. The supplied D/E does not include any short-term borrowing amount.\n- Borrowing capacity under bank credit facilities was $2,118 at August 30, 2026 [10-K.txt:L1030]. The U.S. revolver was extended to August 2027 [10-K.txt:L1030], so the facilities themselves mature within a year.\n- Peer debt to equity was not supplied. Peer debt components differ: WMT reports ShortTermBorrowings of 6,596,000,000 [XBRL tag ShortTermBorrowings, period end 2026-01-31, filing 0000104169-26-000055], while TGT and BJ have no ShortTermBorrowings value supplied. I will not compare funding ratios until the same definition is computed for all.\n\n4. VALUATION: UNSUPPORTED AS A RELATIVE-VALUE CLAIM; ABSOLUTE P/E SUPPLIED\n- P/E (computed, rechecked given calculations): 992.13 / 20.76 = 47.79046242774566 ratio.\n- Price source: user-supplied --price at run time 2026-11-05T09:09:24-05:00. The market quote timestamp was not provided.\n- EPS input: [XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093] = 20.76. The prior year was 18.21 [same tag, period end 2025-08-31, filing 0000909832-25-000101].\n- Peer P/E is not available. No peer prices were supplied, though peer diluted EPS was: WMT 2.73, TGT 8.13, BJ 4.38, all for period end 2026-01-31. I cannot state that COST's multiple is high or low versus peers without peer prices on a comparable date. Peer P/E is requested below. Peer fiscal periods also differ from COST's.\n- EPS context: Q4 net income was $2.998 billion, or $6.75 per diluted share, versus $2.610 billion, or $5.87, a year earlier. Q4 \"was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values.\" [earnings_release_Ex99-1.txt:L44]\n- Supplied share of full-year EPS (computed, rechecked given calculations): 0.15 / 20.76 * 100 = 0.722543352601156%. Inputs: the earnings release L44 quote above and [XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093].\n\n5. LATEST QUARTER\n- Total revenue was 95,723 versus 86,156 [earnings_release_Ex99-1.txt:L83-L85; quote: \"Total revenue\\n95,723\\n86,156\"].\n- Quarter revenue growth (computed, rechecked given calculations): (95723.0 - 86156.0) / 86156.0 * 100 = 11.104275964529458%.\n- GAAP diluted EPS was $6.75 [earnings_release_Ex99-1.txt:L137-L137; quote: \"6.75\"]. No adjusted EPS flags were supplied.\n\n6. WHAT WOULD CHANGE MY VIEW\n- Measure: next reported free cash flow. The current cited value is 9,382,000,000 [computed from XBRL tags NetCashProvidedByUsedInOperatingActivities and PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093].\n- A decline below this level, for example if capex grows faster than operating cash flow, would weaken my view. At 47.79 times EPS, the valuation depends on cash-funded growth continuing.\n\nInsight: Costco's growth in FY2026 was funded internally, and the non-recurring tariff-refund benefit explains very little of the EPS behind the P/E: operating cash flow covered capex with 9,382,000,000 of free cash flow left, while the $0.15 refund benefit was only 0.722543352601156% of FY EPS. [Computed, rechecked given calculations: free cash flow = 15817000000 - 6435000000 = 9382000000 USD, from XBRL tag NetCashProvidedByUsedInOperatingActivities and XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093; refund share = 0.15 / 20.76 * 100 = 0.722543352601156%, from earnings_release_Ex99-1.txt:L44 quote \"non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds\" and XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093]",
+  "calculator_requests": [
+    {
+      "name": "COST prior-year free cash flow",
+      "formula": "13335000000 - 5498000000",
+      "inputs": [
+        "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2025-08-31, filing 0000909832-25-000101",
+        "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2025-08-31, filing 0000909832-25-000101"
+      ]
+    },
+    {
+      "name": "COST capex as percent of operating cash flow, FY2026",
+      "formula": "6435000000 / 15817000000 * 100",
+      "inputs": [
+        "XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093",
+        "XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093"
+      ]
+    },
+    {
+      "name": "COST operating cash flow growth and capex growth",
+      "formula": "(15817000000 - 13335000000) / 13335000000 * 100; (6435000000 - 5498000000) / 5498000000 * 100",
+      "inputs": [
+        "COST.cash_from_operations.current and .prior",
+        "COST.additions_to_property_and_equipment.current and .prior"
+      ]
+    },
+    {
+      "name": "COST diluted EPS growth and net income growth",
+      "formula": "(20.76 - 18.21) / 18.21 * 100; (9226000000 - 8099000000) / 8099000000 * 100",
+      "inputs": [
+        "COST.diluted_eps.current and .prior",
+        "COST.net_income.current and .prior"
+      ]
+    },
+    {
+      "name": "COST FY2026 free cash flow as percent of net income",
+      "formula": "9382000000 / 9226000000 * 100",
+      "inputs": [
+        "supplied COST free_cash_flow",
+        "XBRL tag NetIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093"
+      ]
+    },
+    {
+      "name": "Peer free cash flow (WMT, TGT, BJ), latest fiscal year",
+      "formula": "cash_from_operations - additions_to_property_and_equipment for each peer",
+      "inputs": [
+        "WMT.cash_from_operations.current",
+        "WMT.additions_to_property_and_equipment.current",
+        "TGT.cash_from_operations.current",
+        "TGT.additions_to_property_and_equipment.current",
+        "BJ.cash_from_operations.current",
+        "BJ.additions_to_property_and_equipment.current"
+      ]
+    },
+    {
+      "name": "Peer return on average equity (WMT, TGT, BJ)",
+      "formula": "net_income_attributable_to_parent.current / ((stockholders_equity.current + stockholders_equity.prior) / 2) * 100",
+      "inputs": [
+        "WMT.net_income_attributable_to_parent.current, WMT.stockholders_equity.current and .prior",
+        "TGT.net_income_attributable_to_parent.current, TGT.stockholders_equity.current and .prior",
+        "BJ.net_income_attributable_to_parent.current, BJ.stockholders_equity.current and .prior"
+      ]
+    },
+    {
+      "name": "Peer debt to equity on a matched definition",
+      "formula": "(long_term_debt + current_portion_of_long_term_debt + short_term_borrowings where available) / stockholders_equity; state components used for each peer",
+      "inputs": [
+        "WMT.long_term_debt.current, WMT.current_portion_of_long_term_debt.current, WMT.short_term_borrowings.current, WMT.stockholders_equity.current",
+        "TGT.long_term_debt.current, TGT.stockholders_equity.current",
+        "BJ.long_term_debt.current, BJ.current_portion_of_long_term_debt.current, BJ.stockholders_equity.current"
+      ]
+    },
+    {
+      "name": "Peer P/E (WMT, TGT, BJ)",
+      "formula": "peer price / peer diluted EPS. Peer prices and quote dates are not supplied, so provide them on a date comparable to COST's user-supplied 992.13 price.",
+      "inputs": [
+        "WMT.diluted_eps.current = 2.73",
+        "TGT.diluted_eps.current = 8.13",
+        "BJ.diluted_eps.current = 4.38"
+      ]
+    }
+  ]
+}

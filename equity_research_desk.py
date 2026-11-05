@@ -13,6 +13,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from report_naming import create_run
+
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
@@ -132,21 +134,9 @@ class Desk:
 
     def create_output_dir(self, company: str | None = None) -> Path:
         company = company or self.company
-        stamp = self.run_started_at.strftime("%Y%m%d_%H%M%S")
-        safe_name = re.sub(r"[^A-Za-z0-9._-]+", "_", company).strip("_") or "company"
         root = Path(__file__).with_name("equity_research_output")
-        root.mkdir(parents=True, exist_ok=True)
-        base = f"{safe_name}_{stamp}"
-        for suffix in range(1000):
-            name = base if suffix == 0 else f"{base}_{suffix:02d}"
-            candidate = root / name
-            try:
-                candidate.mkdir(exist_ok=False)
-            except FileExistsError:
-                continue
-            self.output_dir = candidate
-            return candidate
-        raise RuntimeError("Could not create a unique output folder")
+        self.output_dir = create_run(root, company, self.run_started_at, "report")
+        return self.output_dir
 
     def step2(self) -> None:
         print("Step 2/7: Find latest 10-K, 10-Q, and qualifying earnings 8-K.", flush=True)

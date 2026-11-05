@@ -1,0 +1,525 @@
+{
+  "task": "Verify every number in every Insight line, including Investment Advisor Insight lines, and every other non-thesis number. Check the stated period and definition, and give source-backed corrections for wrong or unsupported values.",
+  "context": {
+    "compiled_report": "Filings read: 10-K 0000909832-26-000093, 10-Q 0000909832-26-000051, 8-K 0000909832-26-000084\nRun time: 2026-11-05T08:45:47-05:00\n\n## Overview\n**Source limits.** The 10-K Business and MD&A sections were not available: \"10-K.txt: Item 1 section was not found.\" and \"10-K.txt: Item 7 section was not found.\" Only the earnings release (earnings_release_Ex99-1.txt) can be cited. Business-model detail, stated competitive advantages, revenue concentration and management's growth plans from Item 1 and Item 7 are therefore \"not stated in the files.\" Management's growth is treated as a claim to test, and the release is the only evidence.\n\nCostco reported fiscal 2026 results for the period ended August 30, 2026: \"Costco Wholesale Corporation (“Costco” or the “Company”) (Nasdaq: COST) today announced its operating results for the 16-week fourth quarter and the 52-week fiscal year ended August 30, 2026.\" [earnings_release_Ex99-1.txt:L9]\n\nThe release states: \"Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.\" [earnings_release_Ex99-1.txt:L10]\n\nMembership fees are a second revenue stream. The label reads \"Membership fees\" [earnings_release_Ex99-1.txt:L78], with fiscal-year values of \"5,907\" [earnings_release_Ex99-1.txt:L81] against \"5,323\" [earnings_release_Ex99-1.txt:L82], in $ millions.\n\nOperating income for the 52 weeks was \"11,685\" [earnings_release_Ex99-1.txt:L102] versus \"10,383\" [earnings_release_Ex99-1.txt:L103]. Net income was \"9,226\" [earnings_release_Ex99-1.txt:L131] versus \"8,099\" [earnings_release_Ex99-1.txt:L133].\n\nThe fourth-quarter result carries a one-time item: \"This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values.\" [earnings_release_Ex99-1.txt:L44]\n\nRevenue concentration by customer, category or member type is \"not stated in the files.\"\n\nInsight: Fiscal 2026 results combine a recurring fee stream (membership fees of $5,907 million versus $5,323 million the prior year) with a one-time fourth-quarter tariff-refund benefit, so the fee line is the recurring element and the refund is not. [earnings_release_Ex99-1.txt:L81] \"5,907\" and [earnings_release_Ex99-1.txt:L44] \"This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values.\"\n\n## Market Positioning and Growth Outlook\n**Criterion 1, Demand durability: SUPPORTED, with gaps.**\n- Sales: the fourth-quarter figure is \"Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year.\" [earnings_release_Ex99-1.txt:L10]\n- Comparable sales: total company 52-week comparable sales are \"8.4%\" [earnings_release_Ex99-1.txt:L36]. The adjusted figure, which excludes gasoline price and foreign exchange effects, is \"6.6%\" [earnings_release_Ex99-1.txt:L37]. The footnote reads \"*Excluding the impacts from changes in gasoline prices and foreign exchange.\" [earnings_release_Ex99-1.txt:L43] Reading the table as 16-week, 16-week adjusted, 52-week, 52-week adjusted, the fourth-quarter adjusted total company comp was \"6.7%\" [earnings_release_Ex99-1.txt:L35].\n- Membership fees: fourth-quarter fees were \"1,850\" [earnings_release_Ex99-1.txt:L79] versus \"1,724\" [earnings_release_Ex99-1.txt:L80]. Deferred membership fees on the balance sheet were \"3,006\" [earnings_release_Ex99-1.txt:L224] versus \"2,854\" [earnings_release_Ex99-1.txt:L225].\n- Gaps: member count, renewal rate and traffic or ticket data are \"not stated in the files.\" Recurring demand rests on sales, comps and fee revenue alone.\n\n**Criterion 2, Competitive position: MIXED.**\n- Adjusted fiscal-year comps are positive in every region: U.S. \"6.6%\" [earnings_release_Ex99-1.txt:L22], Canada \"6.7%\" [earnings_release_Ex99-1.txt:L27], Other International \"6.5%\" [earnings_release_Ex99-1.txt:L32]. The label for the first is \"U.S.\" [earnings_release_Ex99-1.txt:L18].\n- Digitally-enabled comps are strong: the 52-week adjusted figure is \"20.7%\" [earnings_release_Ex99-1.txt:L42] under the label \"Digitally-Enabled\" [earnings_release_Ex99-1.txt:L38].\n- Cost lines rose with sales. Merchandise costs were \"264,279\" [earnings_release_Ex99-1.txt:L92] versus \"239,886\" [earnings_release_Ex99-1.txt:L93]. SG&A was \"27,190\" [earnings_release_Ex99-1.txt:L97] versus \"24,966\" [earnings_release_Ex99-1.txt:L98].\n- Management reinvested some benefit in pricing: \"less partial reinvestment of those refunds in increased member values\" [earnings_release_Ex99-1.txt:L44].\n- Why mixed: competitor comparisons, market share, segment operating income and stated advantages are \"not stated in the files.\" The regional comps show broad demand but do not isolate an advantage over competitors.\n\n**Criterion 3, Growth execution: MIXED.**\n- Footprint: \"Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand.\" [earnings_release_Ex99-1.txt:L45] The release also says \"Costco also operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China.\" [earnings_release_Ex99-1.txt:L45]\n- Investment: additions to property and equipment were \"(6,435)\" [earnings_release_Ex99-1.txt:L310] versus \"(5,498)\" [earnings_release_Ex99-1.txt:L311]. Net property and equipment was \"35,633\" [earnings_release_Ex99-1.txt:L197] versus \"31,909\" [earnings_release_Ex99-1.txt:L198].\n- Funding: operating cash flow was \"15,825\" [earnings_release_Ex99-1.txt:L306] versus \"13,335\" [earnings_release_Ex99-1.txt:L307]. Cash and cash equivalents were \"20,207\" [earnings_release_Ex99-1.txt:L177] versus \"14,161\" [earnings_release_Ex99-1.txt:L179].\n- Cost of expansion: depreciation and amortization was \"2,674\" [earnings_release_Ex99-1.txt:L291] versus \"2,426\" [earnings_release_Ex99-1.txt:L292].\n- Gaps: planned openings, the capex budget and return on new warehouses are \"not stated in the files.\" The release shows investment rising alongside sales but does not tie it to a stated growth plan.\n\nInsight: Growth is concentrated in digital rather than only broad-based: digitally-enabled adjusted 52-week comps sit well above total company adjusted comps. [earnings_release_Ex99-1.txt:L42] \"20.7%\" versus [earnings_release_Ex99-1.txt:L37] \"6.6%\"\n\n## Valuation Insights\n**Basis:** the supplied facts, supplied calculations, latest-quarter release and peer facts only. No arithmetic was done in the model. Supplied calculations are labelled \"computed, rechecked given calculations\".\n\n**1) CASH GENERATION – SUPPORTED**\n- Operating cash flow was 15,817,000,000 [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093]. The prior year was 13,335,000,000 [same tag, period end 2025-08-31, filing 0000909832-25-000101].\n- Capital spending was 6,435,000,000 [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093]. The prior year was 5,498,000,000 [same tag, period end 2025-08-31, filing 0000909832-25-000101].\n- Free cash flow, computed, rechecked given calculations: 15817000000 - 6435000000 = 9,382,000,000 USD. Inputs: [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093] and [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093].\n- Growth was funded by internal cash flow, and capex rose alongside it. No prior-year free cash flow was supplied (see calculator_requests).\n\n**2) PROFITABILITY – SUPPORTED, WITH A THIN-MARGIN CAVEAT**\n- Operating margin, computed, rechecked given calculations: 11685000000 / 303154000000 = 3.8544766026507977%. Inputs: [XBRL tag OperatingIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093] and [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period end 2026-08-30, filing 0000909832-26-000093].\n- Return on average equity, computed, rechecked given calculations: 9226000000 / ((35803000000 + 29164000000) / 2) = 28.402111841396398%. Definition as supplied: reported net income fact divided by the simple average of current and prior year-end stockholders' equity. Inputs: [XBRL tag NetIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093]; [XBRL tag StockholdersEquity, period end 2026-08-30, filing 0000909832-26-000093]; [XBRL tag StockholdersEquity, period end 2025-08-31, filing 0000909832-25-000101].\n- Noncontrolling interest income is \"not stated in the files\" (tag null). Net income attributable to parent equals net income at 9,226,000,000 [XBRL tag NetIncomeLoss, period end 2026-08-30, filing 0000909832-26-000093], so the ROE numerator is not affected by a noncontrolling-interest adjustment.\n- Prior-year operating margin was not supplied, so margin change is not assessed. Operating income was 11,685,000,000 versus 10,383,000,000 [XBRL tag OperatingIncomeLoss, period ends 2026-08-30 and 2025-08-31, filings 0000909832-26-000093 and 0000909832-25-000101].\n- Peer operating margins as supplied; periods are not aligned, see Valuation: WMT 4.182073382943311% (period end 2026-01-31), TGT 4.8835655659477% (period end 2026-01-31), BJ 3.8057210808791457% (period end 2026-01-31). Same definition (operating income / revenue), but the Costco year ends seven months later and WMT's revenue tag is Revenues, not RevenueFromContractWithCustomerExcludingAssessedTax.\n\n**3) FUNDING RISK – SUPPORTED (LOW LEVERAGE), WITH A MATURITY-TIMING FLAG**\n- Debt to equity, computed, rechecked given calculations: (3914000000 + 2248000000) / 35803000000 = 0.17210848252939698 ratio.\n- Components included: LongTermDebtNoncurrent 3,914,000,000 [XBRL tag LongTermDebtNoncurrent, period end 2026-08-30, filing 0000909832-26-000093] and LongTermDebtCurrent 2,248,000,000 [XBRL tag LongTermDebtCurrent, period end 2026-08-30, filing 0000909832-26-000093]. Equity was 35,803,000,000 [XBRL tag StockholdersEquity, period end 2026-08-30, filing 0000909832-26-000093].\n- Excluded per the supplied definition: repos, secured financings, and lease liabilities not captured by the selected debt tags.\n- ShortTermBorrowings for Costco is \"not stated in the files\" (filing null).\n- The mix shifted. Current portion was 2,248,000,000 versus 75,000,000 a year earlier [XBRL tag LongTermDebtCurrent, period ends 2026-08-30 and 2025-08-31, filings 0000909832-26-000093 and 0000909832-25-000101]. Noncurrent debt was 3,914,000,000 versus 5,713,000,000 [XBRL tag LongTermDebtNoncurrent, same periods and filings]. More debt is due within a year, but 15,817,000,000 of operating cash flow is the funding source cited above.\n\n**4) VALUATION – MIXED (PEER P/E NOT AVAILABLE; PRICE SOURCE LIMITED)**\n- P/E, computed, rechecked given calculations: 992.13 / 20.76 = 47.79046242774566 ratio. EPS input: [XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093], 20.76 versus 18.21 prior year.\n- Price source: user-supplied --price at run time 2026-11-05T08:45:47-05:00. The market quote timestamp was not provided, so the price date is unverified.\n- Peer P/E is \"not stated in the files\": no peer prices were supplied. Peer diluted EPS is supplied: WMT 2.73 [XBRL tag EarningsPerShareDiluted, period end 2026-01-31, filing 0000104169-26-000055]; TGT 8.13 [period end 2026-01-31, filing 0000027419-26-000016]; BJ 4.38 [period end 2026-01-31, filing 0001531152-26-000007].\n- Comparability limits: peer fiscal periods end 2026-01-31, versus Costco's 2026-08-30. WMT's fiscal year is labelled fy 2026 and TGT/BJ fy 2025. No peer valuation conclusion is drawn.\n\n**5) LATEST QUARTER (quarter ended 2026-08-30; release accession 0000909832-26-000084)**\n- Total revenue was 95,723 versus 86,156 (USD as shown) [earnings_release_Ex99-1.txt:L83-L85; quote: \"Total revenue\\n95,723\\n86,156\"].\n- Quarter revenue growth, computed, rechecked given calculations: (95723.0 - 86156.0) / 86156.0 * 100 = 11.104275964529458%. Full-year revenue growth, computed, rechecked given calculations: (303154000000 - 275235000000) / 275235000000 = 10.143695387577887%. Inputs: [XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period ends 2026-08-30 and 2025-08-31, filings 0000909832-26-000093 and 0000909832-25-000101].\n- Quarter GAAP diluted EPS was $6.75 versus $5.87 [earnings_release_Ex99-1.txt:L44; quote: \"Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year.\"].\n- EPS context: the quarter \"was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values\" [earnings_release_Ex99-1.txt:L44]. Computed, rechecked given calculations: 0.15 / 20.76 * 100 = 0.722543352601156% of fiscal-year diluted EPS. Inputs: [earnings_release_Ex99-1.txt:L44] and [XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093]. The one-time item is small relative to full-year EPS, so it does not explain the headline EPS growth. adjusted_eps_flags is empty.\n\n**6) WHAT WOULD CHANGE MY VIEW**\n- Measure: free cash flow. Current value is 9,382,000,000 (computed, rechecked given calculations: 15817000000 - 6435000000) for the year ended 2026-08-30 [XBRL tags NetCashProvidedByUsedInOperatingActivities and PaymentsToAcquirePropertyPlantAndEquipment, filing 0000909832-26-000093].\n- Capex rose to 6,435,000,000 from 5,498,000,000. If the next reported annual free cash flow falls below 9,382,000,000 because capex keeps rising faster than operating cash flow, I would downgrade cash generation to mixed. That would matter more at a 47.79046242774566 P/E and with 2,248,000,000 of debt now current.\n\nInsight: Costco's fiscal 2026 growth was funded internally: after 6,435,000,000 of capital spending, free cash flow was 9,382,000,000, even as the current portion of long-term debt rose to 2,248,000,000 from 75,000,000. [Computed, rechecked given calculations: 15817000000 - 6435000000 = 9,382,000,000 USD; inputs [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093] and [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093]; debt: [XBRL tag LongTermDebtCurrent, period end 2026-08-30, filing 0000909832-26-000093] versus [XBRL tag LongTermDebtCurrent, period end 2025-08-31, filing 0000909832-25-000101]]\n\n## Future Developments and Strategic Recommendations\n- Catalysts visible in the release: digital strength (\"20.7%\" [earnings_release_Ex99-1.txt:L42]), a larger investment base (\"(6,435)\" [earnings_release_Ex99-1.txt:L310]), and growing fee revenue (\"5,907\" [earnings_release_Ex99-1.txt:L81]). Forward guidance and the expansion pipeline are \"not stated in the files.\"\n- Watch items: the current portion of long-term debt rose to \"2,248\" [earnings_release_Ex99-1.txt:L227] from \"75\" [earnings_release_Ex99-1.txt:L228]. The Q4 tariff refund is non-recurring (\"non-recurring benefit of $0.15 per diluted share\" [earnings_release_Ex99-1.txt:L44]), so it should not be extrapolated.\n- Recommendation: retrieve the 10-K Items 1 and 7 before concluding on competitive advantage. They should cover member counts, renewal rates, opening plans and segment profitability, none of which can be verified from this release.\n- What would change my view: my strongest conclusion is demand durability. The test is adjusted total company comparable sales in the next filing. Fiscal 2026 was \"6.6%\" [earnings_release_Ex99-1.txt:L37], and the fourth quarter was \"6.7%\" [earnings_release_Ex99-1.txt:L35]. A clear drop below that level would challenge the conclusion. It would show that headline growth of \"8.4%\" [earnings_release_Ex99-1.txt:L36] leaned on gasoline and currency effects rather than underlying demand.\n\nInsight: Fourth-quarter diluted EPS of $6.75 included a one-time tariff-refund benefit that management partly reinvested in member pricing, so underlying earnings growth was somewhat lower than the headline suggests. [earnings_release_Ex99-1.txt:L44] \"This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values.\"\n\nInsight: At a P/E of 47.79046242774566, Costco's valuation depends on its internally funded growth continuing, and that growth produced free cash flow of 9,382,000,000 after 6,435,000,000 of capital spending. [Computed, rechecked given calculations: 992.13 / 20.76 = 47.79046242774566, with EPS input [XBRL tag EarningsPerShareDiluted, period end 2026-08-30, filing 0000909832-26-000093]; computed, rechecked given calculations: 15817000000 - 6435000000 = 9,382,000,000 USD, inputs [XBRL tag NetCashProvidedByUsedInOperatingActivities, period end 2026-08-30, filing 0000909832-26-000093] and [XBRL tag PaymentsToAcquirePropertyPlantAndEquipment, period end 2026-08-30, filing 0000909832-26-000093]]",
+    "saved_filing_texts": {
+      "earnings_release_Ex99-1.txt": "earnings_release_Ex99-1.txt:L7: Press Release\nearnings_release_Ex99-1.txt:L8: COSTCO WHOLESALE CORPORATION REPORTS FOURTH QUARTER AND FISCAL YEAR 2026 OPERATING RESULTS\nearnings_release_Ex99-1.txt:L9: ISSAQUAH, Wash., September 24, 2026 - Costco Wholesale Corporation (“Costco” or the “Company”) (Nasdaq: COST) today announced its operating results for the 16-week fourth quarter and the 52-week fiscal year ended August 30, 2026.\nearnings_release_Ex99-1.txt:L10: Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.\nearnings_release_Ex99-1.txt:L11: Comparable sales for the fourth quarter and fiscal year were as follows:\nearnings_release_Ex99-1.txt:L12: 16 Weeks\nearnings_release_Ex99-1.txt:L16: Adjusted*\nearnings_release_Ex99-1.txt:L17: Adjusted*\nearnings_release_Ex99-1.txt:L18: U.S.\nearnings_release_Ex99-1.txt:L19: 10.7%\nearnings_release_Ex99-1.txt:L20: 7.2%\nearnings_release_Ex99-1.txt:L21: 8.2%\nearnings_release_Ex99-1.txt:L22: 6.6%\nearnings_release_Ex99-1.txt:L23: Canada\nearnings_release_Ex99-1.txt:L24: 5.0%\nearnings_release_Ex99-1.txt:L25: 4.6%\nearnings_release_Ex99-1.txt:L26: 7.8%\nearnings_release_Ex99-1.txt:L27: 6.7%\nearnings_release_Ex99-1.txt:L28: Other International\nearnings_release_Ex99-1.txt:L29: 7.0%\nearnings_release_Ex99-1.txt:L30: 6.2%\nearnings_release_Ex99-1.txt:L31: 9.8%\nearnings_release_Ex99-1.txt:L32: 6.5%\nearnings_release_Ex99-1.txt:L33: Total Company\nearnings_release_Ex99-1.txt:L34: 9.4%\nearnings_release_Ex99-1.txt:L35: 6.7%\nearnings_release_Ex99-1.txt:L36: 8.4%\nearnings_release_Ex99-1.txt:L37: 6.6%\nearnings_release_Ex99-1.txt:L38: Digitally-Enabled\nearnings_release_Ex99-1.txt:L39: 19.5%\nearnings_release_Ex99-1.txt:L40: 19.8%\nearnings_release_Ex99-1.txt:L41: 20.9%\nearnings_release_Ex99-1.txt:L42: 20.7%\nearnings_release_Ex99-1.txt:L43: *Excluding the impacts from changes in gasoline prices and foreign exchange.\nearnings_release_Ex99-1.txt:L44: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.\nearnings_release_Ex99-1.txt:L45: Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand. Costco also operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China.\nearnings_release_Ex99-1.txt:L46: A conference call to discuss these results is scheduled for 2:00 p.m. (PT) today, September 24, 2026, and will be available via a webcast on investor.costco.com (click “Events & Presentations”).\nearnings_release_Ex99-1.txt:L47: Press Release\nearnings_release_Ex99-1.txt:L76: $\nearnings_release_Ex99-1.txt:L77: 269,912\nearnings_release_Ex99-1.txt:L78: Membership fees\nearnings_release_Ex99-1.txt:L79: 1,850\nearnings_release_Ex99-1.txt:L80: 1,724\nearnings_release_Ex99-1.txt:L81: 5,907\nearnings_release_Ex99-1.txt:L82: 5,323\nearnings_release_Ex99-1.txt:L83: Total revenue\nearnings_release_Ex99-1.txt:L84: 95,723\nearnings_release_Ex99-1.txt:L85: 86,156\nearnings_release_Ex99-1.txt:L90: 83,531\nearnings_release_Ex99-1.txt:L91: 75,037\nearnings_release_Ex99-1.txt:L92: 264,279\nearnings_release_Ex99-1.txt:L93: 239,886\nearnings_release_Ex99-1.txt:L94: Selling, general and administrative\nearnings_release_Ex99-1.txt:L95: 8,391\nearnings_release_Ex99-1.txt:L96: 7,778\nearnings_release_Ex99-1.txt:L97: 27,190\nearnings_release_Ex99-1.txt:L98: 24,966\nearnings_release_Ex99-1.txt:L99: Operating income\nearnings_release_Ex99-1.txt:L100: 3,801\nearnings_release_Ex99-1.txt:L101: 3,341\nearnings_release_Ex99-1.txt:L102: 11,685\nearnings_release_Ex99-1.txt:L103: 10,383\nearnings_release_Ex99-1.txt:L104: OTHER INCOME (EXPENSE)\nearnings_release_Ex99-1.txt:L105: Interest expense\nearnings_release_Ex99-1.txt:L129: 2,610\nearnings_release_Ex99-1.txt:L130: $\nearnings_release_Ex99-1.txt:L131: 9,226\nearnings_release_Ex99-1.txt:L132: $\nearnings_release_Ex99-1.txt:L133: 8,099\nearnings_release_Ex99-1.txt:L134: NET INCOME PER COMMON SHARE:\nearnings_release_Ex99-1.txt:L135: Basic\nearnings_release_Ex99-1.txt:L175: Cash and cash equivalents\nearnings_release_Ex99-1.txt:L176: $\nearnings_release_Ex99-1.txt:L177: 20,207\nearnings_release_Ex99-1.txt:L178: $\nearnings_release_Ex99-1.txt:L179: 14,161\nearnings_release_Ex99-1.txt:L180: Short-term investments\nearnings_release_Ex99-1.txt:L181: 1,094\nearnings_release_Ex99-1.txt:L195: OTHER ASSETS\nearnings_release_Ex99-1.txt:L196: Property and equipment, net\nearnings_release_Ex99-1.txt:L197: 35,633\nearnings_release_Ex99-1.txt:L198: 31,909\nearnings_release_Ex99-1.txt:L199: Operating lease right-of-use assets\nearnings_release_Ex99-1.txt:L200: 2,697\nearnings_release_Ex99-1.txt:L222: 2,677\nearnings_release_Ex99-1.txt:L223: Deferred membership fees\nearnings_release_Ex99-1.txt:L224: 3,006\nearnings_release_Ex99-1.txt:L225: 2,854\nearnings_release_Ex99-1.txt:L226: Current portion of long-term debt\nearnings_release_Ex99-1.txt:L227: 2,248\nearnings_release_Ex99-1.txt:L228: 75\nearnings_release_Ex99-1.txt:L229: Other current liabilities\nearnings_release_Ex99-1.txt:L230: 7,429\nearnings_release_Ex99-1.txt:L289: Adjustments to reconcile net income to net cash provided by operating activities:\nearnings_release_Ex99-1.txt:L290: Depreciation and amortization\nearnings_release_Ex99-1.txt:L291: 2,674\nearnings_release_Ex99-1.txt:L292: 2,426\nearnings_release_Ex99-1.txt:L293: Non-cash lease expense\nearnings_release_Ex99-1.txt:L294: 318\nearnings_release_Ex99-1.txt:L304: 1,764\nearnings_release_Ex99-1.txt:L305: Net cash provided by operating activities\nearnings_release_Ex99-1.txt:L306: 15,825\nearnings_release_Ex99-1.txt:L307: 13,335\nearnings_release_Ex99-1.txt:L308: CASH FLOWS FROM INVESTING ACTIVITIES\nearnings_release_Ex99-1.txt:L309: Additions to property and equipment\nearnings_release_Ex99-1.txt:L310: (6,435)\nearnings_release_Ex99-1.txt:L311: (5,498)\nearnings_release_Ex99-1.txt:L312: Purchases of short-term investments\nearnings_release_Ex99-1.txt:L313: (788)",
+      "10-K.txt": "\n10-K.txt:L166: Item 16.\n10-K.txt:L167: Form 10-K Summary\n10-K.txt:L168: 69\n10-K.txt:L169: Signatures\n10-K.txt:L170: 70\n10-K.txt:L171: 2\n10-K.txt:L172: Table of Contents\n10-K.txt:L173: INFORMATION RELATING TO FORWARD LOOKING STATEMENTS\n10-K.txt:L174: Certain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future and may relate to such matters as net sales growth, changes in comparable sales, cannibalization of existing locations by new openings, price or fee changes, earnings performance, earnings per share, stock-based compensation expense, warehouse openings and closures, capital spending, the effect of adopting certain accounting standards, future financial reporting, financing, margins, return on invested capital, investments in technology, strategic direction, expense controls, membership fee changes, signups, and renewal rates, shopping frequency, litigation, including self-insured general liability claims, attainment of sustainability goals, and the demand for our products and services. In some cases, forward-looking statements can be identified because they contain words such as “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “intend,” “likely,” “may,” “might,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “target,” “will,” “would,” or similar expressions and the negatives of those terms. Such forward-looking statements involve risks and uncertainties that may cause actual events, results, or performance to differ materially from those indicated by such statements, including, without limitation, the factors set forth in the section titled “Item 1A-Risk Factors”, and other factors noted in the section titled “Item 7-Management's Discussion and Analysis of Financial Condition and Results of Operations” and in the consolidated financial statements and related notes in Item 8 of this Report. Forward-looking statements speak only as of the date they are made, and we do not undertake to update these statements, except as required by law.\n10-K.txt:L175: PART I\n10-K.txt:L176: Item 1—Business\n10-K.txt:L177: Costco Wholesale Corporation and its subsidiaries (Costco or the Company) began operations in 1983, in Seattle, Washington. We are principally engaged in the operation of membership warehouses in the United States (U.S.) and Puerto Rico, Canada, Mexico, Japan, the United Kingdom (U.K.), Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand. Costco operated 939, 914, and 890 warehouses worldwide at August 30, 2026, August 31, 2025, and September 1, 2024. The Company operates e-commerce sites in the U.S., Canada, Mexico, the U.K., Korea, Taiwan, Japan, Australia, and China. Our common stock trades on the NASDAQ Global Select Market, under the symbol “COST.”\n10-K.txt:L178: We report on a 52/53-week fiscal year, consisting of thirteen four-week periods and ending on the Sunday nearest the end of August. The first three quarters consist of three periods each, and the fourth quarter consists of four periods (five weeks in the thirteenth period in a 53-week year). The material seasonal impact in our operations is increased net sales and earnings during the winter holiday season. References to 2026, 2025, and 2024 relate to the 52-week fiscal years ended August 30, 2026, August 31, 2025, and September 1, 2024.\n10-K.txt:L179: General\n10-K.txt:L180: We operate membership warehouses and e-commerce sites based on the concept that offering low prices on a limited selection of nationally-branded and private-label products in a wide range of categories will produce high sales volumes and rapid inventory turnover. When combined with the operating efficiencies achieved by volume purchasing, efficient distribution and reduced handling of merchandise in no-frills, self-service warehouse facilities, these volumes and turnover enable us to operate profitably at significantly lower gross margins (net sales less merchandise costs) than most other retailers. We often sell inventory before we are required to pay for it, even while taking advantage of early payment discounts.\n10-K.txt:L181: We buy most of our merchandise directly from suppliers and route it to cross-docking consolidation points (depots) or directly to our warehouses. Our depots receive large shipments from suppliers and quickly\n10-K.txt:L182: 3\n10-K.txt:L183: Table of Contents\n10-K.txt:L184: ship these goods to warehouses. This process creates freight volume and handling efficiencies, lowering costs associated with traditional multiple-step distribution channels. Our e-commerce operations ship merchandise through our depots and logistics operations, as well as through drop-ship and other delivery arrangements with our suppliers.\n10-K.txt:L185: Our average warehouse space is approximately 148,000 square feet, with newer units being slightly larger. Floor plans are designed for efficiency in the use of selling space, the handling of merchandise, and the control of inventory. Because shoppers are attracted principally by the quality of merchandise and low prices, our warehouses are not elaborate. By strictly controlling the entrances and exits and using a membership format, we believe our inventory losses (shrinkage) are well below those of typical retail operations.\n10-K.txt:L409: Natural disasters, extreme weather conditions, or other catastrophic events could negatively affect our business, financial condition, and results of operations.\n10-K.txt:L410: Natural disasters, extreme weather conditions, and other catastrophic events, including those impacted by climate change, such as extreme temperatures, hurricanes, typhoons, floods, earthquakes, wildfires, droughts; acts of terrorism or violence, including active shooter situations; and energy shortages; particularly in California or Washington state, where our centralized operating systems and administrative personnel are located, could negatively affect our operations and financial performance. Such events could result in physical damage to our properties or inventory, additional heating, cooling, and refrigeration costs, limitations on store operating hours, less frequent visits by members to physical locations, the temporary closure of warehouses, depots, manufacturing, or home office facilities, the temporary lack of an adequate work force, disruptions to our IT systems, the temporary or long-term\n10-K.txt:L411: 15\n10-K.txt:L412: Table of Contents\n10-K.txt:L413: disruption in the supply of products from some local or overseas suppliers, the temporary disruption in the transport of goods to or from overseas, delays in the delivery of goods to our warehouses or depots, delays in online merchandise delivery, the temporary reduction in the availability of products in our warehouses, and long-term disruption or threats to the habitability of key markets in which we operate. These events could also reduce demand for our products or make it difficult or impossible to procure products. We may be required to suspend operations in some or all of our locations, which could have a material adverse effect on our business, financial condition and results of operations.\n10-K.txt:L414: Pandemics and other health crises could affect our business, financial condition and results of operations in many respects.\n10-K.txt:L415: The emergence, severity, magnitude, and duration of global or regional health crises are uncertain and difficult to predict. A pandemic could affect certain business operations, demand for our products and services, in-stock positions, costs of doing business, availability of labor, access to inventory, supply chain operations, our ability to predict future performance, exposure to litigation, and our financial performance, among other things. Other factors and uncertainties include, but are not limited to: the severity and duration of pandemics; evolving macroeconomic factors including general economic uncertainty, unemployment rates, and recessionary pressures; changes in labor markets affecting us and our suppliers; unknown consequences on our business performance and initiatives stemming from the substantial investment of time and other resources to the pandemic response; the pace of post-pandemic recovery; the long-term impact of the pandemic on our business, including consumer behaviors; and disruption and volatility within the financial and credit markets.\n10-K.txt:L416: Failure to meet financial market expectations could adversely affect the market price and volatility of our stock.\n10-K.txt:L417: We believe that the price of our stock currently reflects high market expectations for our future operating results. Any failure to meet or delay in meeting these expectations, including our comparable sales growth rates, membership fee revenue, including new member sign-ups and renewal rates, gross margin, earnings, earnings per share, new warehouse openings, or dividend or stock repurchase policies could cause the price of our stock to decline.\n10-K.txt:L418: Legal and Regulatory Risks\n10-K.txt:L419: Changes in or failure to comply with laws and regulations could adversely impact our business, financial condition and results of operations.\n10-K.txt:L420: We are subject to a wide and growing array of federal, state, local, and international laws and regulations relating to (among other things), product and food safety, marketing, information security and privacy, pricing, AI, labor and employment, imports and customs, transportation, intellectual property, anti-corruption, and environmental or social matters. These laws and regulations may expand mandatory reporting, increase the scope and complexity of matters that we are required to regulate, assess, and disclose, potentially limit our sourcing flexibility, or require extensive system or other changes that could increase the cost of doing business. Failure to comply could result in harm to our members, employees, workers in the value chain, or others, significant costs to satisfy environmental compliance, remediation or compensatory requirements, or the imposition of severe penalties or restrictions on operations by governmental agencies or courts that could adversely affect our business, financial condition and results of operations.\n10-K.txt:L421: The impact of changes to or the introduction of new laws, regulations, and policies and enforcement practices, can be unpredictable. These may require extensive system and operational changes, be difficult to implement, increase the cost of doing business, require significant capital expenditures, adversely impact the products or services we offer, or result in adverse publicity and harm to our reputation. If we fail to comply or respond adequately to changes in laws and regulations, our business, operations and financial performance may be adversely affected.\n10-K.txt:L422: 16\n10-K.txt:L423: Table of Contents\n10-K.txt:L424: We are subject to risks associated with the legislative, judicial, accounting, regulatory, political and economic factors specific to the places where we operate, which could adversely affect our business, financial condition and results of operations.\n10-K.txt:L425: At the end of 2026, we operated 292 warehouses outside of the U.S. (31% of all warehouse locations), and we plan to continue expanding our international operations. Future operating results internationally could be negatively affected by a variety of factors, many similar to those we face in the U.S., certain of which are beyond our control. These factors include political and economic conditions, regulatory constraints, currency regulations, policy changes, and other matters where we operate, now or in the future. Other factors that may impact international operations include foreign trade (including tariffs and trade sanctions), monetary and fiscal policies, and the laws and regulations of the U.S. and foreign governments, agencies and similar organizations, international conflicts, and risks associated with having major facilities in locations which have been historically less stable than the U.S. Risks inherent in international operations also include, among others, the costs and difficulties of managing international operations, adverse tax consequences, and difficulty in enforcing intellectual property rights. New reporting obligations globally are increasing the cost and complexity of doing business.\n10-K.txt:L426: Changes in accounting standards and subjective assumptions, estimates and judgments by management related to complex accounting matters could significantly affect our financial condition and results of operations.\n10-K.txt:L427: Accounting principles and related pronouncements, implementation guidelines, and interpretations we apply to a wide range of matters that are relevant to our business, including self-insurance liabilities, are highly complex and involve subjective assumptions, estimates, and judgments by our management. Changes in rules or interpretation or changes in underlying assumptions, estimates, or judgments by our management could significantly change our reported or expected financial performance and have a material impact on our consolidated financial statements.\n10-K.txt:L428: We are exposed to risks relating to evaluations of controls required by Section 404 of the Sarbanes-Oxley Act and otherwise.\n10-K.txt:L506: 20\n10-K.txt:L507: Table of Contents\n10-K.txt:L508: PART II\n10-K.txt:L509: Item 5—Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities\n10-K.txt:L510: Market Information and Dividend Policy\n10-K.txt:L511: Our common stock is traded on the NASDAQ Global Select Market under the symbol “COST.” On September 29, 2026, we had 10,703 stockholders of record.\n10-K.txt:L512: Payment of dividends is subject to declaration by the Board of Directors. Factors considered in determining dividends include our profitability and expected capital needs. Subject to these qualifications, we presently expect to continue to pay dividends on a quarterly basis.\n10-K.txt:L513: Issuer Purchases of Equity Securities\n10-K.txt:L514: The following table sets forth information on our common stock repurchase activity for the fourth quarter of 2026 (dollars in millions, except per share data):\n10-K.txt:L515: Period\n10-K.txt:L516: Total Number of Shares Purchased\n10-K.txt:L517: Average Price Paid per Share\n10-K.txt:L518: Total Number of Shares Purchased as Part of Publicly Announced Program\n10-K.txt:L519: (1)\n10-K.txt:L520: Maximum Dollar Value of Shares that May Yet be Purchased under the Program\n10-K.txt:L521: May 11—June 7, 2026\n10-K.txt:L522: 60,000\n10-K.txt:L523: $\n10-K.txt:L524: 1,010.13\n10-K.txt:L525: 60,000\n10-K.txt:L526: $\n10-K.txt:L527: 1,298\n10-K.txt:L528: June 8—July 5, 2026\n10-K.txt:L676: 2026\n10-K.txt:L677: Fiscal Year\n10-K.txt:L678: *First year sales annualized.\n10-K.txt:L679: 2017 and 2023 were 53-week fiscal years but have been normalized for purposes of comparability.\n10-K.txt:L680: Item 6—Reserved\n10-K.txt:L681: 22\n10-K.txt:L682: Table of Contents\n10-K.txt:L683: Item 7—Management's Discussion and Analysis of Financial Condition and Results of Operations\n10-K.txt:L684: (amounts in millions, except per share, share, percentages and warehouse count data)\n10-K.txt:L685: OVERVIEW\n10-K.txt:L686: Management's Discussion and Analysis of Financial Condition and Results of Operations (MD&A) is intended to promote understanding of the results of operations and financial condition. MD&A is provided as a supplement to, and should be read in conjunction with our consolidated financial statements and the accompanying Notes to Financial Statements (Part II, Item 8 of this Form 10-K). This section generally discusses the results of operations for 2026 compared to 2025. For discussion related to the results of operations and changes in financial condition for 2025 compared to 2024 refer to Part II, Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations in our fiscal year 2025 Form 10-K, which was filed with the Securities and Exchange Commission on October 8, 2025.\n10-K.txt:L687: We believe that the most important driver of our profitability is increasing net sales, particularly comparable sales. Net sales includes our core merchandise categories (foods and sundries, non-foods, and fresh foods), warehouse ancillary (gasoline, pharmacy, food court, optical, hearing aids, and tire installation), and other businesses (e-commerce, business centers, travel, and other). E-commerce and business center sales are allocated to the appropriate merchandise categories in the Net Sales discussion. The Executive reward earned by our Executive members reduces net sales and is allocated to the category in which the reward is generated (core merchandise categories, warehouse ancillary, and other businesses). Comparable sales is defined as net sales from warehouses operating for more than one year, including remodels, relocations, and expansions. Digitally-enabled comparable sales is defined as sales initiated through a digital device, whether fulfilled through a warehouse, distribution center, or Costco Travel, operating for more than one year. Comparable sales metrics are intended as supplemental information and are not a substitute for net sales presented in accordance with U.S. generally accepted accounting principles (U.S. GAAP) and should be reviewed in conjunction with results reported in accordance with U.S. GAAP. Comparable sales growth is achieved through increasing shopping frequency from new and existing members and the amount they spend on each visit (average ticket). Sales comparisons can also be particularly influenced by certain factors that are beyond our control: fluctuations in currency exchange rates (with respect to our international operations) and inflation or deflation in the cost of gasoline and associated competitive conditions. The higher our comparable sales exclusive of these items, the more we can leverage our selling, general and administrative (SG&A) expenses, reducing them as a percentage of sales and enhancing profitability. Generating comparable sales growth is foremost a question of making available the right merchandise at the right prices, a skill that we believe we have repeatedly demonstrated over the long-term. Another substantial factor in net sales growth is the health of the economies in which we do business, including the effects of inflation or deflation, especially the United States. Net sales growth and gross margins are also impacted by competition, which is vigorous and widespread, across a wide range of global, national, and regional wholesalers and retailers, including those with e-commerce operations. While we cannot control or reliably predict general economic health or changes in competition, we believe that we have been successful, historically, in adapting our business to these changes, such as through adjustments to our pricing and merchandise mix, including increasing the penetration of our private-label items, and through online offerings.\n10-K.txt:L688: Our philosophy is to provide our members with quality goods and services at competitive prices. We do not focus in the short-term on maximizing prices charged, but instead seek to maintain what we believe is a perception among our members of our “pricing authority” – consistently providing the most competitive values. Our net sales and gross margin are influenced in part by our merchandising and pricing strategies in response to cost increases. Those strategies can include, but are not limited to, working with our suppliers to share in absorbing cost increases, earlier-than-usual purchasing and in greater volumes, sourcing in the countries and regions where items are sold, as well as passing cost increases on to our members. Our investments in merchandise pricing may include reducing prices on merchandise to drive sales or meet competition and holding prices steady despite cost increases instead of passing the increases on to our members, negatively impacting gross margin and gross margin as a percentage of\n10-K.txt:L689: 23\n10-K.txt:L690: Table of Contents\n10-K.txt:L691: net sales (gross margin percentage) in the near term. Gross margin is also impacted by our digitally-enabled businesses, domestically and internationally, some of which have a lower gross-margin percentage than our warehouse operations.\n10-K.txt:L692: Government actions in various countries relating to tariffs affect the costs of some of our merchandise. The degree of our exposure is dependent on (among other things) the type of goods, rates imposed, and timing of the tariffs. Higher tariffs are more likely to adversely impact rather than improve our results.\n10-K.txt:L693: We believe our gasoline business enhances traffic in our warehouses; it generally has a lower gross margin percentage and lower SG&A expense relative to our non-gasoline businesses. A higher penetration of gasoline sales will generally lower our gross margin percentage. Generally, rising gasoline prices benefit net sales growth which, given the higher sales base, negatively impacts our gross margin percentage but decreases our SG&A expenses as a percentage of net sales. A decline in gasoline prices has the inverse effect.\n10-K.txt:L694: We also achieve net sales growth by opening new warehouses. As our warehouse base grows and available and desirable sites become more difficult to secure, square footage growth becomes a comparatively less substantial component of growth. Negative aspects of such growth include lower initial operating profitability relative to existing warehouses and cannibalization of sales at existing warehouses when openings occur in existing markets. Our rate of square footage growth is generally higher in many of our international markets, due to the smaller base in those markets, and we expect that to continue.\n10-K.txt:L695: The membership format is integral to our business and profitability. This format is designed to reinforce member loyalty and provide continuing fee revenue. The extent to which we achieve growth in our membership base, increase the penetration of Executive memberships, and sustain high renewal rates materially influences our profitability. Our renewal rate, which excludes affiliates of Business members, is a trailing calculation that captures renewals during the period seven to eighteen months prior to the reporting date. Our paid-membership growth rate may be adversely impacted when warehouse openings occur in existing markets as compared to new markets. Our worldwide renewal rate is adversely impacted by membership growth in certain international markets and a higher penetration of memberships sold online, including through digital membership promotions, which renew at a slightly lower rate on average.\n10-K.txt:L713: Membership fee revenue increased 11% to $5,907, driven by new member sign-ups, membership fee increases, and upgrades to Executive membership;\n10-K.txt:L714: •\n10-K.txt:L715: Gross margin percentage decreased three basis points; it increased 10 basis points excluding the impact of gasoline price inflation;\n10-K.txt:L716: •\n10-K.txt:L717: SG&A expenses as a percentage of net sales decreased 10 basis points; it increased one basis point excluding the impact of gasoline price inflation;\n10-K.txt:L718: •\n10-K.txt:L719: The effective tax rate in 2026 was 24.7%, compared to 25.1% in 2025;\n10-K.txt:L720: •\n10-K.txt:L721: Net income increased 14% to $9,226, $20.76 per diluted share, compared to $8,099, $18.21 per diluted share in 2025; and\n10-K.txt:L722: •\n10-K.txt:L723: In April, the Board of Directors approved a 13% increase in the quarterly cash dividend.\n10-K.txt:L724: Tariff Impacts\n10-K.txt:L725: Beginning in February 2025, the United States imposed tariffs under the International Emergency Economic Powers Act (IEEPA) on certain goods, materials, and products imported into the United States. We paid the government approximately $500 in IEEPA tariffs. In February 2026, the U.S. Supreme Court ruled that the IEEPA tariffs were unlawful. Following this ruling, the government launched a program to administer IEEPA refunds.\n10-K.txt:L726: We applied the gain contingency model, in accordance with Accounting Standards Codification (ASC) 450-30, “Gain Contingencies,” recognizing recoveries in our consolidated statements of operations only as they were realized. During 2026, we began filing for refunds and received $184, made up of $174 in refunds, recorded as a reduction to merchandise costs, and $10 recorded as interest income. A portion of these refunds was invested in reducing prices for members. Subsequent to 2026, we received $155 in additional refunds and we intend to continue to invest the majority of the refunds in increased value for the member. For a small percentage of transactions where corrections are required, refunds may be delayed as the government continues to implement the IEEPA refund process.\n10-K.txt:L727: 25\n10-K.txt:L728: Table of Contents\n10-K.txt:L729: RESULTS OF OPERATIONS\n10-K.txt:L730: Net Sales\n10-K.txt:L731: 2026\n10-K.txt:L732: 2025\n10-K.txt:L1016: 28\n10-K.txt:L1017: new warehous\n10-K.txt:L1018: es, including three relocations, in 2026, and plan to open up to 33 new warehouses, including five relocations, in 2027. There can be no assurance that current expectations will be realized, and plans are subject to change upon further review of our capital expenditure needs and the economic environment.\n10-K.txt:L1019: Cash Flows from Financing Activities\n10-K.txt:L1020: Net cash used in financing activities totaled $3,355 in 2026, compared to $3,775 in 2025. Cash flow used in financing activities primarily related to the payment of dividends, repurchases of common stock, repayments of short-term borrowings and long-term debt, and withholding taxes on stock-based awards. Cash flow provided by financing activities included proceeds from short-term borrowings and issuance of long-term debt.\n10-K.txt:L1021: Long-term Debt\n10-K.txt:L1022: Proceeds from long-term debt in 2026 included three series of Guaranteed Senior Notes totaling approximately $500, at fixed interest rates ranging from 2.620% to 3.680%, issued by our Japan subsidiary, as compared to no proceeds in 2025. Repayments of long-term debt in 2026 totaled $69, as compared to $103 in 2025.\n10-K.txt:L1023: Dividends\n10-K.txt:L1024: Cash dividends declared in 2026 totaled $2,458, $5.54 per share, as compared to $2,183, $4.92 per share, in 2025. In April 2026, the Board of Directors increased our quarterly cash dividend from $1.30 to $1.47 per share.\n10-K.txt:L1025: 29\n10-K.txt:L1026: Table of Contents\n10-K.txt:L1027: Share Repurchase Program\n10-K.txt:L1028: On January 19, 2023, the Board of Directors authorized a share repurchase program in the amount of $4,000, which expires in January 2027. During 2026 and 2025, we repurchased 891,000 and 943,000 shares of common stock, at an average price per share of $950.90 and $957.66, totaling $847 and $903. These amounts may differ from the accompanying consolidated statements of cash flows due to changes in unsettled repurchases at the end of each fiscal year. Purchases are made from time to time, as conditions warrant, in the open market or in block purchases, pursuant to plans under SEC Rule 10b5-1. Repurchased shares are retired, in accordance with the Washington Business Corporation Act. The remaining amount available to be purchased under our approved plan was $1,115 at the end of 2026.\n10-K.txt:L1029: Bank Credit Facilities and Commercial Paper Programs\n10-K.txt:L1030: We maintain bank credit facilities for working capital and general corporate purposes. At August 30, 2026, we had borrowing capacity under these facilities of $2,118, compared to $1,220 at the end of 2025. This increase was primarily driven by the renewal and expansion of our U.S. revolving credit facility in August 2026, which increased total borrowing capacity from $400 to $1,000 and extended the maturity date to August 2027, as well as credit facility expansions in our Japan and Mexico subsidiaries. Our Canadian and Other International operations maintain $1,012 of this capacity under bank credit facilities, of which $333 is guaranteed by the Company. There were no short-term borrowings outstanding under the bank credit facilities at the end of 2026. Short-term borrowings were immaterial at the end of 2025 and were included in other current liabilities on the consolidated balance sheets.\n10-K.txt:L1031: We have letter of credit facilities, for commercial and standby letters of credit, totaling $232. The outstanding commitments under these facilities at the end of 2026 totaled $210, most of which were standby letters of credit that do not expire or have expiration dates within one year. The bank credit facilities have various expiration dates, most within one year, and we generally intend to renew these facilities. The amount of borrowings available at any time under our bank credit facilities is reduced by the amount of standby and commercial letters of credit outstanding.\n10-K.txt:L1032: Off-Balance Sheet Arrangements\n10-K.txt:L1033: In the opinion of management, we have no off-balance sheet arrangements that have had or are reasonably likely to have a material current or future effect on our financial condition or financial statements.\n10-K.txt:L1034: Critical Accounting Estimates\n10-K.txt:L1035: The preparation of our consolidated financial statements in accordance with U.S. GAAP requires that we make estimates and assumptions that affect the reported amounts of assets and liabilities and the disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. We base our estimates on historical experience and on assumptions that we believe to be reasonable, and we continue to review and evaluate these estimates. For further information on significant accounting policies, see discussion in\n10-K.txt:L1036: Note 1\n10-K.txt:L1037: to the consolidated financial statements included in Item 8 of this Report.\n10-K.txt:L1038: Insurance/Self-insurance Liabilities\n10-K.txt:L1039: Claims for employee health-care benefits, workers’ compensation, general liability, property damage, directors’ and officers’ liability, vehicle liability, inventory loss, and other exposures are funded predominantly through self-insurance. Insurance coverage is maintained for certain risks to limit exposures to very large losses. We use various risk management mechanisms, including a wholly-owned captive insurance subsidiary and a reinsurance program. Liabilities associated with the risks that we retain are not discounted and are estimated using historical claims experience, demographic factors, severity factors, and other actuarial assumptions. The costs of claims are highly unpredictable and can fluctuate as a result of inflation rates, regulatory or legal changes, and developments in claim frequency\n10-K.txt:L1136: Because of its inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Also, projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.\n10-K.txt:L1137: /s/ KPMG LLP\n10-K.txt:L1138: Seattle, Washington\n10-K.txt:L1139: October 6, 2026\n10-K.txt:L1140: 36\n10-K.txt:L1141: Table of Contents\n10-K.txt:L1142: COSTCO WHOLESALE CORPORATION\n10-K.txt:L1143: CONSOLIDATED STATEMENTS OF INCOME\n10-K.txt:L1144: (amounts in millions, except per share data)\n10-K.txt:L1145: 52 Weeks Ended\n10-K.txt:L1146: August 30,\n10-K.txt:L1147: 2026\n10-K.txt:L1148: August 31,\n10-K.txt:L1149: 2025\n10-K.txt:L1150: September 1,\n10-K.txt:L1151: 2024\n10-K.txt:L1152: REVENUE\n10-K.txt:L1153: Net sales\n10-K.txt:L1154: $\n10-K.txt:L1155: 297,247\n10-K.txt:L1203: 2,373\n10-K.txt:L1204: NET INCOME\n10-K.txt:L1205: $\n10-K.txt:L1206: 9,226\n10-K.txt:L1207: $\n10-K.txt:L1208: 8,099\n10-K.txt:L1209: $\n10-K.txt:L1210: 7,367\n10-K.txt:L1211: NET INCOME PER COMMON SHARE:\n10-K.txt:L1212: Basic\n10-K.txt:L1213: $\n10-K.txt:L1214: 20.78\n10-K.txt:L1215: $\n10-K.txt:L1216: 18.24\n10-K.txt:L1217: $\n10-K.txt:L1218: 16.59\n10-K.txt:L1219: Diluted\n10-K.txt:L1220: $\n10-K.txt:L1221: 20.76\n10-K.txt:L1222: $\n10-K.txt:L1223: 18.21\n10-K.txt:L1224: $\n10-K.txt:L1225: 16.56\n10-K.txt:L1226: Shares used in calculation (000’s)\n10-K.txt:L1227: Basic\n10-K.txt:L1228: 443,953\n10-K.txt:L1229: 443,985\n10-K.txt:L1230: 443,914\n10-K.txt:L1231: Diluted\n10-K.txt:L1232: 444,427\n10-K.txt:L1233: 444,803\n10-K.txt:L1234: 444,759\n10-K.txt:L1235: The accompanying notes are an integral part of these consolidated financial statements.\n10-K.txt:L1236: 37\n10-K.txt:L1237: Table of Contents\n10-K.txt:L1238: COSTCO WHOLESALE CORPORATION\n10-K.txt:L1239: CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME\n10-K.txt:L1240: (amounts in millions)\n10-K.txt:L1241: 52 Weeks Ended\n10-K.txt:L1242: August 30,\n10-K.txt:L1871: 193\n10-K.txt:L1872: $\n10-K.txt:L1873: 203\n10-K.txt:L1874: The accompanying notes are an integral part of these consolidated financial statements.\n10-K.txt:L1875: 41\n10-K.txt:L1876: Table of Contents\n10-K.txt:L1877: COSTCO WHOLESALE CORPORATION\n10-K.txt:L1878: NOTES TO CONSOLIDATED FINANCIAL STATEMENTS\n10-K.txt:L1879: (amounts in millions, except share, per share, and warehouse count data)\n10-K.txt:L1880: Note 1—Summary of Significant Accounting Policies\n10-K.txt:L1881: Description of Business\n10-K.txt:L1882: Costco Wholesale Corporation (Costco or the Company), a Washington corporation, and its subsidiaries operate membership warehouses and e-commerce sites based on the concept that offering members low prices on a limited selection of nationally-branded and private-label products in a wide range of merchandise categories will produce high sales volumes and rapid inventory turnover. At August 30, 2026, Costco operated\n10-K.txt:L1883: 939\n10-K.txt:L1884: warehouses worldwide:\n10-K.txt:L1885: 647\n10-K.txt:L1886: in the United States (U.S.) located in\n10-K.txt:L1887: 47\n10-K.txt:L1888: states, Washington, D.C., and Puerto Rico,\n10-K.txt:L1889: 115\n10-K.txt:L1890: in Canada,\n10-K.txt:L2120: Stock-based compensation expense is predominantly included in SG&A expenses in the consolidated statements of income. Certain stock-based compensation costs are capitalized or included in the cost of merchandise. See\n10-K.txt:L2121: Note 7\n10-K.txt:L2122: for additional information.\n10-K.txt:L2123: Income Taxes\n10-K.txt:L2124: The Company accounts for income taxes using the asset and liability method. Deferred tax assets and liabilities are recognized for the future tax consequences attributed to differences between the financial statement carrying amounts of existing assets and liabilities and their tax bases, credits and loss carry-forwards. Deferred tax assets and liabilities are measured using tax rates expected to apply to taxable income in the years in which those temporary differences and carry-forwards are expected to be recovered or settled. The effect on deferred tax assets and liabilities of a change in tax rates is recognized in income in the period that includes the enactment date. A valuation allowance is established when necessary to reduce deferred tax assets to amounts that are more likely than not expected to be realized.\n10-K.txt:L2125: 49\n10-K.txt:L2126: Table of Contents\n10-K.txt:L2127: The timing and amounts of deductible and taxable items and the probability of sustaining uncertain tax positions requires significant judgment. The benefits of uncertain tax positions are recorded in the Company’s consolidated financial statements only after determining a more-likely-than-not probability that the uncertain tax positions will withstand challenge from tax authorities. When facts and circumstances change, the Company reassesses these probabilities and records changes as appropriate.\n10-K.txt:L2128: Net Income per Common Share\n10-K.txt:L2129: The computation of basic net income per share uses the weighted average number of shares that were outstanding during the period. The computation of diluted net income per share uses the weighted average number of shares in the basic net income per share calculation plus the number of common shares that would be issued assuming vesting of all potentially dilutive common shares outstanding using the treasury stock method for shares subject to RSUs.\n10-K.txt:L2130: Stock Repurchase Programs\n10-K.txt:L2131: Repurchased shares of common stock are retired, in accordance with the Washington Business Corporation Act. The par value of repurchased shares is deducted from common stock and the excess repurchase price over par value is deducted by allocation to additional paid-in capital and retained earnings. The amount allocated to additional paid-in capital is the current value of additional paid-in capital per share outstanding and is applied to the number of shares repurchased. Any remaining amount is allocated to retained earnings. See\n10-K.txt:L2132: Note 6\n10-K.txt:L2133: for additional information.\n10-K.txt:L2134: Recent Accounting Pronouncements Adopted\n10-K.txt:L2135: In December 2023, the FASB issued ASU 2023-09, which requires public business entities on an annual basis to disclose specific categories in the income-tax rate reconciliation, provide information for reconciling items that meet a quantitative threshold, and disclose certain information about income taxes paid. The standard is effective for annual periods beginning after December 15, 2024, with early adoption permitted. The Company adopted the ASU for the fiscal year ended August 30, 2026, on a prospective basis. See\n10-K.txt:L2136: Note 8\n10-K.txt:L2137: for additional information.\n10-K.txt:L2138: Recent Accounting Pronouncements Not Yet Adopted\n10-K.txt:L2139: In November 2024, the FASB issued 2024-03, which requires disaggregated disclosures of certain costs and expenses on the income statement on an annual and interim basis. The standard is effective for fiscal years beginning after December 15, 2026, and interim periods within fiscal years beginning after December 15, 2027, with early adoption permitted. The amendments should be applied on a prospective basis. Retrospective application is permitted. The Company is evaluating the standard.\n10-K.txt:L2140: Note 2—Investments\n10-K.txt:L2141: The Company’s investments were as follows:\n10-K.txt:L2142: 2026:\n10-K.txt:L2562: 54\n10-K.txt:L2563: Table of Contents\n10-K.txt:L2564: Note 6—Equity\n10-K.txt:L2565: Dividends\n10-K.txt:L2566: Cash dividends declared in 2026 totaled $\n10-K.txt:L2567: 2,458\n10-K.txt:L2568: or $\n10-K.txt:L2569: 5.54\n10-K.txt:L2570: per share, as compared to $\n10-K.txt:L2571: 2,183\n10-K.txt:L2572: or $\n10-K.txt:L2573: 4.92\n10-K.txt:L2574: per share in 2025. Dividends in 2024 included a special dividend of $\n10-K.txt:L2575: 15\n10-K.txt:L2576: per share, resulting in a payment of $\n10-K.txt:L2577: 6,655\n10-K.txt:L2578: . The Company's current quarterly dividend rate is $\n10-K.txt:L2579: 1.47\n10-K.txt:L2580: per share.\n10-K.txt:L2581: Stock Repurchase Programs\n10-K.txt:L2582: The Company's stock repurchase program is conducted under a $\n10-K.txt:L2583: 4,000\n10-K.txt:L2584: authorization by the Board of Directors, which expires in January 2027. As of the end of 2026, the remaining amount available under the authorization was $\n10-K.txt:L2585: 1,115\n10-K.txt:L2586: .\n10-K.txt:L2587: The following table summarizes the Company’s stock repurchase activity:\n10-K.txt:L2588: Shares\n10-K.txt:L2589: Repurchased\n10-K.txt:L2590: (000’s)\n10-K.txt:L2591: Average\n10-K.txt:L3084: of unrecognized tax benefits that if recognized would affect the annual effective tax rate.\n10-K.txt:L3085: 59\n10-K.txt:L3086: Table of Contents\n10-K.txt:L3087: Accrued interest and penalties related to income tax matters are classified as a component of income tax expense. Accrued interest and penalties recognized during 2026 and 2025, and accrued at the end of each respective period were immaterial.\n10-K.txt:L3088: The Company files income tax returns in the U.S., various state and local jurisdictions, and in several foreign jurisdictions. With few exceptions, the Company is no longer subject to U.S. federal, state or local examination for years before fiscal 2018.\n10-K.txt:L3089: Other Taxes\n10-K.txt:L3090: The Company is subject to multiple examinations for value added, sales-based, payroll, product, import, or other non-income taxes in various jurisdictions. In certain cases, the Company has received assessments from the authorities. Possible losses or range of possible losses associated with these matters are either immaterial or an estimate of the possible loss or range of loss cannot be made at this time. If certain matters or a group of matters were to be decided adversely to the Company, it could result in a charge that might be material to the results of an individual fiscal quarter or year.\n10-K.txt:L3091: Note 9—Net Income per Common and Common Equivalent Share\n10-K.txt:L3092: The following table shows the amounts used in computing net income per share and the weighted average number of shares of basic and of potentially dilutive common shares outstanding (shares in 000’s):\n10-K.txt:L3093: 2026\n10-K.txt:L3094: 2025\n10-K.txt:L3095: 2024\n10-K.txt:L3096: Net income\n10-K.txt:L3097: $\n10-K.txt:L3098: 9,226\n10-K.txt:L3099: $\n10-K.txt:L3100: 8,099\n10-K.txt:L3101: $\n10-K.txt:L3102: 7,367\n10-K.txt:L3103: Weighted average basic shares\n10-K.txt:L3104: 443,953\n10-K.txt:L3105: 443,985\n10-K.txt:L3106: 443,914\n10-K.txt:L3107: RSUs\n10-K.txt:L3108: 474\n10-K.txt:L3109: 818\n10-K.txt:L3110: 845\n10-K.txt:L3111: Weighted average diluted shares\n10-K.txt:L3112: 444,427\n10-K.txt:L3113: 444,803\n10-K.txt:L3114: 444,759\n10-K.txt:L3115: Basic earnings per share is calculated by dividing net income by the weighted average number of shares of common stock outstanding during the period. Diluted earnings per share is calculated based on the dilutive effect of RSUs using the treasury stock method.\n10-K.txt:L3116: Note 10—Commitments and Contingencies\n10-K.txt:L3117: Legal Proceedings\n10-K.txt:L3118: The Company is involved in many claims, proceedings, and litigations arising from its business and property ownership. In accordance with accounting guidance, the Company establishes an accrual for legal proceedings if and when those matters present loss contingencies that are both probable and reasonably estimable. There may be actual losses in excess of amounts accrued. The Company monitors those matters for developments that would affect the likelihood of a loss (considering where applicable indemnification arrangements concerning suppliers and insurers) and the accrued amount, if any, thereof, and adjusts the amount as appropriate. The Company has recorded an immaterial accrual with respect to some matters described below, in addition to other immaterial accruals for matters not described below. If the loss contingency at issue is not both probable and reasonably estimable, the Company does not establish an accrual, but monitors for developments that make the contingency both probable and reasonably estimable. In each case, there is a reasonable possibility that a loss may be incurred, including a loss in excess of the applicable accrual. For matters where no accrual has been recorded, the possible loss or range of loss (including any loss in excess of the accrual) cannot, in the Company's view, be reasonably estimated because, among other things: the remedies or penalties sought are indeterminate or unspecified; the legal and/or factual theories are not well developed; and/or the matters involve complex or novel legal theories or a large number of parties.\n10-K.txt:L3119: In November 2023, a former employee filed a class action against the Company alleging claims under California law for failure to pay minimum wage, failure to pay overtime, failure to provide meal and rest\n10-K.txt:L3120: 60\n10-K.txt:L3121: Table of Contents\n10-K.txt:L3122: breaks, failure to provide accurate wage statements, failure to reimburse expenses, failure to pay wages when due, and failure to pay sick pay.\n10-K.txt:L3123: Martin Reyes v. Costco Wholesale Corp.\n10-K.txt:L3124: (No. 23cv011351;  Sacramento County Superior Court), removed to federal court (No. 2:24-cv-00300; E.D. Cal.). A second amended complaint was filed, which the Company has moved to dismiss. In January 2024, the same plaintiff filed a related Private Attorneys General Act (PAGA) representative action, seeking civil penalties and asserting the same alleged underlying Labor Code violations and an additional suitable seating claim. In May 2024, the plaintiff filed an amended PAGA complaint; the Company has denied the material allegations of the complaint and filed a motion to stay the action. The motion was granted on December 18, 2024.\n10-K.txt:L3125: In August 2024, an employee filed an action under PAGA against the Company, alleging claims for penalties for various alleged violations of the California Labor Code.\n10-K.txt:L3126: Nader v. Costco"
+    },
+    "saved_facts": {
+      "ticker": "COST",
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "cik": "0000909832",
+      "report_period": "2026-08-30",
+      "facts": {
+        "revenue": {
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 303154000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 275235000000
+        },
+        "operating_income": {
+          "tag": "OperatingIncomeLoss",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 11685000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 10383000000
+        },
+        "net_income": {
+          "tag": "NetIncomeLoss",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 9226000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 8099000000
+        },
+        "noncontrolling_interest_income": {
+          "tag": null,
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": null,
+          "value": null,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "net_income_attributable_to_parent": {
+          "tag": "NetIncomeLoss",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 9226000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 8099000000
+        },
+        "diluted_eps": {
+          "tag": "EarningsPerShareDiluted",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 20.76,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 18.21
+        },
+        "stockholders_equity": {
+          "tag": "StockholdersEquity",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 35803000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 29164000000
+        },
+        "long_term_debt": {
+          "tag": "LongTermDebtNoncurrent",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 3914000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 5713000000
+        },
+        "current_portion_of_long_term_debt": {
+          "tag": "LongTermDebtCurrent",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 2248000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 75000000
+        },
+        "short_term_borrowings": {
+          "tag": "ShortTermBorrowings",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": null,
+          "value": null,
+          "prior_period_end": null,
+          "prior_filing": null,
+          "prior_value": null
+        },
+        "cash_from_operations": {
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 15817000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 13335000000
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "period_end": "2026-08-30",
+          "fy": 2026,
+          "filing": "0000909832-26-000093",
+          "value": 6435000000,
+          "prior_period_end": "2025-08-31",
+          "prior_filing": "0000909832-25-000101",
+          "prior_value": 5498000000
+        }
+      },
+      "peers": {
+        "WMT": {
+          "cik": "0000104169",
+          "report_period": "2026-01-31",
+          "facts": {
+            "revenue": {
+              "tag": "Revenues",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 713163000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 680985000000
+            },
+            "operating_income": {
+              "tag": "OperatingIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 29825000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 29348000000
+            },
+            "net_income": {
+              "tag": "ProfitLoss",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 22270000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 20157000000
+            },
+            "noncontrolling_interest_income": {
+              "tag": "NetIncomeLossAttributableToNonredeemableNoncontrollingInterest",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "net_income_attributable_to_parent": {
+              "tag": "NetIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 21893000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 19436000000
+            },
+            "diluted_eps": {
+              "tag": "EarningsPerShareDiluted",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 2.73,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 2.41
+            },
+            "stockholders_equity": {
+              "tag": "StockholdersEquity",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 99617000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 91013000000
+            },
+            "long_term_debt": {
+              "tag": "LongTermDebt",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 38166000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 35999000000
+            },
+            "current_portion_of_long_term_debt": {
+              "tag": "LongTermDebtCurrent",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 3542000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 2598000000
+            },
+            "short_term_borrowings": {
+              "tag": "ShortTermBorrowings",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 6596000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 3068000000
+            },
+            "cash_from_operations": {
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 41565000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 36443000000
+            },
+            "additions_to_property_and_equipment": {
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_end": "2026-01-31",
+              "fy": 2026,
+              "filing": "0000104169-26-000055",
+              "value": 26642000000,
+              "prior_period_end": "2025-01-31",
+              "prior_filing": "0000104169-25-000021",
+              "prior_value": 23783000000
+            }
+          },
+          "operating_margin": 4.182073382943311,
+          "operating_margin_unit": "%"
+        },
+        "TGT": {
+          "cik": "0000027419",
+          "report_period": "2026-01-31",
+          "facts": {
+            "revenue": {
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 104780000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 106566000000
+            },
+            "operating_income": {
+              "tag": "OperatingIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 5117000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 5566000000
+            },
+            "net_income": {
+              "tag": "NetIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 3705000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 4091000000
+            },
+            "noncontrolling_interest_income": {
+              "tag": null,
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "net_income_attributable_to_parent": {
+              "tag": "NetIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 3705000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 4091000000
+            },
+            "diluted_eps": {
+              "tag": "EarningsPerShareDiluted",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 8.13,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 8.86
+            },
+            "stockholders_equity": {
+              "tag": "StockholdersEquity",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 16165000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 14666000000
+            },
+            "long_term_debt": {
+              "tag": "LongTermDebt",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 14398000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 13904000000
+            },
+            "current_portion_of_long_term_debt": {
+              "tag": "LongTermDebtCurrent",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "short_term_borrowings": {
+              "tag": "ShortTermBorrowings",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "cash_from_operations": {
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 6562000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 7367000000
+            },
+            "additions_to_property_and_equipment": {
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0000027419-26-000016",
+              "value": 3727000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0000027419-25-000018",
+              "prior_value": 2891000000
+            }
+          },
+          "operating_margin": 4.8835655659477,
+          "operating_margin_unit": "%"
+        },
+        "BJ": {
+          "cik": "0001531152",
+          "report_period": "2026-01-31",
+          "facts": {
+            "revenue": {
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 21457274000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 20501804000
+            },
+            "operating_income": {
+              "tag": "OperatingIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 816604000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 772206000
+            },
+            "net_income": {
+              "tag": "NetIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 578377000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 534417000
+            },
+            "noncontrolling_interest_income": {
+              "tag": null,
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "net_income_attributable_to_parent": {
+              "tag": "NetIncomeLoss",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 578377000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 534417000
+            },
+            "diluted_eps": {
+              "tag": "EarningsPerShareDiluted",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 4.38,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 4
+            },
+            "stockholders_equity": {
+              "tag": "StockholdersEquity",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 2197659000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 1847454000
+            },
+            "long_term_debt": {
+              "tag": "LongTermDebt",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 399099000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 398807000
+            },
+            "current_portion_of_long_term_debt": {
+              "tag": "LongTermDebtCurrent",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 120000000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 175000000
+            },
+            "short_term_borrowings": {
+              "tag": "ShortTermBorrowings",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": null,
+              "value": null,
+              "prior_period_end": null,
+              "prior_filing": null,
+              "prior_value": null
+            },
+            "cash_from_operations": {
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 1030056000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 900872000
+            },
+            "additions_to_property_and_equipment": {
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_end": "2026-01-31",
+              "fy": 2025,
+              "filing": "0001531152-26-000007",
+              "value": 702048000,
+              "prior_period_end": "2025-02-01",
+              "prior_filing": "0001531152-25-000013",
+              "prior_value": 587983000
+            }
+          },
+          "operating_margin": 3.8057210808791457,
+          "operating_margin_unit": "%"
+        }
+      }
+    }
+  },
+  "expected_output": "JSON object with checks. Each check has claim, status (correct, wrong, or unsupported), reason, correction, and source."
+}
