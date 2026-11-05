@@ -17,3 +17,5 @@ The output. Own Valuation Insights. Return JSON with draft as a string and calcu
 Insight: [A financial claim supported by an exact supplied number that goes beyond the earnings release’s first paragraph.] [Exact source citation and, for a computed measure, arithmetic and cited inputs]
 
 Include exactly one Insight: line in the entire draft, as its final line. Do not add an Insight line to each report part.
+
+Use only the supplied pre-filing official close, as embedded in the code-computed P/E and its provenance, for market valuation. Do not fetch, infer, or substitute other market prices. If it is not available, report P/E as “not available” and continue the analysis. No role receives the daily closes series.

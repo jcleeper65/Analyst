@@ -13,11 +13,11 @@ spec.loader.exec_module(web)
 
 class WebAppTests(unittest.TestCase):
     def test_peer_input_and_price(self):
-        args = web.validate_inputs({'ticker': 'abc', 'peers': 'def, ghi', 'price': '10.25'})
-        self.assertEqual(args, ['ABC', '--peers', 'DEF', 'GHI', '--price', '10.25'])
+        args = web.validate_inputs({'ticker': 'abc', 'peers': 'def, ghi'})
+        self.assertEqual(args, ['ABC', '--peers', 'DEF', 'GHI'])
 
     def test_invalid_inputs(self):
-        for values in ({'ticker': '; exit', 'price': 10}, {'ticker': 'ABC', 'price': 'nan'}, {'ticker': 'ABC', 'price': -1}):
+        for values in ({'ticker': '; exit'}, {'ticker': ''}, {'ticker': 'ABC', 'peers': ';exit'}):
             with self.assertRaises(ValueError):
                 web.validate_inputs(values)
 

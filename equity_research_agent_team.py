@@ -397,7 +397,7 @@ class Runtime:
                 checks.append({
                     "claim": f"Arithmetic: {expression} = {displayed}" ,
                     "status": "correct" if correct else "unsupported" if not has_formula_sources else "wrong",
-                    "reason": "Arithmetic is correct for the stated inputs; source validity is checked separately. User-supplied price is not independently verified." if correct else "Ratio formula lacks sources or does not match its displayed value",
+                    "reason": "Arithmetic is correct for the stated inputs; source validity is checked separately. Price provenance is checked separately." if correct else "Ratio formula lacks sources or does not match its displayed value",
                     "correction": "" if correct else str(expected) if expected is not None else "",
                     "source": formula_match.group(2).strip(),
                 })
@@ -476,11 +476,12 @@ class Runtime:
 class EquityResearchFlow(Flow):
     """Full run graph: data -> research -> financial -> advisor -> manager -> verifier."""
 
-    def __init__(self, ticker: str, peers: list[str], price: float | None):
+    def __init__(self, ticker: str, peers: list[str], price: float | None = None, filed: str | None = None):
         super().__init__()
         self.ticker = ticker
         self.peers = peers
-        self.price = price
+        self.price = None
+        self.filed_override = filed
         self.runtime: Runtime | None = None
         self.role_outputs: dict[str, str] = {}
         self.contexts: dict[str, Any] = {}
@@ -489,7 +490,7 @@ class EquityResearchFlow(Flow):
     @start()
     def data_steps(self) -> dict[str, Any]:
         print("Node starting: Seven data steps", flush=True)
-        desk = Desk(self.ticker, self.peers, self.price)
+        desk = Desk(self.ticker, self.peers, filed=self.filed_override)
         self.runtime = Runtime(desk)
         step_names = (
             "Resolve ticker to CIK",
@@ -501,7 +502,7 @@ class EquityResearchFlow(Flow):
             "Fetch peer facts",
         )
         for step_number, step_name in enumerate(step_names, 1):
-            envelope = {"task": step_name, "context": {"ticker": self.ticker, "peers": self.peers, "price": self.price}, "expected_output": f"Step {step_number} data and status"}
+            envelope = {"task": step_name, "context": {"ticker": self.ticker, "peers": self.peers, "filed": self.filed_override}, "expected_output": f"Step {step_number} data and status"}
             if step_number > 1:
                 self.runtime.save_node(f"Data Step {step_number}", "input", envelope)
             tool = DeskStepTool(
@@ -695,14 +696,14 @@ class VerifyOnlyFlow(Flow):
 
 def run_cli(args: Any) -> int:
     if args.verify_only:
-        if args.ticker or args.peers or args.price is not None:
-            raise ValueError("--verify-only cannot be combined with ticker, --peers, or --price")
+        if args.ticker or args.peers or args.price is not None or args.filed is not None:
+            raise ValueError("--verify-only cannot be combined with ticker, --peers, --price, or --filed")
         result = VerifyOnlyFlow(Path(args.verify_only)).kickoff()
         print(f"Verified report: {result}")
         return 0
     if not args.ticker:
         raise ValueError("ticker is required unless --verify-only is used")
     peers = [part.strip() for item in (args.peers or []) for part in item.split(",") if part.strip()]
-    result = EquityResearchFlow(args.ticker, peers, args.price).kickoff()
+    result = EquityResearchFlow(args.ticker, peers, filed=args.filed).kickoff()
     print(f"Verified report: {result}")
     return 0

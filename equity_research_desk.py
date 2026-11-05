@@ -13,6 +13,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from closes_reader import filing_time, last_close_before, NOT_AVAILABLE
 from report_naming import create_run
 
 import requests
@@ -55,7 +56,7 @@ class Filing:
 
 
 class Desk:
-    def __init__(self, ticker: str, peers: list[str], price: float | None):
+    def __init__(self, ticker: str, peers: list[str], price: float | None = None, filed: str | None = None):
         load_dotenv(Path(__file__).with_name(".env"))
         user_agent = os.getenv("SEC_USER_AGENT", "").strip()
         if not user_agent:
@@ -64,7 +65,12 @@ class Desk:
         self.session.headers.update({"User-Agent": user_agent, "Accept-Encoding": "gzip, deflate"})
         self.ticker = ticker.upper()
         self.peers = [p.upper() for p in peers]
-        self.price = price
+        self.price = None
+        self.filed_override = filed
+        if filed:
+            filing_time(filed)
+        self.price_source = "not available"
+        self.market_evidence = {}
         self.run_started_at = datetime.now().astimezone()
         self.run_timestamp = self.run_started_at.isoformat(timespec="seconds")
         self.company_tickers: dict[str, dict[str, Any]] = {}
@@ -169,6 +175,17 @@ class Desk:
         if missing:
             raise RuntimeError(f"Could not find required filings: {', '.join(sorted(missing))}")
         self.filings = chosen
+        accepted = chosen["8-K"].accepted
+        effective = self.filed_override or accepted.replace(" ", "T")
+        try:
+            effective = filing_time(effective).isoformat()
+        except ValueError:
+            effective = NOT_AVAILABLE
+        self.market_evidence = {"edgar_accepted": accepted, "edgar_index_url": chosen["8-K"].index_url,
+                                "earnings_accession": chosen["8-K"].accession,
+                                "filed_override": self.filed_override, "effective_filed_eastern": effective}
+        self.ensure_output()
+        (self.output_dir / "filing_time.json").write_text(json.dumps(self.market_evidence, indent=2) + "\n")
         print("  Latest qualifying filings (accession | EDGAR Accepted time):")
         for form in ("10-K", "10-Q", "8-K"):
             f = chosen[form]
@@ -349,6 +366,20 @@ class Desk:
         print("Step 5/7: Calculate financial ratios and free cash flow.", flush=True)
         if not self.facts:
             self.facts, self.report_period, _ = self.compile_facts(self.get_company_facts(self.cik or self.resolve_ticker(self.ticker)[0]))
+        if not self.filings:
+            self.step2()
+        effective = self.market_evidence.get("effective_filed_eastern", NOT_AVAILABLE)
+        selected_close = NOT_AVAILABLE
+        if effective != NOT_AVAILABLE:
+            local_time = datetime.fromisoformat(effective).strftime('%Y-%m-%dT%H:%M:%S')
+            selected_close = last_close_before(self.ticker, local_time)
+        self.price = selected_close["close"] if isinstance(selected_close, dict) else None
+        self.price_source = (f"{selected_close['source']}; official close at {selected_close['close_time']}; strictly before filing {effective}"
+                             if isinstance(selected_close, dict) else NOT_AVAILABLE)
+        self.market_evidence["selected_close"] = selected_close
+        self.market_evidence["price_source"] = self.price_source
+        self.ensure_output()
+        (self.output_dir / "market_price.json").write_text(json.dumps(self.market_evidence, indent=2) + "\n")
         f = self.facts
         rev, prev_rev = f["revenue"]["value"], f["revenue"]["prior_value"]
         op = f["operating_income"]["value"]
@@ -404,7 +435,7 @@ class Desk:
             "return_on_average_equity": {"formula": f"{parent_net} / (({eq} + {prev_eq}) / 2)", "value": roe * 100 if roe is not None else None, "unit": "%", "method": "reported net income fact divided by the simple average of current and prior year-end stockholders' equity", "sources": [self.fact_source(f["net_income_attributable_to_parent"]), self.fact_source(f["stockholders_equity"]), self.fact_source(f["stockholders_equity"], prior=True)]},
             "debt_to_equity": {"formula": f"({' + '.join(str(item.get('value')) for item in debt_components) or 'n/a'}) / {eq}", "value": debt_equity, "unit": "ratio", "definition": debt_definition, "sources": [self.fact_source(item) for item in debt_components] + [self.fact_source(f["stockholders_equity"])]},
             "free_cash_flow": {"formula": f"{cfo} - {capex}", "value": fcf, "unit": "USD", "sources": [self.fact_source(f["cash_from_operations"]), self.fact_source(f["additions_to_property_and_equipment"])]},
-            "pe": {"formula": f"{self.price} / {diluted_eps}", "value": pe, "unit": "ratio", "price_source": f"user-supplied --price; run time {self.run_timestamp}; market quote timestamp was not provided", "sources": [f"user-supplied --price at run time {self.run_timestamp}; market quote timestamp was not provided", self.fact_source(f["diluted_eps"])]},
+            "pe": {"formula": f"{self.price} / {diluted_eps}", "value": pe, "unit": "ratio", "price_source": self.price_source, "sources": [self.price_source, self.fact_source(f["diluted_eps"])]},
         }
         print("  Calculator (amounts in USD; ratios shown as percentages where stated).")
         print(f"  Computed revenue growth = ({self.input_value(f['revenue'])} - {self.input_value(f['revenue'], prior=True)}) / {self.input_value(f['revenue'], prior=True)} = {self.number(growth * 100 if growth is not None else None)}% | inputs: revenue [{self.fact_source(f['revenue'])}]; prior revenue [{self.fact_source(f['revenue'], prior=True)}]")
@@ -423,7 +454,7 @@ class Desk:
             print(f"  Computed debt to equity = ({debt_formula}) / {self.input_value(f['stockholders_equity'])} = {self.number(debt_equity)} | inputs: borrowings [{debt_sources}]; equity [{self.fact_source(f['stockholders_equity'])}]; definition: {debt_definition}")
         print(f"  Computed free cash flow = {self.input_value(f['cash_from_operations'])} - {self.input_value(f['additions_to_property_and_equipment'])} = {self.number(fcf)} | inputs: cash from operations [{self.fact_source(f['cash_from_operations'])}]; additions to property and equipment [{self.fact_source(f['additions_to_property_and_equipment'])}]")
         price_input = self.number(self.price) if self.price is not None else "n/a"
-        print(f"  Computed P/E = {price_input} / {self.input_value(f['diluted_eps'])} = {self.number(pe)} | inputs: price [user-supplied --price; run time {self.run_timestamp}; market quote timestamp not provided]; diluted EPS [{self.fact_source(f['diluted_eps'])}]")
+        print(f"  Computed P/E = {price_input} / {self.input_value(f['diluted_eps'])} = {self.number(pe)} | inputs: price [{self.price_source}]; diluted EPS [{self.fact_source(f['diluted_eps'])}]")
 
     def step6(self) -> None:
         print("Step 6/7: Extract quarterly revenue and diluted EPS from the earnings release.", flush=True)
@@ -726,14 +757,15 @@ class Desk:
         if not self.facts:
             return
         self.ensure_output()
-        payload = {"ticker": self.ticker, "company": self.company, "cik": self.cik, "report_period": self.report_period, "facts": self.facts, "peers": getattr(self, "peer_results", {})}
+        payload = {"ticker": self.ticker, "company": self.company, "cik": self.cik, "report_period": self.report_period, "facts": self.facts, "peers": getattr(self, "peer_results", {}), "market_price": self.market_evidence}
         (self.output_dir / "facts.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run the fixed-order equity research agent team.")
     parser.add_argument("ticker", nargs="?", help="Company ticker symbol")
     parser.add_argument("--peers", nargs="*", default=None, help="Peer ticker symbols")
-    parser.add_argument("--price", type=float, help="Share price for the P/E calculation")
+    parser.add_argument("--price", type=float, help="Deprecated; accepted for compatibility but ignored. Uses the pre-filing official close.")
+    parser.add_argument("--filed", type=lambda value: (filing_time(value), value)[1], help="Override earnings 8-K Accepted time: YYYY-MM-DDTHH:MM:SS, Eastern")
     parser.add_argument("--verify-only", metavar="RUN_PATH", help="Verify a saved run without running its data steps or analyst roles")
     return parser.parse_args()
 

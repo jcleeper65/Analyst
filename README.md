@@ -34,6 +34,8 @@ From the workspace directory, start the page with:
 python3.13 Repos/Analyst/web_app.py
 ```
 
-The page opens at http://127.0.0.1:8501. Enter a ticker, optional peers, and a positive share price, then select Run research. Node starts appear during execution. The completed Markdown report and marks render below, with a download link. Review wrong and unsupported marks before using the report. Existing CLI commands are unchanged. Configuration uses the same `.env` file. Keep the server running while using the page. Runs continue if you refresh the page; restarting the server clears its in-memory run list. Saved reports remain in `equity_research_output`. Only one run can be started at a time through the page.
+The page opens at http://127.0.0.1:8501. Enter a ticker, optional peers, and an optional Eastern filing-time override, then select Run research. The team selects the last official close strictly before the effective filing time. Node starts appear during execution. The completed Markdown report and marks render below, with a download link. Review wrong and unsupported marks before using the report. Existing CLI commands are unchanged. Configuration uses the same `.env` file. Keep the server running while using the page. Runs continue if you refresh the page; restarting the server clears its in-memory run list. Saved reports remain in `equity_research_output`. Only one run can be started at a time through the page.
 
 Use `--port 8502` for another port or `--no-browser` to skip automatic browser opening.
+
+See [CLOSES_READER.md](CLOSES_READER.md) for the isolated LSEG install, CSV source, timestamp override, reader commands, and price provenance. `--price` is now ignored for compatibility; new runs use the pre-filing official close.

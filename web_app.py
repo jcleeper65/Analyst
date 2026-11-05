@@ -65,13 +65,12 @@ def validate_inputs(data):
     peers = [p for p in peers if p]
     if len(peers) > 20 or any(not re.fullmatch(r'[A-Z0-9][A-Z0-9.\-]{0,19}', p) for p in peers):
         raise ValueError('Enter up to 20 peer tickers, separated by spaces or commas.')
-    try:
-        price = float(data.get('price', ''))
-    except (ValueError, TypeError):
-        raise ValueError('Enter a positive share price.') from None
-    if not math.isfinite(price) or price <= 0:
-        raise ValueError('Enter a positive share price.')
-    return [ticker, '--peers', *peers, '--price', str(price)]
+    filed = str(data.get('filed', '')).strip()
+    if filed:
+        from closes_reader import filing_time
+        filing_time(filed)
+    return [ticker, '--peers', *peers] + (['--filed', filed] if filed else [])
+
 
 
 class Handler(BaseHTTPRequestHandler):
