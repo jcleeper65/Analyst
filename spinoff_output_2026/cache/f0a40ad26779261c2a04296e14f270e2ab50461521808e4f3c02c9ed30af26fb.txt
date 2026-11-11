@@ -1,0 +1,98 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>27
+<FILENAME>R8.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>ORGANIZATION AND DESCRIPTION OF BUSINESS<br></strong></div></th>
+<th class="th" colspan="1">12 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Mar. 31, 2026</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_dance_OrganizationAndDescriptionOfBusinessAbstract', window );"><strong>ORGANIZATION AND DESCRIPTION OF BUSINESS</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_BusinessCombinationDisclosureTextBlock', window );">ORGANIZATION AND DESCRIPTION OF BUSINESS</a></td>
+<td class="text"><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;"><strong>NOTE 1. ORGANIZATION AND DESCRIPTION OF BUSINESS</strong></p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;">&#160;</p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;">Dance Emotion Studios Inc. (&#8220;Dance Emotion Studios&#8221;) was incorporated on July 31, 2025, in the State of Nevada, USA. Dance Emotion Studios acquired 100% interest of Dance Emotion Limited of Hong Kong (&#8220;Dance Emotion Limited&#8221;) on January 15, 2026, as its wholly owned subsidiary. Dance Emotion Limited, incorporated on May 14, 2014, in Hong Kong under the Companies Ordinance (Chapter 622 of the Laws of Hong Kong), is engaged in the sale of clothing, specializing in the design, supply, and distribution of a range of dance apparel and other clothing and accessories. It works with clothing manufacturers in Hong Kong and China on the fabrication of its products.</p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;">&#160;</p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;">Dance Emotion Studios and Dance Emotion Limited will be collectively referred to as the &#8220;Company&#8221;.</p><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_dance_OrganizationAndDescriptionOfBusinessAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">dance_OrganizationAndDescriptionOfBusinessAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>dance_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_BusinessCombinationDisclosureTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The entire disclosure for business combination.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 8<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479328/805-10-50-8<br><br>Reference 2: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 38<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479303/805-10-55-38<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 46<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479303/805-10-55-46<br><br>Reference 4: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 43<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479303/805-10-55-43<br><br>Reference 5: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 45<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479303/805-10-55-45<br><br>Reference 6: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 29<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479303/805-10-55-29<br><br>Reference 7: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 29<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479303/805-10-55-29<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479907/805-20-50-5<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (d)(1)(ii)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479907/805-20-50-1<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479907/805-20-50-3<br><br>Reference 11: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479581/805-30-50-3<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479328/805-10-50-2<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479907/805-20-50-2<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479581/805-30-50-2<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479581/805-30-50-1<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (f)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479581/805-30-50-1<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479328/805-10-50-3<br><br>Reference 18: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479581/805-30-50-1<br><br>Reference 19: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (h)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479328/805-10-50-2<br><br>Reference 20: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479328/805-10-50-4<br><br>Reference 21: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Subparagraph (a)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479581/805-30-50-4<br><br>Reference 22: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (a)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479907/805-20-50-1<br><br>Reference 23: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (a)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479907/805-20-50-1<br><br>Reference 24: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (h)(4)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479328/805-10-50-2<br><br>Reference 25: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (e)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479328/805-10-50-2<br><br>Reference 26: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479326/805-40-45-1<br><br>Reference 27: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/805-30/tableOfContent<br><br>Reference 28: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/805-20/tableOfContent<br><br>Reference 29: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479328/805-10-50-7<br><br>Reference 30: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479328/805-10-50-5<br><br>Reference 31: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/805-10/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_BusinessCombinationDisclosureTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

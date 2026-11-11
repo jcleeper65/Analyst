@@ -1,0 +1,995 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>51
+<FILENAME>R44.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="2" rowspan="2"><div style="width: 200px;"><strong>Investments - Schedule of Reconciliation of Investments Measured at Fair value on a recurring basis using Level 3 inputs (Details) - USD ($)<br></strong></div></th>
+<th class="th" colspan="2">3 Months Ended</th>
+</tr>
+<tr>
+<th class="th"><div>Mar. 31, 2026</div></th>
+<th class="th"><div>Mar. 31, 2025</div></th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentIncomeReportedAmountsByCategoryLineItems', window );"><strong>Net Investment Income [Line Items]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Beginning Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1],[2],[3],[4],[5]</sup></td>
+<td class="nump">$ 37,346,944<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentIncomeNetAmortizationOfDiscountAndPremium', window );">Amortization of discount/premium on investments</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">22,515<span></span>
+</td>
+<td class="nump">$ 2,231<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RealizedInvestmentGainsLosses', window );">Net realized gains (losses)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(5,946)<span></span>
+</td>
+<td class="nump">290,085<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UnrealizedGainLossOnInvestments', window );">Net change in unrealized appreciation (depreciation)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(1,602,628)<span></span>
+</td>
+<td class="num">(739,168)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Ending Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[6],[7],[8]</sup></td>
+<td class="nump">42,822,949<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=ck0001984739_SeniorSecuredFirstLienDebtInvestmentsMember', window );">Senior Secured First Lien Debt Investments</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentIncomeReportedAmountsByCategoryLineItems', window );"><strong>Net Investment Income [Line Items]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Beginning Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1],[2],[3],[4]</sup></td>
+<td class="nump">34,322,930<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Ending Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[6],[8],[9]</sup></td>
+<td class="nump">41,006,611<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=us-gaap_EquitySecuritiesMember', window );">Equity Securities</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentIncomeReportedAmountsByCategoryLineItems', window );"><strong>Net Investment Income [Line Items]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Beginning Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1],[2],[3],[4],[5]</sup></td>
+<td class="nump">3,024,014<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Ending Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[6],[7],[8]</sup></td>
+<td class="nump">1,816,338<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel3Member', window );">Level 3</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentIncomeReportedAmountsByCategoryLineItems', window );"><strong>Net Investment Income [Line Items]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Beginning Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">28,211,462<span></span>
+</td>
+<td class="nump">34,855,169<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentPurchases', window );">Purchases</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">5,609,662<span></span>
+</td>
+<td class="nump">1,852,597<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentPaymentIn-KindInterest', window );">Payment in-kind interest</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">55,071<span></span>
+</td>
+<td class="nump">25,682<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_ProceedsFromSaleOfInvestments', window );">Sales</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_RepaymentsOfInvestment', window );">Repayments</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">580,279<span></span>
+</td>
+<td class="num">(958,866)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentIncomeNetAmortizationOfDiscountAndPremium', window );">Amortization of discount/premium on investments</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">17,223<span></span>
+</td>
+<td class="nump">19,529<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RealizedInvestmentGainsLosses', window );">Net realized gains (losses)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">290,085<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentTransfersIn', window );">Transfers in</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">1,280,415<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentTransfersOut', window );">Transfers out</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(1,280,415)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UnrealizedGainLossOnInvestments', window );">Net change in unrealized appreciation (depreciation)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(1,444,886)<span></span>
+</td>
+<td class="num">(277,882)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Ending Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">31,868,253<span></span>
+</td>
+<td class="nump">35,806,314<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FairValueAssetsMeasuredOnRecurringBasisChangeInUnrealizedGainLoss', window );">Change in unrealized appreciation (depreciation) relating to assets still held</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(1,444,886)<span></span>
+</td>
+<td class="num">(457,476)<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel3Member', window );">Level 3 | Senior Secured First Lien Debt Investments</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentIncomeReportedAmountsByCategoryLineItems', window );"><strong>Net Investment Income [Line Items]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Beginning Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">25,187,448<span></span>
+</td>
+<td class="nump">33,300,092<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentPurchases', window );">Purchases</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">5,609,662<span></span>
+</td>
+<td class="nump">1,695,372<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentPaymentIn-KindInterest', window );">Payment in-kind interest</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">55,071<span></span>
+</td>
+<td class="nump">25,682<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_ProceedsFromSaleOfInvestments', window );">Sales</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_RepaymentsOfInvestment', window );">Repayments</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">580,279<span></span>
+</td>
+<td class="num">(958,866)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentIncomeNetAmortizationOfDiscountAndPremium', window );">Amortization of discount/premium on investments</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">17,223<span></span>
+</td>
+<td class="nump">19,529<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RealizedInvestmentGainsLosses', window );">Net realized gains (losses)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">290,085<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentTransfersIn', window );">Transfers in</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentTransfersOut', window );">Transfers out</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(1,280,415)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UnrealizedGainLossOnInvestments', window );">Net change in unrealized appreciation (depreciation)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(237,210)<span></span>
+</td>
+<td class="num">(437,187)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Ending Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">30,051,915<span></span>
+</td>
+<td class="nump">32,654,292<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FairValueAssetsMeasuredOnRecurringBasisChangeInUnrealizedGainLoss', window );">Change in unrealized appreciation (depreciation) relating to assets still held</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">$ (237,210)<span></span>
+</td>
+<td class="num">$ (616,781)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FairValueAssetRecurringBasisStillHeldUnrealizedGainLossStatementOfIncomeExtensibleList', window );">Fair Value, Asset, Recurring Basis, Still Held, Unrealized Gain (Loss), Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">Interest Income, Operating, Paid in Kind<span></span>
+</td>
+<td class="text">Interest Income, Operating, Paid in Kind<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel3Member', window );">Level 3 | Equity Securities</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentIncomeReportedAmountsByCategoryLineItems', window );"><strong>Net Investment Income [Line Items]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Beginning Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">$ 3,024,014<span></span>
+</td>
+<td class="nump">$ 1,555,077<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentPurchases', window );">Purchases</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">157,225<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentPaymentIn-KindInterest', window );">Payment in-kind interest</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_ProceedsFromSaleOfInvestments', window );">Sales</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_RepaymentsOfInvestment', window );">Repayments</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentIncomeNetAmortizationOfDiscountAndPremium', window );">Amortization of discount/premium on investments</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RealizedInvestmentGainsLosses', window );">Net realized gains (losses)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentTransfersIn', window );">Transfers in</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">1,280,415<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_InvestmentTransfersOut', window );">Transfers out</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UnrealizedGainLossOnInvestments', window );">Net change in unrealized appreciation (depreciation)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">1,207,676<span></span>
+</td>
+<td class="nump">159,305<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value, Ending Balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">1,816,338<span></span>
+</td>
+<td class="nump">3,152,022<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FairValueAssetsMeasuredOnRecurringBasisChangeInUnrealizedGainLoss', window );">Change in unrealized appreciation (depreciation) relating to assets still held</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">$ (1,207,676)<span></span>
+</td>
+<td class="nump">$ 159,305<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FairValueAssetRecurringBasisStillHeldUnrealizedGainLossStatementOfIncomeExtensibleList', window );">Fair Value, Asset, Recurring Basis, Still Held, Unrealized Gain (Loss), Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">Interest Income, Operating, Paid in Kind<span></span>
+</td>
+<td class="text">Interest Income, Operating, Paid in Kind<span></span>
+</td>
+</tr>
+<tr><td colspan="3"></td></tr>
+<tr><td colspan="3"><table class="outerFootnotes" width="100%">
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[1]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">All investments of the Company are in entities which are organized under the laws of the United States and have a principal place of business in the United States, unless otherwise noted.</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[2]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">As defined in the 1940 Act, the Company is deemed to be an &#8220;Affiliated Person&#8221; of a portfolio company if it owns </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">5</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">% or more, up to </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">25</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">% (inclusive), of the portfolio company&#8217;s outstanding voting securities (&#8220;non-controlled affiliate&#8221;). As defined in the 1940 Act, the Company is deemed to be both an &#8220;affiliated person&#8221; and &#8220;control&#8221; a portfolio company if it owns more than </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">25</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">% of the portfolio company&#8217;s outstanding voting securities or has the power to exercise control over the management or policies of such portfolio company (including through a management agreement). As o</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">f December 31, 2025, t</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">he Company had </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">no</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> "Affiliated Investments" or "Control Investments.&#8221;</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[3]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Certain portfolio company investments are subject to contractual restrictions on sales. Refer to footnote 8 of the Consolidated Schedule of Investments as of </span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">December 31, 2025 f</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">or additional information on our restricted securities.</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[4]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Unless indicated otherwise, all investments were valued at fair value using Level 3 significant unobservable inputs as determined in good faith by the Company&#8217;s board of trustees (see Note 4). </span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[5]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">acquired in transactions exempt from registration under the Securities Act and may be deemed to be "restricted securities" under the Securities Act. As o</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">f December 31, 2025, the Company's portfolio company investments that were subject to restrictions on sales totaled </span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">$</span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">3,024,014</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> at fair value and represented </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">11.5</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">%</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> of t</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">he Company's net assets.</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[6]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Certain portfolio company investments are subject to contractual restrictions on sales. Refer to footnote 8 of the Unaudited Consolidated Schedule of Investments as of </span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">March 31, 2026 f</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">or additional information on our restricted securities.</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[7]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">These securities were acquired in transactions exempt from registration under the Securities Act of 1933, as amended (the "Securities Act") and may be deemed to be "restricted securities" under the Securities Act. As o</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">f March 31, 2026, the Company's portfolio company investments that were subject to restrictions on sales totaled </span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">$</span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">1,816,338</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> at fair value and represented </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">5.5</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">%</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> of t</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">he Company's net assets.</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[8]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Unless indicated otherwise, all investments were valued at fair value using Level 3 significant unobservable inputs as determined in good faith by the Company&#8217;s board of trustees (see Note 4).</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[9]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">As defined in the 1940 Act, the Company is deemed to be an &#8220;Affiliated Person&#8221; of a portfolio company if it owns </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">5</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">% or more, up to </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">25</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">% (inclusive), of the portfolio company&#8217;s outstanding voting securities (&#8220;non-controlled affiliate&#8221;). As defined in the 1940 Act, the Company is deemed to be both an &#8220;affiliated person&#8221; and &#8220;control&#8221; a portfolio company if it owns more than </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">25</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">% of the portfolio company&#8217;s outstanding voting securities or has the power to exercise control over the management or policies of such portfolio company (including through a management agreement). As o</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">f March 31, 2026, the Company had </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">no</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> "Affiliated Investments" or "Control Investments.</span></td>
+</tr>
+</table></td></tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0001984739_InvestmentPaymentIn-KindInterest">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Payment in-Kind Interest</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0001984739_InvestmentPaymentIn-KindInterest</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0001984739_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0001984739_InvestmentPurchases">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Purchases</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0001984739_InvestmentPurchases</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0001984739_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0001984739_InvestmentTransfersIn">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Transfers In</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0001984739_InvestmentTransfersIn</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0001984739_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0001984739_InvestmentTransfersOut">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Transfers Out</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0001984739_InvestmentTransfersOut</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0001984739_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0001984739_ProceedsFromSaleOfInvestments">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Proceeds from Sale of Investments</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0001984739_ProceedsFromSaleOfInvestments</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0001984739_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0001984739_RepaymentsOfInvestment">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Repayments of Investment</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0001984739_RepaymentsOfInvestment</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0001984739_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FairValueAssetRecurringBasisStillHeldUnrealizedGainLossStatementOfIncomeExtensibleList">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Indicates line item in statement of income or comprehensive income that includes unrealized gain (loss) from asset measured at fair value using unobservable input (level 3) and still held.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 820<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482106/820-10-50-3<br><br>Reference 2: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 820<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 102<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482078/820-10-55-102<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 820<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FairValueAssetRecurringBasisStillHeldUnrealizedGainLossStatementOfIncomeExtensibleList</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>enum2:enumerationSetItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FairValueAssetsMeasuredOnRecurringBasisChangeInUnrealizedGainLoss">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of unrealized gain (loss) recognized in income from asset measured at fair value on recurring basis using unobservable input (level 3) and still held.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 820<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 101<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482078/820-10-55-101<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 820<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482106/820-10-50-3<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 820<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 102<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482078/820-10-55-102<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 820<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FairValueAssetsMeasuredOnRecurringBasisChangeInUnrealizedGainLoss</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentIncomeNetAmortizationOfDiscountAndPremium">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of accretion (amortization) of purchase discount (premium) on nonoperating securities.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 220<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SX 210.5-03(8))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentIncomeNetAmortizationOfDiscountAndPremium</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentOwnedAtFairValue">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Fair value of investment in security owned.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(11))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477439/946-210-55-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-2<br><br>Reference 11: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 12: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(d))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(2)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(2)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 18: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column A)(Footnote 1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 19: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 20: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 21: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 22: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 23: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 24: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 25: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 9))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 26: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 27: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 28: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 29: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 30: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentOwnedAtFairValue</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RealizedInvestmentGainsLosses">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of realized gain (loss) on investment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-04(3)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RealizedInvestmentGainsLosses</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ScheduleOfInvestmentIncomeReportedAmountsByCategoryLineItems">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-04(2)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ScheduleOfInvestmentIncomeReportedAmountsByCategoryLineItems</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_UnrealizedGainLossOnInvestments">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of unrealized gain (loss) on investment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 28<br> -Subparagraph (b)<br> -SubTopic 10<br> -Topic 230<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_UnrealizedGainLossOnInvestments</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentTypeAxis=ck0001984739_SeniorSecuredFirstLienDebtInvestmentsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentTypeAxis=ck0001984739_SeniorSecuredFirstLienDebtInvestmentsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentTypeAxis=us-gaap_EquitySecuritiesMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentTypeAxis=us-gaap_EquitySecuritiesMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel3Member">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel3Member</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

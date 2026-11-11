@@ -1,0 +1,832 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>43
+<FILENAME>R32.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.3</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="1"><div style="width: 200px;"><strong>Investment Securities - Schedule of Debt Securities Available for Sale (Details) - USD ($)<br> $ in Thousands</strong></div></th>
+<th class="th"><div>Sep. 30, 2026</div></th>
+<th class="th"><div>Dec. 31, 2025</div></th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems', window );"><strong>Debt Securities, Available-for-Sale [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss', window );">Amortized Cost</a></td>
+<td class="nump">$ 395,366<span></span>
+</td>
+<td class="nump">$ 390,996<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax', window );">Gross Unrealized Gains</a></td>
+<td class="nump">26<span></span>
+</td>
+<td class="nump">1,265<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax', window );">Gross Unrealized Losses</a></td>
+<td class="num">(23,875)<span></span>
+</td>
+<td class="num">(7,653)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest', window );">Estimated Fair Value</a></td>
+<td class="nump">371,517<span></span>
+</td>
+<td class="nump">384,608<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancialInstrumentAxis=us-gaap_USTreasurySecuritiesMember', window );">U.S. Treasury bonds</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems', window );"><strong>Debt Securities, Available-for-Sale [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss', window );">Amortized Cost</a></td>
+<td class="nump">98,927<span></span>
+</td>
+<td class="nump">86,265<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax', window );">Gross Unrealized Gains</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax', window );">Gross Unrealized Losses</a></td>
+<td class="num">(2,327)<span></span>
+</td>
+<td class="num">(2,899)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest', window );">Estimated Fair Value</a></td>
+<td class="nump">96,600<span></span>
+</td>
+<td class="nump">83,366<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancialInstrumentAxis=us-gaap_USGovernmentSponsoredEnterprisesDebtSecuritiesMember', window );">U.S. government-sponsored agencies</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems', window );"><strong>Debt Securities, Available-for-Sale [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss', window );">Amortized Cost</a></td>
+<td class="nump">3,055<span></span>
+</td>
+<td class="nump">3,130<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax', window );">Gross Unrealized Gains</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">9<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax', window );">Gross Unrealized Losses</a></td>
+<td class="num">(256)<span></span>
+</td>
+<td class="num">(123)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest', window );">Estimated Fair Value</a></td>
+<td class="nump">2,799<span></span>
+</td>
+<td class="nump">3,016<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancialInstrumentAxis=wccb_SmallBusinessAdministrationBackedSecuritiesMember', window );">SBA-backed securities</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems', window );"><strong>Debt Securities, Available-for-Sale [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss', window );">Amortized Cost</a></td>
+<td class="nump">4,585<span></span>
+</td>
+<td class="nump">6,292<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax', window );">Gross Unrealized Gains</a></td>
+<td class="nump">3<span></span>
+</td>
+<td class="nump">1<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax', window );">Gross Unrealized Losses</a></td>
+<td class="num">(125)<span></span>
+</td>
+<td class="num">(50)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest', window );">Estimated Fair Value</a></td>
+<td class="nump">4,463<span></span>
+</td>
+<td class="nump">6,243<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancialInstrumentAxis=wccb_GovernmentGuaranteedMortgageBackedSecuritiesMember', window );">Government-guaranteed MBS</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems', window );"><strong>Debt Securities, Available-for-Sale [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss', window );">Amortized Cost</a></td>
+<td class="nump">156,264<span></span>
+</td>
+<td class="nump">133,781<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax', window );">Gross Unrealized Gains</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">828<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax', window );">Gross Unrealized Losses</a></td>
+<td class="num">(8,138)<span></span>
+</td>
+<td class="num">(1,053)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest', window );">Estimated Fair Value</a></td>
+<td class="nump">148,126<span></span>
+</td>
+<td class="nump">133,556<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancialInstrumentAxis=wccb_GovernmentGuaranteedCollateralizedMortgageObligationsMember', window );">Government-guaranteed CMO</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems', window );"><strong>Debt Securities, Available-for-Sale [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss', window );">Amortized Cost</a></td>
+<td class="nump">50,123<span></span>
+</td>
+<td class="nump">56,242<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax', window );">Gross Unrealized Gains</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">43<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax', window );">Gross Unrealized Losses</a></td>
+<td class="num">(4,783)<span></span>
+</td>
+<td class="num">(2,097)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest', window );">Estimated Fair Value</a></td>
+<td class="nump">45,340<span></span>
+</td>
+<td class="nump">54,188<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancialInstrumentAxis=us-gaap_MortgageBackedSecuritiesIssuedByPrivateEnterprisesMember', window );">Private label CMO</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems', window );"><strong>Debt Securities, Available-for-Sale [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss', window );">Amortized Cost</a></td>
+<td class="nump">7,176<span></span>
+</td>
+<td class="nump">8,733<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax', window );">Gross Unrealized Gains</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">3<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax', window );">Gross Unrealized Losses</a></td>
+<td class="num">(507)<span></span>
+</td>
+<td class="num">(77)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest', window );">Estimated Fair Value</a></td>
+<td class="nump">6,669<span></span>
+</td>
+<td class="nump">8,659<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancialInstrumentAxis=us-gaap_USStatesAndPoliticalSubdivisionsMember', window );">Obligations of state and political subdivisions</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems', window );"><strong>Debt Securities, Available-for-Sale [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss', window );">Amortized Cost</a></td>
+<td class="nump">64,990<span></span>
+</td>
+<td class="nump">78,950<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax', window );">Gross Unrealized Gains</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">246<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax', window );">Gross Unrealized Losses</a></td>
+<td class="num">(7,704)<span></span>
+</td>
+<td class="num">(1,324)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest', window );">Estimated Fair Value</a></td>
+<td class="nump">57,286<span></span>
+</td>
+<td class="nump">77,872<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancialInstrumentAxis=us-gaap_AssetBackedSecuritiesMember', window );">Asset-backed securities</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems', window );"><strong>Debt Securities, Available-for-Sale [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss', window );">Amortized Cost</a></td>
+<td class="nump">1,205<span></span>
+</td>
+<td class="nump">2,145<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax', window );">Gross Unrealized Gains</a></td>
+<td class="nump">14<span></span>
+</td>
+<td class="nump">18<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax', window );">Gross Unrealized Losses</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(3)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest', window );">Estimated Fair Value</a></td>
+<td class="nump">1,219<span></span>
+</td>
+<td class="nump">2,160<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancialInstrumentAxis=us-gaap_CorporateDebtSecuritiesMember', window );">Corporate bonds</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems', window );"><strong>Debt Securities, Available-for-Sale [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss', window );">Amortized Cost</a></td>
+<td class="nump">9,041<span></span>
+</td>
+<td class="nump">15,458<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax', window );">Gross Unrealized Gains</a></td>
+<td class="nump">9<span></span>
+</td>
+<td class="nump">117<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax', window );">Gross Unrealized Losses</a></td>
+<td class="num">(35)<span></span>
+</td>
+<td class="num">(27)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest', window );">Estimated Fair Value</a></td>
+<td class="nump">$ 9,015<span></span>
+</td>
+<td class="nump">$ 15,548<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount, before tax, of unrealized gain in accumulated other comprehensive income (AOCI) on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount, before tax, of unrealized loss in accumulated other comprehensive income (AOCI) on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amortized cost excluding accrued interest, after allowance for credit loss, of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 326<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479130/326-30-45-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount excluding accrued interest, of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 326<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479130/326-30-45-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (g)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (fff)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (ff)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (f)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (e)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3A<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3A<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3A<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3A<br><br>Reference 11: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3A<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3A<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3A<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3A<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3A<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3A<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3<br><br>Reference 18: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3<br><br>Reference 19: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2<br><br>Reference 20: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2<br><br>Reference 21: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (aa)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2<br><br>Reference 22: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (aaa)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2<br><br>Reference 23: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2<br><br>Reference 24: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2<br><br>Reference 25: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2<br><br>Reference 26: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3<br><br>Reference 27: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3<br><br>Reference 28: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3<br><br>Reference 29: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3<br><br>Reference 30: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 320<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancialInstrumentAxis=us-gaap_USTreasurySecuritiesMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancialInstrumentAxis=us-gaap_USTreasurySecuritiesMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancialInstrumentAxis=us-gaap_USGovernmentSponsoredEnterprisesDebtSecuritiesMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancialInstrumentAxis=us-gaap_USGovernmentSponsoredEnterprisesDebtSecuritiesMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancialInstrumentAxis=wccb_SmallBusinessAdministrationBackedSecuritiesMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancialInstrumentAxis=wccb_SmallBusinessAdministrationBackedSecuritiesMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancialInstrumentAxis=wccb_GovernmentGuaranteedMortgageBackedSecuritiesMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancialInstrumentAxis=wccb_GovernmentGuaranteedMortgageBackedSecuritiesMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancialInstrumentAxis=wccb_GovernmentGuaranteedCollateralizedMortgageObligationsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancialInstrumentAxis=wccb_GovernmentGuaranteedCollateralizedMortgageObligationsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancialInstrumentAxis=us-gaap_MortgageBackedSecuritiesIssuedByPrivateEnterprisesMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancialInstrumentAxis=us-gaap_MortgageBackedSecuritiesIssuedByPrivateEnterprisesMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancialInstrumentAxis=us-gaap_USStatesAndPoliticalSubdivisionsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancialInstrumentAxis=us-gaap_USStatesAndPoliticalSubdivisionsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancialInstrumentAxis=us-gaap_AssetBackedSecuritiesMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancialInstrumentAxis=us-gaap_AssetBackedSecuritiesMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancialInstrumentAxis=us-gaap_CorporateDebtSecuritiesMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancialInstrumentAxis=us-gaap_CorporateDebtSecuritiesMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

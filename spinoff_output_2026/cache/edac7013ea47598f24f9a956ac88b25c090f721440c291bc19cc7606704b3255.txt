@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:us-roles="http://fasb.org/us-roles/2025" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:srt="http://fasb.org/srt/2025" xmlns:none="http://gcredbdc.com/20260202">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02E_US%2DGAAP%2D2025 -->
+<!-- Field: Set; Name: xdx; ID: xdx_039_none_gcredbdc.com_20260202 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04F_20260202_20260202 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_05E_edei%2D%2DEntityCentralIndexKey_0002082559 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000004" name="dei:EntityCentralIndexKey">0002082559</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="none-20260202.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-02-02">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0002082559</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-02-02</xbrli:startDate>
+        <xbrli:endDate>2026-02-02</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="margin: 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><div style="border-top: Black 2pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>UNITED STATES</b></p>
+
+<p style="font: 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>WASHINGTON, DC 20549</b></p>
+
+<p style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>FORM&#160;<span id="xdx_90E_edei--DocumentType_c20260202__20260202_zAQQ29KiSSs9"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000009" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>CURRENT REPORT</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Pursuant to Section&#160;13 or 15(d)&#160;of
+the</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Securities Exchange Act of 1934</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Date of report (Date of earliest event reported):
+<span id="xdx_909_edei--DocumentPeriodEndDate_c20260202__20260202_z5EKgheFhJXk"><ix:nonNumeric contextRef="AsOf2026-02-02" format="ixt:datemonthdayyearen" id="Fact000010" name="dei:DocumentPeriodEndDate">February 2, 2026</ix:nonNumeric></span></b></p>
+
+<p style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span style="text-decoration: underline"><span id="xdx_903_edei--EntityRegistrantName_c20260202__20260202_zYMomkZLTtB4"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000011" name="dei:EntityRegistrantName">GOLUB CAPITAL PRIVATE INCOME FUND I</ix:nonNumeric></span></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>(Exact name of Registrant as Specified in Its
+Charter)</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="padding: 1.5pt 1.25pt; vertical-align: bottom; font-size: 10pt; text-align: center; width: 32%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_90E_edei--EntityIncorporationStateCountryCode_c20260202__20260202_zOQTrJ5EMpw6"><ix:nonNumeric contextRef="AsOf2026-02-02" format="ixt-sec:stateprovnameen" id="Fact000012" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span></td>
+    <td style="padding-right: 1.25pt; padding-left: 1.25pt; width: 2%">&#160;</td>
+    <td style="padding: 1.5pt 1.25pt; vertical-align: bottom; font-size: 10pt; text-align: center; width: 32%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_908_edei--EntityFileNumber_c20260202__20260202_zcPjy25t1AB2"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000013" name="dei:EntityFileNumber">814-01946</ix:nonNumeric></span></b></span></td>
+    <td style="padding-right: 1.25pt; padding-left: 1.25pt; width: 2%">&#160;</td>
+    <td style="padding: 1.5pt 1.25pt; vertical-align: bottom; font-size: 10pt; text-align: center; width: 32%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_90D_edei--EntityTaxIdentificationNumber_c20260202__20260202_zTwK3U3zo14a"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000014" name="dei:EntityTaxIdentificationNumber">39-3589451</ix:nonNumeric></span></b></span></td></tr>
+  <tr>
+    <td style="padding: 1.5pt 1.25pt; vertical-align: bottom">
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>(State or Other Jurisdiction</b></p>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>of Incorporation)</b></p></td>
+    <td style="padding-right: 1.25pt; padding-left: 1.25pt">&#160;</td>
+    <td style="padding: 1.5pt 1.25pt; vertical-align: bottom">
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>(Commission</b></p>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>File Number)</b></p></td>
+    <td style="padding-right: 1.25pt; padding-left: 1.25pt">&#160;</td>
+    <td style="padding: 1.5pt 1.25pt; vertical-align: bottom">
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>(IRS Employer</b></p>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Identification No.)</b></p></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span style="text-decoration: underline"><span id="xdx_906_edei--EntityAddressAddressLine1_c20260202__20260202_zXJd7BYm2Bmc"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000015" name="dei:EntityAddressAddressLine1">200 Park Avenue</ix:nonNumeric></span>, <span id="xdx_905_edei--EntityAddressAddressLine2_c20260202__20260202_zzFtI10ljfdl"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000016" name="dei:EntityAddressAddressLine2">25th Floor</ix:nonNumeric></span>, <span id="xdx_90C_edei--EntityAddressCityOrTown_c20260202__20260202_z7Pg9nzCRKBd"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000017" name="dei:EntityAddressCityOrTown">New York</ix:nonNumeric></span>, <span id="xdx_904_edei--EntityAddressStateOrProvince_c20260202__20260202_zicZaOUhCfg7"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000018" name="dei:EntityAddressStateOrProvince">NY</ix:nonNumeric></span> <span id="xdx_909_edei--EntityAddressPostalZipCode_c20260202__20260202_zOG3yAo88nF8"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000019" name="dei:EntityAddressPostalZipCode">10166</ix:nonNumeric></span></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>(Address of Principal Executive Offices) </b>&#160;<b>(Zip
+Code)</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Registrant&#8217;s telephone number, including
+area code: <span style="text-decoration: underline">(<span id="xdx_904_edei--CityAreaCode_c20260202__20260202_z0yi5zz7mqv7"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000020" name="dei:CityAreaCode">212</ix:nonNumeric></span>) <span id="xdx_901_edei--LocalPhoneNumber_c20260202__20260202_zaOaepa4BfJ7"><ix:nonNumeric contextRef="AsOf2026-02-02" id="Fact000021" name="dei:LocalPhoneNumber">750-6060</ix:nonNumeric></span></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></p>
+
+<!-- Field: Rule-Page --><div style="margin: 0pt auto; width: 25%"><div style="border-top: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>(Former Name or Former Address, if Changed Since
+Last Report)</b></p>
+
+<p style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Check the appropriate box below if the Form&#160;8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (<i>see</i> General Instruction
+A.2. below):</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: bottom">
+    <td style="font-size: 10pt; width: 0.25in"><span style="font-family: Wingdings"><span id="xdx_90E_edei--WrittenCommunications_c20260202__20260202_zr3vAY5p1A48"><ix:nonNumeric contextRef="AsOf2026-02-02" format="ixt:booleanfalse" id="Fact000022" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font-size: 10pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Written communications pursuant to Rule&#160;425 under the Securities Act (17 CFR 230.425)</span></td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td style="font-size: 10pt"><span style="font-family: Wingdings"><span id="xdx_900_edei--SolicitingMaterial_c20260202__20260202_zcqhRevWpcwi"><ix:nonNumeric contextRef="AsOf2026-02-02" format="ixt:booleanfalse" id="Fact000023" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font-size: 10pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Soliciting material pursuant to Rule&#160;14a-12 under the Exchange Act (17 CFR 240.14a-12)</span></td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td style="font-size: 10pt"><span style="font-family: Wingdings"><span id="xdx_90D_edei--PreCommencementTenderOffer_c20260202__20260202_zyyBlqGsOdnd"><ix:nonNumeric contextRef="AsOf2026-02-02" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font-size: 10pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Pre-commencement communications pursuant to Rule&#160;14d-2(b)&#160;under the Exchange Act (17 CFR 240.14d-2(b))</span></td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td style="font-size: 10pt; width: 0.25in"><span style="font-family: Wingdings"><span id="xdx_90A_edei--PreCommencementIssuerTenderOffer_c20260202__20260202_z4kIUn5vUxW2"><ix:nonNumeric contextRef="AsOf2026-02-02" format="ixt:booleanfalse" id="Fact000025" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font-size: 10pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Pre-commencement communications pursuant to Rule&#160;13e-4(c)&#160;under the Exchange Act (17 CFR 240.13e-4(c))</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Securities registered pursuant to Section&#160;12(b)&#160;of the Act:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="padding: 1.5pt 1.25pt; font-size: 10pt; text-align: center; width: 30%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Title of each class</b></span></td>
+    <td style="padding: 1.5pt 1.25pt; font-size: 10pt; text-align: center; width: 30%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Trading Symbol</b></span></td>
+    <td style="padding: 1.5pt 1.25pt; font-size: 10pt; text-align: center; width: 40%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Name of each exchange on which registered</b></span></td></tr>
+  <tr>
+    <td style="padding: 1.5pt 1.25pt; font-size: 10pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">None</span></td>
+    <td style="padding: 1.5pt 1.25pt; font-size: 10pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">N/A</span></td>
+    <td style="padding: 1.5pt 1.25pt; font-size: 10pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">N/A </span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Indicate by check mark whether the registrant is an emerging growth
+company as defined in Rule&#160;405 of the Securities Act of 1933 or Rule&#160;12b- 2 of the Securities Exchange Act of 1934.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-family: Times New Roman, Times, Serif">Emerging
+growth company <span style="font-family: Wingdings"><span id="xdx_909_edei--EntityEmergingGrowthCompany_c20260202__20260202_z3qXe0lU5dWa"><ix:nonNumeric contextRef="AsOf2026-02-02" format="ixt:booleantrue" id="Fact000026" name="dei:EntityEmergingGrowthCompany">x</ix:nonNumeric></span></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">If an emerging growth company, indicate by check mark if the registrant
+has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant
+to Section&#160;13(a)&#160;of the Exchange Act. <span id="xdx_90C_edei--EntityExTransitionPeriod_c20260202__20260202_zLvATFODYVK1"><ix:nonNumeric contextRef="AsOf2026-02-02" format="ixt:booleanfalse" id="Fact000027" name="dei:EntityExTransitionPeriod">&#9744;</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><div style="border-top: Black 1pt solid; border-bottom: Black 2pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>Item 5.02. Departure of Directors or Certain Officers; Election
+of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">On February&#160;2, 2026, the board of directors appointed Timothy
+J. Topicz, 41, as Chief Operating Officer of Golub Capital Private Income Fund I (the &#8220;Company&#8221;) effective immediately. Mr.&#160;Topicz
+joined Golub Capital in 2022 and is a Director in its Investor Partners Group. He is responsible for the program management of the BDC
+business for the firm. Mr.&#160;Topicz has been an officer of the Company since February&#160;2023 and also currently serves as Chief
+Operating Officer of Golub Capital Direct Lending Corporation, Golub Capital Direct Lending Unlevered Corporation, Golub Capital BDC,&#160;Inc.,
+Golub Capital Private Credit Fund, Golub Capital BDC 4,&#160;Inc., and Golub Capital Private Income Fund S, each a business development
+company whose investment adviser is GC Advisors LLC, the investment adviser to the Company. Prior to joining Golub Capital, Mr.&#160;Topicz
+was a Vice President in the Financial Institutions Investment Banking group at Wells Fargo Securities, where he led the firm&#8217;s investment
+banking coverage effort for the business development company sector. Mr.&#160;Topicz earned his BS with honors in Business Administration
+and Finance from The Ohio State University and his MBA from the University of Chicago Booth School of Business. He is a CFA&#174; Charterholder.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Mr.&#160;Topicz (i)&#160;does not have a family relationship with any
+of the Company&#8217;s board of directors or other executive officers; (ii)&#160;does not have a material interest in any transaction
+in which the Company was or is a participant, since the beginning of the Company&#8217;s last fiscal year; and (iii)&#160;has not entered
+into, nor expects to enter into, any material plan, contract, arrangement, grant or award in connection with his appointment as the Company&#8217;s
+Chief Operating Officer.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">On February&#160;2, 2026, the board of directors appointed Paul Solini,
+41, as Chief Accounting Officer of the Company effective immediately. Mr.&#160;Solini also currently serves as Chief Accounting Officer
+of Golub Capital Direct Lending Corporation, Golub Capital Direct Lending Unlevered Corporation, Golub Capital Private Credit Fund, Golub
+Capital Private Income Fund S, and Golub Capital BDC 4,&#160;Inc., each a business development company whose investment adviser is GC
+Advisors LLC, the investment adviser to the Company. Prior to joining Golub Capital in 2026, Mr.&#160;Solini served as a Senior Controller
+at TPG Twin Brook Capital Partners where he helped oversee financial reporting, regulatory filings, investor reporting, audit coordination,
+and key operational and control processes. Prior to this position, he worked as an Auditor at PricewaterhouseCoopers where he led engagements
+for public and private investment managers, private equity funds, hedge funds, and registered funds. Mr.&#160;Solini earned his BS in
+Accounting from Niagara University and his MS in Accounting from the University of Connecticut. He is currently a registered Certified
+Public Accountant in both New York and Illinois.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Mr.&#160;Solini (i)&#160;does not have a family relationship with any
+of the Company&#8217;s board of directors or other executive officers; (ii)&#160;does not have a material interest in any transaction
+in which the Company was or is a participant, since the beginning of the Company&#8217;s last fiscal year; and (iii)&#160;has not entered
+into, nor expects to enter into, any material plan, contract, arrangement, grant or award in connection with his appointment as the Company&#8217;s
+Chief Accounting Officer.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 2 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SIGNATURES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the requirements of the Securities
+Exchange Act of 1934, Golub Capital Private Income Fund I has duly caused this report to be signed on its behalf by the undersigned hereunto
+duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font-family: Times New Roman, Times, Serif; border-collapse: collapse; width: 100%">
+  <tr style="font-family: Times New Roman, Times, Serif; vertical-align: bottom">
+    <td style="font: bold 10pt Times New Roman, Times, Serif; text-align: left"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td colspan="2" style="font: bold 10pt Times New Roman, Times, Serif; text-align: left"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Golub
+    Capital Private Income Fund I</span></td></tr>
+  <tr style="font-family: Times New Roman, Times, Serif; vertical-align: bottom">
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font-family: Times New Roman, Times, Serif; text-align: left"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font-family: Times New Roman, Times, Serif; text-align: left"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td></tr>
+  <tr style="font-family: Times New Roman, Times, Serif; vertical-align: bottom">
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 50%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">February&#160;6,
+    2026</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 3%; text-align: left"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</span></td>
+    <td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; width: 47%; text-align: left"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/
+    Christopher C. Ericson</span></td></tr>
+  <tr style="font-family: Times New Roman, Times, Serif; vertical-align: bottom">
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: left"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td colspan="2" style="font: 10pt Times New Roman, Times, Serif; text-align: left"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Name:
+    Christopher C. Ericson</span></td></tr>
+  <tr style="font-family: Times New Roman, Times, Serif; vertical-align: bottom">
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: left"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td colspan="2" style="font: 10pt Times New Roman, Times, Serif; text-align: left"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Title:
+    Chief Financial Officer and Treasurer</span></td></tr>
+  </table>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 3; Options: Last -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJxFjUEKwkAMRU/QO4RZi45Vu+jSoiJWkVLE7WBTGWwnJTPWeiRv6bRFDIGQ/P/yhZiIHW11hQzXdZZCjnVTKYeQYYmM5obekewPMfiZ4V1bx8q4Yf2BCXkGPRNNl8rfB2erLRYxyHAmV7MwAhnFqwWcjyLo9YRMqQs0TqsKlCngzNSwRqf4PX7IVUeG6veQdEG2mkwM86kc5Q+Ech7CiVr1In5YSNNEBJOhArFjejbetekcmp6ETYW1j7Mj/e/gC83ZSmA= -->
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>

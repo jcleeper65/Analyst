@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:us-roles="http://fasb.org/us-roles/2025" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:srt="http://fasb.org/srt/2025" xmlns:MCA="http://monroecap.com/20261030">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02E_US%2DGAAP%2D2025 -->
+<!-- Field: Set; Name: xdx; ID: xdx_03E_MCA_monroecap.com_20261030 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04F_20261030_20261030 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_051_edei%2D%2DCurrentFiscalYearEndDate_%2D%2DLS0xMi0zMQ== -->
+<!-- Field: Set; Name: xdx; ID: xdx_055_edei%2D%2DEntityCentralIndexKey_0002125316 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000004" name="dei:CurrentFiscalYearEndDate">--12-31</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000005" name="dei:EntityCentralIndexKey">0002125316</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="mca-20261030.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-10-30">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0002125316</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-10-30</xbrli:startDate>
+        <xbrli:endDate>2026-10-30</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="margin: 0">&#160;</p>
+
+<p style="margin: 0"></p>
+
+<!-- Field: Rule-Page --><div style="width: 100%"><div style="border-top: Black 2pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="margin: 0">&#160;</p>
+
+
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>UNITED STATES</b></p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Washington, D.C. 20549</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="border-top: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>FORM&#160;<span id="xdx_90E_edei--DocumentType_c20261030__20261030_zgVsZFyNWrr6"><ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000010" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="border-top: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>CURRENT REPORT</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Pursuant to Section&#160;13 or 15(d)</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>of the Securities Exchange Act of 1934</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Date of Report (Date of earliest event reported):
+<span id="xdx_90C_edei--DocumentPeriodEndDate_c20261030__20261030_zgFyJOAx4M08"><ix:nonNumeric contextRef="AsOf2026-10-30" format="ixt:datemonthdayyearen" id="Fact000011" name="dei:DocumentPeriodEndDate">October&#160;30, 2026</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="border-top: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 24pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_908_edei--EntityRegistrantName_c20261030__20261030_zMoP56Q6vzQ4"><ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000012" name="dei:EntityRegistrantName">Monroe Capital Asset-Backed Finance Company,
+LP</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>(Exact name of registrant as specified in its
+charter)</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="border-top: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="vertical-align: top; font-size: 10pt; text-align: center; width: 32%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_900_edei--EntityIncorporationStateCountryCode_c20261030__20261030_zH8nTIcG4y8b"><ix:nonNumeric contextRef="AsOf2026-10-30" format="ixt-sec:stateprovnameen" id="Fact000013" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span></td>
+    <td style="text-align: center; vertical-align: bottom; font-size: 10pt; width: 2%">&#160;</td>
+    <td style="vertical-align: top; font-size: 10pt; text-align: center; width: 32%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_90A_edei--EntityFileNumber_c20261030__20261030_zjzFRJuOpZX4"><ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000014" name="dei:EntityFileNumber">000-56834</ix:nonNumeric></span></b></span></td>
+    <td style="text-align: center; vertical-align: bottom; font-size: 10pt; width: 2%">&#160;</td>
+    <td style="vertical-align: top; font-size: 10pt; text-align: center; width: 32%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_90F_edei--EntityTaxIdentificationNumber_c20261030__20261030_zJmHsi4o6bX2"><ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000015" name="dei:EntityTaxIdentificationNumber">41-3394824</ix:nonNumeric></span></b></span></td></tr>
+  <tr>
+    <td style="text-align: center; vertical-align: top"><b>(State or other jurisdiction of<br/>
+incorporation
+or organization)</b></td>
+    <td style="text-align: center; vertical-align: bottom; font-size: 10pt">&#160;</td>
+    <td style="text-align: center; vertical-align: top"><b>(Commission<br/>
+File Number)</b></td>
+    <td style="text-align: center; vertical-align: bottom; font-size: 10pt">&#160;</td>
+    <td style="text-align: center; vertical-align: top"><b>(I.R.S. Employer<br/>
+Identification No.)</b></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="vertical-align: top; width: 48%">
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_90C_edei--EntityAddressAddressLine1_c20261030__20261030_z8RmGYnjk5ta"><ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000016" name="dei:EntityAddressAddressLine1">155 North Wacker Drive, 35th Floor</ix:nonNumeric></span></b></p>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_90A_edei--EntityAddressCityOrTown_c20261030__20261030_zeUXJyANGjrj"><ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000017" name="dei:EntityAddressCityOrTown">Chicago</ix:nonNumeric></span>, <span id="xdx_907_edei--EntityAddressStateOrProvince_c20261030__20261030_zJ8cCRf6CgMg"><ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000018" name="dei:EntityAddressStateOrProvince">IL</ix:nonNumeric></span></b></p></td>
+    <td style="vertical-align: bottom; width: 4%">&#160;</td>
+    <td style="vertical-align: bottom; width: 48%; font-size: 10pt; text-align: center"><b><span id="xdx_905_edei--EntityAddressPostalZipCode_c20261030__20261030_zeNPbrYoGkei"><ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000019" name="dei:EntityAddressPostalZipCode">60606</ix:nonNumeric></span></b></td></tr>
+  <tr>
+    <td style="vertical-align: top; font-size: 10pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(Address of principal executive offices)</b></span></td>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top; font-size: 10pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(Zip Code)</b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>(<span id="xdx_90A_edei--CityAreaCode_c20261030__20261030_zeYOTCA7FrCl"><ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000020" name="dei:CityAreaCode">312</ix:nonNumeric></span>) <span id="xdx_909_edei--LocalPhoneNumber_c20261030__20261030_zba81eLOxa38"><ix:nonNumeric contextRef="AsOf2026-10-30" id="Fact000021" name="dei:LocalPhoneNumber">258-8300</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>(Registrant&#8217;s telephone number, including
+area code)</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Not Applicable</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>(Former name or former address, if changed since
+last report)</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="border-top: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Check the appropriate box below if the Form&#160;8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="font-size: 10pt; width: 0.25in"><span style="font-family: Wingdings"><span id="xdx_90D_edei--WrittenCommunications_c20261030__20261030_zBBolRRpqve7"><ix:nonNumeric contextRef="AsOf2026-10-30" format="ixt:booleanfalse" id="Fact000022" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font-size: 10pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Written communications pursuant to Rule&#160;425 under the Securities Act (17 CFR 230.425)</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="font-size: 10pt; width: 0.25in"><span style="font-family: Wingdings"><span id="xdx_902_edei--SolicitingMaterial_c20261030__20261030_zgBO7Ae94HWe"><ix:nonNumeric contextRef="AsOf2026-10-30" format="ixt:booleanfalse" id="Fact000023" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font-size: 10pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Soliciting material pursuant to Rule&#160;14a-12 under the Exchange Act (17 CFR 240.14a-12)</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="font-size: 10pt; width: 0.25in"><span style="font-family: Wingdings"><span id="xdx_908_edei--PreCommencementTenderOffer_c20261030__20261030_zPwxwgsYLZOk"><ix:nonNumeric contextRef="AsOf2026-10-30" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font-size: 10pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Pre-commencement communications
+pursuant to Rule&#160;14d-2(b)&#160;under the Exchange Act (17 CFR 240.14d-2(b))</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="font-size: 10pt; width: 0.25in"><span style="font-family: Wingdings"><span id="xdx_90F_edei--PreCommencementIssuerTenderOffer_c20261030__20261030_zJJXdzDTruK7"><ix:nonNumeric contextRef="AsOf2026-10-30" format="ixt:booleanfalse" id="Fact000025" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font-size: 10pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Pre-commencement communications
+pursuant to Rule&#160;13e-4(c)&#160;under the Exchange Act (17 CFR 240.13e-4(c))</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Securities registered pursuant to Section&#160;12(b)&#160;of the Act:
+None</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: bottom">
+    <td style="border-bottom: black 1pt solid; white-space: nowrap; font-size: 10pt; text-align: center; width: 35%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Title of each class</b></span></td>
+    <td style="text-align: center; font-size: 10pt; width: 2%">&#160;</td>
+    <td style="border-bottom: black 1pt solid; font-size: 10pt; text-align: center; width: 23%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Trading<br/>
+Symbol(s)</b></span></td>
+    <td style="text-align: center; font-size: 10pt; width: 2%">&#160;</td>
+    <td style="border-bottom: black 1pt solid; text-align: center; width: 38%"><b>Name of each exchange<br/>
+on which registered</b></td></tr>
+  <tr>
+    <td style="text-align: center; vertical-align: top">&#160;</td>
+    <td style="text-align: center; vertical-align: bottom; font-size: 10pt">&#160;</td>
+    <td style="text-align: center; vertical-align: top">&#160;</td>
+    <td style="text-align: center; vertical-align: bottom; font-size: 10pt">&#160;</td>
+    <td style="text-align: center; vertical-align: top">&#160;</td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant is an emerging growth
+company as defined in Rule&#160;405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule&#160;12b-2 of the Securities
+Exchange Act of 1934 (&#167;240.12b-2 of this chapter). <span style="font-family: Wingdings"><span id="xdx_90D_edei--EntityEmergingGrowthCompany_c20261030__20261030_zpTOwCwNk3Yk"><ix:nonNumeric contextRef="AsOf2026-10-30" format="ixt:booleantrue" id="Fact000026" name="dei:EntityEmergingGrowthCompany">x</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">If an emerging growth company, indicate by check mark if the registrant
+has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant
+to Section&#160;13(a)&#160;of the Exchange Act. <span style="font-family: Wingdings"><span id="xdx_90A_edei--EntityExTransitionPeriod_c20261030__20261030_z6VdTS8LXIQ6"><ix:nonNumeric contextRef="AsOf2026-10-30" format="ixt:booleanfalse" id="Fact000027" name="dei:EntityExTransitionPeriod">&#168;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="width: 100%"><div style="border-top: Black 1pt solid; border-bottom: Black 2pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Item 3.02 Unregistered Sale of Equity Securities</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As of October&#160;30, 2026, Monroe Capital
+Asset-Backed Finance Company, LP &#8211; Series&#160;II (the &#8220;<b>Series&#160;II</b>&#8221;), a registered series of Monroe
+Capital Asset-Backed Finance Company, LP (the &#8220;<b>Partnership</b>&#8221;), issued and sold 110 of its Standard Fee Class-S
+Shares (&#8220;<b>Class&#160;S</b>&#8221;) and 110 of its Standard Fee Class-I Shares (&#8220;<b>Class&#160;I</b>&#8221;) of limited
+partnership interest, $0.01 par value per share, for an aggregate offering price of approximately $5,592, reflecting a purchase
+price of $25.42 per Class&#160;S share and $25.42 per Class&#160;I shares (with the final number of Class&#160;S and
+Class&#160;I shares being determined on October 30, 2026).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%">
+  <tr style="vertical-align: bottom">
+    <td style="font-size: 10pt">&#160;</td><td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt">&#160;</td>
+    <td colspan="2" style="border-bottom: Black 1pt solid; font: bold 10pt Times New Roman, Times, Serif; text-align: center">Common Shares<br/>
+ Issued</td><td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt">&#160;</td><td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt">&#160;</td>
+    <td colspan="2" style="border-bottom: Black 1pt solid; font: bold 10pt Times New Roman, Times, Serif; text-align: center">Total<br/> Consideration</td><td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 69%; text-align: justify">Standard Fee Class-S Shares</td><td style="font: 10pt Times New Roman, Times, Serif; width: 1%">&#160;</td>
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left">&#160;</td><td style="font: 10pt Times New Roman, Times, Serif; width: 12%; text-align: right">110</td><td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left">&#160;</td><td style="font: 10pt Times New Roman, Times, Serif; width: 2%">&#160;</td>
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left">$</td><td style="font: 10pt Times New Roman, Times, Serif; width: 12%; text-align: right">2,796</td><td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: White">
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: justify">Standard Fee Class-I Shares</td><td style="font: 10pt Times New Roman, Times, Serif">&#160;</td>
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: left">&#160;</td><td style="font: 10pt Times New Roman, Times, Serif; text-align: right">110</td><td style="font: 10pt Times New Roman, Times, Serif; text-align: left">&#160;</td><td style="font: 10pt Times New Roman, Times, Serif">&#160;</td>
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: left">$</td><td style="font: 10pt Times New Roman, Times, Serif; text-align: right">2,796</td><td style="font: 10pt Times New Roman, Times, Serif; text-align: left">&#160;</td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The offer and sale of the Class&#160;S and Class&#160;I
+shares was made pursuant to purchase agreements (the &#8220;<b>Purchase Agreements</b>&#8221;) entered into by the Partnership and each
+of approximately 220 separate investors. In addition, pursuant to the Purchase Agreements, each investor acquired a promissory note co-issued
+by Monroe Capital ABF Onshore Intermediate Holdings, LLC, a Delaware limited liability company, Monroe Capital ABF Offshore Intermediate
+Holdings, LP, a Cayman Islands exempted limited partnership, and Monroe Capital ABF REIT Intermediate Holdings, LLC, a Delaware limited
+liability company, each a wholly-owned subsidiary of the Partnership (collectively, the &#8220;<b>Borrowers</b>&#8221;), each with a principal
+amount of $1,000 and an aggregate principal amount of $220,000 (each a &#8220;<b>Note</b>&#8221; and collectively the &#8220;<b>Notes</b>&#8221;).
+The aggregate net proceeds received by the Borrowers in exchange for the issuance of the Notes was $152,000. The Borrowers will pay interest
+on the unpaid principal amount of the Notes at a rate of 12.00% per annum per Note payable semi-annually in arrears. The Notes have a
+30-year term. Some or all of the Notes may be prepaid by the Borrowers at any time, in whole or in part, provided that (i)&#160;the Borrowers
+will pay on the date of such prepayment all accrued and unpaid interest due on such prepaid principal amount to and including the date
+of prepayment and (ii)&#160;if the first such prepayment occurs prior to the second anniversary of the issue date of the Notes, the Borrowers
+will pay on the date of such prepayment a one-time premium equal to $100 per Note.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Partnership issued the Class&#160;S and Class&#160;I
+shares of Series&#160;II and the Borrowers issued the Notes in private placement transactions pursuant to certain exemptions of the Securities
+Act of 1933, as amended (the &#8220;<b>Securities Act</b>&#8221;), and the laws of the states and jurisdictions where any offering was
+made, to investors who are &#8220;accredited investors&#8221; within the meaning of Rule&#160;501(a)&#160;of Regulation D promulgated
+under the Securities Act.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Notes were offered through H&amp;L Equities,
+LLC (&#8220;<b>H&amp;L</b>&#8221;), a registered broker dealer and an affiliate of REIT Funding, LLC (&#8220;<b>REIT Funding</b>&#8221;).
+With respect to the Notes, Series&#160;II will pay fees to, and cover certain expenses of, REIT Funding. From the fees paid, REIT Funding
+will be responsible for paying any brokerage or placement fees to H&amp;L. Series&#160;II will also pay fees to, and cover certain expenses
+of, REIT Administration, LLC (&#8220;<b>REIT Administration</b>&#8221;), an affiliate of REIT Funding, for its administrative services
+related to the Notes. Series&#160;II&#8217;s obligation to pay the fees to REIT Administration will end on the date when the Notes have
+been paid in full and all administrative duties have been completed.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>The information in this Current Report on
+Form&#160;8-K shall not constitute an offer to sell or a solicitation of an offer to purchase the Class&#160;S or Class&#160;I
+shares, Notes or any other securities, and shall not constitute an offer, solicitation, or sale in any jurisdiction in which such an
+offer, solicitation, or sale would be unlawful.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The description above is only a summary of the
+material terms of the Notes and is qualified in its entirety by reference to the copies of the Forms of Promissory Note, which are
+filed as Exhibits 10.1 and 10.2 hereto and are incorporated by reference herein.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 2 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Item 5.03 Amendments to Articles of Incorporation
+or Bylaws.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Limited Partnership Agreement</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On October&#160;30, 2026, the Partnership executed
+its Third Amended and Restated Limited Partnership Agreement (the &#8220;<b>Third A&amp;R LPA</b>&#8221;), which amended and restated
+the Second Amended and Restated Limited Partnership Agreement, dated as of September&#160;28, 2026. The amendment and restatement effects
+certain changes to reflect additional provisions related to future potential borrowings.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The foregoing summary description of the Third
+A&amp;R LPA does not purport to be complete and is qualified in its entirety by reference to the Third A&amp;R LPA, a copy of which is
+included as Exhibit&#160;3.1 to this Current Report on Form&#160;8-K&#160;and incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 3 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Item&#8201;9.01</b></span> <span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Financial Statements and Exhibits. </b></span></p>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">(d)&#160;Exhibits</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: bottom">
+    <td style="border-bottom: Black 1pt solid; white-space: nowrap; width: 10%">
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>Exhibit<br/>
+Number</b></p></td>
+    <td style="width: 1%">&#160;</td>
+    <td style="border-bottom: Black 1pt solid; width: 89%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Description</b></span></td></tr>
+  <tr>
+    <td style="white-space: nowrap; vertical-align: top"><a href="tm2628710d1_ex3-1.htm" style="-sec-extract: exhibit"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">3.1*</span></a></td>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top"><a href="tm2628710d1_ex3-1.htm" style="-sec-extract: exhibit"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Third Amended and Restated Limited Partnership Agreement</span></a></td></tr>
+  <tr>
+    <td style="white-space: nowrap; vertical-align: top"><a href="tm2628710d1_ex10-1.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.1*</span></a></td>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top"><a href="tm2628710d1_ex10-1.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Form&#160;of Promissory Note (Class&#160;S), by and among the Borrowers and purchasers party thereto.</span></a></td></tr>
+  <tr>
+    <td style="white-space: nowrap; vertical-align: top"><a href="tm2628710d1_ex10-2.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.2*</span></a></td>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top"><a href="tm2628710d1_ex10-2.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Form&#160;of Promissory Note (Class&#160;I), by and among the Borrowers and purchasers party thereto.</span></a></td></tr>
+  <tr>
+    <td style="white-space: nowrap; vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">104</span></td>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Cover Page&#160;Interactive Data File, formatted in Inline XBRL</span></td></tr>
+</table>
+
+<p style="margin: 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">* Attached hereto.  </p>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 4 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Signatures</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the requirements of the Securities Exchange Act of 1934,
+the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td colspan="2"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; text-transform: uppercase">Monroe Capital Asset-Backed Finance Company, LP</span></td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top; width: 5%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</span></td>
+    <td style="border-bottom: Black 1pt solid; white-space: nowrap; vertical-align: bottom; width: 45%">/s/ Kyle Asher</td>
+    <td style="width: 50%">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Name:</span></td>
+    <td style="white-space: nowrap; vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Kyle Asher</span></td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Title:</span></td>
+    <td style="white-space: nowrap; vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">President</span></td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Date:</span></td>
+    <td style="white-space: nowrap; vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">November&#160;5, 2026</span></td>
+    <td>&#160;</td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 5; Options: Last -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJxFjdEKwjAMRb9g/xD6LNusOHSPDhVxyhgivhYXpbg1I61TP8m/tG6IIRCSe0+uECOxppWukeG0KHM4YNPWyiGUeEFGc0bvyDbbFPws8aqtY2Vcv/7AjDyDnknC6dnfe2enLVYpxPNIziKZQJykcgLFTgRfPSNz0RUap1UNylRQMLWs0Sl+DR8O6kmGmlefdES2mkwK4zAe5DfIeCxhT516EN8s5HkmglFfgVgz3VvvWj4dmi8JyxobH2cH+t/BB9WhSmw= -->
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>

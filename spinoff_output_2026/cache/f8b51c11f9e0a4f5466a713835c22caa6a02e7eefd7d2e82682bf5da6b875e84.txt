@@ -1,0 +1,251 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>24
+<FILENAME>R14.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Manager and  Transactions with Affiliates - Additional Information (Detail) - USD ($)<br></strong></div></th>
+<th class="th" colspan="1">3 Months Ended</th>
+<th class="th" colspan="1"></th>
+</tr>
+<tr>
+<th class="th"><div>Jun. 30, 2026</div></th>
+<th class="th"><div>Mar. 31, 2026</div></th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002117580_ManagerAndTransactionsWithAffiliatesAbstract', window );"><strong>Manager and Transactions with Affiliates [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002117580_AnnualOperatingExpensesThresholdPercentage', window );">Annual operating expenses threshold percentage</a></td>
+<td class="nump">0.75%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002117580_AnnualOperatingExpensesCalculationMethod', window );">Annual operating expenses calculation method</a></td>
+<td class="text">The annual rate of 0.75% shall be calculated on a monthly basis by dividing 0.75% by 365 and multiplying the resulting daily rate by the actual number of days in the applicable month.<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002117580_AnnualOperatingExpensesCalculationNumerator', window );">Annual operating expenses calculation numerator</a></td>
+<td class="nump">0.75%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002117580_ReimbursedExpensesSubjectToRecoupment', window );">Reimbursed expenses subject to recoupment</a></td>
+<td class="nump">$ 0<span></span>
+</td>
+<td class="nump">$ 0<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_LegalFees', window );">Legal fees</a></td>
+<td class="nump">$ 78,540<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002117580_AnnualOperatingExpensesCalculationMethod">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Annual operating expenses calculation method.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002117580_AnnualOperatingExpensesCalculationMethod</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002117580_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002117580_AnnualOperatingExpensesCalculationNumerator">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Annual operating expenses calculation numerator.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002117580_AnnualOperatingExpensesCalculationNumerator</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002117580_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002117580_AnnualOperatingExpensesThresholdPercentage">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Annual operating expenses threshold percentage.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002117580_AnnualOperatingExpensesThresholdPercentage</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002117580_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002117580_ManagerAndTransactionsWithAffiliatesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Manager and transactions with affiliates.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002117580_ManagerAndTransactionsWithAffiliatesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002117580_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002117580_ReimbursedExpensesSubjectToRecoupment">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Reimbursed expenses subject to recoupment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002117580_ReimbursedExpensesSubjectToRecoupment</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002117580_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LegalFees">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The amount of expense provided in the period for legal costs incurred on or before the balance sheet date pertaining to resolved, pending or threatened litigation, including arbitration and mediation proceedings.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3<br> -Subparagraph (k)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479105/946-220-45-3<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br><br>Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SX 210.5-03(6))<br> -SubTopic 10<br> -Topic 220<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LegalFees</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

@@ -1,0 +1,2382 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>79
+<FILENAME>R63.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Related Party Transactions (Detail)<br></strong></div></th>
+<th class="th" colspan="2">3 Months Ended</th>
+<th class="th" colspan="2">6 Months Ended</th>
+<th class="th" colspan="1">12 Months Ended</th>
+</tr>
+<tr>
+<th class="th">
+<div>Jun. 30, 2026 </div>
+<div>USD ($) </div>
+<div>loan</div>
+</th>
+<th class="th">
+<div>Jun. 30, 2025 </div>
+<div>USD ($)</div>
+</th>
+<th class="th">
+<div>Jun. 30, 2026 </div>
+<div>USD ($) </div>
+<div>loan </div>
+<div>shares</div>
+</th>
+<th class="th">
+<div>Jun. 30, 2025 </div>
+<div>USD ($)</div>
+</th>
+<th class="th">
+<div>Dec. 31, 2025 </div>
+<div>USD ($)</div>
+</th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PerformanceParticipationAllocationPaid', window );">Performance participation allocation</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 65,300,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_GrossManagementFee', window );">Gross management fee</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">28,800,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_AdministrationFeePayable', window );">Administration fee payable</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">2,300,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PaymentForServicingFees', window );">Payment for servicing fees</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 5,528,000<span></span>
+</td>
+<td class="nump">$ 1,425,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StatementClassOfStockAxis=bxinfra_ClassISeriesIUnitsMember', window );">Series I Units</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PerformanceParticipationAllocationSharesReceived', window );">Shares received for equity (in shares) | shares</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">180,705<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_dei_LegalEntityAxis=bxinfra_BlackstoneInfrastructureStrategiesTEL.P.Member', window );">Blackstone Infrastructure Strategies (TE) L.P.</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PaymentForServicingFees', window );">Payment for servicing fees</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 2,223,000<span></span>
+</td>
+<td class="nump">512,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_dei_LegalEntityAxis=bxinfra_BXINFRAAggregatorCYML.P.Member', window );">BXINFRA Aggregator (CYM) L.P.</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PerformanceParticipationAllocationPaid', window );">Performance participation allocation</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">69,300,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ManagementFeeExpense', window );">Management Fees</a></td>
+<td class="nump">$ 16,848,000<span></span>
+</td>
+<td class="nump">$ 6,534,000<span></span>
+</td>
+<td class="nump">30,616,000<span></span>
+</td>
+<td class="nump">10,701,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_AccruedAdministrationFees', window );">Accrued administration fees</a></td>
+<td class="nump">89,300,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">105,900,000<span></span>
+</td>
+<td class="nump">458,000,000.0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_dei_LegalEntityAxis=bxinfra_BXINFRAAggregatorCYML.P.Member', window );">BXINFRA Aggregator (CYM) L.P. | Related Party | BXINFRA Warehouse</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionAmountsOfTransaction', window );">Related party transaction, amounts of transaction</a></td>
+<td class="nump">160,000,000.0<span></span>
+</td>
+<td class="nump">60,000,000.0<span></span>
+</td>
+<td class="nump">310,000,000.0<span></span>
+</td>
+<td class="nump">2,000,000,000.0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PerformanceParticipationAllocationPaid', window );">Performance participation allocation</a></td>
+<td class="nump">40,200,000<span></span>
+</td>
+<td class="nump">5,200,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">10,400,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_GrossManagementFee', window );">Gross management fee</a></td>
+<td class="nump">15,900,000<span></span>
+</td>
+<td class="nump">6,000,000.0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">9,900,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_AdministrationFeePayable', window );">Administration fee payable</a></td>
+<td class="nump">1,300,000<span></span>
+</td>
+<td class="nump">500,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">800,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PaymentForServicingFees', window );">Payment for servicing fees</a></td>
+<td class="nump">3,000,000.0<span></span>
+</td>
+<td class="nump">1,200,000<span></span>
+</td>
+<td class="nump">$ 5,500,000<span></span>
+</td>
+<td class="nump">1,400,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | Performance Participation Allocation Received</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionAmountsOfTransaction', window );">Related party transaction, amounts of transaction</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 5,000,000.0<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | Class S Units</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ManagementAndServiceFeesRate', window );">Management and service fees, rate</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">0.85%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | Class D Units</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ManagementAndServiceFeesRate', window );">Management and service fees, rate</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">0.25%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | Blackstone Infrastructure Strategies (TE) L.P.</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PerformanceParticipationAllocationPaid', window );">Performance participation allocation</a></td>
+<td class="nump">11,300,000<span></span>
+</td>
+<td class="nump">1,400,000<span></span>
+</td>
+<td class="nump">$ 18,400,000<span></span>
+</td>
+<td class="nump">2,800,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_GrossManagementFee', window );">Gross management fee</a></td>
+<td class="nump">4,500,000<span></span>
+</td>
+<td class="nump">1,600,000<span></span>
+</td>
+<td class="nump">8,100,000<span></span>
+</td>
+<td class="nump">2,600,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_AdministrationFeePayable', window );">Administration fee payable</a></td>
+<td class="nump">500,000<span></span>
+</td>
+<td class="nump">100,000<span></span>
+</td>
+<td class="nump">900,000<span></span>
+</td>
+<td class="nump">800,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PaymentForServicingFees', window );">Payment for servicing fees</a></td>
+<td class="nump">1,200,000<span></span>
+</td>
+<td class="nump">400,000<span></span>
+</td>
+<td class="nump">$ 2,200,000<span></span>
+</td>
+<td class="nump">500,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | Blackstone Infrastructure Strategies (TE) L.P. | Class S Units</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ManagementAndServiceFeesRate', window );">Management and service fees, rate</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">0.85%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | Blackstone Infrastructure Strategies (TE) L.P. | Class D Units</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ManagementAndServiceFeesRate', window );">Management and service fees, rate</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">0.25%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | BXINFRA Aggregator (CYM) L.P.</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PerformanceParticipationAllocationPaid', window );">Performance participation allocation</a></td>
+<td class="nump">42,600,000<span></span>
+</td>
+<td class="nump">5,700,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">11,000,000.0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ManagementFeeExpense', window );">Management Fees</a></td>
+<td class="nump">16,800,000<span></span>
+</td>
+<td class="nump">6,500,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">10,700,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyVoluntaryFeeWaived', window );">Investment company, voluntary fee waived</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">6,500,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">10,700,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_AggregatorTransactionalNav', window );">Aggregator transactional NAV</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">0.10%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_AccruedAdministrationFees', window );">Accrued administration fees</a></td>
+<td class="nump">1,300,000<span></span>
+</td>
+<td class="nump">500,000<span></span>
+</td>
+<td class="nump">$ 2,400,000<span></span>
+</td>
+<td class="nump">900,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_InvestmentsInAffiliatedInvesteeFunds', window );">Investments in affiliated investee funds</a></td>
+<td class="nump">1,500,000,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 1,500,000,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 920,500,000<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_SpecifiedExpensesAsAPercentageOfNetAssetValueMaximum', window );">Specified expenses as a percentage of net asset value maximum</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">0.50%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_AccruedWaivedExpenses', window );">Accrued waived expenses</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">700,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_InvestmentCompanyCashReceivedDuringTheCommitment', window );">Investment company cash received</a></td>
+<td class="nump">$ 4,500,000<span></span>
+</td>
+<td class="nump">4,300,000<span></span>
+</td>
+<td class="nump">$ 10,200,000<span></span>
+</td>
+<td class="nump">4,300,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_AggregatorAcquiredNumberOfLoans', window );">Aggregator acquired number of loans | loan</a></td>
+<td class="nump">2<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">3<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_AggregateInvestmentCreditAmountExtended', window );">Aggregate investment credit amount extended</a></td>
+<td class="nump">$ 1,900,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 11,600,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | BXINFRA Aggregator (CYM) L.P. | BXINFRA Warehouse</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionAmountsOfTransaction', window );">Related party transaction, amounts of transaction</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">3<span></span>
+</td>
+<td class="nump">2<span></span>
+</td>
+<td class="nump">4<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_InvestmentCompanyCashReceivedDuringTheCommitment', window );">Investment company cash received</a></td>
+<td class="nump">$ 40,200,000<span></span>
+</td>
+<td class="nump">$ 3,600,000<span></span>
+</td>
+<td class="nump">$ 67,100,000<span></span>
+</td>
+<td class="nump">$ 14,800,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | BXINFRA Aggregator (CYM) L.P. | Performance Participation Allocation | General Partner</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PercentageOfPerformanceParticipationAllocationOfPartnersToTotalReturn', window );">Percentage of performance participation allocation of partners to total return</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">12.50%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PercentageOfAnnualHurdleAmount', window );">Percentage of annual hurdle amount</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">5.00%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PercentageOfHighWaterMarkCatchUp', window );">Percentage of high water mark catch up</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">100.00%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PerformanceParticipationAllocationWrittenNoticePeriod', window );">Written notice period</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">60 days<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | BXINFRA Aggregator (CYM) L.P. | Series I Units</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PerformanceParticipationAllocationSharesReceived', window );">Shares received for equity (in shares) | shares</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">180,705<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | BXINFRA Aggregator (CYM) L.P. | Performance Participation Allocation Received</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionAmountsOfTransaction', window );">Related party transaction, amounts of transaction</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 5,000,000.0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | BXINFRA Aggregator (CYM) L.P. | Investment Manager | Partnership Agreement and Investment Management Agreement</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PercentageOfAdministrationFeePayable', window );">Percentage of administration fee payable</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">0.10%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | BXINFRA Aggregator (CYM) L.P. | Series I Units | Investment Manager</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PercentageOfManagementFeePayable', window );">Percentage of management fee payable</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">1.25%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | BXINFRA Aggregator (CYM) L.P. | Series II Units | Investment Manager</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PercentageOfManagementFeePayable', window );">Percentage of management fee payable</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">1.05%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | BXINFRA Aggregator (CYM) L.P. | Series III Units | Investment Manager</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PercentageOfManagementFeePayable', window );">Percentage of management fee payable</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">0.95%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember', window );">Related Party | BXINFRA U.S. | Series I Units</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PerformanceParticipationAllocationSharesReceived', window );">Shares received for equity (in shares) | shares</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">180,640<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_AccruedAdministrationFees">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Accrued administration fees.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_AccruedAdministrationFees</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_AccruedWaivedExpenses">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Accrued waived expenses.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_AccruedWaivedExpenses</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_AdministrationFeePayable">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Administration Fee Payable.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_AdministrationFeePayable</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_AggregateInvestmentCreditAmountExtended">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Aggregate Investment Credit Amount Extended</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_AggregateInvestmentCreditAmountExtended</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_AggregatorAcquiredNumberOfLoans">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Aggregator Acquired Number Of Loans</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_AggregatorAcquiredNumberOfLoans</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:integerItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_AggregatorTransactionalNav">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Aggregator Transactional NAV.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_AggregatorTransactionalNav</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_GrossManagementFee">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Gross management fee.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_GrossManagementFee</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_InvestmentCompanyCashReceivedDuringTheCommitment">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Company Cash Received During the Commitment</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_InvestmentCompanyCashReceivedDuringTheCommitment</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_InvestmentsInAffiliatedInvesteeFunds">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investments In Affiliated Investee Funds.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_InvestmentsInAffiliatedInvesteeFunds</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PaymentForServicingFees">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Payment for servicing fees.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PaymentForServicingFees</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PercentageOfAdministrationFeePayable">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage of administration fee payable.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PercentageOfAdministrationFeePayable</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PercentageOfAnnualHurdleAmount">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage of annual hurdle amount.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PercentageOfAnnualHurdleAmount</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PercentageOfHighWaterMarkCatchUp">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage of high water mark catch up.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PercentageOfHighWaterMarkCatchUp</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PercentageOfManagementFeePayable">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage of management fee payable.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PercentageOfManagementFeePayable</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PercentageOfPerformanceParticipationAllocationOfPartnersToTotalReturn">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage of performance participation allocation of partners to total return.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PercentageOfPerformanceParticipationAllocationOfPartnersToTotalReturn</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PerformanceParticipationAllocationPaid">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Performance participation allocation.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PerformanceParticipationAllocationPaid</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PerformanceParticipationAllocationSharesReceived">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Performance Participation Allocation, Shares Received</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PerformanceParticipationAllocationSharesReceived</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:sharesItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PerformanceParticipationAllocationWrittenNoticePeriod">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Performance Participation Allocation, Written Notice Period</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PerformanceParticipationAllocationWrittenNoticePeriod</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:durationItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_SpecifiedExpensesAsAPercentageOfNetAssetValueMaximum">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Specified expenses as a percentage of net asset value maximum.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_SpecifiedExpensesAsAPercentageOfNetAssetValueMaximum</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanyVoluntaryFeeWaived">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of fee voluntarily waived by investment company.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480990/946-20-50-7<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanyVoluntaryFeeWaived</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ManagementAndServiceFeesRate">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Rate for management and service fees under arrangement to manage operations, including, but not limited to, investment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(c))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ManagementAndServiceFeesRate</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ManagementFeeExpense">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of expense for investment management fee, including, but not limited to, expense in connection with research, selection, supervision, and custody of investment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-10<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479105/946-220-45-3<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br><br>Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -SubTopic 10<br> -Topic 850<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ManagementFeeExpense</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RelatedPartyTransactionAmountsOfTransaction">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of transactions with related party during the financial reporting period.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 850<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RelatedPartyTransactionAmountsOfTransaction</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RelatedPartyTransactionLineItems">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(7)(e)(1)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(g)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(16))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(15)(4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(15)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 970<br> -SubTopic 810<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477383/970-810-45-1<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 850<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 850<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1<br><br>Reference 11: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 850<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-3<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(k)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(k)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 310<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 13<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481990/310-10-45-13<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(c)(2)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(c)(2)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RelatedPartyTransactionLineItems</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_StatementClassOfStockAxis=bxinfra_ClassISeriesIUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_StatementClassOfStockAxis=bxinfra_ClassISeriesIUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_dei_LegalEntityAxis=bxinfra_BlackstoneInfrastructureStrategiesTEL.P.Member">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">dei_LegalEntityAxis=bxinfra_BlackstoneInfrastructureStrategiesTEL.P.Member</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_dei_LegalEntityAxis=bxinfra_BXINFRAAggregatorCYML.P.Member">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">dei_LegalEntityAxis=bxinfra_BXINFRAAggregatorCYML.P.Member</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RelatedPartyTransactionAxis=us-gaap_RelatedPartyMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RelatedPartyTransactionAxis=us-gaap_RelatedPartyMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_NameOfInvestmentGroupAxis=bxinfra_BXINFRAWarehouseMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_NameOfInvestmentGroupAxis=bxinfra_BXINFRAWarehouseMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RelatedPartyTransactionAxis=bxinfra_PerformanceParticipationAllocationReceivedMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RelatedPartyTransactionAxis=bxinfra_PerformanceParticipationAllocationReceivedMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LimitedPartnersCapitalAccountByClassAxis=bxinfra_ClassSUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LimitedPartnersCapitalAccountByClassAxis=bxinfra_ClassSUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LimitedPartnersCapitalAccountByClassAxis=bxinfra_ClassDUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LimitedPartnersCapitalAccountByClassAxis=bxinfra_ClassDUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_AgreementAxis=bxinfra_PerformanceParticipationAllocationMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_AgreementAxis=bxinfra_PerformanceParticipationAllocationMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_PartnerTypeOfPartnersCapitalAccountAxis=us-gaap_GeneralPartnerMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_PartnerTypeOfPartnersCapitalAccountAxis=us-gaap_GeneralPartnerMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RelatedPartyTransactionAxis=bxinfra_InvestmentManagerMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RelatedPartyTransactionAxis=bxinfra_InvestmentManagerMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_AgreementAxis=bxinfra_PartnershipAgreementAndInvestmentManagementAgreementMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_AgreementAxis=bxinfra_PartnershipAgreementAndInvestmentManagementAgreementMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LimitedPartnersCapitalAccountByClassAxis=bxinfra_ClassISeriesIUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LimitedPartnersCapitalAccountByClassAxis=bxinfra_ClassISeriesIUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LimitedPartnersCapitalAccountByClassAxis=bxinfra_ClassISeriesIIUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LimitedPartnersCapitalAccountByClassAxis=bxinfra_ClassISeriesIIUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LimitedPartnersCapitalAccountByClassAxis=bxinfra_ClassISeriesIIIUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LimitedPartnersCapitalAccountByClassAxis=bxinfra_ClassISeriesIIIUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_dei_LegalEntityAxis=bxinfra_BXINFRAU.S.Member">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">dei_LegalEntityAxis=bxinfra_BXINFRAU.S.Member</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

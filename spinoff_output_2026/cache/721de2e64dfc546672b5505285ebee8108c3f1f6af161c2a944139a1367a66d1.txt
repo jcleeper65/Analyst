@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-06-15</periodOfReport>
+
+    <issuer>
+        <issuerCik>0002091349</issuerCik>
+        <issuerName>First Tracks Biotherapeutics, Inc.</issuerName>
+        <issuerTradingSymbol>TRAX</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001184627</rptOwnerCik>
+            <rptOwnerName>FENTON DENNIS M</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>10770 WATERIDGE CIRCLE, SUITE 210</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>SAN DIEGO</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92121</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>true</isDirector>
+            <isOfficer>false</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-06-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>M</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>6030</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>10995</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Restricted Stock Unit</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F1"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-06-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>M</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>6030</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F2"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F2"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>6030</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>0</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Each restricted stock award (&quot;RSU&quot;) represents a contingent right to receive 1 share of the Issuer's Common Stock upon settlement for no consideration.</footnote>
+        <footnote id="F2">The RSUs vests as to 100% of the total RSUs on June 15, 2026, subject to the Reporting Person's provision of service to the Issuer on each vesting date.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Ajim Tamboli, Attorney-in-Fact</signatureName>
+        <signatureDate>2026-06-17</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

@@ -1,0 +1,876 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>13
+<FILENAME>R2.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="1"><div style="width: 200px;"><strong>Consolidated Statement of Assets and Liabilities<br></strong></div></th>
+<th class="th" colspan="2">
+<div>Mar. 31, 2026 </div>
+<div>USD ($) </div>
+<div>$ / shares</div>
+</th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsAbstract', window );"><strong>Assets</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Non-controlled/non-affiliated investments (amortized cost of $1,824,865,063)</a></td>
+<td class="nump">$ 1,811,075,043<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents', window );">Cash, cash equivalents and restricted cash</a></td>
+<td class="nump">187,209,232<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InterestReceivable', window );">Interest receivable</a></td>
+<td class="nump">12,957,237<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AccountsReceivableNet', window );">Unsettled trades receivable</a></td>
+<td class="nump">210,574<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtIssuanceCostsLineOfCreditArrangementsNet', window );">Deferred financing costs</a></td>
+<td class="nump">5,878,928<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="reu">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_Assets', window );">Total assets</a></td>
+<td class="nump">2,017,331,014<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_LiabilitiesAbstract', window );"><strong>Liabilities</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_LineOfCredit', window );">Revolving credit facility payable</a></td>
+<td class="nump">320,000,000<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InterestPayableCurrentAndNoncurrent', window );">Interest and financing fees payable</a></td>
+<td class="nump">2,610,091<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AccountsPayableTradeCurrentAndNoncurrent', window );">Unsettled trades payable</a></td>
+<td class="nump">265,620,420<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ManagementFeePayable', window );">Management fees payable</a></td>
+<td class="nump">5,107,740<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_IncentiveFeePayable', window );">Incentive fees payable</a></td>
+<td class="nump">3,958,219<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_OtherLiabilities', window );">Due to affiliates</a></td>
+<td class="nump">338,468<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_OtherAccountsPayableAndAccruedLiabilities', window );">Accounts payable and accrued expenses</a></td>
+<td class="nump">2,467,415<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_Liabilities', window );">Total liabilities</a></td>
+<td class="nump">600,102,353<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CommitmentsAndContingencies', window );">Commitments and contingencies</a></td>
+<td class="text"> <span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockholdersEquityAbstract', window );"><strong>NET ASSETS</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CommonUnitIssuanceValue', window );">Units of limited liability company interests, $0.001 par value, unlimited units authorized, 75000000 units issued and outstanding at March 31, 2026</a></td>
+<td class="nump">75,000<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AdditionalPaidInCapital', window );">Additional paid-in capital</a></td>
+<td class="nump">1,416,624,904<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RetainedEarningsAccumulatedDeficit', window );">Distributable earnings (accumulated losses)</a></td>
+<td class="nump">528,757<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_MembersEquity', window );">Total net assets</a></td>
+<td class="nump">1,417,228,661<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="reu">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_LiabilitiesAndStockholdersEquity', window );">Total liabilities and net assets</a></td>
+<td class="nump">$ 2,017,331,014<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_NetAssetValuePerShare', window );">Net asset value per unit | $ / shares</a></td>
+<td class="nump">$ 18.90<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr><td colspan="3"></td></tr>
+<tr><td colspan="3"><table class="outerFootnotes" width="100%"><tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[1]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:9pt;font-weight:400;line-height:112%">Unless otherwise indicated, issuers of debt investments held by APS BDC, LLC (the "Company," which such term shall include the Company&#8217;s subsidiaries for purposes of this Consolidated Schedule of Investments) are denominated in U.S. Dollars. All debt investments are income producing unless otherwise indicated.</span></td>
+</tr></table></td></tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AccountsPayableTradeCurrentAndNoncurrent">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Carrying value as of the balance sheet date of obligations incurred (and for which invoices have typically been received) and payable to vendors for goods and services received that are used in an entity's business.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(15)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AccountsPayableTradeCurrentAndNoncurrent</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AccountsReceivableNet">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount, after allowance for credit loss, of right to consideration from customer for product sold and service rendered in normal course of business.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 310<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477802/946-310-45-1<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(5)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 954<br> -SubTopic 310<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479196/954-310-45-1<br><br>Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AccountsReceivableNet</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AdditionalPaidInCapital">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of excess of issue price over par or stated value of stock and from other transaction involving stock or stockholder. Includes, but is not limited to, additional paid-in capital (APIC) for common and preferred stock.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 852<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(18))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(30)(a)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AdditionalPaidInCapital</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_Assets">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of asset recognized for present right to economic benefit.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 235<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-05(b)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 235<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478671/942-235-S50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(g)(1)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 825<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 28<br> -Subparagraph (f)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28<br><br>Reference 6: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 480<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 64<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481620/480-10-55-64<br><br>Reference 7: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 944<br> -SubTopic 605<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 14<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477548/944-605-55-14<br><br>Reference 8: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 944<br> -SubTopic 605<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 11<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477548/944-605-55-11<br><br>Reference 9: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 48<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482785/280-10-55-48<br><br>Reference 10: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 49<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482785/280-10-55-49<br><br>Reference 11: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 270<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (i)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 32<br> -Subparagraph (ee)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32<br><br>Reference 13: http://fasb.org/us-gaap/role/ref/otherTransitionRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 32<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 22<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 810<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (bb)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481203/810-10-50-3<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 810<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 25<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481231/810-10-45-25<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(g)(1)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 18: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 323<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3<br><br>Reference 19: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 852<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10<br><br>Reference 20: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 21: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(12))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br><br>Reference 22: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(8))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 23: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(18))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 24: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 25: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 26: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(iii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 27: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(iii)(A))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 28: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(iv))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 29: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 30: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 31: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(iii)(A))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 32: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(iii)(B))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 33: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(iv))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 34: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 35: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 852<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481404/852-10-50-7<br><br>Reference 36: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 30<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30<br><br>Reference 37: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(11))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_Assets</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AssetsAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AssetsAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of cash and cash equivalent, and cash and cash equivalent restricted to withdrawal or usage; attributable to continuing operation. Cash includes, but is not limited to, currency on hand, demand deposit with financial institution, and account with general characteristic of demand deposit. Cash equivalent includes, but is not limited to, short-term, highly liquid investment that is both readily convertible to known amount of cash and so near maturity that it presents insignificant risk of change in value because of change in interest rate.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 8<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482913/230-10-50-8<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 24<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-24<br><br>Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Topic 230<br> -SubTopic 10<br> -Section 45<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-4<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CommitmentsAndContingencies">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Represents the caption on the face of the balance sheet to indicate that the entity has entered into (1) purchase or supply arrangements that will require expending a portion of its resources to meet the terms thereof, and (2) is exposed to potential losses or, less frequently, gains, arising from (a) possible claims against a company's resources due to future performance under contract terms, and (b) possible losses or likely gains from uncertainties that will ultimately be resolved when one or more future events that are deemed likely to occur do occur or fail to occur.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(17))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(25))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(19))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(15))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CommitmentsAndContingencies</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CommonUnitIssuanceValue">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Stated value of common units of ownership issued by a limited liability company (LLC).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CommonUnitIssuanceValue</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DebtIssuanceCostsLineOfCreditArrangementsNet">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount, after accumulated amortization, of debt issuance costs related to line of credit arrangements. Includes, but is not limited to, legal, accounting, underwriting, printing, and registration costs.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 835<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479359/835-30-S45-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DebtIssuanceCostsLineOfCreditArrangementsNet</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_IncentiveFeePayable">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of fee payable for management of operations based on performance under arrangement, including, but not limited to, investment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(12)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_IncentiveFeePayable</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InterestPayableCurrentAndNoncurrent">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of interest payable on debt, including, but not limited to, trade payables.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(15)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(15)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InterestPayableCurrentAndNoncurrent</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InterestReceivable">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Carrying amount as of the balance sheet date of interest earned but not received. Also called accrued interest or accrued interest receivable.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(3)(a)(4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 310<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477802/946-310-45-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InterestReceivable</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentOwnedAtFairValue">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Fair value of investment in security owned.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(11))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477439/946-210-55-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-2<br><br>Reference 11: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 12: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(d))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(2)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(2)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 18: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column A)(Footnote 1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 19: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 20: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 21: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 22: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 23: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 24: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 25: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 9))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 26: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 27: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 28: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 29: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 30: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentOwnedAtFairValue</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_Liabilities">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of liability recognized for present obligation requiring transfer or otherwise providing economic benefit to others.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(22))<br> -SubTopic 10<br> -Topic 210<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(20))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(24))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(g)(1)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 825<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 28<br> -Subparagraph (f)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28<br><br>Reference 7: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 480<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 64<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481620/480-10-55-64<br><br>Reference 8: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(19))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 9: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(25))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 10: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(26))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 11: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(23))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 12: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(21))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 810<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481203/810-10-50-3<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 810<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 25<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481231/810-10-45-25<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 810<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (bb)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481203/810-10-50-3<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(g)(1)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 323<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3<br><br>Reference 18: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 19: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(14))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 20: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 21: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 22: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(iii)(A))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 23: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(iv))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 24: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 25: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 26: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(iii)(A))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 27: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(iii)(B))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 28: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(iv))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 29: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 30: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 852<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481404/852-10-50-7<br><br>Reference 31: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 852<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481404/852-10-50-7<br><br>Reference 32: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 30<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_Liabilities</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LiabilitiesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LiabilitiesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LiabilitiesAndStockholdersEquity">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of liabilities and equity items, including the portion of equity attributable to noncontrolling interests, if any.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 825<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 28<br> -Subparagraph (f)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 944<br> -SubTopic 605<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 14<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477548/944-605-55-14<br><br>Reference 4: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 944<br> -SubTopic 605<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 11<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477548/944-605-55-11<br><br>Reference 5: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 852<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(25))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br><br>Reference 7: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(g)(1)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 323<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3<br><br>Reference 9: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(23))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 10: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(32))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LiabilitiesAndStockholdersEquity</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LineOfCredit">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The carrying value as of the balance sheet date of the current and noncurrent portions of long-term obligations drawn from a line of credit, which is a bank's commitment to make loans up to a specific amount. Examples of items that might be included in the application of this element may consist of letters of credit, standby letters of credit, and revolving credit arrangements, under which borrowings can be made up to a maximum amount as of any point in time conditional on satisfaction of specified terms before, as of and after the date of drawdowns on the line. Includes short-term obligations that would normally be classified as current liabilities but for which (a) postbalance sheet date issuance of a long term obligation to refinance the short term obligation on a long term basis, or (b) the enterprise has entered into a financing agreement that clearly permits the enterprise to refinance the short-term obligation on a long term basis and the following conditions are met (1) the agreement does not expire within 1 year and is not cancelable by the lender except for violation of an objectively determinable provision, (2) no violation exists at the BS date, and (3) the lender has entered into the financing agreement is expected to be financially capable of honoring the agreement.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(22))<br> -SubTopic 10<br> -Topic 210<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(16))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(16)(a)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LineOfCredit</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ManagementFeePayable">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of fee payable for management of fund or trust.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(12)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ManagementFeePayable</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_MembersEquity">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of ownership interest in limited liability company (LLC), attributable to the parent entity.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 272<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482987/272-10-50-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 272<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482987/272-10-50-3<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 272<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483014/272-10-45-3<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 272<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483014/272-10-45-4<br><br>Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.3-04)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_MembersEquity</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_NetAssetValuePerShare">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Net asset value per share or per unit of investments in certain entities that calculate net asset value per share. Includes, but is not limited to, by unit, membership interest, or other ownership interest. Investment includes, but is not limited to, investment in certain hedge funds, venture capital funds, private equity funds, real estate partnerships or funds. Excludes fair value disclosure.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477796/946-210-45-4<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478494/946-205-50-7<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Subparagraph (h)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478494/946-205-50-7<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 505<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478448/946-505-50-1<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(19))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SX 210.6-05(4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_NetAssetValuePerShare</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:perShareItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_OtherAccountsPayableAndAccruedLiabilities">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of liabilities incurred and payable to vendors for goods and services received classified as other, and expenses incurred but not yet paid, payable within one year or the operating cycle, if longer.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_OtherAccountsPayableAndAccruedLiabilities</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_OtherLiabilities">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of liabilities classified as other.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(15))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 2: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 480<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 64<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481620/480-10-55-64<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 944<br> -SubTopic 605<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 14<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477548/944-605-55-14<br><br>Reference 4: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 944<br> -SubTopic 605<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 11<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477548/944-605-55-11<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(15))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br><br>Reference 6: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(12)(b)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(12)(b)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 9: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(12)(b)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 10: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(17))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_OtherLiabilities</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RetainedEarningsAccumulatedDeficit">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of accumulated undistributed earnings (deficit).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(30)(a)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 2: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 852<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 65<br> -Paragraph 2<br> -Subparagraph (g)(2)(i)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480016/944-40-65-2<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 65<br> -Paragraph 2<br> -Subparagraph (h)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480016/944-40-65-2<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 11<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480990/946-20-50-11<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(23)(a)(4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(17))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 8: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.3-04)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RetainedEarningsAccumulatedDeficit</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_StockholdersEquityAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_StockholdersEquityAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

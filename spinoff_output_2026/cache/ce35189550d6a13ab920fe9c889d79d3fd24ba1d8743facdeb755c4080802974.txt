@@ -1,0 +1,541 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2026" xmlns:us-gaap="http://fasb.org/us-gaap/2026" xmlns:us-roles="http://fasb.org/us-roles/2026" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:country="http://xbrl.sec.gov/country/2026" xmlns:srt="http://fasb.org/srt/2026" xmlns:RITE="http://mineral-rite.com/20260928">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02F_US%2DGAAP%2D2026 -->
+<!-- Field: Set; Name: xdx; ID: xdx_03F_RITE_mineral%2Drite.com_20260928 -->
+<!-- Field: Set; Name: xdx; ID: xdx_043_20260928_20260928 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_058_edei%2D%2DEntityCentralIndexKey_0001096296 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body>
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000004" name="dei:EntityCentralIndexKey">0001096296</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="rite-20260928.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-09-28">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001096296</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-09-28</xbrli:startDate>
+        <xbrli:endDate>2026-09-28</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-09-282026-09-28_us-gaap_CommonStockMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001096296</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-09-28</xbrli:startDate>
+        <xbrli:endDate>2026-09-28</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-09-282026-09-28_us-gaap_SeriesAPreferredStockMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001096296</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesAPreferredStockMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-09-28</xbrli:startDate>
+        <xbrli:endDate>2026-09-28</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-09-282026-09-28_us-gaap_SeriesBPreferredStockMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001096296</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesBPreferredStockMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-09-28</xbrli:startDate>
+        <xbrli:endDate>2026-09-28</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-09-282026-09-28_us-gaap_SeriesCPreferredStockMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001096296</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesCPreferredStockMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-09-28</xbrli:startDate>
+        <xbrli:endDate>2026-09-28</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-09-282026-09-28_us-gaap_SeriesDPreferredStockMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001096296</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesDPreferredStockMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-09-28</xbrli:startDate>
+        <xbrli:endDate>2026-09-28</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-09-282026-09-28_custom_SeriesNMCPreferredStockMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001096296</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">RITE:SeriesNMCPreferredStockMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-09-28</xbrli:startDate>
+        <xbrli:endDate>2026-09-28</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="margin: 0">&#160;</p>
+
+<p style="margin: 0"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>UNITED STATES</b><br/>
+<b>SECURITIES AND EXCHANGE COMMISSION</b><br/>
+<b>Washington, D.C. 20549</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>FORM <span id="xdx_90A_edei--DocumentType_c20260928__20260928_zvhUX5toy2o8"><span id="xdx_90A_edei--DocumentType_c20260928__20260928_z2V2O616poRi"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000009" name="dei:DocumentType"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000010" name="dei:DocumentType">8-K</ix:nonNumeric></ix:nonNumeric></span></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>CURRENT REPORT</b><br/>
+Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Date of Report (Date of earliest event reported):
+<b><span id="xdx_90D_edei--DocumentPeriodEndDate_c20260928__20260928_zr9RvL2nopqf"><span id="xdx_90F_edei--DocumentPeriodEndDate_c20260928__20260928_zHoDbfV7PAO2"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:datemonthdayyearen" id="Fact000011" name="dei:DocumentPeriodEndDate"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:datemonthdayyearen" id="Fact000012" name="dei:DocumentPeriodEndDate">September 28, 2026</ix:nonNumeric></ix:nonNumeric></span></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<hr style="border-width: 0; color: Gray; background-color: Gray; height: 1px; width: 100%; margin-top: 0pt; margin-bottom: 0pt"/>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_900_edei--EntityRegistrantName_c20260928__20260928_zTVcFBpvZmR8"><span id="xdx_905_edei--EntityRegistrantName_c20260928__20260928_zmdQyLn35Jcj"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000013" name="dei:EntityRegistrantName"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000014" name="dei:EntityRegistrantName">MINERALRITE CORPORATION</ix:nonNumeric></ix:nonNumeric></span></span></b><br/>
+(Exact name of registrant as specified in its charter)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Commission File Number:<span id="xdx_900_edei--EntityFileNumber_c20260928__20260928_zl3XMg1vaXLk"> <ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000015" name="dei:EntityFileNumber">000-27739</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">State of Incorporation: <span id="xdx_90B_edei--EntityIncorporationStateCountryCode_c20260928__20260928_zzgyEFa2vCv"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt-sec:stateprovnameen" id="Fact000016" name="dei:EntityIncorporationStateCountryCode">Texas</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">IRS Employer Identification Number: <span id="xdx_908_edei--EntityTaxIdentificationNumber_c20260928__20260928_z0m7Jwz5Unjl"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000017" name="dei:EntityTaxIdentificationNumber">90-0315909</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span id="xdx_909_edei--EntityAddressAddressLine1_c20260928__20260928_ztcoL7WCA5qa"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000018" name="dei:EntityAddressAddressLine1">325 N. St. Paul Street</ix:nonNumeric></span>, <span id="xdx_90D_edei--EntityAddressAddressLine2_c20260928__20260928_zbIXcxkpruta"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000019" name="dei:EntityAddressAddressLine2">Suite 3100</ix:nonNumeric></span><br/>
+<span id="xdx_902_edei--EntityAddressCityOrTown_c20260928__20260928_zKUPCk0i6lPd"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000020" name="dei:EntityAddressCityOrTown">Dallas</ix:nonNumeric></span>, <span id="xdx_90C_edei--EntityAddressStateOrProvince_c20260928__20260928_zVOgOHNn9tq5"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt-sec:stateprovnameen" id="Fact000021" name="dei:EntityAddressStateOrProvince">Texas</ix:nonNumeric></span> <span id="xdx_907_edei--EntityAddressPostalZipCode_c20260928__20260928_zkcH6en46ija"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000022" name="dei:EntityAddressPostalZipCode">75201</ix:nonNumeric></span><br/>
+(Address of principal executive offices)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(<span id="xdx_901_edei--CityAreaCode_c20260928__20260928_zjH32GR2H3kf"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000023" name="dei:CityAreaCode">469</ix:nonNumeric></span>) <span id="xdx_906_edei--LocalPhoneNumber_c20260928__20260928_zXCo6xmgknL6"><ix:nonNumeric contextRef="AsOf2026-09-28" id="Fact000024" name="dei:LocalPhoneNumber">881-8900</ix:nonNumeric></span><br/>
+(Registrant&#8217;s telephone number, including area code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><br/>
+(Former name or former address, if changed since last report: Not applicable)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<hr style="border-width: 0; color: Gray; background-color: Gray; height: 1px; width: 100%; margin-top: 0pt; margin-bottom: 0pt"/>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left"><b>Check the appropriate box below if the
+Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</b>&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: left"><span style="font-family: Times New Roman, Times, Serif"><span id="xdx_902_edei--WrittenCommunications_c20260928__20260928_zwPBdds1Ruuk"><span id="xdx_90D_edei--PreCommencementTenderOffer_c20260928__20260928_z72QHclsb063"><span id="xdx_906_edei--WrittenCommunications_c20260928__20260928_zygmXT33SY35"><span id="xdx_905_edei--PreCommencementIssuerTenderOffer_c20260928__20260928_zqjITCJDbyQ"><span id="xdx_903_edei--SolicitingMaterial_c20260928__20260928_zId9e8Mu10sh"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:booleanfalse" id="Fact000025" name="dei:WrittenCommunications"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:booleanfalse" id="Fact000026" name="dei:PreCommencementTenderOffer"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:booleanfalse" id="Fact000027" name="dei:WrittenCommunications"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:booleanfalse" id="Fact000028" name="dei:PreCommencementIssuerTenderOffer"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:booleanfalse" id="Fact000029" name="dei:SolicitingMaterial">&#9744;</ix:nonNumeric></ix:nonNumeric></ix:nonNumeric></ix:nonNumeric></ix:nonNumeric></span></span></span></span></span>
+</span>Written communications pursuant to Rule 425<br/>
+<span style="font-family: Times New Roman, Times, Serif"><span id="xdx_907_edei--SolicitingMaterial_c20260928__20260928_zIDq1hV4KAch"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:booleanfalse" id="Fact000030" name="dei:SolicitingMaterial">&#9744;</ix:nonNumeric></span></span> Soliciting material pursuant to Rule 14a-12<br/>
+<span style="font-family: Times New Roman, Times, Serif"><span id="xdx_904_edei--PreCommencementTenderOffer_c20260928__20260928_zni90HyVQc18"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:booleanfalse" id="Fact000031" name="dei:PreCommencementTenderOffer">&#9744;</ix:nonNumeric></span></span> Pre-commencement communications pursuant to Rule 14d-2(b)<br/>
+<span style="font-family: Times New Roman, Times, Serif"><span id="xdx_902_edei--PreCommencementIssuerTenderOffer_c20260928__20260928_zZUOzQ8smMTa"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:booleanfalse" id="Fact000032" name="dei:PreCommencementIssuerTenderOffer">&#9744;</ix:nonNumeric></span></span> Pre-commencement communications pursuant to Rule 13e-4(c)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>Securities registered pursuant to
+Section 12(g) of the Act</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr style="vertical-align: top">
+    <td style="border-bottom: Black 1pt solid; width: 26%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: left; vertical-align: bottom"><b>Title of each class</b></td>
+    <td style="border-bottom: Black 1pt solid; width: 23%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center; vertical-align: bottom"><b>Trading Symbol(s)</b></td>
+    <td style="border-bottom: Black 1pt solid; width: 30%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><b>Name of each exchange <br/>
+on which registered </b></td>
+    <td style="border-bottom: Black 1pt solid; width: 21%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center; vertical-align: bottom"><b>Par Value</b></td></tr>
+<tr style="vertical-align: top">
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: left"><span id="xdx_906_edei--Security12bTitle_c20260928__20260928__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember_z3KRm4pHxwBi"><ix:nonNumeric contextRef="From2026-09-282026-09-28_us-gaap_CommonStockMember" id="Fact000033" name="dei:Security12bTitle">Common stock</ix:nonNumeric></span></td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><span id="xdx_906_edei--TradingSymbol_c20260928__20260928__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember_zBvTsK5Ocjk1"><ix:nonNumeric contextRef="From2026-09-282026-09-28_us-gaap_CommonStockMember" id="Fact000034" name="dei:TradingSymbol">RITE</ix:nonNumeric></span></td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">OTC Markets (OTCID)</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">No Par Value</td></tr>
+<tr style="vertical-align: top">
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: left"><span id="xdx_908_edei--Security12bTitle_c20260928__20260928__us-gaap--StatementClassOfStockAxis__us-gaap--SeriesAPreferredStockMember_zkpaC5GqU6p8"><ix:nonNumeric contextRef="From2026-09-282026-09-28_us-gaap_SeriesAPreferredStockMember" id="Fact000035" name="dei:Security12bTitle">Series A Preferred</ix:nonNumeric></span></td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">None</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">None</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">No Par Value</td></tr>
+<tr style="vertical-align: top">
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: left"><span id="xdx_901_edei--Security12bTitle_c20260928__20260928__us-gaap--StatementClassOfStockAxis__us-gaap--SeriesBPreferredStockMember_zmOaGSnn5P5f"><ix:nonNumeric contextRef="From2026-09-282026-09-28_us-gaap_SeriesBPreferredStockMember" id="Fact000036" name="dei:Security12bTitle">Series B Preferred</ix:nonNumeric></span></td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">None</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">None</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">No Par Value</td></tr>
+<tr style="vertical-align: top">
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: left"><span id="xdx_904_edei--Security12bTitle_c20260928__20260928__us-gaap--StatementClassOfStockAxis__us-gaap--SeriesCPreferredStockMember_zLIGH3Q3B7Hd"><ix:nonNumeric contextRef="From2026-09-282026-09-28_us-gaap_SeriesCPreferredStockMember" id="Fact000037" name="dei:Security12bTitle">Series C Preferred</ix:nonNumeric></span></td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">None</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">None</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">No Par Value</td></tr>
+<tr style="vertical-align: top">
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: left"><span id="xdx_908_edei--Security12bTitle_c20260928__20260928__us-gaap--StatementClassOfStockAxis__us-gaap--SeriesDPreferredStockMember_zSB9ghonvdXh"><ix:nonNumeric contextRef="From2026-09-282026-09-28_us-gaap_SeriesDPreferredStockMember" id="Fact000038" name="dei:Security12bTitle">Series D Preferred</ix:nonNumeric></span></td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">None</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">None</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">$25.00</td></tr>
+<tr style="vertical-align: top">
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: left"><span id="xdx_903_edei--Security12bTitle_c20260928__20260928__us-gaap--StatementClassOfStockAxis__custom--SeriesNMCPreferredStockMember_zFxoWKcf0Tu4"><ix:nonNumeric contextRef="From2026-09-282026-09-28_custom_SeriesNMCPreferredStockMember" id="Fact000039" name="dei:Security12bTitle">Series NMC Preferred</ix:nonNumeric></span></td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">None</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">None</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt; text-align: center">$25.00</td></tr>
+</table>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the
+registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, smaller reporting company, or an emerging
+growth company. See the definitions of &#8220;large accelerated filer,&#8221; &#8220;accelerated filer&#8221; and &#8220;smaller
+reporting company&#8221; and &#8220;emerging growth company&#8221; in Rule 12b-2 of the Exchange Act.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr style="vertical-align: top; background-color: white">
+    <td style="width: 9%; text-align: justify">&#8201;</td>
+    <td style="width: 18%; text-align: left">Large accelerated filer</td>
+    <td style="width: 3%; text-align: left"><span style="font-family: Times New Roman, Times, Serif">&#9744;</span></td>
+    <td style="width: 21%; text-align: left">&#8201;</td>
+    <td style="width: 31%; text-align: left">Accelerated filer</td>
+    <td style="width: 14%; text-align: left"><span style="font-family: Times New Roman, Times, Serif">&#9744;</span>&#8201;</td>
+    <td style="width: 4%; text-align: left">&#8201;</td></tr>
+<tr style="vertical-align: top; background-color: white">
+    <td style="text-align: justify">&#8201;</td>
+    <td style="text-align: left">Non-accelerated filer</td>
+    <td style="text-align: left"><span style="font-family: Times New Roman, Times, Serif">&#9744;</span>&#8201;</td>
+    <td style="text-align: left">&#8201;</td>
+    <td style="text-align: left">Smaller reporting company</td>
+    <td style="text-align: left"><span style="font-family: Times New Roman, Times, Serif">&#9746;</span>&#8201;</td>
+    <td style="text-align: left">&#8201;</td></tr>
+<tr style="vertical-align: top; background-color: white">
+    <td style="text-align: justify">&#8201;</td>
+    <td style="text-align: left">&#8201;</td>
+    <td style="text-align: left">&#8201;</td>
+    <td style="text-align: left">&#8201;</td>
+    <td style="text-align: left">Emerging growth company</td>
+    <td style="text-align: left"><span style="font-family: Times New Roman, Times, Serif"><span id="xdx_90C_edei--EntityEmergingGrowthCompany_c20260928__20260928_zrQLYhfPoA84"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:booleantrue" id="Fact000040" name="dei:EntityEmergingGrowthCompany">&#9746;</ix:nonNumeric></span></span>&#8201;</td>
+    <td style="text-align: left">&#8201;</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">If an emerging growth company, indicate by
+check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial
+accounting standards provided pursuant to Section 13(a) of the Exchange Act. <span style="font-family: Times New Roman, Times, Serif"><span id="xdx_905_edei--EntityExTransitionPeriod_c20260928__20260928_zx2RaqpQX0oj"><ix:nonNumeric contextRef="AsOf2026-09-28" format="ixt:booleanfalse" id="Fact000041" name="dei:EntityExTransitionPeriod">&#9744;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">&#160;</p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 2pt solid; margin-top: 12pt; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 10pt"><tr style="vertical-align: top; text-align: left"><td style="width: 33%">&#160;</td><td style="font-family: Arial, Helvetica, Sans-Serif; width: 34%; text-align: center"/><td style="width: 33%; text-align: right">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 6pt; text-align: justify"><b>Item 1.01 - Entry into a Material Definitive
+Agreement</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">On September 30, 2026 (the &#8220;Closing Date&#8221;),
+MineralRite Corporation (the &#8220;Company&#8221; or &#8220;RITE&#8221;) entered into a Series NMC Preferred Stock Repurchase, Note and
+Sinking-Fund Agreement (the &#8220;Repurchase Agreement&#8221;) with Abstract Concepts 1618 LLC (&#8220;Abstract&#8221;), acting on behalf
+of itself and its affiliates. Under the Repurchase Agreement, the Company repurchased from Abstract 3,919,388 shares of the Company&#8217;s
+Series NMC $25 Convertible Preferred Stock (&#8220;Series NMC Preferred&#8221;) for an aggregate repurchase price of $106,724,942. The
+Company issued Abstract a non-interest-bearing promissory note in that principal amount (the &#8220;Note&#8221;) as consideration for
+the repurchase.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">The Series NMC Preferred sinking fund commits to repurchase
+shares tendered by holders, subject to the availability of sufficient funds, at a price that began at the $25.00 par value and grows at
+5% per annum, subject to a $25.40 floor. In the Repurchase Agreement, the Company and Abstract confirmed that this growth compounds annually
+and that the sinking-fund price was approximately $27.23 per share as of the Closing Date. The Repurchase Agreement also permanently caps
+at $269,049,058.76 the total amount payable by the Company under the Series NMC Preferred sinking fund with respect to the Series NMC
+Preferred shares covered by the agreement, which equals approximately $27.23 per share on the 9,880,612 shares expected to be held by
+Abstract following the transaction, so that the sinking-fund amount will not increase further. The cap applies to the Series NMC Preferred
+shares held by Abstract following the transaction, including shares issuable upon exercise of the Series NMC warrants, and to permitted
+transferees that agree in writing to be bound by its terms. The Company is also required to make a portion of the funds it raises or otherwise
+generates available for sinking-fund repurchases of Series NMC Preferred shares.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">Also on the Closing Date, the Company entered into
+a Royalty Repurchase, Warrant Exercise and Note Satisfaction Agreement (the &#8220;Closing Agreement&#8221;) with Abstract. Pursuant to
+the Closing Agreement, Abstract exercised its option to repurchase a royalty interest from the Company for $1,641,254; Commodity Capital
+Advisors LLC (&#8220;Commodity&#8221;), acting through Abstract as its manager and with the Company&#8217;s consent, exercised its option
+to repurchase a separate royalty interest for $246,188; Abstract irrevocably exercised 47,600 Series D Preferred Stock warrants and 6,900,000
+Series NMC Preferred warrants; and Commodity irrevocably exercised 5,900 Series D Preferred Stock warrants. The Note was applied to satisfy
+the royalty repurchase prices and warrant exercise prices, was fully satisfied, and was cancelled at Closing.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">The Company also acknowledged and consented to an
+Authorization to Exercise Option to Repurchase and Consent among Commodity and Abstract (the &#8220;Commodity Authorization&#8221;), pursuant
+to which Commodity exercised its royalty repurchase option and authorized Abstract, as Commodity&#8217;s manager, to act on Commodity&#8217;s
+behalf. The Company waived the otherwise applicable ten-business-day exercise notice period and agreed to accept application of a portion
+of the Note in full payment of Commodity&#8217;s repurchase price.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">Abstract is owned and managed by Lloyd B. Hendricks
+III and is a related party of the Company because it beneficially owns more than 5% of the Company&#8217;s common stock. Abstract also
+acts as manager of Commodity. Mr. Hendricks and his affiliates are subject to a Shareholder Control Limitation and Standstill Agreement,
+as previously reported in a Form 8-K filed on May 7, 2026. The prices for the Series NMC repurchase, the royalty repurchases and the warrant
+exercises followed existing contractual terms, and the Company and Abstract worked together to negotiate the cashless structure and the
+sinking-fund cap. The foregoing descriptions are qualified in their entirety by reference to the Repurchase Agreement, the Note, the Commodity
+Authorization, and the Closing Agreement, copies of which are filed as Exhibits 10.1 through 10.4 to this Current Report on Form 8-K and
+incorporated herein by reference.</p>
+
+
+<!-- Field: Page; Sequence: 2 -->
+    <div style="border-bottom: Black 2pt solid; margin-bottom: 6pt"><p style="margin: 0">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt"><p style="margin: 0">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 6pt; text-align: justify"><b>Item 2.03 - Creation of a Direct Financial
+Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">The information set forth in Item 1.01 of this Current
+Report on Form 8-K regarding the Note is incorporated by reference into this Item 2.03. The Note bore no interest and was due and payable
+on the Closing Date. It was fully satisfied, discharged, surrendered, and cancelled at Closing through the contractual applications described
+above. Accordingly, no amount remained outstanding under the Note following Closing.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 6pt; text-align: justify"><b>Item 3.02 - Unregistered Sales of Equity
+Securities</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">As described in Item 1.01, on the Closing Date Abstract
+irrevocably exercised 47,600 warrants to purchase Series D Preferred Stock and 6,900,000 warrants to purchase Series NMC Preferred Stock,
+and Commodity irrevocably exercised 5,900 warrants to purchase Series D Preferred Stock. Upon the effectiveness of the Company&#8217;s
+Restated Certificate of Formation and when the applicable shares are duly authorized and available for issuance, the Company will issue
+53,500 shares of Series D Preferred Stock and 6,900,000 shares of Series NMC Preferred Stock pursuant to those exercises.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">The aggregate exercise price for the Series D Preferred
+Stock warrants was $1,337,500, and the aggregate exercise price for the Series NMC Preferred Stock warrants was $103,500,000. The consideration
+was satisfied through application of the Note as described in Item 1.01. The securities will be issued in reliance upon the exemption
+from registration provided by Section 4(a)(2) of the Securities Act of 1933, as amended, as a transaction not involving a public offering.
+The Company received no cash proceeds from the exercises. Each share of Series D Preferred Stock is convertible into 25,000 shares of
+common stock, and each share of Series NMC Preferred Stock is convertible into 500 shares of common stock. The warrant holders, Abstract
+and Commodity, are existing security holders of the Company under common management and are accredited investors; no general solicitation
+was made, and the securities will be issued as restricted securities.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 6pt; text-align: justify"><b>Item 5.07 - Submission of Matters to a Vote
+of Security Holders</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">On September 28, 2026, the Company held a special
+meeting of the holders of its Series C Preferred Stock to consider and vote upon amendments to the provisions governing the Series C Preferred
+Stock contained in the Company&#8217;s Restated Certificate of Formation, including (i) an amendment providing that shares of Series C
+Preferred Stock that are redeemed or otherwise reacquired by the Company cease to be issued and outstanding and resume the status of authorized
+but unissued shares of the series, and (ii) a provision, previously contained in the Company&#8217;s Bylaws, authorizing action by written
+consent of the holders of the series, now incorporated into the provisions governing each series of preferred stock. At the time of the
+meeting, 10,679 shares of Series C Preferred Stock were outstanding. Holders of 8,735 shares were represented in person or by proxy, and
+all 8,735 shares voted in favor of the amendments, with no votes against and no abstentions. The shares voted in favor represent approximately
+81.8% of the outstanding Series C Preferred Stock, exceeding the two-thirds approval required. In addition, by written consents dated
+September 28, 2026, the holders of 100% of the outstanding shares of each of the Series A Preferred Stock, Series B Preferred Stock and
+Series NMC Preferred Stock approved the amendments applicable to those series and the Restated Certificate of Formation. No shares of
+Series D Preferred Stock were outstanding, and the corresponding amendments to the provisions governing the Series D Preferred Stock were
+approved by the Company&#8217;s Board of Directors.</p>
+
+
+<!-- Field: Page; Sequence: 3 -->
+    <div style="border-bottom: Black 2pt solid; margin-bottom: 6pt"><p style="margin: 0">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt"><p style="margin: 0">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 6pt; text-align: justify"><b>Item 7.01 - Regulation FD Disclosure</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">On October 2, 2026, the Company issued a press release
+announcing the transactions described in this Current Report on Form 8-K. A copy of the press release is furnished as Exhibit 99.1 to
+this Current Report on Form 8-K.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">The information furnished pursuant to this Item 7.01,
+including Exhibit 99.1, shall not be deemed &#8220;filed&#8221; for purposes of Section 18 of the Securities Exchange Act of 1934, as
+amended (the &#8220;Exchange Act&#8221;), or otherwise subject to the liabilities of that section, nor shall it be deemed incorporated
+by reference into any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as expressly set forth by specific
+reference in such filing.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 6pt; text-align: justify"><b>Item 8.01 - Other Events</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">The Company is reporting under this Item 8.01 the
+integrated transaction described above, including the repurchase of 3,919,388 Series NMC Preferred shares, which ceased to be outstanding,
+the exercise of outstanding Series D and Series NMC warrants, the permanent cap on the applicable Series NMC Preferred sinking-fund obligation,
+and the satisfaction and cancellation of the Note. The Company is in the process of filing a Restated Certificate of Formation with the
+Texas Secretary of State. Upon effectiveness, the Restated Certificate will set the authorized numbers of Series D Preferred Stock and
+Series NMC Preferred Stock at 60,000 and 10,000,000 shares, respectively, without increasing the Company&#8217;s total authorized preferred
+stock. The Restated Certificate will be filed as an exhibit to a subsequent Current Report on Form 8-K after it has been filed with, and
+becomes effective pursuant to filing by, the Texas Secretary of State. Immediately before the transactions, 6,900,000 shares of Series
+NMC Preferred Stock were outstanding and Abstract held warrants for 6,900,000 additional shares. After giving effect to the repurchase
+and the warrant exercises, 9,880,612 shares are expected to be outstanding, all held by Abstract, and each share is convertible into 500
+shares of common stock, subject to the sinking fund. The Restated Certificate of Formation was approved by the Company&#8217;s Board of
+Directors; by the written consent of the holders of 100% of the outstanding Series A Preferred Stock, Series B Preferred Stock and Series
+NMC Preferred Stock; and by the holders of the Series C Preferred Stock at a special meeting held on September 28, 2026, as described
+in Item 5.07. Under Texas law, no vote of the holders of the Company&#8217;s common stock was required.</p>
+
+
+<!-- Field: Page; Sequence: 4 -->
+    <div style="border-bottom: Black 2pt solid; margin-bottom: 6pt"><p style="margin: 0">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt"><p style="margin: 0">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 6pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 8pt 0 5pt; text-align: justify"><b>Item 9.01 - Financial Statements and Exhibits</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 3pt; text-align: left">(d) Exhibits.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 3pt; text-align: left">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="border-bottom: Black 1pt solid; width: 17%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: left"><b>Exhibit No.</b></td>
+    <td style="border-bottom: Black 1pt solid; width: 83%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: left"><b>Description</b></td></tr>
+  <tr>
+    <td style="padding: 2.15pt 5.75pt; text-align: left"><a href="n4863_x28exh10-1.htm" style="-sec-extract: exhibit">10.1</a></td>
+    <td style="padding: 2.15pt 5.75pt; text-align: left"><a href="n4863_x28exh10-1.htm" style="-sec-extract: exhibit">Series NMC Preferred Stock Repurchase, Note and Sinking-Fund Agreement, dated September 30, 2026, by and between MineralRite Corporation and Abstract Concepts 1618 LLC.</a></td></tr>
+  <tr>
+    <td style="padding: 2.15pt 5.75pt; text-align: left"><a href="n4863_x28exh10-2.htm">10.2</a></td>
+    <td style="padding: 2.15pt 5.75pt; text-align: left"><a href="n4863_x28exh10-2.htm">Promissory Note, dated September 30, 2026, issued by MineralRite Corporation to Abstract Concepts 1618 LLC.</a></td></tr>
+  <tr>
+    <td style="padding: 2.15pt 5.75pt; text-align: left"><a href="n4863_x28exh10-3.htm">10.3</a></td>
+    <td style="padding: 2.15pt 5.75pt; text-align: left"><a href="n4863_x28exh10-3.htm">Authorization to Exercise Option to Repurchase and Consent, dated September 30, 2026, by Commodity Capital Advisors LLC, Abstract Concepts 1618 LLC, and MineralRite Corporation.</a></td></tr>
+  <tr>
+    <td style="padding: 2.15pt 5.75pt; text-align: left"><a href="n4863_x28exh10-4.htm">10.4</a></td>
+    <td style="padding: 2.15pt 5.75pt; text-align: left"><a href="n4863_x28exh10-4.htm">Royalty Repurchase, Warrant Exercise and Note Satisfaction Agreement, dated September 30, 2026, by and between MineralRite Corporation and Abstract Concepts 1618 LLC.</a></td></tr>
+  <tr>
+    <td style="padding: 2.15pt 5.75pt; text-align: left"><a href="n4863_x28exh99-1.htm">99.1</a></td>
+    <td style="padding: 2.15pt 5.75pt; text-align: left"><a href="n4863_x28exh99-1.htm">Press Release dated October 2, 2026 (furnished herewith).</a></td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+
+<!-- Field: Page; Sequence: 5 -->
+    <div style="border-bottom: Black 2pt solid; margin-top: 12pt; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 10pt"><tr style="vertical-align: top; text-align: left"><td style="width: 33%">&#160;</td><td style="font-family: Arial, Helvetica, Sans-Serif; width: 34%; text-align: center"/><td style="width: 33%; text-align: right">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><b>SIGNATURES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: left"><b>MINERALRITE CORPORATION</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: left">By: /s/ James Burgauer<br/>
+Name: James Burgauer<br/>
+Title: President and Principal Executive Officer</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: left">Date: October 2, 2026</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"></p>
+
+<!-- Field: Page; Sequence: 6; Options: Last -->
+    <div style="border-bottom: Black 2pt solid; margin-top: 12pt; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 10pt"><tr style="vertical-align: top; text-align: left"><td style="width: 33%">&#160;</td><td style="font-family: Arial, Helvetica, Sans-Serif; width: 34%; text-align: center"/><td style="width: 33%; text-align: right">&#160;</td></tr></table></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJyNktFugjAUhp+Adzjh2iiw6RLuAJ1ZBsSgMbvt4Lg00h7SVqePtLdcgbldubRp0rT9/u+cJvX9ib+mZ96igre0ymGHomuZQajwgApljZbIXl5jsGuFH1wbxaQZtrdgRjaDNrOYzpk9H8gz19jEEMxnwdMsWkAYxo8PkBS+199nJA+8QWk4a4HJBjaKOsXRMHUdDTt2IUniOlTao9KcZAzhNBivvyAKwghKOrNPUkcNeZ753mQYnr9WdOostboYlH0SVi0KW06P6b85dFOftCERb9F2oEtRb1T/eIVNgeIdlSXCIIrCIPkpPoJQFhn8ond9S0fb0sGVObpc+kodXamDy1GV/Kuy30iQ3Bqqj3c0IwG6R26Cb0sezx0= -->
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>

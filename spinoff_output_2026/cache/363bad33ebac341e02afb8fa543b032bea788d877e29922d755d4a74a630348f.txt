@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-06-15</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0002104052</issuerCik>
+        <issuerName>Enviri Corp</issuerName>
+        <issuerTradingSymbol>NVRI</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001544647</rptOwnerCik>
+            <rptOwnerName>Minan Peter Francis</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>TWO LOGAN SQUARE</rptOwnerStreet1>
+            <rptOwnerStreet2>100-120 N. 18TH STREET, 17TH FLOOR</rptOwnerStreet2>
+            <rptOwnerCity>PHILADELPHIA</rptOwnerCity>
+            <rptOwnerState>PA</rptOwnerState>
+            <rptOwnerZipCode>19103</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>Executive Vice President &amp; CFO</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-06-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>78125</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>94559</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Performance Restricted Stock Unit</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F2"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-06-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>76924</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F2"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F2"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>76924</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>76924</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Restricted stock units granted under the Issuer's 2026 Omnibus Incentive Plan represent a contingent right to receive the Issuer's common stock on a one-for-one basis when the restricted stock units vest. Each reported restricted stock unit vests in three equal increments on each subsequent anniversary of the grant date.</footnote>
+        <footnote id="F2">Represents the target number of Performance Restricted Stock Units granted under the Issuer's 2026 Omnibus Incentive Plan, each of which represents the contingent right to receive a variable amount of shares of the Issuer's common stock based on the level of achievement of share-price performance targets over the period of June 1, 2026, through June 30, 2029 (the &quot;Performance Period&quot;). The Performance Restricted Stock Units vest between 0% and 250% of target, measured as of the earlier of the final financial quarter of the Performance Period or during a measurement period ending no fewer than three days prior to a Change in Control of the Issuer.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Peter F. Minan</signatureName>
+        <signatureDate>2026-06-17</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

@@ -1,0 +1,512 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>67
+<FILENAME>R60.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="1"><div style="width: 200px;"><strong>Subsequent Events (Additional Information) (Details)<br></strong></div></th>
+<th class="th">
+<div>May 14, 2026 </div>
+<div>USD ($) </div>
+<div>Company</div>
+</th>
+<th class="th">
+<div>May 06, 2026 </div>
+<div>$ / shares</div>
+</th>
+<th class="th">
+<div>Mar. 31, 2026 </div>
+<div>USD ($)</div>
+</th>
+<th class="th"><sup>[1],[2],[3]</sup></th>
+<th class="th">
+<div>Dec. 31, 2025 </div>
+<div>USD ($)</div>
+</th>
+<th class="th"><sup>[4],[5],[6],[7],[8]</sup></th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventLineItems', window );"><strong>Subsequent Event [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Investments at Amortized Cost | $</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="nump">$ 44,961,480<span></span>
+</td>
+<td colspan="2" class="nump">$ 37,882,847<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember', window );">Subsequent Event</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventLineItems', window );"><strong>Subsequent Event [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Investments at Amortized Cost | $</a></td>
+<td class="nump">$ 4,600,000<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_NumberOfExistingPositions', window );">Number Of Existing Positions</a></td>
+<td class="nump">1<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_NumberOfNewPortfolioCompanies', window );">Number of New Portfolio Companies</a></td>
+<td class="nump">1<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DividendsPayableAmountPerShare', window );">Dividends Payable, Amount Per Share | $ / shares</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 0.05<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0001984739_NumberOfTotalPortfolioCompanies', window );">Number of total portfolio companies</a></td>
+<td class="nump">24<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember', window );">Subsequent Event | O 2026 Q2 Dividends [Member]</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventLineItems', window );"><strong>Subsequent Event [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DividendPayableDateToBePaidDayMonthAndYear', window );">Dividends Payable, Date to be Paid</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">May 27,  2026<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DividendsPayableDateOfRecordDayMonthAndYear', window );">Dividends Payable, Date of Record</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">May  08,  2026<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr><td colspan="7"></td></tr>
+<tr><td colspan="7"><table class="outerFootnotes" width="100%">
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[1]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Certain portfolio company investments are subject to contractual restrictions on sales. Refer to footnote 8 of the Unaudited Consolidated Schedule of Investments as of </span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">March 31, 2026 f</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">or additional information on our restricted securities.</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[2]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">These securities were acquired in transactions exempt from registration under the Securities Act of 1933, as amended (the "Securities Act") and may be deemed to be "restricted securities" under the Securities Act. As o</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">f March 31, 2026, the Company's portfolio company investments that were subject to restrictions on sales totaled </span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">$</span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">1,816,338</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> at fair value and represented </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">5.5</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">%</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> of t</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">he Company's net assets.</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[3]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Unless indicated otherwise, all investments were valued at fair value using Level 3 significant unobservable inputs as determined in good faith by the Company&#8217;s board of trustees (see Note 4).</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[4]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">All investments of the Company are in entities which are organized under the laws of the United States and have a principal place of business in the United States, unless otherwise noted.</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[5]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">As defined in the 1940 Act, the Company is deemed to be an &#8220;Affiliated Person&#8221; of a portfolio company if it owns </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">5</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">% or more, up to </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">25</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">% (inclusive), of the portfolio company&#8217;s outstanding voting securities (&#8220;non-controlled affiliate&#8221;). As defined in the 1940 Act, the Company is deemed to be both an &#8220;affiliated person&#8221; and &#8220;control&#8221; a portfolio company if it owns more than </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">25</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">% of the portfolio company&#8217;s outstanding voting securities or has the power to exercise control over the management or policies of such portfolio company (including through a management agreement). As o</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">f December 31, 2025, t</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">he Company had </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">no</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> "Affiliated Investments" or "Control Investments.&#8221;</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[6]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Certain portfolio company investments are subject to contractual restrictions on sales. Refer to footnote 8 of the Consolidated Schedule of Investments as of </span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">December 31, 2025 f</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">or additional information on our restricted securities.</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[7]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Unless indicated otherwise, all investments were valued at fair value using Level 3 significant unobservable inputs as determined in good faith by the Company&#8217;s board of trustees (see Note 4). </span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[8]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">acquired in transactions exempt from registration under the Securities Act and may be deemed to be "restricted securities" under the Securities Act. As o</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">f December 31, 2025, the Company's portfolio company investments that were subject to restrictions on sales totaled </span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">$</span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">3,024,014</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> at fair value and represented </span><span style="font-size:8pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">11.5</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">%</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> of t</span><span style="color:#000000;white-space:pre-wrap;font-size:8pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">he Company's net assets.</span></td>
+</tr>
+</table></td></tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0001984739_NumberOfExistingPositions">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Number Of Existing Positions</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0001984739_NumberOfExistingPositions</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0001984739_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:integerItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0001984739_NumberOfNewPortfolioCompanies">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Number of New Portfolio Companies</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0001984739_NumberOfNewPortfolioCompanies</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0001984739_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:integerItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0001984739_NumberOfTotalPortfolioCompanies">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Number of Total Portfolio Companies</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0001984739_NumberOfTotalPortfolioCompanies</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0001984739_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:integerItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DividendPayableDateToBePaidDayMonthAndYear">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Date the declared dividend will be paid, in YYYY-MM-DD format.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Topic 230<br> -SubTopic 10<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482913/230-10-50-3<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DividendPayableDateToBePaidDayMonthAndYear</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:dateItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DividendsPayableAmountPerShare">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The per share amount of a dividend declared, but not paid, as of the financial reporting date.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Topic 230<br> -SubTopic 10<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482913/230-10-50-3<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DividendsPayableAmountPerShare</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:perShareItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DividendsPayableDateOfRecordDayMonthAndYear">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Date the holder must own the stock to be entitled to the dividend, in YYYY-MM-DD format.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DividendsPayableDateOfRecordDayMonthAndYear</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:dateItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentOwnedAtCost">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Cost of the investment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477439/946-210-55-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 4: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(d))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 8)(a)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 11)(a)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 5)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 19<br> -Subparagraph (3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-19<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentOwnedAtCost</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SubsequentEventLineItems">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Detail information of subsequent event by type. User is expected to use existing line items from elsewhere in the taxonomy as the primary line items for this disclosure, which is further associated with dimension and member elements pertaining to a subsequent event.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 830<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481674/830-30-50-2<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 855<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483399/855-10-50-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SubsequentEventLineItems</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DividendsAxis=ck0001984739_O2026Q2DividendsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DividendsAxis=ck0001984739_O2026Q2DividendsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

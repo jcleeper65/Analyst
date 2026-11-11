@@ -1,0 +1,117 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>26
+<FILENAME>R16.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.10.0.1</span><table class="report" border="0" cellspacing="2" id="idp6623802256">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Nature of Operations and Summary of Significant Accounting Policies (Tables)<br></strong></div></th>
+<th class="th" colspan="1">5 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Sep. 30, 2018</div></th></tr>
+<tr class="re">
+<td class="pl " style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_AccountingPoliciesAbstract', window );"><strong>Accounting Policies [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_JSBL_ScheduleOfPropertyPlantAndEquipmentUsefulLife', window );">Schedule of Property Plant and Equipment Useful Life</a></td>
+<td class="text"><p style="margin: 0pt"></p>
+
+<p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0; text-align: justify">Property and equipment are stated at cost.
+The straight-line depreciation method is used to compute depreciation over the estimated useful lives of the assets, as follows:</p>
+
+<p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 12pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr style="vertical-align: bottom; background-color: white">
+    <td style="width: 76%; border-bottom: black 1.5pt solid"><font style="font-size: 10pt; line-height: 106%"><b>Items</b></font></td>
+    <td style="width: 1%">&#160;</td>
+    <td style="width: 23%; border-bottom: black 1.5pt solid; text-align: center"><font style="font-size: 10pt; line-height: 106%"><b>Useful life</b></font></td></tr>
+<tr style="vertical-align: bottom; background-color: #CCEEFF">
+    <td><font style="font-size: 10pt; line-height: 106%">Office equipment</font></td>
+    <td>&#160;</td>
+    <td style="text-align: center"><font style="font-size: 10pt; line-height: 106%">3&#8211;5 years</font></td></tr>
+</table>
+
+
+<p style="margin: 0pt"></p><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_JSBL_ScheduleOfPropertyPlantAndEquipmentUsefulLife">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Definition</a><div><p>Schedule of Property Plant and Equipment Useful Life [Table Text Block]</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">JSBL_ScheduleOfPropertyPlantAndEquipmentUsefulLife</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>JSBL_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>nonnum:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AccountingPoliciesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AccountingPoliciesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

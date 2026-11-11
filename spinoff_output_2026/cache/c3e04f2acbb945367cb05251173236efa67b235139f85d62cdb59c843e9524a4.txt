@@ -1,0 +1,141 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>27
+<FILENAME>R17.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Subsequent Events<br></strong></div></th>
+<th class="th" colspan="1">3 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Jun. 30, 2026</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventLineItems', window );"><strong>Subsequent Event [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventsTextBlock', window );">Subsequent Events</a></td>
+<td class="text"> <div style="font-family: Times New Roman; font-size: 10pt; font-weight: bold; margin-top: 18pt; margin-bottom: 0pt;"><div style="font-family: &quot;Times New Roman&quot;; font-size: 10pt; letter-spacing: 0px; top: 0px;display:inline;">7. Subsequent Events </div></div> <div style="font-family: Times New Roman; font-size: 10pt; margin-top: 6pt; margin-bottom: 0pt;">Management has evaluated subsequent events, through the filing of this Quarterly Report on Form <div style="white-space: nowrap; letter-spacing: 0px; top: 0px;display:inline;">10-Q</div> and has determined that there are no subsequent events or transactions to disclose. </div> <div style="font-size: 8pt; margin-top: 0pt; margin-bottom: 0pt;"><div style="font-size: 8pt; letter-spacing: 0px; top: 0px;display:inline;">&#160;</div></div> <span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_dei_LegalEntityAxis=hvpd_HSECHoldingsLPMember', window );">HSEC Holdings L.P. [Member]</a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventLineItems', window );"><strong>Subsequent Event [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventsTextBlock', window );">Subsequent Events</a></td>
+<td class="text"><div style="font-family: Times New Roman; font-size: 10pt; font-weight: bold; margin-top: 18pt; margin-bottom: 0pt;"><div style="font-family: &quot;Times New Roman&quot;; font-size: 10pt; letter-spacing: 0px; top: 0px;display:inline;">10. Subsequent Events </div></div><div style="font-family: Times New Roman; font-size: 10pt; margin-top: 6pt; margin-bottom: 0pt;"><div style="font-family: &quot;Times New Roman&quot;; font-size: 10pt; letter-spacing: 0px; top: 0px;display:inline;">Management has evaluated all events subsequent to June&#160;30, 2026, through the date these financial statements were available to be issued. There were no events or transactions that occurred during this period that materially impacted the amounts or disclosures in these financial statements. </div></div><div style="font-size: 8pt; margin-top: 0pt; margin-bottom: 0pt;"><div style="font-size: 8pt; letter-spacing: 0px; top: 0px;display:inline;">&#160;</div></div><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SubsequentEventLineItems">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Detail information of subsequent event by type. User is expected to use existing line items from elsewhere in the taxonomy as the primary line items for this disclosure, which is further associated with dimension and member elements pertaining to a subsequent event.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 830<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481674/830-30-50-2<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 855<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483399/855-10-50-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SubsequentEventLineItems</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SubsequentEventsTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The entire disclosure for significant events or transactions that occurred after the balance sheet date through the date the financial statements were issued or the date the financial statements were available to be issued. Examples include: the sale of a capital stock issue, purchase of a business, settlement of litigation, catastrophic loss, significant foreign exchange rate changes, loans to insiders or affiliates, and transactions not in the ordinary course of business.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 855<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/855/tableOfContent<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 855<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483399/855-10-50-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SubsequentEventsTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_dei_LegalEntityAxis=hvpd_HSECHoldingsLPMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">dei_LegalEntityAxis=hvpd_HSECHoldingsLPMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

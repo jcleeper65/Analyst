@@ -1,0 +1,183 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>56
+<FILENAME>R49.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="1"><div style="width: 200px;"><strong>Share Issuances and Capital Contributions - Schedule Of Private Funds Capital Contributions (Details) - USD ($)<br></strong></div></th>
+<th class="th"><div>Jun. 30, 2026</div></th>
+<th class="th"><div>Mar. 11, 2025</div></th>
+<th class="th"><div>Feb. 04, 2025</div></th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_PartnersCapitalAbstract', window );"><strong>Partners' Capital [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_LimitedPartnersContributedCapital', window );">Limited Partner Contributions</a></td>
+<td class="nump">$ 82,109,765<span></span>
+</td>
+<td class="nump">$ 31,298,833<span></span>
+</td>
+<td class="nump">$ 50,810,932<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_GeneralPartnersContributedCapital', window );">General Partner Contributions</a></td>
+<td class="nump">500,000<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">500,000<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_PartnersCapital', window );">Partners' Capital, Total</a></td>
+<td class="nump">$ 82,609,765<span></span>
+</td>
+<td class="nump">$ 31,298,833<span></span>
+</td>
+<td class="nump">$ 51,310,932<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_GeneralPartnersContributedCapital">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The amount of capital contributed by the general partner.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 5<br> -Subparagraph (SAB Topic 4.F)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-5<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 8<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-8<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_GeneralPartnersContributedCapital</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LimitedPartnersContributedCapital">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The amount of capital contributed by the limited partners.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 5<br> -Subparagraph (SAB Topic 4.F)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-5<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 8<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-8<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LimitedPartnersContributedCapital</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_PartnersCapital">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The amount of ownership interest of different classes of partners in limited partnership.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 5<br> -Subparagraph (SAB Topic 4.F)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-5<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 8<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-8<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_PartnersCapital</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_PartnersCapitalAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_PartnersCapitalAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

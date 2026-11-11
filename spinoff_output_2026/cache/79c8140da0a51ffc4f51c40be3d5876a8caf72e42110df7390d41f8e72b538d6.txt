@@ -1,0 +1,790 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>40
+<FILENAME>R30.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.3</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Agreements and Related Party Transactions - Additional Information (Details)<br> $ in Thousands</strong></div></th>
+<th class="th" colspan="1">2 Months Ended</th>
+<th class="th" colspan="1">9 Months Ended</th>
+</tr>
+<tr>
+<th class="th">
+<div>Sep. 30, 2026 </div>
+<div>USD ($)</div>
+</th>
+<th class="th">
+<div>Sep. 30, 2026 </div>
+<div>USD ($)</div>
+</th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ManagementAndServiceFeesBaseRate', window );">Management and service fees base rate</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">1.25%<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002136418_PreincentiveFeeNetInvestmentIncomeHurdleRatePercentagePerQuarter', window );">Pre-Incentive fee net investment income hurdle rate percentage per quarter</a></td>
+<td class="nump">1.43%<span></span>
+</td>
+<td class="nump">1.43%<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002136418_ReimbursementOfExpensesByAdviser', window );">Reimbursement of Expenses by Adviser Percentage</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">1.00%<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyManagementFeeWaived', window );">Management fees waived (see note 3)</a></td>
+<td class="nump">$ 10<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002136418_PercentageOfCapitalGainsFeePayableOnCapitalGains', window );">Percentage of capital gains fee payable on capital gains</a></td>
+<td class="nump">12.50%<span></span>
+</td>
+<td class="nump">12.50%<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ManagementFeeExpense', window );">Management fees</a></td>
+<td class="nump">$ 10<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AdministrativeFeesExpense', window );">Administration Agreement</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 0<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionAxis=ck0002136418_CapitalGainsIncentiveFeeMember', window );">Capital Gains Incentive Fee</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyManagementFeeWaived', window );">Management fees waived (see note 3)</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">10<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ManagementFeeExpense', window );">Management fees</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">10<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_IncentiveFeeExpense', window );">Incentive fee expenses</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 0<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionAxis=ck0002136418_InvestmentIncomeIncentiveFeeMember', window );">Investment Income Incentive Fee</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_IncentiveFeeDescription', window );">Incentive Fee, Description</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">The first part (the &#8220;Investment Income Incentive Fee&#8221;) will be calculated and payable on a quarterly basis, in arrears, and will equal 12.5% of &#8220;pre-Incentive Fee net investment income&#8221; for the immediately preceding calendar quarter, subject to a quarterly preferred return of 1.25% (i.e., 5.0% annualized) (the &#8220;Hurdle Rate&#8221;) measured on a quarterly basis with a &#8220;catch-up&#8221; feature<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002136418_InvestmentIncomeIncentiveFeeCatchUpRate', window );">Catch-up Rate</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">100.00%<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002136418_InvestmentIncomeIncentiveFeeQuarterlyCatchUpThreshold', window );">Quarterly Catch-Up Threshold</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">1.43%<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002136418_InvestmentIncomeIncentiveFeeAnnualizedCatchUpThreshold', window );">Annualized Catch-Up Threshold</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">5.72%<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002136418_InvestmentAdvisoryContractIncentiveFeePercentage', window );">Pre-Incentive Fee net investment income</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">12.50%<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionAxis=ck0002136418_AdvisorMember', window );">Advisor [Member]</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RelatedPartyTransactionLineItems', window );"><strong>Related Party Transaction [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002136418_PercentagePreIncentivefeeNetInvestmentIncome', window );">Percentage pre incentive&#160;fee net investment income</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">12.50%<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002136418_RelatedPartyTransactionExpensesReimbursementConditionOperatingExpenseRatioCap', window );">Related Party Transaction Expenses Reimbursement Condition Operating Expense Ratio Cap</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">1.00%<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_OperatingExpenses', window );">Operating Expenses</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 554<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002136418_InvestmentAdvisoryContractIncentiveFeePercentage">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Advisory Contract Incentive Fee Percentage</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002136418_InvestmentAdvisoryContractIncentiveFeePercentage</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002136418_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002136418_InvestmentIncomeIncentiveFeeAnnualizedCatchUpThreshold">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Income Incentive Fee Annualized Catch-Up Threshold</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002136418_InvestmentIncomeIncentiveFeeAnnualizedCatchUpThreshold</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002136418_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002136418_InvestmentIncomeIncentiveFeeCatchUpRate">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Income Incentive Fee Catch-Up Rate</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002136418_InvestmentIncomeIncentiveFeeCatchUpRate</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002136418_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002136418_InvestmentIncomeIncentiveFeeQuarterlyCatchUpThreshold">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Income Incentive Fee Quarterly Catch-Up Threshold</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002136418_InvestmentIncomeIncentiveFeeQuarterlyCatchUpThreshold</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002136418_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002136418_PercentageOfCapitalGainsFeePayableOnCapitalGains">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage of capital gains fee payable on capital gains.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002136418_PercentageOfCapitalGainsFeePayableOnCapitalGains</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002136418_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002136418_PercentagePreIncentivefeeNetInvestmentIncome">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage pre incentive&#160;fee net investment income.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002136418_PercentagePreIncentivefeeNetInvestmentIncome</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002136418_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002136418_PreincentiveFeeNetInvestmentIncomeHurdleRatePercentagePerQuarter">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Pre incentive fee net investment income hurdle rate percentage per quarter.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002136418_PreincentiveFeeNetInvestmentIncomeHurdleRatePercentagePerQuarter</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002136418_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002136418_ReimbursementOfExpensesByAdviser">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Reimbursement Of Expenses By Adviser</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002136418_ReimbursementOfExpensesByAdviser</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002136418_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002136418_RelatedPartyTransactionExpensesReimbursementConditionOperatingExpenseRatioCap">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Related Party Transaction Expenses Reimbursement Condition Operating Expense Ratio Cap</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002136418_RelatedPartyTransactionExpensesReimbursementConditionOperatingExpenseRatioCap</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002136418_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AdministrativeFeesExpense">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of expense for administrative fee from service provided, including, but not limited to, salary, rent, or overhead cost.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -SubTopic 10<br> -Topic 850<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1<br><br>Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479105/946-220-45-3<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AdministrativeFeesExpense</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_IncentiveFeeDescription">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Description of the nature of the payments to managing member or general partner for incentive rights held including the fee rate, basis of calculation, relevant accounting period, whether the fee is paid to an entity other than the managing member or general partner, or if the fee is waived.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 850<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(c))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_IncentiveFeeDescription</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_IncentiveFeeExpense">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of expense for incentive fee based on performance under arrangement to manage operations, including, but not limited to, investment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -SubTopic 10<br> -Topic 850<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_IncentiveFeeExpense</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanyManagementFeeWaived">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of management fee waived for investment company.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480990/946-20-50-7<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanyManagementFeeWaived</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ManagementAndServiceFeesBaseRate">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Base rate for management and service fees under arrangement to manage operations, including, but not limited to, investment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(c))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ManagementAndServiceFeesBaseRate</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ManagementFeeExpense">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of expense for investment management fee, including, but not limited to, expense in connection with research, selection, supervision, and custody of investment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-10<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479105/946-220-45-3<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br><br>Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -SubTopic 10<br> -Topic 850<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ManagementFeeExpense</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_OperatingExpenses">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Generally recurring costs associated with normal operations except for the portion of these expenses which can be clearly related to production and included in cost of sales or services. Includes selling, general and administrative expense.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 205<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483499/205-20-50-7<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 323<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3<br><br>Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 205<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5A<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5A<br><br>Reference 4: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 220<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147476153/220-40-55-4<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_OperatingExpenses</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RelatedPartyTransactionLineItems">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(7)(e)(1)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(g)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(16))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(15)(4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(15)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 970<br> -SubTopic 810<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477383/970-810-45-1<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 850<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 850<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1<br><br>Reference 11: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 850<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483326/850-10-50-3<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(k)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(k)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 310<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 13<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481990/310-10-45-13<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(c)(2)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(2)(c)(2)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RelatedPartyTransactionLineItems</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RelatedPartyTransactionAxis=ck0002136418_CapitalGainsIncentiveFeeMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RelatedPartyTransactionAxis=ck0002136418_CapitalGainsIncentiveFeeMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RelatedPartyTransactionAxis=ck0002136418_InvestmentIncomeIncentiveFeeMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RelatedPartyTransactionAxis=ck0002136418_InvestmentIncomeIncentiveFeeMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RelatedPartyTransactionAxis=ck0002136418_AdvisorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RelatedPartyTransactionAxis=ck0002136418_AdvisorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

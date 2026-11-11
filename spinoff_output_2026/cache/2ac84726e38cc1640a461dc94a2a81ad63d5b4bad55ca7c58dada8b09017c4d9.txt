@@ -1,0 +1,175 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>48
+<FILENAME>R37.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="1"><div style="width: 200px;"><strong>Note 1 - Summary of Significant Accounting Policies - Other Assets (Details) - USD ($)<br></strong></div></th>
+<th class="th"><div>Jun. 30, 2026</div></th>
+<th class="th"><div>Dec. 31, 2025</div></th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SecurityDeposit', window );">Security deposit</a></td>
+<td class="nump">$ 41,097<span></span>
+</td>
+<td class="nump">$ 60,488<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquityMethodInvestments', window );">Equity investment</a></td>
+<td class="nump">69,560<span></span>
+</td>
+<td class="nump">69,560<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DerivativeAssetsNoncurrent', window );">Derivative asset</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">56,243<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_OtherAssetsNoncurrent', window );">Other Assets, Noncurrent</a></td>
+<td class="nump">$ 110,657<span></span>
+</td>
+<td class="nump">$ 186,291<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DerivativeAssetsNoncurrent">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Fair value, after the effects of master netting arrangements, of a financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset, expected to be settled after one year or the normal operating cycle, if longer. Includes assets not subject to a master netting arrangement and not elected to be offset.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 210<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483444/210-20-55-10<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DerivativeAssetsNoncurrent</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquityMethodInvestments">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>This item represents the carrying amount on the entity's balance sheet of its investment in common stock of an equity method investee. This is not an indicator of the fair value of the investment, rather it is the initial cost adjusted for the entity's share of earnings and losses of the investee, adjusted for any distributions (dividends) and other than temporary impairment (OTTI) losses recognized.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 32<br> -Subparagraph (ee)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 25<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-25<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 270<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (i)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 323<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481664/323-10-45-1<br><br>Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 323<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (a)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3<br><br>Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(10))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquityMethodInvestments</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_OtherAssetsNoncurrent">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of noncurrent assets classified as other.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(17))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 7<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-7<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_OtherAssetsNoncurrent</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SecurityDeposit">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The amount of an asset, typically cash, provided to a counterparty to provide certain assurance of performance by the entity pursuant to the terms of a written or oral agreement, such as a lease.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(17))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 7<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-7<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SecurityDeposit</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

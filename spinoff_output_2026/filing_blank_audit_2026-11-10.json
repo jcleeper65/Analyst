@@ -1,0 +1,1871 @@
+{
+  "review_time": "2026-11-10T22:01:23.936410-05:00",
+  "source_snapshot": "/Users/jacksonleeper/Documents/Purdue_MSBAIM/Mod 2/AI for Finance/Repos/Analyst/spinoff_output_2026/Spinoffs, 2026-11-10, 20-55-38.823149, start 2026-01-01.json",
+  "mode": "offline; cached filings only; no SEC or closes-reader requests",
+  "weights": {
+    "window_days": 365,
+    "early_return_days": 20,
+    "factors": [
+      {
+        "name": "insider_ownership_pct",
+        "configured_name": "insider_ownership",
+        "weight": 0.25,
+        "direction": "higher"
+      },
+      {
+        "name": "size_relative_to_parent",
+        "configured_name": "relative_size",
+        "weight": 0.2,
+        "direction": "lower"
+      },
+      {
+        "name": "insider_buying",
+        "configured_name": "insider_buying",
+        "weight": 0.15,
+        "direction": "higher"
+      },
+      {
+        "name": "early_price_performance",
+        "configured_name": "early_return",
+        "weight": 0.125,
+        "direction": "lower"
+      },
+      {
+        "name": "debt_to_assets",
+        "configured_name": "debt_to_assets",
+        "weight": 0.125,
+        "direction": "lower"
+      },
+      {
+        "name": "absolute_market_cap",
+        "configured_name": "market_cap",
+        "weight": 0.1,
+        "direction": "lower"
+      },
+      {
+        "name": "analyst_recommendations",
+        "configured_name": "analyst_count",
+        "weight": 0.025,
+        "direction": "lower"
+      },
+      {
+        "name": "unwanted_selling_pressure",
+        "configured_name": "unwanted_selling",
+        "weight": 0.025,
+        "direction": "higher"
+      }
+    ],
+    "early_performance_trading_days": 20,
+    "limitations": []
+  },
+  "candidates": [
+    {
+      "cik": "2104052",
+      "name": "Enviri Corp",
+      "fields": [
+        {
+          "field": "parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R7.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": " purchasing the interests of noncontrolling shareholders, issuance of shares (interests) by the non-wholly owned subsidiary to the parent entity for other than cash, and a buyback of shares (interest) by the non-wholly owned subsidiary from the noncontrolling interests). + ReferencesReference 1: http://www.xbrl.org/2009/role/commonPracticeRef -Topic 505 -SubTopic 10 -Name Accounting Standards Codification -Section S99 -Paragraph 1 -Subparagraph (SX "
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R7.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": " purchasing the interests of noncontrolling shareholders, issuance of shares (interests) by the non-wholly owned subsidiary to the parent entity for other than cash, and a buyback of shares (interest) by the non-wholly owned subsidiary from the noncontrolling interests)."
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "parent_cik",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R1.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": "Entity Central Index Key 0002104052"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "distribution_ratio",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R9.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": "ompletion of the Transactions resulted in the exchange of one share of CE Holdings common stock for one share of Legacy Enviri common stock, and subsequently one share of Enviri common stock for every three shares of CE Holdings common stock. As such, the weighted-average shares outstanding and all earnings per share data for periods prior to the Transactions have been retrospectively adjusted to reflect the impact of the Transactions on the Company's capital structureReclassificationsReclassifications have been made to prio"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R9.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": "ompletion of the Transactions resulted in the exchange of one share of CE Holdings common stock for one share of Legacy Enviri common stock, and subsequently one share of Enviri common stock for every three shares of CE Holdings common stock. As such, the weighted-average shares outstanding and all earnings per share data for periods prior to the Transactions have been retrospectively adjusted to reflect the impact of the Transactions on the Company's capital structure"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "record_date",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000119312526251752/d258410dex33.htm",
+              "form": "8-K",
+              "filed": "2026-06-01",
+              "section": "Filing text",
+              "quote": "Any such notice shall be updated and supplemented not later than the five business days after the record date for the applicable meting to disclose the information referred to in clause (b) as of the record date."
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000119312526251752/d258410dex33.htm",
+              "form": "8-K",
+              "filed": "2026-06-01",
+              "section": "Filing text",
+              "quote": "fficer”) or (b) the Secretary at the written request of the stockholders of record as of the Demand Record Date (as defined below) of not less than 25% (the “Requisite Percentage”) of the outstanding shares of common stock of the Corporation entitled to vote at the meeting (the “Requesting Group”) pursuant to the procedures set forth below, and may be held at such place within or without the State of Delaware and on such date and at such"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "insider_ownership_pct",
+          "original": "blank",
+          "recovered": {
+            "value": 1.4,
+            "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000013/exhibit991-form10x12ba3.htm",
+            "accession": "0002104052-26-000013",
+            "form": "10-12B/A",
+            "filed": "2026-05-06",
+            "section": "Filing table",
+            "quote": "All directors and executive officers as a group (13 persons) |  | 409,412 |  | 1.4 | %",
+            "source": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000013/exhibit991-form10x12ba3.htm; Filing table; quote All directors and executive officers as a group (13 persons) |  | 409,412 |  | 1.4 | %"
+          },
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000013/exhibit991-form10x12ba3.htm",
+              "form": "10-12B/A",
+              "filed": "2026-05-06",
+              "section": "Filing text",
+              "quote": "All directors and executive officers as a group (13 persons)409,4121.4 %"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000013/exhibit991-form10x12ba3.htm",
+              "form": "10-12B/A",
+              "filed": "2026-05-06",
+              "section": "Filing text",
+              "quote": "All directors and executive officers as a group (13 persons)"
+            }
+          ],
+          "status": "Recovered by tested parser fix; exact sourced value"
+        },
+        {
+          "field": "size_relative_to_parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R9.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": "viri common stock for every three shares of CE Holdings common stock. As such, the weighted-average shares outstanding and all earnings per share data for periods prior to the Transactions have been retrospectively adjusted to reflect the impact of the Transactions on the Company's capital structureReclassificationsReclassifications have been made to prior year amounts to conform with current year classifications. These reclassifications did no"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R9.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": "viri common stock for every three shares of CE Holdings common stock. As such, the weighted-average shares outstanding and all earnings per share data for periods prior to the Transactions have been retrospectively adjusted to reflect the impact of the Transactions on the Company's capital structure"
+            }
+          ],
+          "status": "No usable shares outstanding on the selected first-close date; other dated/estimated/weighted-average counts are not substitutes",
+          "first_close_date": "2026-06-02"
+        },
+        {
+          "field": "insider_buying",
+          "original": "blank",
+          "recovered": {
+            "value": 6,
+            "transactions": [
+              {
+                "value": 1,
+                "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000134/wk-form4_1787141470.xml",
+                "accession": "0002104052-26-000134",
+                "form": "4",
+                "filed": "2026-08-19",
+                "section": "Form 4 — reported transactions",
+                "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-18</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>2439</value>\n</transactionshares>\n<transactionpricepershare>\n<value>20.43</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>96998</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+                "transaction_date": "2026-08-18",
+                "code": "P"
+              },
+              {
+                "value": 1,
+                "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000134/wk-form4_1787141470.xml",
+                "accession": "0002104052-26-000134",
+                "form": "4",
+                "filed": "2026-08-19",
+                "section": "Form 4 — reported transactions",
+                "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-18</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>507</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.50</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>97505</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+                "transaction_date": "2026-08-18",
+                "code": "P"
+              },
+              {
+                "value": 1,
+                "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000132/wk-form4_1787086511.xml",
+                "accession": "0002104052-26-000132",
+                "form": "4",
+                "filed": "2026-08-18",
+                "section": "Form 4 — reported transactions",
+                "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-17</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>4875</value>\n</transactionshares>\n<transactionpricepershare>\n<value>20.461</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>42955</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+                "transaction_date": "2026-08-17",
+                "code": "P"
+              },
+              {
+                "value": 1,
+                "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000079/wk-form4_1780951526.xml",
+                "accession": "0002104052-26-000079",
+                "form": "4",
+                "filed": "2026-06-08",
+                "section": "Form 4 — reported transactions",
+                "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-05</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>8333</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.25</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>16434</value>\n<footnoteid id=\"F1\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+                "transaction_date": "2026-06-05",
+                "code": "P"
+              },
+              {
+                "value": 1,
+                "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000072/wk-form4_1780579698.xml",
+                "accession": "0002104052-26-000072",
+                "form": "4",
+                "filed": "2026-06-04",
+                "section": "Form 4 — reported transactions",
+                "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-03</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>14000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>18.10</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>47975</value>\n<footnoteid id=\"F2\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+                "transaction_date": "2026-06-03",
+                "code": "P"
+              },
+              {
+                "value": 1,
+                "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000071/wk-form4_1780579687.xml",
+                "accession": "0002104052-26-000071",
+                "form": "4",
+                "filed": "2026-06-04",
+                "section": "Form 4 — reported transactions",
+                "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-03</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>51519</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.43</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>144510</value>\n<footnoteid id=\"F2\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+                "transaction_date": "2026-06-03",
+                "code": "P"
+              }
+            ],
+            "source": "computed count of disclosed Form 4 code P transactions from 2026-06-01 through 2026-11-10; complete scanned issuer filing list https://data.sec.gov/submissions/CIK0002104052.json; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000134/wk-form4_1787141470.xml transaction date 2026-08-18 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-18</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>2439</value>\n</transactionshares>\n<transactionpricepershare>\n<value>20.43</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>96998</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000134/wk-form4_1787141470.xml transaction date 2026-08-18 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-18</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>507</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.50</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>97505</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000132/wk-form4_1787086511.xml transaction date 2026-08-17 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-17</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>4875</value>\n</transactionshares>\n<transactionpricepershare>\n<value>20.461</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>42955</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000079/wk-form4_1780951526.xml transaction date 2026-06-05 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-05</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>8333</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.25</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>16434</value>\n<footnoteid id=\"F1\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000072/wk-form4_1780579698.xml transaction date 2026-06-03 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-03</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>14000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>18.10</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>47975</value>\n<footnoteid id=\"F2\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000071/wk-form4_1780579687.xml transaction date 2026-06-03 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-03</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>51519</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.43</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>144510</value>\n<footnoteid id=\"F2\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+            "coverage": "Observed filings only; late disclosures can change the count. Code P includes open-market or private purchases."
+          },
+          "evidence": [],
+          "coverage": {
+            "filings": 19,
+            "amendments": 0,
+            "complete_cached_xml": true
+          },
+          "status": "Recovered by tested parser fix; exact sourced value"
+        },
+        {
+          "field": "debt_to_assets",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R9.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": "certain costs related to the Transactions, interest expense related to the portion of the Company's total debt that was required to be repaid on June 1, 2026 and fees related to the Company's AR Facility that was required to be terminated at the closing of the Transactions, are also allocated to Income (loss) from discontinued operations, net of tax. CE's assets and liabilities have been reclassified as held-for-sale in the Company's Co"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R78.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": "Total assets 1,731,041 1,731,041 $ 2,742,789"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "absolute_market_cap",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R9.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": "viri common stock for every three shares of CE Holdings common stock. As such, the weighted-average shares outstanding and all earnings per share data for periods prior to the Transactions have been retrospectively adjusted to reflect the impact of the Transactions on the Company's capital structureReclassificationsReclassifications have been made to prior year amounts to conform with current year classifications. These reclassifications did no"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/R9.htm",
+              "form": "10-Q",
+              "filed": "2026-11-05",
+              "section": "Filing text",
+              "quote": "viri common stock for every three shares of CE Holdings common stock. As such, the weighted-average shares outstanding and all earnings per share data for periods prior to the Transactions have been retrospectively adjusted to reflect the impact of the Transactions on the Company's capital structure"
+            }
+          ],
+          "status": "No usable shares outstanding on the selected first-close date; other dated/estimated/weighted-average counts are not substitutes",
+          "first_close_date": "2026-06-02"
+        },
+        {
+          "field": "analyst_recommendations",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        },
+        {
+          "field": "unwanted_selling_pressure",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000055/exhibit991informationstate.htm",
+              "form": "8-K",
+              "filed": "2026-05-11",
+              "section": "Filing text",
+              "quote": " Distribution that may be adverse to New Enviri. New Enviri’s shares of common stock may come under selling pressure as certain Enviri stockholders sell their New Enviri shares because they are not interested in holding an investment in the New Enviri Business. Moreover, certain factors such as the size and expected market value of New Enviri may limit investors’ ability to appropriately value New Enviri’s shares of common stock. In addition,"
+            }
+          ],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        }
+      ],
+      "date_warnings": [],
+      "cache_errors": [
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration."
+      ]
+    },
+    {
+      "cik": "2091349",
+      "name": "First Tracks Biotherapeutics, Inc.",
+      "fields": [
+        {
+          "field": "parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R49.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "[1] As part of the Spin-Off, 1,109,394 substitute awards were issued related to awards from the AnaptysBio Equity Plan."
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R48.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "[1] As part of the Spin-Off, 1,109,394 substitute awards were issued related to awards from the AnaptysBio Equity Plan. [2] As part of the Spin-Off, 1,514,446 substitute awards were issued related to awards from the AnaptysBio Equity Plan."
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "parent_cik",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R1.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "Entity Central Index Key 0002091349"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "record_date",
+          "original": "blank",
+          "recovered": {
+            "value": "2026-04-06",
+            "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526164328/d78703dex991.htm",
+            "accession": "0001193125-26-164328",
+            "form": "8-K",
+            "filed": "2026-04-20",
+            "section": "Filing text",
+            "quote": "The spin-off was completed today following the distribution to AnaptysBio, Inc. shareholders of one share of First Tracks Bio common stock for every one share of Anaptys common stock owned as of the close of business on April 6, 2026, the record date for the distribution."
+          },
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R10.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "rapeutics’ common stock for every one share of AnaptysBio’s common stock held on April 6, 2026, the record date for the distribution. On April 20, 2026, First Tracks Biotherapeutics’ shares of common stock began trading on the Nasdaq Stock Market LLC under the ticker symbol “TRAX.”On the Distribution Date, AnaptysBio distributed 29,100,902 shares of First Tracks Biotherapeutics common stock to its stockholders and the Company completed t"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R10.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "rapeutics’ common stock for every one share of AnaptysBio’s common stock held on April 6, 2026, the record date for the distribution. On April 20, 2026, First Tracks Biotherapeutics’ shares of common stock began trading on the Nasdaq Stock Market LLC under the ticker symbol “TRAX.”"
+            }
+          ],
+          "status": "Established by the exact record-date wording in the cited release"
+        },
+        {
+          "field": "insider_ownership_pct",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "No matching evidence in the cached documents reviewed; not proof of absence"
+        },
+        {
+          "field": "size_relative_to_parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R59.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "irm's shareholders and owners, and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury. + ReferencesReference 1: http://www.xbrl.org/2003/role/disclosureRef -Topic 505 -SubTopic 10 -Name Accounting Standards Codification -Section S45 -Paragraph 3 -Publisher FASB -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3Reference 2: http://www.xbrl.org/2003/role/disclosureRef -Topic "
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R59.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "irm's shareholders and owners, and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury."
+            }
+          ],
+          "status": "Old distribution date was invalid; recomputation with the corrected date is required",
+          "first_close_date": "2026-04-07"
+        },
+        {
+          "field": "insider_buying",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000118462726000006/0001184627-26-000006-index.html",
+              "form": "4/A",
+              "filed": "2026-06-12",
+              "section": "Ownership filing coverage",
+              "quote": "Form 4 amendment requires transaction matching; the current engine leaves the count blank."
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000170779726000009/0001707797-26-000009-index.html",
+              "form": "4/A",
+              "filed": "2026-06-12",
+              "section": "Ownership filing coverage",
+              "quote": "Form 4 amendment requires transaction matching; the current engine leaves the count blank."
+            }
+          ],
+          "coverage": {
+            "filings": 45,
+            "amendments": 6,
+            "complete_cached_xml": true
+          },
+          "status": "Old distribution date was invalid; recomputation with the corrected date is required"
+        },
+        {
+          "field": "debt_to_assets",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R2.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "Total assets 170,456 330,545"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R19.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "loss is used to monitor results. The measure of segment assets is reported on our Balance Sheets as total assets.The chief operating decision maker (“CODM”) is our Chief Executive Officer. The CODM manages the business activities on a combined basis in making decisions regarding resource allocation and performance assessment.The following table is a summary of segment loss and our significant expenses (in thousands): Three Months EndedSep"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "absolute_market_cap",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R59.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "irm's shareholders and owners, and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury. + ReferencesReference 1: http://www.xbrl.org/2003/role/disclosureRef -Topic 505 -SubTopic 10 -Name Accounting Standards Codification -Section S45 -Paragraph 3 -Publisher FASB -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3Reference 2: http://www.xbrl.org/2003/role/disclosureRef -Topic "
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526445430/R59.htm",
+              "form": "10-Q",
+              "filed": "2026-11-03",
+              "section": "Filing text",
+              "quote": "irm's shareholders and owners, and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury."
+            }
+          ],
+          "status": "Old distribution date was invalid; recomputation with the corrected date is required",
+          "first_close_date": "2026-04-07"
+        },
+        {
+          "field": "analyst_recommendations",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        },
+        {
+          "field": "unwanted_selling_pressure",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        }
+      ],
+      "date_warnings": [
+        {
+          "status": "The stored date is a record date in a today-completion announcement. Resolve the release dateline before using the price or return. Reviewed distribution date: 2026-04-20. Prices and date-dependent factors from the old date were removed.",
+          "evidence": {
+            "value": "2026-04-06",
+            "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526164328/d78703dex991.htm",
+            "accession": "0001193125-26-164328",
+            "form": "8-K",
+            "filed": "2026-04-20",
+            "section": "Therapies for Autoimmune Diseases",
+            "quote": "The spin-off was completed today following the distribution to AnaptysBio, Inc. shareholders of one share of First Tracks Bio common stock for every one share of Anaptys common stock owned as of the close of business on April 6, 2026, the record date for the distribution."
+          },
+          "corrected_distribution_date": {
+            "value": "2026-04-20",
+            "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526164328/d78703dex991.htm",
+            "accession": "0001193125-26-164328",
+            "form": "8-K",
+            "filed": "2026-04-20",
+            "section": "Release dateline and completion statement",
+            "quote": "— April 20, 2026 — First Tracks Biotherapeutics, Inc. (Nasdaq: TRAX) today announced its launch as an independent, publicly traded clinical-stage biotechnology company advancing antibody therapeutics that modulate immune pathways implicated in autoimmune and inflammatory diseases. First Tracks Bio will trade on the Nasdaq Global Select Market, commencing today, under the ticker symbol “TRAX.”\nFiling text\n“Today marks the official launch of First Tracks Bio and the start of a bold new chapter focused on developing antibodies for autoimmune diseases, including our lead operating program, ANB033, in development to treat celiac disease and eosinophilic esophagitis,” said Daniel Faga, president and chief executive officer. “We’re energized by the patients, physicians, employees and investors who share and are committed to our vision as we advance therapies built to deliver meaningful impact and long-term value.”\nFiling text\nFirst Tracks Bio’s initial three development-stage assets will include ANB033, a CD122 antagonist, in a Phase 1b trial for celiac disease and eosinophilic esophagitis; rosnilimab, a pathogenic T cell depleter, which has completed a Phase 2b trial for rheumatoid arthritis; and ANB101, a BDCA2 modulator, in a Phase 1a trial.\nFiling text\nThe spin-off was completed today following the distribution to AnaptysBio, Inc. shareholders of one share of First Tracks Bio common stock for every one share of Anaptys common stock owned as of the close of business on April 6, 2026, the record date for the distribution."
+          },
+          "corrected_record_date": {
+            "value": "2026-04-06",
+            "filing": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526164328/d78703dex991.htm",
+            "accession": "0001193125-26-164328",
+            "form": "8-K",
+            "filed": "2026-04-20",
+            "section": "Filing text",
+            "quote": "The spin-off was completed today following the distribution to AnaptysBio, Inc. shareholders of one share of First Tracks Bio common stock for every one share of Anaptys common stock owned as of the close of business on April 6, 2026, the record date for the distribution."
+          }
+        }
+      ],
+      "cache_errors": [
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration."
+      ]
+    },
+    {
+      "cik": "2083632",
+      "name": "Octave Intelligence plc",
+      "fields": [
+        {
+          "field": "parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026055943/R8.htm",
+              "form": "10-Q",
+              "filed": "2026-08-12",
+              "section": "Filing text",
+              "quote": "gon AB (\"Hexagon\") announced that its board of directors had directed management to prepare for the spin-off of the Octave business into an independent, publicly-traded company through a tax-free, from both a U.S. federal income and Swedish tax perspective, pro rata distribution of all the outstanding share capital of Octave to Hexagon shareholders via a Lex-ASEA distribution. Prior to the Distribution (as defined below), the Company was wholly owned by Hexagon.On April 24, 2026, the general meeting of shareholders of Hexagon"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026055943/R8.htm",
+              "form": "10-Q",
+              "filed": "2026-08-12",
+              "section": "Filing text",
+              "quote": "gon AB (\"Hexagon\") announced that its board of directors had directed management to prepare for the spin-off of the Octave business into an independent, publicly-traded company through a tax-free, from both a U.S. federal income and Swedish tax perspective, pro rata distribution of all the outstanding share capital of Octave to Hexagon shareholders via a Lex-ASEA distribution. Prior to the Distribution (as defined below), the Company was wholly owned by Hexagon."
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "parent_cik",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026055943/R1.htm",
+              "form": "10-Q",
+              "filed": "2026-08-12",
+              "section": "Filing text",
+              "quote": "Central Index Key 0002083632"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026055939/R1.htm",
+              "form": "8-K",
+              "filed": "2026-08-12",
+              "section": "Filing text",
+              "quote": "Entity Central Index Key 0002083632"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "distribution_ratio",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "No matching evidence in the cached documents reviewed; not proof of absence"
+        },
+        {
+          "field": "insider_ownership_pct",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026027570/exhibit991-form10x12ba3.htm",
+              "form": "10-12B/A",
+              "filed": "2026-04-27",
+              "section": "Filing text",
+              "quote": "All directors, named executive officers and executive officers as a group 54,021 (*)(*)"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026027570/exhibit991-form10x12ba3.htm",
+              "form": "10-12B/A",
+              "filed": "2026-04-27",
+              "section": "Filing text",
+              "quote": "All directors, named executive officers and executive officers as a group"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "size_relative_to_parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026055943/R61.htm",
+              "form": "10-Q",
+              "filed": "2026-08-12",
+              "section": "Filing text",
+              "quote": "Weighted average ordinary shares outstanding - basic (in shares) 268,438 268,438 268,438 268,438"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026055943/R61.htm",
+              "form": "10-Q",
+              "filed": "2026-08-12",
+              "section": "Filing text",
+              "quote": "Weighted average ordinary shares outstanding - diluted (in shares) 268,438 268,438 268,438 268,438"
+            }
+          ],
+          "status": "No usable shares outstanding on the selected first-close date; other dated/estimated/weighted-average counts are not substitutes",
+          "first_close_date": "2026-05-26"
+        },
+        {
+          "field": "debt_to_assets",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026055943/R2.htm",
+              "form": "10-Q",
+              "filed": "2026-08-12",
+              "section": "Filing text",
+              "quote": "Total assets 6,689,750 8,696,251"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026055939/exhibit991q2fy26.htm",
+              "form": "8-K",
+              "filed": "2026-08-12",
+              "section": "Filing text",
+              "quote": "At June 30, 2026, total cash and cash equivalents was $304 million and total debt was $644 million."
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "absolute_market_cap",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026055943/R61.htm",
+              "form": "10-Q",
+              "filed": "2026-08-12",
+              "section": "Filing text",
+              "quote": "Weighted average ordinary shares outstanding - basic (in shares) 268,438 268,438 268,438 268,438"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026055943/R61.htm",
+              "form": "10-Q",
+              "filed": "2026-08-12",
+              "section": "Filing text",
+              "quote": "Weighted average ordinary shares outstanding - diluted (in shares) 268,438 268,438 268,438 268,438"
+            }
+          ],
+          "status": "No usable shares outstanding on the selected first-close date; other dated/estimated/weighted-average counts are not substitutes",
+          "first_close_date": "2026-05-26"
+        },
+        {
+          "field": "analyst_recommendations",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026033950/exhibit991-informationstat.htm",
+              "form": "8-K",
+              "filed": "2026-05-12",
+              "section": "Filing text",
+              "quote": "n turn could cause our share price or trading volume to decline. Even if we do have equity research analyst coverage, we will not have any control over the analysts or the content and opinions included in their reports. Furthermore, if one or more of the analysts who do cover us downgrade Octave Class B Ordinary Shares or our industry, or the shares of any of our competitors, or publish inaccurate or unfavorable research about our business, t"
+            }
+          ],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        },
+        {
+          "field": "unwanted_selling_pressure",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026033950/exhibit991-informationstat.htm",
+              "form": "8-K",
+              "filed": "2026-05-12",
+              "section": "Filing text",
+              "quote": "e effect on Hexagon as a result of the Distribution. Hexagon’s capital stock may come under initial selling pressure as certain Hexagon shareholders sell their shares because they may have differing interests in or investment mandates with respect to holding an investment in Hexagon’s remaining business. In addition, the Distribution would separate from Hexagon the business and assets of Octave, which represent significant value, and the rela"
+            }
+          ],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        }
+      ],
+      "date_warnings": [],
+      "cache_errors": [
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration."
+      ]
+    },
+    {
+      "cik": "2093101",
+      "name": "Atrium Therapeutics, Inc.",
+      "fields": [
+        {
+          "field": "parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526442601/d70523dex992.htm",
+              "form": "8-K",
+              "filed": "2026-11-02",
+              "section": "Filing text",
+              "quote": "ments with BMS and LLY, respectively, assigned to the Company in connection with the Separation and Distribution from Avidity"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526417402/d25901dex41.htm",
+              "form": "8-K",
+              "filed": "2026-10-08",
+              "section": "Filing text",
+              "quote": " or after the Original Issue Date, the Company shall declare or make any dividend or other pro rata distribution of its assets (or rights to acquire its assets) to holders of shares of Common Stock, by way of return of capital or otherwise (including, without limitation, any distribution of cash, stock or other securities, property, options, evidence of indebtedness or any other assets by way of a dividend, spin off, reclassification, corporate rearrangement, scheme of arrangement or other similar transaction, but, for the av"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "parent_cik",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526442601/R1.htm",
+              "form": "8-K",
+              "filed": "2026-11-02",
+              "section": "Filing text",
+              "quote": "Entity Central Index Key 0002093101"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "record_date",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526417402/d25901dex41.htm",
+              "form": "8-K",
+              "filed": "2026-10-08",
+              "section": "Filing text",
+              "quote": "justment made pursuant to clause (i) of this paragraph shall become effective immediately after the record date for the determination of stockholders entitled to receive such dividend or distribution, provided, however, that if such record date shall have been fixed and such dividend is not fully paid on the date fixed therefor, the Number of Warrant Shares shall be recomputed accordingly as of the close of business on such record date a"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526349488/R39.htm",
+              "form": "10-Q",
+              "filed": "2026-08-13",
+              "section": "Filing text",
+              "quote": "off distribution ratio, description the Separation, holders of Former Parent Equity Award as of the Record Date received a non-transferable Make Whole Award pursuant to the 2026 Plan with respect to an aggregate of 1,590,677 shares of Company common stock. The Make Whole Awards were granted at a ratio of 1 share of Company common stock per 10 shares of Former Parent Common Stock underlying Former Parent Equity Award."
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "insider_ownership_pct",
+          "original": "blank",
+          "recovered": {
+            "value": 3.1,
+            "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526055010/d42675dex991.htm",
+            "accession": "0001193125-26-055010",
+            "form": "10-12B/A",
+            "filed": "2026-02-17",
+            "section": "Filing table",
+            "quote": "All directors and executive officers as a group (11 persons) |  |  | 478,858 |  |  |  | 3.1 | %",
+            "source": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526055010/d42675dex991.htm; Filing table; quote All directors and executive officers as a group (11 persons) |  |  | 478,858 |  |  |  | 3.1 | %"
+          },
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526055010/d42675dex991.htm",
+              "form": "10-12B/A",
+              "filed": "2026-02-17",
+              "section": "Table of Contents",
+              "quote": "All directors and executive officers as a group (11 persons) 478,858 3.1 %"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526055010/d42675dex991.htm",
+              "form": "10-12B/A",
+              "filed": "2026-02-17",
+              "section": "Table of Contents",
+              "quote": "All directors and executive officers as a group (11 persons)"
+            }
+          ],
+          "status": "Recovered by tested parser fix; exact sourced value"
+        },
+        {
+          "field": "size_relative_to_parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526417402/d25901dex41.htm",
+              "form": "8-K",
+              "filed": "2026-10-08",
+              "section": "Filing text",
+              "quote": "ccordance with the terms of such stock on the Original Issue Date or as amended, that is payable in shares of Common Stock, (ii) subdivides its outstanding shares of Common Stock into a larger number of shares of Common Stock, (iii) combines its outstanding shares of Common Stock into a smaller number of shares of Common Stock or (iv) issues by reclassification of shares of capital stock any additional shares of Common Stock of the Company, then in each such case the Number of War"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526417402/d25901dex41.htm",
+              "form": "8-K",
+              "filed": "2026-10-08",
+              "section": "Filing text",
+              "quote": " or (3) any other notice by the Company or the Company’s transfer agent setting forth the number of shares of Common Stock outstanding (such issued and outstanding shares, the “Reported Outstanding Share Number”). For any reason at any time, upon the written or oral request of the Holder, the Company shall within one business day confirm orally and in writing or by electronic mail to the Holder the number of shares of Common Stock then outstanding. The Holder "
+            }
+          ],
+          "status": "No usable shares outstanding on the selected first-close date; other dated/estimated/weighted-average counts are not substitutes",
+          "first_close_date": "2026-02-27"
+        },
+        {
+          "field": "insider_buying",
+          "original": "blank",
+          "recovered": {
+            "value": 0,
+            "transactions": [],
+            "source": "computed count of disclosed Form 4 code P transactions from 2026-02-26 through 2026-11-10; complete scanned issuer filing list https://data.sec.gov/submissions/CIK0002093101.json; ",
+            "coverage": "Observed filings only; late disclosures can change the count. Code P includes open-market or private purchases."
+          },
+          "evidence": [],
+          "coverage": {
+            "filings": 19,
+            "amendments": 0,
+            "complete_cached_xml": true
+          },
+          "status": "Recovered by tested parser fix; exact sourced value"
+        },
+        {
+          "field": "debt_to_assets",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526417402/d25901dex101.htm",
+              "form": "8-K",
+              "filed": "2026-10-08",
+              "section": "Filing text",
+              "quote": "t fair saleable value of such Person’s assets is less than the amount required to pay such Person’s total indebtedness or (ii) such Person is unable to pay its debts and liabilities, subordinated, contingent or otherwise, as such debts and liabilities become absolute and matured."
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526349488/R44.htm",
+              "form": "10-Q",
+              "filed": "2026-08-13",
+              "section": "Filing text",
+              "quote": "he Company’s forecast. The measure of segment assets is reported on the condensed balance sheets as total assets. Research and development expenses and general and administrative expenses are adjusted to exclude depreciation and stock-based compensation for segment presentation."
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "absolute_market_cap",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526417402/d25901dex41.htm",
+              "form": "8-K",
+              "filed": "2026-10-08",
+              "section": "Filing text",
+              "quote": "ccordance with the terms of such stock on the Original Issue Date or as amended, that is payable in shares of Common Stock, (ii) subdivides its outstanding shares of Common Stock into a larger number of shares of Common Stock, (iii) combines its outstanding shares of Common Stock into a smaller number of shares of Common Stock or (iv) issues by reclassification of shares of capital stock any additional shares of Common Stock of the Company, then in each such case the Number of War"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526417402/d25901dex41.htm",
+              "form": "8-K",
+              "filed": "2026-10-08",
+              "section": "Filing text",
+              "quote": " or (3) any other notice by the Company or the Company’s transfer agent setting forth the number of shares of Common Stock outstanding (such issued and outstanding shares, the “Reported Outstanding Share Number”). For any reason at any time, upon the written or oral request of the Holder, the Company shall within one business day confirm orally and in writing or by electronic mail to the Holder the number of shares of Common Stock then outstanding. The Holder "
+            }
+          ],
+          "status": "No usable shares outstanding on the selected first-close date; other dated/estimated/weighted-average counts are not substitutes",
+          "first_close_date": "2026-02-27"
+        },
+        {
+          "field": "analyst_recommendations",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        },
+        {
+          "field": "unwanted_selling_pressure",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        }
+      ],
+      "date_warnings": [],
+      "cache_errors": [
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration."
+      ]
+    },
+    {
+      "cik": "2088281",
+      "name": "Midera Food Processing, Inc.",
+      "fields": [
+        {
+          "field": "parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R24.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": "intent to separate its Food Processing Equipment Group into a standalone public company through the distribution of Midera common stock to Middleby stockholders (the “Spin-off”). On June 29, 2026, in connection with the completion of the Spin-off, the Company used borrowings under its revolving credit facility and cash on hand to make a distribution to Middleby of $233.0 million. On July 6, 2026, Middleby completed the Spin-off through the distribution of all of the then i"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R24.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": "Basis of Presentation (b)Basis of PresentationPrior to the completion of the Spin-off, the Company historically operated as part of Middleby and not as a separate entity. These Condensed Combined Financial Statements of the Company have been derived from the historical condensed consolidated financial statements and accounting records of the Parent to present Midera’s Condensed Combined Financial Statements as if the Company had been operated on a standalone basis f"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "parent_cik",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R1.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": "Entity Central Index Key 0002088281"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "distribution_ratio",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R24.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": " then issued and outstanding shares of Midera common stock to Middleby stockholders on the basis of one share of Midera common stock for every one share of Middleby common stock held as of 4:00 p.m. Central Time on June 26, 2026, the record date for the distribution, resulting in the distribution of 45,222,349 shares of Midera common stock to Middleby stockholders. Upon completion of the Spin-off, Midera became an independent public company and Middleby has no ownersh"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526295649/d25601dex991.htm",
+              "form": "8-K",
+              "filed": "2026-07-06",
+              "section": "Filing text",
+              "quote": "f the issued and outstanding shares of Midera common stock to Middleby stockholders on the basis of one share of Midera common stock for every one share of Middleby common stock held as of 4:00 p.m. Central Time on June 26, 2026, the record date for the distribution."
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "record_date",
+          "original": "blank",
+          "recovered": {
+            "value": "2026-06-26",
+            "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526295649/d25601dex991.htm",
+            "accession": "0001193125-26-295649",
+            "form": "8-K",
+            "filed": "2026-07-06",
+            "section": "Filing text",
+            "quote": "To complete the spin-off, which was effective as of today at 12:01 a.m. Eastern Time, Middleby distributed all of the issued and outstanding shares of Midera common stock to Middleby stockholders on the basis of one share of Midera common stock for every one share of Middleby common stock held as of 4:00 p.m. Central Time on June 26, 2026, the record date for the distribution."
+          },
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R24.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": "or every one share of Middleby common stock held as of 4:00 p.m. Central Time on June 26, 2026, the record date for the distribution, resulting in the distribution of 45,222,349 shares of Midera common stock to Middleby stockholders. Upon completion of the Spin-off, Midera became an independent public company and Middleby has no ownership interest in the Company. Midera common stock began “regular way” trading on The Nasdaq Stock Market "
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526295649/d25601dex991.htm",
+              "form": "8-K",
+              "filed": "2026-07-06",
+              "section": "Filing text",
+              "quote": "or every one share of Middleby common stock held as of 4:00 p.m. Central Time on June 26, 2026, the record date for the distribution."
+            }
+          ],
+          "status": "Established by the exact record-date wording in the cited release"
+        },
+        {
+          "field": "insider_ownership_pct",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "No matching evidence in the cached documents reviewed; not proof of absence"
+        },
+        {
+          "field": "size_relative_to_parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R1.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": "Entity Common Stock, Shares Outstanding 45,230,455"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R1.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": "- DefinitionIndicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests, if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member], Common Class B [Member] or Partnership Interest [Member] "
+            }
+          ],
+          "status": "Old distribution date was invalid; recomputation with the corrected date is required",
+          "first_close_date": "2026-06-29"
+        },
+        {
+          "field": "insider_buying",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526377038/0001193125-26-377038-index.html",
+              "form": "4/A",
+              "filed": "2026-08-31",
+              "section": "Ownership filing coverage",
+              "quote": "Form 4 amendment requires transaction matching; the current engine leaves the count blank."
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526376982/0001193125-26-376982-index.html",
+              "form": "4/A",
+              "filed": "2026-08-31",
+              "section": "Ownership filing coverage",
+              "quote": "Form 4 amendment requires transaction matching; the current engine leaves the count blank."
+            }
+          ],
+          "coverage": {
+            "filings": 20,
+            "amendments": 2,
+            "complete_cached_xml": true
+          },
+          "status": "Old distribution date was invalid; recomputation with the corrected date is required"
+        },
+        {
+          "field": "debt_to_assets",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R49.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": "Total debt 258.6 33.5"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R28.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": "026 Revolving credit facility $ 228.0 $ — Foreign loans 22.7 25.0 Finance lease obligations 7.9 8.5 Total debt 258.6 33.5 Less: Current maturities of long-term debt 4.5 4.8 Long-term debt $ 254.1 $ 28.7"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "absolute_market_cap",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R1.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": "Entity Common Stock, Shares Outstanding 45,230,455"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526354735/R1.htm",
+              "form": "10-Q",
+              "filed": "2026-08-18",
+              "section": "Filing text",
+              "quote": "- DefinitionIndicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests, if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member], Common Class B [Member] or Partnership Interest [Member] "
+            }
+          ],
+          "status": "Old distribution date was invalid; recomputation with the corrected date is required",
+          "first_close_date": "2026-06-29"
+        },
+        {
+          "field": "analyst_recommendations",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        },
+        {
+          "field": "unwanted_selling_pressure",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526276742/d17861dex991.htm",
+              "form": "8-K",
+              "filed": "2026-06-22",
+              "section": "Filing text",
+              "quote": " Middleby common stock and SpinCo common stock could experience selling pressure after the spin-off as certain pre-spin-off stockholders may not be interested in holding an investment in one of the two post-spin-off companies."
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526276742/d17861dex991.htm",
+              "form": "8-K",
+              "filed": "2026-06-22",
+              "section": "Filing text",
+              "quote": "Middleby common stock and SpinCo common stock could experience selling pressure after the spin-off as certain pre-spin-off stockholders may not be interested in holding an investment in one of the two post-spin-off companies."
+            }
+          ],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        }
+      ],
+      "date_warnings": [
+        {
+          "status": "The stored date is a record date in a today-completion announcement. Resolve the release dateline before using the price or return. Reviewed distribution date: 2026-07-06. Prices and date-dependent factors from the old date were removed.",
+          "evidence": {
+            "value": "2026-06-26",
+            "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526295649/d25601dex991.htm",
+            "accession": "0001193125-26-295649",
+            "form": "8-K",
+            "filed": "2026-07-06",
+            "section": "Midera Food Processing Completes Spin-Off, Begins Trading Tomorrow as Independent, Public Company",
+            "quote": "To complete the spin-off, which was effective as of today at 12:01 a.m. Eastern Time, Middleby distributed all of the issued and outstanding shares of Midera common stock to Middleby stockholders on the basis of one share of Midera common stock for every one share of Middleby common stock held as of 4:00 p.m. Central Time on June 26, 2026, the record date for the distribution."
+          },
+          "corrected_distribution_date": {
+            "value": "2026-07-06",
+            "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526295649/d25601dex991.htm",
+            "accession": "0001193125-26-295649",
+            "form": "8-K",
+            "filed": "2026-07-06",
+            "section": "Release dateline and completion statement",
+            "quote": "— July 6, 2026 — Midera Food Processing, Inc. (“Midera” or the “Company”), a leading global pure-play food processing technology platform, today announced that its spin-off from The Middleby Corporation (NASDAQ: MIDD) (“Middleby”) is complete, and it will begin trading as an independent company under the ticker symbol “MFP,” effective at the market opening tomorrow, July 7, 2026. In connection with Midera’s public debut, the Company will ring the Closing Bell at Nasdaq on July 8, 2026.\nFiling text\nMidera has a portfolio of 30+ industry-leading brands, a global equipment and systems installed base of more than 100,000 units, and a track record of delivering results through multiple economic cycles. The Company’s total line solutions play a key role in shaping how the world’s food gets made. Midera’s technological capabilities underpin the production of many of the world’s most widely consumed food categories – protein, bakery, and snack – and its expertise is directly aligned with the structural forces driving global food production.\nFiling text\n“As an independent, publicly traded company, Midera enters the market in a strong financial position as we advance our growth strategy and invest in the technologies that will define the future of food production,” said Mark Salman, Chief Executive Officer of Midera. “We have built this platform through more than 30 acquisitions since 2005, developing disciplined capabilities in deal origination, integration and operational improvement. Our total line solutions allow us to do what no one else in the industry can: design, integrate, commission, and support a complete production line across protein, bakery, and snack categories. We look forward to being the partner global food manufacturers rely on as rising demand, labor scarcity, food safety requirements, and sustainability imperatives drive the next wave of investment in food processing technology.”\nFiling text\nTo complete the spin-off, which was effective as of today at 12:01 a.m. Eastern Time, Middleby distributed all of the issued and outstanding shares of Midera common stock to Middleby stockholders on the basis of one share of Midera common stock for every one share of Middleby common stock held as of 4:00 p.m. Central Time on June 26, 2026, the record date for the distribution."
+          },
+          "corrected_record_date": {
+            "value": "2026-06-26",
+            "filing": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526295649/d25601dex991.htm",
+            "accession": "0001193125-26-295649",
+            "form": "8-K",
+            "filed": "2026-07-06",
+            "section": "Filing text",
+            "quote": "To complete the spin-off, which was effective as of today at 12:01 a.m. Eastern Time, Middleby distributed all of the issued and outstanding shares of Midera common stock to Middleby stockholders on the basis of one share of Midera common stock for every one share of Middleby common stock held as of 4:00 p.m. Central Time on June 26, 2026, the record date for the distribution."
+          }
+        }
+      ],
+      "cache_errors": [
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration."
+      ]
+    },
+    {
+      "cik": "2090312",
+      "name": "Mobility Global Inc.",
+      "fields": [
+        {
+          "field": "parent_cik",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000029/R1.htm",
+              "form": "8-K",
+              "filed": "2026-10-23",
+              "section": "Filing text",
+              "quote": "Entity Central Index Key 0002090312"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "distribution_ratio",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000014/R20.htm",
+              "form": "10-Q",
+              "filed": "2026-08-07",
+              "section": "Filing text",
+              "quote": "P Global’s common stock outstanding as of June 15, 2026 and on the basis of a distribution ratio of one share of Mobility Global common stock for every share of S&P Global’s common stock. There were no shares outstanding as of June 30, 2025."
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000014/R17.htm",
+              "form": "10-Q",
+              "filed": "2026-08-07",
+              "section": "Filing text",
+              "quote": "ts and liabilities of the Spin Business to Mobility Global. On July 1, 2026, S&P Global distributed one share of Mobility Global common stock for every share of S&P Global common stock held as of the close of business on June 15, 2026, the record date for the Distribution. On July 1, 2026, Mobility Global became an independent, publicly traded company under the stock symbol “MBGL” on the New York Stock Exchange. S&P Global retained no ownership interest in Mobility Global. As "
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "record_date",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000014/R17.htm",
+              "form": "10-Q",
+              "filed": "2026-08-07",
+              "section": "Filing text",
+              "quote": "k for every share of S&P Global common stock held as of the close of business on June 15, 2026, the record date for the Distribution. On July 1, 2026, Mobility Global became an independent, publicly traded company under the stock symbol “MBGL” on the New York Stock Exchange. S&P Global retained no ownership interest in Mobility Global. As of the date of Separation, the primary source of cash on hand was generated by operations and net pr"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000014/R17.htm",
+              "form": "10-Q",
+              "filed": "2026-08-07",
+              "section": "Filing text",
+              "quote": "of the close of business on June 15, 2026, the record date for the Distribution. On July 1, 2026, Mobility Global became an"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "insider_ownership_pct",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "No matching evidence in the cached documents reviewed; not proof of absence"
+        },
+        {
+          "field": "size_relative_to_parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000014/R38.htm",
+              "form": "10-Q",
+              "filed": "2026-08-07",
+              "section": "Filing text",
+              "quote": "Number of shares outstanding (in shares) | shares 294,821,320 0 294,821,320 0 294,821,320"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000014/R38.htm",
+              "form": "10-Q",
+              "filed": "2026-08-07",
+              "section": "Filing text",
+              "quote": "- DefinitionNumber of shares of common stock outstanding. Common stock represent the ownership interest in a corporation. + ReferencesReference 1: http://www.xbrl.org/2009/role/commonPracticeRef -Topic 505 -SubTopic 10 -Name Accounting Standards Codification -Section 50 -Paragraph 2 -Publisher FASB -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2Reference 2: http://www.xbrl.o"
+            }
+          ],
+          "status": "No usable shares outstanding on the selected first-close date; other dated/estimated/weighted-average counts are not substitutes",
+          "first_close_date": "2026-07-02"
+        },
+        {
+          "field": "insider_buying",
+          "original": "blank",
+          "recovered": {
+            "value": 3,
+            "transactions": [
+              {
+                "value": 1,
+                "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml",
+                "accession": "0001184754-26-000010",
+                "form": "4",
+                "filed": "2026-08-13",
+                "section": "Form 4 — reported transactions",
+                "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-11</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>10000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.50</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>10000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+                "transaction_date": "2026-08-11",
+                "code": "P"
+              },
+              {
+                "value": 1,
+                "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml",
+                "accession": "0001184754-26-000010",
+                "form": "4",
+                "filed": "2026-08-13",
+                "section": "Form 4 — reported transactions",
+                "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-12</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>25000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.4998</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>35000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+                "transaction_date": "2026-08-12",
+                "code": "P"
+              },
+              {
+                "value": 1,
+                "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml",
+                "accession": "0001184754-26-000010",
+                "form": "4",
+                "filed": "2026-08-13",
+                "section": "Form 4 — reported transactions",
+                "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-13</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>15000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.8714</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>50000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+                "transaction_date": "2026-08-13",
+                "code": "P"
+              }
+            ],
+            "source": "computed count of disclosed Form 4 code P transactions from 2026-07-01 through 2026-11-10; complete scanned issuer filing list https://data.sec.gov/submissions/CIK0002090312.json; https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml transaction date 2026-08-11 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-11</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>10000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.50</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>10000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml transaction date 2026-08-12 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-12</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>25000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.4998</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>35000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml transaction date 2026-08-13 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-13</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>15000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.8714</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>50000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+            "coverage": "Observed filings only; late disclosures can change the count. Code P includes open-market or private purchases."
+          },
+          "evidence": [],
+          "coverage": {
+            "filings": 16,
+            "amendments": 0,
+            "complete_cached_xml": true
+          },
+          "status": "Recovered by tested parser fix; exact sourced value"
+        },
+        {
+          "field": "debt_to_assets",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000014/R4.htm",
+              "form": "10-Q",
+              "filed": "2026-08-07",
+              "section": "Filing text",
+              "quote": "Total assets 13,060 12,995"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000014/R27.htm",
+              "form": "10-Q",
+              "filed": "2026-08-07",
+              "section": "Filing text",
+              "quote": "Total debt 1,981.0 0.0"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "absolute_market_cap",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000014/R38.htm",
+              "form": "10-Q",
+              "filed": "2026-08-07",
+              "section": "Filing text",
+              "quote": "Number of shares outstanding (in shares) | shares 294,821,320 0 294,821,320 0 294,821,320"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000014/R38.htm",
+              "form": "10-Q",
+              "filed": "2026-08-07",
+              "section": "Filing text",
+              "quote": "- DefinitionNumber of shares of common stock outstanding. Common stock represent the ownership interest in a corporation. + ReferencesReference 1: http://www.xbrl.org/2009/role/commonPracticeRef -Topic 505 -SubTopic 10 -Name Accounting Standards Codification -Section 50 -Paragraph 2 -Publisher FASB -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2Reference 2: http://www.xbrl.o"
+            }
+          ],
+          "status": "No usable shares outstanding on the selected first-close date; other dated/estimated/weighted-average counts are not substitutes",
+          "first_close_date": "2026-07-02"
+        },
+        {
+          "field": "analyst_recommendations",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000110465926066592/tm2528763d9_ex99-1.htm",
+              "form": "10-12B/A",
+              "filed": "2026-05-27",
+              "section": "Filing text",
+              "quote": "ct planning and financial/​investment planning. The Planning Solutions dataset is supported by deep analyst coverage and bidirectional industry feedback. Our foundational product is global vehicle, powertrain and supply chain forecasts."
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000110465926057155/tm2528763d7_ex99-1.htm",
+              "form": "10-12B",
+              "filed": "2026-05-07",
+              "section": "Filing text",
+              "quote": "ct planning and financial/​investment planning. The Planning Solutions dataset is supported by deep analyst coverage and bidirectional industry feedback. Our foundational product is global vehicle, powertrain and supply chain forecasts. Leveraging this foundation allows for upselling into scenario capabilities (FAST), procurement intelligence (PIQ) and supplier workflow software (DA). We believe our market penetration is strong, with broad OE"
+            }
+          ],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        },
+        {
+          "field": "unwanted_selling_pressure",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        }
+      ],
+      "date_warnings": [],
+      "cache_errors": [
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration."
+      ]
+    },
+    {
+      "cik": "2134183",
+      "name": "Platinum SpinCo, Inc.",
+      "fields": [
+        {
+          "field": "parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000110465926101088/R21.htm",
+              "form": "10-Q",
+              "filed": "2026-08-26",
+              "section": "Filing text",
+              "quote": "s to the Parent in a non-cash transaction as part of an internal reorganization associated with the Spin-Off.Cash pooling arrangementsModine utilizes a centralized approach by region for the purposes of cash management and financing its operations. The Company participates in and manages certain of these cash pooling arrangements. Cash is swept daily to the cash pool owner who funds the businesses’ operating and investing activities as needed. This mechanism optimizes cash management and is used to e"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526349114/d101885dex992.htm",
+              "form": "8-K",
+              "filed": "2026-08-13",
+              "section": "Filing text",
+              "quote": "Modine’s other businesses and the subsequent merger of the Performance Technologies Business with a wholly owned subsidiary of Gentherm Incorporated (“Gentherm”) that are now available for your review. This notice provides instructions on how to access MODINE MANUFACTURING COMPANY materials for informational purposes only. The separation and merger will occur by means of a pro rata distribution by Modine of all of the outstanding common stock of Pla"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "parent_cik",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526409024/R1.htm",
+              "form": "8-K",
+              "filed": "2026-09-30",
+              "section": "Filing text",
+              "quote": "Entity Central Index Key 0002134183"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "record_date",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526409024/d141507dex31.htm",
+              "form": "8-K",
+              "filed": "2026-09-30",
+              "section": "Filing text",
+              "quote": "the “Modine Common Stock”) issued and outstanding as of the close of business, Eastern Time, on the Record Date (as defined in the Separation Agreement, dated January 29, 2026, among the Corporation, Modine and Gentherm Incorporated), excluding any shares of Modine Common Stock held as treasury stock by Modine or held by any of Modine’s subsidiaries, in each case, as of such time, minus (b) the excess, if any, of (i) 2,000, which represe"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526349114/d101885dex991.htm",
+              "form": "8-K",
+              "filed": "2026-08-13",
+              "section": "Filing text",
+              "quote": "The Board of Directors of Gentherm has fixed the close of business on July 31, 2026 as the record date for the Special Meeting (the “Record Date”). Only shareholders of record of Gentherm Common Stock at the close of business on the Record Date are entitled to receive notice of, and to vote at, the Special Meeting or any adjournment or postponement thereof. For at least ten (10) days prior to the Special Meeting, a list of the s"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "ticker",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526349114/d101885dex991.htm",
+              "form": "8-K",
+              "filed": "2026-08-13",
+              "section": "Filing text",
+              "quote": "A: Modine Common Stock is currently listed on the NYSE under the ticker symbol “MOD.” It is currently expected that there will not be an “ex-distribution” market in Modine Common Stock on the NYSE and Modine Common Stock will trade only in the “regular way” market through the Closing."
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526349114/d101885dex991.htm",
+              "form": "8-K",
+              "filed": "2026-08-13",
+              "section": "Filing text",
+              "quote": "Modine Common Stock is currently listed on the NYSE under the ticker symbol “MOD.” It is currently expected that there will not be an “ex-distribution” market in Modine Common Stock on the NYSE and Modine Common Stock will trade only in the “regular way” market through the Closing."
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "insider_ownership_pct",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "No matching evidence in the cached documents reviewed; not proof of absence"
+        },
+        {
+          "field": "size_relative_to_parent",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526409024/d141507dex31.htm",
+              "form": "8-K",
+              "filed": "2026-09-30",
+              "section": "Filing text",
+              "quote": "endment becomes effective in accordance with the DGCL (such time, the “Recapitalization Time”), all shares of Common Stock issued and outstanding immediately prior to the Recapitalization Time (including, for the avoidance of doubt, any shares of Common Stock issued by the Corporation to Modine Manufacturing Company, a Wisconsin corporation (“Modine”), at any time prior to the Recapitalization Time) shall, automatically without any further action on the part of the Corpo"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000110465926101088/R1.htm",
+              "form": "10-Q",
+              "filed": "2026-08-26",
+              "section": "Filing text",
+              "quote": "Entity Common Stock, Shares Outstanding 1,000"
+            }
+          ],
+          "status": "Old distribution date was invalid; recomputation with the corrected date is required",
+          "first_close_date": null
+        },
+        {
+          "field": "insider_buying",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "coverage": {
+            "filings": 5,
+            "amendments": 0,
+            "complete_cached_xml": true
+          },
+          "status": "Old distribution date was invalid; recomputation with the corrected date is required"
+        },
+        {
+          "field": "early_price_performance",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526349114/d101885dex991.htm",
+              "form": "8-K",
+              "filed": "2026-08-13",
+              "section": "Filing text",
+              "quote": "ng (a) the average volume weighted average trading price of a share of Modine Common Stock trading “regular way with due bills” on the applicable exchange (i.e., inclusive of SpinCo value) for the five (5) consecutive trading days ending two (2) trading days prior to the date on which the Determination Time occurs by (b) the average volume weighted average trading price of a share of Gentherm Common Stock trading on the applicable exchan"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526349114/d101885dex991.htm",
+              "form": "8-K",
+              "filed": "2026-08-13",
+              "section": "Filing text",
+              "quote": "ribution” market in Modine Common Stock on the NYSE and Modine Common Stock will trade only in the “regular way” market through the Closing."
+            }
+          ],
+          "status": "Old distribution date was invalid; recomputation with the corrected date is required"
+        },
+        {
+          "field": "debt_to_assets",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000110465926101088/R62.htm",
+              "form": "10-Q",
+              "filed": "2026-08-26",
+              "section": "Filing text",
+              "quote": "Total assets $ 714.5 $ 815.8"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000110465926101088/R62.htm",
+              "form": "10-Q",
+              "filed": "2026-08-26",
+              "section": "Filing text",
+              "quote": "Total assets 714.5 815.8"
+            }
+          ],
+          "status": "Related filing text found; extraction/interpretation review required"
+        },
+        {
+          "field": "absolute_market_cap",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526409024/d141507dex31.htm",
+              "form": "8-K",
+              "filed": "2026-09-30",
+              "section": "Filing text",
+              "quote": "endment becomes effective in accordance with the DGCL (such time, the “Recapitalization Time”), all shares of Common Stock issued and outstanding immediately prior to the Recapitalization Time (including, for the avoidance of doubt, any shares of Common Stock issued by the Corporation to Modine Manufacturing Company, a Wisconsin corporation (“Modine”), at any time prior to the Recapitalization Time) shall, automatically without any further action on the part of the Corpo"
+            },
+            {
+              "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000110465926101088/R1.htm",
+              "form": "10-Q",
+              "filed": "2026-08-26",
+              "section": "Filing text",
+              "quote": "Entity Common Stock, Shares Outstanding 1,000"
+            }
+          ],
+          "status": "Old distribution date was invalid; recomputation with the corrected date is required",
+          "first_close_date": null
+        },
+        {
+          "field": "analyst_recommendations",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        },
+        {
+          "field": "unwanted_selling_pressure",
+          "original": "blank",
+          "recovered": null,
+          "evidence": [],
+          "status": "Required by current positive weight; this pipeline has no defined sourced observation for this factor"
+        }
+      ],
+      "date_warnings": [
+        {
+          "status": "The stored date is an incorporation date; this quotation describes a future distribution. Distribution date and window need correction. Reviewed distribution date: None. Prices and date-dependent factors from the old date were removed.",
+          "evidence": {
+            "value": "2026-01-23",
+            "filing": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526349114/d101885dex991.htm",
+            "accession": "0001193125-26-349114",
+            "form": "8-K",
+            "filed": "2026-08-13",
+            "section": "Information about the Companies",
+            "quote": "Platinum SpinCo Inc. was incorporated on January 23, 2026 and is currently a wholly owned direct subsidiary of Modine. In connection with the Separation and Distribution, Modine will cause specified assets and liabilities used in the Performance Technologies Business to be transferred to SpinCo, after which time all of the shares of SpinCo Common Stock will be distributed to Modine shareholders."
+          },
+          "corrected_distribution_date": null,
+          "corrected_record_date": null
+        }
+      ],
+      "cache_errors": [
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+        "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration."
+      ]
+    }
+  ],
+  "recovered": [
+    {
+      "cik": "2104052",
+      "field": "insider_ownership_pct",
+      "value": 1.4,
+      "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000013/exhibit991-form10x12ba3.htm",
+      "accession": "0002104052-26-000013",
+      "form": "10-12B/A",
+      "filed": "2026-05-06",
+      "section": "Filing table",
+      "quote": "All directors and executive officers as a group (13 persons) |  | 409,412 |  | 1.4 | %"
+    },
+    {
+      "cik": "2104052",
+      "field": "insider_buying",
+      "value": 6,
+      "transactions": [
+        {
+          "value": 1,
+          "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000134/wk-form4_1787141470.xml",
+          "accession": "0002104052-26-000134",
+          "form": "4",
+          "filed": "2026-08-19",
+          "section": "Form 4 — reported transactions",
+          "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-18</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>2439</value>\n</transactionshares>\n<transactionpricepershare>\n<value>20.43</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>96998</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+          "transaction_date": "2026-08-18",
+          "code": "P"
+        },
+        {
+          "value": 1,
+          "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000134/wk-form4_1787141470.xml",
+          "accession": "0002104052-26-000134",
+          "form": "4",
+          "filed": "2026-08-19",
+          "section": "Form 4 — reported transactions",
+          "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-18</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>507</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.50</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>97505</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+          "transaction_date": "2026-08-18",
+          "code": "P"
+        },
+        {
+          "value": 1,
+          "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000132/wk-form4_1787086511.xml",
+          "accession": "0002104052-26-000132",
+          "form": "4",
+          "filed": "2026-08-18",
+          "section": "Form 4 — reported transactions",
+          "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-17</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>4875</value>\n</transactionshares>\n<transactionpricepershare>\n<value>20.461</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>42955</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+          "transaction_date": "2026-08-17",
+          "code": "P"
+        },
+        {
+          "value": 1,
+          "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000079/wk-form4_1780951526.xml",
+          "accession": "0002104052-26-000079",
+          "form": "4",
+          "filed": "2026-06-08",
+          "section": "Form 4 — reported transactions",
+          "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-05</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>8333</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.25</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>16434</value>\n<footnoteid id=\"F1\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+          "transaction_date": "2026-06-05",
+          "code": "P"
+        },
+        {
+          "value": 1,
+          "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000072/wk-form4_1780579698.xml",
+          "accession": "0002104052-26-000072",
+          "form": "4",
+          "filed": "2026-06-04",
+          "section": "Form 4 — reported transactions",
+          "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-03</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>14000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>18.10</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>47975</value>\n<footnoteid id=\"F2\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+          "transaction_date": "2026-06-03",
+          "code": "P"
+        },
+        {
+          "value": 1,
+          "filing": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000071/wk-form4_1780579687.xml",
+          "accession": "0002104052-26-000071",
+          "form": "4",
+          "filed": "2026-06-04",
+          "section": "Form 4 — reported transactions",
+          "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-03</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>51519</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.43</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>144510</value>\n<footnoteid id=\"F2\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+          "transaction_date": "2026-06-03",
+          "code": "P"
+        }
+      ],
+      "source": "computed count of disclosed Form 4 code P transactions from 2026-06-01 through 2026-11-10; complete scanned issuer filing list https://data.sec.gov/submissions/CIK0002104052.json; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000134/wk-form4_1787141470.xml transaction date 2026-08-18 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-18</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>2439</value>\n</transactionshares>\n<transactionpricepershare>\n<value>20.43</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>96998</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000134/wk-form4_1787141470.xml transaction date 2026-08-18 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-18</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>507</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.50</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>97505</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000132/wk-form4_1787086511.xml transaction date 2026-08-17 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-17</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>4875</value>\n</transactionshares>\n<transactionpricepershare>\n<value>20.461</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>42955</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000079/wk-form4_1780951526.xml transaction date 2026-06-05 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-05</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>8333</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.25</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>16434</value>\n<footnoteid id=\"F1\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000072/wk-form4_1780579698.xml transaction date 2026-06-03 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-03</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>14000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>18.10</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>47975</value>\n<footnoteid id=\"F2\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2104052/000210405226000071/wk-form4_1780579687.xml transaction date 2026-06-03 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-06-03</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>51519</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.43</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>144510</value>\n<footnoteid id=\"F2\"></footnoteid>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+      "coverage": "Observed filings only; late disclosures can change the count. Code P includes open-market or private purchases."
+    },
+    {
+      "cik": "2093101",
+      "field": "insider_ownership_pct",
+      "value": 3.1,
+      "filing": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526055010/d42675dex991.htm",
+      "accession": "0001193125-26-055010",
+      "form": "10-12B/A",
+      "filed": "2026-02-17",
+      "section": "Filing table",
+      "quote": "All directors and executive officers as a group (11 persons) |  |  | 478,858 |  |  |  | 3.1 | %"
+    },
+    {
+      "cik": "2093101",
+      "field": "insider_buying",
+      "value": 0,
+      "transactions": [],
+      "source": "computed count of disclosed Form 4 code P transactions from 2026-02-26 through 2026-11-10; complete scanned issuer filing list https://data.sec.gov/submissions/CIK0002093101.json; ",
+      "coverage": "Observed filings only; late disclosures can change the count. Code P includes open-market or private purchases."
+    },
+    {
+      "cik": "2090312",
+      "field": "insider_buying",
+      "value": 3,
+      "transactions": [
+        {
+          "value": 1,
+          "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml",
+          "accession": "0001184754-26-000010",
+          "form": "4",
+          "filed": "2026-08-13",
+          "section": "Form 4 — reported transactions",
+          "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-11</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>10000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.50</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>10000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+          "transaction_date": "2026-08-11",
+          "code": "P"
+        },
+        {
+          "value": 1,
+          "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml",
+          "accession": "0001184754-26-000010",
+          "form": "4",
+          "filed": "2026-08-13",
+          "section": "Form 4 — reported transactions",
+          "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-12</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>25000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.4998</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>35000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+          "transaction_date": "2026-08-12",
+          "code": "P"
+        },
+        {
+          "value": 1,
+          "filing": "https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml",
+          "accession": "0001184754-26-000010",
+          "form": "4",
+          "filed": "2026-08-13",
+          "section": "Form 4 — reported transactions",
+          "quote": "<nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-13</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>15000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.8714</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>50000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+          "transaction_date": "2026-08-13",
+          "code": "P"
+        }
+      ],
+      "source": "computed count of disclosed Form 4 code P transactions from 2026-07-01 through 2026-11-10; complete scanned issuer filing list https://data.sec.gov/submissions/CIK0002090312.json; https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml transaction date 2026-08-11 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-11</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>10000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.50</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>10000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml transaction date 2026-08-12 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-12</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>25000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.4998</value>\n<footnoteid id=\"F1\"></footnoteid>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>35000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>; https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/wk-form4_1786654758.xml transaction date 2026-08-13 quote <nonderivativetransaction>\n<securitytitle>\n<value>Common Stock</value>\n</securitytitle>\n<transactiondate>\n<value>2026-08-13</value>\n</transactiondate>\n<transactioncoding>\n<transactionformtype>4</transactionformtype>\n<transactioncode>P</transactioncode>\n<equityswapinvolved>0</equityswapinvolved>\n</transactioncoding>\n<transactionamounts>\n<transactionshares>\n<value>15000</value>\n</transactionshares>\n<transactionpricepershare>\n<value>19.8714</value>\n</transactionpricepershare>\n<transactionacquireddisposedcode>\n<value>A</value>\n</transactionacquireddisposedcode>\n</transactionamounts>\n<posttransactionamounts>\n<sharesownedfollowingtransaction>\n<value>50000</value>\n</sharesownedfollowingtransaction>\n</posttransactionamounts>\n<ownershipnature>\n<directorindirectownership>\n<value>D</value>\n</directorindirectownership>\n</ownershipnature>\n</nonderivativetransaction>",
+      "coverage": "Observed filings only; late disclosures can change the count. Code P includes open-market or private purchases."
+    }
+  ],
+  "limits": [
+    "Related text excerpts are review evidence, not accepted numerical observations.",
+    "This audit covers all original blank fields for the seven candidates excluded for missing factors. Other candidates without distribution dates are outside this audit.",
+    "Three incorrect distribution dates were corrected or cleared in the reviewed snapshot. Old first prices, early returns and other date-dependent factors were removed; replacement market data was not requested.",
+    "Only the reviewed snapshot is changed. The original snapshot and registry are preserved."
+  ]
+}

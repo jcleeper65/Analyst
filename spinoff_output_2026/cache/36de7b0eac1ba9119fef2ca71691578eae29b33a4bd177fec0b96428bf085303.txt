@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-07-30</periodOfReport>
+
+    <notSubjectToSection16>false</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0002088281</issuerCik>
+        <issuerName>Midera Food Processing, Inc.</issuerName>
+        <issuerTradingSymbol>MFP</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0002140031</rptOwnerCik>
+            <rptOwnerName>Jacoby Brian M.</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>10275 WEST HIGGINS ROAD, SUITE 300</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>ROSEMONT</rptOwnerCity>
+            <rptOwnerState>IL</rptOwnerState>
+            <rptOwnerZipCode>60018</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>true</isDirector>
+            <isOfficer>false</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>true</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-07-30</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>624</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F2"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>624</value>
+                    <footnoteId id="F1"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                    <footnoteId id="F1"/>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-07-30</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3615</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F3"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>4239</value>
+                    <footnoteId id="F1"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                    <footnoteId id="F1"/>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Mr. Jacoby holds these securities for the benefit of Garden Investment Management, L.P. and its designated affiliates (collectively, &quot;GI&quot;). Mr. Jacoby does not have a right to any economic interest in securities of the Issuer granted to him by the Issuer in respect of his Board position. GI is entitled to receive all of the economic interest in securities granted to Mr. Jacoby by the Issuer in respect of Mr. Jacoby's Board position. Mr. Jacoby disclaims beneficial ownership of the Issuer's securities to which this report relates and at no time has Mr. Jacoby had any economic interest in such securities except any indirect economic interest through GI (in which he does not have a controlling interest and does not have investment control).</footnote>
+        <footnote id="F2">These shares represent fully vested restricted stock units (&quot;RSUs&quot;). Each RSU represents a contingent right to receive one share of common stock on the applicable vesting date.</footnote>
+        <footnote id="F3">These shares represent time-based RSUs. Each RSU represents a contingent right to receive one share of common stock on the applicable vesting date. These RSUs will vest in full on March 19, 2027. Vested shares will be issued to the reporting person after the applicable vesting date.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>James J. Drake POA</signatureName>
+        <signatureDate>2026-08-03</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

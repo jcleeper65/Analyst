@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0202</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2005-10-04</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001096296</issuerCik>
+        <issuerName>PLATINUM SUPERYACHTS INC</issuerName>
+        <issuerTradingSymbol>PSUY.OB</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001253893</rptOwnerCik>
+            <rptOwnerName>RUSKOWSKY RON</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>1220 WEST 73RD AVE. #1100</rptOwnerStreet1>
+            <rptOwnerStreet2>VANCOUVER, BRITISH COLUMBIA</rptOwnerStreet2>
+            <rptOwnerCity>CANADA</rptOwnerCity>
+            <rptOwnerState></rptOwnerState>
+            <rptOwnerZipCode>V6P 6G5</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>President and CEO</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2005-10-04</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>P</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>14970000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>.01</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>18470000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Santeo Financial Corporation, a Canadian corporation</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes></footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Ron Ruskowsky</signatureName>
+        <signatureDate>2005-11-17</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

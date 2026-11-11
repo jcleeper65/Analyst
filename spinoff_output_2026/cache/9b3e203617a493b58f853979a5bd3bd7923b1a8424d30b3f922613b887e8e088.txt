@@ -1,0 +1,743 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>56
+<FILENAME>R43.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.25.4</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Financial Highlights (Details) - USD ($)<br> $ / shares in Units, $ in Thousands</strong></div></th>
+<th class="th" colspan="1"></th>
+<th class="th" colspan="1">3 Months Ended</th>
+<th class="th" colspan="2"></th>
+</tr>
+<tr>
+<th class="th"><div>Dec. 31, 2025</div></th>
+<th class="th"><div>Dec. 31, 2025</div></th>
+<th class="th"><div>Sep. 30, 2025</div></th>
+<th class="th"><sup>[1]</sup></th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyFinancialHighlightsRollForward', window );"><strong>Investment Company, Financial Highlights [Roll Forward]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyDistributionToShareholdersPerShare', window );">From net investment income (in dollars per share)</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">$ 25.00<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyInvestmentIncomeLossPerShare', window );">Net investment income (in dollars per share)</a></td>
+<td class="nump">$ 0.16<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_NetAssetValuePerShare', window );">Net asset value at end of period (in dollars per share)</a></td>
+<td class="nump">$ 25.00<span></span>
+</td>
+<td class="nump">$ 25.00<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyTotalReturnMarketValue', window );">Total return based on net asset value per share</a></td>
+<td class="nump">0.64%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CommonStockSharesOutstanding', window );">Common stock, shares outstanding (in shares)</a></td>
+<td class="nump">6,842,282.28<span></span>
+</td>
+<td class="nump">6,842,282.28<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyInvestmentIncomeLossRatio', window );">Ratio of net investment income to average net assets</a></td>
+<td class="nump">0.62%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_gpifi_InvestmentCompanyTotalExpensesToAverageNetAssets', window );">Ratio of total expenses to average net assets</a></td>
+<td class="nump">19.43%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_gpifi_InvestmentCompanyNetExpensesToAverageNetAssets', window );">Ratio of net expenses to average net assets</a></td>
+<td class="nump">19.43%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyTotalReturn', window );">Total return based on average net asset value</a></td>
+<td class="nump">0.62%<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockholdersEquity', window );">Net assets at end of period</a></td>
+<td class="nump">$ 171,057<span></span>
+</td>
+<td class="nump">$ 171,057<span></span>
+</td>
+<td colspan="2" class="nump">$ 10<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_LongTermDebtAverageAmountOutstanding', window );">Average debt outstanding</a></td>
+<td class="nump">$ 1,853<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_gpifi_LongTermDebtAverageAmountOutstandingPerShare', window );">Average debt outstanding per share (in dollars per share)</a></td>
+<td class="nump">$ 8.59<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanySeniorSecurityIndebtednessAssetCoverageRatio', window );">Asset coverage ratio</a></td>
+<td class="nump">200.09%<span></span>
+</td>
+<td class="nump">200.09%<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_gpifi_InvestmentCompanySeniorSecurityIndebtednessAssetCoverageRatioPerUnit', window );">Asset coverage ratio per unit (in dollars per share)</a></td>
+<td class="nump">$ 2,000.9<span></span>
+</td>
+<td class="nump">$ 2,000.9<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_gpifi_InvestmentCompanyNetEffectOfExpenseSupportAndExpenseSupportRecoupmentToAverageNetAssets', window );">Net effect of expense support and expense support recoupment to average net assets</a></td>
+<td class="num">(19.43%)<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DistributionsMadeToMemberOrLimitedPartnerByDistributionTypeAxis=us-gaap_InvestmentIncomeMember', window );">Investment Income</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyFinancialHighlightsRollForward', window );"><strong>Investment Company, Financial Highlights [Roll Forward]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyDistributionToShareholdersPerShare', window );">From net investment income (in dollars per share)</a></td>
+<td class="nump">$ 0.03<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_gpifi_InvestmentCompanyOtherPerShare', window );">Other (in dollars per share)</a></td>
+<td class="nump">$ 0.13<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td colspan="2" class="text">&#160;<span></span>
+</td>
+</tr>
+<tr><td colspan="5"></td></tr>
+<tr><td colspan="5"><table class="outerFootnotes" width="100%"><tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[1]</td>
+<td style="vertical-align: top;" valign="top">)<span style="color:#000000;font-family:'Times New Roman',serif;font-size:7pt;font-weight:400;line-height:120%">Represents shares issued on September 26, 2025 and outstanding as of September 30, 2025 included in the Company&#8217;s seed financial statements.</span></td>
+</tr></table></td></tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_gpifi_InvestmentCompanyNetEffectOfExpenseSupportAndExpenseSupportRecoupmentToAverageNetAssets">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Company, Net Effect Of Expense Support And Expense Support Recoupment To Average Net Assets</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">gpifi_InvestmentCompanyNetEffectOfExpenseSupportAndExpenseSupportRecoupmentToAverageNetAssets</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>gpifi_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_gpifi_InvestmentCompanyNetExpensesToAverageNetAssets">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Company, Net Expenses To Average Net Assets</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">gpifi_InvestmentCompanyNetExpensesToAverageNetAssets</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>gpifi_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_gpifi_InvestmentCompanyOtherPerShare">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Company, Other, Per Share</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">gpifi_InvestmentCompanyOtherPerShare</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>gpifi_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:perShareItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_gpifi_InvestmentCompanySeniorSecurityIndebtednessAssetCoverageRatioPerUnit">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Company, Senior Security, Indebtedness, Asset Coverage Ratio Per Unit</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">gpifi_InvestmentCompanySeniorSecurityIndebtednessAssetCoverageRatioPerUnit</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>gpifi_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:perShareItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_gpifi_InvestmentCompanyTotalExpensesToAverageNetAssets">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment Company, Total Expenses To Average Net Assets</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">gpifi_InvestmentCompanyTotalExpensesToAverageNetAssets</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>gpifi_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_gpifi_LongTermDebtAverageAmountOutstandingPerShare">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Long-Term Debt, Average Amount Outstanding, Per Share</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">gpifi_LongTermDebtAverageAmountOutstandingPerShare</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>gpifi_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:perShareItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CommonStockSharesOutstanding">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Number of shares of common stock outstanding. Common stock represent the ownership interest in a corporation.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -SubTopic 10<br> -Topic 505<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(29))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SX 210.6-05(4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-2<br><br>Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-09(4)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(16)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-09(7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CommonStockSharesOutstanding</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:sharesItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanyDistributionToShareholdersPerShare">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Per share or unit amount of distribution to shareholders. Includes, but is not limited to, dividend and capital gain. Excludes distribution for tax return of capital.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Subparagraph (e)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478494/946-205-50-7<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 8<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480990/946-20-50-8<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanyDistributionToShareholdersPerShare</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:perShareItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanyFinancialHighlightsRollForward">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanyFinancialHighlightsRollForward</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanyInvestmentIncomeLossPerShare">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Per-basic-share or unit amount, after investment expense, of dividend and interest investment income (loss) from investment held by investment company.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478494/946-205-50-7<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanyInvestmentIncomeLossPerShare</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:perShareItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanyInvestmentIncomeLossRatio">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage of investment income (loss) to average net assets.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478494/946-205-50-10<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanyInvestmentIncomeLossRatio</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanySeniorSecurityIndebtednessAssetCoverageRatio">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage of total assets less all liabilities and indebtedness not represented by senior security, to senior security representing indebtedness.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Name Investment Company Act of 1940<br> -Section 61<br> -Paragraph a<br> -Subparagraph (1)<br> -Publisher SEC<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanySeniorSecurityIndebtednessAssetCoverageRatio</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanyTotalReturn">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage increase (decrease) in fund net asset value, assuming reinvestment of dividends and capital gain distributions.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 27<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478494/946-205-50-27<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480990/946-20-50-2<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478494/946-205-50-18<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanyTotalReturn</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanyTotalReturnMarketValue">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage increase (decrease) in portfolio market value assuming reinvestment of dividend and capital gain distribution.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478494/946-205-50-18<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanyTotalReturnMarketValue</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LongTermDebtAverageAmountOutstanding">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Average amount outstanding of long-term debt.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Regulation S-K (SK)<br> -Number 229<br> -Section 1402<br> -Paragraph a<br> -Publisher SEC<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Regulation S-K (SK)<br> -Number 229<br> -Section 1402<br> -Paragraph b<br> -Subparagraph (1)<br> -Publisher SEC<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LongTermDebtAverageAmountOutstanding</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_NetAssetValuePerShare">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Net asset value per share or per unit of investments in certain entities that calculate net asset value per share. Includes, but is not limited to, by unit, membership interest, or other ownership interest. Investment includes, but is not limited to, investment in certain hedge funds, venture capital funds, private equity funds, real estate partnerships or funds. Excludes fair value disclosure.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477796/946-210-45-4<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478494/946-205-50-7<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Subparagraph (h)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478494/946-205-50-7<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 505<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478448/946-505-50-1<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(19))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SX 210.6-05(4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_NetAssetValuePerShare</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:perShareItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_StockholdersEquity">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of equity (deficit) attributable to parent. Excludes temporary equity and equity attributable to noncontrolling interest.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(g)(1)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 825<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 28<br> -Subparagraph (f)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28<br><br>Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(29))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(30))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(31))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 7: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 852<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10<br><br>Reference 8: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(19))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SX 210.6-05(4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-2<br><br>Reference 11: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-09(4)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-09(6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-09(7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3<br><br>Reference 14: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(g)(1)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 15: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 323<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3<br><br>Reference 16: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 310<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SAB Topic 4.E)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480418/310-10-S99-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_StockholdersEquity</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DistributionsMadeToMemberOrLimitedPartnerByDistributionTypeAxis=us-gaap_InvestmentIncomeMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DistributionsMadeToMemberOrLimitedPartnerByDistributionTypeAxis=us-gaap_InvestmentIncomeMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

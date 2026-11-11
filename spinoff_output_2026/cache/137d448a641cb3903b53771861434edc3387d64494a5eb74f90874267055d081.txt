@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-types="http://fasb.org/us-types/2025" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:mfp="http://imetrix.edgar-online.com/20260702" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:srt="http://fasb.org/srt/2025" xmlns:stpr="http://xbrl.sec.gov/stpr/2025" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>8-K</title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+   <body><div style="display:none"> <ix:header> <ix:hidden> <ix:nonNumeric name="dei:AmendmentFlag" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-579">false</ix:nonNumeric> <ix:nonNumeric id="Hidden_dei_EntityCentralIndexKey" name="dei:EntityCentralIndexKey" contextRef="duration_2026-07-02_to_2026-07-02">0002088281</ix:nonNumeric> <ix:nonNumeric id="Hidden_dei_CurrentFiscalYearEndDate_duration_2026-07-02_to_2026-07-02" name="dei:CurrentFiscalYearEndDate" contextRef="duration_2026-07-02_to_2026-07-02">--12-31</ix:nonNumeric> </ix:hidden> <ix:references> <link:schemaRef xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xlink:type="simple" xlink:href="mfp-20260702.xsd" xlink:arcrole="http://www.xbrl.org/2003/linkbase"/> </ix:references> <ix:resources> <xbrli:context id="duration_2026-07-02_to_2026-07-02"> <xbrli:entity> <xbrli:identifier scheme="http://www.sec.gov/CIK">0002088281</xbrli:identifier> </xbrli:entity> <xbrli:period> <xbrli:startDate>2026-07-02</xbrli:startDate> <xbrli:endDate>2026-07-02</xbrli:endDate> </xbrli:period> </xbrli:context> </ix:resources> </ix:header> </div> <div style="text-align:center"> <div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto"> <div style="line-height:1.0pt;margin-top:0pt;margin-bottom:0pt;border-bottom:1px solid #000000">&#160;</div> <div style="line-height:3.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1px solid #000000">&#160;</div> <p style="margin-top:8pt; margin-bottom:0pt; font-size:18pt; font-family:Times New Roman;font-weight:bold;text-align:center">UNITED STATES</p> <p style="margin-top:0pt; margin-bottom:0pt; font-size:18pt; font-family:Times New Roman;font-weight:bold;text-align:center">SECURITIES AND EXCHANGE COMMISSION</p> <p style="margin-top:0pt; margin-bottom:0pt; font-size:12pt; font-family:Times New Roman;font-weight:bold;text-align:center">Washington, D.C. 20549</p> <p style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</p> <div style="text-align:center"> <div style="line-height:6.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1.00pt solid #000000;width:21%;text-align:center;margin-left: auto;margin-right: auto">&#160;</div></div> <p style="margin-top:6pt; margin-bottom:0pt; font-size:18pt; font-family:Times New Roman;font-weight:bold;text-align:center">FORM <span style="white-space:nowrap"><ix:nonNumeric name="dei:DocumentType" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-591">8-K</ix:nonNumeric></span></p> <p style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</p> <div style="text-align:center"> <div style="line-height:6.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1.00pt solid #000000;width:21%;text-align:center;margin-left: auto;margin-right: auto">&#160;</div></div> <p style="margin-top:6pt; margin-bottom:0pt; font-size:12pt; font-family:Times New Roman;font-weight:bold;text-align:center">CURRENT REPORT</p> <p style="margin-top:0pt; margin-bottom:0pt; font-size:12pt; font-family:Times New Roman;font-weight:bold;text-align:center">Pursuant to Section&#160;13 or 15(d)</p> <p style="margin-top:0pt; margin-bottom:0pt; font-size:12pt; font-family:Times New Roman;font-weight:bold;text-align:center">of the Securities Exchange Act of 1934</p> <p style="margin-top:12pt; margin-bottom:0pt; font-size:12pt; font-family:Times New Roman;font-weight:bold;text-align:center">Date of Report (Date of earliest event reported): <ix:nonNumeric name="dei:DocumentPeriodEndDate" contextRef="duration_2026-07-02_to_2026-07-02" format="ixt:datemonthdayyearen" id="ixv-592">July&#160;2, 2026</ix:nonNumeric></p> <p style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</p> <div style="text-align:center"> <div style="line-height:6.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1.00pt solid #000000;width:21%;text-align:center;margin-left: auto;margin-right: auto">&#160;</div></div> <p style="margin-top:6pt; margin-bottom:0pt; font-size:24pt; font-family:Times New Roman;font-weight:bold;text-align:center"> <ix:nonNumeric name="dei:EntityRegistrantName" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-593">MIDERA FOOD PROCESSING, INC.</ix:nonNumeric> </p> <p style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:center">(Exact Name of Registrant as Specified in its Charter)</p> <p style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</p> <div style="text-align:center"> <div style="line-height:6.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1.00pt solid #000000;width:21%;text-align:center;margin-left: auto;margin-right: auto">&#160;</div></div> <p style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse; font-family:Times New Roman; font-size:8pt;width:100%;border-spacing:0;margin:0 auto">
+<tr>
+<td style="width:34%"/>
+<td style="vertical-align:bottom"/>
+<td style="width:32%"/>
+<td style="vertical-align:bottom;width:1%"/>
+<td style="width:32%"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;text-align:center"><span style="font-weight:bold"><ix:nonNumeric name="dei:EntityIncorporationStateCountryCode" contextRef="duration_2026-07-02_to_2026-07-02" format="ixt-sec:stateprovnameen" id="ixv-594">Delaware</ix:nonNumeric></span></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"><span style="font-weight:bold"><span style="white-space:nowrap"><ix:nonNumeric name="dei:EntityFileNumber" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-595">001-43265</ix:nonNumeric></span></span></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"><span style="font-weight:bold"><span style="white-space:nowrap"><ix:nonNumeric name="dei:EntityTaxIdentificationNumber" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-596">39-3886250</ix:nonNumeric></span></span></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:8pt">
+<td style="vertical-align:top;text-align:center"> <p style="margin-top:0pt; margin-bottom:0pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">(State or Other Jurisdiction</p> <p style="margin-top:0pt; margin-bottom:1pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">of Incorporation)</p></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"> <p style="margin-top:0pt; margin-bottom:0pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">(Commission</p> <p style="margin-top:0pt; margin-bottom:1pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">File Number)</p></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"> <p style="margin-top:0pt; margin-bottom:0pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">(IRS Employer</p> <p style="margin-top:0pt; margin-bottom:1pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">Identification No.)</p></td></tr></table> <p style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse; font-family:Times New Roman; font-size:10pt;width:100%;border-spacing:0;margin:0 auto">
+<tr>
+<td style="width:50%"/>
+<td style="vertical-align:bottom;width:1%"/>
+<td style="width:48%"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom;text-align:center"><span style="font-weight:bold"><ix:nonNumeric name="dei:EntityAddressAddressLine1" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-597">10275 West Higgins Road</ix:nonNumeric>, <ix:nonNumeric name="dei:EntityAddressAddressLine2" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-598">Suite 300</ix:nonNumeric>, <ix:nonNumeric name="dei:EntityAddressCityOrTown" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-599">Rosemont</ix:nonNumeric>, <ix:nonNumeric name="dei:EntityAddressStateOrProvince" contextRef="duration_2026-07-02_to_2026-07-02" format="ixt-sec:stateprovnameen" id="ixv-600">Illinois</ix:nonNumeric></span></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom;text-align:center"><span style="font-weight:bold"><ix:nonNumeric name="dei:EntityAddressPostalZipCode" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-601">60018</ix:nonNumeric></span></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:8pt">
+<td style="vertical-align:top;text-align:center"><span style="font-weight:bold">(Address of Principal Executive Offices)</span></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"><span style="font-weight:bold">(Zip Code)</span></td></tr></table> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:center"><ix:nonNumeric name="dei:CityAreaCode" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-602">(847)</ix:nonNumeric> <span style="white-space:nowrap"><ix:nonNumeric name="dei:LocalPhoneNumber" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-603">857-6696</ix:nonNumeric></span></p> <p style="margin-top:0pt; margin-bottom:0pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">(Registrant&#8217;s telephone number, including area code)</p> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:center">N/A</p> <p style="margin-top:0pt; margin-bottom:0pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">(Former Name or Former Address, if Changed Since Last Report)</p> <p style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</p> <div style="text-align:center"> <div style="line-height:6.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1.00pt solid #000000;width:21%;text-align:center;margin-left: auto;margin-right: auto">&#160;</div></div> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Check the appropriate box below if the Form <span style="white-space:nowrap">8-K</span> filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p> <p style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table style="border-collapse:collapse; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left"><ix:nonNumeric name="dei:WrittenCommunications" contextRef="duration_2026-07-02_to_2026-07-02" format="ixt-sec:boolballotbox" id="ixv-604">&#9744;</ix:nonNumeric></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;text-align:left">Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</p></td></tr></table> <p style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table style="border-collapse:collapse; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left"><ix:nonNumeric name="dei:SolicitingMaterial" contextRef="duration_2026-07-02_to_2026-07-02" format="ixt-sec:boolballotbox" id="ixv-605">&#9744;</ix:nonNumeric></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;text-align:left">Soliciting material pursuant to Rule <span style="white-space:nowrap">14a-12</span> under the Exchange Act (17 CFR <span style="white-space:nowrap">240.14a-12)</span></p></td></tr></table> <p style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table style="border-collapse:collapse; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left"><ix:nonNumeric name="dei:PreCommencementTenderOffer" contextRef="duration_2026-07-02_to_2026-07-02" format="ixt-sec:boolballotbox" id="ixv-606">&#9744;</ix:nonNumeric></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;text-align:left"><span style="white-space:nowrap">Pre-commencement</span> communications pursuant to Rule <span style="white-space:nowrap">14d-2(b)</span> under the Exchange Act (17 CFR <span style="white-space:nowrap">240.14d-2(b))</span></p></td></tr></table> <p style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table style="border-collapse:collapse; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left"><ix:nonNumeric name="dei:PreCommencementIssuerTenderOffer" contextRef="duration_2026-07-02_to_2026-07-02" format="ixt-sec:boolballotbox" id="ixv-607">&#9744;</ix:nonNumeric></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;text-align:left"><span style="white-space:nowrap">Pre-commencement</span> communications pursuant to Rule <span style="white-space:nowrap">13e-4(c)</span> under the Exchange Act (17 CFR <span style="white-space:nowrap">240.13e-4(c))</span></p></td></tr></table> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Securities registered pursuant to Section&#160;12(b) of the Act:</p> <p style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse; font-family:Times New Roman; font-size:8pt;width:100%;border-spacing:0;margin:0 auto">
+<tr>
+<td style="width:34%"/>
+<td style="vertical-align:bottom"/>
+<td style="width:32%"/>
+<td style="vertical-align:bottom;width:1%"/>
+<td style="width:32%"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:8pt">
+<td style="border-bottom:1.00pt solid #000000;vertical-align:bottom;white-space:nowrap;text-align:center"> <p style="margin-top:0pt; margin-bottom:1pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">Title of Each Class</p></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="border-bottom:1.00pt solid #000000;vertical-align:bottom;text-align:center"> <p style="margin-top:0pt; margin-bottom:1pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">Trading<br/>Symbol(s)</p></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="border-bottom:1.00pt solid #000000;vertical-align:bottom;text-align:center"> <p style="margin-top:0pt; margin-bottom:0pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">Name of Each Exchange</p> <p style="margin-top:0pt; margin-bottom:1pt; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">on Which Registered</p></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;text-align:center"><ix:nonNumeric name="dei:Security12bTitle" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-608">Common Stock, par value $0.01 per share</ix:nonNumeric></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"><ix:nonNumeric name="dei:TradingSymbol" contextRef="duration_2026-07-02_to_2026-07-02" id="ixv-609">MFP</ix:nonNumeric></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"><ix:nonNumeric name="dei:SecurityExchangeName" contextRef="duration_2026-07-02_to_2026-07-02" format="ixt-sec:exchnameen" id="ixv-610">The Nasdaq Stock Market LLC</ix:nonNumeric></td></tr></table> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule <span style="white-space:nowrap">12b-2</span> of the Securities Exchange Act of 1934 <span style="white-space:nowrap">(&#167;240.12b-2</span> of this chapter).</p> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;text-align:right">Emerging growth company&#8194;<ix:nonNumeric name="dei:EntityEmergingGrowthCompany" contextRef="duration_2026-07-02_to_2026-07-02" format="ixt-sec:boolballotbox" id="ixv-611">&#9746;</ix:nonNumeric></p> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section&#160;13(a) of the Exchange Act.&#8194;<ix:nonNumeric name="dei:EntityExTransitionPeriod" contextRef="duration_2026-07-02_to_2026-07-02" format="ixt-sec:boolballotbox" id="ixv-612">&#9746;</ix:nonNumeric></p> <p style="font-size:10pt;margin-top:0pt;margin-bottom:0pt">&#160;</p> <div style="line-height:1.0pt;margin-top:0pt;margin-bottom:0pt;border-bottom:1px solid #000000">&#160;</div> <div style="line-height:3.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1px solid #000000">&#160;</div></div></div>
+
+<p style="margin-top:1em; margin-bottom:0em; page-break-before:always"> </p>
+<hr style="color:#999999;height:3px;width:100%;clear:both"/>
+
+<div style="text-align:center"><div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto">
+
+<table style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:11%;vertical-align:top;text-align:left"><span style="font-weight:bold">Item&#8201;1.01</span></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:left">Entry into a Material Definitive Agreement. </p></td></tr></table> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold"><span style="font-style:italic">Agreements with The Middleby Corporation </span></p> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">On July&#160;6, 2026, The Middleby Corporation (&#8220;Middleby&#8221;) completed its <span style="white-space:nowrap">spin-off</span> of Midera Food Processing, Inc., a Delaware corporation (the &#8220;Company&#8221;), into a new, publicly traded company (the <span style="white-space:nowrap">&#8220;Spin-off&#8221;).</span> As a result of the <span style="white-space:nowrap">Spin-off,</span> Middleby has no ownership interest in the Company. The Company has entered into the following agreements with Middleby in connection with the <span style="white-space:nowrap">Spin-off</span> in order to govern the ongoing relationship between the Company and Middleby after the <span style="white-space:nowrap">Spin-off</span> and to facilitate an orderly transition. </p> <p style="margin-top:18pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold"><span style="font-style:italic">Separation and Distribution Agreement </span></p> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">On July&#160;5, 2026, the Company entered into a Separation and Distribution Agreement with Middleby (the &#8220;Separation Agreement&#8221;), that sets forth, among other things, the agreements between the Company and Middleby regarding the principal actions taken in connection with the <span style="white-space:nowrap">Spin-off,</span> including those related to the series of internal reorganization transactions that Middleby undertook prior to the <span style="white-space:nowrap">Spin-off,</span> pursuant to which the Company holds, through its subsidiaries, Middleby&#8217;s food processing business, and the distribution of 100% of the issued and outstanding shares of Company common stock to Middleby&#8217;s stockholders pursuant to the <span style="white-space:nowrap">Spin-off.</span> It also sets forth other agreements that govern certain aspects of the Company&#8217;s relationship with Middleby following the <span style="white-space:nowrap">Spin-off.</span> A summary of the Separation Agreement can be found in the Company&#8217;s Information Statement included as Exhibit 99.1 to the Company&#8217;s Current Report on Form <span style="white-space:nowrap">8-K</span> that was filed with the U.S. Securities and Exchange Commission (the &#8220;SEC&#8221;) on June&#160;22, 2026 (the &#8220;Information Statement&#8221;), under the section entitled &#8220;Certain Relationships and Related Transactions&#8212;Material Agreements with Middleby&#8212;The Separation and Distribution Agreement&#8221; which summary is incorporated herein by reference. The foregoing description of the Separation Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Separation Agreement, which is filed as Exhibit&#160;2.1 to this Current Report on&#160;Form <span style="white-space:nowrap">8-K</span> and incorporated herein by reference. </p> <p style="margin-top:18pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold"><span style="font-style:italic">Tax Matters Agreement </span></p> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">On July&#160;5, 2026, the Company entered into a Tax Matters Agreement with Middleby (the &#8220;Tax Matters Agreement&#8221;). The Tax Matters Agreement governs the Company&#8217;s and Middleby&#8217;s respective rights, responsibilities and obligations with respect to tax liabilities and benefits, tax attributes, the preparation and filing of tax returns, the control of audits and other tax proceedings and other matters regarding taxes. The foregoing description of the Tax Matters Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Tax Matters Agreement, which is filed as Exhibit&#160;10.1 to this Current Report on&#160;Form <span style="white-space:nowrap">8-K</span> and incorporated herein by reference. </p> <p style="margin-top:18pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold"><span style="font-style:italic">Employee Matters Agreement </span></p> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">On July&#160;5, 2026, the Company entered into an Employee Matters Agreement with Middleby (the &#8220;Employee Matters Agreement&#8221;). The Employee Matters Agreement allocates liabilities and responsibilities relating to employment matters, employee compensation and benefit plans and programs and other related matters and governs certain compensation and employee benefit obligations with respect to the current and former employees <span style="white-space:nowrap">and&#160;non-employee&#160;directors</span> of each of the Company and Middleby, including the terms of equity-based awards granted by Middleby prior to the <span style="white-space:nowrap">Spin-off.</span> The Employee Matters Agreement also sets forth the general principles relating to employee matters with respect to both domestic and international employees, including with respect to collective bargaining agreements, allocation of assets and liabilities, workers&#8217; compensation, payroll matters, regulatory filings, paid time off, commencing or continuing participation in employee benefit plans and the sharing of employee information, in each case as it relates to the <span style="white-space:nowrap">Spin-off.</span> The foregoing description of the Employee Matters Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Employee Matters Agreement, which is filed as Exhibit&#160;10.2 to this Current Report on&#160;Form <span style="white-space:nowrap">8-K</span> and incorporated herein by reference. </p> <p style="margin-top:18pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold"><span style="font-style:italic">Intellectual Property Matters Agreement </span></p> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">On July&#160;5, 2026, the Company entered into an Intellectual Property Matters Agreement with Middleby (the &#8220;Intellectual Property Matters Agreement&#8221;). The Intellectual Property Matters Agreement provides for, among other things, intellectual property cross-licenses, intellectual property ownership, sublicensing, prosecution, enforcement and other arrangements. The foregoing description of the Intellectual Property Matters Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Intellectual Property Matters Agreement, which is filed as Exhibit&#160;10.3 to this Current Report on&#160;Form <span style="white-space:nowrap">8-K</span> and incorporated herein by reference. </p>
+</div></div>
+
+
+
+<p style="margin-top:1em; margin-bottom:0em; page-break-before:always"> </p>
+<hr style="color:#999999;height:3px;width:100%;clear:both"/>
+
+<div style="text-align:center"><div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto">
+ <p style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold"><span style="font-style:italic">Transition Services Agreement </span></p> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">On July&#160;5, 2026, the Company entered into a Transition Services Agreement with Middleby (the &#8220;Transition Services Agreement&#8221;). Pursuant to the Transition Services Agreement, the Company and Middleby will each provide specified services, including information technology, payroll and benefits, accounting, finance, compliance and administrative activities, to the other on a transitional basis to help ensure an orderly transition following <span style="white-space:nowrap">the&#160;Spin-off.</span> The foregoing description of the Transition Services Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Transition Services Agreement, which is filed as Exhibit&#160;10.4 to this Current Report on&#160;Form <span style="white-space:nowrap">8-K</span> and incorporated herein by reference. </p> <p style="font-size:18pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:11%;vertical-align:top;text-align:left"><span style="font-weight:bold">Item&#8201;3.03</span></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:left">Material Modification to Rights of Security Holders. </p></td></tr></table> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">The information set forth in Item 5.03 of this Current Report on Form <span style="white-space:nowrap">8-K</span> is incorporated into this Item 3.03 by reference. </p> <p style="font-size:18pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:11%;vertical-align:top;text-align:left"><span style="font-weight:bold">Item&#8201;5.01</span></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:left">Changes in Control of Registrant. </p></td></tr></table> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Immediately prior to the consummation of the <span style="white-space:nowrap">Spin-off,</span> the Company was a wholly-owned subsidiary of Middleby. Effective as of 12:01 a.m., Eastern Time, on July&#160;6, 2026, Middleby completed the <span style="white-space:nowrap">Spin-off</span> through the distribution by Middleby of 100% of the issued and outstanding shares of Company common stock on a pro rata basis to the holders of Middleby common stock. Each Middleby stockholder received one share of Company common stock for every one share of Middleby common stock held of record as of 4:00 p.m., Central Time, on June&#160;26, 2026. </p> <p style="font-size:18pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:11%;vertical-align:top;text-align:left"><span style="font-weight:bold">Item&#8201;5.02</span></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:left">Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. </p></td></tr></table> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold"><span style="font-style:italic">Appointment of Directors </span></p> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Effective as of immediately prior to the consummation of the <span style="white-space:nowrap">Spin-off,</span> the following individuals are now serving as members of the Board of Directors of the Company (the &#8220;Board&#8221;) in the positions noted below: </p> <p style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table cellspacing="0" cellpadding="0" style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;width:84%;border-spacing:0;margin:0 auto">
+
+
+<tr>
+
+<td style="width:51%"/>
+
+<td style="vertical-align:bottom;width:2%"/>
+<td style="width:47%"/></tr>
+
+
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:8pt">
+<td style="vertical-align:top"><span style="font-weight:bold">Name</span></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"><span style="font-weight:bold">Position</span></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">Robert A. Nerbonne</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Director and Chair of the Board</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">Mark M. Salman</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Director and Chief Executive Officer</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">Carlos A. Fernandez Villena</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Director</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">Timothy J. FitzGerald</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Director</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">James T. Glerum, Jr.</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Director</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">Brian M. Jacoby</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Director</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">Cathy L. McCarthy</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Director</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">Janet H. Zelenka</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Director</td></tr>
+</table> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Biographical information on each member of the Board can be found in the Information Statement under the section entitled &#8220;Management&#8212;Directors and Executive Officers Following the <span style="white-space:nowrap">Spin-Off&#8221;</span> which is incorporated into this Item 5.02 by reference. </p> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Also, effective as of immediately prior to the consummation of the <span style="white-space:nowrap">Spin-off,</span> the committees of the Board were comprised of the following members: </p> <p style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table cellspacing="0" cellpadding="0" style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;width:84%;border-spacing:0;margin:0 auto">
+
+
+<tr>
+
+<td style="width:51%"/>
+
+<td style="vertical-align:bottom;width:2%"/>
+<td style="width:47%"/></tr>
+
+
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:8pt">
+<td style="vertical-align:bottom"><span style="font-weight:bold">Committee</span></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"><span style="font-weight:bold">Members</span></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">Audit Committee</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Janet H. Zelenka (Chair)</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Brian M. Jacoby</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">James T. Glerum, Jr.</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Cathy L. McCarthy</td></tr>
+<tr style="font-size:1pt">
+<td style="height:12pt"/>
+<td style="height:12pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">Compensation Committee</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Brian M. Jacoby (Chair)</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Carlos A. Fernandez Villena</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Robert A. Nerbonne</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">Janet H. Zelenka</td></tr>
+<tr style="font-size:1pt">
+<td style="height:12pt"/>
+<td style="height:12pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top">Nominating and Corporate Governance Committee</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"> <p style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Cathy L. McCarthy (Chair)</p> <p style="margin-top:0pt; margin-bottom:1pt; font-size:10pt; font-family:Times New Roman">Robert A. Nerbonne</p></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom">James T. Glerum, Jr.</td></tr>
+</table>
+</div></div>
+
+
+
+<p style="margin-top:1em; margin-bottom:0em; page-break-before:always"> </p>
+<hr style="color:#999999;height:3px;width:100%;clear:both"/>
+
+<div style="text-align:center"><div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto">
+ <p style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Each of the <span style="white-space:nowrap">non-employee</span> directors of the Company will receive compensation for their service as a director or committee member in accordance with plans and programs more fully described in the Information Statement under the heading &#8220;Director Compensation&#8221; which is incorporated into this Item 5.02 by reference. </p> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">There are no arrangements or understandings between any of the individuals listed above and any other person pursuant to which such individuals were selected as directors. There are no transactions involving any of the individuals listed above that would be required to be reported under Item 404(a) of Regulation <span style="white-space:nowrap">S-K</span> of the Securities Act of 1933, as amended (the &#8220;Securities Act&#8221;). </p> <p style="margin-top:18pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold"><span style="font-style:italic">Appointment of Certain Executive Officers </span></p> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Effective as of immediately prior to the consummation of the <span style="white-space:nowrap">Spin-off,</span> the following individuals are now serving as executive officers of the Company in the positions noted below: </p> <p style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table cellspacing="0" cellpadding="0" style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;width:84%;border-spacing:0;margin:0 auto">
+
+
+<tr>
+
+<td style="width:51%"/>
+
+<td style="vertical-align:bottom;width:2%"/>
+<td style="width:47%"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:8pt">
+<td style="vertical-align:bottom"><span style="font-weight:bold">Name</span></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"><span style="font-weight:bold">Position</span></td></tr>
+
+
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top"> <p style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Times New Roman">Mark M. Salman</p></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap">Chief Executive Officer</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top"> <p style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Times New Roman">Amy A. Campbell</p></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap">Chief Financial Officer</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top"> <p style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Times New Roman">Mark S. Bowie</p></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap">Chief Operating Officer</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top"> <p style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Times New Roman">Matthew R. Fuchsen</p></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap">Chief Strategy Officer</td></tr>
+</table> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">The plans and programs in which the named executive officers of the Company may participate in at the Company are substantially similar to those plans and programs in which each named executive officer was eligible to participate in at Middleby prior to the <span style="white-space:nowrap">Spin-off,</span> as described in the Information Statement under the heading &#8220;Executive Compensation&#8221; which is incorporated into this Item 5.02 by reference. In addition, prior to the <span style="white-space:nowrap">Spin-off,</span> Mr.&#160;Salman and the Company entered into an employment agreement, the terms of which are further described in the Information Statement under the heading &#8220;Executive Compensation&#8221;. Further, in connection with the <span style="white-space:nowrap">Spin-off</span> and as described in the Information Statement under the heading &#8220;Executive Compensation&#8221;, the Company adopted, and the sole stockholder of the Company approved, The Midera Food Processing, Inc. 2026 Long-Term Incentive Plan, and the Company adopted the Midera Food Processing, Inc. Value Creation Incentive Plan and the Midera Food Processing, Inc. Executive Severance Plan. Summaries of the material features of these plans can be found in the Information Statement under the section entitled &#8220;Executive Compensation&#8221; and the foregoing descriptions of these plans (including Mr.&#160;Salman&#8217;s employment agreement) set forth under this Item 5.02 do not purport to be complete and are subject to, and qualified in their entirety by reference to, the full text of the forms of the plans, which are attached to the Company&#8217;s Registration Statement on Form 10 (File <span style="white-space:nowrap">No.&#160;001-43265)</span> initially filed with the SEC on May&#160;4, 2026, as amended by Amendment No.&#160;1 as filed with the SEC on May&#160;27, 2026, as Exhibit 10.5, Exhibit 10.11, Exhibit 10.12 and Exhibit 10.13, and are incorporated into this Item 5.02 by reference. </p> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">There are no arrangements or understandings between any of the individuals listed above and any other persons pursuant to which such individuals were appointed to their respective positions. There are also no family relationships between such individuals and any director or executive officer of the Company. There are no transactions involving any of the individuals listed above that would be required to be reported under Item 404(a) of Regulation <span style="white-space:nowrap">S-K</span> of the Securities Act. </p> <p style="font-size:18pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:11%;vertical-align:top;text-align:left"><span style="font-weight:bold">Item&#8201;5.03</span></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:left">Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year. </p></td></tr></table> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Effective as of July&#160;2, 2026, the certificate of incorporation, as amended, of the Company was amended and restated (the &#8220;Amended and Restated Certificate of Incorporation&#8221;). Effective as of July&#160;2, 2026, the bylaws of the Company, as amended, were amended and restated (the &#8220;Amended and Restated Bylaws&#8221;). A description of the material provisions of the Amended and Restated Certificate of Incorporation and the Amended and Restated Bylaws can be found in the Information Statement under the section entitled &#8220;Description of Capital Stock&#8221; which is incorporated into this Item 5.03 by reference. </p> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">The foregoing descriptions of the Amended and Restated Certificate of Incorporation and the Amended and Restated Bylaws do not purport to be complete and are qualified in their entirety by reference to the full text of the Amended and Restated Certificate of Incorporation, a copy of which is attached hereto as Exhibit 3.1 and incorporated into this Item 5.03 by reference, and the Amended and Restated Bylaws, a copy of which is attached hereto as Exhibit 3.2 and incorporated into this Item 5.03 by reference. </p>
+</div></div>
+
+
+
+<p style="margin-top:1em; margin-bottom:0em; page-break-before:always"> </p>
+<hr style="color:#999999;height:3px;width:100%;clear:both"/>
+
+<div style="text-align:center"><div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto">
+
+<table style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:11%;vertical-align:top;text-align:left"><span style="font-weight:bold">Item&#8201;5.05</span></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:left">Amendments to the Registrant&#8217;s Code of Ethics, or Waiver of a Provision of the Code of Ethics. </p></td></tr></table> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">In connection with the <span style="white-space:nowrap">Spin-off,</span> the Board adopted a Code of Conduct. A copy of the Company&#8217;s Code of Conduct is available under the &#8220;Investors&#8221; section of the Company&#8217;s website at investors.midera.com. Except with respect to the Company&#8217;s Code of Conduct, information on the website is not deemed included or incorporated by reference into this Current Report on Form <span style="white-space:nowrap">8-K.</span> </p> <p style="font-size:18pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:11%;vertical-align:top;text-align:left"><span style="font-weight:bold">Item&#8201;7.01</span></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:left">Regulation FD Disclosure. </p></td></tr></table> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">On July&#160;6, 2026, the Company issued a press release announcing, among other things, the consummation of the <span style="white-space:nowrap">Spin-off.</span> A copy of the press release is furnished as Exhibit 99.1 to this Current Report on&#160;Form <span style="white-space:nowrap">8-K&#160;and</span> is incorporated herein by reference. </p> <p style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">The information set forth in this Item 7.01, including Exhibit&#160;99.1, is deemed to be &#8220;furnished&#8221; and shall not be deemed to be &#8220;filed&#8221; for purposes of Section&#160;18 of the Securities Exchange Act of 1934, as amended (the &#8220;Exchange Act&#8221;), or otherwise subject to the liabilities of that Section. The information set forth in this Item 7.01, including Exhibit&#160;99.1, shall not be deemed incorporated by reference into any filing under the Exchange Act or the Securities Act, regardless of any general incorporation language in such filing, except as shall be expressly set forth by specific reference in such filing. </p> <p style="font-size:18pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;border-spacing:0;width:100%" cellpadding="0" cellspacing="0">
+<tr style="page-break-inside:avoid">
+<td style="width:11%;vertical-align:top;text-align:left"><span style="font-weight:bold">Item&#8201;9.01</span></td>
+<td style="vertical-align:top;text-align:left"> <p style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;font-weight:bold;text-align:left">Financial Statements and Exhibits. </p></td></tr></table> <p style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">(d) Exhibits </p> <p style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table cellspacing="0" cellpadding="0" style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;width:100%;border-spacing:0;margin:0 auto">
+
+
+<tr>
+
+<td/>
+
+<td style="vertical-align:bottom;width:5%"/>
+<td style="width:92%"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:8pt">
+<td style="border-bottom:1.00pt solid #000000;vertical-align:bottom;white-space:nowrap;text-align:center"><span style="font-weight:bold">Exhibit</span><br/><span style="font-weight:bold">No.</span></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap;text-align:center"> <p style=" margin-top:0pt ; margin-bottom:0pt; border-bottom:1.00pt solid #000000; display:inline-block; font-size:8pt; font-family:Times New Roman;font-weight:bold;text-align:center">Description</p></td></tr>
+
+
+<tr style="font-size:1pt">
+<td style="height:6pt"/>
+<td style="height:6pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;white-space:nowrap">&#8199;2.1</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:top"><a href="d25601dex21.htm">Separation and Distribution Agreement, by and between The Middleby Corporation and Midera Food Processing, Inc., dated as of July&#160;5, 2026. </a></td></tr>
+<tr style="font-size:1pt">
+<td style="height:6pt"/>
+<td style="height:6pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;white-space:nowrap">&#8199;3.1</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:top"><a href="d25601dex31.htm">Amended and Restated Certificate of Incorporation of Midera Food Processing, Inc. (effective as of July&#160;2, 2026). </a></td></tr>
+<tr style="font-size:1pt">
+<td style="height:6pt"/>
+<td style="height:6pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;white-space:nowrap">&#8199;3.2</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:top"><a href="d25601dex32.htm">Amended and Restated Bylaws of Midera Food Processing, Inc. (effective as of July&#160;2, 2026). </a></td></tr>
+<tr style="font-size:1pt">
+<td style="height:6pt"/>
+<td style="height:6pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;white-space:nowrap">10.1</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:top"><a href="d25601dex101.htm">Tax Matters Agreement, by and between The Middleby Corporation and Midera Food Processing, Inc., dated as of July&#160;5, 2026. </a></td></tr>
+<tr style="font-size:1pt">
+<td style="height:6pt"/>
+<td style="height:6pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;white-space:nowrap">10.2</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:top"><a href="d25601dex102.htm">Employee Matters Agreement, by and between The Middleby Corporation and Midera Food Processing, Inc., dated as of July&#160;5, 2026. </a></td></tr>
+<tr style="font-size:1pt">
+<td style="height:6pt"/>
+<td style="height:6pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;white-space:nowrap">10.3</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:top"><a href="d25601dex103.htm">Intellectual Property Matters Agreement, by and between The Middleby Corporation and Midera Food Processing, Inc., dated as of July&#160;5, 2026. </a></td></tr>
+<tr style="font-size:1pt">
+<td style="height:6pt"/>
+<td style="height:6pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;white-space:nowrap">10.4</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:top"><a href="d25601dex104.htm">Transition Services Agreement, by and between The Middleby Corporation and Midera Food Processing, Inc., dated as of July&#160;5, 2026. </a></td></tr>
+<tr style="font-size:1pt">
+<td style="height:6pt"/>
+<td style="height:6pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;white-space:nowrap">99.1</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:top"><a href="d25601dex991.htm">Press Release, dated July&#160;6, 2026, issued by Midera Food Processing, Inc. </a></td></tr>
+<tr style="font-size:1pt">
+<td style="height:6pt"/>
+<td style="height:6pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:top;white-space:nowrap">104</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:top">Cover Page Interactive Data File (the cover page XBRL tags are embedded within the Inline XBRL document).</td></tr>
+</table>
+</div></div>
+
+
+
+<p style="margin-top:1em; margin-bottom:0em; page-break-before:always"> </p>
+<hr style="color:#999999;height:3px;width:100%;clear:both"/>
+
+<div style="text-align:center"><div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto">
+ <p style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman;text-align:center">SIGNATURES </p> <p style="margin-top:12pt; margin-bottom:0pt; text-indent:4%; font-size:10pt; font-family:Times New Roman">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. </p> <p style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</p>
+<table cellspacing="0" cellpadding="0" style="BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt;width:100%;border-spacing:0">
+
+
+<tr>
+
+<td style="width:45%"/>
+
+<td style="vertical-align:bottom;width:1%"/>
+<td style="width:4%"/>
+
+<td style="vertical-align:bottom"/>
+<td style="width:3%"/>
+
+<td style="vertical-align:bottom;width:1%"/>
+<td style="width:45%"/></tr>
+
+
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom" colspan="3">MIDERA FOOD PROCESSING, INC.</td></tr>
+<tr style="font-size:1pt">
+<td style="height:12pt"/>
+<td style="height:12pt" colspan="2"/>
+<td style="height:12pt" colspan="2"/>
+<td style="height:12pt" colspan="2"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom">Date: July&#160;6, 2026</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">By:</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom"> <p style="margin-top:0pt; margin-bottom:1pt; border-bottom:1px solid #000000; font-size:10pt; font-family:Times New Roman">/s/ Amy A. Campbell</p></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">Amy A. Campbell</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Times New Roman; font-size:10pt">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">Chief Financial Officer</td></tr>
+</table>
+</div></div>
+
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body></html>

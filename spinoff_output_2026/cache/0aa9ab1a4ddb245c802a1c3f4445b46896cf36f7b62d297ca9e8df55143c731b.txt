@@ -1,0 +1,1079 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>28
+<FILENAME>R12.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Condensed Statements of Cash Flows (Unaudited) - USD ($)<br></strong></div></th>
+<th class="th" colspan="2">6 Months Ended</th>
+</tr>
+<tr>
+<th class="th"><div>Jun. 30, 2026</div></th>
+<th class="th"><div>Jun. 30, 2025</div></th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract', window );"><strong>Operating Activities</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_NetIncomeLoss', window );">Net Increase in Net Assets Resulting from Operations</a></td>
+<td class="nump">$ 453,005,000<span></span>
+</td>
+<td class="nump">$ 66,568,000<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract', window );"><strong>Adjustments to Reconcile Net Increase in Net Assets Resulting from Operations to Net Cash Provided by (Used in) Operating Activities</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UnrealizedGainLossInvestmentAndDerivativeOperatingAfterTax', window );">Net Change in Unrealized (Gain) Loss on Investment in the Aggregator</a></td>
+<td class="num">(381,157,000)<span></span>
+</td>
+<td class="num">(45,503,000)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_InvestmentInSubsidiaries', window );">Investment in the Aggregator</a></td>
+<td class="num">(1,386,108,000)<span></span>
+</td>
+<td class="num">(2,016,006,000)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_ProceedsFromSubsidiaries', window );">Proceeds from Investment in Aggregator</a></td>
+<td class="nump">2,628,000<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_IncreaseDecreaseInOperatingCapitalAbstract', window );"><strong>Cash Flows Due to Changes in Operating Assets and Liabilities</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_IncreaseDecreaseInDividendsReceivable', window );">Dividend Receivable</a></td>
+<td class="num">(10,567,000)<span></span>
+</td>
+<td class="num">(15,944,000)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_IncreaseDecreaseDueFromAffiliates', window );">Due from Affiliates</a></td>
+<td class="num">(259,000)<span></span>
+</td>
+<td class="num">(10,000)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_IncreaseDecreaseInDueToAffiliates', window );">Due to Affiliates</a></td>
+<td class="nump">144,000<span></span>
+</td>
+<td class="nump">2,000<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities', window );">Accounts Payable, Accrued Expenses and Other Liabilities</a></td>
+<td class="nump">405,000<span></span>
+</td>
+<td class="nump">1,115,000<span></span>
+</td>
+</tr>
+<tr class="rou">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_NetCashProvidedByUsedInOperatingActivities', window );">Net Cash Used in Operating Activities</a></td>
+<td class="num">(1,321,909,000)<span></span>
+</td>
+<td class="num">(2,009,778,000)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract', window );"><strong>Financing Activities</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ProceedsFromIssuanceOfCommonLimitedPartnersUnits', window );">Proceeds from Issuance of Units</a></td>
+<td class="nump">1,345,119,000<span></span>
+</td>
+<td class="nump">2,017,369,000<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_ProceedsFromDistributionReinvested', window );">Distribution Reinvested</a></td>
+<td class="nump">14,624,000<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PaymentForServicingFees', window );">Payments for Servicing Fees</a></td>
+<td class="num">(5,528,000)<span></span>
+</td>
+<td class="num">(1,425,000)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DistributionMadeToLimitedPartnerCashDistributionsPaid', window );">Distributions Paid in Cash</a></td>
+<td class="num">(30,323,000)<span></span>
+</td>
+<td class="num">(5,637,000)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_PaymentsForRepurchaseOfUnitsNetOfEarlyRepurchaseDeduction', window );">Redemption of Units, net of Early Redemption Deduction</a></td>
+<td class="num">(2,515,000)<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="reu">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_NetCashProvidedByUsedInFinancingActivities', window );">Net Cash Provided by Financing Activities</a></td>
+<td class="nump">1,321,377,000<span></span>
+</td>
+<td class="nump">2,010,307,000<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CashAndCashEquivalentsAbstract', window );"><strong>Cash and Cash Equivalents</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="reu">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect', window );">Net Increase (Decrease)</a></td>
+<td class="num">(532,000)<span></span>
+</td>
+<td class="nump">529,000<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents', window );">Beginning of Period</a></td>
+<td class="nump">1,063,000<span></span>
+</td>
+<td class="nump">100,000<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents', window );">End of Period</a></td>
+<td class="nump">531,000<span></span>
+</td>
+<td class="nump">629,000<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract', window );"><strong>Supplemental Disclosure of Non-Cash Financing Activities</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockIssued1', window );">Issuance of Class I-Series I Units for Performance Participation Allocation</a></td>
+<td class="nump">4,981,000<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_AccruedServicingFees', window );">Accrued Servicing Fees</a></td>
+<td class="nump">26,293,000<span></span>
+</td>
+<td class="nump">47,568,000<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_OtherSignificantNoncashTransactionDistributionsReinvested', window );">Distribution Reinvested</a></td>
+<td class="nump">31,770,000<span></span>
+</td>
+<td class="nump">4,227,000<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_OtherSignificantNoncashTransactionDistributionsPayable', window );">Distribution Payable</a></td>
+<td class="nump">38,996,000<span></span>
+</td>
+<td class="nump">15,941,000<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_OtherSignificantNoncashTransactionPaymentsForRepurchaseOfUnitsNetOfEarlyRepurchaseDeduction', window );">Redemptions Payable, Net of Early Redemption Deduction</a></td>
+<td class="nump">9,335,000<span></span>
+</td>
+<td class="nump">205,000<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_NonCashOrPartNonCashEarlyRedemptionDeductionReceivableFromTheFeeder', window );">Early Redemption Deduction Receivable from the Feeder</a></td>
+<td class="nump">$ 33,000<span></span>
+</td>
+<td class="nump">$ 6,000<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_AccruedServicingFees">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Accrued Servicing Fees</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_AccruedServicingFees</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_InvestmentInSubsidiaries">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Investment in bxinfra aggregator</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_InvestmentInSubsidiaries</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_NonCashOrPartNonCashEarlyRedemptionDeductionReceivableFromTheFeeder">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Non Cash Or Part Non Cash Early Redemption Deduction Receivable From The Feeder</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_NonCashOrPartNonCashEarlyRedemptionDeductionReceivableFromTheFeeder</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_OtherSignificantNoncashTransactionDistributionsPayable">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Other Significant Noncash Transaction, Distributions Payable</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_OtherSignificantNoncashTransactionDistributionsPayable</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_OtherSignificantNoncashTransactionDistributionsReinvested">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Other Significant Noncash Transaction, Distributions Reinvested</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_OtherSignificantNoncashTransactionDistributionsReinvested</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_OtherSignificantNoncashTransactionPaymentsForRepurchaseOfUnitsNetOfEarlyRepurchaseDeduction">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Other Significant Noncash Transaction, Payments For Repurchase Of Units Net Of Early Repurchase Deduction</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_OtherSignificantNoncashTransactionPaymentsForRepurchaseOfUnitsNetOfEarlyRepurchaseDeduction</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PaymentForServicingFees">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Payment for servicing fees.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PaymentForServicingFees</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_PaymentsForRepurchaseOfUnitsNetOfEarlyRepurchaseDeduction">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Payments For Repurchase Of Units Net Of Early Repurchase Deduction</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_PaymentsForRepurchaseOfUnitsNetOfEarlyRepurchaseDeduction</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_ProceedsFromDistributionReinvested">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Proceeds from distribution reinvested.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_ProceedsFromDistributionReinvested</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_ProceedsFromSubsidiaries">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Proceeds From Subsidiaries</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_ProceedsFromSubsidiaries</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CashAndCashEquivalentsAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CashAndCashEquivalentsAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of cash and cash equivalent, and cash and cash equivalent restricted to withdrawal or usage; attributable to continuing operation. Cash includes, but is not limited to, currency on hand, demand deposit with financial institution, and account with general characteristic of demand deposit. Cash equivalent includes, but is not limited to, short-term, highly liquid investment that is both readily convertible to known amount of cash and so near maturity that it presents insignificant risk of change in value because of change in interest rate.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-4<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 8<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482913/230-10-50-8<br><br>Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 24<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-24<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of increase (decrease) in cash and cash equivalent, and cash and cash equivalent restricted to withdrawal or usage; including effect from exchange rate change and including, but not limited to, discontinued operation. Cash includes, but is not limited to, currency on hand, demand deposit with financial institution, and account with general characteristic of demand deposit. Cash equivalent includes, but is not limited to, short-term, highly liquid investment that is both readily convertible to known amount of cash and so near maturity that it presents insignificant risk of change in value because of change in interest rate.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 24<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-24<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -SubTopic 230<br> -Topic 830<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477401/830-230-45-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DistributionMadeToLimitedPartnerCashDistributionsPaid">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of cash distribution paid to unit-holder of limited partnership (LP).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 5<br> -Subparagraph (SAB Topic 4.F)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-5<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 8<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-8<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DistributionMadeToLimitedPartnerCashDistributionsPaid</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_IncreaseDecreaseDueFromAffiliates">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The increase (decrease) during the reporting period in receivables to be collected from an entity that is controlling, under the control of, or within the same control group as the reporting entity by means of direct or indirect ownership.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 28<br> -Subparagraph (a)<br> -SubTopic 10<br> -Topic 230<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_IncreaseDecreaseDueFromAffiliates</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_IncreaseDecreaseInDividendsReceivable">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The increase (decrease) during the reporting period in cash disbursements due from investments, representing the shareholders' portion of profits.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 28<br> -Subparagraph (a)<br> -SubTopic 10<br> -Topic 230<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_IncreaseDecreaseInDividendsReceivable</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_IncreaseDecreaseInDueToAffiliates">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The increase (decrease) in obligations owed to an entity that is controlling, under the control of, or within the same control group as the reporting entity by means of direct or indirect ownership.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 28<br> -Subparagraph (a)<br> -SubTopic 10<br> -Topic 230<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_IncreaseDecreaseInDueToAffiliates</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_IncreaseDecreaseInOperatingCapitalAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_IncreaseDecreaseInOperatingCapitalAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The increase (decrease) during the reporting period in other obligations or expenses incurred but not yet paid.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 28<br> -Subparagraph (a)<br> -SubTopic 10<br> -Topic 230<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_NetCashProvidedByUsedInFinancingActivities">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of cash inflow (outflow) from financing activity, including, but not limited to, discontinued operation. Financing activity includes, but is not limited to, obtaining resource from owner and providing return on, and return of, their investment; borrowing money and repaying amount borrowed, or settling obligation; and obtaining and paying for other resource obtained from creditor on long-term credit.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 24<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-24<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_NetCashProvidedByUsedInFinancingActivities</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_NetCashProvidedByUsedInOperatingActivities">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of cash inflow (outflow) from operating activity, including, but not limited to, discontinued operation. Operating activity includes, but is not limited to, transaction, adjustment, and change in value not defined as investing or financing activity.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 28<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 24<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-24<br><br>Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 25<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-25<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_NetCashProvidedByUsedInOperatingActivities</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_NetIncomeLoss">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The portion of profit or loss for the period, net of income taxes, which is attributable to the parent.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480070/505-10-S50-6<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 65<br> -Paragraph 4<br> -Subparagraph (f)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482705/350-40-65-4<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 250<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483443/250-10-50-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 65<br> -Paragraph 2<br> -Subparagraph (e)(4)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479719/606-10-65-2<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 205<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483499/205-20-50-7<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 205<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5A<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5A<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 323<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3<br><br>Reference 8: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-10<br><br>Reference 9: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 220<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147476153/220-40-55-4<br><br>Reference 10: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 220<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 21<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147476153/220-40-55-21<br><br>Reference 11: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 220<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 14<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147476153/220-40-55-14<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(g)(1)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(k)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 825<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 28<br> -Subparagraph (f)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 250<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483443/250-10-50-4<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 480<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479857/480-10-S50-3<br><br>Reference 18: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 480<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479887/480-10-S45-3<br><br>Reference 19: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 480<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3A<br> -Subparagraph (24)(d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480244/480-10-S99-3A<br><br>Reference 20: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 105<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 65<br> -Paragraph 9<br> -Subparagraph (e)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479343/105-10-65-9<br><br>Reference 21: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 718<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 65<br> -Paragraph 17<br> -Subparagraph (d)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480336/718-10-65-17<br><br>Reference 22: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 250<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483443/250-10-50-6<br><br>Reference 23: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 805<br> -SubTopic 60<br> -Name Accounting Standards Codification<br> -Section 65<br> -Paragraph 1<br> -Subparagraph (g)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147476176/805-60-65-1<br><br>Reference 24: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 323<br> -Name Accounting Standards Codification<br> -Section 65<br> -Paragraph 2<br> -Subparagraph (g)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478666/740-323-65-2<br><br>Reference 25: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(iii)(B))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 26: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(iii)(A))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 27: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 220<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SX 210.5-03(20))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2<br><br>Reference 28: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(g)(1)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br><br>Reference 29: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 220<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482765/220-10-50-6<br><br>Reference 30: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 250<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483443/250-10-50-3<br><br>Reference 31: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 65<br> -Paragraph 1<br> -Subparagraph (f)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480175/815-40-65-1<br><br>Reference 32: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 33: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(iii)(A))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 34: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(iv))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 35: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 36: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 250<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 8<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483443/250-10-50-8<br><br>Reference 37: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 250<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 9<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483443/250-10-50-9<br><br>Reference 38: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 250<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 11<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483443/250-10-50-11<br><br>Reference 39: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 250<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 11<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483443/250-10-50-11<br><br>Reference 40: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(iv))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 41: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 42: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 7<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479105/946-220-45-7<br><br>Reference 43: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-04(18))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1<br><br>Reference 44: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(9))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br><br>Reference 45: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-09(1)(d))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3<br><br>Reference 46: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1A<br> -Subparagraph (SX 210.13-01(a)(4)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A<br><br>Reference 47: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1B<br> -Subparagraph (SX 210.13-02(a)(4)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B<br><br>Reference 48: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 260<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 60B<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482689/260-10-45-60B<br><br>Reference 49: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 28<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28<br><br>Reference 50: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 220<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1A<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482790/220-10-45-1A<br><br>Reference 51: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 220<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1B<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482790/220-10-45-1B<br><br>Reference 52: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 470<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 65<br> -Paragraph 4<br> -Subparagraph (f)(4)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481538/470-20-65-4<br><br>Reference 53: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 942<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-04(22))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478524/942-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_NetIncomeLoss</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ProceedsFromIssuanceOfCommonLimitedPartnersUnits">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The cash inflow from the issuance of common limited partners units during the period.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 14<br> -Subparagraph (a)<br> -SubTopic 10<br> -Topic 230<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482740/230-10-45-14<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ProceedsFromIssuanceOfCommonLimitedPartnersUnits</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_StockIssued1">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The fair value of stock issued in noncash financing activities.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 230<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482913/230-10-50-3<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_StockIssued1</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_UnrealizedGainLossInvestmentAndDerivativeOperatingAfterTax">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount, after tax, of unrealized gain (loss) from investment and derivative, classified as operating. Investment includes, but is not limited to, debt and equity securities, security sold short, real estate, and commodity.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 11<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-11<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478009/946-205-45-3<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-09(1)(c))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3<br><br>Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 6<br> -Subparagraph (b)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479105/946-220-45-6<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 37<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477346/946-830-45-37<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_UnrealizedGainLossInvestmentAndDerivativeOperatingAfterTax</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

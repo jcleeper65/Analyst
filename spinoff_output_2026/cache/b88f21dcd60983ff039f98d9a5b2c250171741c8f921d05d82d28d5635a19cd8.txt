@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-07-30</periodOfReport>
+
+    <notSubjectToSection16>false</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0002088281</issuerCik>
+        <issuerName>Midera Food Processing, Inc.</issuerName>
+        <issuerTradingSymbol>MFP</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001248449</rptOwnerCik>
+            <rptOwnerName>FITZGERALD TIMOTHY JOHN</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>10275 WEST HIGGINS ROAD, SUITE 300</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>ROSEMONT</rptOwnerCity>
+            <rptOwnerState>IL</rptOwnerState>
+            <rptOwnerZipCode>60018</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>true</isDirector>
+            <isOfficer>false</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>true</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-07-30</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>624</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>332176</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-07-30</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3615</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F3"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>335791</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>25200</value>
+                    <footnoteId id="F4"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>By Spouse and Children</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>20000</value>
+                    <footnoteId id="F4"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Timothy J. FitzGerald 2012 Gift Trust(5</value>
+                    <footnoteId id="F5"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>56250</value>
+                    <footnoteId id="F4"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Andrea C. FitzGerald 2012 Gift Trus</value>
+                    <footnoteId id="F6"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">These shares represent fully vested restricted stock units (&quot;RSUs&quot;). Each RSU represents a contingent right to receive one share of common stock on the applicable vesting date.</footnote>
+        <footnote id="F2">Includes 331,552 shares of common stock that have been acquired through a distribution in connection with the spin-off of the Issuer from The Middleby Corporation (the &quot;Spin-Off&quot;), in an exempt acquisition pursuant to Rule 16a-9 under the Securities Exchange Act of 1934, as amended (the &quot;Exchange Act&quot;).</footnote>
+        <footnote id="F3">These shares represent time-based RSUs. Each RSU represents a contingent right to receive one share of common stock on the applicable vesting date. These RSUs will vest in full on March 19, 2027. Vested shares will be issued to the reporting person after the applicable vesting date.</footnote>
+        <footnote id="F4">Represents shares of common stock that have been acquired through a distribution in connection with the Spin-Off, in an exempt acquisition pursuant to Rule 16a-9 under the Exchange Act.</footnote>
+        <footnote id="F5">The reporting person is the spouse of the trustee and a beneficiary of the Timothy J. FitzGerald 2012 Gift Trust. Beneficial ownership is disclaimed except to the extent of the reporting person's pecuniary interest therein. This filing shall not be deemed an admission that the reporting person is, for purposes of Section 16 of the Securities Exchange Act of 1934 or otherwise, the beneficial owner of any equity securities covered by this filing.</footnote>
+        <footnote id="F6">The reporting person is the trustee and a beneficiary of the Andrea C. FitzGerald 2012 Gift Trust. Beneficial ownership is disclaimed except to the extent of the reporting person's pecuniary interest therein. This filing shall not be deemed an admission that the reporting person is, for purposes of Section 16 of the Securities Exchange Act of 1934 or otherwise, the beneficial owner of any equity securities covered by this filing.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>James J. Drake POA</signatureName>
+        <signatureDate>2026-08-03</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

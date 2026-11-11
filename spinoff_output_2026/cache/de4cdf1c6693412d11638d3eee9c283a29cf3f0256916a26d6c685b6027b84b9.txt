@@ -1,0 +1,120 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>50
+<FILENAME>R36.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Significant Accounting Policies (Tables)<br></strong></div></th>
+<th class="th" colspan="1">12 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Dec. 31, 2025</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AccountingPoliciesAbstract', window );"><strong>Accounting Policies [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_LEEF_ScheduleOfEstimatedUsefulLivesTableTextBlock', window );">Schedule of Useful Lives</a></td>
+<td class="text"><p id="xdx_896_ecustom--ScheduleOfEstimatedUsefulLivesTableTextBlock_zAlmibIr8PM" style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span id="xdx_8B2_zYOOI09CdYkc" style="display: none">Schedule of Useful Lives</span><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; font-size: 10pt">
+  <tr style="vertical-align: top">
+    <td style="width: 40%"><span style="font-size: 10pt">Buildings </span></td>
+    <td style="width: 60%"><span style="font-size: 10pt"><span id="xdx_90C_eus-gaap--PropertyPlantAndEquipmentUsefulLife_iI_dtY_c20251231__us-gaap--PropertyPlantAndEquipmentByTypeAxis__us-gaap--BuildingMember__srt--RangeAxis__srt--MinimumMember_zFLUJlqkjJU1" title="Estimate useful lives">15</span> &#8211; <span id="xdx_901_eus-gaap--PropertyPlantAndEquipmentUsefulLife_iI_dtY_c20251231__us-gaap--PropertyPlantAndEquipmentByTypeAxis__us-gaap--BuildingMember__srt--RangeAxis__srt--MaximumMember_zoLao005SYzg" title="Estimate useful lives">20</span> years</span></td></tr>
+  <tr style="vertical-align: top">
+    <td><span style="font-size: 10pt">Office furniture and software </span></td>
+    <td><span style="font-size: 10pt"><span id="xdx_905_eus-gaap--PropertyPlantAndEquipmentUsefulLife_iI_dtY_c20251231__us-gaap--PropertyPlantAndEquipmentByTypeAxis__custom--OfficeFurnitureAndSoftwareMember__srt--RangeAxis__srt--MinimumMember_zfzqUGDfABVa" title="Estimate useful lives">3</span> &#8211; <span id="xdx_90A_eus-gaap--PropertyPlantAndEquipmentUsefulLife_iI_dtY_c20251231__us-gaap--PropertyPlantAndEquipmentByTypeAxis__custom--OfficeFurnitureAndSoftwareMember__srt--RangeAxis__srt--MaximumMember_zC9KgMj2xdj2" title="Estimate useful lives">5</span> years</span></td></tr>
+  <tr style="vertical-align: top">
+    <td><span style="font-size: 10pt">Machinery and equipment</span></td>
+    <td><span style="font-size: 10pt"><span id="xdx_902_eus-gaap--PropertyPlantAndEquipmentUsefulLife_iI_dtY_c20251231__us-gaap--PropertyPlantAndEquipmentByTypeAxis__us-gaap--MachineryAndEquipmentMember_zWmAS1jNUIad" title="Estimate useful lives">10</span> years</span></td></tr>
+  <tr style="vertical-align: top">
+    <td><span style="font-size: 10pt">Vehicles </span></td>
+    <td><span style="font-size: 10pt"><span id="xdx_909_eus-gaap--PropertyPlantAndEquipmentUsefulLife_iI_dtY_c20251231__us-gaap--PropertyPlantAndEquipmentByTypeAxis__us-gaap--VehiclesMember_zXqtYYbGA8rd" title="Estimate useful lives">8</span> years</span></td></tr>
+  <tr style="vertical-align: top">
+    <td><span style="font-size: 10pt">Construction in progress</span></td>
+    <td><span style="font-size: 10pt"><span id="xdx_909_eus-gaap--PropertyPlantAndEquipmentUsefulLifeDescriptionOfTermExtensibleEnumeration_iI_dxL_c20251231__us-gaap--PropertyPlantAndEquipmentByTypeAxis__us-gaap--ConstructionInProgressMember_zEkm1obGg1qg" title="::XDX::http%3A%2F%2Ffasb.org%2Fus-gaap%2F2025%23PropertyPlantAndEquipmentUsefulLife"><span style="-sec-ix-hidden: xdx2ixbrl0892">Not depreciated</span></span></span></td></tr>
+  <tr style="vertical-align: top">
+    <td><span style="font-size: 10pt">Leasehold improvements</span></td>
+    <td><span style="font-size: 10pt"><span id="xdx_90C_eus-gaap--PropertyPlantAndEquipmentUsefulLifeDescriptionOfTermExtensibleEnumeration_iI_dxL_c20251231__us-gaap--PropertyPlantAndEquipmentByTypeAxis__us-gaap--LeaseholdImprovementsMember_zMpyldiBEvge" title="::XDX::http%3A%2F%2Ffasb.org%2Fus-gaap%2F2025%23PropertyPlantAndEquipmentUsefulLife"><span style="-sec-ix-hidden: xdx2ixbrl0893">Shorter of lease term or economic life</span></span></span></td></tr>
+  </table>
+<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_LEEF_ScheduleOfEstimatedUsefulLivesTableTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Schedule of Estimated Useful Lives [Table Text Block]</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">LEEF_ScheduleOfEstimatedUsefulLivesTableTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>LEEF_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AccountingPoliciesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AccountingPoliciesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

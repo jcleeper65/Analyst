@@ -1,0 +1,2446 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>45
+<FILENAME>R34.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Investments (Details)<br></strong></div></th>
+<th class="th" colspan="2">3 Months Ended</th>
+</tr>
+<tr><th class="th" colspan="2">
+<div>Mar. 31, 2026 </div>
+<div>USD ($)</div>
+</th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 1,824,865,063<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1],[2]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 1,811,075,043<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[2]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">127.79%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[2]</sup></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskByTypeAxis=aps_InvestmentTypeConcentrationRiskMember', window );">Investment Type Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">100.00%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskByTypeAxis=us-gaap_GeographicConcentrationRiskMember', window );">Geographic Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">100.00%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskByTypeAxis=aps_IndustryConcentrationRiskMember', window );">Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">100.00%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_SoftwareSectorMember', window );">Software | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">19.90%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_DiversifiedConsumerServicesSectorMember', window );">Diversified Consumer Services | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">16.70%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_HealthcareTechnologySectorMember', window );">Health Care Technology | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">13.60%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_MachinerySectorMember', window );">Machinery | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">10.80%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_ProfessionalServicesSectorMember', window );">Professional Services | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">7.30%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_HealthcareProvidersAndServicesSectorMember', window );">Health Care Providers &amp; Services | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">6.40%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_TechnologySectorMember', window );">IT Services | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">4.70%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_RealEstateSectorMember', window );">Real Estate Management &amp; Development | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">3.90%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_MultiUtilitiesSectorMember', window );">Multi-Utilities | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">3.90%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_HealthCareEquipmentAndSuppliesSectorMember', window );">Health Care Equipment &amp; Supplies | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">3.80%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_AutomotiveSectorMember', window );">Automobile Components | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">3.40%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_InsuranceSectorMember', window );">Insurance | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">1.90%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_CommercialServicesAndSuppliesSectorMember', window );">Commercial Services &amp; Supplies | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">1.20%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_HouseholdDurablesSectorMember', window );">Household Durables | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">0.60%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_FinancialServicesSectorMember', window );">Financial Services | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">0.50%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_TradingCompaniesAndDistributorsSectorMember', window );">Trading Companies &amp; Distributors | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">0.50%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_ConsumerSectorMember', window );">Consumer Staples Distribution &amp; Retail | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">0.40%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_AerospaceSectorMember', window );">Aerospace &amp; Defense | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">0.20%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_BuildingProductsSectorMember', window );">Building Products | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">0.20%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_ChemicalsSectorMember', window );">Chemicals | Industry Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">0.10%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_srt_StatementGeographicalAxis=country_US', window );">United States</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 1,758,454,394<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 1,744,475,564<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">123.10%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_srt_StatementGeographicalAxis=country_US', window );">United States | Geographic Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">96.30%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_srt_StatementGeographicalAxis=country_GB', window );">United Kingdom</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 51,033,564<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 51,153,783<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">3.60%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_srt_StatementGeographicalAxis=country_GB', window );">United Kingdom | Geographic Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">2.80%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_srt_StatementGeographicalAxis=country_BM', window );">Bermuda</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 15,377,105<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 15,445,696<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">1.10%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_srt_StatementGeographicalAxis=country_BM', window );">Bermuda | Geographic Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">0.90%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 1,652,462,304<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 1,641,801,287<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">115.91%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Investment Type Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">90.70%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Software</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 328,667,128<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 320,539,030<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">22.63%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Diversified Consumer Services</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 300,730,599<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 303,331,362<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">21.41%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Health Care Technology</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 153,560,413<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 154,027,025<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">10.87%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Machinery</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 196,381,998<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 195,786,310<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">13.83%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Professional Services</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 132,554,927<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 132,769,214<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">9.37%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Health Care Providers &amp; Services</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 116,409,030<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 115,442,899<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">8.15%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | IT Services</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 87,320,975<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 85,566,317<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">6.04%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Real Estate Management &amp; Development</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 36,941,030<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 37,202,456<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">2.63%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Multi-Utilities</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 70,254,756<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 70,512,085<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">4.98%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Health Care Equipment &amp; Supplies</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 71,920,794<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 68,239,891<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">4.82%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Automobile Components</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 60,328,904<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 60,751,223<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">4.29%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Insurance</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 30,547,661<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 30,614,118<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">2.16%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Commercial Services &amp; Supplies</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 21,716,040<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 21,780,404<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">1.54%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Household Durables</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 10,206,980<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 10,198,585<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">0.72%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Financial Services</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 9,906,244<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 9,932,724<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">0.70%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Trading Companies &amp; Distributors</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 8,580,094<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 8,586,589<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">0.61%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Consumer Staples Distribution &amp; Retail</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 8,049,541<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 8,130,166<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">0.57%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Aerospace &amp; Defense</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 3,614,834<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 3,620,851<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">0.25%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Building Products</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 2,786,015<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 2,785,697<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">0.20%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember', window );">First Lien Loans | Chemicals</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 1,984,341<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 1,984,341<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">0.14%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesSecondLienMember', window );">Second Lien Loans</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 172,402,759<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 165,762,083<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">11.69%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesSecondLienMember', window );">Second Lien Loans | Investment Type Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">9.10%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesSecondLienMember', window );">Second Lien Loans | Software</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 45,938,221<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 39,306,250<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">2.77%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesSecondLienMember', window );">Second Lien Loans | Health Care Technology</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 93,254,679<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 93,122,500<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">6.57%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesSecondLienMember', window );">Second Lien Loans | Real Estate Management &amp; Development</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 33,209,859<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 33,333,333<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">2.35%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=us-gaap_WarrantMember', window );">Warrants</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 0<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 3,511,673<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">0.25%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=us-gaap_WarrantMember', window );">Warrants | Investment Type Concentration Risk | Investments Owned At Fair Value</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskPercentage1', window );">% of Total Investments at Fair Value</a></td>
+<td class="nump">0.20%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentTypeAxis=us-gaap_WarrantMember', window );">Warrants | Insurance</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ScheduleOfInvestmentsLineItems', window );"><strong>Schedule of Investments [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtCost', window );">Amortized Cost</a></td>
+<td class="nump">$ 0<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[1]</sup></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedAtFairValue', window );">Fair Value</a></td>
+<td class="nump">$ 3,511,673<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentOwnedPercentOfNetAssets', window );">Fair Value as % of Net Assets</a></td>
+<td class="nump">0.25%<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr><td colspan="3"></td></tr>
+<tr><td colspan="3"><table class="outerFootnotes" width="100%">
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[1]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:9pt;font-weight:400;line-height:112%">The cost represents the original cost adjusted for the amortization of discounts and premiums, as applicable, on debt investments using the effective interest method in accordance with accounting principles generally accepted in the United States of America (&#8220;U.S. GAAP&#8221;).</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[2]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:9pt;font-weight:400;line-height:112%">Unless otherwise indicated, issuers of debt investments held by APS BDC, LLC (the "Company," which such term shall include the Company&#8217;s subsidiaries for purposes of this Consolidated Schedule of Investments) are denominated in U.S. Dollars. All debt investments are income producing unless otherwise indicated.</span></td>
+</tr>
+</table></td></tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ConcentrationRiskPercentage1">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>For an entity that discloses a concentration risk in relation to quantitative amount, which serves as the "benchmark" (or denominator) in the equation, this concept represents the concentration percentage derived from the division.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 42<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-42<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-18<br><br>Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-18<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-20<br><br>Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-18<br><br>Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-18<br><br>Reference 7: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-18<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ConcentrationRiskPercentage1</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentOwnedAtCost">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Cost of the investment.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477439/946-210-55-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 4: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(d))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 8)(a)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 11)(a)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 5)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 19<br> -Subparagraph (3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-19<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentOwnedAtCost</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentOwnedAtFairValue">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Fair value of investment in security owned.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(11))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477439/946-210-55-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-2<br><br>Reference 11: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12<br><br>Reference 12: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(d))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(2)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-04(2)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 18: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column A)(Footnote 1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 19: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 20: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 21: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 22: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 23: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 24: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 25: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 9))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 26: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 27: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 28: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 29: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 30: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentOwnedAtFairValue</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentOwnedPercentOfNetAssets">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Percentage of investment owned to net assets.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477439/946-210-55-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-1<br><br>Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478795/946-210-50-6<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column D))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentOwnedPercentOfNetAssets</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:percentItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ScheduleOfInvestmentsLineItems">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column A)(Footnote 2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 4)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column A))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column B))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column A)(Footnote 1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column A)(Footnote 2)(i))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column A)(Footnote 2)(ii))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 11: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column A)(Footnote 4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column B)(Footnote 7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 8))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 8)(a)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 8)(a)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 18: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 8)(a)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 19: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 8)(b)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 20: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 8)(b)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 21: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 8)(c))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 22: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 9))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 23: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.12-12(Column C)(Footnote 10))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-1<br><br>Reference 24: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 25: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column B))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 26: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 27: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column D))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 28: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 1)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 29: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 1)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 30: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 31: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 32: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 33: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 4)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 34: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 6))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 35: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column A)(Footnote 7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 36: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 9))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 37: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column B)(Footnote 10))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 38: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 11))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 39: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 11)(a)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 40: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 11)(a)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 41: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 11)(a)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 42: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 11)(b)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 43: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 11)(b)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 44: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 11)(c))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 45: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 12))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 46: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.12-12B(Column C)(Footnote 13))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-3<br><br>Reference 47: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 48: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column B))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 49: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 50: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(a)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 51: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(a)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 52: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(a)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 53: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 54: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 55: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 56: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b)(5))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 57: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 1)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 58: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column A)(Footnote 3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 59: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 4))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 60: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 5)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 61: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 7))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 62: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 8))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 63: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 6<br> -Subparagraph (SX 210.12-14(Column F)(Footnote 9))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6<br><br>Reference 64: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 19<br> -Subparagraph (1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-19<br><br>Reference 65: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 19<br> -Subparagraph (3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-19<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ScheduleOfInvestmentsLineItems</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ConcentrationRiskByTypeAxis=aps_InvestmentTypeConcentrationRiskMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ConcentrationRiskByTypeAxis=aps_InvestmentTypeConcentrationRiskMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ConcentrationRiskByBenchmarkAxis=aps_InvestmentsOwnedAtFairValueMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ConcentrationRiskByBenchmarkAxis=aps_InvestmentsOwnedAtFairValueMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ConcentrationRiskByTypeAxis=us-gaap_GeographicConcentrationRiskMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ConcentrationRiskByTypeAxis=us-gaap_GeographicConcentrationRiskMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ConcentrationRiskByTypeAxis=aps_IndustryConcentrationRiskMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ConcentrationRiskByTypeAxis=aps_IndustryConcentrationRiskMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_SoftwareSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_SoftwareSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_DiversifiedConsumerServicesSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_DiversifiedConsumerServicesSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_HealthcareTechnologySectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_HealthcareTechnologySectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_MachinerySectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_MachinerySectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_ProfessionalServicesSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_ProfessionalServicesSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_HealthcareProvidersAndServicesSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_HealthcareProvidersAndServicesSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_TechnologySectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_TechnologySectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_RealEstateSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_RealEstateSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_MultiUtilitiesSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_MultiUtilitiesSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_HealthCareEquipmentAndSuppliesSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_HealthCareEquipmentAndSuppliesSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_AutomotiveSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_AutomotiveSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_InsuranceSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_InsuranceSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_CommercialServicesAndSuppliesSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_CommercialServicesAndSuppliesSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_HouseholdDurablesSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_HouseholdDurablesSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_FinancialServicesSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_FinancialServicesSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_TradingCompaniesAndDistributorsSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_TradingCompaniesAndDistributorsSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_ConsumerSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_ConsumerSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_AerospaceSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_AerospaceSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=aps_BuildingProductsSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=aps_BuildingProductsSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_ChemicalsSectorMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquitySecuritiesByIndustryAxis=us-gaap_ChemicalsSectorMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_srt_StatementGeographicalAxis=country_US">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">srt_StatementGeographicalAxis=country_US</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_srt_StatementGeographicalAxis=country_GB">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">srt_StatementGeographicalAxis=country_GB</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_srt_StatementGeographicalAxis=country_BM">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">srt_StatementGeographicalAxis=country_BM</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesFirstLienMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesSecondLienMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentTypeAxis=aps_DebtSecuritiesSecondLienMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentTypeAxis=us-gaap_WarrantMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentTypeAxis=us-gaap_WarrantMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

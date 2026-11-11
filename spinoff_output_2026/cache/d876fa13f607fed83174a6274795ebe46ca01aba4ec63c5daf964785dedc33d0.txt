@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-04-01</periodOfReport>
+
+    <issuer>
+        <issuerCik>0002066811</issuerCik>
+        <issuerName>TCW SPECIALTY LENDING LLC</issuerName>
+        <issuerTradingSymbol>NONE</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001720269</rptOwnerCik>
+            <rptOwnerName>Flemma Saverio M</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>C/O TCW SPECIALTY LENDING LLC 515</rptOwnerStreet1>
+            <rptOwnerStreet2>SOUTH FLOWER ST</rptOwnerStreet2>
+            <rptOwnerCity>LOS ANGELES</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>90071</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>true</isDirector>
+            <isOfficer>false</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>false</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Limited Liability Company Units</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-04-01</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>10000</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>20</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>10000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Represents 10,000 limited liability company units of TCW Specialty Lending LLC received by the reporting person upon settlement of the exchange offer by TCW Direct Lending VIII LLC (the &quot;Exchange Offer&quot;). In connection with the Exchange Offer, the reporting person tendered and exchanged 2,000 limited liability company units of TCW Direct Lending VIII LLC.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>Zachary Edelman, as Attorney-in-Fact for Saverio M. Flemma</signatureName>
+        <signatureDate>2026-04-03</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

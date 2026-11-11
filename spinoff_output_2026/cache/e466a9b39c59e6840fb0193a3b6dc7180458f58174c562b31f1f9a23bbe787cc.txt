@@ -1,0 +1,98 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>20
+<FILENAME>R11.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>STOCKHOLDERS EQUITY<br></strong></div></th>
+<th class="th" colspan="1">3 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Mar. 31, 2026</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EquityAbstract', window );"><strong>STOCKHOLDERS EQUITY</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockholdersEquityNoteDisclosureTextBlock', window );">STOCKHOLDERS' EQUITY</a></td>
+<td class="text"><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;"><strong>NOTE 4 &#8211; </strong><strong>STOCKHOLDER&#8217;S EQUITY</strong></p><p style="font-size:10pt;font-family:times new roman;margin:0px">&#160;</p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;">Upon formation, the Board of Directors issued 1,000,000 shares of common stock for $100 to Mr. Cross. In addition, Mr. Cross contributed an additional $265 to form the Company and to open the Company&#8217;s bank account.</p><p style="font-size:10pt;font-family:times new roman;margin:0px">&#160;</p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;">The stockholder&#8217;s equity section of the Company contains the following classes of capital stock as of March 31, 2026:</p><p style="font-size:10pt;font-family:times new roman;margin:0px">&#160;</p><table cellpadding="0" style="border-spacing:0;text-align:left;font:10pt times new roman;width:100%"><tbody><tr style="height:15px"><td style="width:4%;"><p style="font-size:10pt;font-family:times new roman;margin:0px">&#160;</p></td><td style="width:4%;vertical-align:top;"><p style="font-size:10pt;font-family:times new roman;margin:0px"><span style="font-family:symbol">&#183;</span></p></td><td style="vertical-align:top;">Common stock, $0.0001 par value: 100,000,000 shares authorized; 1,000,000 shares issued and outstanding</td></tr><tr style="height:15px"><td><p style="font-size:10pt;font-family:times new roman;margin:0px">&#160;</p></td><td><p style="font-size:10pt;font-family:times new roman;margin:0px;text-indent:30px">&#160;</p></td><td><p style="font-size:10pt;font-family:times new roman;margin:0px">&#160;</p></td></tr><tr style="height:15px"><td><p style="font-size:10pt;font-family:times new roman;margin:0px">&#160;</p></td><td style="vertical-align:top;"><p style="font-size:10pt;font-family:times new roman;margin:0px"><span style="font-family:symbol">&#183;</span></p></td><td style="vertical-align:top;"><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;">Preferred stock, $0.0001 par value: 10,000,000 shares authorized; none issued and outstanding. At present, no rights have been established for the preferred stock and we have no plans to either issue any preferred stock nor adopt any series, preferences or other classification of preferred stock</p></td></tr></tbody></table><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EquityAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EquityAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_StockholdersEquityNoteDisclosureTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The entire disclosure for equity.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 8A<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480434/815-10-50-8A<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 13<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-13<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 13<br> -Subparagraph (h)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-13<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 14<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-14<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 235<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477968/946-235-50-2<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 235<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477968/946-235-50-2<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 505<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478448/946-505-50-6<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480237/815-40-50-6<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.3-04)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1<br><br>Reference 10: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 505<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/505/tableOfContent<br><br>Reference 11: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 13<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-13<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 13<br> -Subparagraph (g)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-13<br><br>Reference 13: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 13<br> -Subparagraph (i)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-13<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 14<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-14<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 14<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-14<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 16<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-16<br><br>Reference 17: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-18<br><br>Reference 18: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-18<br><br>Reference 19: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-18<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_StockholdersEquityNoteDisclosureTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

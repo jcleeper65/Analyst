@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-04-01</periodOfReport>
+
+    <notSubjectToSection16>1</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0002078008</issuerCik>
+        <issuerName>Versigent PLC</issuerName>
+        <issuerTradingSymbol>VGNT</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001521332</rptOwnerCik>
+            <rptOwnerName>Aptiv PLC</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>true</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>SPITALSTRASSE 5</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>SCHAFFHAUSEN</rptOwnerCity>
+            <rptOwnerNonUSStateTerritory></rptOwnerNonUSStateTerritory>
+            <rptOwnerCountry>V8</rptOwnerCountry>
+            <rptOwnerZipCode>8200</rptOwnerZipCode>
+            <rptOwnerStateDescription>SWITZERLAND</rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Ordinary shares, par value $0.01 per share</value>
+                <footnoteId id="F1"/>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-04-01</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F3"/>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>70893660</value>
+                    <footnoteId id="F2"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F3"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>0</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">On March 12, 2025, Aptiv PLC, a Jersey public limited company (&quot;Aptiv&quot;), reported that it owned 1,000 shares, par value $0.01 per share, of Versigent Limited, which at the time constituted all of the issued and outstanding ordinary shares of Versigent Limited. On April 1, 2026, Versigent Limited converted from a limited company to a public limited company and changed its name to Versigent PLC.</footnote>
+        <footnote id="F2">Represents the outstanding ordinary shares of Versigent PLC as of April 1, 2026, which were distributed in the Spin-Off (as defined below) on April 1, 2026.</footnote>
+        <footnote id="F3">The record date for the distribution by Aptiv of all of the ordinary shares of Versigent PLC to the holders of Aptiv ordinary shares was March 17, 2026 (the &quot;Spin-Off&quot;). The Spin-Off occurred before the market open on April 1, 2026.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Katherine H. Ramundo, Executive Vice President, Chief Legal Officer,Chief Compliance Officer and Secretary of Aptiv PLC</signatureName>
+        <signatureDate>2026-04-01</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

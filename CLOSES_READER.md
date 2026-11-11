@@ -31,7 +31,7 @@ LSEG_CLOSES_FILE=closes.csv
 
 The CSV path is relative to the repository's `.env` directory, unless absolute. It takes precedence over the App Key. Supply `ticker,date,close` columns, with dates as YYYY-MM-DD and unadjusted official closing prices in the instrument's quote currency. Do not include filled-forward rows for non-trading days. Conflicting duplicate prices for a date return not available. File prices are taken as supplied; the reader cannot certify their provenance.
 
-Plain ticker symbols can be ambiguous in vendor data. Optional `LSEG_RIC_MAP` is a JSON object mapping your tickers to explicit LSEG RICs. No exchange suffix is guessed. Without a mapping, the ticker is submitted as supplied; unresolved instruments return not available. Prices and filing EPS must use compatible currencies and per-share units; the reader performs no currency or share-unit conversion.
+Plain ticker symbols can be ambiguous in vendor data. Optional `LSEG_RIC_MAP` is a JSON object mapping your tickers to explicit LSEG RICs. No exchange suffix is guessed. A plain ticker that LSEG cannot resolve is submitted to its documented U.S. equity symbol-conversion service. Exactly one regular RIC is required. Ambiguous or unresolved conversions return not available with a diagnostic. An explicit LSEG_RIC_MAP entry selects the instrument directly. Prices and filing EPS must use compatible currencies and per-share units; the reader performs no currency or share-unit conversion.
 
 ## Commands
 
@@ -66,3 +66,11 @@ Use `--filed "$FILED"` to override the cutoff. The raw EDGAR Accepted timestamp,
 - [get_data parameters](https://cdn.refinitiv.com/public/lseg-lib-python-doc/2.0.0.2/book/en/sections/access-layer/access/get-data-function.html)
 
 Implementation was reviewed statically; the reader was not executed during this change.
+
+## Error diagnostics
+
+Unavailable results retain their existing return value. The reader records a sanitized JSON-lines diagnostic with ticker, requested dates, failure stage, error type and message. Stages distinguish session opening, data requests, response parsing, worker timeouts and genuinely empty responses. Configured key/token/password values and bearer tokens are redacted.
+
+The seeker creates a separate `closes_errors_<run timestamp>.jsonl` for each run, records its path/count in the run snapshot, and includes errors in candidate limitations and the report. Standalone reader calls default to `Repos/Analyst/closes_diagnostics.jsonl`. `LSEG_DIAGNOSTICS_FILE` selects another path.
+
+The installed lseg-data 2.1.1 call uses `header_type=ld.HeaderType.NAME`. Earlier failures caused by `use_field_names_in_headers` are retained in their original diagnostic logs. New successful prices identify the resolved vendor instrument in their source.

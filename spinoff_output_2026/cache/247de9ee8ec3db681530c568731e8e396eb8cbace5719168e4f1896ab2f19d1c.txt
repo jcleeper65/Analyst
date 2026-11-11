@@ -1,0 +1,98 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>29
+<FILENAME>R10.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>GOING CONCERN<br></strong></div></th>
+<th class="th" colspan="1">12 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Mar. 31, 2026</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_dance_GoingConcernAbstract', window );"><strong>GOING CONCERN</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubstantialDoubtAboutGoingConcernTextBlock', window );">GOING CONCERN</a></td>
+<td class="text"><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;"><strong>NOTE 3. GOING CONCERN</strong></p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;">&#160;</p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;">These consolidated financial statements have been prepared in accordance with generally accepted accounting principles applicable to a going concern, which assumes that the Company and its subsidiaries will be able to meet its obligations and continue its operations for next fiscal year. Realization values may be substantially different from carrying values as shown and these condensed consolidated interim financial statements do not give effect to adjustments that would be necessary to the carrying values and classification of assets and liabilities should the Company be unable to continue as a going concern.</p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;">&#160;</p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;">At March 31, 2026, the Company had $94,881 in cash, outstanding liabilities of $144,385, and a net stockholders&#8217; deficit of $49,504. These conditions raise substantial doubt about the Company&#8217;s ability to continue as a going concern within one year after the date that these consolidated financial statements are issued. Management has evaluated the significance of these conditions in relation to the Company&#8217;s ability to meet its obligations as they become due and, to mitigate them, intends to continue to rely on financial support from its director and shareholder and to raise additional funds through the capital markets. There can be no assurance that management will be successful in these plans.</p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;">&#160;</p><p style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;">In light of management&#8217;s efforts, there are no assurances that the Company will be successful in this or any of its endeavors or become financially viable and continue as a going concern. These financial statements do not include any adjustments related to the recovery or classification of assets or the amounts and classifications of liabilities that might be necessary should the company be unable to continue as going concern.</p><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_dance_GoingConcernAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">dance_GoingConcernAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>dance_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SubstantialDoubtAboutGoingConcernTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The entire disclosure when substantial doubt is raised about the ability to continue as a going concern. Includes, but is not limited to, principal conditions or events that raised substantial doubt about the ability to continue as a going concern, management's evaluation of the significance of those conditions or events in relation to the ability to meet its obligations, and management's plans that alleviated or are intended to mitigate the conditions or events that raise substantial doubt about the ability to continue as a going concern.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 205<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/205-40/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SubstantialDoubtAboutGoingConcernTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

@@ -58,14 +58,89 @@ def _normalize(rows, ticker, start, end, source):
     return [result[day] for day in sorted(result)] or NOT_AVAILABLE
 
 
-def _lseg_rows(instrument, start, end, app_key):
-    import lseg.data as ld
-    session = ld.session.desktop.Definition(app_key=app_key).get_session()
+class ReaderFailure(Exception):
+    def __init__(self, stage, error):
+        super().__init__(str(error))
+        self.stage = stage
+        self.error_type = type(error).__name__
+
+
+def _sanitize(message, config):
+    message = str(message)
+    for name, value in config.items():
+        if re.search(r'key|token|secret|password', name, re.I) and value and len(str(value)) >= 6:
+            message = message.replace(str(value), '[REDACTED]')
+    message = re.sub(r'(?i)(Bearer\s+)[^\s\"\']+', r'\1[REDACTED]', message)
+    message = re.sub(r'''(?i)([\"']?(?:access_token|refresh_token|app[_-]?key|password)[\"']?\s*[:=]\s*[\"']?)[^\s,}\"']+''', r'\1[REDACTED]', message)
+    message = re.sub(r'eyJ[A-Za-z0-9_-]+[.][A-Za-z0-9_-]+[.][A-Za-z0-9_-]+', '[REDACTED]', message)
+    return message[:6000]
+
+
+def _diagnostic(config, ticker, start, end, stage, message, **details):
+    event = {'time': datetime.now(EASTERN).isoformat(timespec='seconds'),
+             'ticker': ticker, 'start': start, 'end': end, 'stage': stage,
+             'message': _sanitize(message, config),
+             **{key: _sanitize(value, config) for key, value in details.items()}}
+    filename = config.get('LSEG_DIAGNOSTICS_FILE') or str(ENV_FILE.parent / 'closes_diagnostics.jsonl')
     try:
+        path = Path(filename).expanduser()
+        path.parent.mkdir(parents=True, exist_ok=True)
+        descriptor = os.open(path, os.O_WRONLY | os.O_CREAT | os.O_APPEND, 0o600)
+        try:
+            os.write(descriptor, (json.dumps(event) + '\n').encode())
+        finally:
+            os.close(descriptor)
+    except OSError as error:
+        print('Could not save closes diagnostic: ' + _sanitize(error, config), file=sys.stderr)
+
+
+def _resolve_ticker(ld, ticker):
+    conversion = ld.content.symbol_conversion
+    response = conversion.Definition(
+        symbols=[ticker], from_symbol_type=conversion.SymbolTypes.TICKER_SYMBOL,
+        to_symbol_types=[conversion.SymbolTypes.RIC], preferred_country_code='USA',
+        asset_class=conversion.AssetClass.EQUITIES,
+    ).get_data()
+    frame = response.data.df
+    columns = {str(column).upper(): column for column in frame.columns}
+    if 'RIC' not in columns:
+        raise ValueError('LSEG symbol conversion returned no RIC column.')
+    choices = {value for value in frame[columns['RIC']] if isinstance(value, str) and value.strip()
+               and value.lower() not in {'nan', '<na>'}
+               and not re.search(r'_w(?:[.]|$)|[.]WI(?:[.]|$)', value, re.I)}
+    if len(choices) != 1:
+        raise ValueError(f'LSEG symbol conversion requires one regular U.S. equity RIC for {ticker}; received {sorted(choices)}. Set LSEG_RIC_MAP for an explicit instrument.')
+    return choices.pop()
+
+
+def _lseg_rows(instrument, start, end, app_key):
+    session = None
+    stage = 'library_import'
+    try:
+        import lseg.data as ld
+        stage = 'desktop_session'
+        session = ld.session.desktop.Definition(app_key=app_key).get_session()
+        stage = 'session_open'
         session.open()
+        stage = 'session_select'
         ld.session.set_default(session)
-        frame = ld.get_data(universe=[instrument], fields=['TR.PriceClose.date', 'TR.PriceClose'],
-                            parameters={'SDate': start, 'EDate': end, 'Frq': 'D'}, use_field_names_in_headers=True)
+        stage = 'data_request'
+        fields_requested = ['TR.PriceClose.date', 'TR.PriceClose']
+        parameters = {'SDate': start, 'EDate': end, 'Frq': 'D'}
+        try:
+            frame = ld.get_data(universe=[instrument], fields=fields_requested,
+                                parameters=parameters, header_type=ld.HeaderType.NAME)
+        except Exception as error:
+            if 'unable to resolve' not in str(error).lower() or not re.fullmatch(r'[A-Z][A-Z0-9-]{0,15}', instrument):
+                raise
+            stage = 'symbol_resolution'
+            instrument = _resolve_ticker(ld, instrument)
+            stage = 'data_request'
+            frame = ld.get_data(universe=[instrument], fields=fields_requested,
+                                parameters=parameters, header_type=ld.HeaderType.NAME)
+        stage = 'response_parse'
+        if frame.empty:
+            return {'rows': [], 'instrument': instrument}
         fields = {str(c).lower(): c for c in frame.columns}
         date_field, close_field = fields['tr.priceclose.date'], fields['tr.priceclose']
         rows = []
@@ -76,9 +151,15 @@ def _lseg_rows(instrument, start, end, app_key):
                     rows.append({'date': str(row[date_field])[:10], 'close': close})
             except (TypeError, ValueError):
                 continue
-        return rows
+        return {'rows': rows, 'instrument': instrument}
+    except Exception as error:
+        raise ReaderFailure(stage, error) from error
     finally:
-        session.close()
+        if session is not None:
+            try:
+                session.close()
+            except Exception:
+                pass
 
 
 def daily_closes(ticker: str, start_date: str, end_date: str):
@@ -87,32 +168,55 @@ def daily_closes(ticker: str, start_date: str, end_date: str):
     if start > end:
         raise ValueError('Start date must not follow end date.')
     ticker = ticker.strip().upper()
-    config = _settings()
+    config = {}
+    stage = 'configuration'
     try:
-        filename = config.get('LSEG_CLOSES_FILE', '').strip()
+        config = _settings()
+        filename = (config.get('LSEG_CLOSES_FILE') or '').strip()
         if filename:
+            stage = 'file_read'
             path = Path(filename).expanduser()
             if not path.is_absolute():
                 path = ENV_FILE.parent / path
             with path.open(newline='', encoding='utf-8-sig') as stream:
                 rows = [row for row in csv.DictReader(stream) if row.get('ticker', '').strip().upper() == ticker]
-            return _normalize(rows, ticker, start, end, f'file:{path.resolve()}')
-        key = config.get('LSEG_APP_KEY', '').strip()
+            result = _normalize(rows, ticker, start, end, f'file:{path.resolve()}')
+            if result == NOT_AVAILABLE:
+                _diagnostic(config, ticker, start_date, end_date, 'file_no_valid_closes', 'No valid closes for the requested ticker/dates, or conflicting duplicate dates.')
+            return result
+        key = (config.get('LSEG_APP_KEY') or '').strip()
         if not key:
+            _diagnostic(config, ticker, start_date, end_date, 'configuration', 'LSEG_APP_KEY and LSEG_CLOSES_FILE are both absent or blank.')
             return NOT_AVAILABLE
-        # Map plain tickers to explicit vendor instrument identifiers when required.
-        instrument = json.loads(config.get('LSEG_RIC_MAP', '{}')).get(ticker, ticker)
+        instrument = json.loads(config.get('LSEG_RIC_MAP') or '{}').get(ticker, ticker)
         python = config.get('LSEG_PYTHON') or str(Path(__file__).resolve().parents[2] / '.venv-lseg/bin/python')
-        # The App Key stays in the environment, never in argv or returned errors.
+        stage = 'worker_launch'
         worker = subprocess.run([python, str(Path(__file__).resolve()), '--worker', instrument,
                                  start.isoformat(), end.isoformat()],
                                 env={**os.environ, 'LSEG_APP_KEY': key}, capture_output=True, text=True, timeout=180)
         if worker.returncode:
+            _diagnostic(config, ticker, start_date, end_date, 'worker_exit', worker.stderr or worker.stdout or 'Worker exited without output.', returncode=worker.returncode, instrument=instrument)
             return NOT_AVAILABLE
-        rows = json.loads(worker.stdout.strip().splitlines()[-1])
-        return _normalize(rows, ticker, start, end, f'LSEG TR.PriceClose ({instrument})')
-    except Exception:
-        # Missing coverage, entitlement, configuration or connection must not stop the desk.
+        stage = 'worker_response'
+        payload = json.loads(worker.stdout.strip().splitlines()[-1])
+        if isinstance(payload, dict) and payload.get('error'):
+            error = payload['error']
+            _diagnostic(config, ticker, start_date, end_date, error.get('stage','worker_error'), error.get('message','Unknown worker error'), error_type=error.get('type',''), instrument=instrument, worker_stderr=worker.stderr)
+            return NOT_AVAILABLE
+        rows = payload.get('rows', []) if isinstance(payload, dict) else payload
+        if not rows:
+            _diagnostic(config, ticker, start_date, end_date, 'empty_response', 'LSEG returned no close rows.', instrument=instrument)
+            return NOT_AVAILABLE
+        source_instrument = payload.get('instrument', instrument) if isinstance(payload, dict) else instrument
+        result = _normalize(rows, ticker, start, end, f'LSEG TR.PriceClose ({source_instrument})')
+        if result == NOT_AVAILABLE:
+            _diagnostic(config, ticker, start_date, end_date, 'no_valid_closes', 'Response contained no usable prices/dates or conflicting duplicate dates.', instrument=instrument)
+        return result
+    except subprocess.TimeoutExpired:
+        _diagnostic(config, ticker, start_date, end_date, 'worker_timeout', 'LSEG worker exceeded the 180-second request deadline.')
+        return NOT_AVAILABLE
+    except Exception as error:
+        _diagnostic(config, ticker, start_date, end_date, stage, error, error_type=type(error).__name__)
         return NOT_AVAILABLE
 
 
@@ -131,8 +235,8 @@ def main():
     if len(sys.argv) == 5 and sys.argv[1] == '--worker':
         try:
             print(json.dumps(_lseg_rows(sys.argv[2], sys.argv[3], sys.argv[4], os.environ['LSEG_APP_KEY'])))
-        except Exception:
-            print(json.dumps([]))
+        except Exception as error:
+            print(json.dumps({'rows': [], 'error': {'stage': getattr(error, 'stage', 'worker_error'), 'type': getattr(error, 'error_type', type(error).__name__), 'message': _sanitize(error, os.environ)}}))
         return
     parser = argparse.ArgumentParser(description='Print official closes or the last close before filing time.')
     parser.add_argument('ticker')

@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2026" xmlns:us-gaap="http://fasb.org/us-gaap/2026" xmlns:us-roles="http://fasb.org/us-roles/2026" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:country="http://xbrl.sec.gov/country/2026" xmlns:srt="http://fasb.org/srt/2026" xmlns:xero="http://xeroshoes.com/20260922">
+<head>
+     <title>8-K</title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02F_US%2DGAAP%2D2026 -->
+<!-- Field: Set; Name: xdx; ID: xdx_03A_xero_xeroshoes.com_20260922 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04F_20260922_20260922 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_05F_edei%2D%2DEntityCentralIndexKey_0001690455 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000004" name="dei:EntityCentralIndexKey">0001690455</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="xero-20260922.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-09-22">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001690455</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-09-22</xbrli:startDate>
+        <xbrli:endDate>2026-09-22</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>UNITED STATES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>Washington, D.C. 20549</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>&#160; &#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>FORM <span id="xdx_908_edei--DocumentType_c20260922__20260922_zmifaGAcLr8i"><ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000009" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>CURRENT REPORT</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>Pursuant to Section 13 or 15(d) of the</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>Securities Exchange Act of 1934</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>Date of Report (Date of earliest event reported)</b>
+<span id="xdx_90C_edei--DocumentPeriodEndDate_c20260922__20260922_zHpUpHHBfLDb"><b><ix:nonNumeric contextRef="AsOf2026-09-22" format="ixt:datemonthdayyearen" id="Fact000010" name="dei:DocumentPeriodEndDate">September 22, 2026</ix:nonNumeric></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b><span id="xdx_909_edei--EntityRegistrantName_c20260922__20260922_zbBz3O9EgOT8"><ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000011" name="dei:EntityRegistrantName">Feel
+The World, Inc.</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b><span>D.B.A XERO Shoes </span></b> </p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>(Exact name of registrant as specified in its charter)</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="border-bottom: black 1.5pt solid; width: 34%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_90A_edei--EntityIncorporationStateCountryCode_c20260922__20260922_zZZz7iIO45Z7"><ix:nonNumeric contextRef="AsOf2026-09-22" format="ixt-sec:stateprovnameen" id="Fact000012" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span></td>
+    <td style="width: 1%; text-align: center">&#160;</td>
+    <td style="border-bottom: black 1.5pt solid; width: 32%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_900_edei--EntityFileNumber_c20260922__20260922_zuxhCqIK54A2"><ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000013" name="dei:EntityFileNumber">000-56848</ix:nonNumeric></span></b></span></td>
+    <td style="width: 1%; text-align: center">&#160;</td>
+    <td style="border-bottom: black 1.5pt solid; width: 32%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_909_edei--EntityTaxIdentificationNumber_c20260922__20260922_zzHqDAAcThya"><ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000014" name="dei:EntityTaxIdentificationNumber">27-4419848</ix:nonNumeric></span></b></span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(State or other jurisdiction<br/>
+    of incorporation)</b></span></td>
+    <td style="text-align: center"><b>&#160;</b></td>
+    <td style="text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(Commission File Number)</b></span></td>
+    <td style="text-align: center"><b>&#160;</b></td>
+    <td style="text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(I.R.S. Employer<br/>
+    Identification No.)</b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 7.5pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_903_edei--EntityAddressAddressLine1_c20260922__20260922_zbj6TbWb7D77"><ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000015" name="dei:EntityAddressAddressLine1">320 Interlocken Parkway</ix:nonNumeric></span>, <span id="xdx_902_edei--EntityAddressAddressLine2_c20260922__20260922_zoM23kjQyncd"><ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000016" name="dei:EntityAddressAddressLine2">Suite 100</ix:nonNumeric></span> <br/><span id="xdx_904_edei--EntityAddressCityOrTown_c20260922__20260922_z3L5PXgrqBXa"><ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000017" name="dei:EntityAddressCityOrTown">Broomfield</ix:nonNumeric></span>, <span id="xdx_906_edei--EntityAddressStateOrProvince_c20260922__20260922_zACtOpTNGEGb"><ix:nonNumeric contextRef="AsOf2026-09-22" format="ixt-sec:stateprovnameen" id="Fact000018" name="dei:EntityAddressStateOrProvince">Colorado</ix:nonNumeric> </span><b><span id="xdx_903_edei--EntityAddressPostalZipCode_c20260922__20260922_zGobuQNSABYc"><ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000019" name="dei:EntityAddressPostalZipCode">80021</ix:nonNumeric></span></b></b></span></p>
+
+<p style="font: 7.5pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-size: 10pt"><b><span></span>(Address of principal executive offices and zip code)</b></span></p>
+
+<p style="font: 7.5pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>Registrant&#8217;s telephone number, including
+area code:</b>&#160; <span id="xdx_903_edei--CityAreaCode_c20260922__20260922_zIAIJtzQsVsi" style="background-color: white"><b><ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000020" name="dei:CityAreaCode">(303)</ix:nonNumeric></b></span><b>
+<span id="xdx_90C_edei--LocalPhoneNumber_c20260922__20260922_zFJ9OUrggNl6" style="background-color: white"><ix:nonNumeric contextRef="AsOf2026-09-22" id="Fact000021" name="dei:LocalPhoneNumber">447-3100</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">Check the appropriate box below if the Form 8-K filing
+is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Segoe UI Symbol,sans-serif"><span id="xdx_90F_edei--WrittenCommunications_c20260922__20260922_zwoNqTQt3iNk"><ix:nonNumeric contextRef="AsOf2026-09-22" format="ixt:booleanfalse" id="Fact000022" name="dei:WrittenCommunications">&#9744;</ix:nonNumeric></span></span> Written
+communication pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Segoe UI Symbol,sans-serif"><span id="xdx_909_edei--SolicitingMaterial_c20260922__20260922_zzCxkXE8dSh"><ix:nonNumeric contextRef="AsOf2026-09-22" format="ixt:booleanfalse" id="Fact000023" name="dei:SolicitingMaterial">&#9744;</ix:nonNumeric></span></span> Soliciting
+material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Segoe UI Symbol,sans-serif"><span id="xdx_900_edei--PreCommencementTenderOffer_c20260922__20260922_zn0dUtz6wt0h"><ix:nonNumeric contextRef="AsOf2026-09-22" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementTenderOffer">&#9744;</ix:nonNumeric></span></span> Pre-commencement
+communication pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Segoe UI Symbol,sans-serif"><span id="xdx_90A_edei--PreCommencementIssuerTenderOffer_c20260922__20260922_z53w8pxl77Z6"><ix:nonNumeric contextRef="AsOf2026-09-22" format="ixt:booleanfalse" id="Fact000025" name="dei:PreCommencementIssuerTenderOffer">&#9744;</ix:nonNumeric></span></span> Pre-commencement
+communication pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><b>Securities registered pursuant to Section 12(b)
+of the Act:</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: bottom">
+    <td style="border-bottom: black 1.5pt solid; width: 42%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Title of each class</b></span></td>
+    <td style="width: 1%; text-align: center">&#160;</td>
+    <td style="border-bottom: black 1.5pt solid; width: 24%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Trading Symbol(s)</b></span></td>
+    <td style="width: 1%; text-align: center">&#160;</td>
+    <td style="border-bottom: black 1.5pt solid; width: 32%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Name of each exchange on which registered</b></span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: bottom; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>N/A</b></span></td>
+    <td style="vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>&#160;</b></span></td>
+    <td style="vertical-align: top; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>N/A</b></span></td>
+    <td style="vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>&#160;</b></span></td>
+    <td style="vertical-align: top; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>N/A</b></span></td></tr>
+  </table>
+<p style="font: 1pt Times New Roman, Times, Serif; margin: 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">Indicate by check mark whether the registrant is an
+emerging growth company as defined in Rule 405 of the Securities Act of 1933 (17 CFR &#167;230.405) or Rule 12b-2 of the Securities Exchange
+Act of 1934 (17 CFR &#167;240.12b-2).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: justify"><span style="font-family: Times New Roman, Times, Serif">Emerging
+growth company </span><span style="font-family: Segoe UI Symbol,sans-serif"><span id="xdx_904_edei--EntityEmergingGrowthCompany_c20260922__20260922_zDg1Fqf99kHf"><ix:nonNumeric contextRef="AsOf2026-09-22" format="ixt:booleantrue" id="Fact000026" name="dei:EntityEmergingGrowthCompany">&#9746;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: justify"><span style="font-family: Times New Roman, Times, Serif">If
+an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying
+with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. </span><span style="font-family: Segoe UI Symbol,sans-serif"><span id="xdx_903_edei--EntityExTransitionPeriod_c20260922__20260922_zOKonvxpgBS"><ix:nonNumeric contextRef="AsOf2026-09-22" format="ixt:booleanfalse" id="Fact000027" name="dei:EntityExTransitionPeriod">&#9744;</ix:nonNumeric></span></span><span style="font-family: Times New Roman, Times, Serif">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: center; width: 100%">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: center; width: 100%">&#160;</td></tr></table></div>
+    <!-- Field: /Page -->
+
+<p style="font: bold 10pt Times New Roman, Times, Serif; margin: 0pt 5.7pt 0pt 0; text-align: justify">Item 4.02 Non-Reliance on Previously
+Issued Financial Statements or a Related Audit Report or Completed Interim Review.</p>
+
+<p style="font: bold 10pt Times New Roman, Times, Serif; margin: 0pt 5.7pt 0pt 0; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The management of Feel the World, Inc. (the &#8220;Company&#8221;)
+has re-evaluated the Company&#8217;s application of ASC 480-10-S99-3A to its accounting classification of the redeemable shares of Series
+A Preferred Stock, had been incorrectly measured since its issuance on December 2, 2020. The Series A Preferred Stock is redeemable at
+the election of the holders of a majority of the outstanding shares at any time on or after December 2, 2024 and therefore should have
+been classified as temporary equity in accordance with ASC 480-10-S99. The Company had previously correctly classified the instrument
+outside of permanent stockholders&#8217; equity but had carried it at its par value of $368 rather than at its initial carrying amount,
+and had not accreted the instrument to its redemption value. Because the instrument was redeemable after December 2, 2024, ASC 480-10-S99-3A
+requires that it be carried at its maximum redemption amount at each balance sheet date.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Additionally, management determined that the Senior
+Preferred Stock had been incorrectly measured since its issuance on March 21, 2025. The Senior Preferred Stock is redeemable upon the
+occurrence of a deemed liquidation event, which is not an event solely within the control of the Company and therefore should have been
+presented outside of permanent stockholders' equity as temporary equity in accordance with ASC 480-10-S99. The Company had correctly classified
+the instrument outside of permanent stockholders&#8217; equity but had carried it at its par value of $50 rather than at its net proceeds
+amount. Because the instrument was redeemable upon the occurrence of a deemed liquidation event not under the control of the Company,
+ASC 480-10-S99-3A requires that it be carried at its net proceeds amount at each balance sheet date.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Therefore, on September 22, 2026, the audit committee
+of the Company (the &#8220;Audit Committee&#8221;) concluded, after discussion with the Company&#8217;s management, that our previously
+issued (a) audited consolidated financial statements as of and for the years ended December 31, 2025 and 2024 (the &#8220;Affected Periods&#8221;)
+and (b) unaudited condensed consolidated financial statements as of and for the three-month periods ended March 31, 2026 and 2025, as
+filed in the Company&#8217;s registration statement on Form 10 with the Securities and Exchange Commission on July 24, 2026 should be
+restated to report all Series A Preferred Stock and Senior Preferred Stock as temporary equity and should no longer be relied upon. As
+such, the Company will also restate its consolidated financial statements for the affected periods in the Company&#8217;s Annual Report
+on Form 1-K for the years ended December 31, 2025 and 2024.&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company&#8217;s management and the Audit Committee
+have discussed the matters disclosed in this Current Report on Form 8-K with Artesian CPA, LLC, the Company&#8217;s independent registered
+public accounting firm.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Summary of Impacts</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The restatement had no effect on total assets,
+total liabilities, revenues, net loss, comprehensive loss, cash flows, or net loss per share for any period presented.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Controls and Procedures</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Management has determined that there existed a
+material weakness in our internal control over financial reporting related to our accounting for equity instruments for the years ended
+December 31, 2025 and 2024 and the three months ended March 31, 2026 and 2025. A material weakness is a deficiency, or a combination of
+deficiencies, in the internal control over financial reporting, such that there is a reasonable possibility that a material misstatement
+of our annual or interim consolidated financial statements will not be prevented or detected in a timely basis. Specifically, our management
+determined that we did not maintain effective controls to timely identify and account for equity instruments with complex terms, including
+certain provisions within our Preferred Stock. This material weakness resulted in the material misstatement of each of the impacted periods
+and, if not remediated, could result in further material misstatements to our annual or interim consolidated financial statements that
+would not be prevented or detected. Due to this material weakness, our management re-assessed the effectiveness of the Company&#8217;s
+internal control over financial reporting and concluded that our internal control over financial reporting was not effective as of December
+31, 2025 and March 31, 2026.&#160;&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Page; Sequence: 2 -->
+    <div style="border-bottom: Black 1pt solid; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: center; width: 100%">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: center; width: 100%">&#160;</td></tr></table></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>Remediation of Material Weakness</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Management has implemented remediation steps to
+address the material weakness described above and to improve our internal control over financial reporting. In the third quarter of 2026,
+we enhanced our processes to strengthen the identification and evaluation of complex accounting matters, including engaging with independent
+accounting experts to advise and review complex financial matters, ensuring appropriate technical analysis, documentation, and oversight
+prior to the preparation of our financial statements, and strengthening financial disclosure and technical guidance resources. However,
+the enhanced controls were not applied to equity instruments issued in prior periods, including the Preferred Stock at issue. As a result,
+the classification error was not identified until a subsequent review. Management is in the process of refining these processes to ensure
+that previously issued instruments are periodically reassessed in the context of evolving technical guidance and accounting interpretations.</p>
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>Item 9.01. Financial Statements and Exhibits.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">(d) Exhibits.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The restated (a) audited consolidated
+financial statements as of and for the years ended December 31, 2025 and 2024 and (b) unaudited condensed consolidated financial
+statements as of and for the three-month periods ended March 31, 2026 and 2025 are filed as exhibits 99.1 and 99.2 to this Current
+Report on Form 8-K.</p>
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" style="font: 12pt Times New Roman, Times, Serif; width: 100%">
+  <tr>
+    <td style="padding: 0.75pt"><span style="font-size: 8pt"><b>Exhibit No.</b></span></td>
+    <td style="padding: 0.75pt"><span style="font-size: 8pt"><b>Description</b></span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="padding: 0.75pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">7.1</span></td>
+    <td style="padding: 0.75pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><a href="ex7x1.htm">Letter from an Independent Accountant (Item 4.02)</a></span></td></tr>
+  <tr style="background-color: White">
+    <td style="padding: 0.75pt"><span style="font-size: 10pt">99.1</span></td>
+    <td style="padding: 0.75pt"><span style="font-size: 10pt"><a href="ex99z1.htm">Restated unaudited condensed consolidated financial
+    statements as of and for the three-month periods ended March 31, 2026 and 2025</a></span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="padding: 0.75pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.2</span></td>
+    <td style="padding: 0.75pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><a href="ex99z2.htm">Restated audited consolidated financial statements as of and for the years ended December 31, 2025 and 2024</a></span></td></tr>
+  <tr style="background-color: White">
+    <td style="padding: 0.75pt"><span style="font-size: 10pt">104</span></td>
+    <td style="padding: 0.75pt"><span style="font-size: 10pt">Cover Page Interactive Data File (embedded within the Inline XBRL document)</span></td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white"></p>
+
+<p style="font: 12pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Page; Sequence: 3 -->
+    <div style="border-bottom: Black 1pt solid; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: center; width: 100%">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: center; width: 100%">&#160;</td></tr></table></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 12pt 0; text-align: center"><b>SIGNATURE</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: justify">Pursuant to the requirements of the Securities Exchange Act of 1934,
+the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</p>
+
+<table border="0" cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%">
+<tr>
+    <td style="vertical-align: top">Dated: &#160;September 25, 2026</td>
+    <td colspan="2"><b>
+Feel the World, Inc.</b></td>
+</tr>
+<tr>
+    <td style="vertical-align: top">&#160;</td>
+    <td colspan="2">&#160;</td></tr>
+<tr>
+    <td style="vertical-align: top; width: 45%">&#160;</td>
+    <td style="width: 5%">By:</td>
+    <td style="vertical-align: top; width: 50%">/s/ Sue Rechner</td>
+</tr>
+<tr>
+    <td style="vertical-align: top">&#160;</td>
+    <td>&#160;</td>
+    <td style="border-top: #000000 1px solid; vertical-align: top"><p style="font: 10pt/107% Times New Roman, Times, Serif; margin: 0pt 0">Sue Rechner</p>Chief Executive Officer</td>
+</tr>
+</table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: left; text-indent: 0pt; margin-top: 0pt; margin-bottom: 6pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: left; text-indent: 0pt; margin-top: 0pt; margin-bottom: 6pt"></p>
+
+
+
+<p style="font: 10pt/107% Calibri, Helvetica, Sans-Serif; margin: 0 0 8pt 5.05pt"></p>
+
+
+
+<p style="font: 10pt/107% Calibri, Helvetica, Sans-Serif; margin: 0 0 8pt 5.05pt"></p>
+
+<!-- Field: Page; Sequence: 4 -->
+    <div style="border-bottom: Black 1pt solid; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: center; width: 100%">&#160;</td></tr></table></div>
+
+    <!-- Field: /Page -->
+
+
+
+<p style="font: 10pt/107% Calibri, Helvetica, Sans-Serif; margin: 0 0 8pt 5.05pt">&#160;</p>
+
+<p style="font: 10pt/107% Calibri, Helvetica, Sans-Serif; margin: 0 0 8pt 5.05pt">&#160;</p>
+
+<p style="font: 10pt/107% Calibri, Helvetica, Sans-Serif; margin: 0 0 8pt 5.05pt"></p>
+
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>

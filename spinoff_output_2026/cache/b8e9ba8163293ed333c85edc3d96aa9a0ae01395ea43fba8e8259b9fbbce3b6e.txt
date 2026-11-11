@@ -1,0 +1,99 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>13
+<FILENAME>R8.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.2.0.727</span><table class="report" border="0" cellspacing="2" id="idm140201790619936">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>CONVERTIBLE NOTE<br></strong></div></th>
+<th class="th" colspan="1">9 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Jun. 30, 2015</div></th></tr>
+<tr class="re">
+<td class="pl " style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_barrel_NotesToFinancialStatementsAbstract', window );"><strong>Notes to Financial Statements</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl " style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_DebtDisclosureTextBlock', window );">NOTE 3 - CONVERTIBLE NOTE</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><font style="font: 10pt Times New Roman, Times, Serif">OnOctober 30, 2014, the Company issued a USD $20,173 (CAD $22,454) convertible note for cash. The note bears an interest rate of9.5% and matures on December 31, 2016. The note, plus accrued interest, is convertible by the holder, in part or whole, untilthe date of maturity into common stock of the Company at CAD one cent ($0.01) per share. &#160;</font></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><font style="font: 10pt Times New Roman, Times, Serif">&#160;</font></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><font style="font: 10pt Times New Roman, Times, Serif">TheCompany analyzed the conversion option for derivative accounting and beneficial conversion features consideration under ASC 815-15&#147;Derivatives and Hedging&#148; and ASC 470-20 &#147;Convertible Securities with Beneficial Conversion Features&#148;and noted none.&#160;</font></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><font style="font: 10pt Times New Roman, Times, Serif">&#160;</font></p><p style="margin: 0; text-align: justify"><font style="font: 10pt Times New Roman, Times, Serif">As of June 30, 2015 the convertibledebt outstanding was US $78,864 plus accrued interest of US $6,551 for a total liability of $85,415.</font></p><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_barrel_NotesToFinancialStatementsAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">barrel_NotesToFinancialStatementsAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>barrel_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DebtDisclosureTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Definition</a><div><p>The entire disclosure for information about short-term and long-term debt arrangements, which includes amounts of borrowings under each line of credit, note payable, commercial paper issue, bonds indenture, debenture issue, own-share lending arrangements and any other contractual agreement to repay funds, and about the underlying arrangements, rationale for a classification as long-term, including repayment terms, interest rates, collateral provided, restrictions on use of assets and activities, whether or not in compliance with debt covenants, and other matters important to users of the financial statements, such as the effects of refinancing and noncompliance with debt covenants.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher FASB<br><br><br><br> -Name Accounting Standards Codification<br><br><br><br> -Topic 505<br><br><br><br> -SubTopic 10<br><br><br><br> -Section 50<br><br><br><br> -Paragraph 3<br><br><br><br> -URI http://asc.fasb.org/extlink&amp;oid=6928386&amp;loc=d3e21475-112644<br><br><br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher FASB<br><br><br><br> -Name Accounting Standards Codification<br><br><br><br> -Topic 210<br><br><br><br> -SubTopic 10<br><br><br><br> -Section S99<br><br><br><br> -Paragraph 1<br><br><br><br> -Subparagraph (SX 210.5-02.19,20,22)<br><br><br><br> -URI http://asc.fasb.org/extlink&amp;oid=6877327&amp;loc=d3e13212-122682<br><br><br><br>Reference 3: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher SEC<br><br><br><br> -Name Regulation S-X (SX)<br><br><br><br> -Number 210<br><br><br><br> -Section 02<br><br><br><br> -Paragraph 19, 20, 22<br><br><br><br> -Article 5<br><br><br><br></p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DebtDisclosureTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>nonnum:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+
+</TEXT>
+</DOCUMENT>

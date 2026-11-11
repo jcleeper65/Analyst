@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0101</schemaVersion>
+
+<documentType>4</documentType>
+    <periodOfReport>2003-01-29</periodOfReport>
+    <notSubjectToSection16>0</notSubjectToSection16>
+<issuer>        <issuerCik>0001133798</issuerCik>
+        <issuerName>R WIRELESS INC</issuerName>
+<issuerTradingSymbol>RWLS</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+    <reportingOwnerId>
+        <rptOwnerCik>0001211638</rptOwnerCik>
+            <rptOwnerName>BARAMOV NED</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>  </rptOwnerStreet1>
+            <rptOwnerStreet2>  </rptOwnerStreet2>
+            <rptOwnerCity>  </rptOwnerCity>
+            <rptOwnerState>  </rptOwnerState>
+            <rptOwnerZipCode>  </rptOwnerZipCode>
+        </reportingOwnerAddress>
+<reportingOwnerRelationship>
+        <isDirector>1</isDirector>
+        <isOfficer>1</isOfficer>
+        <isTenPercentOwner>1</isTenPercentOwner>
+        <isOther>0</isOther>
+        <officerTitle>Treasurer (Chief Fin Officer)</officerTitle>
+    </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeSecurity>
+        <securityTitle>
+            <value>Common</value>
+        </securityTitle>
+        <transactionDate>
+            <value>2003-01-29</value>
+        </transactionDate>
+    <transactionCoding>
+        <transactionFormType>4</transactionFormType>
+        <transactionCode>P</transactionCode>
+        <equitySwapInvolved>0</equitySwapInvolved>
+    </transactionCoding>
+        <transactionAmounts>
+            <transactionShares>
+                <value>1500000</value>
+            </transactionShares>
+            <transactionValue>
+                <value>0.05</value>
+            </transactionValue>
+            <transactionAcquiredDisposedCode>
+                <value>A</value>
+            </transactionAcquiredDisposedCode>
+        </transactionAmounts>
+        <postTransactionAmounts>
+            <sharesOwnedFollowingTransaction>
+                <value>1500000</value>
+            </sharesOwnedFollowingTransaction>
+        </postTransactionAmounts>
+        <ownershipNature>
+            <directOrIndirectOwnership>
+                <value>D</value>
+            </directOrIndirectOwnership>
+        </ownershipNature>
+    </nonDerivativeSecurity>
+
+    <ownerSignature>
+        <signatureName>/s/ Ned A. Baramov</signatureName>
+        <signatureDate>2003-04-24</signatureDate>
+    </ownerSignature>
+
+</ownershipDocument>
+

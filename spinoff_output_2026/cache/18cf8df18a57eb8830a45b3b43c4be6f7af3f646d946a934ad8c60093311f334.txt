@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-05-12</periodOfReport>
+
+    <issuer>
+        <issuerCik>0002091349</issuerCik>
+        <issuerName>First Tracks Biotherapeutics, Inc.</issuerName>
+        <issuerTradingSymbol>TRAX</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001711462</rptOwnerCik>
+            <rptOwnerName>Lizzul Paul F.</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>10770 WATERIDGE CIRCLE, SUITE 210</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>SAN DIEGO</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92121</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>false</isDirector>
+            <isOfficer>true</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+            <officerTitle>Chief Medical Officer</officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable></nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Restricted Stock Unit</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F1"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-05-12</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>26700</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F2"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F2"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>26700</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>26700</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Employee Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>17.81</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-05-12</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>72300</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2036-05-11</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>72300</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>72300</value>
+                    <footnoteId id="F4"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Each restricted stock unit (&quot;RSU&quot;) represents a contingent right to receive 1 share of the Issuer's Common Stock upon settlement for no consideration.</footnote>
+        <footnote id="F2">The RSUs vests as to 25% of the total RSUs annually commencing on May 12, 2027 until fully vested, subject to the Reporting Person's provision of service to the Issuer on each vesting date.</footnote>
+        <footnote id="F3">The stock option vests as to 25% of the total shares on May 12, 2027, and thereafter vests as to 1/48 of the total shares monthly until fully vested, subject to the Reporting Person's provision of service to the Issuer on each vesting date.</footnote>
+        <footnote id="F4">In addition to the options to purchase a total of 72,300 shares of common stock as set forth in Table II, the Reporting Person also holds additional options to purchase up to an aggregate of 507,310 shares of common stock, which options vest according to their terms.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Ajim Tamboli, Attorney-in-Fact</signatureName>
+        <signatureDate>2026-05-14</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

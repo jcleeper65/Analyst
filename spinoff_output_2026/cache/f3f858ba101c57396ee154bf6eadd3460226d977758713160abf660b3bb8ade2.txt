@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-04-20</periodOfReport>
+
+    <issuer>
+        <issuerCik>0002093101</issuerCik>
+        <issuerName>Atrium Therapeutics, Inc.</issuerName>
+        <issuerTradingSymbol>RNA</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0002107515</rptOwnerCik>
+            <rptOwnerName>Hoyos Rocio Martin</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>C/O ATRIUM THERAPEUTICS, INC.</rptOwnerStreet1>
+            <rptOwnerStreet2>10578 SCIENCE CENTER DRIVE, SUITE 125</rptOwnerStreet2>
+            <rptOwnerCity>SAN DIEGO</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92121</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>false</isDirector>
+            <isOfficer>true</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+            <officerTitle>Chief Strategy Officer</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>false</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>30000</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>46660</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Option (Right to Buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>14.30</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>60000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F2"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2036-04-20</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>60000</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>60000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Represents an award of restricted stock units (&quot;RSUs&quot;). Each RSU represents a contingent right to receive one share of the Issuer's common stock. Twenty-five percent (25%) of the RSUs shall vest on March 20, 2027, with the remaining RSUs vesting in three (3) substantially equal yearly installments each year thereafter, subject to the Reporting Person's continuous service to the Issuer on each such vesting date.</footnote>
+        <footnote id="F2">Twenty-five percent (25%) of the shares underlying this option shall vest and become exercisable on March 20, 2027, with the remaining shares vesting in thirty-six (36) substantially equal monthly installments each month thereafter, subject to the Reporting Person's continuous service to the Issuer on each such vesting date.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Brendan Winslow, Attorney-in-Fact</signatureName>
+        <signatureDate>2026-04-22</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

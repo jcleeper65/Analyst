@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-06-29</periodOfReport>
+
+    <notSubjectToSection16>1</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0002089271</issuerCik>
+        <issuerName>Honeywell Aerospace Inc.</issuerName>
+        <issuerTradingSymbol>HONA</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0000773840</rptOwnerCik>
+            <rptOwnerName>HONEYWELL INTERNATIONAL INC</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>855 S. MINT STREET</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>CHARLOTTE</rptOwnerCity>
+            <rptOwnerState>NC</rptOwnerState>
+            <rptOwnerZipCode>28202</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock par value $0.01</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-06-29</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>316939750</value>
+                    <footnoteId id="F2"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>0</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">On June 29, 2026, Honeywell International Inc. (&quot;Honeywell&quot;) disposed of all 316,939,750 issued and outstanding shares of common stock, par value $0.01 per share (&quot;HONA Common Stock&quot;), of Honeywell Aerospace Inc., a Delaware corporation (&quot;HONA&quot;), by distributing a pro rata dividend to Honeywell shareowners of one share of HONA Common Stock for every two shares of Honeywell common stock, par value $1.00 per share, held by each holder of record as of the close of business on June15, 2026, to effect the previously announced spin-off of HONA from Honeywell.</footnote>
+        <footnote id="F2">On June 11, 2026, Honeywell reported that it owned 19,715 shares of HONA Common Stock, which at the time constituted all the issued and outstanding shares of HONA Common Stock. Pursuant to an amended and restated certificate of incorporation of HONA filed with the Secretary of State of the State of Delaware on June 24, 2026, the 19,715 shares of HONA Common Stock were automatically converted into an aggregate of 316,939,750 shares of HONA Common Stock (the &quot;Recapitalization&quot;). The Recapitalization was exempt pursuant to Rules 16a-9 and 16b-7 under the Exchange Act and did not result in a change in the pecuniary interest of Honeywell in HONA.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Richard E. Kent, Deputy General Counsel, Corporate Transactions, Securities &amp; Governance of Honeywell International Inc.</signatureName>
+        <signatureDate>2026-06-29</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

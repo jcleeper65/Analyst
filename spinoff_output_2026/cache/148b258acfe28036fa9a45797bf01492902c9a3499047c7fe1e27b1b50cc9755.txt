@@ -1,0 +1,692 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-04-20</periodOfReport>
+
+    <issuer>
+        <issuerCik>0002091349</issuerCik>
+        <issuerName>First Tracks Biotherapeutics, Inc.</issuerName>
+        <issuerTradingSymbol>TRAX</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001711462</rptOwnerCik>
+            <rptOwnerName>Lizzul Paul F.</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>10770 WATERIDGE CIRCLE, SUITE 210</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>SAN DIEGO</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92121</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>false</isDirector>
+            <isOfficer>true</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+            <officerTitle>Chief Medical Officer</officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>42669</value>
+                    <footnoteId id="F1"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>4.95</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F2"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>83500</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2030-07-29</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>83500</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>83500</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>7.95</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F2"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>45000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2031-02-09</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>45000</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>45000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>8.14</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F2"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>70000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2032-02-09</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>70000</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>70000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>6.22</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F2"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>67070</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2033-01-05</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>67070</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>67070</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>5.67</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F2"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>115540</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F4"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2034-01-02</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>115540</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>115540</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>3.97</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F2"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>97200</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F5"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2035-01-06</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>97200</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>97200</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>11.75</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F2"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>29000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F6"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2036-01-06</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>29000</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>29000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Restricted Stock Unit</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F7"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F8"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>6145</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F9"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F9"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>6145</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>6145</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Restricted Stock Unit</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F7"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F8"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>21110</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F10"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F10"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>21110</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>21110</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Restricted Stock Unit</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F7"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F8"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>25575</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F11"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F11"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>25575</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>25575</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Restricted Stock Unit</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F7"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F8"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>21400</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F12"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F12"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>21400</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>21400</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Consists of shares of common stock received in connection with the spin-off of First Tracks Biotherapeutics, Inc. (&quot;First Tracks&quot;) from AnaptysBio, Inc. (&quot;AnaptysBio&quot;).</footnote>
+        <footnote id="F2">Effective as of a pro rata distribution by AnaptysBio to holders of its shares of common stock pursuant to the Separation and Distribution Agreement dated as of April 20, 2026, by and between AnaptysBio and First Tracks (the &quot;Separation Agreement&quot;), each outstanding option to acquire AnaptysBio shares of common stock was adjusted so that such option became an option to acquire First Tracks shares of common stock and an option to acquire AnaptysBio shares of common stock. As a result, the Reporting Person acquired options to acquire First Tracks shares of common stock in an amount determined in accordance with the Separation Agreement.</footnote>
+        <footnote id="F3">The stock option is fully vested and exercisable.</footnote>
+        <footnote id="F4">The stock option vests as to 25% of the total shares on January 3, 2025, and thereafter vests as to 1/48 of the total shares monthly until fully vested, subject to the Reporting Person's provision of service to the Issuer on each vesting date.</footnote>
+        <footnote id="F5">The stock option vests as to 25% of the total shares on January 7, 2026, and thereafter vests as to 1/48 of the total shares monthly until fully vested, subject to the Reporting Person's provision of service to the Issuer on each vesting date.</footnote>
+        <footnote id="F6">The stock option vests as to 25% of the total shares on January 6, 2027, and thereafter vests as to 1/48 of the total shares monthly until fully vested, subject to the Reporting Person's provision of service to the Issuer on each vesting date.</footnote>
+        <footnote id="F7">Each restricted stock unit (&quot;RSU&quot;) represents a contingent right to receive 1 share of the Issuer's Common Stock upon settlement for no consideration.</footnote>
+        <footnote id="F8">Effective as of a pro rata distribution by AnaptysBio to holders of its shares of common stock pursuant to the Separation Agreement, each outstanding RSU with respect to AnaptysBio shares of common stock was adjusted so that such RSU became an RSU with respect to First Tracks shares of common stock and an RSU with respect to AnaptysBio's shares of common stock. As a result, the Reporting Person acquired RSU s with respect to First Tracks shares of common stock in an amount determined in accordance with the Separation Agreement.</footnote>
+        <footnote id="F9">The RSUs vests as to 25% of the total RSUs annually commencing on January 6, 2024 until fully vested, subject to the Reporting Person's provision of service to the Issuer on each vesting date.</footnote>
+        <footnote id="F10">The RSUs vests as to 25% of the total RSUs annually commencing on January 3, 2025 until fully vested, subject to the Reporting Person's provision of service to the Issuer on each vesting date.</footnote>
+        <footnote id="F11">The RSUs vests as to 25% of the total RSUs annually commencing on January 7, 2026 until fully vested, subject to the Reporting Person's provision of service to the Issuer on each vesting date.</footnote>
+        <footnote id="F12">The RSUs vests as to 25% of the total RSUs annually commencing on January 6, 2027 until fully vested, subject to the Reporting Person's provision of service to the Issuer on each vesting date.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Ajim Tamboli, Attorney-in-Fact</signatureName>
+        <signatureDate>2026-04-22</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

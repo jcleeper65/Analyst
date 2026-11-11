@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-08-17</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0002104052</issuerCik>
+        <issuerName>Enviri Corp</issuerName>
+        <issuerTradingSymbol>NVRI</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001756619</rptOwnerCik>
+            <rptOwnerName>HAZNEDAR CAROLANN I</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>TWO LOGAN SQUARE</rptOwnerStreet1>
+            <rptOwnerStreet2>100-120 N. 18TH STREET, 17TH FLOOR</rptOwnerStreet2>
+            <rptOwnerCity>PHILADELPHIA</rptOwnerCity>
+            <rptOwnerState>PA</rptOwnerState>
+            <rptOwnerZipCode>19103</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-08-17</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>P</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>4875</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>20.461</value>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>42955</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">The price reported in Column 4 is a weighted average price. The shares were purchased in multiple transactions at prices ranging from $20.38 to $20.60, inclusive. The reporting person undertakes to provide to Enviri Corporation, any security holder of Enviri Corporation, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares purchased at each separate price within the range set forth in footnote (1) to this Form 4.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Carolann I. Haznedar</signatureName>
+        <signatureDate>2026-08-18</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

@@ -1,0 +1,119 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>30
+<FILENAME>R16.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Goodwill<br></strong></div></th>
+<th class="th" colspan="1">12 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Dec. 31, 2025</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_GoodwillAndIntangibleAssetsDisclosureAbstract', window );"><strong>Goodwill and Intangible Assets Disclosure [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_GoodwillDisclosureTextBlock', window );">Goodwill</a></td>
+<td class="text"><p id="xdx_80B_eus-gaap--GoodwillDisclosureTextBlock_zSRTPeKwayI" style="font: 10pt Times New Roman, Times, Serif; display: none; margin: 0pt; text-align: justify">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="width: 100%; font-size: 10pt">
+  <tr style="vertical-align: top">
+    <td style="width: 24px"><span style="font-size: 10pt"><b>7.</b></span></td>
+    <td style="text-align: justify"><span style="font-size: 10pt"><b><span id="xdx_829_z8uh3DkVFfvg">Goodwill</span></b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As of December 31, 2025 and 2024, goodwill was
+$<span id="xdx_902_eus-gaap--Goodwill_iI_c20251231_ziyWi5qjJpf7"><span id="xdx_90C_eus-gaap--Goodwill_iI_c20241231_z2fXHYNTy6t5">0</span></span>, respectively. For the year ended December 31, 2024, the Company
+recorded a $<span id="xdx_905_eus-gaap--GoodwillImpairmentLossNetOfTax_c20240101__20241231_zKQn8gPOxCW6" title="Impairment loss">1,567,485</span> impairment
+loss on the balance of goodwill. See &#8220;<i>Note 3 &#8211; Significant Accounting Policies</i>&#8221; for managements position on
+impairment of long-lived assets.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+
+
+<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_GoodwillAndIntangibleAssetsDisclosureAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_GoodwillAndIntangibleAssetsDisclosureAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_GoodwillDisclosureTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The entire disclosure for goodwill.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 24<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482548/350-20-55-24<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482573/350-20-50-6<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482573/350-20-50-6<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482573/350-20-50-5<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482573/350-20-50-4<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3A<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482573/350-20-50-3A<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482573/350-20-50-2<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482573/350-20-50-1<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/350-20/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_GoodwillDisclosureTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

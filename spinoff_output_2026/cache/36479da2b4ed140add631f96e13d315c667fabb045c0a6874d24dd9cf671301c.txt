@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-08-04</periodOfReport>
+
+    <notSubjectToSection16>false</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001705284</issuerCik>
+        <issuerName>Private Bancorp of America, Inc.</issuerName>
+        <issuerTradingSymbol>PBAM</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0002134585</rptOwnerCik>
+            <rptOwnerName>Sowers Richard L.</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>9404 GENESEE AVE.</rptOwnerStreet1>
+            <rptOwnerStreet2>SUITE 100</rptOwnerStreet2>
+            <rptOwnerCity>LA JOLLA</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92037</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>true</isDirector>
+            <isOfficer>true</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+            <officerTitle>President and CEO</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>false</aff10b5One>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>85.65</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-08-04</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>5</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>30000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F1"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2036-08-04</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>30000</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>30000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">The stock options vest on the date the Issuer's 2028 audited financial statements are delivered to the Issuer, subject to the reporting person's continued employment with the Issuer (or any of its subsidiaries or affiliates thereof) on the vesting date and the achievement of the relevant performance conditions as of the vesting date.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Richard L. Sowers</signatureName>
+        <signatureDate>2026-08-06</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

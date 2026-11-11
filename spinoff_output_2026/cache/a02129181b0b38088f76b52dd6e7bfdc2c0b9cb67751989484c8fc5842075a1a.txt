@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-04-28</periodOfReport>
+
+    <issuer>
+        <issuerCik>0002033382</issuerCik>
+        <issuerName>Silver Point Private Credit Fund</issuerName>
+        <issuerTradingSymbol>N/A</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001978146</rptOwnerCik>
+            <rptOwnerName>Austin Laurence</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>C/O SILVER POINT PRIVATE CREDIT FUND</rptOwnerStreet1>
+            <rptOwnerStreet2>TWO GREENWICH PLAZA, SUITE 1</rptOwnerStreet2>
+            <rptOwnerCity>GREENWICH</rptOwnerCity>
+            <rptOwnerState>CT</rptOwnerState>
+            <rptOwnerZipCode>06830</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>false</isDirector>
+            <isOfficer>false</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>true</isOther>
+            <otherText>Trustee</otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>false</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Shares of Beneficial Interest</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-04-28</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>P</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>37509</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>26.66</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>37509</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>By Trust</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <remarks>The Reporting Person disclaims beneficial ownership over the securities as reported herein as indirectly beneficially owned, except to the extent of his pecuniary interest therein.</remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ James Kasmarcik, as Attorney-in-Fact</signatureName>
+        <signatureDate>2026-04-30</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

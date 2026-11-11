@@ -1,0 +1,472 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>33
+<FILENAME>R22.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Significant Accounting Policies (Policies)<br></strong></div></th>
+<th class="th" colspan="1">3 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Mar. 31, 2026</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AccountingPoliciesAbstract', window );"><strong>Accounting Policies [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_BasisOfAccountingPolicyPolicyTextBlock', window );">Basis of Presentation</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Basis of Presentation</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">The Company&#8217;s consolidated financial statements have been prepared in accordance with U.S. GAAP. The Company is an investment company and accordingly will follow the investment company accounting and reporting guidance of the Financial Accounting Standards Board (&#8220;FASB&#8221;) Accounting Standards Codification (&#8220;ASC&#8221;) Topic 946, Financial Services &#8211; Investment Companies (&#8220;ASC 946&#8221;). These consolidated financial statements reflect adjustments that in the opinion of management are necessary for the fair statement of the financial position and results of operations for the periods presented herein. The Company commenced operations on January 2, 2026, and its fiscal year ends on December 31.</span></div><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConsolidationPolicyTextBlock', window );">Basis of Consolidation</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Basis of Consolidation</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">As provided under ASC 946, the Company will not consolidate its investment in a company other than an investment company subsidiary or a controlled operating company whose business consists of providing services to the Company.</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">The Company consolidates the results of its wholly owned subsidiaries, Matterhorn, CHS BDC 2 LLC and APS CW SPV LLC, in the financial statements provided herein. All intercompany transactions have been eliminated in consolidation.</span></div><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SegmentReportingPolicyPolicyTextBlock', window );">Segment Reporting</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Segment Reporting</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">In accordance with ASC Topic 280 - Segment Reporting (&#8220;ASC 280&#8221;), the Company has determined that it has a single operating and reporting segment. As a result, the Company's segment accounting policies are the same as described herein and the Company does not have any intra-segment sales and transfers of assets. See "Note 7. Segment Reporting" for more information.</span></div><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UseOfEstimates', window );">Use of Estimates</a></td>
+<td class="text"><div style="margin-bottom:10pt;text-align:justify"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Use of Estimates</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">The preparation of the consolidated financial statements in conformity with generally accepted accounting principles in the United States (&#8220;U.S. GAAP&#8221;) requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the consolidated financial statements. Actual results could differ from those estimates and such differences could be material.</span></div><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CashAndCashEquivalentsPolicyTextBlock', window );">Cash, Cash Equivalents and Restricted Cash</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Cash, Cash Equivalents and Restricted Cash</span></div>Cash, cash equivalents, and restricted cash represent cash held in banks, cash on hand, and liquid investments with original maturities of three months or less. The Company may have bank balances in excess of federally insured amounts; however, the Company deposits its cash, cash equivalents and restricted cash with high credit-quality institutions to minimize credit risk exposure, and the Company's management believes the risk of loss associated with any uninsured balances is remote. As of March&#160;31, 2026, the Company had $28.9&#160;million of restricted cash. Restricted cash is collected and held by the trustee who has been appointed as custodian of the assets securing certain of the Company's financing transactions. The Company considers certain money market funds, U.S. Treasury bills, repurchase agreements, and other high-quality, short-term debt securities as cash equivalents. As of March&#160;31, 2026, cash equivalents included $187.2 million invested in money market funds, valued based on Level 1 inputs.<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RevenueRecognitionPolicyTextBlock', window );">Investment Related Transactions, Revenue Recognition and Expenses And Non-Accrual Loans</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Investment Related Transactions, Revenue Recognition and Expenses</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Investment transactions and the related revenue and expenses are recorded on a trade-date basis. Realized gains or losses are recorded upon the sale or liquidation of investments and are calculated as the difference between the net proceeds from the sale or liquidation, if any, and the cost basis of the investment using the specific identification method. Unrealized appreciation or depreciation reflects the difference between the fair value of the investments and the cost basis </span></div><div style="margin-bottom:10pt;text-align:justify"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">of the investments. Interest income is recorded on an accrual basis and includes the accretion of discounts and amortizations of premiums. Discounts to par value on securities purchased are accreted into interest income over the contractual life of the respective security using the effective interest method. Premiums to par value on securities purchased are amortized to the first call date into interest income using the effective interest method. The amortized cost of investments represents the original cost adjusted for the amortization of premiums or accretion of discounts, if any. Upon prepayment of a loan or debt security, any prepayment premiums, unamortized fees and unamortized discounts are recorded as interest income.</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Dividend income on preferred equity securities is recorded on an accrual basis to the extent that such amounts are payable by the portfolio company and are expected to be collected. Dividend income on common equity securities is recorded on the record date for private portfolio companies or on the ex-dividend date for publicly traded portfolio companies. </span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">In the general course of its business, the Company receives certain fees from portfolio companies which are non-recurring in nature. Such fees include structuring fees, loan waiver amendment fees, and commitment fees, and are recorded as other income in investment income when earned.</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Certain investments may have contractual payment-in-kind (&#8220;PIK&#8221;) interest. PIK represents accrued interest that is added to the principal amount of the investment on the interest payment date rather than being paid in cash and generally becomes due at maturity or upon the investment being called by the issuer. </span></div><div style="text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Expenses are recorded on an accrual basis.</span></div><div style="text-align:justify"><span><br/></span></div><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Non-Accrual Loans</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Loans or debt securities are placed on non-accrual status when there is reasonable doubt that principal or interest will be collected. Accrued interest generally is reversed when a loan or debt security is placed on non-accrual status. Interest payments received on non-accrual loans or debt securities may be recognized as income or applied to principal depending upon management&#8217;s judgment. Non-accrual loans and debt securities are restored to accrual status when past due principal and interest are paid and, in management&#8217;s judgment, principal and interest payments are likely to remain current. The Company may make exceptions to this treatment if a loan has sufficient collateral value and is in the process of collection. As of March&#160;31, 2026, there were no loans on non-accrual status.</span></div><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentPolicyTextBlock', window );">Valuation of Portfolio Investments And Receivables/Payables from Investments Sold/Purchased</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Valuation of Portfolio Investments</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Pursuant to Rule 2a-5 under the 1940 Act, the Board has designated the OHA Adviser as the Company&#8217;s &#8220;valuation designee&#8221; to determine the valuation of the Company&#8217;s investments for which market quotations are not readily available. The OHA Adviser values the investments owned by the Company in accordance with the Company's valuation policies and procedures, subject at all times to the oversight of the Board. The OHA Adviser determines the fair value of the Company&#8217;s investments for which market quotations are not readily available in accordance with ASC Topic 820, Fair Value Measurement (&#8220;ASC 820&#8221;), which defines fair value as the amount that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the applicable measurement date. ASC 820 prioritizes the use of observable market prices derived from such prices over entity-specific inputs. Due to the inherent uncertainties of valuation, certain estimated fair values may differ significantly from the values that would have been realized had a ready market for these investments existed, and these differences could be material.</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Investments that are listed or traded on an exchange and are freely transferable are valued at either the closing price (in the case of securities and futures) or the mean of the closing bid and offer (in the case of options) on the principal exchange on which the investment is listed or traded. Investments for which other market quotations are readily available are typically valued at such market quotations. Market quotations are obtained from an independent pricing service, where available. If a price cannot be obtained from an independent pricing service or if the independent pricing service is not deemed to be current with the market, certain investments held by the Company are valued on the basis of prices provided by principal market makers or primary market dealers. Generally, investments marked in this manner are marked at the mean of the bid and ask of the independent broker quotes obtained. To validate market quotations, the OHA Adviser utilizes a number of factors to determine if the quotations are representative of fair value, including the source and number of quotations. Debt and equity securities that are not publicly traded or whose market prices are not readily available are valued at a price that reflects such security&#8217;s fair value, as determined in good faith by the OHA Adviser pursuant to procedures adopted by, and under the oversight of, the Board, based on, among other things, the input of the Advisers, the Audit Committee of the Board and independent valuation firms engaged at the direction of the Board to review the Company&#8217;s investments.</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">With respect to the valuation of investments for which market quotations are not readily available, the OHA Adviser undertakes a multi-step valuation process in connection with determining the fair value of its investments for which reliable market quotations are not readily available, which includes, among other procedures, the following:</span></div><div style="margin-bottom:3pt;padding-left:36pt;text-align:justify;text-indent:-18pt"><span style="color:#000000;font-family:'Arial',sans-serif;font-size:12pt;font-weight:400;line-height:120%">&#8226;</span><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:13.8pt">the valuation process begins with each investment being preliminarily valued by each Adviser's valuation team in consultation with the Advisers&#8217; investment professionals responsible for each portfolio investment;</span></div><div style="margin-bottom:3pt;padding-left:36pt;text-align:justify;text-indent:-18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:12pt;font-weight:400;line-height:120%">&#8226;</span><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:13.8pt">generally, investments that constitute a material portion of the Company&#8217;s portfolio are periodically reviewed by independent valuation firms. The independent valuation firms provide a final range of values on such investments to the OHA Adviser. The independent valuation firms also provide analyses to support their valuation methodology and calculations;</span></div><div style="margin-bottom:3pt;padding-left:36pt;text-align:justify;text-indent:-18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:12pt;font-weight:400;line-height:120%">&#8226;</span><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:13.8pt">the OHA Adviser&#8217;s valuation committee with respect to the Company (the &#8220;Valuation Committee&#8221;) reviews each valuation recommendation to confirm they have been calculated in accordance with the Company&#8217;s valuation policy and when applicable, compares such valuations to the independent valuation firms&#8217; valuation ranges to ensure the Advisers&#8217; valuations are reasonable; </span></div><div style="margin-bottom:3pt;padding-left:36pt;text-align:justify;text-indent:-18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:12pt;font-weight:400;line-height:120%">&#8226;</span><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:13.8pt">the Valuation Committee then determines fair value marks for each of the Company&#8217;s portfolio investments; and</span></div><div style="margin-bottom:10pt;padding-left:36pt;text-align:justify;text-indent:-18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:12pt;font-weight:400;line-height:120%">&#8226;</span><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:13.8pt">the Board and Audit Committee periodically review the valuation process and provide oversight in accordance with the requirements of Rule 2a-5 under the 1940 Act.</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">As part of the valuation process, the OHA Adviser takes into account relevant factors in determining the fair value of the Company&#8217;s investments for which reliable market quotations are not readily available, many of which are loans, including and in combination, as relevant: the estimated enterprise value of a portfolio company, analysis of discounted cash flows, publicly traded comparable companies and comparable transactions; the nature and realizable value of any collateral; the portfolio company&#8217;s ability to make payments based on its earnings and cash flow; the markets in which the portfolio company does business; and overall changes in the interest rate environment and the credit markets that may affect the price at which similar investments may be made in the future. When an external event such as a purchase transaction, public offering or subsequent equity sale occurs, the OHA Adviser uses the pricing indicated by the external event to corroborate and/or assist in valuation.</span></div><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Receivables/Payables from Investments Sold/Purchased</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Receivables/payables from investments sold/purchased consist of amounts receivable to or payable by the Company for transactions that have not settled at the reporting date. As of March&#160;31, 2026, the Company had $0.2 million of receivables for investments sold. As of March&#160;31, 2026, the Company had $265.6 million of payables for investments purchased.</span></div><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DebtPolicyTextBlock', window );">Deferred Financing</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Deferred Financing</span></div>Deferred financing and debt issuance costs represent fees and other direct incremental costs incurred in connection with the Company&#8217;s borrowings. These expenses are deferred and amortized into interest expense over the life of the related debt instrument using the straight-line method. Deferred financing costs related to revolving credit facilities are presented separately as an asset on the Company&#8217;s Consolidated Statement of Assets and Liabilities.<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_aps_OrganizationalExpenseAndOfferingCostsPolicyPolicyTextBlock', window );">Organizational Expense and Offering Costs</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Organizational Expense and Offering Costs</span></div>The Advisers agreed to incur organizational and offering costs on behalf of the Company and did not seek reimbursement of incurred organizational and offering costs prior to the Company's election to be regulated as a BDC under the 1940 Act on January 2, 2026.<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_IncomeTaxPolicyTextBlock', window );">Income Taxes</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Income Taxes</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">The Company intends to elect to be treated, and intends to qualify annually thereafter, as a RIC under the Code. So long as the Company maintains its tax treatment as a RIC, it generally will not be subject to corporate-level U.S. federal income taxes on any ordinary income or capital gains that it distributes at least annually to shareholders as dividends. As a result, any tax liability related to income earned and distributed by the Company represents obligations of the Company's shareholders and will not be reflected in the financial statements of the Company.</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">To qualify for and maintain qualification as a RIC, the Company must, among other things, meet certain source-of-income and asset diversification requirements. In addition, to qualify for RIC tax treatment, the Company must distribute to holders of its Units, for each taxable year, at least 90% of its &#8220;investment company taxable income&#8221; for that year, which is generally its ordinary income plus the excess, if any, of its realized net short-term capital gains over its realized net long-term capital losses. In addition, the Company is subject to a 4% nondeductible federal excise tax on undistributed income unless it distributes in a timely manner (or is deemed to timely distribute) in each taxable year an amount at least equal to the sum of (i) 98% of its ordinary income for the calendar year, (ii) 98.2% of its capital gains net income (both long-term and short-term) for the one-year period ending October 31 in that calendar year and (iii) certain undistributed amounts from previous years on which the Company paid no U.S. federal income tax. The Company, at its discretion, may carry forward taxable income in excess of calendar year dividends and pay a 4% nondeductible U.S. federal excise tax on this income.</span></div>The Company evaluates tax positions taken or expected to be taken in the course of preparing its consolidated financial statements to determine whether the tax positions are &#8220;more-likely-than-not&#8221; to be sustained by the applicable tax authority. Tax positions not deemed to meet the &#8220;more-likely-than-not&#8221; threshold are reserved and recorded as a tax benefit or expense in the current year. All penalties and interest associated with income taxes are included in income tax expense. Conclusions regarding tax positions are subject to review and may be adjusted at a later date based on factors including, but not limited to, on-going analyses of tax laws, regulations and interpretations thereof. There were no material uncertain income tax positions from inception through March&#160;31, 2026.<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyDistributionPolicyTextBlock', window );">Distributions</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Distributions</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Distributions to the Unitholder are recorded as of the record date. The amount to be paid out as a distribution is determined by the Board. During the period from January 2, 2026 (commencement of operations) through March 31, 2026, no distributions were declared on the Company's Units. The Company intends to declare and pay distributions in amounts sufficient to satisfy the annual distribution requirements necessary to qualify as a RIC and to avoid the imposition of U.S. federal excise tax.</span></div><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock', window );">Recent Accounting Pronouncements</a></td>
+<td class="text"><div style="margin-bottom:10pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:400;line-height:120%">Recent Accounting Pronouncements</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">The Company considers the applicability and impact of all accounting standard updates (&#8220;ASUs&#8221;) issued by the FASB. The Company has assessed currently issued ASUs and has determined that ASUs not listed are not applicable or are expected to have minimal impact on its consolidated financial statements.</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">In December 2023, the FASB issued ASU No. 2023-09, &#8220;Income Taxes (Topic 740): Improvements to Income Tax Disclosures (&#8220;ASU 2023-09&#8221;),&#8221; which updates income tax disclosure requirements related to rate reconciliation, income taxes paid, and other disclosures. ASU 2023-09 is effective for fiscal years beginning after December 15, 2024, and is to be adopted on a prospective basis, with the option to apply retrospectively. The Company does not expect the adoption of ASU 2023-09 to have a material effect on its consolidated financial statements.</span></div><div style="margin-bottom:10pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">In November 2024, the FASB issued ASU 2024-03, &#8220;Income Statement&#8212;Reporting Comprehensive Income&#8212;Expense Disaggregation Disclosures (Subtopic 220-40)&#8221; ("ASU 2024-03"), which requires disaggregated disclosure of certain costs and expenses, including purchases of inventory, employee compensation, depreciation, amortization and depletion, in each relevant expense caption. ASU 2024-03 is effective for fiscal years beginning after December 15, 2026, and interim reporting periods beginning after December 15, 2027. Early adoption and retrospective application is permitted. The Company is currently assessing the impact of this guidance; however, the Company does not expect the adoption of ASU 2024-03 to have a material effect on its consolidated financial statements.</span></div><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_aps_OrganizationalExpenseAndOfferingCostsPolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Organizational Expense And Offering Costs, Policy</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">aps_OrganizationalExpenseAndOfferingCostsPolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>aps_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AccountingPoliciesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AccountingPoliciesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_BasisOfAccountingPolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for basis of accounting, or basis of presentation, used to prepare the financial statements (for example, US Generally Accepted Accounting Principles, Other Comprehensive Basis of Accounting, IFRS).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483426/235-10-50-4<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_BasisOfAccountingPolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CashAndCashEquivalentsPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for cash and cash equivalents, including the policy for determining which items are treated as cash equivalents. Other information that may be disclosed includes (1) the nature of any restrictions on the entity's use of its cash and cash equivalents, (2) whether the entity's cash and cash equivalents are insured or expose the entity to credit risk, (3) the classification of any negative balance accounts (overdrafts), and (4) the carrying basis of cash equivalents (for example, at cost) and whether the carrying amount of cash equivalents approximates fair value.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Topic 230<br> -SubTopic 10<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482913/230-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CashAndCashEquivalentsPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ConsolidationPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy regarding (1) the principles it follows in consolidating or combining the separate financial statements, including the principles followed in determining the inclusion or exclusion of subsidiaries or other entities in the consolidated or combined financial statements and (2) its treatment of interests (for example, common stock, a partnership interest or other means of exerting influence) in other entities, for example consolidation or use of the equity or cost methods of accounting. The accounting policy may also address the accounting treatment for intercompany accounts and transactions, noncontrolling interest, and the income statement treatment in consolidation for issuances of stock by a subsidiary.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483426/235-10-50-4<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Topic 810<br> -SubTopic 10<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481203/810-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ConsolidationPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DebtPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy related to debt. Includes, but is not limited to, debt issuance costs, the effects of refinancings, method of amortizing debt issuance costs and original issue discount, and classifications of debt.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -SubTopic 10<br> -Topic 470<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481544/470-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DebtPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_IncomeTaxPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for income taxes, which may include its accounting policies for recognizing and measuring deferred tax assets and liabilities and related valuation allowances, recognizing investment tax credits, operating loss carryforwards, tax credit carryforwards, and other carryforwards, methodologies for determining its effective income tax rate and the characterization of interest and penalties in the financial statements.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482685/740-10-50-20<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 19<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482685/740-10-50-19<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 25<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482525/740-10-45-25<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(h)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 17<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482685/740-10-50-17<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 9<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482685/740-10-50-9<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 28<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482525/740-10-45-28<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 220<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482765/220-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_IncomeTaxPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanyDistributionPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for distribution to ownership interest holder. Includes, but is not limited to, dividend distribution and tax return of capital.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 10<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480990/946-20-50-10<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanyDistributionPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for investment in financial asset.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-04(3)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(d))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(f)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(f)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(f)(3))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 12<br> -Subparagraph (i)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-12<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 320<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 19<br> -Subparagraph (2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-19<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy pertaining to new accounting pronouncements that may impact the entity's financial reporting. Includes, but is not limited to, quantification of the expected or actual impact.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RevenueRecognitionPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for revenue. Includes revenue from contract with customer and from other sources.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.6-07(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RevenueRecognitionPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SegmentReportingPolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for segment reporting.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 41<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-41<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 5: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 47<br> -Subparagraph (bb)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482785/280-10-55-47<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (f)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 7: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 54<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482785/280-10-55-54<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 36<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-36<br><br>Reference 9: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 47<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482785/280-10-55-47<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 11: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (e)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SegmentReportingPolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_UseOfEstimates">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for the use of estimates in the preparation of financial statements in conformity with generally accepted accounting principles.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 235<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478671/942-235-S50-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 235<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-05(b)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-12<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 9<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-9<br><br>Reference 5: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482836/275-10-55-6<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-6<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-4<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)<br> -SubTopic 10<br> -Topic 275<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-1<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)<br> -SubTopic 10<br> -Topic 275<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_UseOfEstimates</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

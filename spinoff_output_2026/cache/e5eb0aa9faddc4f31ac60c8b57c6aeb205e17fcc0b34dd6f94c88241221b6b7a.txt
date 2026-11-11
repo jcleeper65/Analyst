@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:bxinfra="http://www.bxpe.com/20260629" xmlns:deprecated="http://www.xbrl.org/2009/arcrole/deprecated" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:currency="http://xbrl.sec.gov/currency/2025" xmlns:exch="http://xbrl.sec.gov/exch/2025" xmlns:naics="http://xbrl.sec.gov/naics/2025" xmlns:sic="http://xbrl.sec.gov/sic/2025" xmlns:stpr="http://xbrl.sec.gov/stpr/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:srt="http://fasb.org/srt/2025" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2022-02-16" xmlns:xbrll="http://www.xbrl.org/2003/linkbase" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>8-K</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+</head>
+<body style="line-height:normal;background-color:white;"><div style="display: none"><ix:header><ix:hidden><ix:nonNumeric name="dei:AmendmentFlag" contextRef="P06_29_2026To06_29_2026" id="ixv-755">false</ix:nonNumeric><ix:nonNumeric name="dei:AmendmentFlag" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" id="ixv-756">false</ix:nonNumeric><ix:nonNumeric name="dei:EntityCentralIndexKey" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" id="ixv-757">0002050229</ix:nonNumeric><ix:nonNumeric name="dei:EntityCentralIndexKey" contextRef="P06_29_2026To06_29_2026" id="ixv-758">0002030772</ix:nonNumeric></ix:hidden><ix:references><link:schemaRef xlink:type="simple" xlink:href="bxinfra-20260629.xsd"/></ix:references><ix:resources><xbrli:context id="P06_29_2026To06_29_2026"> <xbrli:entity> <xbrli:identifier scheme="http://www.sec.gov/CIK">0002030772</xbrli:identifier> </xbrli:entity> <xbrli:period> <xbrli:startDate>2026-06-29</xbrli:startDate> <xbrli:endDate>2026-06-29</xbrli:endDate> </xbrli:period> </xbrli:context><xbrli:context id="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis"> <xbrli:entity> <xbrli:identifier scheme="http://www.sec.gov/CIK">0002030772</xbrli:identifier> <xbrli:segment> <xbrldi:explicitMember dimension="dei:DocumentInformationDocumentAxis">bxinfra:BlackstonePrivateEquityStrategiesFundTELPMember</xbrldi:explicitMember> </xbrli:segment> </xbrli:entity> <xbrli:period> <xbrli:startDate>2026-06-29</xbrli:startDate> <xbrli:endDate>2026-06-29</xbrli:endDate> </xbrli:period> </xbrli:context></ix:resources></ix:header></div><div><div style="line-height:normal;display: inline;"><div style="text-align:center"><div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto"><div style="line-height:1.0pt;margin-top:0pt;margin-bottom:0pt;border-bottom:1px solid #000000">&#160;</div><div style="line-height:3.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1px solid #000000">&#160;</div><div style="margin-top:8pt; margin-bottom:0pt; font-size:18pt; font-family:Arial;font-weight:bold;text-align:center">UNITED STATES </div><div style="margin-top:0pt; margin-bottom:0pt; font-size:18pt; font-family:Arial;font-weight:bold;text-align:center">SECURITIES AND EXCHANGE COMMISSION </div><div style="margin-top:0pt; margin-bottom:0pt; font-size:12pt; font-family:Arial;font-weight:bold;text-align:center">WASHINGTON, D.C. 20549 </div><div style="font-size:8pt;margin-top:0pt;margin-bottom:0pt">&#160;</div><div style="text-align:center"><div style="line-height:6.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1.00pt solid #000000;width:21%;text-align:center;margin-left: auto;margin-right: auto">&#160;</div></div><div style="margin-top:12pt; margin-bottom:0pt; font-size:18pt; font-family:Arial;font-weight:bold;text-align:center">FORM <div style="white-space:nowrap;display:inline;"><ix:nonNumeric name="dei:DocumentType" contextRef="P06_29_2026To06_29_2026" id="ixv-776">8-K</ix:nonNumeric></div> </div><div style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</div><div style="text-align:center"><div style="line-height:6.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1.00pt solid #000000;width:21%;text-align:center;margin-left: auto;margin-right: auto">&#160;</div></div><div style="margin-top:14pt; margin-bottom:0pt; font-size:12pt; font-family:Arial;font-weight:bold;text-align:center">CURRENT REPORT </div><div style="margin-top:0pt; margin-bottom:0pt; font-size:12pt; font-family:Arial;font-weight:bold;text-align:center">Pursuant to Section&#160;13 or 15(d) </div><div style="margin-top:0pt; margin-bottom:0pt; font-size:12pt; font-family:Arial;font-weight:bold;text-align:center">of the Securities Exchange Act of 1934 </div><div style="margin-top:12pt; margin-bottom:0pt; font-size:12pt; font-family:Arial;font-weight:bold;text-align:center">Date of Report (Date of earliest event reported): <ix:nonNumeric name="dei:DocumentPeriodEndDate" contextRef="P06_29_2026To06_29_2026" format="ixt:date-monthname-day-year-en" id="ixv-777">June 29, 2026</ix:nonNumeric> </div><div style="font-size:8pt;margin-top:0pt;margin-bottom:0pt">&#160;</div><div style="text-align:center"><div style="line-height:6.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1.00pt solid #000000;width:21%;text-align:center;margin-left: auto;margin-right: auto">&#160;</div></div><div style="margin-top:12pt; margin-bottom:0pt; font-size:24pt; font-family:Arial;font-weight:bold;text-align:center"><ix:nonNumeric name="dei:EntityRegistrantName" contextRef="P06_29_2026To06_29_2026" id="ixv-778">Blackstone Infrastructure Strategies L.P.</ix:nonNumeric> </div><div style="margin-top:0pt; margin-bottom:0pt; font-size:24pt; font-family:Arial;font-weight:bold;text-align:center"><ix:nonNumeric name="dei:EntityRegistrantName" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" id="ixv-779">Blackstone Infrastructure Strategies (TE) L.P.</ix:nonNumeric> </div><div style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center">(Exact name of Registrant as specified in its charter) </div><div style="font-size:8pt;margin-top:0pt;margin-bottom:0pt">&#160;</div><div style="text-align:center"><div style="line-height:6.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1.00pt solid #000000;width:21%;text-align:center;margin-left: auto;margin-right: auto">&#160;</div></div><div style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;width:100%;border-spacing:0;margin:0 auto">
+<tr>
+<td style="width:34%"/>
+<td style="vertical-align:bottom"/>
+<td style="width:32%"/>
+<td style="vertical-align:bottom;width:1%"/>
+<td style="width:32%"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top;text-align:center"><div style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center"><ix:nonNumeric name="dei:EntityIncorporationStateCountryCode" contextRef="P06_29_2026To06_29_2026" format="ixt-sec:stateprovnameen" id="ixv-780">Delaware</ix:nonNumeric></div><div style="margin-top:0pt; margin-bottom:1pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center"><ix:nonNumeric name="dei:EntityIncorporationStateCountryCode" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" format="ixt-sec:stateprovnameen" id="ixv-781">Delaware</ix:nonNumeric></div></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"><div style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center"><div style="white-space:nowrap;display:inline;"><ix:nonNumeric name="dei:EntityFileNumber" contextRef="P06_29_2026To06_29_2026" id="ixv-782">000-56672</ix:nonNumeric></div></div><div style="margin-top:0pt; margin-bottom:1pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center"><ix:nonNumeric name="dei:EntityFileNumber" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" id="ixv-783">000-56838</ix:nonNumeric></div></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"><div style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center"><div style="white-space:nowrap;display:inline;">No.&#160;<ix:nonNumeric name="dei:EntityTaxIdentificationNumber" contextRef="P06_29_2026To06_29_2026" id="ixv-784">99-4067586</ix:nonNumeric></div></div><div style="margin-top:0pt; margin-bottom:1pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center"><div style="white-space:nowrap;display:inline;">No.&#160;<ix:nonNumeric name="dei:EntityTaxIdentificationNumber" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" id="ixv-785">99-4573038</ix:nonNumeric></div></div></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:8pt">
+<td style="vertical-align:top;text-align:center"><div style="font-weight:bold;display:inline;">(State or other jurisdiction<br/> of incorporation)</div></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"><div style="margin-top:0pt; margin-bottom:0pt; font-size:8pt; font-family:Arial;font-weight:bold;text-align:center">(Commission</div><div style="margin-top:0pt; margin-bottom:1pt; font-size:8pt; font-family:Arial;font-weight:bold;text-align:center">File Number)</div></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top;text-align:center"><div style="font-weight:bold;display:inline;">(I.R.S. Employer<br/> Identification No.)</div></td></tr></table><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center"><ix:nonNumeric name="dei:EntityAddressAddressLine1" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" id="ixv-786"><ix:nonNumeric name="dei:EntityAddressAddressLine1" contextRef="P06_29_2026To06_29_2026" id="ixv-787">345 Park Avenue</ix:nonNumeric></ix:nonNumeric> </div><div style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center"><ix:nonNumeric name="dei:EntityAddressCityOrTown" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" id="ixv-788"><ix:nonNumeric name="dei:EntityAddressCityOrTown" contextRef="P06_29_2026To06_29_2026" id="ixv-789">New York</ix:nonNumeric></ix:nonNumeric>, <ix:nonNumeric name="dei:EntityAddressStateOrProvince" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" format="ixt-sec:stateprovnameen" id="ixv-790"><ix:nonNumeric name="dei:EntityAddressStateOrProvince" contextRef="P06_29_2026To06_29_2026" format="ixt-sec:stateprovnameen" id="ixv-791">New York</ix:nonNumeric></ix:nonNumeric> <ix:nonNumeric name="dei:EntityAddressPostalZipCode" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" id="ixv-792"><ix:nonNumeric name="dei:EntityAddressPostalZipCode" contextRef="P06_29_2026To06_29_2026" id="ixv-793">10154</ix:nonNumeric></ix:nonNumeric> </div><div style="margin-top:0pt; margin-bottom:0pt; font-size:8pt; font-family:Arial;font-weight:bold;text-align:center">(Address of principal executive offices and zip code) </div><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center">Registrant&#8217;s telephone number, including area code: </div><div style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center">(<ix:nonNumeric name="dei:CityAreaCode" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" id="ixv-794"><ix:nonNumeric name="dei:CityAreaCode" contextRef="P06_29_2026To06_29_2026" id="ixv-795">212</ix:nonNumeric></ix:nonNumeric>) <div style="white-space:nowrap;display:inline;"><ix:nonNumeric name="dei:LocalPhoneNumber" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" id="ixv-796"><ix:nonNumeric name="dei:LocalPhoneNumber" contextRef="P06_29_2026To06_29_2026" id="ixv-797">583-5000</ix:nonNumeric></ix:nonNumeric></div> </div><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center">Not Applicable </div><div style="margin-top:0pt; margin-bottom:0pt; font-size:8pt; font-family:Arial;font-weight:bold;text-align:center">(Former name or former address, if changed since last report) </div><div style="font-size:8pt;margin-top:0pt;margin-bottom:0pt">&#160;</div><div style="text-align:center"><div style="line-height:6.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1.00pt solid #000000;width:21%;text-align:center;margin-left: auto;margin-right: auto">&#160;</div></div><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">Check the appropriate box below if the Form <div style="white-space:nowrap;display:inline;">8-K</div> filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: </div><div style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left"><div style="font-family:Times New Roman;display:inline;"><ix:nonNumeric name="dei:WrittenCommunications" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" format="ixt-sec:boolballotbox" id="ixv-798"><ix:nonNumeric name="dei:WrittenCommunications" contextRef="P06_29_2026To06_29_2026" format="ixt-sec:boolballotbox" id="ixv-799">&#9744;</ix:nonNumeric></ix:nonNumeric></div></td>
+<td style="vertical-align:top;text-align:left"><div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:left">Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) </div></td></tr></table><div style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left"><div style="font-family:Times New Roman;display:inline;"><ix:nonNumeric name="dei:SolicitingMaterial" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" format="ixt-sec:boolballotbox" id="ixv-800"><ix:nonNumeric name="dei:SolicitingMaterial" contextRef="P06_29_2026To06_29_2026" format="ixt-sec:boolballotbox" id="ixv-801">&#9744;</ix:nonNumeric></ix:nonNumeric></div></td>
+<td style="vertical-align:top;text-align:left"><div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:left">Soliciting material pursuant to Rule <div style="white-space:nowrap;display:inline;">14a-12</div> under the Exchange Act (17 CFR <div style="white-space:nowrap;display:inline;">240.14a-12)</div></div></td></tr></table><div style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left"><div style="font-family:Times New Roman;display:inline;"><ix:nonNumeric name="dei:PreCommencementTenderOffer" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" format="ixt-sec:boolballotbox" id="ixv-802"><ix:nonNumeric name="dei:PreCommencementTenderOffer" contextRef="P06_29_2026To06_29_2026" format="ixt-sec:boolballotbox" id="ixv-803">&#9744;</ix:nonNumeric></ix:nonNumeric></div></td>
+<td style="vertical-align:top;text-align:left"><div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:left"><div style="white-space:nowrap;display:inline;">Pre-commencement</div> communications pursuant to Rule <div style="white-space:nowrap;display:inline;">14d-2(b)</div> under the Exchange Act (17 CFR <div style="white-space:nowrap;display:inline;">240.14d-2(b))</div></div></td></tr></table><div style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left"><div style="font-family:Times New Roman;display:inline;"><ix:nonNumeric name="dei:PreCommencementIssuerTenderOffer" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" format="ixt-sec:boolballotbox" id="ixv-804"><ix:nonNumeric name="dei:PreCommencementIssuerTenderOffer" contextRef="P06_29_2026To06_29_2026" format="ixt-sec:boolballotbox" id="ixv-805">&#9744;</ix:nonNumeric></ix:nonNumeric></div></td>
+<td style="vertical-align:top;text-align:left"><div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:left"><div style="white-space:nowrap;display:inline;">Pre-commencement</div> communications pursuant to Rule <div style="white-space:nowrap;display:inline;">13e-4(c)</div> under the Exchange Act (17 CFR <div style="white-space:nowrap;display:inline;">240.13e-4(c))</div></div></td></tr></table><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">Securities registered pursuant to Section 12(b) of the Act: </div><div style="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;width:98%;border-spacing:0">
+<tr>
+<td style="width:64%"/>
+<td style="vertical-align:bottom;width:8%"/>
+<td/>
+<td style="vertical-align:bottom;width:8%"/>
+<td/>
+<td style="vertical-align:bottom;width:8%"/>
+<td/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:8pt">
+<td style="border-bottom:1.00pt solid #000000;vertical-align:bottom;white-space:nowrap;text-align:center"><div style="margin-top:0pt; margin-bottom:1pt; font-size:8pt; font-family:Arial;font-weight:bold;text-align:center">Registrant</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap;text-align:center"><div style=" margin-top:0pt ; margin-bottom:0pt; border-bottom:1.00pt solid #000000; display:inline-block; font-size:8pt; font-family:Arial;font-weight:bold;text-align:center">Title of<br/> each&#160;class</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap;text-align:center"><div style=" margin-top:0pt ; margin-bottom:0pt; border-bottom:1.00pt solid #000000; display:inline-block; font-size:8pt; font-family:Arial;font-weight:bold;text-align:center">Trading&#160;Symbol(s)</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap;text-align:center"><div style=" margin-top:0pt ; margin-bottom:0pt; border-bottom:1.00pt solid #000000; display:inline-block; font-size:8pt; font-family:Arial;font-weight:bold;text-align:center">Name of each<br/> exchange&#160;on&#160;which<br/> registered</div></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Blackstone Infrastructure Strategies L.P.</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap;text-align:center">None</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap;text-align:center">None</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap;text-align:center">None</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Blackstone Infrastructure Strategies (TE) L.P.</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap;text-align:center">None</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap;text-align:center">None</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom;white-space:nowrap;text-align:center">None</td></tr></table><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (&#167;240.12b-2 of this chapter). </div><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">Blackstone Infrastructure Strategies L.P.&#8194;Yes&#8194;<div style="font-family:Times New Roman;display:inline;"><ix:nonNumeric name="dei:EntityEmergingGrowthCompany" contextRef="P06_29_2026To06_29_2026" format="ixt:fixed-true" id="ixv-806">&#9746;</ix:nonNumeric></div>&#8194; No&#8194;<div style="font-family:Times New Roman;display:inline;">&#9744;</div> </div><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">Blackstone Infrastructure Strategies (TE) L.P.&#8194;Yes&#8194;<div style="font-family:Times New Roman;display:inline;"><ix:nonNumeric name="dei:EntityEmergingGrowthCompany" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" format="ixt:fixed-true" id="ixv-807">&#9746;</ix:nonNumeric></div>&#8194; No&#8194;<div style="font-family:Times New Roman;display:inline;">&#9744;</div> </div><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section&#160;13(a) of the Exchange Act. </div><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">Blackstone Infrastructure Strategies L.P.&#8194;<div style="font-family:Times New Roman;display:inline;"><ix:nonNumeric name="dei:EntityExTransitionPeriod" contextRef="P06_29_2026To06_29_2026" format="ixt:fixed-false" id="ixv-808">&#9744;</ix:nonNumeric></div> </div><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">Blackstone Infrastructure Strategies (TE) L.P.&#8194;<div style="font-family:Times New Roman;display:inline;"><ix:nonNumeric name="dei:EntityExTransitionPeriod" contextRef="P06_29_2026To06_29_2026_BlackstonePrivateEquityStrategiesFundTELPMemberdeiDocumentInformationDocumentAxis" format="ixt:fixed-false" id="ixv-809">&#9744;</ix:nonNumeric></div> </div><div style="font-size:8pt;margin-top:0pt;margin-bottom:0pt">&#160;</div><div style="line-height:1.0pt;margin-top:0pt;margin-bottom:0pt;border-bottom:1px solid #000000">&#160;</div><div style="line-height:3.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1px solid #000000">&#160;</div></div></div><div style="margin-top:1em; margin-bottom:0em; page-break-before:always"></div><hr style="color:#999999;height:3px;width:100%;clear:both"/><div style="text-align:center"><div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto">
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:11%;vertical-align:top;text-align:left"><div style="font-weight:bold;display:inline;">Item&#8201;3.02</div></td>
+<td style="vertical-align:top;text-align:left"><div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:left">Unregistered Sales of Equity Securities. </div></td></tr></table><div style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">On June&#160;1, 2026, Blackstone Infrastructure Strategies L.P. (&#8220;BXINFRA U.S.&#8221;) and Blackstone Infr<div style="display:inline;">ast</div>ructure Strategies (TE) L.P. (the &#8220;Feeder&#8221; and collectively with BXINFRA U.S., the &#8220;Funds,&#8221;) each sold unregistered limited partnership units (the &#8220;Units&#8221;) for aggregate consideration of approximately $292.8 million<div style="font-size:75%; vertical-align:top;display:inline;font-size:8.3px">(1)</div> and $72.1 million<div style="font-size:75%; vertical-align:top;display:inline;font-size:8.3px">(2)</div>, respectively.<div style="font-size:75%; vertical-align:top;display:inline;font-size:8.3px"> </div>The following table details the Units sold by the Funds: </div><div style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;width:76%;border-spacing:0;margin:0 auto">
+<tr>
+<td style="width:60%"/>
+<td style="vertical-align:bottom;width:8%"/>
+<td/>
+<td/>
+<td/>
+<td style="vertical-align:bottom;width:8%"/>
+<td/>
+<td/>
+<td/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:8pt">
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td colspan="2" style="border-bottom:1.00pt solid #000000;vertical-align:bottom;text-align:center"><div style="font-weight:bold;display:inline;">Number&#160;of&#160;Units&#160;Sold<div style="font-size:75%; vertical-align:top;display:inline;font-size:6.6px">(3)</div></div></td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td colspan="2" style="border-bottom:1.00pt solid #000000;vertical-align:bottom;text-align:center"><div style="font-weight:bold;display:inline;">Consideration</div></td>
+<td style="vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial;font-weight:bold">Blackstone Infrastructure Strategies L.P.</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;I&#160;Units<div style="font-size:75%; vertical-align:top;display:inline;font-size:8.3px">(2)</div></div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series I</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">6,856,505</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">205,038,352</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series II</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series III</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;S Units</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">2,154,121</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">63,625,855</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;D Units</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">810,379</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">24,139,000</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="font-size:1px">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"><div style=" margin-top:0pt ; margin-bottom:0pt; border-top:1.00px solid #000000">&#160;</div></td>
+<td style="vertical-align:bottom"><div style=" margin-top:0pt ; margin-bottom:0pt; border-top:1.00px solid #000000">&#160;</div></td>
+<td>&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial;font-weight:bold">Total</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom"><div style="font-weight:bold;display:inline;">$</div></td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right"><div style="font-weight:bold;display:inline;">292,803,207</div></td>
+<td style="white-space:nowrap;vertical-align:bottom"><div style="font-weight:bold;display:inline;">&#160;</div></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial;font-weight:bold">Blackstone Infrastructure Strategies (TE) L.P.<div style="font-size:75%; vertical-align:top;display:inline;font-size:8.3px"> </div><div style="font-size:75%; vertical-align:top;display:inline;font-size:8.3px">(2)</div></div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;I Units</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series I</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">1,121,878</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">33,106,636</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series II</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series III</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;S Units</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">678,194</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">19,772,670</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;D Units</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;I ACC Units</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">324,602</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">9,702,000</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;S ACC Units</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">321,121</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">9,497,000</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;D ACC Units</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="font-size:1px">
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"><div style=" margin-top:0pt ; margin-bottom:0pt; border-top:1.00px solid #000000">&#160;</div></td>
+<td style="vertical-align:bottom"><div style=" margin-top:0pt ; margin-bottom:0pt; border-top:1.00px solid #000000">&#160;</div></td>
+<td>&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial;font-weight:bold">Total</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom"><div style="font-weight:bold;display:inline;">$</div></td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right"><div style="font-weight:bold;display:inline;">72,078,306</div></td>
+<td style="white-space:nowrap;vertical-align:bottom"><div style="font-weight:bold;display:inline;">&#160;</div></td></tr></table><div style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left">(1)</td>
+<td style="vertical-align:top;text-align:left"> <div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:left">The Funds, together with other Blackstone-managed parallel vehicles that invest alongside the Funds, but excluding Blackstone Private Market Solutions <div style="white-space:nowrap;display:inline;">SCA-SICAV</div> &#8211; Blackstone Infrastructure ELTIF (&#8220;BXINFRA Lux&#8221;), collectively form &#8220;BXINFRA.&#8221; BXINFRA and BXINFRA Lux are operated as distinct investment structures and are together referred to as the &#8220;BXINFRA Fund Program.&#8221; On June&#160;1, 2026, the BXINFRA Fund Program (inclusive of the Funds) issued interests for aggregate consideration of approximately $358.5&#160;million, excluding interests sold thro<div style="display:inline;">u</div>gh the Funds&#8217; distribution reinvestment plan. </div></td></tr></table>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left">(2)</td>
+<td style="vertical-align:top;text-align:left"><div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:left">The Feeder was established to allow certain investors with particular tax characteristics, such as <div style="white-space:nowrap;display:inline;">tax-exempt</div> investors and <div style="white-space:nowrap;display:inline;">non-U.S.</div> investors, to participate in BXINFRA U.S. in a more tax efficient manner. Accordingly , the Feeder invests all or substantially all of its assets indirectly in BXINFRA U.S. in exchange for BXINFRA U.S. Class&#160;I Units. On June&#160;1, 2026, the Feeder acquired 2,395,650 BXINFRA U.S. Class&#160;I Units for aggregate consideration of approximately $71.6&#160;million. </div></td></tr></table>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left">(3)</td>
+<td style="vertical-align:top;text-align:left"><div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:left">The number of Units sold by each Fund was finalized on June&#160;29, 2026, following the calculation of their respective transactional net asset values (each, a &#8220;Transactional NAV&#8221;) as of May&#160;31, 2026. See Item 7.01 below for more information on the Funds&#8217; Transactional NAVs. </div></td></tr></table><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">The offer and sale of the Units were made as part of the Funds&#8217; continuous private offerings to investors that are both (a)&#160;accredited investors (as defined in Regulation D under the Securities Act of 1933, as amended (the &#8220;Securities Act&#8221;)) and (b)&#160;qualified purchasers (as defined in the Investment Company Act of 1940, as amended, and the rules thereunder) and were exempt from the registration provisions of the Securities Act, pursuant to Section&#160;4(a)(2) and Regulation D thereunder. </div><div style="font-size:18pt; margin-top:0pt; margin-bottom:0pt">&#160;</div><div style="margin-top:0pt;margin-bottom:0pt ; font-size:8pt">&#160;</div><div style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:center">2 </div></div></div><div style="margin-top:1em; margin-bottom:0em; page-break-before:always"></div><hr style="color:#999999;height:3px;width:100%;clear:both"/><div style="text-align:center"><div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto">
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:11%;vertical-align:top;text-align:left"><div style="font-weight:bold;display:inline;">Item&#8201;7.01</div></td>
+<td style="vertical-align:top;text-align:left"><div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:left">Regulation FD Disclosure </div></td></tr></table><div style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold"><div style="font-style:italic;display:inline;">Transactional Net Asset Value </div></div><div style="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">The Transactional NAV per Unit for each class of the Funds as of May&#160;31, <div style="display:inline;">2026 </div>is as follows: </div><div style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellspacing="0" cellpadding="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;width:68%;border-spacing:0;margin:0 auto">
+<tr>
+<td style="width:73%"/>
+<td style="vertical-align:bottom;width:21%"/>
+<td/>
+<td/>
+<td/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:8pt">
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td colspan="2" style="border-bottom:1.00pt solid #000000;vertical-align:bottom;text-align:center"><div style="font-weight:bold;display:inline;">Transactional&#160;NAV&#160;as&#160;of<br/>May&#160;31, 2026</div></td>
+<td style="vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial;font-weight:bold">Blackstone Infrastructure Strategies L.P.</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;I Unit</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series I</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">29.90</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series II<div style="font-size:75%; vertical-align:top;display:inline;font-size:8.3px">(1)</div></div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series III<div style="font-size:75%; vertical-align:top;display:inline;font-size:8.3px">(1)</div></div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;S Unit</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">29.54</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;D Unit</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">29.79</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top" colspan="4"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial;font-weight:bold">Blackstone Infrastructure Strategies (TE) L.P.</div></td>
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:0em; text-indent:0em; font-size:10pt; font-family:Arial;font-weight:bold">&#160;</div></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;I Unit</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series I</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">29.51</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series II<div style="font-size:75%; vertical-align:top;display:inline;font-size:8.3px">(2)</div></div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:3.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Series III<div style="font-size:75%; vertical-align:top;display:inline;font-size:8.3px">(2)</div></div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;S Unit</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">29.15</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class D Unit</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;I ACC Unit</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">29.89</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;S ACC Unit</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">$</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">29.57</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt;background-color:#cceeff">
+<td style="vertical-align:top"><div style=" margin-top:0pt ; margin-bottom:0pt; margin-left:1.00em; text-indent:-1.00em; font-size:10pt; font-family:Arial">Class&#160;D ACC Unit</div></td>
+<td style="vertical-align:bottom">&#160;&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td>
+<td style="white-space:nowrap;vertical-align:bottom;text-align:right">&#8212;&#8194;</td>
+<td style="white-space:nowrap;vertical-align:bottom">&#160;</td></tr></table><div style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left">(1)</td>
+<td style="vertical-align:top;text-align:left"><div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:left">The initial Transactional NAV per Unit for BXINFRA U.S.&#8217;s Class I-Series II Units and Series III Units will be equal to the Transactional NAV per Unit for BXINFRA U.S.&#8217;s Class I-Series I Units at the time of initial sale. </div></td></tr></table>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;border-spacing:0;width:100%">
+<tr style="page-break-inside:avoid">
+<td style="width:4%;vertical-align:top;text-align:left">(2)</td>
+<td style="vertical-align:top;text-align:left"><div style=" margin-top:0pt ; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:left">The initial Transactional NAV per Unit for the Feeder&#8217;s Class I-Series II Units and Class I-Series III Units will be equal to the Transactional NAV per Unit for the Feeder&#8217;s Class I-Series I Units at the time of initial sale. </div></td></tr></table><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">As of May&#160;31, 2026, the BXINFRA Fund Program&#8217;s aggregate Transactional NAV was approximately $5.6 bi<div style="display:inline;">llio</div>n and BXINFRA&#8217;s aggregate Transactional NAV was approximately $5.3 billion. </div><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">The Funds calculate Transactional NAV for purposes of establishing the price at which transactions in their respective Units are made.&#160;A description of the Funds&#8217; valuation process was included under &#8220;<div style="font-style:italic;display:inline;">Part II, Item 5. Market for Registrant&#8217;s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities&#8212;Calculation of Net Asset Value</div>&#8221; of BXINFRA U.S.&#8217;s <a href="http://www.sec.gov/Archives/edgar/data/../../../ix?doc=/Archives/edgar/data/0002030772/000119312526096453/d70902d10k.htm">Annual Report on Form <span style="white-space:nowrap;display:inline;">10-K</span></a> filed on March&#160;6, 2026. Transactional NAV is based on the <div style="white-space:nowrap;display:inline;">month-end</div> values of each Fund&#8217;s respective investments and other assets and the deduction of any respective liabilities, including certain fees and expenses, in all cases as determined in accordance with the valuation policy that has been approved by the BXINFRA U.S. board of directors. Organizational and offering expenses advanced on the Funds&#8217; behalf by the investment manager are recognized as a reduction to Transactional NAV ratably over 60 months beginning on January&#160;1, 2026, and unitholder servicing fees, as applicable, are recognized as a reduction to Transactional NAV on a monthly basis as such fees are accrued. Certain contingent tax liabilities may not be recognized as a reduction to Transactional NAV if the Funds&#8217; general partner reasonably expects such liabilities will not be recognized upon divestment of the underlying investment. Transactional NAV per Unit may differ from each Fund&#8217;s net asset value as determined in accordance with accounting princi<div style="display:inline;">ple</div>s generally accepted in the United States of America </div><div style="font-size:18pt; margin-top:0pt; margin-bottom:0pt">&#160;</div><div style="margin-top:0pt;margin-bottom:0pt ; font-size:8pt">&#160;</div><div style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:center">3 </div></div></div><div style="margin-top:1em; margin-bottom:0em; page-break-before:always"></div><hr style="color:#999999;height:3px;width:100%;clear:both"/><div style="text-align:center"><div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto"><div style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;font-weight:bold;text-align:center">SIGNATURES </div><div style="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Arial">Pursuant to the requirements of the Securities Exchange Act of 1934, each registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. </div><div style="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&#160;</div>
+<table cellpadding="0" cellspacing="0" style="text-align:start; BORDER-COLLAPSE:COLLAPSE; font-family:Arial; font-size:10pt;width:100%;border-spacing:0">
+<tr>
+<td style="width:44%"/>
+<td style="vertical-align:bottom;width:1%"/>
+<td style="width:4%"/>
+<td style="vertical-align:bottom"/>
+<td style="width:5%"/>
+<td style="vertical-align:bottom;width:1%"/>
+<td style="width:44%"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td colspan="3" style="vertical-align:bottom"><div style="font-weight:bold;display:inline;">BLACKSTONE INFRASTRUCTURE STRATEGIES L.P.</div></td></tr>
+<tr style="font-size:1pt">
+<td style="height:12pt"/>
+<td colspan="2" style="height:12pt"/>
+<td colspan="2" style="height:12pt"/>
+<td colspan="2" style="height:12pt"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:bottom">Date: June&#160;29, 2026</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">By:</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:bottom"><div style="margin-top:0pt; margin-bottom:1pt; border-bottom:1px solid #000000; font-size:10pt; font-family:Arial">/s/ Christopher Striano</div></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">Name:</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">Christopher Striano</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">Title:</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">Chief Financial Officer</td></tr>
+<tr style="font-size:1pt">
+<td colspan="3" style="height:12pt"/>
+<td colspan="4" style="height:12pt"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td colspan="3" style="vertical-align:bottom">Date: June&#160;29, 2026</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td colspan="3" style="vertical-align:bottom"><div style="font-weight:bold;display:inline;">BLACKSTONE INFRASTRUCTURE STRATEGIES (TE) L.P.</div></td></tr>
+<tr style="font-size:1pt">
+<td style="height:12pt"/>
+<td colspan="2" style="height:12pt"/>
+<td colspan="2" style="height:12pt"/>
+<td colspan="2" style="height:12pt"/></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">By:</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top"><div style="margin-top:0pt; margin-bottom:1pt; border-bottom:1px solid #000000; font-size:10pt; font-family:Arial">/s/ Christopher Striano</div></td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">Name:</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">Christopher Striano</td></tr>
+<tr style="page-break-inside:avoid ; font-family:Arial; font-size:10pt">
+<td style="vertical-align:top"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top"/>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">Title:</td>
+<td style="vertical-align:bottom">&#160;</td>
+<td style="vertical-align:top">Chief Financial Officer</td></tr></table><div style="margin-top:0pt;margin-bottom:0pt ; font-size:8pt">&#160;</div></div></div></div></div><div><div style="line-height:normal;display: inline;"><div style="text-align:center"><div style="width:8.5in;text-align:left;margin-left: auto;margin-right: auto"><div style="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Arial;text-align:center">4 </div></div></div></div></div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body></html>

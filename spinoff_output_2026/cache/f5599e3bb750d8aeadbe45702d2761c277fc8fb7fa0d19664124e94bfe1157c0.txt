@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2026" xmlns:us-gaap="http://fasb.org/us-gaap/2026" xmlns:us-roles="http://fasb.org/us-roles/2026" xmlns:country="http://xbrl.sec.gov/country/2026" xmlns:srt="http://fasb.org/srt/2026" xmlns:leeef="http://leefbrands.com/20261001">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02F_US%2DGAAP%2D2026 -->
+<!-- Field: Set; Name: xdx; ID: xdx_031_leeef_leefbrands.com_20261001 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04B_20261001_20261001 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_05A_edei%2D%2DEntityCentralIndexKey_0001711141 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000004" name="dei:EntityCentralIndexKey">0001711141</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="leeef-20261001.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-10-01">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001711141</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-10-01</xbrli:startDate>
+        <xbrli:endDate>2026-10-01</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><div style="border-top: Black 4pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>&#160;</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 18pt"><b>UNITED
+STATES</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 18pt"><b>SECURITIES
+AND EXCHANGE COMMISSION</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 12pt"><b>Washington,
+D.C. 20549</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"></p>
+
+<!-- Field: Rule-Page --><div style="margin: 0pt auto; width: 35%"><div style="border-top: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>&#160;</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 18pt"><b>FORM
+<span id="xdx_905_edei--DocumentType_c20261001__20261001_z0doKhK1i5Xf"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000009" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"></span></p>
+
+<!-- Field: Rule-Page --><div style="margin: 0pt auto; width: 35%"><div style="border-top: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; text-transform: uppercase"><b>Current
+Report</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; text-transform: uppercase"><b></b></span><b><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Pursuant to Section 13 or 15(d) of the
+Securities Exchange Act of 1934</span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>&#160;</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b></b>Date of Report (Date of earliest event reported): <span id="xdx_90E_edei--DocumentPeriodEndDate_c20261001__20261001_z2O1dCWF079"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:datemonthdayyearen" id="Fact000010" name="dei:DocumentPeriodEndDate">October 1, 2026</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b></b></span></p>
+
+<!-- Field: Rule-Page --><div style="margin: 0pt auto; width: 35%"><div style="border-top: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>&#160;</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 18pt"><b><span id="xdx_90B_edei--EntityRegistrantName_c20261001__20261001_zQtkwUE8h1E9"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000011" name="dei:EntityRegistrantName">Leef
+Brands, Inc.</ix:nonNumeric></span></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">(Exact
+name of registrant as specified in its charter)</span></p>
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>&#160;</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Commission
+File Number: <span id="xdx_905_edei--EntityFileNumber_c20261001__20261001_zw6FBGGMuWO6"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000012" name="dei:EntityFileNumber">000-56824</ix:nonNumeric></span></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom">
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 49%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>British
+    Columbia</b></span></td>
+    <td style="font-family: Times New Roman, Times, Serif; width: 2%"><span style="font-family: Times New Roman, Times, Serif">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; white-space: nowrap; width: 49%; text-align: center"><span id="xdx_90D_edei--EntityTaxIdentificationNumber_c20261001__20261001_zQFBcyyO15xe" style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000013" name="dei:EntityTaxIdentificationNumber">98-1653633</ix:nonNumeric></b></span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom">
+    <td style="font: 10pt Times New Roman, Times, Serif"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">(State
+                                            or other jurisdiction</span></p>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">of
+    incorporation)</span></p></td>
+    <td style="font-family: Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">(IRS
+                                            Employer</span></p>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Identification
+    No.)</span></p></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span id="xdx_90F_edei--EntityAddressAddressLine1_c20261001__20261001_zL2IoIEU5MNi" style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000014" name="dei:EntityAddressAddressLine1">Suite
+2500 Park Place</ix:nonNumeric></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span id="xdx_90C_edei--EntityAddressAddressLine2_c20261001__20261001_zgagMJ1iYveb" style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000015" name="dei:EntityAddressAddressLine2">666
+Burrard Street</ix:nonNumeric></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span id="xdx_90F_edei--EntityAddressCityOrTown_c20261001__20261001_zXZSJC5QElaa" style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000016" name="dei:EntityAddressCityOrTown">Vancouver</ix:nonNumeric></b></span><b><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">,
+<span id="xdx_903_edei--EntityAddressStateOrProvince_c20261001__20261001_zYuJK0arlJr9"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000017" name="dei:EntityAddressStateOrProvince">BC</ix:nonNumeric></span></span></b> <b><span id="xdx_906_edei--EntityAddressPostalZipCode_c20261001__20261001_zSOfho9CPmSl" style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000018" name="dei:EntityAddressPostalZipCode">V6C 2X8</ix:nonNumeric></span></b><b><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">,
+<span id="xdx_90A_edei--EntityIncorporationStateCountryCode_c20261001__20261001_zo8oNrYB0WGd"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt-sec:edgarprovcountryen" id="Fact000019" name="dei:EntityIncorporationStateCountryCode">Canada</ix:nonNumeric></span></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">(Address
+of principal executive offices, including zip code)</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>&#160;</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_90C_edei--CityAreaCode_c20261001__20261001_zYs63RuPzu7i"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000020" name="dei:CityAreaCode">(416)</ix:nonNumeric></span> <span id="xdx_904_edei--LocalPhoneNumber_c20261001__20261001_znqoSxJIEIkl"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000021" name="dei:LocalPhoneNumber">797-6455</ix:nonNumeric></span></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b></b>(Registrant&#8217;s telephone number, including area code)</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Check
+the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under
+any of the following provisions:</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 0.25in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><span id="xdx_90D_edei--WrittenCommunications_c20261001__20261001_zW3qqlbLNgA9"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleanfalse" id="Fact000022" name="dei:WrittenCommunications">&#9744;</ix:nonNumeric></span></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Written
+    communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <td style="font: 10pt Times New Roman, Times, Serif">&#160;</td>
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: justify">&#160;</td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><span id="xdx_90D_edei--SolicitingMaterial_c20261001__20261001_zAfIVOMSGkRb"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleanfalse" id="Fact000023" name="dei:SolicitingMaterial">&#9744;</ix:nonNumeric></span></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Soliciting
+    material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <td style="font: 10pt Times New Roman, Times, Serif">&#160;</td>
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: justify">&#160;</td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><span id="xdx_90A_edei--PreCommencementTenderOffer_c20261001__20261001_z1UpzB9MaxS2"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementTenderOffer">&#9744;</ix:nonNumeric></span></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Pre-commencement
+    communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <td style="font: 10pt Times New Roman, Times, Serif">&#160;</td>
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: justify">&#160;</td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><span id="xdx_90B_edei--PreCommencementIssuerTenderOffer_c20261001__20261001_zEU1SkKUIQv4"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleanfalse" id="Fact000025" name="dei:PreCommencementIssuerTenderOffer">&#9744;</ix:nonNumeric></span></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Pre-commencement
+    communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Securities
+registered pursuant to Section 12(b) of the Act:</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom">
+    <td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; width: 38%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Title
+    of each class</b></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 2%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; width: 20%"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Trading&#8239;</b></span><b>Symbol(s)</b></p></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 2%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; width: 38%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Name
+    of each exchange on which registered</b></span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom; text-align: center">&#160;</td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Indicate
+by check mark whether the registrant is an emerging growth company as defined in as defined in Rule 405 of the Securities Act of 1933
+(&#167;230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (&#167;240.12b-2 of this chapter).</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Emerging
+growth company <span id="xdx_906_edei--EntityEmergingGrowthCompany_c20261001__20261001_zxpZ69RQn9Wd"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleantrue" id="Fact000026" name="dei:EntityEmergingGrowthCompany">&#9746;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">If
+an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying
+with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. <span id="xdx_90B_edei--EntityExTransitionPeriod_c20261001__20261001_zgksrwTAeNR5"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleanfalse" id="Fact000027" name="dei:EntityExTransitionPeriod">&#9744;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"></span></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><div style="border-top: Black 1pt solid; border-bottom: Black 4pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"></span></p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 10pt"><tr style="vertical-align: top; text-align: left"><td style="width: 100%">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0; margin-bottom: 0"><tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<td style="font: 10pt Times New Roman, Times, Serif; width: 0.75in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Item
+5.02</b></span></td><td style="font: 10pt Times New Roman, Times, Serif; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Departure
+                                            of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers;
+                                            Compensatory Arrangements of Certain Officers.</b></span></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><i>&#160;</i></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><i>Appointment
+of Director</i></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">On
+October 1, 2026, the Board of Directors (the &#8220;Board&#8221;) of Leef Brands, Inc. (the &#8220;Company&#8221;) appointed Hirsh Jain
+as a member of the Board, effective October 1, 2026. Mr. Jain will serve as a director until his successor is duly elected and qualified,
+or if earlier, until his death, disability, resignation, disqualification or removal. Mr. Jain&#8217;s appointment will expand the Board
+to six directors. Mr. Jain was also appointed to serve as the Chairman of the Nomination Committee and as a member of the Audit Committee.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Mr.
+Jain is 38 years old and the Chief Executive Officer of Ananda Strategy, LLC, a cannabis-focused business advisory firm founded by Mr.
+Jain which works with cannabis brands, retailers, distributors, testing labs, technology platforms, professional service firms and capital
+providers in the United States on matters ranging from competitive licensing, legislative strategy, regulatory intelligence, market expansion,
+business litigation, strategic communication and other varied corporate initiatives. Mr. Jain has been self-employed since founding Ananda
+Strategy, LLC in November 2020. Prior to working in cannabis, Mr. Jain was a Government Affairs Director at Airbnb in San Francisco.
+Before that, he worked as an Engagement Manager at McKinsey &amp; Company in New York City. Mr. Jain has a B.A. from UC Berkeley, and
+a J.D. from Harvard Law School.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Mr.
+Jain will receive customary compensation as a member of the Board and its committees. For his service as a member of the Board, he will
+receive an annual cash retainer of $35,000.00 paid in four equal quarterly installments, an initial grant of $50,000 of Restricted Share
+Units as of October 1, 2026 and annual grants of Restricted Share Units thereafter valued at $50,000.00 per grant on each anniversary
+of his appointment. Additionally, for his service as the Chairman of the Nomination Committee, he will receive an initial grant of $10,000
+of Restricted Share Units as of October 1, 2026 and annual grants of Restricted Share Units thereafter valued at $10,000.00 per grant
+on each anniversary of his service as Chairman of the Nomination Committee. Furthermore, for his service as a member of the Audit Committee,
+he will receive an initial grant of $5,000 of Restricted Share Units as of October 1, 2026 and annual grants of Restricted Share Units
+thereafter valued at $5,000.00 per grant on each anniversary of his service as a member of the Audit Committee. All Restricted Share
+Units vest over one year in twelve equal monthly installments. The Company will also reimburse Mr. Jain for his reasonable and out-of-pocket
+expenses incurred in connection with his services as a member of the Board.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Other
+than as set forth in this Item 5.02 of Form 8-K, there are no arrangements or understandings between Mr. Jain and any other person pursuant
+to which he was selected as a director. There are no family relationships between Mr. Jain and any director or executive officer of the
+Company, and there are no transactions involving Mr. Jain that are required to be disclosed pursuant to Item 404(a) of Regulation S-K.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><i>Director
+Indemnification Agreement</i></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">In
+connection with the appointment of Mr. Jain to the Board, the Company will enter into a customary indemnification agreement (the &#8220;Indemnification
+Agreement&#8221;), substantially in the form previously approved by the Board. The foregoing description of the Indemnification Agreement
+does not purport to be complete and is qualified in its entirety by reference to the full text of the Indemnification Agreement, a copy
+of which is filed as Exhibit 10.1 hereto and incorporated by reference into this Item 5.02.</span></p>
+
+<p style="font: bold 10pt Times New Roman, Times, Serif; margin: 0 0 0 1in; text-indent: -1in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0; margin-bottom: 0"><tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<td style="font: 10pt Times New Roman, Times, Serif; width: 0.75in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Item
+7.01</b></span></td><td style="font: 10pt Times New Roman, Times, Serif; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Regulation FD Disclosure.</b></span></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">On
+October 1, 2026, the Company issued a press release announcing Mr. Jain&#8217;s appointment to the Board. A copy of the press release
+is furnished hereto as Exhibit 99.1 and incorporated into this Item 7.01 by reference.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; text-indent: 0.5in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">The
+information in this Item 7.01 of Form 8-K, including the accompanying Exhibit 99.1, shall not be deemed &#8220;filed&#8221; for purposes
+of Section 18 of the Securities Exchange Act of 1934, as amended (the &#8220;Exchange Act&#8221;), or otherwise subject to the liability
+of such section, nor shall such information be deemed incorporated by reference in any filing under the Securities Act of 1933, as amended,
+or the Exchange Act, regardless of the general incorporation language of such filing, except as shall be expressly set forth by specific
+reference in such filing.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0; margin-bottom: 0"><tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<td style="font: 10pt Times New Roman, Times, Serif; width: 0.75in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Item
+9.01.</b></span></td><td style="font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Financial
+                                            Statements and Exhibits.</b></span></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><i>&#160;</i></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><i>(d)
+Exhibits.</i></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><i>&#160;</i></b></span></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom">
+    <td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; width: 0.5in; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Exhibit<br/>
+    No.</b></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 0.1in"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>&#160;</b></span></td>
+    <td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Description</b></span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.1</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><a href="ex10-1.htm">Director Indemnification Agreement</a></span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><a href="ex99-1.htm">Press
+    Release dated September 21, 2026</a></span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: center">104</td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom">&#160;</td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: justify">Cover Page Interactive Data File (embedded within the Inline XBRL document)</td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+
+<!-- Field: Page; Sequence: 3 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 0pt; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 10pt"><tr style="vertical-align: top; text-align: left"><td style="width: 100%">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 0pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; text-transform: uppercase"><b>&#160;</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; text-transform: uppercase"><b>Signature</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; text-transform: uppercase"><b>&#160;</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: justify; margin-top: 0; margin-bottom: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Pursuant
+to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by
+the undersigned hereunto duly authorized.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td colspan="2" style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; padding-top: 0.75pt; padding-right: 0.75pt; padding-bottom: 0.75pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Leef
+    Brands, Inc.</b></span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td colspan="2" style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; padding-top: 0.75pt; padding-right: 0.75pt; padding-bottom: 0.75pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Date:
+    October 2, 2026</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; padding-top: 0.75pt; padding-right: 0.75pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:
+    </span></td>
+    <td style="border-bottom: black 1pt solid; font: 10pt Times New Roman, Times, Serif; padding-top: 0.75pt; padding-right: 0.75pt; padding-bottom: 0.75pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><i>/s/
+    Kevin Wilson</i></span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; padding-top: 0.75pt; padding-right: 0.75pt; padding-bottom: 0.75pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Kevin
+    Wilson</span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 50%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; width: 3%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; padding-top: 0.75pt; padding-right: 0.75pt; padding-bottom: 0.75pt; width: 47%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Chief
+    Financial Officer</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 4; Options: Last -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 0pt; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 10pt"><tr style="vertical-align: top; text-align: left"><td style="width: 100%">&#160;</td></tr></table></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"></p>
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJxFjVsKwkAMRVfQPYT5FvtQK/TToiJWKUXE38GmMthOSmZ8dEnu0mmLGAIhuffkCjERW9qoGhkuqyKDEzZtLS1CgRUy6is6R7rbJ+BmgTdlLEtth/UHpuQYdEw8XUh3H5xPZbBMIFj6s9CPYgjmSRhDfhBer6ekK1WitkrWIHUJOVPLCq3kbvxwkm/S1HRD0hnZKNIJhNNglD8QBWEER3rKF/HdQJalwpsM5Ykt06N1rvXbou5JWNfYuDgz0v/2vs9LSmI= -->
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>

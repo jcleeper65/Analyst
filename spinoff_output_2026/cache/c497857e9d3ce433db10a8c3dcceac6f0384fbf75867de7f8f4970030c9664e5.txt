@@ -1,0 +1,98 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>20
+<FILENAME>R9.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.3</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Basis of Presentation<br></strong></div></th>
+<th class="th" colspan="1">9 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Sep. 30, 2026</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract', window );"><strong>Organization, Consolidation and Presentation of Financial Statements [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock', window );">Basis of Presentation</a></td>
+<td class="text"><div style="margin-bottom:9pt"><span style="color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:120%">Note 1 &#8211; Basis of Presentation</span></div><div style="margin-bottom:9pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%">West Coast Community Bancorp (the &#8220;Bancorp&#8221;) is a bank holding company headquartered in Santa Cruz, California that operates through its sole, wholly owned and consolidated subsidiary, West Coast Community Bank, a California state-chartered bank (the &#8220;Bank&#8221; and together with Bancorp, are referred to in these unaudited consolidated financial statements as the &#8220;Company,&#8221; &#8220;we,&#8221; &#8220;our,&#8221; or &#8220;us&#8221;). Substantially all of the Company&#8217;s business activities are conducted through the Bank. Bancorp is subject to regulation under the Bank Holding Company Act of 1956, as amended, and reporting and examination requirements by the Board of Governors of the Federal Reserve System. The Bank is subject to regulations and undergoes periodic examinations by the California Department of Financial Protection and Innovation (&#8220;DFPI&#8221;) and the Federal Deposit Insurance Corporation (&#8220;FDIC&#8221;).</span></div><div style="margin-bottom:9pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%">These unaudited consolidated financial statements of the Company reflect the accounts of Bancorp and its wholly owned subsidiary, the Bank. Significant intercompany transactions and balances are eliminated in consolidation.</span></div><div style="margin-bottom:9pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%">The preparation of financial statements in conformity with generally accepted accounting principles in the United States of America (&#8220;GAAP&#8221;) requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the periods presented. Actual results could differ from those estimates. In the opinion of management, the unaudited consolidated financial statements reflect all normal recurring adjustments and accruals that are necessary for a fair presentation of the consolidated balance sheets, consolidated statements of income, consolidated statements of comprehensive income, consolidated statements of shareholders&#8217; equity and consolidated statements of cash flows for the periods presented. The results of operations for the three and nine months ended September&#160;30, 2026, are not necessarily indicative of the results that may be expected for any other interim period or the full year ending December&#160;31, 2026.</span></div><div style="margin-bottom:9pt;text-align:justify;text-indent:18pt"><span style="color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%">Certain information and footnote disclosures normally included in financial statements prepared in accordance with GAAP have been condensed or omitted pursuant to the rules and regulations of the Securities and Exchange Commission (&#8220;SEC&#8221;). These unaudited consolidated financial statements should be read in conjunction with the audited consolidated financial statements and notes thereto included in the Company&#8217;s Registration Statement on Form 10, filed with the SEC on August 31, 2026, and declared effective on September 15, 2026 (the &#8220;2026 Form 10&#8221;).</span></div><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The entire disclosure for organization, consolidation and basis of presentation of financial statements disclosure.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 205<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.4-03(c))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480922/205-10-S99-3<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480424/946-10-50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480424/946-10-50-2<br><br>Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 810<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/810/tableOfContent<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 205<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 5<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481034/205-10-S45-5<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 205<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/205/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

@@ -1,0 +1,169 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>24
+<FILENAME>R10.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.2.0.727</span><table class="report" border="0" cellspacing="2" id="idm140201636637920">
+<tr>
+<th class="tl" colspan="1" rowspan="1"><div style="width: 200px;"><strong>CONVERTIBLE NOTE (Details Narrative)<br></strong></div></th>
+<th class="th">
+<div>Jun. 30, 2015 </div>
+<div>USD ($)</div>
+</th>
+</tr>
+<tr class="re">
+<td class="pl " style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_barrel_ConvertibleNoteDetailsNarrativeAbstract', window );"><strong>Convertible Note Details Narrative</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl " style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_ConvertibleDebt', window );">Convertible debt outstanding</a></td>
+<td class="nump">$ 78,864<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl " style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_AccountsPayableAndAccruedLiabilitiesCurrentAndNoncurrent', window );">Accrued interest</a></td>
+<td class="nump">6,551<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl " style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_LongTermDebt', window );">Total liability</a></td>
+<td class="nump">$ 85,415<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_barrel_ConvertibleNoteDetailsNarrativeAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">barrel_ConvertibleNoteDetailsNarrativeAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>barrel_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AccountsPayableAndAccruedLiabilitiesCurrentAndNoncurrent">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Definition</a><div><p>Sum of the carrying values as of the balance sheet date of obligations incurred through that date, including liabilities incurred and payable to vendors for goods and services received, taxes, interest, rent and utilities, compensation costs, payroll taxes and fringe benefits (other than pension and postretirement obligations), contractual rights and obligations, and statutory obligations.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher FASB<br><br><br><br> -Name Accounting Standards Codification<br><br><br><br> -Topic 942<br><br><br><br> -SubTopic 210<br><br><br><br> -Section S99<br><br><br><br> -Paragraph 1<br><br><br><br> -Subparagraph (SX 210.9-03.15(1),(5))<br><br><br><br> -URI http://asc.fasb.org/extlink&amp;oid=6876686&amp;loc=d3e534808-122878<br><br><br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher FASB<br><br><br><br> -Name Accounting Standards Codification<br><br><br><br> -Topic 944<br><br><br><br> -SubTopic 210<br><br><br><br> -Section S99<br><br><br><br> -Paragraph 1<br><br><br><br> -Subparagraph (SX 210.7-03.15)<br><br><br><br> -URI http://asc.fasb.org/extlink&amp;oid=6879938&amp;loc=d3e572229-122910<br><br><br><br>Reference 3: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher SEC<br><br><br><br> -Name Regulation S-X (SX)<br><br><br><br> -Number 210<br><br><br><br> -Section 03<br><br><br><br> -Paragraph 15<br><br><br><br> -Article 7<br><br><br><br>Reference 4: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher SEC<br><br><br><br> -Name Regulation S-X (SX)<br><br><br><br> -Number 210<br><br><br><br> -Section 03<br><br><br><br> -Paragraph 15<br><br><br><br> -Subparagraph 1, 5<br><br><br><br> -Article 9<br><br><br><br></p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AccountsPayableAndAccruedLiabilitiesCurrentAndNoncurrent</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ConvertibleDebt">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Definition</a><div><p>Including the current and noncurrent portions, carrying amount of debt identified as being convertible into another form of financial instrument (typically the entity's common stock) as of the balance sheet date, which originally required full repayment more than twelve months after issuance or greater than the normal operating cycle of the company.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher FASB<br><br><br><br> -Name Accounting Standards Codification<br><br><br><br> -Topic 944<br><br><br><br> -SubTopic 210<br><br><br><br> -Section S99<br><br><br><br> -Paragraph 1<br><br><br><br> -Subparagraph (SX 210.7-03.16(a)(2))<br><br><br><br> -URI http://asc.fasb.org/extlink&amp;oid=6879938&amp;loc=d3e572229-122910<br><br><br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher FASB<br><br><br><br> -Name Accounting Standards Codification<br><br><br><br> -Topic 942<br><br><br><br> -SubTopic 210<br><br><br><br> -Section S99<br><br><br><br> -Paragraph 1<br><br><br><br> -Subparagraph (SX 210.9-03.16)<br><br><br><br> -URI http://asc.fasb.org/extlink&amp;oid=6876686&amp;loc=d3e534808-122878<br><br><br><br>Reference 3: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher SEC<br><br><br><br> -Name Regulation S-X (SX)<br><br><br><br> -Number 210<br><br><br><br> -Section 03<br><br><br><br> -Paragraph 16<br><br><br><br> -Article 9<br><br><br><br>Reference 4: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher SEC<br><br><br><br> -Name Regulation S-X (SX)<br><br><br><br> -Number 210<br><br><br><br> -Section 02<br><br><br><br> -Paragraph 19, 20, 22<br><br><br><br> -Article 5<br><br><br><br></p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ConvertibleDebt</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LongTermDebt">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Definition</a><div><p>Carrying amount of long-term debt, net of unamortized discount or premium, including current and noncurrent amounts. Includes, but not limited to, notes payable, bonds payable, debentures, mortgage loans and commercial paper. Excludes capital lease obligations.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher FASB<br><br><br><br> -Name Accounting Standards Codification<br><br><br><br> -Topic 942<br><br><br><br> -SubTopic 210<br><br><br><br> -Section S99<br><br><br><br> -Paragraph 1<br><br><br><br> -Subparagraph (SX 210.9-03.16)<br><br><br><br> -URI http://asc.fasb.org/extlink&amp;oid=6876686&amp;loc=d3e534808-122878<br><br><br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher FASB<br><br><br><br> -Name Accounting Standards Codification<br><br><br><br> -Topic 210<br><br><br><br> -SubTopic 10<br><br><br><br> -Section S99<br><br><br><br> -Paragraph 1<br><br><br><br> -Subparagraph (SX 210.5-02.22)<br><br><br><br> -URI http://asc.fasb.org/extlink&amp;oid=6877327&amp;loc=d3e13212-122682<br><br><br><br>Reference 3: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher FASB<br><br><br><br> -Name Accounting Standards Codification<br><br><br><br> -Topic 944<br><br><br><br> -SubTopic 210<br><br><br><br> -Section S99<br><br><br><br> -Paragraph 1<br><br><br><br> -Subparagraph (SX 210.7-03.16)<br><br><br><br> -URI http://asc.fasb.org/extlink&amp;oid=6879938&amp;loc=d3e572229-122910<br><br><br><br>Reference 4: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher SEC<br><br><br><br> -Name Regulation S-X (SX)<br><br><br><br> -Number 210<br><br><br><br> -Section 03<br><br><br><br> -Paragraph 16<br><br><br><br> -Article 9<br><br><br><br>Reference 5: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher SEC<br><br><br><br> -Name Regulation S-X (SX)<br><br><br><br> -Number 210<br><br><br><br> -Section 02<br><br><br><br> -Paragraph 20, 22<br><br><br><br> -Article 5<br><br><br><br>Reference 6: http://www.xbrl.org/2003/role/presentationRef<br><br><br><br> -Publisher SEC<br><br><br><br> -Name Regulation S-X (SX)<br><br><br><br> -Number 210<br><br><br><br> -Section 03<br><br><br><br> -Paragraph 16<br><br><br><br> -Article 7<br><br><br><br></p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LongTermDebt</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+
+</TEXT>
+</DOCUMENT>

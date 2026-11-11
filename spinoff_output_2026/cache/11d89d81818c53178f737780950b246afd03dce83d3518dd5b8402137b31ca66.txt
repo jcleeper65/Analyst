@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:us-roles="http://fasb.org/us-roles/2025" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:srt="http://fasb.org/srt/2025" xmlns:CSDX="http://CSDX/20260623">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02E_US%2DGAAP%2D2025 -->
+<!-- Field: Set; Name: xdx; ID: xdx_037_CSDX_CSDX_20260623 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04C_20260623_20260623 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_056_edei%2D%2DEntityCentralIndexKey_0001106861 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000004" name="dei:EntityCentralIndexKey">0001106861</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="csdx-20260623.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-06-23">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001106861</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-06-23</xbrli:startDate>
+        <xbrli:endDate>2026-06-23</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="margin: 0">&#160;</p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 12pt; margin-bottom: 3pt; width: 100%"><div style="border-top: Black 2pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="margin: 0"></p>
+
+<p style="font: 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>UNITED STATES</b></p>
+
+<p style="font: 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION</b></p>
+
+<p style="font: 12pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Washington, D.C. 20549</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>FORM <span id="xdx_90B_edei--DocumentType_c20260623__20260623_zEQFtNYKn5Pc"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000009" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>CURRENT REPORT</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Date of Report (Date of earliest event reported): <span id="xdx_901_edei--DocumentPeriodEndDate_c20260623__20260623_zUBPmlSfVmBl"><ix:nonNumeric contextRef="AsOf2026-06-23" format="ixt:datemonthdayyearen" id="Fact000010" name="dei:DocumentPeriodEndDate">June 23, 2026</ix:nonNumeric></span></p>
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;<img src="cscorp_logo.jpg" alt=""/></p>
+
+<p style="font: 24pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_90A_edei--EntityRegistrantName_c20260623__20260623_zcX2ervLqUcj"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000011" name="dei:EntityRegistrantName">CS DIAGNOSTICS CORP.</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Exact name of registrant as specified in its charter)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; background-color: white">
+  <tr style="vertical-align: top">
+    <td style="width: 34%; text-align: center; font-size: 10pt"><b><span id="xdx_902_edei--EntityIncorporationStateCountryCode_c20260623__20260623_zSYdehOq3ie7"><ix:nonNumeric contextRef="AsOf2026-06-23" format="ixt-sec:stateprovnameen" id="Fact000012" name="dei:EntityIncorporationStateCountryCode">Wyoming</ix:nonNumeric></span></b></td>
+    <td style="width: 33%; text-align: center; font-size: 10pt"><b><span id="xdx_904_edei--EntityFileNumber_c20260623__20260623_zKx1zK3JvZVi"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000013" name="dei:EntityFileNumber">000-29611</ix:nonNumeric></span></b></td>
+    <td style="width: 33%; text-align: center; font-size: 10pt"><b>[<span id="xdx_900_edei--EntityTaxIdentificationNumber_c20260623__20260623_zsiJKtXcDAaj"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000014" name="dei:EntityTaxIdentificationNumber">20-1290331</ix:nonNumeric></span>]</b></td></tr>
+  <tr style="vertical-align: top">
+    <td>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(State or other jurisdiction of incorporation)</p></td>
+    <td style="text-align: center; font-size: 10pt">(Commission File Number)</td>
+    <td style="text-align: center; font-size: 10pt">(IRS Employer Identification No.)</td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_90D_edei--EntityAddressAddressLine1_c20260623__20260623_zMNhZ7jVmnB6"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000015" name="dei:EntityAddressAddressLine1">1603 Capitol Avenue</ix:nonNumeric></span>, <span id="xdx_909_edei--EntityAddressAddressLine2_c20260623__20260623_zbXL6njWEsG8"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000016" name="dei:EntityAddressAddressLine2">Suite 413</ix:nonNumeric></span>, <span id="xdx_901_edei--EntityAddressCityOrTown_c20260623__20260623_zXXhgDoIotG8"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000017" name="dei:EntityAddressCityOrTown">Cheyenne</ix:nonNumeric></span>, <span id="xdx_90C_edei--EntityAddressStateOrProvince_c20260623__20260623_zq8c9NjKKNah"><ix:nonNumeric contextRef="AsOf2026-06-23" format="ixt-sec:stateprovnameen" id="Fact000018" name="dei:EntityAddressStateOrProvince">Wyoming</ix:nonNumeric></span> <span id="xdx_909_edei--EntityAddressPostalZipCode_c20260623__20260623_z5avcxSMEqB8"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000019" name="dei:EntityAddressPostalZipCode">82001</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Address of principal executive offices) (Zip Code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Registrant's telephone number, including area code: +1 <span id="xdx_901_edei--CityAreaCode_c20260623__20260623_zDgeQ5qBIdO6"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000020" name="dei:CityAreaCode">(307)</ix:nonNumeric></span> <span id="xdx_90C_edei--LocalPhoneNumber_c20260623__20260623_zpPuBu2DvP5i"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000021" name="dei:LocalPhoneNumber">395-7333</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span id="xdx_904_edei--EntityInformationFormerLegalOrRegisteredName_c20260623__20260623_z6vOgdHG3Ji2"><ix:nonNumeric contextRef="AsOf2026-06-23" id="Fact000022" name="dei:EntityInformationFormerLegalOrRegisteredName">Not Applicable</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Former name or former address, if changed since
+last report)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Check the appropriate box below if the Form 8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-family: Wingdings"><span id="xdx_904_edei--WrittenCommunications_c20260623__20260623_zAK3rAAlZX89"><ix:nonNumeric contextRef="AsOf2026-06-23" format="ixt:booleanfalse" id="Fact000023" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span></span> Written communications pursuant to Rule 425 under the Securities Act
+(17 CFR 230.425)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-family: Wingdings"><span id="xdx_903_edei--SolicitingMaterial_c20260623__20260623_zoQSZRm4OVNl"><ix:nonNumeric contextRef="AsOf2026-06-23" format="ixt:booleanfalse" id="Fact000024" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span></span> Soliciting material pursuant to Rule 14a-12 under the Exchange Act
+(17 CFR 240.14a-12)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-family: Wingdings"><span id="xdx_901_edei--PreCommencementTenderOffer_c20260623__20260623_zGlt3hjQtFd3"><ix:nonNumeric contextRef="AsOf2026-06-23" format="ixt:booleanfalse" id="Fact000025" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span></span> Pre-commencement communications pursuant to Rule 14d-2(b) under the
+Exchange Act (17 CFR 240.14d-2(b))</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-family: Wingdings"><span id="xdx_905_edei--PreCommencementIssuerTenderOffer_c20260623__20260623_zNSqKhgPO5Lg"><ix:nonNumeric contextRef="AsOf2026-06-23" format="ixt:booleanfalse" id="Fact000026" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span></span> Pre-commencement communications pursuant to Rule 13e-4(c) under the
+Exchange Act (17 CFR 240.13e-4(c))</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Securities registered pursuant to Section 12(b) of the Act:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; margin-left: auto; width: 95%; border-collapse: collapse; margin-right: auto">
+  <tr style="vertical-align: top">
+    <td style="text-align: center; width: 23%; padding-left: 10.3pt"><span style="font-size: 10pt"><b>Title of each class</b></span></td>
+    <td style="text-align: center; width: 24%; padding-left: 12.95pt"><span style="font-size: 10pt"><b>Trading Symbol(s)</b></span></td>
+    <td style="text-align: center; width: 53%; padding-left: 15pt"><span style="font-size: 10pt"><b>Name of each exchange on which registered</b></span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="text-align: center">None</td>
+    <td style="text-align: center">N/A</td>
+    <td style="text-align: center">N/A</td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Indicate by check mark whether the registrant is an emerging growth
+company as defined in Rule 405 of the Securities Act of 1933 or Rule 12b-2 of the Securities Exchange Act of 1934.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">Emerging growth company &#160;&#160;&#160;<span style="font-family: Wingdings"><span id="xdx_908_edei--EntityEmergingGrowthCompany_c20260623__20260623_zL9MGSCmdp4a"><ix:nonNumeric contextRef="AsOf2026-06-23" format="ixt:booleanfalse" id="Fact000027" name="dei:EntityEmergingGrowthCompany">&#168;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">If an emerging growth company, indicate by check mark if the registrant
+has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant
+to Section 13(a) of the Exchange Act. <span style="font-family: Wingdings">&#168;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 3pt; margin-bottom: 12pt; width: 100%"><div style="border-top: Black 1pt solid; border-bottom: Black 2pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 2px solid; margin-top: 8pt; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 10pt"><tr style="vertical-align: top; text-align: left"><td style="width: 33%">&#160;</td><td style="width: 34%; text-align: center"/><td style="width: 33%; text-align: right">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 8pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: left; width: 100%"><span style="font-size: 8pt">&#160;</span></td></tr></table></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: bold 10pt Times New Roman, Times, Serif; margin: 0pt 0">Item 4.02 Non-Reliance on Previously Issued Financial Statements
+or a Related Audit Report or Completed Interim Review.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">On June 23, 2026, the Board of Directors (the "Board") of
+CS Diagnostics Corp. (the "Company"), after reviewing the findings of management and considering information presented regarding
+the Company's historical accounting, financial reporting, audit history, and disclosure controls, determined that the Company's previously
+issued financial statements for the fiscal years ended December 31, 2022, December 31, 2023, December 31, 2024, and December 31, 2025,
+and any interim financial statements or other financial information included in filings or reports for periods affected by the matters
+described below (collectively, the "Affected Financial Statements"), should no longer be relied upon.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">In connection with this determination, the Board directed management
+to promptly undertake all necessary actions to correct and restate the Affected Financial Statements. The Board further authorized and
+instructed management to engage KBF Advisory LLC ("KBF"), the Company's technical accounting advisor, and Shah Teelani &amp;
+Associates LLC ("Shah Teelani"), the Company's independent registered public accounting firm, to assist in reviewing the Company's
+accounting treatment, conducting the required re-audits and analyses, and preparing and refiling the Affected Financial Statements and
+related reports with the Securities and Exchange Commission as expeditiously as practicable.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The Board reached this conclusion in connection with communications
+with the Staff of the Division of Corporation Finance of the Securities and Exchange Commission regarding the Company's registration statement
+and management's subsequent review of the Company's historical accounting, financial reporting, audit history and disclosure controls.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The matters giving rise to the non-reliance determination include the
+following:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>(i) Approximately $499.4 million intangible asset.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Management has preliminarily concluded that the approximately $499.4
+million intangible asset recorded in connection with a September 4, 2023 transaction was improperly recognized and should be removed from
+the Company's balance sheet. Management has reassessed the transaction and now believes that the transaction should be evaluated under
+ASC 805-50, Transactions Between Entities Under Common Control, rather than under a fair value acquisition model. Management is also evaluating
+the application of ASC 730, Research and Development, ASC 350, Intangibles - Goodwill and Other, ASC 820, Fair Value Measurement, and
+related U.S. GAAP guidance.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The Company has engaged KBF to assist management in evaluating the
+appropriate accounting treatment of the transaction, the accounting periods affected, the impact on previously issued financial statements
+and the disclosures and corrective actions required under U.S. GAAP and SEC rules. KBF is acting as a technical accounting advisor and
+is not engaged to provide audit or attest services. The Company has also engaged Shah Teelani to work with management and KBF in reviewing
+the Affected Financial Statements and determining the nature and extent of any required amendments, re-audits, restatements or enhanced
+disclosures.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Based on management's preliminary conclusions, the Company currently
+expects that removal of the approximately $499.4 million intangible asset will require restatement of the Affected Financial Statements
+for one or more reporting periods. The restatement is expected to materially reduce the Company's previously reported total assets and
+stockholders' equity and may affect related disclosures, accumulated deficit, internal control conclusions and other financial statement
+line items.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>(ii) Prior audit reports and auditor-related matters.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The Company is also reviewing its historical auditor engagements and
+previously issued audit reports, including audit reports issued by Olayinka Oyebola &amp; Co. ("Olayinka") for certain historical
+periods. The Company has been informed that Olayinka is subject to SEC and related regulatory restrictions, including restrictions affecting
+reliance on audit reports issued by that firm. As a result, the Company has determined that audit reports issued by Olayinka with respect
+to affected historical financial statements, and any financial statements or filings that relied upon such audit reports, should no longer
+be relied upon.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The Company previously engaged LAO Professionals as a replacement PCAOB-registered
+auditor for certain periods and has subsequently engaged Shah Teelani as its current independent registered public accounting firm. Shah
+Teelani is expected to perform audit or re-audit procedures for affected periods, including the fiscal year ended December 31, 2025, as
+necessary in connection with the Company's restatement and remediation process.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 2 -->
+    <div style="border-bottom: Black 2px solid; margin-top: 8pt; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 10pt"><tr style="vertical-align: top; text-align: left"><td style="width: 33%">&#160;</td><td style="width: 34%; text-align: center"/><td style="width: 33%; text-align: right">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 8pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: left; width: 100%"><span style="font-size: 8pt">&#160;</span></td></tr></table></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>(iii) Company`s Next Steps.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company has taken the following steps to address
+these matters and restore the integrity of its financial reporting:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0.25in"/><td style="width: 0.25in"><span style="font-family: Symbol; font-size: 10pt">&#183;</span></td><td style="text-align: justify">Engaged Shah Teelani &amp; Associates as its new independent registered public accounting firm to re-audit
+the affected periods and audit the fiscal year ended December 31, 2025;</td></tr></table>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0.25in"/><td style="width: 0.25in"><span style="font-family: Symbol; font-size: 10pt">&#183;</span></td><td style="text-align: justify">Retained a technical accountant KBF Advisory LLC, to assist in evaluating the accounting treatment of
+the $499.4M Intangible and related matters;</td></tr></table>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0.25in"/><td style="width: 0.25in"><span style="font-family: Symbol; font-size: 10pt">&#183;</span></td><td style="text-align: justify">Initiated a comprehensive review of the Company's internal controls over financial reporting with the
+objective of identifying and remediating the control deficiencies that contributed to the misstatement; and</td></tr></table>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0.25in"/><td style="width: 0.25in"><span style="font-family: Symbol; font-size: 10pt">&#183;</span></td><td style="text-align: justify">Committed to convening an annual shareholder meeting at the earliest practicable date, at which management
+will provide shareholders with a detailed update on the restatement process, remediation efforts, and the Company's path forward.</td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company is committed to completing the restatement
+process as promptly as possible and to providing timely updates to its shareholders and the investing public. The Company currently anticipates
+filing restated financial statements for the affected periods, together with its Annual Report on Form 10-K for the fiscal year ended
+December 31, 2025, as expeditiously as practicable.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>(iv) Shareholders communication.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Board and management recognize the importance
+of transparent and timely communication with the Company's shareholders during this process. The Company wishes to assure its shareholders
+that the steps described above reflect management's commitment to accurate financial reporting and sound corporate governance. The identification
+of these issues, while significant, represents an important step in building a stronger and more reliable financial reporting infrastructure
+for CSDX. The Company has a defined plan, engaged the appropriate professionals, and is moving forward with urgency and purpose.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Shareholders are encouraged to contact the Company
+at csdxboard@csdcorp.us with any questions. Additional information will be provided at the annual
+shareholder meeting, which the Company expects to schedule in the near term.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<p style="font: bold 10pt Times New Roman, Times, Serif; margin: 0pt 0">Cautionary Note Regarding Forward-Looking Statements</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">This Current Report on Form 8-K contains forward-looking statements
+within the meaning of the federal securities laws, including statements regarding the Company's expectations concerning the removal of
+the intangible asset, the anticipated restatement of previously issued financial statements, audit and re-audit procedures, the timing
+of amended filings, internal control remediation and related matters. Forward-looking statements are based on current expectations and
+assumptions and are subject to risks and uncertainties that could cause actual results, timing or outcomes to differ materially from those
+expressed or implied. The Company undertakes no obligation to update forward-looking statements except as required by law.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 4 -->
+    <div style="border-bottom: Black 2px solid; margin-top: 8pt; margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 10pt"><tr style="vertical-align: top; text-align: left"><td style="width: 33%">&#160;</td><td style="width: 34%; text-align: center"/><td style="width: 33%; text-align: right">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 8pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: left; width: 100%"><span style="font-size: 8pt">&#160;</span></td></tr></table></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SIGNATURES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Pursuant to the requirements of the Securities Exchange Act of 1934,
+the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td>Date: June 23, 2026</td>
+    <td colspan="2"><b>CS DIAGNOSTICS CORP.</b></td></tr>
+  <tr>
+    <td style="vertical-align: top; width: 55%">&#160;</td>
+    <td style="vertical-align: bottom; width: 5%">By:</td>
+    <td style="vertical-align: bottom; width: 40%">/s/ Mohammad Essayed</td></tr>
+  <tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td>Name:</td>
+    <td>Mohammad Essayed</td></tr>
+  <tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td>Title:</td>
+    <td>Chief Financial Officer</td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="margin: 0"></p>
+
+<!-- Field: Rule-Page --><div style="text-align: left; margin-top: 3pt; margin-bottom: 3pt"><div style="border-top: Black 2px solid; font-size: 1pt; width: 100%">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="margin: 0">&#160;</p>
+
+<p style="margin: 0">&#160;</p>
+
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJxFjd0KgkAQhZ/Adxj2OtSsJLwrKYksQiK63XKKJd2R2e3vkXrLViUaBoaZc745QgxERktVIcNxXuSwx7qppEUo8IKM+ozOka7WCbhZ4FUZy1Lbbv2BKTkGHRP7k5O7d86HMlgmEMZBNAqiGMJpMh7DbCO8Vk9JX1SJ2ipZgdQl7JgaVmglv/sPe/kiTfW7SzogG0U6gaEf9vIHonAYwZYe8kl8M5DnqfAGXXkiY7o3zrV4WdQtCYsKaxdnevrf3hfKXUpZ -->
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>

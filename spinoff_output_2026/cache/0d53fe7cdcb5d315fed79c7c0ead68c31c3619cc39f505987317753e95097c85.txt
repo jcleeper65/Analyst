@@ -1,0 +1,1267 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>27
+<FILENAME>R11.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="2" rowspan="2"><div style="width: 200px;"><strong>Condensed Statements of Changes in Net Assets (Unaudited) - USD ($)<br> $ in Thousands</strong></div></th>
+<th class="th" colspan="2">3 Months Ended</th>
+<th class="th" colspan="3">6 Months Ended</th>
+</tr>
+<tr>
+<th class="th"><div>Jun. 30, 2026</div></th>
+<th class="th"><div>Jun. 30, 2025</div></th>
+<th class="th"><div>Jun. 30, 2026</div></th>
+<th class="th" colspan="2"><div>Jun. 30, 2025</div></th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyNetAssetsRollForward', window );"><strong>Investment Company, Net Assets [Roll Forward]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Beginning balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">$ 4,293,346<span></span>
+</td>
+<td class="nump">$ 1,472,809<span></span>
+</td>
+<td class="nump">$ 3,485,248<span></span>
+</td>
+<td class="nump">$ 100<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockIssuedDuringPeriodValueNewIssues', window );">Proceeds from Units Issued</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">689,569<span></span>
+</td>
+<td class="nump">539,200<span></span>
+</td>
+<td class="nump">1,350,100<span></span>
+</td>
+<td class="nump">2,017,369<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentIncomeNet', window );">Net Investment Income</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">38,476<span></span>
+</td>
+<td class="nump">21,372<span></span>
+</td>
+<td class="nump">71,848<span></span>
+</td>
+<td class="nump">21,065<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_DistributionsReinvested', window );">Distribution Reinvested</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">25,182<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">46,394<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DistributionsOnMandatorilyRedeemableSecurities', window );">Distributions (includes Distributions Reinvested)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(38,992)<span></span>
+</td>
+<td class="num">(21,578)<span></span>
+</td>
+<td class="num">(72,702)<span></span>
+</td>
+<td class="num">(21,578)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UnrealizedGainLossInvestmentDerivativeAndForeignCurrencyTransactionOperatingAfterTax', window );">Net Change in Unrealized Gain (Loss) on Investments in the Aggregator</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">240,479<span></span>
+</td>
+<td class="nump">13,909<span></span>
+</td>
+<td class="nump">381,157<span></span>
+</td>
+<td class="nump">45,503<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_ServicingFees', window );">Servicing Fees</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(13,838)<span></span>
+</td>
+<td class="num">(10,821)<span></span>
+</td>
+<td class="num">(26,293)<span></span>
+</td>
+<td class="num">(47,568)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockIssuedDuringPeriodValueConversionOfUnits', window );">Conversion of Units Between Classes or Series</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_RepurchaseOfUnitsNetOfEarlyRepurchaseDeduction', window );">Redemption of Units, Net of Early Redemption Deduction</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(9,669)<span></span>
+</td>
+<td class="num">(198)<span></span>
+</td>
+<td class="num">(11,199)<span></span>
+</td>
+<td class="num">(198)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Ending balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">5,224,553<span></span>
+</td>
+<td class="nump">2,014,693<span></span>
+</td>
+<td class="nump">5,224,553<span></span>
+</td>
+<td class="nump">2,014,693<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassISeriesIUnitsMember', window );">Series I Units</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyNetAssetsRollForward', window );"><strong>Investment Company, Net Assets [Roll Forward]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Beginning balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">2,858,523<span></span>
+</td>
+<td class="nump">921,390<span></span>
+</td>
+<td class="nump">2,289,703<span></span>
+</td>
+<td class="nump">100<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockIssuedDuringPeriodValueNewIssues', window );">Proceeds from Units Issued</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">489,653<span></span>
+</td>
+<td class="nump">358,233<span></span>
+</td>
+<td class="nump">955,185<span></span>
+</td>
+<td class="nump">1,260,015<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentIncomeNet', window );">Net Investment Income</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">25,476<span></span>
+</td>
+<td class="nump">13,287<span></span>
+</td>
+<td class="nump">47,299<span></span>
+</td>
+<td class="nump">13,097<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_DistributionsReinvested', window );">Distribution Reinvested</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">15,214<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">27,758<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DistributionsOnMandatorilyRedeemableSecurities', window );">Distributions (includes Distributions Reinvested)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="num">(25,717)<span></span>
+</td>
+<td class="num">(13,401)<span></span>
+</td>
+<td class="num">(47,687)<span></span>
+</td>
+<td class="num">(13,401)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UnrealizedGainLossInvestmentDerivativeAndForeignCurrencyTransactionOperatingAfterTax', window );">Net Change in Unrealized Gain (Loss) on Investments in the Aggregator</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">158,340<span></span>
+</td>
+<td class="nump">8,663<span></span>
+</td>
+<td class="nump">250,017<span></span>
+</td>
+<td class="nump">28,361<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockIssuedDuringPeriodValueConversionOfUnits', window );">Conversion of Units Between Classes or Series</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">1,918<span></span>
+</td>
+<td class="nump">771<span></span>
+</td>
+<td class="nump">2,307<span></span>
+</td>
+<td class="nump">771<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_RepurchaseOfUnitsNetOfEarlyRepurchaseDeduction', window );">Redemption of Units, Net of Early Redemption Deduction</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="num">(5,394)<span></span>
+</td>
+<td class="num">(126)<span></span>
+</td>
+<td class="num">(6,569)<span></span>
+</td>
+<td class="num">(126)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Ending balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">3,518,013<span></span>
+</td>
+<td class="nump">1,288,817<span></span>
+</td>
+<td class="nump">3,518,013<span></span>
+</td>
+<td class="nump">1,288,817<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassISeriesIIUnitsMember', window );">Series II Units</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyNetAssetsRollForward', window );"><strong>Investment Company, Net Assets [Roll Forward]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Beginning balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Ending balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassISeriesIIIUnitsMember', window );">Series III Units</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyNetAssetsRollForward', window );"><strong>Investment Company, Net Assets [Roll Forward]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Beginning balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Ending balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup>[1]</sup></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassSUnitsMember', window );">Class S Units</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyNetAssetsRollForward', window );"><strong>Investment Company, Net Assets [Roll Forward]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Beginning balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">1,286,093<span></span>
+</td>
+<td class="nump">504,230<span></span>
+</td>
+<td class="nump">1,080,003<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockIssuedDuringPeriodValueNewIssues', window );">Proceeds from Units Issued</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">167,807<span></span>
+</td>
+<td class="nump">175,938<span></span>
+</td>
+<td class="nump">334,754<span></span>
+</td>
+<td class="nump">705,084<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentIncomeNet', window );">Net Investment Income</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">11,628<span></span>
+</td>
+<td class="nump">7,500<span></span>
+</td>
+<td class="nump">22,024<span></span>
+</td>
+<td class="nump">7,392<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_DistributionsReinvested', window );">Distribution Reinvested</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">8,874<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">16,622<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DistributionsOnMandatorilyRedeemableSecurities', window );">Distributions (includes Distributions Reinvested)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(11,886)<span></span>
+</td>
+<td class="num">(7,586)<span></span>
+</td>
+<td class="num">(22,461)<span></span>
+</td>
+<td class="num">(7,586)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UnrealizedGainLossInvestmentDerivativeAndForeignCurrencyTransactionOperatingAfterTax', window );">Net Change in Unrealized Gain (Loss) on Investments in the Aggregator</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">74,119<span></span>
+</td>
+<td class="nump">4,881<span></span>
+</td>
+<td class="nump">118,467<span></span>
+</td>
+<td class="nump">15,884<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_ServicingFees', window );">Servicing Fees</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(13,188)<span></span>
+</td>
+<td class="num">(10,747)<span></span>
+</td>
+<td class="num">(25,053)<span></span>
+</td>
+<td class="num">(46,558)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockIssuedDuringPeriodValueConversionOfUnits', window );">Conversion of Units Between Classes or Series</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(1,918)<span></span>
+</td>
+<td class="num">(771)<span></span>
+</td>
+<td class="num">(2,469)<span></span>
+</td>
+<td class="num">(771)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_RepurchaseOfUnitsNetOfEarlyRepurchaseDeduction', window );">Redemption of Units, Net of Early Redemption Deduction</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(1,454)<span></span>
+</td>
+<td class="num">(72)<span></span>
+</td>
+<td class="num">(1,812)<span></span>
+</td>
+<td class="num">(72)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Ending balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">1,520,075<span></span>
+</td>
+<td class="nump">673,373<span></span>
+</td>
+<td class="nump">1,520,075<span></span>
+</td>
+<td class="nump">673,373<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassDUnitsMember', window );">Class D Units</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyNetAssetsRollForward', window );"><strong>Investment Company, Net Assets [Roll Forward]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Beginning balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">148,480<span></span>
+</td>
+<td class="nump">46,939<span></span>
+</td>
+<td class="nump">115,292<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockIssuedDuringPeriodValueNewIssues', window );">Proceeds from Units Issued</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">32,109<span></span>
+</td>
+<td class="nump">5,029<span></span>
+</td>
+<td class="nump">60,161<span></span>
+</td>
+<td class="nump">52,020<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentIncomeNet', window );">Net Investment Income</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">1,372<span></span>
+</td>
+<td class="nump">585<span></span>
+</td>
+<td class="nump">2,525<span></span>
+</td>
+<td class="nump">576<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_DistributionsReinvested', window );">Distribution Reinvested</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">1,094<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">2,014<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DistributionsOnMandatorilyRedeemableSecurities', window );">Distributions (includes Distributions Reinvested)</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(1,389)<span></span>
+</td>
+<td class="num">(591)<span></span>
+</td>
+<td class="num">(2,554)<span></span>
+</td>
+<td class="num">(591)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UnrealizedGainLossInvestmentDerivativeAndForeignCurrencyTransactionOperatingAfterTax', window );">Net Change in Unrealized Gain (Loss) on Investments in the Aggregator</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">8,020<span></span>
+</td>
+<td class="nump">365<span></span>
+</td>
+<td class="nump">12,673<span></span>
+</td>
+<td class="nump">1,258<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_ServicingFees', window );">Servicing Fees</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(650)<span></span>
+</td>
+<td class="num">(74)<span></span>
+</td>
+<td class="num">(1,240)<span></span>
+</td>
+<td class="num">(1,010)<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockIssuedDuringPeriodValueConversionOfUnits', window );">Conversion of Units Between Classes or Series</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">162<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_bxinfra_RepurchaseOfUnitsNetOfEarlyRepurchaseDeduction', window );">Redemption of Units, Net of Early Redemption Deduction</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="num">(2,821)<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="num">(2,818)<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Ending balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">186,215<span></span>
+</td>
+<td class="nump">52,253<span></span>
+</td>
+<td class="nump">186,215<span></span>
+</td>
+<td class="nump">52,253<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_GeneralPartnerInterestMember', window );">General Partner Interest</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InvestmentCompanyNetAssetsRollForward', window );"><strong>Investment Company, Net Assets [Roll Forward]</strong></a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Beginning balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">250<span></span>
+</td>
+<td class="nump">250<span></span>
+</td>
+<td class="nump">250<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_StockIssuedDuringPeriodValueNewIssues', window );">Proceeds from Units Issued</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">250<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"><sup>[2]</sup></td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AssetsNet', window );">Ending balance</a></td>
+<td class="th" style="border-bottom: 0px;"><sup></sup></td>
+<td class="nump">$ 250<span></span>
+</td>
+<td class="nump">$ 250<span></span>
+</td>
+<td class="nump">$ 250<span></span>
+</td>
+<td class="nump">$ 250<span></span>
+</td>
+<td class="fn" style="border-bottom: 0px;"></td>
+</tr>
+<tr><td colspan="6"></td></tr>
+<tr><td colspan="6"><table class="outerFootnotes" width="100%">
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[1]</td>
+<td style="vertical-align: top;" valign="top"><span style="color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:5.78pt">On March 6, 2026, BXINFRA U.S. redesignated existing Class I Units as Class I-Series I Units and designated two new series of Class I Units, Class I-Series II Units and Class I-Series III Units.</span></td>
+</tr>
+<tr class="outerFootnote">
+<td style="vertical-align: top; width: 12pt;" valign="top">[2]</td>
+<td style="vertical-align: top;" valign="top">The General Partner did not receive any Units for its contribution to BXINFRA U.S</td>
+</tr>
+</table></td></tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_DistributionsReinvested">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Distributions reinvested.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_DistributionsReinvested</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_RepurchaseOfUnitsNetOfEarlyRepurchaseDeduction">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Repurchase of units net of early repurchase deduction.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_RepurchaseOfUnitsNetOfEarlyRepurchaseDeduction</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_bxinfra_ServicingFees">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Servicing fees.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">bxinfra_ServicingFees</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>bxinfra_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AssetsNet">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of net assets (liabilities).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 205<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479938/205-30-45-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 205<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479910/205-30-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AssetsNet</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DistributionsOnMandatorilyRedeemableSecurities">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of distribution on mandatorily redeemable financial instrument issued in form of share classified as liability.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 480<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481679/480-10-45-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DistributionsOnMandatorilyRedeemableSecurities</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentCompanyNetAssetsRollForward">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentCompanyNetAssetsRollForward</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InvestmentIncomeNet">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount after accretion (amortization) of discount (premium), and investment expense, of interest income and dividend income on nonoperating securities.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 220<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SX 210.5-03(8))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 220<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SX 210.5-03(7)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2<br><br>Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 220<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SX 210.5-03(7)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InvestmentIncomeNet</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_StockIssuedDuringPeriodValueConversionOfUnits">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Value of stock issued during the period upon the conversion of units. An example of a convertible unit is an umbrella partnership real estate investment trust unit (UPREIT unit).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.3-04)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1<br><br>Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480070/505-10-S50-1<br><br>Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3<br><br>Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-2<br><br>Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(28))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 7: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1<br><br>Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1<br><br>Reference 9: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(20))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 10: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(19))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 11: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(29))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 12: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 11<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-11<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_StockIssuedDuringPeriodValueConversionOfUnits</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_StockIssuedDuringPeriodValueNewIssues">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Equity impact of the value of new stock issued during the period. Includes shares issued in an initial public offering or a secondary public offering.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.3-04)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1<br><br>Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480070/505-10-S50-1<br><br>Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 3<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3<br><br>Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 505<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-2<br><br>Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(28))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 7: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1<br><br>Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1<br><br>Reference 9: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 11<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479168/946-830-55-11<br><br>Reference 10: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(20))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 11: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(19))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 12: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(29))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 13: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 11<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-11<br><br>Reference 14: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 4<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478009/946-205-45-4<br><br>Reference 15: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 505<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478448/946-505-50-2<br><br>Reference 16: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-09(4)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_StockIssuedDuringPeriodValueNewIssues</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_UnrealizedGainLossInvestmentDerivativeAndForeignCurrencyTransactionOperatingAfterTax">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount, after tax, of unrealized gain (loss) on investment, derivative, and foreign currency transaction, classified as operating. Investment includes, but is not limited to, debt and equity securities, security sold short, real estate, and commodity.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 6<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479105/946-220-45-6<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 205<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478009/946-205-45-3<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 220<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-09(1)(c))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 830<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 37<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477346/946-830-45-37<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_UnrealizedGainLossInvestmentDerivativeAndForeignCurrencyTransactionOperatingAfterTax</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassISeriesIUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassISeriesIUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassISeriesIIUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassISeriesIIUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassISeriesIIIUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassISeriesIIIUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassSUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassSUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassDUnitsMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CapitalUnitsByClassAxis=bxinfra_ClassDUnitsMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CapitalUnitsByClassAxis=bxinfra_GeneralPartnerInterestMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CapitalUnitsByClassAxis=bxinfra_GeneralPartnerInterestMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

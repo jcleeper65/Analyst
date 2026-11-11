@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-06-15</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0002104052</issuerCik>
+        <issuerName>Enviri Corp</issuerName>
+        <issuerTradingSymbol>NVRI</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001380533</rptOwnerCik>
+            <rptOwnerName>Quinn John S</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>TWO LOGAN SQUARE</rptOwnerStreet1>
+            <rptOwnerStreet2>100-120 N. 18TH STREET, 17TH FLOOR</rptOwnerStreet2>
+            <rptOwnerCity>PHILADELPHIA</rptOwnerCity>
+            <rptOwnerState>PA</rptOwnerState>
+            <rptOwnerZipCode>19103</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-06-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>6250</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>19629</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Deferred Stock Unit (Cash)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>0</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2026-06-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3155</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>20.80</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F3"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                    <footnoteId id="F3"/>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>3155</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>3155</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Restricted stock units granted under the Issuer's 2026 Omnibus Incentive Plan represent a contingent right to receive the Issuer's common stock on a one-for-one basis when the restricted stock units vest. Each reported restricted stock unit vests on the anniversary of the grant date.</footnote>
+        <footnote id="F2">Includes 13,379 shares acquired in a pro rata distribution by CLEH, Inc. on June 1, 2026 of all of the outstanding shares of the Issuer's common stock to the stockholders of CLEH, Inc.</footnote>
+        <footnote id="F3">Deferred Stock Units represent deferred cash compensation awarded based on an election by the reporting person in connection with the reporting person's service as a non-employee director of the Issuer. Each Deferred Stock Unit, following vesting, represents the right to receive the value, in cash, of 1 share of the Issuer's common stock at the time of the reporting person's elected distribution date(s). The Deferred Stock Units generally vest in installments at the end of each fiscal quarter in 2026. The reporting person elected to receive settlement and distribution of the Deferred Stock Units in five equal annual installments beginning in 2027.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ John S. Quinn</signatureName>
+        <signatureDate>2026-06-17</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

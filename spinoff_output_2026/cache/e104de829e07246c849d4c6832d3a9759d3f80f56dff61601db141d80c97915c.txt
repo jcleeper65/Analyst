@@ -1,0 +1,216 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>19
+<FILENAME>R7.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.22.1</span><table class="report" border="0" cellspacing="2" id="idm140333412345160">
+<tr>
+<th class="tl" colspan="1" rowspan="1"><div style="width: 200px;"><strong>Statement of Changes in Stockholders' Equity (Parenthetical) - shares<br></strong></div></th>
+<th class="th"><div>Feb. 10, 2022</div></th>
+<th class="th"><div>Dec. 31, 2021</div></th>
+</tr>
+<tr class="re">
+<td class="pl " style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_SubsequentEventLineItems', window );"><strong>Subsequent Event [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsNumberOfShares', window );">Financial Instruments Subject to Mandatory Redemption, Settlement Terms, Number of Shares</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="nump">375,000<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl " style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember', window );">Subsequent Event [Member]</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl " style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_SubsequentEventLineItems', window );"><strong>Subsequent Event [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_StockIssuedDuringPeriodSharesStockOptionsExercised', window );">Stock option purchase exercised</a></td>
+<td class="nump">159,069<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresInPeriod', window );">Number of stock option forfeited</a></td>
+<td class="nump">335,233<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresInPeriod">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Definition</a><div><p>The number of shares under options that were cancelled during the reporting period as a result of occurrence of a terminating event specified in contractual agreements pertaining to the stock option plan.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Publisher FASB<br> -Name Accounting Standards Codification<br> -Topic 718<br> -SubTopic 10<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (c)(1)(iv)(3)<br> -URI http://asc.fasb.org/extlink&amp;oid=120381028&amp;loc=d3e5070-113901<br></p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresInPeriod</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:sharesItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsNumberOfShares">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Definition</a><div><p>The number of shares that would be issued, determined under the conditions specified in the contract, if the settlement were to occur at the reporting date.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Publisher FASB<br> -Name Accounting Standards Codification<br> -Topic 480<br> -SubTopic 10<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (a)<br> -URI http://asc.fasb.org/extlink&amp;oid=109262807&amp;loc=d3e22047-110879<br></p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsNumberOfShares</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:sharesItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_StockIssuedDuringPeriodSharesStockOptionsExercised">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Definition</a><div><p>Number of share options (or share units) exercised during the current period.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Publisher FASB<br> -Name Accounting Standards Codification<br> -Topic 718<br> -SubTopic 10<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (c)(1)(iv)(2)<br> -URI http://asc.fasb.org/extlink&amp;oid=120381028&amp;loc=d3e5070-113901<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Publisher FASB<br> -Name Accounting Standards Codification<br> -Topic 505<br> -SubTopic 10<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.3-04)<br> -URI http://asc.fasb.org/extlink&amp;oid=120397183&amp;loc=d3e187085-122770<br><br>Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Publisher FASB<br> -Name Accounting Standards Codification<br> -Topic 210<br> -SubTopic 10<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(28))<br> -URI http://asc.fasb.org/extlink&amp;oid=120391452&amp;loc=d3e13212-122682<br><br>Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Publisher FASB<br> -Name Accounting Standards Codification<br> -Topic 210<br> -SubTopic 10<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(29))<br> -URI http://asc.fasb.org/extlink&amp;oid=120391452&amp;loc=d3e13212-122682<br><br>Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Publisher FASB<br> -Name Accounting Standards Codification<br> -Topic 505<br> -SubTopic 10<br> -Section 50<br> -Paragraph 2<br> -URI http://asc.fasb.org/extlink&amp;oid=123467817&amp;loc=d3e21463-112644<br></p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_StockIssuedDuringPeriodSharesStockOptionsExercised</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:sharesItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SubsequentEventLineItems">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Definition</a><div><p>Detail information of subsequent event by type. User is expected to use existing line items from elsewhere in the taxonomy as the primary line items for this disclosure, which is further associated with dimension and member elements pertaining to a subsequent event.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SubsequentEventLineItems</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

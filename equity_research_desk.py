@@ -15,6 +15,7 @@ from typing import Any
 
 from closes_reader import filing_time, last_close_before, NOT_AVAILABLE
 from report_naming import create_run
+from quarterly_cash_flow import quarterly_capital_spending
 
 import requests
 from bs4 import BeautifulSoup
@@ -82,6 +83,7 @@ class Desk:
         self.peer_results: dict[str, Any] = {}
         self.computed_metrics: dict[str, Any] = {}
         self.quarter_results: dict[str, Any] = {}
+        self.company_facts: dict[str, Any] = {}
         self.report_period = ""
         self.output_dir: Path | None = None
 
@@ -352,7 +354,17 @@ class Desk:
         if not self.submissions:
             self.submissions = self.get(f"{DATA_BASE}/submissions/CIK{self.cik}.json").json()
         facts = self.get_company_facts(self.cik)
+        self.company_facts = facts
         self.print_facts(facts, self.ticker)
+
+    def quarterly_capex(self) -> dict[str, Any]:
+        filing = self.filings.get("10-Q")
+        if not filing:
+            return {"value": None, "reason": "No selected 10-Q is available.", "inputs": [], "sources": []}
+        if not getattr(self, "company_facts", None):
+            self.company_facts = self.get_company_facts(self.cik)
+        return quarterly_capital_spending(self.company_facts, filing.accession,
+                                         CONCEPTS["additions_to_property_and_equipment"]["tags"])
 
     def is_financial_institution(self) -> bool:
         if not self.submissions:
@@ -710,6 +722,9 @@ class Desk:
             "prior_revenue_source": exact_quote(prior_quarter_revenue, r"total\s+revenues?"),
             "diluted_eps": diluted_eps_value,
             "diluted_eps_source": exact_quote(diluted_eps_value, r"diluted|per\s+diluted\s+share") if diluted_eps_value is not None else "source unavailable",
+            # Label this separately: the latest 10-Q can cover a different
+            # quarter from the earnings release. Never label YTD cash flow QTD.
+            "latest_10q_capital_spending": self.quarterly_capex(),
         }
         refund_line = next(((i, line) for i, line in enumerate(lines) if re.search(r"non-recurring benefit of\s+\$\s*\d+(?:\.\d+)?\s+per diluted share", line, re.I)), None)
         annual_eps = self.facts.get("diluted_eps", {}).get("value") if self.facts else None

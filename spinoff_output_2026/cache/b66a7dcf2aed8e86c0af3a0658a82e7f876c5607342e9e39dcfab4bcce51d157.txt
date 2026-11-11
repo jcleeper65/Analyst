@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-06-01</periodOfReport>
+
+    <notSubjectToSection16>1</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0002104052</issuerCik>
+        <issuerName>Enviri II Corp</issuerName>
+        <issuerTradingSymbol>NVRI WI</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0000045876</rptOwnerCik>
+            <rptOwnerName>ENVIRI Corp</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>TWO LOGAN SQUARE</rptOwnerStreet1>
+            <rptOwnerStreet2>100-120 N. 18TH STREET, 17TH FLOOR</rptOwnerStreet2>
+            <rptOwnerCity>PHILADELPHIA</rptOwnerCity>
+            <rptOwnerState>PA</rptOwnerState>
+            <rptOwnerZipCode>19103</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-06-01</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>28103750</value>
+                    <footnoteId id="F2"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>0</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">On June 1, 2026, all the outstanding shares of common stock of Enviri II Corporation were distributed, as a result of the following series of transactions made on that same date: (i) Enviri Corporation merged with and into Enviri LLC, with Enviri LLC surviving, and each outstanding share of common stock of Enviri Corporation exchanged for one share of common stock of CLEH, Inc., and (ii) CLEH, Inc. and its subsidiaries, including Enviri LLC and Enviri II Corporation, effected a reorganization, resulting in (x) Enviri II Corporation owning all of the equity interests of Enviri LLC, (y) Enviri LLC holding the Harsco Environmental and Rail segments of Enviri Corporation, and (z) CLEH, Inc. holding the Clean Earth segment of Enviri Corporation and owning all the outstanding shares of common stock of Enviri II Corporation, which CLEH, Inc. distributed to its stockholders (the former stockholders of Enviri Corporation) on a pro rata basis and for no consideration.</footnote>
+        <footnote id="F2">Represents the 1,000 shares initially reported on a Form 3 filed by Enviri Corporation on May 8, 2026, adjusted to reflect the stock split that occurred on May [29], 2026.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>VP, Assistant General Counsel &amp; Corporate Secretary of Enviri LLC (as successor by merger to Enviri Corporation)</signatureName>
+        <signatureDate>2026-06-01</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

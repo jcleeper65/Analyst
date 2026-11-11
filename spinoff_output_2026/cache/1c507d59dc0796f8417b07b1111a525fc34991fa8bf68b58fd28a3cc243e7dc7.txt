@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-10-01</periodOfReport>
+
+    <notSubjectToSection16>1</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0002134183</issuerCik>
+        <issuerName>Platinum SpinCo, Inc.</issuerName>
+        <issuerTradingSymbol>NONE</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0000067347</rptOwnerCik>
+            <rptOwnerName>MODINE MANUFACTURING CO</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>1500 DEKOVEN AVE.</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>RACINE</rptOwnerCity>
+            <rptOwnerState>WI</rptOwnerState>
+            <rptOwnerZipCode>53403</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, par value $0.001 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-10-01</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>53197549</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F2"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>0</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Reflects the adjusted number of shares held by the Reporting Person as a result of the Issuer's stock split that was effective September 29, 2026.</footnote>
+        <footnote id="F2">The Reporting Person distributed all of the shares of common stock, par value $0.001, of the Issuer reported in Table I above to its public shareholders of record as of September 28, 2026, for no consideration on a pro rata basis pursuant to the Separation Agreement, dated as of January 29, 2026, by and among the Reporting Person, the Issuer and Gentherm Incorporated.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Erin J. Roth, Vice President, General Counsel and Chief Compliance Officer</signatureName>
+        <signatureDate>2026-10-05</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

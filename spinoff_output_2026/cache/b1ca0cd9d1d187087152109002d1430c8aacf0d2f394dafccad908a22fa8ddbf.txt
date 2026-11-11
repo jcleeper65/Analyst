@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0202</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2001-09-17</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000803097</issuerCik>
+        <issuerName>AIR BROOK AIRPORT EXPRESS INC</issuerName>
+        <issuerTradingSymbol>ABRK.OB</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0000803097</rptOwnerCik>
+            <rptOwnerName>AIR BROOK AIRPORT EXPRESS INC</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>115 WEST PASSAIC STREET</rptOwnerStreet1>
+            <rptOwnerStreet2>P.O. BOX 123</rptOwnerStreet2>
+            <rptOwnerCity>ROCHELLE PARK</rptOwnerCity>
+            <rptOwnerState>NJ</rptOwnerState>
+            <rptOwnerZipCode>07662</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>1</isOther>
+            <otherText>Related party</otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Air Brook Airport Express, Inc. Common</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2007-08-15</value>
+            </transactionDate>
+            <deemedExecutionDate>
+                <value>2007-08-15</value>
+            </deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>127422</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>.10</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>0</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">The Securities were sold pursuant to a Stock Purchase Agreement dated June 26, 2007 as reported on Form 8-K incorporated by
+ reference herein.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/S/ Donald M. Petroski**</signatureName>
+        <signatureDate>2007-08-16</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

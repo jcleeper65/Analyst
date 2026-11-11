@@ -1,0 +1,114 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>24
+<FILENAME>R8.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.3</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>DESCRIPTION OF BUSINESS<br></strong></div></th>
+<th class="th" colspan="1">6 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Jun. 30, 2026</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AccountingPoliciesAbstract', window );"><strong>Accounting Policies [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_BusinessDescriptionAndBasisOfPresentationTextBlock', window );">DESCRIPTION OF BUSINESS</a></td>
+<td class="text"><p id="xdx_803_eus-gaap--BusinessDescriptionAndBasisOfPresentationTextBlock_zOS8Jvk0hKel" style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>NOTE 1: <span id="xdx_822_zNva5cYKuT3e">DESCRIPTION OF BUSINESS</span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration: underline">Nature of Business</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Feel The World, Inc. (the &#8220;Company&#8221;),
+is a corporation organized on December 17, 2010, under the laws of Delaware. The Company sells footwear to retailers, distributors, and
+direct to consumers. Feel the World EU B.V., a private limited liability company formed under the laws of the Netherlands on September
+5, 2019, is a wholly owned subsidiary of the Company. Xero Shoes EU s.r.o., a private limited liability company formed under the laws
+of the Czech Republic on July 15, 2021, is a wholly owned subsidiary of Feel the World EU B.V. Feel the World UK Ltd. is a private limited
+liability company formed on September 7, 2023 under the law of the United Kingdom. Feel The World, Inc. and its subsidiaries are collectively
+referred to as the &#8220;Company&#8221;, &#8220;we&#8221;, &#8220;our&#8221;, and &#8220;us&#8221; in this report.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i>&#160;</i></p>
+
+<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AccountingPoliciesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AccountingPoliciesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_BusinessDescriptionAndBasisOfPresentationTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The entire disclosure for the business description and basis of presentation concepts. Business description describes the nature and type of organization including but not limited to organizational structure as may be applicable to holding companies, parent and subsidiary relationships, business divisions, business units, business segments, affiliates and information about significant ownership of the reporting entity. Basis of presentation describes the underlying basis used to prepare the financial statements (for example, US Generally Accepted Accounting Principles, Other Comprehensive Basis of Accounting, IFRS).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483426/235-10-50-4<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 205<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/205/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_BusinessDescriptionAndBasisOfPresentationTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

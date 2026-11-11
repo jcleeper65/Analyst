@@ -1,0 +1,970 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>57
+<FILENAME>R46.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.3</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Loans and Allowance for Credit Losses - Schedule of Allowance for Credit Loss (Details) - USD ($)<br> $ in Thousands</strong></div></th>
+<th class="th" colspan="2">3 Months Ended</th>
+<th class="th" colspan="2">9 Months Ended</th>
+<th class="th" colspan="1">12 Months Ended</th>
+</tr>
+<tr>
+<th class="th"><div>Sep. 30, 2026</div></th>
+<th class="th"><div>Sep. 30, 2025</div></th>
+<th class="th"><div>Sep. 30, 2026</div></th>
+<th class="th"><div>Sep. 30, 2025</div></th>
+<th class="th"><div>Dec. 31, 2025</div></th>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossesRollForward', window );"><strong>Financing Receivable, Allowance for Credit Loss [Roll Forward]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Beginning balance</a></td>
+<td class="nump">$ 35,119<span></span>
+</td>
+<td class="nump">$ 33,551<span></span>
+</td>
+<td class="nump">$ 38,173<span></span>
+</td>
+<td class="nump">$ 31,622<span></span>
+</td>
+<td class="nump">$ 31,622<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal', window );">Provision (reversal)</a></td>
+<td class="nump">275<span></span>
+</td>
+<td class="nump">3,540<span></span>
+</td>
+<td class="nump">1,533<span></span>
+</td>
+<td class="nump">5,442<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoff', window );">Charge-offs</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(4,624)<span></span>
+</td>
+<td class="num">(12)<span></span>
+</td>
+<td class="num">(381)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossRecovery', window );">Recoveries</a></td>
+<td class="nump">1,214<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">1,526<span></span>
+</td>
+<td class="nump">39<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Ending balance</a></td>
+<td class="nump">36,608<span></span>
+</td>
+<td class="nump">37,091<span></span>
+</td>
+<td class="nump">36,608<span></span>
+</td>
+<td class="nump">37,091<span></span>
+</td>
+<td class="nump">38,173<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=wccb_CommercialAndIndustrialPortfolioSegmentMember', window );">Commercial and industrial</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossesRollForward', window );"><strong>Financing Receivable, Allowance for Credit Loss [Roll Forward]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Beginning balance</a></td>
+<td class="nump">7,796<span></span>
+</td>
+<td class="nump">5,691<span></span>
+</td>
+<td class="nump">7,221<span></span>
+</td>
+<td class="nump">5,540<span></span>
+</td>
+<td class="nump">5,540<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal', window );">Provision (reversal)</a></td>
+<td class="nump">465<span></span>
+</td>
+<td class="nump">615<span></span>
+</td>
+<td class="nump">769<span></span>
+</td>
+<td class="nump">771<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoff', window );">Charge-offs</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(40)<span></span>
+</td>
+<td class="num">(5)<span></span>
+</td>
+<td class="num">(120)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossRecovery', window );">Recoveries</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">311<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Ending balance</a></td>
+<td class="nump">8,261<span></span>
+</td>
+<td class="nump">6,306<span></span>
+</td>
+<td class="nump">8,261<span></span>
+</td>
+<td class="nump">6,306<span></span>
+</td>
+<td class="nump">7,221<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=us-gaap_CommercialRealEstatePortfolioSegmentMember', window );">Commercial real estate</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossesRollForward', window );"><strong>Financing Receivable, Allowance for Credit Loss [Roll Forward]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Beginning balance</a></td>
+<td class="nump">18,111<span></span>
+</td>
+<td class="nump">15,188<span></span>
+</td>
+<td class="nump">15,314<span></span>
+</td>
+<td class="nump">15,686<span></span>
+</td>
+<td class="nump">15,686<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal', window );">Provision (reversal)</a></td>
+<td class="nump">124<span></span>
+</td>
+<td class="nump">536<span></span>
+</td>
+<td class="nump">2,921<span></span>
+</td>
+<td class="nump">38<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoff', window );">Charge-offs</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(237)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossRecovery', window );">Recoveries</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Ending balance</a></td>
+<td class="nump">18,235<span></span>
+</td>
+<td class="nump">15,724<span></span>
+</td>
+<td class="nump">18,235<span></span>
+</td>
+<td class="nump">15,724<span></span>
+</td>
+<td class="nump">15,314<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=wccb_LandAndConstructionPortfolioSegmentMember', window );">Land and construction</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossesRollForward', window );"><strong>Financing Receivable, Allowance for Credit Loss [Roll Forward]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Beginning balance</a></td>
+<td class="nump">6,525<span></span>
+</td>
+<td class="nump">11,434<span></span>
+</td>
+<td class="nump">13,596<span></span>
+</td>
+<td class="nump">9,108<span></span>
+</td>
+<td class="nump">9,108<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal', window );">Provision (reversal)</a></td>
+<td class="nump">1,081<span></span>
+</td>
+<td class="nump">1,646<span></span>
+</td>
+<td class="num">(2,820)<span></span>
+</td>
+<td class="nump">3,972<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoff', window );">Charge-offs</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(3,170)<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(17)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossRecovery', window );">Recoveries</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Ending balance</a></td>
+<td class="nump">7,606<span></span>
+</td>
+<td class="nump">13,080<span></span>
+</td>
+<td class="nump">7,606<span></span>
+</td>
+<td class="nump">13,080<span></span>
+</td>
+<td class="nump">13,596<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=wccb_SmallBusinessAdministrationUSDABusinessIndustryAndFarmServiceAgencyPortfolioSegmentMember', window );">SBA, B&amp;I and FSA (1)</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossesRollForward', window );"><strong>Financing Receivable, Allowance for Credit Loss [Roll Forward]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Beginning balance</a></td>
+<td class="nump">2,034<span></span>
+</td>
+<td class="nump">738<span></span>
+</td>
+<td class="nump">1,570<span></span>
+</td>
+<td class="nump">839<span></span>
+</td>
+<td class="nump">839<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal', window );">Provision (reversal)</a></td>
+<td class="num">(1,140)<span></span>
+</td>
+<td class="nump">723<span></span>
+</td>
+<td class="nump">734<span></span>
+</td>
+<td class="nump">586<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoff', window );">Charge-offs</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(1,410)<span></span>
+</td>
+<td class="num">(2)<span></span>
+</td>
+<td class="num">(2)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossRecovery', window );">Recoveries</a></td>
+<td class="nump">1,214<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">1,214<span></span>
+</td>
+<td class="nump">38<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Ending balance</a></td>
+<td class="nump">2,108<span></span>
+</td>
+<td class="nump">1,461<span></span>
+</td>
+<td class="nump">2,108<span></span>
+</td>
+<td class="nump">1,461<span></span>
+</td>
+<td class="nump">1,570<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=us-gaap_ConsumerPortfolioSegmentMember', window );">Consumer</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossesRollForward', window );"><strong>Financing Receivable, Allowance for Credit Loss [Roll Forward]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Beginning balance</a></td>
+<td class="nump">480<span></span>
+</td>
+<td class="nump">405<span></span>
+</td>
+<td class="nump">472<span></span>
+</td>
+<td class="nump">460<span></span>
+</td>
+<td class="nump">460<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal', window );">Provision (reversal)</a></td>
+<td class="num">(82)<span></span>
+</td>
+<td class="nump">114<span></span>
+</td>
+<td class="num">(71)<span></span>
+</td>
+<td class="nump">63<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoff', window );">Charge-offs</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(4)<span></span>
+</td>
+<td class="num">(5)<span></span>
+</td>
+<td class="num">(5)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossRecovery', window );">Recoveries</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">1<span></span>
+</td>
+<td class="nump">1<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Ending balance</a></td>
+<td class="nump">398<span></span>
+</td>
+<td class="nump">519<span></span>
+</td>
+<td class="nump">398<span></span>
+</td>
+<td class="nump">519<span></span>
+</td>
+<td class="nump">472<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=us-gaap_UnallocatedFinancingReceivablesMember', window );">Unallocated</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossesRollForward', window );"><strong>Financing Receivable, Allowance for Credit Loss [Roll Forward]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Beginning balance</a></td>
+<td class="nump">173<span></span>
+</td>
+<td class="nump">95<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="num">(11)<span></span>
+</td>
+<td class="num">(11)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal', window );">Provision (reversal)</a></td>
+<td class="num">(173)<span></span>
+</td>
+<td class="num">(94)<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">12<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoff', window );">Charge-offs</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossRecovery', window );">Recoveries</a></td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="nump">0<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest', window );">Ending balance</a></td>
+<td class="nump">$ 0<span></span>
+</td>
+<td class="nump">$ 1<span></span>
+</td>
+<td class="nump">$ 0<span></span>
+</td>
+<td class="nump">$ 1<span></span>
+</td>
+<td class="nump">$ 0<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount excluding accrued interest, of allowance for credit loss on financing receivable. Excludes net investment in lease.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-03(7)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1<br><br>Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 326<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479344/326-20-45-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>instant</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivableAllowanceForCreditLossesRollForward">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivableAllowanceForCreditLossesRollForward</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossRecovery">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount, excluding accrued interest, of increase in allowance for credit loss on financing receivable from recovery. Excludes net investment in lease.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 326<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 13<br> -Subparagraph (e)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479319/326-20-50-13<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossRecovery</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoff">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount, excluding accrued interest, of decrease in allowance for credit loss on financing receivable from writeoff. Excludes net investment in lease.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 326<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 13<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479319/326-20-50-13<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 326<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479319/326-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoff</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount, excluding accrued interest, of credit loss expense (reversal of expense) on financing receivable. Excludes net investment in lease.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 326<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 13<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479319/326-20-50-13<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 220<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 22<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147476148/220-40-50-22<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=wccb_CommercialAndIndustrialPortfolioSegmentMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivablePortfolioSegmentAxis=wccb_CommercialAndIndustrialPortfolioSegmentMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=us-gaap_CommercialRealEstatePortfolioSegmentMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivablePortfolioSegmentAxis=us-gaap_CommercialRealEstatePortfolioSegmentMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=wccb_LandAndConstructionPortfolioSegmentMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivablePortfolioSegmentAxis=wccb_LandAndConstructionPortfolioSegmentMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=wccb_SmallBusinessAdministrationUSDABusinessIndustryAndFarmServiceAgencyPortfolioSegmentMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivablePortfolioSegmentAxis=wccb_SmallBusinessAdministrationUSDABusinessIndustryAndFarmServiceAgencyPortfolioSegmentMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=us-gaap_ConsumerPortfolioSegmentMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivablePortfolioSegmentAxis=us-gaap_ConsumerPortfolioSegmentMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FinancingReceivablePortfolioSegmentAxis=us-gaap_UnallocatedFinancingReceivablesMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FinancingReceivablePortfolioSegmentAxis=us-gaap_UnallocatedFinancingReceivablesMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

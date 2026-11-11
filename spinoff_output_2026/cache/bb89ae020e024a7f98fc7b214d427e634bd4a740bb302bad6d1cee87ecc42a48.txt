@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0202</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2005-02-15</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001106861</issuerCik>
+        <issuerName>CHILDRENS INTERNET INC</issuerName>
+        <issuerTradingSymbol>(CITC.OB)</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001280296</rptOwnerCik>
+            <rptOwnerName>HAMEDANI SHOLEH</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>4645 KINGWOOD DR.</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>DANVILLE</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>94506</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>President and Chief Executive</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2005-02-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>6527314</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0.07</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>7694069</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Through Shadrack Films, Inc.</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <remarks>These shares were issued to Shadrack Films, Inc. by resolution of the Board of Directors of the Issuer on February 15, 2005
+ in
+repayment of loans to the Issuer by Shadrack Films,
+Inc. which, as of December 31, 2004 aggregated $456,912. As the sole officer, director and shareholder of Shadrack Films,
+Inc., Ms. Hamedani has indirect beneficial ownership
+of all shares directly beneficially owned by Shadrack Films, Inc.</remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Sholeh Hamedani</signatureName>
+        <signatureDate>2005-02-15</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

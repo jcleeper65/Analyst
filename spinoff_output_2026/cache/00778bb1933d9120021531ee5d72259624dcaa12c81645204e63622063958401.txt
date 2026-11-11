@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-10-01</periodOfReport>
+
+    <issuer>
+        <issuerCik>0002128626</issuerCik>
+        <issuerName>Vylor Inc.</issuerName>
+        <issuerTradingSymbol>VYLR</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001555586</rptOwnerCik>
+            <rptOwnerName>Kalathur Rajesh</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>1000 N WEST STREET</rptOwnerStreet1>
+            <rptOwnerStreet2>SUITE 900</rptOwnerStreet2>
+            <rptOwnerCity>WILMINGTON</rptOwnerCity>
+            <rptOwnerState>DE</rptOwnerState>
+            <rptOwnerZipCode>19801</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-10-01</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>274.0000</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0.0000</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>274.0000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>By Spouse</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">On October 1, 2026, the Reporting Person received one (1) share of Vylor Inc. (&quot;Vylor&quot;) common stock for every one (1) share of Corteva common stock held by the Reporting Person in connection with the spin-off of Vylor from Corteva, as described in Vylor's Registration Statement on Form 10 filed with the SEC on September 21, 2026.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>Andrea I. Rennig, by power-of-attorney</signatureName>
+        <signatureDate>2026-10-05</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

@@ -1,0 +1,613 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>30
+<FILENAME>R19.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Accounting Policies, by Policy (Policies)<br></strong></div></th>
+<th class="th" colspan="1">6 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Jun. 30, 2026</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AccountingPoliciesAbstract', window );"><strong>Summary of Significant Accounting Policies [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_BasisOfAccountingPolicyPolicyTextBlock', window );">Basis of Presentation</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration:underline">Basis of Presentation</span></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The accompanying unaudited interim condensed consolidated
+financial statements have been prepared in accordance with the generally accepted accounting principles in the United States of America
+(the &#8220;U.S. GAAP&#8221;). All significant intercompany transactions and account balances have been eliminated. These financial statements
+do not include all the information and footnotes required by the U.S. GAAP for complete financial statements. Certain information and
+note disclosures normally included in the annual financial statements prepared in accordance with the U.S. GAAP have been condensed or
+omitted consistent with Article 8 of Regulation S-X. In the opinion of the Company&#8217;s management, the unaudited interim condensed
+consolidated financial statements have been prepared on the same basis as the audited financial statements and include all adjustments,
+in a normal recurring nature, as necessary for the fair statement of the Company&#8217;s financial position as of June 30, 2026, and results
+of operations and cash flows for the six months ended June 30, 2026 and 2025. The balance sheet information as of December 31, 2025 has
+been derived from the audited financial statements at December 31, 2025, and interim results of operations are not necessarily indicative
+of the results expected for the full fiscal year or for any future period. These financial statements should be read in conjunction with
+the audited consolidated financial statements as of and for the years ended December 31, 2025 and 2024, and related notes included in
+the Company&#8217;s Registration Statement on Form 10.</p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This basis of accounting involves the application
+of accrual accounting and consequently, revenues and gains are recognized when earned, and expenses and losses are recognized when incurred.
+The Company&#8217;s unaudited financial statements are expressed in U.S. dollars.</p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UseOfEstimates', window );">Use of Estimates</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration:underline">Use of Estimates</span></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The preparation of financial statements in conformity
+with the U.S. GAAP that requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities
+and disclosure of contingent assets and liabilities at the date of the interim consolidated financial statements and the amount of revenues
+and expenses during the reporting periods. Actual results could differ materially from those results.</p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_FairValueMeasurementPolicyPolicyTextBlock', window );">Fair Value Measurements</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration:underline">Fair Value Measurements</span></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">ASC 820 &#8220;Fair Value Measurements&#8221;
+defines fair value for certain financial and nonfinancial assets and liabilities that are recorded at fair value, establishes a framework
+for measuring fair value and expands disclosures about fair value measurements. It requires that an entity measures its financial instruments
+to base fair value on exit price, maximize the use of observable units and minimize the use of unobservable inputs to determine the exit
+price. It establishes a hierarchy which prioritizes the inputs to valuation techniques used to measure fair value. This hierarchy increases
+the consistency and comparability of fair value measurements and related disclosures by maximizing the use of observable inputs and minimizing
+the use of unobservable inputs by requiring that observable inputs be used when available. Observable inputs are inputs that reflect the
+assumptions market participants would use in pricing the assets or liabilities based on market data obtained from sources independent
+of the Company. Unobservable inputs are inputs that reflect the Company&#8217;s own assumptions about the assumptions market participants
+would use in pricing the asset or liability developed based on the best information available in circumstances. The hierarchy prioritizes
+the inputs into three broad levels based on the reliability of the inputs as follows:</p><table cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-spacing: 0px;">
+  <tr style="vertical-align: top">
+    <td style="width: 0.25in">&#160;</td>
+    <td style="width: 0.25in"><span style="font-size: 10pt">&#9679;</span></td>
+    <td style="text-align: justify"><span style="font-size: 10pt">Level 1 &#8211;&#160;Inputs are quoted prices in active markets for identical assets or liabilities that the Company can access at the measurement date. Valuation of these instruments does not require a high degree of judgment as the valuations are based on quoted prices in active markets that are readily and regularly available.</span></td></tr>
+  </table><table cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-spacing: 0px;">
+  <tr style="vertical-align: top">
+    <td style="width: 0.25in">&#160;</td>
+    <td style="width: 0.25in"><span style="font-size: 10pt">&#9679;</span></td>
+    <td style="text-align: justify"><span style="font-size: 10pt">Level 2 &#8211;&#160;Inputs other than quoted prices in active markets that are either directly or indirectly observable as of the measurement date, such as quoted prices for similar assets or liabilities; quoted prices in markets that are not active; or other inputs that are observable or can be corroborated by observable market data for substantially the full term of the assets or liabilities.</span></td></tr>
+  </table><table cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-spacing: 0px;">
+  <tr style="vertical-align: top">
+    <td style="width: 0.25in">&#160;</td>
+    <td style="width: 0.25in"><span style="font-size: 10pt">&#9679;</span></td>
+    <td style="text-align: justify"><span style="font-size: 10pt">Level 3 &#8211;&#160;Valuations based on inputs that are unobservable and not corroborated by market data. The fair value for such assets and liabilities is generally determined using pricing models, discounted cash flow methodologies, or similar techniques that incorporate the assumptions a market participant would use in pricing the asset or liability.</span></td></tr>
+  </table><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The carrying values of certain assets and liabilities
+of the Company, such as cash and cash equivalents, accounts receivable, due from related parties, prepaid expenses and other current assets,
+accrued expenses and other current liabilities, and due to related parties, approximate fair value due to their relatively short maturities.
+The carrying value of the Company&#8217;s accrued interest approximates their fair value as the terms of the borrowing are consistent
+with current market rates and the duration to maturity is short.</p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConcentrationRiskCreditRisk', window );">Concentration of Credit Risk</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration:underline">Concentration of Credit Risk</span></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company&#8217;s financial instruments that
+are exposed to concentrations of credit risk consist primarily of cash and cash equivalents. The Company deposits cash in reputable financial
+institutions covered by FDIC&#8217;s $250,000 insurance. However, the Company does not anticipate any losses on excess deposits. The Company
+does not enter financial instruments for hedging, trading or speculative purposes.</p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company performs ongoing credit evaluation
+of its customers and requires no collateral. Credit losses and allowance for unbilled receivables are provided based on a review of the
+collectability of accounts receivable. The Company determines the amount of allowance for doubtful accounts by examining its historical
+collection experience, current economic conditions, reasonable and supportable forecasts of future economic conditions, as well as its
+internal credit policies. Actual credit losses may differ from our estimates.</p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002108359_ConcentrationOfClientsPolicyTextBlock', window );">Concentration of Clients</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration:underline">Concentration of Clients</span></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">No revenue was generated in the six months ended
+June 30, 2026 and 2025, respectively.</p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RevenueFromContractWithCustomerPolicyTextBlock', window );">Revenue Recognition</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration:underline">Revenue Recognition</span></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company recognizes revenue in accordance with
+ASC 606, Revenue from Contracts with Customers. Pursuant to ASC 606, the Company recognizes revenue when its customer obtains control
+of promised goods or services, in an amount that reflects the consideration that the Company expects to receive in exchange for those
+goods or services. To determine revenue recognition for arrangements that the Company determines is within the scope of ASC 606, the Company
+performs the following five steps: (i) identify the contract(s) with a customer; (ii) identify the performance obligations in the contract;
+(iii) determine the transaction price; (iv) allocate the transaction price to the performance obligations in the contract; and (v) recognize
+revenue when (or as) the Company satisfies a performance obligation. The Company only applies the five-step model to contracts when it
+is probable that the Company will collect the consideration the Company is entitled to in exchange for the goods or services the Company
+transfers to the customers. At inception of the contract, once the contract is determined to be within the scope of ASC 606, the Company
+assesses the goods or services promised within each contract, determines those that are performance obligations, and assesses whether
+each promised good or service is distinct. The Company then recognizes as revenue the amount of the transaction price that is allocated
+to the respective performance obligation when (or as) the performance obligation is satisfied.</p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_ck0002108359_CDMOServiceRevenuePolicyTextBlock', window );">CDMO Service Revenue</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i><span style="text-decoration:underline">CDMO Service Revenue</span></i></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company&#8217;s revenues are mainly derived from Research and Development
+Activities Services (also known as the Contract Development &amp; Manufacturing Organization Services (&#8220;CDMO&#8221;). Revenues related
+to research and development and regulatory activities are recognized when the related services are provided or a milestone is achieved
+at a point of time, in accordance with the contract terms. The Company typically has only one performance obligation at the beginning
+of a contract, which is to perform research and development services. The Company may also provide its customers with an option to request
+that the Company provides additional goods or services in the future, such as active pharmaceutical ingredients, API, or IND/NDA/ANDA/510K
+submissions. The Company evaluates whether these options are material rights at the inception of the contract. If the Company determines
+an option is a material right, the Company will consider the option a separate performance obligation.</p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">If the Company is entitled to reimbursement from
+its customers for specified research and development expenses, the Company accounts for the related services that it provides as separate
+performance obligations if it determines that these services represent a material right. The Company also determines whether the reimbursement
+of research and development expenses should be accounted for as revenues or an offset to research and development expenses in accordance
+with provisions of gross or net revenue presentation. The Company recognizes the corresponding revenues or records the corresponding offset
+to research and development expenses as it satisfies the related performance obligations.</p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company then determines the transaction price
+by reviewing the amount of consideration the Company is eligible to earn under the contracts, including any variable consideration. Under
+the outstanding contracts, consideration typically includes fixed consideration and variable consideration in the form of potential milestone
+payments. At the start of an agreement, the Company&#8217;s transaction price usually consists of the payments made to or by the Company
+based on the number of full-time equivalent researchers assigned to the project and the related research and development expenses incurred.
+The Company does not typically include any payments that the Company may receive in the future in its initial transaction price because
+the payments are not probable. The Company would reassess the total transaction price at each reporting period to determine if the Company
+should include additional payments in the transaction price.</p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company receives payments from its customers
+based on billing schedules established in each contract. Upfront payments and fees may be recorded as advances from customers upon receipt
+or when due, and may require deferral of revenue recognition for a future period until the Company performs its obligations under these
+arrangements. Amounts are recorded as accounts receivable when the right of the Company to consideration is unconditional. The Company
+does not assess whether a contract has a significant financing component if the expectation at contract inception is such that the period
+between payment by the customers and the transfer of the promised goods or services to the customers will be one year or less.</p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_EarningsPerSharePolicyTextBlock', window );">Loss Per Ordinary Share</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration:underline">Loss Per Ordinary Share</span></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company calculates net loss per share in accordance
+with ASC 260, &#8220;Earnings per Share&#8221;. Basic loss per share is computed by dividing the net loss by the weighted average number
+of common shares outstanding during the period. Diluted loss per share is computed similar to basic loss per share except that the denominator
+is increased to include the number of additional common shares that would have been outstanding if the potential ordinary share equivalents
+had been issued and if the additional common shares were dilutive. Diluted earnings per share excludes all dilutive potential shares if
+their effect is anti-dilutive.</p><table cellpadding="0" style="border-collapse: collapse; width: 100%; font: 10pt Times New Roman, Times, Serif; border-spacing: 0px;">
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td><td style="font-weight: bold; padding-bottom: 1.5pt">&#160;</td>
+    <td colspan="6" style="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">Three Months Ended</td><td style="padding-bottom: 1.5pt; font-weight: bold">&#160;</td><td style="font-weight: bold; padding-bottom: 1.5pt">&#160;</td>
+    <td colspan="6" style="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">Six Months Ended</td><td style="padding-bottom: 1.5pt; font-weight: bold">&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td><td style="font-weight: bold">&#160;</td>
+    <td colspan="2" style="font-weight: bold; text-align: center">June 30</td><td style="font-weight: bold">&#160;</td><td style="font-weight: bold">&#160;</td>
+    <td colspan="2" style="font-weight: bold; text-align: center">June 30</td><td style="font-weight: bold">&#160;</td><td style="font-weight: bold">&#160;</td>
+    <td colspan="2" style="font-weight: bold; text-align: center">June 30</td><td style="font-weight: bold">&#160;</td><td style="font-weight: bold">&#160;</td>
+    <td colspan="2" style="font-weight: bold; text-align: center">June 30</td><td style="font-weight: bold">&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td><td style="font-weight: bold; padding-bottom: 1.5pt">&#160;</td>
+    <td colspan="2" style="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2026</td><td style="padding-bottom: 1.5pt; font-weight: bold">&#160;</td><td style="font-weight: bold; padding-bottom: 1.5pt">&#160;</td>
+    <td colspan="2" style="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2025</td><td style="padding-bottom: 1.5pt; font-weight: bold">&#160;</td><td style="font-weight: bold; padding-bottom: 1.5pt">&#160;</td>
+    <td colspan="2" style="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2026</td><td style="padding-bottom: 1.5pt; font-weight: bold">&#160;</td><td style="font-weight: bold; padding-bottom: 1.5pt">&#160;</td>
+    <td colspan="2" style="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2025</td><td style="padding-bottom: 1.5pt; font-weight: bold">&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td>Numerator:</td><td>&#160;</td>
+    <td colspan="2" style="text-align: right">&#160;</td><td>&#160;</td><td>&#160;</td>
+    <td colspan="2" style="text-align: right">&#160;</td><td>&#160;</td><td>&#160;</td>
+    <td colspan="2" style="text-align: right">&#160;</td><td>&#160;</td><td>&#160;</td>
+    <td colspan="2" style="text-align: right">&#160;</td><td>&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="width: 52%; text-align: left">Net loss</td><td style="width: 1%">&#160;</td>
+    <td style="width: 1%; text-align: left">$</td><td style="width: 9%; text-align: right">(268,417</td><td style="width: 1%; text-align: left">)</td><td style="width: 1%">&#160;</td>
+    <td style="width: 1%; text-align: left">$</td><td style="width: 9%; text-align: right">(145,444</td><td style="width: 1%; text-align: left">)</td><td style="width: 1%">&#160;</td>
+    <td style="width: 1%; text-align: left">$</td><td style="width: 9%; text-align: right">(476,143</td><td style="width: 1%; text-align: left">)</td><td style="width: 1%">&#160;</td>
+    <td style="width: 1%; text-align: left">$</td><td style="width: 9%; text-align: right">(298,430</td><td style="width: 1%; text-align: left">)</td></tr>
+  <tr style="vertical-align: bottom; ">
+    <td>&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td>Denominator:</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">-</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; ">
+    <td style="text-align: left; padding-bottom: 1.5pt"><div style="-sec-ix-hidden: hidden-fact-37"><div style="-sec-ix-hidden: hidden-fact-36"><div style="-sec-ix-hidden: hidden-fact-35"><div style="-sec-ix-hidden: hidden-fact-34">Weighted-average shares outstanding &#8211; Basic &amp; Diluted</div></div></div></div></td><td style="padding-bottom: 1.5pt">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; text-align: left">&#160;</td><td style="border-bottom: Black 1.5pt solid; text-align: right">30,000,000</td><td style="padding-bottom: 1.5pt; text-align: left">&#160;</td><td style="padding-bottom: 1.5pt">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; text-align: left">&#160;</td><td style="border-bottom: Black 1.5pt solid; text-align: right">30,000,000</td><td style="padding-bottom: 1.5pt; text-align: left">&#160;</td><td style="padding-bottom: 1.5pt">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; text-align: left">&#160;</td><td style="border-bottom: Black 1.5pt solid; text-align: right">30,000,000</td><td style="padding-bottom: 1.5pt; text-align: left">&#160;</td><td style="padding-bottom: 1.5pt">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; text-align: left">&#160;</td><td style="border-bottom: Black 1.5pt solid; text-align: right">30,000,000</td><td style="padding-bottom: 1.5pt; text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td>&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; ">
+    <td>Loss per share</td><td>&#160;</td>
+    <td style="text-align: left">$</td><td style="text-align: right">(0.01</td><td style="text-align: left">)</td><td>&#160;</td>
+    <td style="text-align: left">$</td><td style="text-align: right">(0.01</td><td style="text-align: left">)</td><td>&#160;</td>
+    <td style="text-align: left">$</td><td style="text-align: right">(0.02</td><td style="text-align: left">)</td><td>&#160;</td>
+    <td style="text-align: left">$</td><td style="text-align: right">(0.01</td><td style="text-align: left">)</td></tr>
+  </table><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CommitmentsAndContingenciesPolicyTextBlock', window );">Commitments and Contingencies</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration:underline">Commitments and Contingencies</span></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company has adopted ASC 450 &#8220;Contingencies&#8221;
+subtopic 20, in determining its accruals and disclosures with respect to loss contingencies. Accordingly, estimated losses from loss contingencies
+are accrued by a charge to income when information available before financial statements are issued or are available to be issued indicates
+that it is probable that an asset has been impaired or a liability has been incurred on the date of the financial statements and the amount
+of the loss can be reasonably estimated. Legal expenses associated with the contingency are expensed as incurred. If a loss contingency
+is not probable or reasonably estimable, disclosure of the loss contingency is made in financial statements when it is at least reasonably
+possible that a material loss could be incurred.</p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SegmentReportingPolicyPolicyTextBlock', window );">Segment Reporting</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration:underline">Segment Reporting</span></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">ASC 280 &#8220;Segment Reporting&#8221; requires
+public companies to report financial and descriptive information about their reportable operating segments.</p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company uses the management approach to determine
+operating segments. The management approach considers the internal organization and reporting used by the Company&#8217;s chief operating
+decision maker (&#8220;CODM&#8221;) for making decisions, allocating resources and assessing performance. The Company&#8217;s CODM was
+identified as the Chief Executive Officer and Chairman of the Board, who reviews consolidated results at a consolidated level when making
+decisions about allocating resources and assessing performance of the Company. The Company believes it has only one operating segment
+and reportable segment, which is an integrated pharmaceutical development and CRO/CDMO platform with capabilities in research, formulation
+development, analytical services, manufacturing, and commercialization of pharmaceutical, nutraceutical and botanical-based products.</p><p style="margin: 0pt 0; font: 10pt Times New Roman, Times, Serif">The Company does not distinguish revenues, costs or expenses between
+markets in its internal reporting, and reports costs and expenses by nature as a whole. Hence, the Company has only one reportable segment.</p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock', window );">Recent Accounting Pronouncements</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="text-decoration:underline">Recent Accounting Pronouncements</span></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">In accordance with Staff Accounting Bulletin No.
+74 (SAB 74), the Company evaluates the impact of newly issued accounting standards on its financial statements. The following standards
+have been issued but are not yet effective:</p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">In November 2024, the FASB issued ASU No. 2024-03,
+Expense Disaggregation Disclosures (Subtopic 220-40). The ASU requires disclosure of specified information about certain costs and expenses.
+This includes purchases of inventory, employee compensation, depreciation, and intangible asset amortization.&#160; The ASU is effective
+on a prospective or retrospective basis for the annual reporting period beginning after December 15, 2026, and interim reporting period
+beginning after December 15, 2027. Early adoption is permitted. This ASU will likely result in the required additional disclosures and
+the Company expects no material impact on consolidated financial statements of adopting.</p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company will continue to monitor other issued
+but not yet effective standards and will update its disclosures as more information becomes available.</p><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002108359_CDMOServiceRevenuePolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for CDMO service revenue.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002108359_CDMOServiceRevenuePolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002108359_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_ck0002108359_ConcentrationOfClientsPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for concentration of clients.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">ck0002108359_ConcentrationOfClientsPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>ck0002108359_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AccountingPoliciesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AccountingPoliciesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_BasisOfAccountingPolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for basis of accounting, or basis of presentation, used to prepare the financial statements (for example, US Generally Accepted Accounting Principles, Other Comprehensive Basis of Accounting, IFRS).</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483426/235-10-50-4<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_BasisOfAccountingPolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CommitmentsAndContingenciesPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for commitments and contingencies, which may include policies for recognizing and measuring loss and gain contingencies.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 954<br> -SubTopic 450<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477850/954-450-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CommitmentsAndContingenciesPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ConcentrationRiskCreditRisk">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for credit risk. Includes, but is not limited to, policy for entering into master netting arrangement or similar agreement to mitigate credit risk of financial instrument.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 825<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 21<br> -Subparagraph (d)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482907/825-10-50-21<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 825<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 21<br> -Subparagraph (c)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482907/825-10-50-21<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ConcentrationRiskCreditRisk</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_EarningsPerSharePolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for computing basic and diluted earnings or loss per share for each class of common stock and participating security. Addresses all significant policy factors, including any antidilutive items that have been excluded from the computation and takes into account stock dividends, splits and reverse splits that occur after the balance sheet date of the latest reporting period but before the issuance of the financial statements.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 260<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_EarningsPerSharePolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_FairValueMeasurementPolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for fair value measurements of financial and non-financial assets, liabilities and instruments classified in shareholders' equity. Disclosures include, but are not limited to, how an entity that manages a group of financial assets and liabilities on the basis of its net exposure measures the fair value of those assets and liabilities.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 820<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2D<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2D<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 820<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2C<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2C<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_FairValueMeasurementPolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy pertaining to new accounting pronouncements that may impact the entity's financial reporting. Includes, but is not limited to, quantification of the expected or actual impact.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 250<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 5<br> -Subparagraph (SAB Topic 11.M.Q2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480530/250-10-S99-5<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RevenueFromContractWithCustomerPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for revenue from contract with customer.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 17<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-17<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 19<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-19<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-18<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-18<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-20<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-20<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-20<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-20<br><br>Reference 9: http://www.xbrl.org/2003/role/exampleRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Subparagraph (e)<br> -SubTopic 10<br> -Topic 235<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483426/235-10-50-4<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Topic 606<br> -Publisher FASB<br> -URI https://asc.fasb.org/606/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RevenueFromContractWithCustomerPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SegmentReportingPolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for segment reporting.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 41<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-41<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 5: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 47<br> -Subparagraph (bb)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482785/280-10-55-47<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (f)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 7: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 54<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482785/280-10-55-54<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 36<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-36<br><br>Reference 9: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 47<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482785/280-10-55-47<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 11: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br><br>Reference 12: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 280<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 29<br> -Subparagraph (e)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482810/280-10-50-29<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SegmentReportingPolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_UseOfEstimates">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for the use of estimates in the preparation of financial statements in conformity with generally accepted accounting principles.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 235<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478671/942-235-S50-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 235<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-05(b)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-12<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 9<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-9<br><br>Reference 5: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482836/275-10-55-6<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-6<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-4<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)<br> -SubTopic 10<br> -Topic 275<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-1<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)<br> -SubTopic 10<br> -Topic 275<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_UseOfEstimates</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

@@ -1,0 +1,122 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>28
+<FILENAME>R17.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Subsequent Events<br></strong></div></th>
+<th class="th" colspan="1">6 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Jun. 30, 2026</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventsAbstract', window );"><strong>Subsequent Events [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_SubsequentEventsTextBlock', window );">SUBSEQUENT EVENTS</a></td>
+<td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>11. SUBSEQUENT EVENTS</b>&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company has assessed all events from June
+30, 2026, up through the date that these consolidated financial statements are available to be issued, and concluded that no subsequent
+events&#160;&#160; have occurred that would require recognition or disclosure in the Company&#8217;s consolidated financial statements,
+except the following non-recognized subsequent event.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="text-align: justify; margin: 0pt 0; font: 10pt Times New Roman, Times, Serif">To enhance shareholder value, on June 22, 2026, ABVC announced plans
+for the partial legal and structural separation of the BioKey Cayman business from ABVC (the &#8220;Reorganization Transactions&#8221;).
+The Reorganization Transactions consist of two distinct steps: (i) the legal separation of BioKey Cayman from ABVC (the &#8220;Separation&#8221;)
+and (ii) the subsequent distribution of BioKey Cayman shares to ABVC shareholders (the &#8220;Distribution&#8221;). To effect the Separation,
+BioKey Cayman filed a Registration Statement on Form 10 pursuant to the Exchange Act (File No. 000-56853), which became effective on June
+25, 2026 (the &#8220;Form 10&#8221;). Shortly before the Form 10 became effective, BioKey Cayman and ABVC entered into the Separation
+and Distribution Agreement dated as of June 22, 2026 (the &#8220;SDA&#8221;) and related ancillary agreements. Upon effectiveness of the
+Form 10 and execution of the SDA, BioKey Cayman became a separate Exchange Act reporting company, although ABVC continued to own 100%
+of its outstanding shares pending the Distribution. For the Distribution, ABVC intends to distribute approximately 4,500,000 BioKey Cayman
+Ordinary Shares, representing approximately 15% of BioKey Cayman&#8217;s issued and outstanding Ordinary Shares, to ABVC shareholders
+on a pro rata basis. Following the Distribution, ABVC is expected to retain approximately 85% of BioKey Cayman and remain its controlling
+shareholder. The Distribution was originally scheduled for August 3, 2026 but was postponed due to outstanding tax, administrative and
+regulatory matters. The Distribution is now scheduled for August 21, 2026. Accordingly BioKey Cayman currently exists as a separate Exchange
+Act reporting entity but remains wholly owned by ABVC until the Distribution is completed.</p><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SubsequentEventsAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SubsequentEventsAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_SubsequentEventsTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The entire disclosure for significant events or transactions that occurred after the balance sheet date through the date the financial statements were issued or the date the financial statements were available to be issued. Examples include: the sale of a capital stock issue, purchase of a business, settlement of litigation, catastrophic loss, significant foreign exchange rate changes, loans to insiders or affiliates, and transactions not in the ordinary course of business.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 855<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/855/tableOfContent<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 855<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483399/855-10-50-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_SubsequentEventsTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

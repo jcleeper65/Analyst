@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-04-20</periodOfReport>
+
+    <notSubjectToSection16>1</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0002091349</issuerCik>
+        <issuerName>First Tracks Biotherapeutics, Inc.</issuerName>
+        <issuerTradingSymbol>TRAX</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001587114</rptOwnerCik>
+            <rptOwnerName>EcoR1 Capital, LLC</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>357 TEHAMA STREET #3</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>SAN FRANCISCO</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>94103</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-04-20</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F2"/>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>4705575</value>
+                    <footnoteId id="F3"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>13.8134</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>3174519</value>
+                    <footnoteId id="F4"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>See Note</value>
+                    <footnoteId id="F1"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">The reporting persons are EcoR1 Capital, LLC (&quot;EcoR1&quot;), Oleg Nodelman and EcoR1 Capital Fund Qualified L.P. (&quot;Qualified Fund&quot;). EcoR1 is the investment adviser and general partner of private funds, including Qualified Fund (collectively, the &quot;Funds&quot;). Mr. Nodelman is the manager and controlling owner of EcoR1. EcoR1 is filing this Form 4 for itself, Mr. Nodelman and Qualified Fund. The filers are filing this Form 4 jointly, but not as a group, and each expressly disclaims membership in a group within the meaning of Rule 13d-5(b) under the Securities Exchange Act of 1934. The Funds hold these securities directly for the benefit of their investors. EcoR1 may be deemed to indirectly beneficially own them as the investment adviser to the Funds. Mr. Nodelman may be deemed to indirectly beneficially own them as the control person of EcoR1. The filers disclaim beneficial ownership of such securities except to the extent of their pecuniary interests therein.</footnote>
+        <footnote id="F2">The Funds sold these share in a private placement described in the Form 8K filed by the Issuer on April 20, 2026.</footnote>
+        <footnote id="F3">Qualified Fund sold 4,420,064 of the securities in this transaction.</footnote>
+        <footnote id="F4">After this transaction, Qualified Fund holds 2,981,908 shares of the Issuer's Common Stock.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Oleg Nodelman, Manager of EcoR1 Capital, LLC</signatureName>
+        <signatureDate>2026-04-22</signatureDate>
+    </ownerSignature>
+</ownershipDocument>

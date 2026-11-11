@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-08-03</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001953520</issuerCik>
+        <issuerName>Fidelity Core Real Estate Fund</issuerName>
+        <issuerTradingSymbol>NONE</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0002132751</rptOwnerCik>
+            <rptOwnerName>Korn Karen R.</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>245 SUMMER STREET</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>BOSTON</rptOwnerCity>
+            <rptOwnerState>MA</rptOwnerState>
+            <rptOwnerZipCode>02210</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>false</isDirector>
+            <isOfficer>true</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+            <officerTitle>Vice President</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>false</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Shares of Beneficial Ownership</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-08-03</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>P</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3896.340</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>11.55</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>92347.797</value>
+                    <footnoteId id="F1"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Includes Shares of the Issuer acquired through the Issuer's distribution reinvestment plan.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Stephanie J. Brown, Duly authorized under Power of Attorney</signatureName>
+        <signatureDate>2026-08-05</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
