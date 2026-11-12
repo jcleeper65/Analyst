@@ -1,0 +1,801 @@
+<DOCUMENT>
+<TYPE>EX-10.41
+<SEQUENCE>3
+<FILENAME>x53267a2ex10-41.txt
+<DESCRIPTION>EX-10.41 MASTER PORTING AGREEMENT
+<TEXT>
+<PAGE>
+                                                                   EXHIBIT 10.41
+
+                            MASTER PORTING AGREEMENT
+
+
+      This Master Porting Agreement (this "Agreement") is made effective as of
+July 27, 2001 (the "Effective Date") by and between HIGH SPEED NET SOLUTIONS,
+INC., d/b/a Summus, a Florida corporation located at 434 Fayetteville Street
+Mall, Suite 600, Raleigh, NC 27601, U.S.A. ("HSNS") and SAMSUNG ELECTRONICS
+AMERICA, a corporation located at 105 Challenger Road, Ridgefield Park, NJ
+07660, U.S.A. ("Samsung").
+
+      WHEREAS, HSNS has developed certain proprietary data compression
+technology and solutions;
+
+      WHEREAS, Samsung has developed and/or markets and sells certain products
+that could utilize such data compression technology and solutions; and
+
+      WHEREAS, Samsung desires to have, and HSNS agrees to make, certain of
+HSNS's technology available for certain of Samsung's products.
+
+NOW THEREFORE, in consideration of the foregoing, and other good and valuable
+consideration, the receipt and sufficiency of which are hereby acknowledged, the
+HSNS and Samsung agree as follows:
+
+
+1.    DEFINITIONS
+
+1.1   "Confidential Information" means information that the disclosing party
+      designates as confidential or which, under the circumstances surrounding
+      disclosure, ought to be treated as confidential. Confidential Information
+      includes, without limitation: (i) trade secrets relating to the disclosing
+      party's product plans, designs, costs, prices and names, finances,
+      marketing plans, business opportunities, personnel, research and
+      development, and know-how; (ii) the HSNS Technology; (iii) the Samsung
+      Technology; and (iv) the terms, conditions and existence of this
+      Agreement. "Confidential Information" shall not include information that
+      the receiving party can demonstrate through competent evidence: (a) is or
+      becomes generally available to the public other than as a result of
+      unauthorized disclosure by the receiving party; (b) is known and has been
+      reduced to tangible form by the receiving party at the time of disclosure
+      and is not subject to restriction; (c) that is independently developed by
+      the receiving party without the use of or reference to any Confidential
+      Information from the disclosing party; (d) is lawfully obtained from a
+      third party that has the right to make such disclosure; or (e) is made
+      generally available by the disclosing party without restriction on
+      disclosure. For the purpose of the foregoing exceptions, disclosures which
+      are specific as to engineering and design practices and techniques,
+      products, software, operating parameters and know-how shall not be deemed
+      to be within the foregoing exceptions merely because they are embraced by
+      general disclosures which are in the public domain or in the possession of
+      the receiving party. In addition, any combination of features shall not be
+      deemed to be within the
+
+
+                      HSNS Confidential & Proprietary               Page 1 of 15
+<PAGE>
+      foregoing exceptions merely because individual features thereof are in the
+      public domain or in the possession of the receiving party, but only if the
+      combination itself and its principle of operation are in the public domain
+      or in the possession of the receiving party. When Confidential Information
+      is disclosed in written or other tangible form, it shall be clearly marked
+      with a legend identifying it as confidential. Also, if disclosed in oral
+      or intangible form, Confidential Information shall be identified as
+      confidential in accordance with the terms of the applicable Services
+      Schedule.
+
+1.2   "Deliverables" means all various beta and final versions of a Ported
+      Object, supporting documentation, and work product resulting from the
+      Services, set forth in the applicable Services Schedule.
+
+1.3   "Derivative Technology" means: (i) for copyrightable or copyrighted
+      material, any translation (including translation into other computer
+      languages), portation, modification, correction, addition, extension,
+      upgrade, improvement, compilation, abridgment or other form in which an
+      existing work may be recast, transformed or adapted; (ii) for patentable
+      or patented material, any improvement thereon; and (iii) for material
+      which is protected by trade secret, any new material derived from such
+      existing trade secret material, including new material which may be
+      protected by copyright, patent and/or trade secret.
+
+1.4   "Error(s)" means defect(s) in a Deliverable which prevent it from
+      performing in accordance with the Specifications and/or a Severity Level
+      1, 2 or 3 error, as such errors are defined in Exhibit A.
+
+1.5   "HSNS Technology" means HSNS's proprietary technology, which is to be
+      applied to a Port, the Specifications, and the Deliverables, and
+      associated development and testing tools, testing strategy, and
+      documentation and user guides as set forth on any Services Schedule.
+
+1.6   "Independent Contractor" means any third party consultant, independent
+      contractor, or temporary employee, of a party hereto, under written
+      agreement with a party hereto to develop, complete, or assist with a Port
+      under this Agreement or any Services Schedule, where such written
+      agreement is consistent with the terms and conditions of this Agreement
+      including, but not limited to, Sections 4 and 6.
+
+1.7   "Port" means the modification and/or optimization of existing software to
+      run on a specific processor in a specific operating environment and meet
+      specific requirements.
+
+1.8   "Ported Object" means the object code or library resulting from a Port.
+
+1.9   "Porting Team" means the specific facility, development tools, and
+      personnel required to complete a Port. Personnel assigned to a Porting
+      Team may include solely HSNS personnel or both HSNS and Samsung personnel
+      as determined by the parties and set forth in the applicable Services
+      Schedule.
+
+1.10  "Product" means a specific Samsung consumer product, family of products,
+      or a specific Samsung processor.
+
+
+                      HSNS Confidential & Proprietary               Page 2 of 15
+<PAGE>
+1.11  "Requirements" means the requirements for the Services, as set forth in
+      any Services Schedule attached hereto.
+
+1.12  "Samsung Technology" means Samsung's proprietary technology, including,
+      without limitation, any Product, which is the specific target of a Port as
+      set forth on any Services Schedule.
+
+1.13  "Services" means (i) the design, development and testing services
+      applicable to the Ported Object(s) and relevant documentation in
+      accordance with the Specifications and (ii) the delivery of the
+      Deliverables, as set forth in any Services Schedule.
+
+1.14  "Services Schedule" means each schedule that may be attached hereto from
+      time to time pursuant to Section 2.1, which sets forth the Services,
+      Requirements, and Specifications for a specific Port.
+
+1.15  "Specifications" means the flow down specification interpretations of the
+      Requirements as they apply to the specific modifications, optimizations,
+      parameterizations, and interfaces required in the Ported Object(s) to meet
+      the Requirements, as set forth in any Services Schedule. Specifications
+      are also the baselines against which testing will be performed.
+
+2.    DEVELOPMENT
+
+2.1.  Services Schedule. In the event that the parties hereto shall reach
+      agreement with respect to a particular Port, a Services Schedule for said
+      Port shall be attached to this Agreement and the two shall collectively,
+      independent from other Services Schedules, constitute the entire agreement
+      for the specific Port. No Services Schedule shall be attached to this
+      Agreement without first being executed by the parties hereto. To the
+      extent that any terms set forth in a Services Schedule shall conflict with
+      the terms set forth in this Agreement, the terms of this Agreement shall
+      control unless otherwise specifically set forth in the Services Schedule.
+
+2.2   Services. HSNS hereby agrees to provide the Services for Samsung, as set
+      forth in each Services Schedule attached hereto.
+
+2.3   Porting Team. HSNS shall provide the facilities and assign personnel to
+      each Porting Team under a Services Schedule. Samsung shall provide the
+      development tools and, to the extent requested or required by HSNS,
+      personnel to the Porting Team under a Services Schedule.
+
+2.4   Acceptance.
+
+      2.4.1 For software code Deliverables under any Services Schedule, Samsung
+            shall evaluate the beta and final version of each Deliverable and
+            shall submit a written acceptance or rejection to HSNS within twenty
+            (20) business days after Samsung's receipt of the beta version of
+            the Deliverables and thirty (30) days after receipt of the final
+            version of the Deliverables. Acceptance shall be in writing, and
+            Samsung shall not unreasonably withhold its acceptance. If Samsung
+            identifies Errors in any Deliverable prior to acceptance, then the
+            applicable Porting Team shall correct such Errors within fourteen
+            (14) days
+
+
+                      HSNS Confidential & Proprietary               Page 3 of 15
+<PAGE>
+            following receipt of notice thereof during acceptance testing for
+            the particular Deliverable and within the time specified in Exhibit
+            A with respect to Errors discovered after acceptance testing for the
+            Deliverables.
+
+      2.4.2 For documentation or report Deliverables under any Services
+            Schedule, Samsung shall evaluate each version of such Deliverable.
+            In the event that it requires corrections, Samsung shall specify the
+            corrections needed and the applicable Porting Team shall deliver an
+            amended version of such documentation within five (5) business days.
+
+      2.4.3 If the applicable Porting Team fails to deliver any Deliverable
+            within the dates specified in the applicable Services Schedule and
+            if any Errors discovered before acceptance cannot be eliminated in
+            the correction period specified in Sections 2.4.1 and 2.4.2 above,
+            then Samsung may, at its option: (i) extend the correction period or
+            (ii) suspend its performance and/or terminate such Services Schedule
+            for cause pursuant to Section 8.3, provided, however, that Samsung
+            need not provide HSNS the cure period specified in Section 8.3.
+
+2.5   Design Review and Specifications Changes. HSNS understands that there may
+      be additions, deletions or other changes that may affect the Requirements
+      at any time during the term of this Agreement. In the event that HSNS is
+      requested by Samsung or required to perform services beyond those, which
+      are specifically set forth in a Services Schedule, any such additional
+      services and a compensation schedule therefor shall be mutually agreed
+      upon by the parties in writing prior to the provision of said services.
+      Said mutually agreed upon writing shall be an amendment to the pertinent
+      Services Schedule and appended thereto, and the services set forth therein
+      shall be deemed to be Services as the term is used in this Agreement.
+
+3.    PAYMENT FOR SERVICES
+
+3.1   Payments. Except as otherwise expressly provided in a payment schedule
+      attached to an applicable Services Schedule, HSNS shall submit to Samsung
+      an invoice, on a monthly basis, describing the Services performed in
+      connection with each Port, individually, and, where applicable, costs
+      incurred, for each preceding month, and Samsung shall pay each such
+      invoice within thirty (30) days of receipt.
+
+3.2   Payment upon Termination. In the event any Services Schedule, or this
+      Agreement, is terminated by Samsung pursuant to Section 8 of this
+      Agreement, including a termination under Section 2.4.3 above, HSNS shall
+      be compensated for all fees and costs incurred for actual work performed
+      under each terminated Services Schedule(s) prior to the date HSNS receives
+      notice of such termination. Additionally, HSNS shall be reimbursed for any
+      and all non-cancelable third party obligations related to such terminated
+      Services Schedule(s) that are incurred prior to HSNS's receipt of notice
+      of such termination, provided that HSNS shall use its best efforts to
+      mitigate same. Any funds paid by Samsung to HSNS, which shall be shown by
+      Samsung to be unearned at the date of termination shall be returned to
+      Samsung within thirty (30) days of any Services Schedule termination.
+      Certain Services of HSNS may require greater
+
+
+                      HSNS Confidential & Proprietary               Page 4 of 15
+<PAGE>
+      utilization of resources at the outset such that compensation based on a
+      percentage of the Services completed prior to HSNS completing the full
+      Services set forth in a Services Schedule would work to the detriment of
+      HSNS. Accordingly, the parties agree that in the event of early
+      termination by Samsung, compensation for partially completed Services
+      shall be made on a time and materials basis.
+
+4.    OWNERSHIP RIGHTS
+
+4.1   HSNS.
+
+      4.1.1 HSNS shall own all right, title, and interest in and to all HSNS
+            Technology, HSNS Confidential Information, all Derivative Technology
+            created from, based on, or related to any of the foregoing, by
+            whomever made, and all intellectual property rights thereto. In the
+            event that any Samsung personnel make a contribution to the HSNS
+            Technology, HSNS Confidential Information, or any Derivative
+            Technology created from, based on, or related to any of the
+            foregoing, including, without limitation, all rights in and to any
+            inventions and designs embodied in any of the foregoing
+            (collectively, a "Samsung Contribution"), Samsung shall assign, and
+            hereby does assign, its entire right, title, and interest in and to
+            each Samsung Contribution to HSNS.
+
+      4.1.2 Samsung agrees to assist HSNS, or HSNS's designee, at HSNS's
+            expense, to obtain and from time to time enforce and defend HSNS's
+            rights in and to each Samsung Contribution, and any copyrights,
+            patents or other intellectual property rights relating thereto, in
+            any and all countries, and to execute all documents reasonably
+            necessary for HSNS to do so.
+
+      4.1.3 Samsung agrees that if HSNS is unable, because of Samsung's
+            unavailability, dissolution, or for any other reason, to secure any
+            Samsung's signature to apply for or to pursue any application for
+            any United States or foreign patents or copyright registrations
+            covering any Samsung Contribution, then Samsung hereby irrevocably
+            designates and appoints HSNS and HSNS's duly authorized officers and
+            agents as Samsung's agent and attorney-in-fact, to act for and in
+            Samsung's behalf and stead to execute and file any such applications
+            and to do all other lawfully permitted acts to further the
+            prosecution and issuance of patents and copyright registrations
+            thereon with the same legal force and effect as if executed by
+            Samsung.
+
+4.2   Samsung.
+
+      4.2.1 Samsung shall own all right, title, and interest in and to all
+            Samsung Technology, Samsung Confidential Information, the Products,
+            all Derivative Technology created from, based on, or related to any
+            of the foregoing, by whomever made, and all intellectual property
+            rights related thereto. In the event that any HSNS personnel make a
+            contribution to the Samsung Technology, Samsung Confidential
+            Information, the Products, or any Derivative Technology created
+            from, based on, or related to any of the foregoing, including,
+            without limitation, all rights in and to any inventions and designs
+            embodied in any of the foregoing (collectively, an "HSNS
+
+
+                      HSNS Confidential & Proprietary               Page 5 of 15
+<PAGE>
+            Contribution"), HSNS shall assign, and hereby does assign, its
+            entire right, title, and interest in and to each HSNS Contribution
+            to Samsung.
+
+      4.2.2 HSNS agrees to assist Samsung, or Samsung's designee, at Samsung's
+            expense, to obtain and from time to time enforce and defend
+            Samsung's rights in and to each HSNS Contribution, and any
+            copyrights, patents or other intellectual property rights relating
+            thereto, in any and all countries, and to execute all documents
+            reasonably necessary for Samsung to do so.
+
+      4.2.3 HSNS agrees that if Samsung is unable, because of HSNS's
+            unavailability, dissolution, or for any other reason, to secure any
+            HSNS's signature to apply for or to pursue any application for any
+            United States or foreign patents or copyright registrations covering
+            any HSNS Contribution, then HSNS hereby irrevocably designates and
+            appoints Samsung and Samsung's duly authorized officers and agents
+            as HSNS's agent and attorney-in-fact, to act for and in HSNS's
+            behalf and stead to execute and file any such applications and to do
+            all other lawfully permitted acts to further the prosecution and
+            issuance of patents and copyright registrations thereon with the
+            same legal force and effect as if executed by HSNS.
+
+4.3   Limited License.
+
+      4.3.1 HSNS hereby grants Samsung a non-exclusive, non-transferable,
+            non-sublicensable, fully paid, royalty free license to use the
+            Deliverables solely for evaluation and acceptance testing purposes
+            pursuant to the terms of, and for the time periods specified in,
+            Sections 2.4.1 and 2.4.2 herein or at such time periods as set forth
+            in an appropriate Services Schedule.
+
+      4.3.2 HSNS shall retain all right, title, and interest in and to any
+            Deliverable, in whatever form, and all intellectual property rights
+            thereto, all copies thereof by whomever made, and all related
+            documentation and materials.
+
+      4.3.3 Samsung agrees that it and its employees, consultants, agents and
+            representatives will not directly or indirectly (i) disassemble,
+            decompile or otherwise reverse engineer any Deliverable or otherwise
+            attempt to learn the source code, structure, algorithms, or ideas
+            underlying any Deliverable, (ii) rent, lease or otherwise provide
+            temporary access to any Deliverable, (iii) alter or modify any
+            Deliverable, or (iv) allow others to do any of the foregoing.
+
+      4.3.4 Samsung acknowledges and agrees that except as specifically provided
+            in this Agreement, Samsung shall have no other right, title, or
+            interest in any Deliverable, including the right to copy,
+            distribute, sublicense, or create derivative works, and shall use
+            the Deliverables solely as permitted under this Agreement. Any
+            further grant of rights in any Deliverable shall be the subject of a
+            separate license agreement(s) to be negotiated in good faith by the
+            parties; provided, that, nothing herein shall obligate either party
+            to negotiate or enter into any such agreement.
+
+
+                      HSNS Confidential & Proprietary               Page 6 of 15
+<PAGE>
+5.    NO OBLIGATION/INDEPENDENT DEVELOPMENT
+
+Notwithstanding any other provision of this Agreement or any Services Schedule,
+Samsung shall have no obligation to market, sell, sublicense, or otherwise
+distribute the Deliverables, either alone or in any Product. Nothing in this
+Agreement or any Services Schedule will be construed as restricting HSNS's
+ability to acquire, develop, import, manufacture, market, sell, license,
+sublicense, or distribute for itself, or have others acquire, develop, import,
+manufacture, market, sell, license, sublicense, or distribute for HSNS, the
+Ported Object(s) and/or ported objects performing the same or similar functions
+as the Ported Object(s) developed under this Agreement or any Services Schedule.
+
+6.    CONFIDENTIALITY
+
+      6.1   HSNS's Confidential Information. Samsung shall protect HSNS's
+            Confidential Information from unauthorized dissemination and use
+            with the same degree of care that Samsung uses to protect its own
+            most confidential information, but no less than commercially
+            reasonable care. Samsung will not use HSNS's Confidential
+            Information for purposes other than those necessary to directly
+            further the purposes of this Agreement. For a period of five (5)
+            years, Samsung will not disclose to third parties HSNS's
+            Confidential Information without the prior express written consent
+            of HSNS. Except as expressly provided in this Agreement, no
+            ownership or license right is granted in any HSNS Confidential
+            Information.
+
+      6.2   Samsung's Confidential Information. HSNS shall protect Samsung's
+            Confidential Information from unauthorized dissemination and use
+            with the same degree of care that HSNS uses to protect its own most
+            confidential information, but no less than commercially reasonable
+            care. HSNS will not use Samsung's Confidential Information for
+            purposes other than those necessary to directly further the purposes
+            of this Agreement. For a period of five (5) years, HSNS will not
+            disclose to third parties Samsung's Confidential Information without
+            the prior express written consent of Samsung. Except as expressly
+            provided in this Agreement, no ownership or license right is granted
+            in any Samsung Confidential Information.
+
+      6.3   Additional Terms.
+
+            6.3.1 The obligations of confidentiality set forth in Sections 6.1
+                  and 6.2 above may be amended or supplemented with respect to
+                  any Services Schedule with additional confidentiality
+                  obligations and restrictions as expressly set forth therein.
+
+            6.3.2 In the event that it is or becomes necessary for any employee,
+                  consultant, contractor, or agent of either party to perform
+                  Services under any Services Schedule at the other party's
+                  facilities, each such employee, consultant, contractor, and
+                  agent shall sign a separate non-disclosure agreement with such
+                  other party
+
+
+                      HSNS Confidential & Proprietary               Page 7 of 15
+<PAGE>
+                  relating to disclosures of confidential information resulting
+                  from the performance of such Services at such location.
+
+7.    WARRANTIES; LIMITATION
+
+7.1   HSNS. HSNS represents and warrants that: (i) it has the full power to
+      enter into this Agreement grant the license rights set forth herein; (ii)
+      the Services shall be original to HSNS; and (iii) the Deliverables will be
+      created by employees or Independent Contractors of HSNS within the scope
+      of their employment or their agreements, respectively, and under an
+      obligation to assign any inventions made hereunder or under any Services
+      Schedule to HSNS.
+
+7.2   Samsung. Samsung represents and warrants that: (i) it has the full power
+      to enter into this Agreement and make the assignments set forth herein;
+      (ii) to the best of Samsung's knowledge, the Products do not infringe any
+      patent, copyright, trade secret, or other proprietary right held by any
+      third party; and (iii) any Samsung personnel assigned to a Porting Team
+      shall be employees or Independent Contractors of Samsung within the scope
+      of their employment or agreements, respectively, and under an obligation
+      to assign any inventions made hereunder or under any Services Schedule to
+      Samsung.
+
+7.3   EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT OR ANY SERVICES SCHEDULE,
+      ALL WARRANTIES OR CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT
+      LIMITATION ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
+      PARTICULAR PURPOSE, ANY WARRANTY OF NON-INFRINGEMENT OF THIRD PARTY
+      RIGHTS, OR THOSE ARISING FROM A COURSE OF DEALING OR USAGE OF TRADE, ARE
+      DISCLAIMED, EXCEPT TO THE EXTENT SUCH DISCLAIMERS ARE HELD TO BE LEGALLY
+      INVALID.
+
+8.    TERMINATION
+
+8.1   Term. The term of this Agreement shall commence as of the date hereof and
+      end on the day three (3) years from such date unless extended by mutual
+      written agreement of the parties or earlier terminated as provided herein.
+      Services Schedules shall commence upon the date of complete execution by
+      the parties and shall terminate upon the completion of Services described
+      therein, unless earlier terminated as provided herein or therein.
+
+8.2   Termination by Samsung. Samsung may terminate this Agreement or any
+      Services Schedule for any reason upon thirty (30) days prior written
+      notice. Upon receipt of such notice, HSNS will discontinue all Services
+      set forth in the applicable Service Schedule(s). Samsung will pay for all
+      Services performed by HSNS under any terminated Services Schedule(s) up
+      until the date of receipt of the termination notice pursuant to the terms
+      of Section 3.2 herein.
+
+8.3   Termination By Either Party For Cause. Either party may suspend
+      performance and/or terminate this Agreement or any Services Schedule
+      immediately upon written
+
+
+                      HSNS Confidential & Proprietary               Page 8 of 15
+<PAGE>
+      notice at any time if the other party is in material breach of any
+      material warranty, term, condition or covenant of this Agreement, in the
+      case of termination of this Agreement, or any Services Schedule, in the
+      case of termination of any Services Schedule, and fails to cure such
+      breach within thirty (30) days after receipt of written notice thereof.
+
+8.4   Effect of Termination. Upon expiration or any termination of this
+      Agreement by either party (i) all rights and licenses granted by one party
+      to the other party under this Agreement shall terminate; (ii) Samsung
+      shall return all HSNS Technology, HSNS Confidential Information, and any
+      Derivative Technology created therefrom, or certify the destruction of the
+      same to HSNS within ten (10) days; (iii) HSNS shall return all Samsung
+      Technology, Samsung Confidential Information, and any Derivative
+      Technology created therefrom, or certify the destruction of the same to
+      Samsung within ten (10) days; and (iv) all other obligations and rights
+      under this Agreement shall terminate, except Sections 1, 3, 4, 6, 7, 8.4,
+      9, 10, and 11 shall survive termination. Neither party shall be liable to
+      the other for damages of any sort resulting solely from the termination of
+      this Agreement in accordance with its terms.
+
+9.    LIMITATION OF LIABILITY
+
+EXCEPT FOR BREACHES OF SECTIONS 4, 6, 7.1, AND 7.2 HEREUNDER, NEITHER PARTY
+SHALL BE LIABLE UNDER ANY CONTRACT, NEGLIGENCE, STRICT LIABILITY OR OTHER THEORY
+FOR ANY INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL, OR CONSEQUENTIAL DAMAGES,
+INCLUDING, WITHOUT LIMITATION, LOSS OF BUSINESS, REVENUE, PROFITS, USE, DATA, OR
+OTHER ECONOMIC ADVANTAGE, WITH RESPECT TO ANY SUBJECT MATTER OF THIS AGREEMENT,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+10.   ARBITRATION
+
+10.1  Procedure. The parties shall make diligent and reasonable efforts to
+      amicably settle all disputes, controversies, or differences, which may
+      arise between the parties hereto, out of or in relation to or in
+      connection with this Agreement. Upon the occurrence of a dispute between
+      the parties, including, without limitation, any breach of this Agreement
+      or any obligation relating thereto, the matter shall be referred first to
+      the managers of HSNS and Samsung having responsibility for the subject
+      matter of the dispute, or their designees. The managers, or their
+      designees, as the case may be, shall negotiate in good faith to resolve
+      such dispute in a mutually satisfactory manner for thirty days. If such
+      efforts do not result in mutually satisfactory resolution of the dispute,
+      the matter shall be referred to the chief executive officer of each party,
+      or their respective designees. The chief executive officers, or their
+      designees, as the case may be, shall negotiate in good faith to resolve
+      such dispute in a mutually satisfactory manner for thirty days, or such
+      longer period of time to which the chief executive officers may agree. If
+      such efforts do not result in a mutually satisfactory resolution, the
+      dispute shall be finally settled by arbitration in New York, New York in
+      accordance with the then-current Commercial Rules
+
+
+                      HSNS Confidential & Proprietary               Page 9 of 15
+<PAGE>
+      of Arbitration of the American Arbitration Association, and the award of
+      the arbitration shall be final and binding on both parties. The parties
+      shall use their best efforts to mutually agree upon one arbitrator
+      provided, however, that if the parties have not done so within ten days
+      after initiation of arbitration hereunder, or such longer period of time
+      as the parties have agreed to in writing, then there shall be three
+      arbitrators, including one nominee of HSNS, one nominee of Samsung, and a
+      third person selected by said nominees. Judgment upon the award rendered
+      may be entered in the highest court or forum, state or federal, having
+      jurisdiction; provided, however, that the provisions of this Section 10
+      shall not apply to any dispute or controversy as to which any treaty or
+      law prohibits such arbitration. The prevailing party shall be entitled to
+      reasonable attorneys' fees and costs to be fixed by the arbitrators. At
+      least one arbitrator shall be an attorney with expertise in intellectual
+      property law and practice and the software arts.
+
+10.2  Injunctive Relief. Notwithstanding the above, pending the outcome of any
+      arbitration proceedings, in the event that either party is in breach of,
+      or threatens to breach, any obligation of confidentiality hereunder, the
+      non-breaching party shall be entitled to apply to any court having
+      jurisdiction over the breaching party seeking injunctive relief (interim,
+      interlocutory, and/or final) to prevent the breaching party from breaching
+      or continuing to breach any such obligation.
+
+11.   GENERAL
+
+11.1  Notices. All notices and requests in connection with this Agreement shall
+      be deemed given as of the day they are received either by telefacsimile,
+      messenger, delivery service, or United States Postal Service, postage
+      prepaid, certified or registered, return receipt requested, and addressed
+      as follows:
+
+      TO SAMSUNG:                        TO HSNS:
+
+      Samsung Electronics America        High Speed Net Solutions, Inc.
+      105 Challenger Road                434 Fayetteville Street Mall, Suite 600
+      Ridgefield Park, NJ  07660         Raleigh, NC 27601
+      Attention: Michael Malcy, VP       Attention: Gary Ban, COO
+      Phone:  (201) 229-4241             Phone:  (919) 807-5600
+      Fax:    (201) 229-4240             Fax:    (919) 807-5601
+      Email: michaelm@sea.samsung.com    Email: gary.ban@summus.com
+
+      COPY TO:                           COPY TO:
+
+                                         Pennie & Edmonds, LLP
+                                         1155 Avenue of the Americas
+                                         New York, NY 10036
+                                         Attention:  Rory J. Radding
+      Fax:                               Fax:  (212) 869-8864
+
+      or to such other address as a party may designate pursuant to this notice
+      provision.
+
+
+                      HSNS Confidential & Proprietary              Page 10 of 15
+<PAGE>
+11.2  Independent Contractors. Samsung and HSNS are independent contractors as
+      to each other, and at no time shall either be deemed to be or hold itself
+      out as the agent, partner or representative of the other. Nothing in this
+      Agreement shall be construed to form a joint venture or partnership
+      between the parties.
+
+
+11.3  Press Releases. The parties will cooperate with each other on press
+      releases and similar communications regarding the non-confidential subject
+      matter of this Agreement. The content, timing and necessity of any and all
+      press releases or similar communications will be agreed upon in writing by
+      both parties prior to any such release or communication.
+
+11.4  Taxes. In the event taxes are required to be withheld on payments made
+      under this Agreement by any U.S. (state or federal) or foreign government,
+      Samsung may deduct such taxes from the amount owed HSNS and pay them to
+      the appropriate taxing authority. Samsung shall in turn promptly secure
+      and deliver to HSNS an official receipt for any taxes withheld. Samsung
+      will use reasonable efforts to minimize such taxes to the extent permitted
+      under applicable law. Additionally, Samsung shall promptly provide HSNS
+      with copies of tax certificates showing that such tax payments have been
+      made by Samsung. Under the Convention for the Avoidance of Double Taxation
+      between the Republic of Korea and the U.S. and the Convention and
+      Agreement of Tax Exemption and Reduction between the Republic of Korea and
+      U.S., engineering support, including, without limitation, the provision of
+      engineering support services, is not taxable.
+
+11.5  Governing Law. This Agreement shall be governed and interpreted in all
+      respects under the laws of the State of New York, without regard to any
+      conflicts of law provisions thereof.
+
+11.6  Assignment. This Agreement shall be binding upon and inure to the benefit
+      of each party's respective successors and lawful assigns; provided,
+      however, that Samsung may not assign this Agreement, in whole or in part,
+      without the prior written approval of HSNS. An "assignment" shall be
+      deemed to include, without limitation, a merger of one party with a third
+      party, whether or not the party is the surviving entity, any transaction
+      or series of transactions whereby a third party acquires direct or
+      indirect power to control the management and policies of the party,
+      whether through the acquisition of voting securities, by contract, or
+      otherwise, or the sale of more than fifty (50%) percent of the party's
+      assets (whether in a single transaction or series of transactions). Any
+      attempted assignment in violation of this Section 11.6 shall be void and
+      of no effect.
+
+11.7  Force Majeure. Each party to this Agreement shall be excused from any
+      performance required of such party hereunder if, and only to the extent,
+      such performance is rendered impossible or unfeasible due to any
+      catastrophe or other
+
+
+                      HSNS Confidential & Proprietary              Page 11 of 15
+<PAGE>
+      major event beyond such party's reasonable control and not due to the
+      fault or negligence of such party, including, without limitation, war,
+      riot, and insurrection; laws, proclamations, edicts, ordinances or
+      regulations; strikes, lockouts or serious labor disputes; floods, fires,
+      explosions, or other natural disasters. In the event of the occurrence of
+      such a force majeure event, the party unable to perform shall promptly
+      notify the other party, shall suspend performance only for such period of
+      time as is necessary as a result of the force majeure event, and shall use
+      its commercially reasonable best efforts to resume performance as quickly
+      as possible.
+
+11.8  Construction. If any one or more provisions of this Agreement shall be
+      found to be illegal or unenforceable by a court of competent jurisdiction
+      in any respect, the validity, legality and enforceability of the remaining
+      provisions shall not in any way be affected or impaired thereby, provided
+      the surviving agreement materially comports with the parties' original
+      intent, and the remainder of this Agreement will continue in full force
+      and effect. Failure by either party to enforce any provision of this
+      Agreement will not be deemed a waiver of future enforcement of that or any
+      other provision. This Agreement has been negotiated by the parties and
+      their respective counsel and will be interpreted fairly in accordance with
+      its terms and without any strict construction in favor of or against
+      either party.
+
+11.9. Entire Agreement. This Agreement constitutes the entire agreement between
+      the parties with respect to the Services and all other subject matter
+      hereof and merges all prior and contemporaneous communications. It shall
+      not be modified except by a written agreement dated subsequent to the date
+      of this Agreement and signed on behalf of Samsung and HSNS by their
+      respective duly authorized representatives.
+
+      IN WITNESS WHEREOF, the parties have entered into this Agreement as of the
+Effective Date written above.
+
+HIGH SPEED NET SOLUTIONS, INC.        SAMSUNG ELECTRONICS AMERICA
+
+
+By: /s/ Bjorn Jawerth                 By: /s/ M. Maley
+   ---------------------------           ---------------------------
+Name (print): Bjorn Jawerth           Name (print): M. Maley
+
+Title: co-CEO                         Title: V.P.
+
+Date: 8/1/01                          Date: 7/27/01
+
+
+                      HSNS Confidential & Proprietary              Page 12 of 15
+<PAGE>
+                                    EXHIBIT A
+
+                  MAINTENANCE PROBLEM SEVERITY AND RESOLUTIONS
+
+
+
+
+
+1.    Error Reporting. Samsung's designated technical contact shall promptly
+      report via e-mail to HSNS all Errors in the Deliverables of which it
+      becomes aware. Each Error will be classified by the mutual agreement of
+      the Parties as one of the following:
+
+      1)    "Critical" Problem, which prevents or seriously impairs the
+            performance in accordance with the Specifications of substantially
+            all major functions.
+
+      2)    "Severe Impact" Problem which prevents or seriously impairs the
+            performance in accordance with the Specifications of a major
+            function.
+
+      3)    "Degraded Operation" Problem, which disables or impairs the
+            performance in accordance with the Specifications of a minor
+            function.
+
+2.    Error Correction. During the Initial Support Term and the Extended Support
+      Term, if applicable, HSNS shall use reasonable efforts to respond to and
+      resolve (to the extent reasonably possible) Errors reported in accordance
+      with 1 above as set forth below (for the purposes of this Section, a day
+      refers to a business day as opposed to calendar day):
+
+<TABLE>
+<CAPTION>
+                               First Level        Final Level
+<S>                            <C>                <C>
+        Critical                 4 Days             4 Days
+        Severe Impact            4 Days             5 Days
+        Degraded Operation       1 Week             2 Weeks
+</TABLE>
+
+        "First Level" means providing a patch or work-around which is used as a
+        temporary fix.
+
+        "Final Level" means providing a patch or work-around, which is a
+        permanent fix.
+
+
+                      HSNS Confidential & Proprietary              Page 13 of 15
+<PAGE>
+                               SERVICES SCHEDULE 1
+
+
+REQUIREMENTS
+
+1.0 REQUIREMENTS FOR VIDEO CODEC.
+                  [INSERT]
+
+2.0 REQUIREMENTS FOR STILL IMAGE CODEC.
+                  [INSERT]
+
+PRODUCT.
+
+The Product(s) for which the Ported Object under this Services Schedule 1 is
+targeted is (are):
+
+LICENSE FOR TESTING
+
+DELIVERABLES.
+
+1.0 MILESTONE DELIVERABLES
+2.0 SUPPORTING DELIVERABLES
+3.0 DOCUMENT DELIVERABLES
+
+                  [INSERT]
+
+SCHEDULE.  The Deliverables will be completed and delivered according to the
+following schedule.
+                  [INSERT]
+
+TECHNOLOGY
+
+1.0 HSNS TECHNOLOGY
+                  [INSERT]
+
+2.0 SAMSUNG TECHNOLOGY
+                  [INSERT]
+
+PORTING TEAM.
+
+1.0  PORTING LOCATION.
+2.0 PERSONNEL.
+
+LIST OF AUTHORIZED COMPANY EMPLOYEES:
+                  [INSERT]
+
+LIST OF AUTHORIZED COMPANY INDEPENDENT CONTRACTORS (IF ANY):
+                  [INSERT]
+
+3.0 DEVELOPMENT TOOLS.
+
+
+                      HSNS Confidential & Proprietary              Page 14 of 15
+<PAGE>
+THE FOREGOING SERVICES SCHEDULE 1 IS AGREED TO AND ACCEPTED BY THE PARTIES:
+
+HIGH SPEED NET SOLUTIONS, INC.        SAMSUNG ELECTRONICS AMERICA
+
+
+By:                                   By:
+   ---------------------------           ----------------------------
+
+Name (print):                         Name (print):
+
+
+Title:                                Title:
+
+
+Date:                                 Date:
+
+
+                      HSNS Confidential & Proprietary              Page 15 of 15
+
+</TEXT>
+</DOCUMENT>

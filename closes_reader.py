@@ -41,7 +41,7 @@ def _settings():
     return {**dotenv_values(ENV_FILE), **os.environ}
 
 
-def _normalize(rows, ticker, start, end, source):
+def _normalize(rows, ticker, start, end, source, include_volume=False):
     result = {}
     for row in rows:
         try:
@@ -53,6 +53,14 @@ def _normalize(rows, ticker, start, end, source):
                 result[day] = {'ticker': ticker, 'date': day.isoformat(), 'close': price,
                                'close_time': datetime.combine(day, time(16), EASTERN).isoformat(),
                                'source': source}
+                if row.get('currency'):result[day]['currency']=row['currency']
+                if include_volume:
+                    try:
+                        volume = float(row.get('volume'))
+                        if not math.isfinite(volume) or volume < 0: volume = None
+                    except (TypeError, ValueError): volume = None
+                    result[day].update(volume=volume, currency=row.get('currency') or None,
+                                       volume_source=source.replace('TR.PriceClose','TR.Volume'))
         except (KeyError, TypeError, ValueError):
             continue
     return [result[day] for day in sorted(result)] or NOT_AVAILABLE
@@ -113,7 +121,7 @@ def _resolve_ticker(ld, ticker):
     return choices.pop()
 
 
-def _lseg_rows(instrument, start, end, app_key):
+def _lseg_rows(instrument, start, end, app_key, include_volume=False):
     session = None
     stage = 'library_import'
     try:
@@ -126,6 +134,8 @@ def _lseg_rows(instrument, start, end, app_key):
         ld.session.set_default(session)
         stage = 'data_request'
         fields_requested = ['TR.PriceClose.date', 'TR.PriceClose']
+        if include_volume:
+            fields_requested += ['TR.Volume', 'TR.PriceClose.currency']
         parameters = {'SDate': start, 'EDate': end, 'Frq': 'D'}
         try:
             frame = ld.get_data(universe=[instrument], fields=fields_requested,
@@ -148,7 +158,15 @@ def _lseg_rows(instrument, start, end, app_key):
             try:
                 close = float(row[close_field])
                 if math.isfinite(close) and close > 0:
-                    rows.append({'date': str(row[date_field])[:10], 'close': close})
+                    item = {'date': str(row[date_field])[:10], 'close': close}
+                    if include_volume:
+                        try:
+                            volume = float(row[fields['tr.volume']])
+                            if not math.isfinite(volume) or volume < 0: volume = None
+                        except (KeyError, TypeError, ValueError): volume = None
+                        currency = row.get(fields.get('tr.priceclose.currency'))
+                        item.update(volume=volume, currency=str(currency) if currency is not None else None)
+                    rows.append(item)
             except (TypeError, ValueError):
                 continue
         return {'rows': rows, 'instrument': instrument}
@@ -162,7 +180,7 @@ def _lseg_rows(instrument, start, end, app_key):
                 pass
 
 
-def daily_closes(ticker: str, start_date: str, end_date: str):
+def daily_closes(ticker: str, start_date: str, end_date: str, *, include_volume=False):
     """Inclusive dates; list of dated closes or the literal 'not available'."""
     start, end = date.fromisoformat(start_date), date.fromisoformat(end_date)
     if start > end:
@@ -180,7 +198,7 @@ def daily_closes(ticker: str, start_date: str, end_date: str):
                 path = ENV_FILE.parent / path
             with path.open(newline='', encoding='utf-8-sig') as stream:
                 rows = [row for row in csv.DictReader(stream) if row.get('ticker', '').strip().upper() == ticker]
-            result = _normalize(rows, ticker, start, end, f'file:{path.resolve()}')
+            result = _normalize(rows, ticker, start, end, f'file:{path.resolve()}', include_volume)
             if result == NOT_AVAILABLE:
                 _diagnostic(config, ticker, start_date, end_date, 'file_no_valid_closes', 'No valid closes for the requested ticker/dates, or conflicting duplicate dates.')
             return result
@@ -191,7 +209,7 @@ def daily_closes(ticker: str, start_date: str, end_date: str):
         instrument = json.loads(config.get('LSEG_RIC_MAP') or '{}').get(ticker, ticker)
         python = config.get('LSEG_PYTHON') or str(Path(__file__).resolve().parents[2] / '.venv-lseg/bin/python')
         stage = 'worker_launch'
-        worker = subprocess.run([python, str(Path(__file__).resolve()), '--worker', instrument,
+        worker = subprocess.run([python, str(Path(__file__).resolve()), '--worker-volume' if include_volume else '--worker', instrument,
                                  start.isoformat(), end.isoformat()],
                                 env={**os.environ, 'LSEG_APP_KEY': key}, capture_output=True, text=True, timeout=180)
         if worker.returncode:
@@ -208,7 +226,7 @@ def daily_closes(ticker: str, start_date: str, end_date: str):
             _diagnostic(config, ticker, start_date, end_date, 'empty_response', 'LSEG returned no close rows.', instrument=instrument)
             return NOT_AVAILABLE
         source_instrument = payload.get('instrument', instrument) if isinstance(payload, dict) else instrument
-        result = _normalize(rows, ticker, start, end, f'LSEG TR.PriceClose ({source_instrument})')
+        result = _normalize(rows, ticker, start, end, f'LSEG TR.PriceClose ({source_instrument})', include_volume)
         if result == NOT_AVAILABLE:
             _diagnostic(config, ticker, start_date, end_date, 'no_valid_closes', 'Response contained no usable prices/dates or conflicting duplicate dates.', instrument=instrument)
         return result
@@ -220,11 +238,20 @@ def daily_closes(ticker: str, start_date: str, end_date: str):
         return NOT_AVAILABLE
 
 
+def daily_closes_and_volumes(ticker: str, start_date: str, end_date: str):
+    """Dated closes with volume and quote currency; missing fields stay null."""
+    return daily_closes(ticker, start_date, end_date, include_volume=True)
+
+
 def last_close_before(ticker: str, filed: str):
     """Return the most recent available dated close strictly before filing time."""
     cutoff = filing_time(filed)
     end = cutoff.date() if cutoff.time() > time(16) else cutoff.date() - timedelta(days=1)
-    rows = daily_closes(ticker, '1900-01-01', end.isoformat())
+    # A valid recent close is sufficient; very long vendor requests can fail
+    # for an instrument even when its recent history is available.
+    rows = daily_closes(ticker, (end-timedelta(days=366)).isoformat(), end.isoformat())
+    if rows == NOT_AVAILABLE:
+        rows = daily_closes(ticker, '1900-01-01', end.isoformat())
     if rows == NOT_AVAILABLE:
         return NOT_AVAILABLE
     eligible = [row for row in rows if datetime.fromisoformat(row['close_time']) < cutoff]
@@ -232,9 +259,9 @@ def last_close_before(ticker: str, filed: str):
 
 
 def main():
-    if len(sys.argv) == 5 and sys.argv[1] == '--worker':
+    if len(sys.argv) == 5 and sys.argv[1] in {'--worker', '--worker-volume'}:
         try:
-            print(json.dumps(_lseg_rows(sys.argv[2], sys.argv[3], sys.argv[4], os.environ['LSEG_APP_KEY'])))
+            print(json.dumps(_lseg_rows(sys.argv[2], sys.argv[3], sys.argv[4], os.environ['LSEG_APP_KEY'], include_volume=sys.argv[1]=='--worker-volume')))
         except Exception as error:
             print(json.dumps({'rows': [], 'error': {'stage': getattr(error, 'stage', 'worker_error'), 'type': getattr(error, 'error_type', type(error).__name__), 'message': _sanitize(error, os.environ)}}))
         return

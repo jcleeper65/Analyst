@@ -2,6 +2,15 @@
 
 Weak human + machine + better process
 
+## Saved views and filing reactions
+
+From the workspace root, run `./aa runs/live` to fill available market reactions
+and print one comparison row per saved run. Use `./aa runs/practice --offline`
+for practice runs using saved reader data. Live runs belong in `runs/live`;
+practice and seeded runs belong elsewhere. The command preserves the saved view
+and its timestamp, marks late views `after`, and excludes late/uncomputed views
+from the final agreement count. See [the run format and commands](../../runs/README.md).
+
 ## Equity research agent team
 
 CrewAI currently supports Python 3.10 through 3.13. This computer has Python 3.14 as `python3`, so use `python3.13` for install and run.

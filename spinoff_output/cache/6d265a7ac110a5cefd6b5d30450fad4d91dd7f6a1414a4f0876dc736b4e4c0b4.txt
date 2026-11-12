@@ -1,0 +1,120 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>20
+<FILENAME>R6.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <link rel="StyleSheet" type="text/css" href="report.css"><script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script></head>
+  <body><span style="display: none;">v2.4.0.8</span><table class="report" border="0" cellspacing="2" id="ID0ELE">
+      <tr>
+        <th class="tl" colspan="1" rowspan="2">
+          <div style="width: 200px;"><strong>Organization And Description Of Business<br></strong></div>
+        </th>
+        <th class="th" colspan="1">9 Months Ended</th>
+      </tr>
+      <tr>
+        <th class="th">
+          <div>Sep. 30, 2014</div>
+        </th>
+      </tr>
+      <tr class="re">
+        <td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_AccountingPoliciesAbstract', window );"><strong>Accounting Policies [Abstract]</strong></a></td>
+        <td class="text">&#xA0;<span></span></td>
+      </tr>
+      <tr class="ro">
+        <td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="top.Show.showAR( this, 'defref_us-gaap_OrganizationConsolidationBasisOfPresentationBusinessDescriptionAndAccountingPoliciesTextBlock', window );">Organization and Description of Business</a></td>
+        <td class="text"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><font style="font: 10pt Times New Roman, Times, Serif"><b><u>NOTE
+1 - ORGANIZATION AND DESCRIPTION OF BUSINESS</u></b></font></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><font style="font: 10pt Times New Roman, Times, Serif">Petrone
+Worldwide, Inc. (the &#8220;Company&#8221;) was incorporated as Sheridan Industries, Inc. on December 14, 1998 in the state of
+Nevada. On December 31, 1998 the Company changed its name to Diabetex International Corp. On February 26, 2014 the Company effectuated
+a name change to Petrone Worldwide, Inc. and subsequently on March 3, 2014 completed an acquisition which was treated for accounting
+purposes as a reverse merger. Hence, the accounting information that is presented is that of the acquired entity which is the
+surviving entity.The operation is both a consulting business in the hospitality industry as well as a supplier of table top kitchenware
+and hotel room products thru an exclusive licensing agreement with a leading supplier.</font></p><span></span></td>
+      </tr>
+    </table>
+    <div style="display: none;">
+      <table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AccountingPoliciesAbstract">
+        <tr>
+          <td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="body" style="padding: 2px;"><a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Details</a><div>
+                <table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td><strong> Name:</strong></td>
+                    <td><nobr>us-gaap_AccountingPoliciesAbstract</nobr></td>
+                  </tr>
+                  <tr>
+                    <td style="padding-right: 4px;"><nobr><strong> Namespace Prefix:</strong></nobr></td>
+                    <td>us-gaap_</td>
+                  </tr>
+                  <tr>
+                    <td><strong> Data Type:</strong></td>
+                    <td>xbrli:stringItemType</td>
+                  </tr>
+                  <tr>
+                    <td><strong> Balance Type:</strong></td>
+                    <td>na</td>
+                  </tr>
+                  <tr>
+                    <td><strong> Period Type:</strong></td>
+                    <td>duration</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_OrganizationConsolidationBasisOfPresentationBusinessDescriptionAndAccountingPoliciesTextBlock">
+        <tr>
+          <td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="top.Show.hideAR();">X</a></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="body" style="padding: 2px;"><a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">- Definition</a><div>
+                <p>The entire disclosure for the general note to the financial statements for the reporting entity which may include, descriptions of the basis of presentation, business description, significant accounting policies, consolidations, reclassifications, new pronouncements not yet adopted and changes in accounting principles.</p>
+              </div><a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ References</a><div style="display: none;">
+                <p>No definition available.</p>
+              </div><a href="javascript:void(0);" onclick="top.Show.toggleNext( this );">+ Details</a><div style="display: none;">
+                <table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td><strong> Name:</strong></td>
+                    <td><nobr>us-gaap_OrganizationConsolidationBasisOfPresentationBusinessDescriptionAndAccountingPoliciesTextBlock</nobr></td>
+                  </tr>
+                  <tr>
+                    <td style="padding-right: 4px;"><nobr><strong> Namespace Prefix:</strong></nobr></td>
+                    <td>us-gaap_</td>
+                  </tr>
+                  <tr>
+                    <td><strong> Data Type:</strong></td>
+                    <td>nonnum:textBlockItemType</td>
+                  </tr>
+                  <tr>
+                    <td><strong> Balance Type:</strong></td>
+                    <td>na</td>
+                  </tr>
+                  <tr>
+                    <td><strong> Period Type:</strong></td>
+                    <td>duration</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  <script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

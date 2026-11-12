@@ -1,0 +1,1 @@
+{"time": "2026-11-12T09:05:48-05:00", "ticker": "COST", "start": "1900-01-01", "end": "2026-11-11", "stage": "data_request", "message": "Unable to collect data for all requested fields. Requested universes: ['COST.O']. Requested fields: ['TR.PRICECLOSE.DATE', 'TR.PRICECLOSE']", "error_type": "LDError", "instrument": "COST", "worker_stderr": ""}

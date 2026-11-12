@@ -1,0 +1,782 @@
+<DOCUMENT>
+<TYPE>EX-10.22
+<SEQUENCE>11
+<FILENAME>ex-10_22.txt
+<DESCRIPTION>EXHIBIT 10.22
+<TEXT>
+
+<PAGE>
+
+                                                                   EXHIBIT 10.22
+
+[LOGO]
+
+                     SOFTWARE LICENSE AND SERVICES AGREEMENT
+
+THIS SOFTWARE LICENSE AND SERVICES AGREEMENT (the "Agreement") is between
+SIEBEL SYSTEMS, INC., with its principal place of business at 1855 South
+Grant Street, San Mateo, CA 94402 ("Siebel"), and IMS Health Strategic
+Technologies, Inc. ("Customer"), with its principal place of business at 200
+Nyala Farms Road, Westport, CT 06880.
+
+The terms of this Agreement shall apply to each Program License (as defined in
+Section 1.12 below) and to all Services (as defined in Section 1.13 below)
+provided by Siebel under this Agreement. Customer and its Affiliates may place
+orders under this Agreement by signing Order Form(s) as defined in Section 1.8
+below. The terms and conditions set forth in this Agreement and in any Order
+Form shall control in the event that there are different or additional terms set
+forth in any other purchase order submitted by Customer or acceptance form or
+invoice issued by Siebel. The terms and conditions of any Order Form shall
+incorporate the terms and conditions of this Agreement and shall control over
+any conflicting terms and conditions contained in this Agreement.
+
+1. DEFINITIONS
+
+1.1 "AFFILIATE(S)" shall mean (1) all business units and divisions of Customer
+or its parents and (2) any entity controlled by, controlling, or under common
+control with Customer. Such entity shall be deemed to be an "Affiliate" only so
+long as such control exists. Upon request, Customer agrees to confirm the
+Affiliate status of a particular entity.
+
+1.2 "ANCILLARY PROGRAM(S)" shall mean the third party software delivered with
+the Programs as specified in one or more Order Forms or the Documentation.
+
+1.3 "COMMENCEMENT DATE" of each Program License shall mean the date on which an
+Ordered Program is first delivered to Customer.
+
+1.4 "DELIVERABLE(S)" shall mean any materials provided to Customer by Siebel in
+the course of performing Technical Services as set forth in EXHIBIT D or
+Professional Services as set forth in the appropriate Addendum.
+
+1.5 "DOCUMENTATION" shall mean Siebel's then current on-line help, guides, and
+manuals published by Siebel and made generally available by Siebel for the
+Ordered Programs. Documentation shall include any updated Documentation that
+Siebel provides with Updates.
+
+1.6 "EFFECTIVE DATE" shall mean the effective date set forth at the end of this
+Agreement.
+
+1.7 "MAINTENANCE SERVICES" shall mean the services set forth in EXHIBIT B,
+attached hereto, as may be modified as permitted in Section 4.1.
+
+1.8 "ORDER FORM(S)" shall mean a document by which Customer orders Program
+Licenses and related Services and which is executed by the parties. The initial
+Order Form is attached hereto as EXHIBIT A. Subsequent Order Forms shall be
+substantially in the form of EXHIBIT A, Each Order Form shall reference the
+Effective Date of this Agreement.
+
+1.9 "ORDERED PROGRAM(S)" shall mean the object code of the software as specified
+in an Order Form and delivered by Siebel.
+
+1.10 "PRE-PRODUCTION PROGRAM(S)" shall mean a software program which is (i) not
+generally licensed for commercial use by Siebel, (ii) not listed as generally
+available in Siebel's marketing literature, or (iii) designated by Siebel as an
+"Alpha," "Beta," or "Pre-Production" program or release. Pre-Production Programs
+shall not include the Ordered Programs. Siebel shall notify Customer in writing
+that a particular software program is a Pre-Production Program.
+
+1.11 "PROGRAM(S)" shall mean (i) the Ordered Programs, and (ii) Updates.
+Programs shall not include Ancillary Programs.
+
+1.12 "PROGRAM LICENSE(S)" shall mean each license granted to Customer for a User
+to use a Program.
+
+1.13 "SERVICES" shall mean all services provided by Siebel under this Agreement,
+including Maintenance Services.
+
+1.14 "SUPPORTED PLATFORM" shall mean the hardware and software platforms (e.g.,
+database server systems, application server systems, and client systems) that
+are supported by Siebel as expressly set forth in the Documentation.
+
+1.15 "TRAINING MATERIALS" shall mean any training materials provided in
+connection with any training courses ordered by Customer and delivered by Siebel
+as set forth in this Agreement.
+
+1.16 "UPDATE(S)" shall mean (a) subsequent releases of the Programs that (i) add
+new features, functionality, and/or improved performance, (ii) operate on new or
+other databases, operating systems, or client or server platforms, or (iii) add
+new foreign language capabilities; (b) bug or Error fixes, patches, Workarounds,
+and maintenance releases; (c) new point releases, including those denoted by a
+change to the right of the first decimal point (e.g., v3.0 to 3.1), and (d) new
+major version releases, regardless of the version name or number, but including
+those denoted by (i) a change to the left of the first decimal point (e.g., v5.0
+to 6.0) and/or (ii) the addition of a date designation or a change in an
+existing date designation (e.g., v1999 to 2000); provided, however that Updates
+shall not include new or separate products which Siebel offers only for an
+additional fee to its customers generally, including those customers purchasing
+Maintenance Services.
+
+1.17 "USER(S)" shall mean the named or specified (by password or other user
+identification) individuals authorized by Customer to use Programs, regardless
+of whether the individual is actively using the Programs at any given time.
+Customer may replace authorized Users as necessary to reflect personnel changes
+provided that the number of individuals authorized to use the Programs does not
+exceed the maximum number of authorized Users at any time. The maximum number of
+Users that may use or access the Programs is specified in the Order Form. Users
+may include the employees of Customer or third parties; PROVIDED that such third
+party is limited to use of the Programs (i) only as configured and deployed by
+Customer, and (ii) solely in connection with Customer's business operations as
+conducted by or through such third party, including but not limited to the
+installation, administration or implementation of the Programs for Customer.
+Customer agrees that it is responsible for ensuring that any usage by its
+employees and any such third parties is in accordance with the terms and
+conditions of this Agreement. Notwithstanding the foregoing, Users shall exclude
+any individuals employed by, or acting on behalf or under the direction or
+control of, a direct competitor of Siebel. Upon Customer's request, Siebel shall
+confirm whether any particular entity is a direct competitor of Siebel.
+
+2. PROGRAM LICENSE
+
+2.1 LICENSE GRANT. Subject to the terms and conditions of this Agreement, Siebel
+grants Customer the following worldwide, nonexclusive, perpetual rights, solely
+for its own internal business operations:
+
+   A. TO USE. (i) to use the Programs and Ancillary Programs subject to all
+of the terms of this Agreement; (ii) to use the Documentation solely for
+purposes of supporting Customer's use of the Programs; (iii) to use the
+technical Training Materials solely for purposes of supporting Users who
+attend Siebel training courses; (iv) to use the Programs that are development
+tools (i.e., the Siebel Tools Programs) solely in accordance with the
+Documentation to create Customer-specific objects for use with the Programs;
+(v) to use the Deliverables solely for purposes of installing or operating
+the Programs; and (vi) to install, integrate, and implement the Programs and
+Ancillary Programs or to have third parties (e.g., system integrators) do so
+for the Customer;
+
+
+                                                                         Page 1
+<PAGE>
+
+
+   B. TO COPY. (i) to copy the Programs that operate on server systems as
+reasonably necessary to support the maximum number of named Users; (ii) to copy
+the Programs and Ancillary Programs that operate on the personal computers of
+Users up to the maximum number of named Users, provided that Customer may make
+one additional copy of each such Program for use on one personal computer, per
+named User, so long as such User operates only one copy of such Program at any
+given time; (iii) to make a reasonable number of additional copies of the
+Programs and Ancillary Programs solely for archival, emergency back-up, testing,
+or disaster recovery purposes; and (iv) to copy the Documentation as reasonably
+necessary to support its Users.
+
+2.2 LICENSE RESTRICTIONS. The rights granted in Section 2.1 are subject to the
+following restrictions: (i) Customer may use the Ancillary Programs only in
+combination with the Programs and solely for purposes of installing and/or
+operating the Programs; Customer may not use the Ancillary Programs as
+stand-alone applications; (ii) Customer may not reverse engineer, disassemble,
+decompile, or otherwise attempt to derive the source code of the Programs or
+Ancillary Programs; provided that, if required under applicable law, upon
+Customer's request, Siebel shall provide information necessary for Customer to
+achieve interoperability between the Programs and other software for a nominal
+administrative charge; (iii) Customer may not sublicense or use the Programs or
+Ancillary Programs for commercial time-sharing, rental, or service bureau use,
+or to train persons other than named Users, unless previously agreed to in
+writing by Siebel; (iv) Customer shall not use the programs that are development
+tools for general application development purposes; and (v) with regard to any
+and all copies of the Programs, Ancillary Programs, and Documentation, Customer
+shall only make exact copies of the versions as originally delivered by Siebel,
+Customer shall ensure that each copy contains all titles, trademarks, and
+copyright and restricted rights notices as in the original, and all such copies
+shall be subject to the terms and conditions of this Agreement.
+
+2.3 RETENTION OF RIGHTS. Siebel reserves all rights not expressly granted to
+Customer in this Agreement. Without limiting the generality of the foregoing,
+Customer acknowledges and agrees that: (i) except as specifically set forth in
+this Agreement, Siebel and its suppliers retain all rights, title and interest
+in and to the Programs, Ancillary Programs, Documentation, Deliverables, and
+Training Materials and Customer acknowledges and agrees that it does not acquire
+any rights, express or implied in or to the Programs, Ancillary Programs,
+Documentation, Deliverables, and Training Materials except as specifically set
+forth in this Agreement; (ii) any configuration or deployment of the Programs
+shall not affect or diminish Siebel's rights, title, and interest in and to the
+Programs; and (iii) if Customer suggests to Siebel any new features,
+functionality, or performance that Customer believes would improve the then
+currently offered Programs that Siebel subsequently incorporates into the
+Programs, Customer hereby grants Siebel a worldwide, non-exclusive,
+royalty-free, perpetual right and license to use and incorporate such
+suggestions into the Programs. Customer acknowledges that the Programs
+incorporating such new features, functionality, or performance shall be the sole
+and exclusive property of Siebel and all such suggestions shall be free from any
+confidentiality restrictions that might otherwise be imposed upon Siebel
+pursuant to Section 9.1, provided, however that Customer agrees not to make
+suggestions to Siebel regarding new features, functionality or performance that
+it believes represents Customer's confidential or proprietary information
+without, first notifying Siebel that such information: (i) is to be treated as
+Customer's confidential or proprietary information, and (ii) may only be
+evaluated by Siebel for possible use in connection with the Programs pursuant to
+a separate written evaluation and non-disclosure agreement. In the event
+Customer uses the Siebel Tools to independently develop customized object
+definitions contained in the Siebel object repository ("Customer's Custom Object
+Definitions"), Customer's Custom Object Definitions shall be Customer's
+exclusive property except to the extent that Customer's Custom Object
+Definitions incorporate Siebel's intellectual property rights in the Programs
+and provided Customer's Custom Object Definitions are used by Customer solely in
+conjunction with the Programs.
+
+2.4 ASSIGNMENT. Neither this Agreement nor any rights granted hereunder may be
+sold, leased, assigned, or otherwise transferred, in whole or in part, by either
+party, and any such attempted assignment shall be void and of no effect without
+the advance written consent of the other party, such consent not to be
+unreasonably withheld or delayed; PROVIDED, HOWEVER, that such consent shall not
+be required if (i) either party assigns this Agreement to an Affiliate or in
+connection with a merger, acquisition, or sale of all or substantially all of
+its assets, unless the Affiliate or surviving entity is a direct competitor of
+the other party, or (ii) Siebel assigns its right to receive and collect
+payments hereunder. Customer may (i) transfer any Program License to any other
+Affiliate in accordance with this Section 2.4 without requirement of any
+relocation, transfer or assignment fee or consent by Siebel; and (ii) transfer
+any Programs to any other client computer which is then part of a Supported
+Platform without any requirement of any relocation, transfer or assignment fee
+or consent by or notice to Siebel. In addition, Customer may transfer all of its
+rights and obligations hereunder to an independent subsidiary in connection with
+the sale of such subsidiary provided that (i) the Programs continue to be used
+only for such subsidiary's internal business operations and (ii) such
+independent subsidiary does not include that portion of a business of a third
+party that is a direct competitor of Siebel or owned or controlled by a company
+that includes that portion of a business of a third party that is a direct
+competitor of Siebel, provided that that in the event Customer enters into a
+merger or acquisition with a direct competitor of Siebel, Customer may have a
+sixty (60) day transition period to return or destroy the Programs provided
+that: (i) Customer provides Siebel with adequate assurances that Customer will
+not provide access to the Programs to anyone in the direct competitor's
+organization, except the direct competitor's Information Technology(IT) (or
+other similar department), or its facilities or property management group who
+has access to the Programs solely for purposes of the transition, and (i)
+Customer provides Siebel with adequate assurances that all of Siebel's trade
+secrets, confidential information, and intellectual property rights in the
+Programs will be fully observed and protected by such employees in the
+transition period. If Siebel does not believe it has received such adequate
+assurances, Siebel will immediately notify Customer and identify any
+deficiencies in such notification and Customer and Siebel agree to use their
+collective best efforts on a first priority basis to resolve such deficiencies
+with such competitor and its employees. Siebel agrees to permit such transition
+period provided Siebel receives adequate assurances as described in this
+paragraph.
+
+Customer agrees that if it fails to use the Programs materially in accordance
+with all of the terms and conditions of this section, Siebel shall have the
+right to terminate the transition period immediately.
+
+2.5 VERIFICATION. At Siebel's written request, but not more frequently than
+annually, Customer shall furnish Siebel with a document signed by Customer's
+authorized representative listing (i) the number of Users by country, and (ii)
+the locations and types of the systems on which it operates or has installed the
+Siebel Programs. Customer is responsible for implementing reasonable means to
+monitor its compliance with the terms of this Agreement, provided that Siebel
+shall provide all necessary cooperation to assist Customer in collecting User
+information, which cooperation shall include but not be limited to the provision
+of copies of all Order Forms received by Siebel under this Agreement. Siebel
+reserves the right to audit Customer's use of the Programs no more than once
+annually at Siebel's expense. Siebel shall schedule any audit at least thirty
+(30) days in advance and shall make commercially reasonable efforts to use a
+nationally recognized firm for such audit. Any such audit shall be conducted
+during regular business hours at Customer's facilities and shall not
+unreasonably interfere with Customer's business activities. If such audit
+reveals that Customer has underpaid fees to Siebel, Customer shall promptly pay
+to Siebel such fees at the prices previously agreed to for such Programs.
+
+3. SOURCE CODE ESCROW
+
+Customer shall have the right to become a beneficiary to the Master Preferred
+Escrow Agreement between Siebel and Data Securities International, Inc., a copy
+of which will be provided to Customer upon request and which will be
+incorporated by reference into this Agreement when Customer executes an
+Acceptance Form pursuant to the Master Preferred Escrow Agreement.
+
+4. SERVICES
+
+4.1 MAINTENANCE SERVICES FOR PROGRAMS. Customer agrees to purchase Maintenance
+Services for the period specified in the applicable Order Form for each Program
+licensed pursuant to this Agreement. Siebel reserves the right to alter its
+standard Maintenance Services policy from time to time using reasonable
+discretion but in no event shall such alterations result in diminished support
+from the level of support set forth in EXHIBIT B, or result in diminished
+obligations regarding the provision of Updates. Customer may terminate
+Maintenance Services for convenience at any time by notifying Siebel in writing
+no later than sixty (60) days in advance of cancellation. Siebel shall provide
+Customer with sixty (60) days prior written notice of any material changes to
+the level of Maintenance Services set forth in EXHIBIT B. Siebel shall make its
+then-standard Maintenance Services available to Customer for as long as Siebel
+offers such Maintenance Services to its customers generally.
+
+
+                                                                         Page 2
+<PAGE>
+
+
+4.2 TRAINING SERVICES. Siebel will provide Services (other than Maintenance
+Services, which shall be provided as set forth in Section 4.1 above), subject to
+availability, in accordance with Siebel's Training Services schedule in effect
+at the time such training is ordered. A copy of Siebel's current Training
+Services schedule is available upon request.
+
+4.3 USE OF THIRD PARTIES TO PURCHASE SERVICES. Customer may authorize third
+parties to purchase Services from Siebel on its behalf provided that all such
+Services are provided under the terms of this Agreement.
+
+5. TERM AND TERMINATION
+
+5.1 TERM. Each Program License granted under this Agreement shall commence on
+the applicable Commencement Date and shall remain in effect perpetually unless
+such Program License or this Agreement is terminated as provided in Section 5.2
+or 5.3.
+
+5.2 TERMINATION BY CUSTOMER FOR CONVENIENCE. Customer may terminate any Program
+License at any time upon written notice to Siebel.
+
+5.3 TERMINATION BY EITHER PARTY FOR MATERIAL BREACH. Either party may terminate
+this Agreement upon written notice if the other party materially breaches this
+Agreement and fails to cure such breach within thirty (30) days following
+receipt of written notice specifying the breach in detail; PROVIDED, HOWEVER,
+that Customer may terminate Maintenance Services only (a) for convenience, as
+provided in Section 4.1, or (b) if Siebel materially breaches the provisions of
+EXHIBIT B and fails to cure, or to begin in good faith to cure, the breach
+within sixty (60) days following written notice from Customer specifying the
+breach in detail. In the event of termination of Maintenance Services, Customer
+shall be liable only for payment for Maintenance Services through the
+termination date and shall receive a pro-rata refund of any unused prepaid fees.
+
+5.4 EFFECT OF TERMINATION. Termination of this Agreement or any Program License
+shall not limit either party from pursuing other remedies available to it,
+including injunctive relief, nor shall such termination relieve Customer of its
+obligation to pay all fees that have accrued or are otherwise owed by Customer
+under any Order Form. The parties' rights and obligations under Sections 2.2,
+2.3, 5, 6.1, 7, 8 and 9 shall survive termination of this Agreement.
+
+5.5 HANDLING OF PROGRAMS AND CONFIDENTIAL INFORMATION UPON TERMINATION. If a
+Program License granted under this Agreement terminates, Customer shall (i)
+cease using the applicable Programs, Documentation, and related Confidential
+Information of Siebel, and (ii) certify to Siebel within thirty (30) days after
+termination that Customer has destroyed, or has returned to Siebel, the
+Programs, Documentation, related Confidential Information of Siebel, and all
+copies thereof, whether or not modified or merged into other materials. Upon
+termination of this Agreement, each party shall certify to the other party
+within thirty (30) days of termination that it has destroyed or returned to the
+other party all Confidential Information of the other party, and all copies
+thereof, whether or not modified or merged into other materials. Provided that
+(i) Customer has used commercially reasonable efforts to destroy or return all
+materials as required in this Section 5.6 and (ii) Customer has no intent to
+retain such materials, if Customer discovers inadvertently retained materials it
+shall not be considered in breach of this Section 5.6 provided that Customer
+destroys or returns such materials immediately after discovering them.
+
+6. WARRANTIES AND REMEDIES
+
+6.1 INTELLECTUAL PROPERTY INFRINGEMENT. If a third party makes a claim against
+Customer and its directors and officers who are using or have used the Programs
+in accordance with this Agreement or who are named in furtherance of their
+duties to Customer that the Programs directly infringe patent issued as of the
+Effective Date or any copyright, trade secret or trademark ("IP Claim"); Siebel
+will defend Customer against the IP Claim and pay all costs, damages and
+expenses (including reasonable legal fees) finally awarded against Customer by a
+court of competent jurisdiction or agreed to in a written settlement agreement
+signed by Siebel arising out of such IP Claim; PROVIDED THAT: (i) Customer
+promptly notifies Siebel in writing no later than sixty (60) days after
+Customer's receipt of notification of a potential claim; (ii) Siebel may assume
+sole control of the defense of such claim and all related settlement
+negotiations; and (iii) Customer provides Siebel, at Siebel's request and
+expense, with the assistance, information and authority necessary to perform
+Siebel's obligations under this Section. Notwithstanding the foregoing, Siebel
+shall have no liability for any claim of infringement based on (a) the use of a
+superseded or altered release of Programs if the infringement would have been
+avoided by the use of a current unaltered release of the Programs, which Siebel
+provided to Customer, (b) the modification of a Program, or (c) the use of the
+Programs other than in accordance with the Documentation and this Agreement.
+
+If, due to an IP Claim or the threat of an IP Claim, (i) the Programs are held
+by a court of competent jurisdiction, or in Siebel's reasonable judgment may be
+held to infringe by such a court, or (ii) Customer receives a valid court order
+enjoining Customer from using the Programs, or in Siebel's reasonable judgment
+Customer may receive such an order, Siebel shall in its reasonable judgment, and
+at its expense, (a) replace or modify the Programs to be non-infringing,
+provided that the replacement Programs contain substantially similar
+functionality; (b) obtain for Customer a license to continue using the Programs;
+or (c) if non-infringing Programs or a license to use cannot be obtained, Siebel
+may terminate the Program License for the infringing Programs and refund the
+license fees paid for those Programs and fees for any Services that directly
+relate to such Programs upon return of the Programs by Customer. This Section
+6.1 states Siebel's entire liability and Customer's exclusive remedy for any
+claim of infringement.
+
+6.2   LIMITED WARRANTIES AND DISCLAIMERS
+
+   A. PROGRAM WARRANTY. Siebel warrants for one (1) year from the Commencement
+Date that each Program for which Customer has a Program License will perform in
+all material respects the functions described in the Documentation when operated
+on a Supported Platform.
+
+   B. MEDIA WARRANTY. Siebel warrants for ninety (90) days from the Commencement
+Date that the tapes, diskettes or other media upon which Siebel delivers
+Programs to Customer will be free of defects in materials and workmanship under
+normal use.
+
+   C. SERVICES WARRANTY. Siebel warrants for ninety (90) days from the
+performance of any Services by Siebel pursuant to this Agreement, including
+Maintenance Services, that such Services shall be performed in a manner
+consistent with generally accepted industry standards.
+
+   D. ANTI-VIRUS AND DISABLING CODE WARRANTY. Siebel warrants that to it shall
+use reasonable technical means to detect computer viruses. Siebel further
+warrants that the Programs as delivered by Siebel do not contain any virus or
+computer software code, routines or devices (other than as set forth in the
+Documentation) designed to disable, damage, impair, erase, deactivate, or
+electronically repossess the Programs or other software or data.
+
+   E. YEAR 2000 WARRANTY. Siebel warrants that the Programs, as provided by
+Siebel, are capable of processing, recording, storing and presenting data
+containing four-digit years after December 31, 1999 in substantially the same
+manner and with substantially the same functionality as before January 1, 2000.
+Siebel assumes no responsibilities or obligations to cause third-party products
+or services to function with the Programs. Siebel will not be in breach of this
+warranty for any failure of the Programs to correctly create or process
+date-related data if such failure results in any way from, or is any way
+attributable to the inability of any software, hardware, or systems of Customer
+or any third party (including any underlying database engines, operating
+systems, and related drivers) either to correctly create or process date-related
+data or to create or process such date-related data in a manner consistent with
+the method in which the Programs create or process date-related data Customer
+must notify Siebel of any breach of this warranty before January 1, 2001.
+
+   F. DOCUMENTATION WARRANTY. Siebel warrants that the Documentation is fit for
+the purposes reasonably required by a person with adequate knowledge, training
+and experience to operate the Programs.
+
+   G. ANCILLARY PROGRAM WARRANTIES. Customer shall have the benefit of any third
+party warranties, service agreements and infringement indemnities available to
+end users of the Ancillary Programs; provided, however, that Customer's sole
+remedy for breach of any such warranty, indemnification, service agreement, or
+other
+
+
+                                                                        Page 3
+<PAGE>
+
+rights shall be against the third party offering such rights and not against
+Siebel. In the event that an Ancillary Program causes the Programs to fail to
+perform in all material respects the functions described in the Documentation
+when operated on a Supported Platform, Siebel will use commercially reasonable
+efforts to provide Customer with a workaround or fix pursuant to EXHIBIT B where
+such workaround or fix may include, at Siebel's option, replacing the Ancillary
+Program with a replacement Ancillary Program having substantially equivalent
+functionality at no additional charge.
+
+   H. DISCLAIMERS. Siebel does not warrant that (i) the Programs will meet
+Customer's requirements, (ii) the Programs will operate in combinations with
+other hardware, software, systems or data not provided by Siebel (except as
+expressly specified in writing by Siebel in the Documentation) which Customer
+may select for use, (iii) the operation of the Programs will be uninterrupted or
+error-free, or (iv) all Program errors will be corrected; provided, however,
+that if Customer is current on Maintenance Services fees, Siebel shall be
+obligated to provide Maintenance Services. Notwithstanding any provision to the
+contrary, Pre-Production Programs, Deliverables, Training Materials, and
+Customer's license under Section 2.3 are distributed "AS IS" and Customer
+acknowledges that Pre-Production Programs are not suitable for general use.
+Siebel shall have no Year 2000-related liabilities for any products or Services
+except as expressly stated in this Agreement. THE WARRANTIES ABOVE ARE EXCLUSIVE
+AND IN LIEU OF ALL OTHER WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY,
+INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT, AND QUALITY OF SERVICE.
+
+6.3 EXCLUSIVE REMEDIES. Customer must report in writing any breach of the
+warranties contained in Sections 6.2A, 6.2B, 6.2C, 6.2D, and 6.2E to Siebel
+during the relevant warranty period, and Customer's exclusive remedy and
+Siebel's entire liability for any breach of such warranties shall be as set
+forth below:
+
+   A. PROGRAM WARRANTY. To use its commercially reasonable efforts to correct or
+provide a workaround for reproducible Program errors that cause a breach of this
+warranty, or if Siebel is unable to make the Program operate as warranted within
+a reasonable time considering the severity of the error and its impact on the
+Customer, Customer shall be entitled to return the Program to Siebel and recover
+the fees paid to Siebel for the Program License and any Services that directly
+relate to the Program License.
+
+   B. MEDIA WARRANTY.  The replacement of the defective media.
+
+   C. SERVICES WARRANTY. The reperformance of the Services, or if Siebel is
+unable to perform the Services as warranted, Customer shall be entitled to
+recover the fees paid to Siebel for the nonconforming services.
+
+   D. ANTI-VIRUS WARRANTY. The immediate replacement of all copies of the
+affected Programs in the possession of Customer with copies that do not contain
+such virus or disabling code. If Siebel breaches the warranty contained in
+Section 6.2D, Customer shall additionally have the right to its proven direct
+damages, subject to the limitation of liability set forth in Section 7.
+
+   E. YEAR 2000 WARRANTY. To use its commercially reasonable efforts to correct
+or provide a workaround for reproducible Program errors that cause breach of
+this warranty, or if Siebel is unable to make the Program operate as warranted
+within a reasonable time considering the severity of the error and its impact on
+the Customer, Customer shall be entitled to return the Program to Siebel and
+recover the fees paid to Siebel for the Program License and any Services that
+directly relate to the Program License. In the event that an Ancillary Program
+or other third party product is not Year 2000 compliant, Siebel shall use
+commercially reasonable efforts to provide Customer with relevant information
+regarding such product or the vendor of such product; provided, however, that
+Customer's sole remedy for any failure of any Ancillary Programs or other third
+party products to be Year 2000 compliant shall be against the third party vendor
+of such products and not against Siebel.
+
+   F. DOCUMENTATION WARRANTY. Siebel shall use commercially reasonable efforts
+to revise the Documentation to correct deficiencies that cause a breach of this
+warranty.
+
+   G. ANCILLARY PROGRAM WARRANTIES. For a breach of the warranty contained in
+the first sentence of Section 6.2G, Siebel shall, at its option, use
+commercially reasonable efforts to (i) obtain for Customer a license to continue
+using the Ancillary Programs, or (ii) replace the Ancillary Program with a
+replacement Ancillary Program having substantially equivalent functionality at
+no additional charge.
+
+6.4 GENERAL INDEMNITY. Each party (an "Indemnitor") shall defend and indemnify
+the other party and its employees, officers, directors and agents (the
+"Indemnitee") against all damages for bodily injury, death, or damage to real or
+tangible personal property proximately caused by the Indemnitor in the course of
+performing this Agreement; provided that (i) the Indemnitor receives prompt
+written notice of the claim from the Indemnitee under this Section, (ii) the
+Indemnitor has the right to control the defense of such claim and any related
+settlement negotiations, and (iii) the Indemnitee provides to the Indemnitor, at
+the Indemnitor's request and expense, with the assistance, information and
+authority necessary to perform the Indemnitor's obligations under this Section.
+
+7. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL SIEBEL, ITS SUPPLIERS, OR CUSTOMER BE LIABLE FOR ANY INDIRECT,
+INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES, INCLUDING WITHOUT LIMITATION
+DAMAGES FOR LOSS OF PROFITS, DATA OR USE, INCURRED BY EITHER PARTY OR ANY THIRD
+PARTY, WHETHER IN AN ACTION IN CONTRACT OR TORT, EVEN IF THE OTHER PARTY HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, except that in the event
+Customer makes unauthorized copies of the Programs, Siebel shall be entitled to
+recover the full amount of any license fees that would relate to such copies.
+Except for Siebel's liability for IP Claims under Section 6.1, its obligations
+under Section 6.4, or for any breach of its obligations under Section 9.1, the
+aggregate and cumulative liability of Siebel and its suppliers for direct and
+proven damages hereunder shall in no event exceed the amount of fees paid by
+Customer under this Agreement, and if such damages relate to particular
+Program(s) or services, such liability shall be limited to fees paid for the
+relevant Program(s) or services giving rise to the liability. Except for its
+obligations under Section 6.4, or any breach of its obligations under Sections
+2.1, 2.2, 8 and 9.1, Customer's aggregate and cumulative liability for damages
+hereunder shall in no event exceed the amount of fees paid by Customer under
+this Agreement.
+
+8. PAYMENT PROVISIONS
+
+8.1 INVOICES. All payments hereunder shall be payable within thirty (30) days of
+Customer's receipt of Siebel's invoice unless otherwise set forth on the Order
+Form. Siebel will invoice Customer for Services after delivery thereof to
+Customer unless otherwise set forth on the Order Form.
+
+8.2 LICENSE FEES. In consideration of the license granted herein, Customer
+agrees to make the license fee payments set forth in Order Forms which payments
+shall be nonrefundable and irrevocable except as otherwise provided in Sections
+6.1, 6.3A, and 6.3E of this Agreement. Concurrently with the execution of this
+Agreement, Customer shall place a binding initial order for Programs using the
+Order Form attached hereto as EXHIBIT A.
+
+8.3 SERVICES FEES. Fees for Services shall be payable as set forth in the Order
+Form.
+
+8.4 OTHER FEES. All other applicable fees, if any, shall be payable thirty (30)
+days from the date of Siebel's invoice.
+
+8.5 TAXES. The fees specified in this Agreement do not include taxes, duties or
+fees; if Siebel is required to pay (i) sales, use, property, value-added,
+withholding or other taxes, (ii) any customs or other duties, or (iii) any
+import, warehouse or other fees, associated with the importation or delivery
+based on the Program Licenses granted or Services provided in this Agreement or
+on Customer's use of Programs or Services, then such taxes, duties or fees shall
+be billed to and paid by Customer. If Customer is permitted to declare any such
+taxes, Customer shall declare and pay such taxes and Siebel shall not be
+required to invoice Customer. This Section shall not apply to taxes based on
+Siebel's income or payroll taxes.
+
+
+                                                                         Page 4
+<PAGE>
+
+9. GENERAL TERMS
+
+9.1 NONDISCLOSURE. Each party may have access to information that is
+confidential to the other party ("Confidential Information"). Siebel's
+Confidential Information shall include, but not be limited to, the Programs,
+Ancillary Programs. Documentation, formulas, methods, know how, processes,
+designs, new products, developmental work, marketing requirements, marketing
+plans, customer names, prospective customer names, the terms and pricing under
+this Agreement, and all information clearly identified in writing at the time of
+disclosure as confidential. Customer's Confidential Information shall include,
+but not be limited to, its software programs, formulas, methods, know-how,
+processes, designs, new products, developmental work, marketing requirements,
+marketing plans, customer names, prospective customer names, and all information
+clearly identified in writing at the time of disclosure as confidential.
+Confidential Information includes all information received from third parties
+that either party is obligated to treat as confidential and oral information
+that is identified by either party as confidential.
+
+A party's Confidential Information shall not include information that (i) is or
+becomes a part of the public domain through no act or omission of the other
+party; (ii) was in the other party's lawful possession prior to the disclosure
+and had not been obtained by the other party either directly or indirectly from
+the disclosing party; (iii) is lawfully disclosed to the other party by a third
+party without restriction on disclosure; or (iv) is independently developed by
+the other party without use of or reference to the other party's Confidential
+Information. In addition, this Section 9.1 will not be construed to prohibit
+disclosure of Confidential Information to the extent that such disclosure is
+required to by law or valid order of a court or other governmental authority;
+PROVIDED, HOWEVER, that the responding party shall first have given notice to
+the other party and shall have made a reasonable effort to obtain a protective
+order requiring that the Confidential Information so disclosed be used only for
+the purposes for which the order was issued.
+
+The parties agree, unless required by law, not to make each other's Confidential
+Information available in any form to any third party (except third parties who
+are Users as defined hereunder) or to use each other's Confidential Information
+for any purpose other than in the performance of this Agreement. Customer shall
+not disclose the results of any performance tests of the Programs to any third
+party without Siebel's prior written approval. Each party agrees to take all
+reasonable steps to ensure that Confidential Information is not disclosed or
+distributed by its employees or agents in breach of this Agreement. The parties
+agree to hold each other's Confidential Information in confidence during the
+term of this Agreement and for a period of three (3) years thereafter; provided,
+however, that with respect to source code, the Siebel Data Model Reference
+Manual, the Siebel Data Mart Data Model Reference, and other highly sensitive
+confidential information clearly identified as such at the time of disclosure by
+either party, the nondisclosure obligations set forth herein shall continue
+indefinitely. Each party's additional obligations regarding the Siebel Data
+Model Reference Manual and the Siebel Data Mart Data Model Reference are set
+forth in the text of the Siebel Data Model Reference Manual and the Siebel Data
+Mart Data Model. Each party acknowledges and agrees that, due to the unique
+nature of Confidential Information, there can be no adequate remedy at law for
+breach of this Section 9.1 and that such breach would cause irreparable harm to
+the non-breaching party; therefore, the non-breaching party shall be entitled to
+seek immediate injunctive relief, in addition to whatever remedies it might have
+at law or under this Agreement.
+
+This Section 9.1 constitutes the entire understanding of the parties and
+supersedes all prior or contemporaneous agreements, representations or
+negotiations, whether oral or written, with respect to Confidential Information
+disclosed in connection with this Agreement, except as otherwise agreed to in
+writing by Siebel and Customer.
+
+9.2 GOVERNING LAW. This Agreement and all matters arising out of or relating to
+this Agreement, shall be governed by the laws of the State of California,
+excluding its conflict of law provisions. The parties agree that the United
+Nations Convention on Contracts for the International Sale of Goods is
+specifically excluded from application to this Agreement.
+
+9.3 NOTICES. All notices required to be sent hereunder shall be in writing and
+shall be deemed to have been given upon (i) the date sent by confirmed
+facsimile, (ii) on the date it was delivered by courier, or (iii) if by
+certified mail return receipt requested, on the date received, to the addresses
+set forth above and to the attention of the signatories of this Agreement and
+the relevant Order Form, or to such other address or individual as the parties
+may specify from time to time by written notice to the other party.
+
+9.4 INJUNCTIVE RELIEF. Each party acknowledges and agrees that in the event of a
+material breach of this Agreement, including but not limited to a breach of
+Section 2 or Section 9.1 of this Agreement, the non-breaching party shall be
+entitled to seek immediate injunctive relief, in addition to whatever remedies
+it might have at law or under this Agreement.
+
+9.5 SEVERABILITY. In the event any provision of this Agreement is held to be
+invalid or unenforceable, the remaining provisions of this Agreement will remain
+in full force.
+
+9.6 WAIVER. The waiver by either party of any default or breach of this
+Agreement shall not constitute a waiver of any other or subsequent default or
+breach. Except for actions for nonpayment or breach of Siebel's proprietary
+rights in the Programs or Documentation, no action, regardless of form, arising
+out of this Agreement may be brought by either party more than one year after
+the cause of action has accrued.
+
+9.7 FORCE MAJEURE: In the event circumstances beyond a party's reasonable
+control prevent a party from performing its obligations under the Agreement, the
+performance of such obligation(s) shall be suspended to the extent as is
+reasonable under the circumstances; provided, however, that during the
+suspension the affected party shall use its commercially reasonable efforts to
+resume its performance under the Agreement; and provided, further, however, that
+if the affected party's performance is suspended for a period of greater than
+sixty (60) days, the unaffected party shall have the option to terminate the
+Agreement upon written notice thereof to the other party. Termination hereunder
+will not affect Customer's obligation to make payments for Programs and services
+furnished prior to such termination.
+
+9.8 SUCCESSORS AND ASSIGNS: All provisions of the Agreement and this Addendum
+shall be binding upon, inure to the benefit of and be enforceable by and against
+the respective successors and permitted assigns of Siebel and Customer.
+
+9.9 DELIVERY. All materials provided by Siebel hereunder shall be delivered to
+Customer on a F.O.B. Siebel's San Mateo or Emeryville facility basis for
+destinations within the United States, or on a FCA (Incoterms 1990) Siebel's San
+Mateo or Emeryville facility basis for destinations outside the United States;
+at which point title to the carrier media and risk of loss or damage to the
+materials shall be transferred from Siebel to Customer. If any materials are
+lost or damaged while in transit to Customer, Siebel shall send duplicate
+materials to Customer at no additional charge. Nothing in this Section shall be
+deemed to transfer title to, or provide Customer with any rights in, the
+Programs, Deliverables or Documentation, except as specifically provided in this
+Agreement.
+
+9.10 EXPORT CONTROLS. Customer agrees to comply fully with all relevant export
+laws and regulations of the United States, including but not limited to the U.S.
+Export Administration Regulations (collectively, "U.S. Export Controls").
+Without limiting the generality of the foregoing, Customer expressly agrees that
+it shall not, and shall cause its representatives to agree not to, export,
+directly or indirectly, re-export, divert, or transfer the Programs,
+Documentation or any direct product thereof to any destination, company or
+person restricted or prohibited by U.S. Export Controls.
+
+9.11  RESTRICTED RIGHTS NOTICE.
+
+9.12 RELATIONSHIP BETWEEN THE PARTIES. Siebel is an independent contractor;
+nothing in this Agreement shall be construed to create a partnership, joint
+venture or agency relationship between the parties.
+
+9.13 ENTIRE AGREEMENT. This Agreement, together with the attached exhibits,
+which are incorporated by reference, constitutes the complete agreement between
+the parties and supersedes all prior or contemporaneous agreements or
+representations, written or oral, concerning the subject matter of this
+Agreement and such
+
+
+                                                                         Page 5
+<PAGE>
+
+exhibits. This Agreement may not be modified or amended except in writing signed
+by a duly authorized representative of each party. No other act, document, usage
+or custom shall be deemed to amend or modify this Agreement.
+
+9.14 COUNTERPARTS AND EXCHANGES BY FAX. This Agreement may be executed
+simultaneously in two (2) or more counterparts, each of which will be considered
+an original, but all of which together will constitute one and the same
+instrument. The exchange of a fully executed Agreement (in counterparts or
+otherwise) by fax shall be sufficient to bind the parties to the terms and
+conditions of this Agreement.
+
+The Effective Date of this Agreement shall be __________________.
+
+EXECUTED BY: IMS HEALTH STRATEGIC TECHNOLOGIES, INC.
+
+Signature: ___________________________________________________________________
+
+Name:      ___________________________________________________________________
+
+Title:     ___________________________________________________________________
+
+Date:      ___________________________________________________________________
+
+
+EXECUTED BY: SIEBEL SYSTEMS, INC.
+
+Signature: ___________________________________________________________________
+
+Name:      ___________________________________________________________________
+
+Title:     ___________________________________________________________________
+
+Date:      ___________________________________________________________________
+
+
+                                                                        Page 6
+</TEXT>
+</DOCUMENT>

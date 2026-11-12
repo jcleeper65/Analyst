@@ -74,3 +74,7 @@ Unavailable results retain their existing return value. The reader records a san
 The seeker creates a separate `closes_errors_<run timestamp>.jsonl` for each run, records its path/count in the run snapshot, and includes errors in candidate limitations and the report. Standalone reader calls default to `Repos/Analyst/closes_diagnostics.jsonl`. `LSEG_DIAGNOSTICS_FILE` selects another path.
 
 The installed lseg-data 2.1.1 call uses `header_type=ld.HeaderType.NAME`. Earlier failures caused by `use_field_names_in_headers` are retained in their original diagnostic logs. New successful prices identify the resolved vendor instrument in their source.
+
+## Worksheet volume interface
+
+`daily_closes_and_volumes(ticker, start_date, end_date)` returns the same dated closes plus `volume`, `currency`, and `volume_source`. It requests documented `TR.Volume` and `TR.PriceClose.currency` alongside closes. CSV sources can add `volume,currency` columns. Missing volume stays null; it is never replaced by zero. Existing close-only calls and commands still work. The spinoff worksheet uses this optional interface for code-only median daily dollar volume; no volume/history is sent to the judgment model.

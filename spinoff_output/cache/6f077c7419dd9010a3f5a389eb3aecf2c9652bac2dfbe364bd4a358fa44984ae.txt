@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+    <schemaVersion>X0201</schemaVersion>
+
+    <documentType>4</documentType>
+	<periodOfReport>2004-01-21</periodOfReport>
+	<notSubjectToSection16>0</notSubjectToSection16>
+    <issuer>
+        <issuerCik>0000830616</issuerCik>
+        <issuerName>SUPERCONDUCTIVE COMPONENTS INC</issuerName>
+        <issuerTradingSymbol>scci.ob</issuerTradingSymbol>
+	</issuer>
+	<reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001216615</rptOwnerCik>
+            <rptOwnerName>BAKER ROBERT J JR</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O VENTURES RESOURCES INTL. INC.</rptOwnerStreet1>
+            <rptOwnerStreet2>P.O. BOX 307343</rptOwnerStreet2>
+            <rptOwnerCity>GAHANNA</rptOwnerCity>
+            <rptOwnerState>OH</rptOwnerState>
+            <rptOwnerZipCode>432307343</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+            <reportingOwnerRelationship>
+			<isDirector>1</isDirector>
+			<isOfficer>0</isOfficer>
+			<isTenPercentOwner>0</isTenPercentOwner>
+			<isOther>0</isOther>
+		</reportingOwnerRelationship>
+	</reportingOwner>
+	<derivativeTable>
+		<derivativeTransaction>
+			<securityTitle>
+				<value>Stock Option-Right to Buy</value>
+			</securityTitle>
+			<conversionOrExercisePrice>
+				<value>2.60</value>
+			</conversionOrExercisePrice>
+			<transactionDate>
+				<value>2004-01-21</value>
+			</transactionDate>
+			<deemedExecutionDate>
+			</deemedExecutionDate>
+			<transactionCoding>
+				<transactionFormType>4</transactionFormType>
+				<transactionCode>A</transactionCode>
+				<equitySwapInvolved>0</equitySwapInvolved>
+			</transactionCoding>
+			<transactionAmounts>
+				<transactionShares>
+					<value>10000</value>
+				</transactionShares>
+				<transactionPricePerShare>
+					<value>0</value>
+				</transactionPricePerShare>
+				<transactionAcquiredDisposedCode>
+					<value>A</value>
+				</transactionAcquiredDisposedCode>
+			</transactionAmounts>
+			<exerciseDate>
+				<value>2005-01-21</value>
+			</exerciseDate>
+			<expirationDate>
+				<value>2014-01-21</value>
+			</expirationDate>
+			<underlyingSecurity>
+				<underlyingSecurityTitle>
+					<value>Common Stock, without par value</value>
+				</underlyingSecurityTitle>
+				<underlyingSecurityShares>
+					<value>10000.00</value>
+				</underlyingSecurityShares>
+			</underlyingSecurity>
+			<postTransactionAmounts>
+				<sharesOwnedFollowingTransaction>
+					<value>10000.00</value>
+				</sharesOwnedFollowingTransaction>
+			</postTransactionAmounts>
+			<ownershipNature>
+				<directOrIndirectOwnership>
+					<value>D</value>
+				</directOrIndirectOwnership>
+				<natureOfOwnership>
+					<value/>
+				</natureOfOwnership>
+			</ownershipNature>
+		</derivativeTransaction>
+	</derivativeTable>
+	<footnotes>
+	</footnotes>
+	<ownerSignature>
+		<signatureName>By: Curtis A. Loveland Attorney-in-Fact</signatureName>
+		<signatureDate>2004-01-22</signatureDate>
+	</ownerSignature>
+</ownershipDocument>
+

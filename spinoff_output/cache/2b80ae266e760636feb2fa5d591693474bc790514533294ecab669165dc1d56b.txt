@@ -1,0 +1,835 @@
+<DOCUMENT>
+<TYPE>EX-10.16
+<SEQUENCE>13
+<FILENAME>w51230ex10-16.txt
+<DESCRIPTION>EX-10.16 SYSTEMS WORK AGREEMENT
+<TEXT>
+
+<PAGE>   1
+                                                                   EXHIBIT 10.16
+
+                             SYSTEMS WORK AGREEMENT
+                               (Fixed Bid Pricing)
+
+         THIS SYSTEMS WORK AGREEMENT (this "Agreement") is made and entered into
+this 27th day of July, 2000, by and between High Speed Net Solutions, Inc.
+(hereinafter "Client"), a Florida corporation with offices located at 434
+Fayetteville Street Mall, Suite 2120, Raleigh, NC 27601 and Nexgenix, Inc.
+(hereinafter "Nexgenix"), a Delaware corporation, with offices located at 320
+Commerce, Irvine, California 92602.
+
+                                   WITNESSETH:
+
+         WHEREAS, Client desires to engage Nexgenix from time to time pursuant
+to one or more Statement(s) of Work to develop, create, test, and deliver
+certain programming materials and Nexgenix is interested in accepting such
+engagements, subject to the parties' further agreement on the scope and terms of
+each such Statement of Work; and
+
+         WHEREAS, Client and Nexgenix mutually desire to set forth in this
+Agreement certain terms and conditions applicable to all such engagements;
+
+         NOW, THEREFORE, Client and Nexgenix, intending to be legally bound,
+hereby agree as follows:
+
+1.       Definitions.
+
+         When used in this Agreement and in each Statement of Work issued
+hereunder, the capitalized terms listed in this Section 1 shall have the
+following meanings:
+
+         1.1 "Code" shall mean computer programming code. If not otherwise
+specified, Code shall include both Object Code and Source Code. Code shall
+include any Maintenance Modifications or Basic Enhancements thereto created by
+Nexgenix from time to time, and shall include Major Enhancements thereto when
+added to the Code in connection with a Statement of Work issued hereunder.
+
+             (a) "Object Code" shall mean the machine-readable form of the Code.
+
+             (b) "Source Code" shall mean the human-readable form of the Code
+         and related system documentation including all comments and any
+         procedural code such as job control language.
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 1
+<PAGE>   2
+
+         1.2 "Deliverables" shall mean all Code, Documentation, and other
+materials developed for or delivered to Client by Nexgenix under this Agreement
+and under any Statement of Work issued hereunder.
+
+         1.3 "Derivative Work" shall mean a work that is based upon one or more
+preexisting works, such as a revision, modification, translation, abridgement,
+condensation, expansion, or any other form in which such preexisting works may
+be recast, transformed, or adapted, and that, if prepared without authorization
+of the owner of the copyright in such preexisting work, would constitute a
+copyright infringement. For purposes hereof, a Derivative Work shall also
+include any compilation that incorporates such a preexisting work.
+
+         1.4 "Documentation" shall mean user manuals and other written materials
+that relate to particular Code, including materials useful for design (e.g.,
+logic manuals, flow charts, and principles of operation). Documentation shall
+include any Maintenance Modifications or Basic Enhancements thereto created by
+Nexgenix from time to time, and shall include Major Enhancements thereto when
+added to the Documentation in connection with a Statement of Work issued
+hereunder.
+
+         1.5 "Enhancements" shall mean changes or additions, other than
+Maintenance Modifications, to Code and related Documentation, including all new
+releases, that improve functions, add new functions, or significantly improve
+performance by changes in system design or coding.
+
+             (a) "Basic Enhancements" shall mean any Enhancements that are not
+                 Major Enhancements.
+
+             (b) "Major Enhancements" shall mean changes or additions to Code
+                 and related Documentation that (1) have a value and utility
+                 separate from the use of the Code and Documentation; (2) as a
+                 practical matter, may be priced and offered separately from the
+                 Code and Documentation; and (3) are not made available to
+                 any of Nexgenix's clients without separate charge.
+
+         1.6 "Error" shall mean any error, problem, or defect resulting from (a)
+an incorrect functioning of Code, or (b) an incorrect or incomplete statement of
+diagram in Documentation, if such an error, problem, or defect renders the Code
+inoperable, causes the Code to fail to meet the specifications thereof, causes
+the Documentation to be inaccurate or incomplete in any material respect, causes
+incorrect results, or causes incorrect functions to occur when any such
+materials are used.
+
+         1.7 "Maintenance Modifications" shall mean any modifications or
+revisions, other than Enhancements, to Code or Documentation that correct
+Errors, support new releases of the
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 2
+
+<PAGE>   3
+
+operating systems with which the Code is designed to operate, support new
+input/output (I/O) devices, or provide other incidental updates and corrections.
+
+         1.8 "Statement of Work" shall mean a purchase offer of Client, a
+proposal of Nexgenix, or another written instrument that meets the following
+requirements:
+
+             (a) Includes substantially the following statement: "THIS IS A
+             STATEMENT OF WORK UNDER SYSTEMS WORK AGREEMENT DATED: ______."
+
+             (b) Is signed on behalf of both parties by their authorized
+             representatives
+
+             (c) Contains the following five mandatory items:
+
+                 (i) Description and/or specifications of the services to be
+             performed and the Deliverables to be delivered to Client;
+
+                 (ii) The name and address of a Technical Coordinator for each
+             of Client and Nexgenix;
+
+                 (iii) The amount, schedule, and method of payment;
+
+                 (iv) The time schedule for performance and for delivery of the
+             Deliverables; and
+
+                 (v) Completion and acceptance criteria for the Deliverables.
+
+         In addition, when applicable, the Statement of Work may include:
+
+             (d) Provisions for written and/or oral progress reports by
+Nexgenix;
+
+             (e) Detailed functional and technical specifications and standards
+for all services and Deliverables, including quality standards;
+
+             (f) Documentation standards;
+
+             (g) Lists of any special equipment to be procured by Nexgenix or
+provided by Client for use in performance of the work;
+
+             (h) Test plans and scripts; and
+
+             (i) Such other terms and conditions as may be mutually agreeable
+between parties.
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 3
+
+<PAGE>   4
+
+2.       Contract Administration.
+
+         2.1 Contract Coordinator. Upon execution of this Agreement, each party
+shall notify the other party of the name, business address, and telephone number
+of its Contract Coordinator. The Contract Coordinators of each party shall be
+responsible for arranging all meetings, visits, and consultations between the
+parties that are of a nontechnical nature. The Contract Coordinators shall also
+be responsible for receiving all notices under this Agreement and for all
+administrative matters such as invoices, payments, and amendments.
+
+         2.2 Technical Coordinator. Each Statement of Work shall state the name,
+business address, and telephone number of the Technical Coordinators of each
+party. The Technical Coordinators of each party designated for a particular
+Statement of Work shall be responsible for technical and performance matters,
+and the transmission and receipt of both Deliverables and technical information
+between the parties, insofar as they relate to such Statement of Work.
+
+         2.3 Issuance of Statement(s) of Work. The initial Statement(s) of Work
+agreed to by the parties are set forth as attachments to this Agreement.
+Additional Statement(s) of Work, regardless of whether they relate to the same
+subject matter as the initial Statement(s) of Work, shall become effective upon
+execution by authorized representatives of both parties.
+
+3.       Changes.
+
+         Changes in any Statement of Work or in any of the Specifications or
+Deliverables under any Statement of Work shall become effective only when a
+written change order request is executed by authorized representatives of both
+parties. Change order requests that do not substantially affect the nature of
+Deliverables, their performance or functionality, and that do not change
+schedules by more than 1 week or dollar amounts by more than 1% may be requested
+and/or accepted by the parties' Technical Coordinators. All other change order
+requests with respect to this Agreement, any Statement of Work, or any
+Specifications or Deliverables must be requested and/or accepted by both
+parties' Contract Coordinators and signed by both companies' authorized
+representatives.
+
+4.       Notice of Delay.
+
+         Nexgenix and Client both agree to notify the other party promptly of
+any factor, occurrence, or event coming to its attention that may affect
+Client's or Nexgenix's ability to meet the requirements of any Statement of Work
+issued under this Agreement, or that is likely to occasion any material delay in
+delivery of Deliverables. Such notice shall be given in the event of any loss or
+reassignment of key employees, threat of strike, or major equipment failure in
+which case reasonable additional time shall be afforded to complete the delivery
+of the Deliverables.
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 4
+
+
+
+<PAGE>   5
+5.       Invoicing.
+
+         Nexgenix shall submit invoices to Client for payment for work and/or
+Deliverables at such time or times as payment becomes due under each Statement
+of Work. In the event that invoicing is based on a Time and Materials basis,
+Nexgenix shall submit invoices to Client bi-monthly. All invoices shall be due
+and payable within thirty (30) days of presentment, without holdback, shall be
+addressed to Client's Contract Coordinator, and shall be submitted no more
+frequently than bi-monthly for charges due or accruing in each calendar month.
+In the event that a start of work payment is requested as set forth in a
+Statement of Work, it shall be due and payable prior to the commencement of any
+work. Each Deliverable shall be separately invoiced and paid for and the
+rejection of any Deliverable hereunder shall not serve as the basis for
+nonpayment or delay in payment for any other Deliverable hereunder. Client shall
+reimburse Nexgenix for all travel and other reasonable expenses under each
+Statement of Work as set forth in Nexgenix's Travel and Expense Policies. Each
+invoice shall separately set forth travel and other reasonable expenses, if any,
+for reimbursement. Supporting documentation (e.g., receipts for air travel,
+hotels, and rental cars) shall accompany any such invoice. Final payment shall
+be invoiced payable within ten (10) days of final delivery. Any invoice not paid
+within thirty (30) days of delivery of invoice to Client shall accrue late fees
+in the amount equal to one and one-half percent (1-1/2%) per month of the
+outstanding balance of such invoice. Client shall be responsible to pay any and
+all applicable sales taxes, state and local privilege or excise taxes based on
+revenue or sale or any other applicable taxes and government fees. Nexgenix
+shall be responsible for any and all payroll or employment taxes of any kind
+when applicable, including but not limited to FICA, FUTA, federal personal
+income tax, state personal income tax, state disability insurance tax and state
+unemployment insurance tax and Client acknowledges and agrees not to deduct or
+withhold any payroll or employment taxes with respect to payment to Nexgenix.
+
+6.       Records.
+
+         Nexgenix shall maintain records in accordance with sound accounting
+practices to substantiate Nexgenix's charges under each Statement of Work and on
+each invoice.
+
+7.       Expenses.
+
+         Except as expressly agreed in a Statement of Work, each of Client and
+Nexgenix shall bear all of its own expenses arising from its performance of its
+obligations under this Agreement and each Statement of Work issued hereunder,
+including (without limitation) expenses for facilities, work spaces, utilities,
+management, clerical and reproduction services, supplies, and the like.
+
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 5
+
+<PAGE>   6
+
+8.       Reports.
+
+         8.1 Monthly Reports. Nexgenix agrees to provide to Client at least
+monthly with a written report of the progress of the work required under each
+Statement of Work issued hereunder, any anticipated problems (resolved or
+unresolved), and any indication of delay in fixed or tentative schedules.
+
+         8.2 Periodic Reports. Approximately once every month, the parties shall
+meet for a formal progress presentation of approximately two (2) hours'
+duration, during which Nexgenix's management shall describe the status of the
+work required under each Statement of Work issued hereunder. Such presentation
+shall provide projections of the time of completion, and the status of
+Nexgenix's services and Deliverables, and shall address any problems that have
+come to Nexgenix's attention and Nexgenix's views as to how such problems may be
+resolved.
+
+9.       Delivery and Acceptance.
+
+         Nexgenix shall deliver all Deliverables, upon completion, to Client's
+Technical Coordinator for testing and acceptance. Nexgenix shall memorialize
+such delivery in a Delivery Confirmation that sets forth the nature and
+condition of the Deliverables, the medium of delivery, and the date of their
+delivery. Client's Technical Coordinator shall countersign such Delivery
+Confirmation so as to indicate its receipt of the contents described therein,
+and the Delivery Confirmation shall thereupon be transmitted to the parties'
+Contract Coordinators. Unless a different procedure for testing and acceptance
+is set forth in a Statement of Work, Client's Technical Coordinator shall
+commence acceptance testing immediately following its receipt of the
+Deliverables and complete such testing within ten (10) days after receipt of the
+Deliverables. Upon completion of such testing, Client shall issue to Nexgenix's
+Technical Coordinator notice of acceptance or rejection of the Deliverables. In
+the event of rejection, Client shall give its reasons for rejection to
+Nexgenix's Technical Coordinator in reasonable detail. Nexgenix shall use all
+reasonable effort to correct any deficiencies or nonconformities and resubmit
+the rejected items as promptly as possible.
+
+10.      Ownership and Rights.
+
+         10.1 Ownership of Work Product by Client. All original written
+material, including programs, documentation, diskettes, tapes, listings and any
+other material generated by Nexgenix personnel for Client ("Original Materials")
+shall constitute works made for hire and shall belong exclusively to Client and
+Nexgenix hereby assigns to Client all rights to Original Materials required
+solely for any required filings, fees or other actions to establish such
+ownership right. All Other Materials developed for Client shall be owned by
+Client and shall be considered work made for hire by Nexgenix for Client. Client
+shall own all United States and International copyrights in the Original
+Materials.
+
+         10.2 Vesting of Rights. With the sole exception of any preexisting
+works identified in Section 10.3 below, Client, its successors and assigns,
+shall have the right to obtain and hold in its
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 6
+
+<PAGE>   7
+
+or their own name(s) all copyright registrations and other evidence of rights
+that may be available for Deliverables.
+
+         10.3 Preexisting Works. Client acknowledges that, with the exception of
+Original Materials, Nexgenix shall retain all right, title and proprietary
+interest in any and all work product not developed under this Agreement, and
+that Nexgenix may have developed, or may develop in the future, from time to
+time, independently of its activities under this Agreement, including certain
+work product with similar functionality as those developed hereby. Client agrees
+to and consents to such development by Nexgenix provided that (a) no source code
+used in the development of Client's work product shall have been used or copied
+in any manner which, if so adjudicated, would constitute a copyright violation
+of Client's existing copyrights, and (b) Client continues to own all right,
+title, copyright and other proprietary interest in any Original Materials or
+other Nexgenix-developed product developed directly for Client's benefit
+hereunder. In addition, Client acknowledges that Nexgenix claims and reserves
+all rights and benefits afforded under federal law in Nexgenix's existing
+programs as copyrighted works (e.g. Nexgenix's application frameworks and
+application templates, etc.). Further, in the event that any Deliverable
+constitutes a Derivative Work of any preexisting work not owned by Nexgenix or
+which is and will continue to be the property of Nexgenix, then Nexgenix shall
+provide in the Statement of Work pertaining to such Deliverable (a) the nature
+of such preexisting work; (b) its owner (a third party or Nexgenix); (c) any
+restrictions or royalty terms applicable to Nexgenix's use of such preexisting
+work or Client's exploitation of the Deliverable as a Derivative Work thereof;
+and (d) the source of Nexgenix's authority to employ the preexisting work in the
+preparation of the Deliverable. Nexgenix hereby grants Client a non-exclusive,
+non-sublicenseable, non-transferable, perpetual, royalty-free, license in any
+Nexgenix Preexisting Works that may be included in a Deliverable for use in
+connection with the internal business activities of Client.
+
+11.      Confidential Information.
+
+         From time to time Client and Nexgenix may provide each other with its
+own confidential business and technical information in connection with the work
+to be performed by Nexgenix under Statement(s) of Work issued hereunder. Such
+information shall be designated as confidential upon or prior to disclosure. All
+confidential written materials shall be marked with the legend "Confidential."
+Each party hereto shall use its best efforts to prohibit any use or disclosure
+of Confidential Information, except as necessary to perform work under the
+Statement(s) of Work issued hereunder. Notwithstanding anything to the contrary
+herein, Nexgenix and its personnel shall be free to use and employ its and their
+general skills, know-how, and expertise, and to use, disclose, and employ any
+generalized ideas, concepts, know-how, methods, techniques, or skills gained or
+learned during the course of any assignment, so long as it or they acquire and
+apply such information without disclosure of any confidential or proprietary
+information of Client. Client acknowledges and understands that Nexgenix is the
+sole owner of its Distributed Development Methodology ("METHODOLOGY") and as
+such acknowledges and agrees that Nexgenix shall have the sole and exclusive
+ownership of any enhancements, all media and documentation relating to any such
+enhancements (including their development or their operation, testing or use)
+and all reports and copies thereof, and all intellectual property rights
+associated therewith
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 7
+<PAGE>   8
+
+(including, without limitation, rights to patents, patent applications,
+copyrights, trade secrets, or know-how) concerning the METHODOLOGY. Client
+acknowledges that the METHODOLOGY, including associated report formats, screen
+displays, and menu features, constitute Confidential Information and shall
+constitute copyrighted works protected by federal and international copyright
+laws. Client shall not permit any personnel to remove, copy or modify any
+proprietary or other legends or restrictive notices contained or included in any
+materials provided by Nexgenix. Client shall not use (except for the purpose of
+this Agreement) or disclose to any third party any Confidential Information
+relating to the METHODOLOGY as supplied by Nexgenix. Any disclosure of such
+Confidential Information to agents or employees by Client shall be made only in
+the normal course of business on a need-to-know basis within the scope and
+purpose of this Agreement and under prior written agreements requiring such
+agents or employees to treat all such information strictly as confidential and
+use only for the purposes of this Agreement. Client shall not make copies of any
+materials containing such Confidential Information except as authorized in
+writing by Nexgenix.
+
+12.      Representations and Warranties.
+
+         Nexgenix makes the following representations and warranties for the
+benefit of Client, as a present and ongoing affirmation of facts in existence at
+all times when this Agreement or any Statement of Work issued hereunder is in
+effect:
+
+         12.1     No Infringement.
+
+         (a) Nexgenix represents and warrants that all Deliverables, do not and
+will not infringe any patents, copyrights, or other intellectual property rights
+of any third party, nor has any claim (whether or not embodied in an action,
+past or present) of such infringement been threatened or asserted, nor is such a
+claim pending against Nexgenix.
+
+         (b) Nexgenix hereby agrees to indemnify, defend and hold harmless
+Client, and its officers, directors and partners (each, an "Indemnified Party")
+against any and all claims, demands, causes of action, damages, costs, expenses,
+penalties, losses and liabilities (whether under a theory of negligence, strict
+liability, contract or otherwise) incurred or to be incurred by an Indemnified
+Party (including but not limited to costs of investigation and reasonable
+attorney and other third party fees and, to the extent permitted by law, fines,
+penalties and forfeitures in connection with any proceedings against the
+Indemnified Party) arising out of or resulting from a breach of Section 12.1(a).
+
+         (c) Notwithstanding anything to the contrary herein, Client agrees to
+indemnify, defend and hold Nexgenix and its employees, representatives, agents
+and affiliates, harmless against any claim, suit, action, or other proceeding
+brought against Nexgenix based on or arising from a claim that Third-Party
+Software contained in any work product infringes in any manner any copyright,
+patent, trademark, trade secret or any other intellectual property right of any
+third party. Nexgenix will promptly notify Client of any such claim. The Client
+will bear full responsibility for
+
+
+--------------------------------------------------------------------------------
+                                     Page 8
+
+<PAGE>   9
+
+the defense (including any settlements); provided, however, that (i) Client will
+keep Nexgenix informed of, and consult with Nexgenix in connection with the
+progress of such litigation or settlement, and (ii) Client will not have any
+right, without the written consent of Nexgenix, to settle any such claim if such
+settlement does not completely absolve Nexgenix of any and all liability in
+connection with such claim or imposes ongoing restrictions on Nexgenix's conduct
+of its business, Client acknowledges and agrees that it must use reasonable
+efforts to pursue any indemnification or other rights it may have against
+providers of the Third Party Software pursuant to license agreements with such
+providers for claims of infringement with respect to Third Party Software.
+
+         12.2 Conformity, Performance, Compliance, Warranty Limitation. Nexgenix
+represents and warrants that all Deliverables, at the time of Acceptance of
+Deliverables in accordance with Section 9 of this Agreement, will conform to the
+specifications and functions as developed and set forth in the Statement(s) of
+Work relating thereto; and that Nexgenix will perform all work called for by
+each Statement of Work issued hereunder. Neither party hereto shall be obligated
+or liable to the other or to any other person for any loss of profits, loss of
+use, or incidental, special or consequential damages, whether based on contract,
+tort (including negligence), strict liability, or any other theory or form of
+action, even if such party has been advised of the possibility thereof, arising
+out of or in connection with this Agreement. In no event shall Nexgenix be
+liable for any damages in excess of any amounts paid to it hereunder. Without
+limiting the generality of the preceding sentence, neither party shall be liable
+for any personal injury or property damage. Nexgenix warrants that the code
+and/or documentation will perform as per the specifications developed and set
+forth in the attached Statement(s) of Work and provides no additional warranty
+after Final Acceptance of Deliverables as set forth in the Statement(s) of Work.
+EXCEPT AS SPECIFICALLY SET FORTH IN THIS SECTION, NEXGENIX DISCLAIMS ANY AND ALL
+WARRANTIES WITH RESPECT TO THE DELIVERABLES, CODE OR DOCUMENTATION, WHETHER
+EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF FITNESS FOR
+ANY PARTICULAR PURPOSE OR MERCHANTABILITY.
+
+         12.3 Year 2000 Warranty: Nexgenix represents and warrants that all
+software code under the attached Statement of Work, developed directly by
+Nexgenix, in source code or executable code form that receives, stores,
+processes or outputs year information is in 4 (four) digit form. However,
+Nexgenix will not be responsible for any non conformation of the processing,
+storing and displaying of year data in 4-digit format (non year 2000 compliant)
+for software and/or codes not developed directly by Nexgenix under the attached
+Statement of Work including all third party development tools, frameworks,
+software and/or codes, operating system and hardware platforms and integration
+to other applications, software and/or components thereof as an integration
+solution delivery.
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 9
+
+<PAGE>   10
+
+13.      Term and Termination.
+
+         13.1 Term of Agreement. This Agreement shall be effective upon the date
+first written above. The term of this Agreement shall be for a period of two (2)
+years and shall automatically renew each year after the end of the initial two
+year period, unless terminated in accordance with the terms of this Agreement.
+However, this Agreement shall continue to remain in effect with respect to any
+Statement(s) of Work already issued hereunder at the time of such termination,
+until such Statement(s) of Work are themselves terminated and/or performance
+thereunder is completed.
+
+         13.2 Termination of Agreement. Either party may terminate this
+Agreement upon not less than ninety (90) days' written notice to the other
+party. However, this Agreement shall continue to remain in effect with respect
+to any Statement of Work already issued hereunder until such other Statement of
+Work is itself terminated and/or performance thereunder is completed. Nexgenix
+shall be paid for all work performed through the date of termination. Nexgenix
+may, at its sole discretion, terminate this Agreement and any Statement(s) of
+Work under this Agreement for non-payment of fees hereunder.
+
+         13.3 Survival. In the event of any termination of this Agreement,
+Sections 8 and 10 through 14 hereof shall survive and continue in effect and
+shall inure to the benefit of and be binding upon the parties and their legal
+representatives, heirs, successors, and assigns.
+
+14.      Miscellaneous.
+
+         14.1 Notices. All notices and all other communication provided herein
+shall be given in writing, by personal delivery, by facsimile transmission or by
+registered or certified mail, return receipt requested, or delivered by a
+recognized national overnight courier service as follows:
+
+                  If to Nexgenix:
+                  Nexgenix, Inc.
+                  30 Corporate Park
+                  Suite 410
+                  Irvine, California 92606
+
+                  If to Client:
+                  High Speed Net Solutions, Inc.
+                  434 Fayetteville Street Mall, Suite 2120
+                  Raleigh, NC 27601
+
+                  All notices will be deemed to be given when received in
+         accordance with the provisions of this Section 14.
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 10
+
+<PAGE>   11
+
+         14.2 Force Majeure. Neither party shall be in default by reason of
+failure in performance of this Agreement if such failure arises, directly or
+indirectly, out of causes reasonably beyond the control or foreseeability of
+either party, including but not limited to, default by suppliers, acts of God or
+the public enemy, U.S. or foreign governmental acts in either a sovereign or
+contractual capacity, transportation contingencies, fire, flood, epidemic,
+restrictions and strikes.
+
+         14.3 No Agency. Nexgenix, in rendering performance under Statement(s)
+of Work issued hereunder from time to time, is acting solely as an independent
+contractor. Client understands and agrees that this Agreement does not create
+any agency, employment, partnership, joint venture or similar relationship
+between the parties, and neither party has any authority to bind the other with
+respect to any matter. Under no circumstances shall either party have the right
+or authority to act or make any commitment of any kind to any third party on
+behalf of the other party or to represent the other party in any way as an
+agent. Client acknowledges that Nexgenix will not be entitled to any benefits
+available to Client's employees and Nexgenix shall be responsible for all taxes
+upon Nexgenix's income.
+
+         14.4 No Assignment. Neither party may, without the prior written
+consent of the other party, assign or transfer this Agreement or any obligation
+incurred hereunder, except by merger, reorganization, consolidation, or sale of
+all or substantially all of such party's assets. Any attempt to do so in
+contravention of this Section shall be void and of no force and effect.
+
+         14.5 Authority of Nexgenix. Nexgenix has the sole right and obligation
+to supervise, manage, contract, direct, procure, perform, or cause to be
+performed all work to be carried out by Nexgenix hereunder unless otherwise
+provided herein.
+
+         14.6 Publicity. Client agrees to provide Nexgenix with the right to
+include Client's name in any of Nexgenix's client listings, including but not
+limited to marketing materials, press releases, website location, with Client's
+prior written approval.
+
+         14.7 No Waiver. No delay or omission by either party hereto to exercise
+any right or power occurring upon any noncompliance or default by the other
+party with respect to any of the terms of this Agreement shall impair any such
+right or power or be construed to be a waiver thereof. A waiver by either of the
+parties hereto of any of the covenants, conditions, or agreements to be
+performed by the other shall not be construed to be a waiver of any succeeding
+breach thereof or of any covenant, condition, or agreement herein contained.
+Unless stated otherwise, all remedies provided for in this Agreement shall be
+cumulative and in addition to and not in lieu of any other remedies available to
+either party at law, in equity, or otherwise.
+
+         14.8 Required Approvals. Where agreement, approval, acceptance, or
+consent by either party is required by any provision of this Agreement, such
+action shall not be unreasonably delayed or withheld.
+
+
+--------------------------------------------------------------------------------
+                                     Page 11
+<PAGE>   12
+
+         14.9 Non-Solicitation. Client and Nexgenix will not directly or
+indirectly, solicit or offer employment to any personnel or cause any such
+personnel to leave the employ of the other party until one (1) year after the
+termination of the Agreement.
+
+         14.10 Insider Trading. Both parties acknowledge that they are aware
+and agree that they will advise their directors, employees, agents, advisors and
+affiliates who are informed of Confidential Information that the United States
+securities laws prohibit any person who has material, nonpublic information
+concerning the matters which are the subject of this Agreement from purchasing
+or selling the securities of either company or their affiliates, or from
+communicating such information to any other person under circumstances in which
+it is reasonably foreseeable that such person is likely to purchase or sell such
+securities. Both parties agree to comply with such laws.
+
+         14.11 Material Breach. In the event of a material breach of this
+Agreement by one party, the other party may (reserving cumulatively all other
+remedies and rights under this Agreement and in law and in equity) terminate
+this Agreement by giving thirty (30) days prior written notice; provided,
+however, any such termination shall not be effective if the party in breach has
+cured the breach of which it has been notified prior to the expiration of said
+thirty (30) days. Each party further acknowledges that its breach of
+confidentiality under this Agreement will cause irreparable damage and hereby
+agrees that the other party shall be entitled to seek immediate injunctive
+relief under this Agreement as well as such further relief as may be granted by
+a court of competent jurisdiction.
+
+         14.12 Conflict. In the event of any conflict between this Agreement and
+any Statement(s) of Work, the provisions of this Agreement shall prevail.
+
+         14.13 Arbitration. Any dispute or claim arising out of or in relation
+to this Agreement, or the interpretation, making, performance, breach or
+termination thereof that cannot be amicably resolved by the parties, shall be
+finally settled by binding arbitration under the rules of the American
+Arbitration Association as presently in force ("Rules") and each party will
+appoint an arbitrator, and the two thus selected to designate a third in
+accordance with said Rules. The arbitration will be held as promptly as possible
+at New York, New York. Judgment on the award rendered may be entered in any
+court having jurisdiction thereof. Any monetary award shall be in U.S. dollars
+and the arbitration shall be conducted in the English language. The
+arbitrator(s) will not award any exemplary or punitive damages. The losing party
+shall be responsible for paying all costs of the arbitration, including but not
+limited to reasonable legal expenses of the winning party. The parties may apply
+to any court of competent jurisdiction for temporary or permanent injunctive
+relief, without breach of this Section 14.13 and without any abridgment of the
+powers of the arbitrator.
+
+         14.14 Export Compliance. The parties agree to comply with U.S. export
+control laws, regulations and requirements, including without limitation the
+U.S. Export Administration Regulations. Client shall provide prior written
+notice to Nexgenix in the event that any of Client's
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 12
+
+<PAGE>   13
+
+software or technology is subject to U.S. export controls prior to commencement
+of work under this Agreement. The notice shall identify the U.S. government
+agency having jurisdiction with respect to the software or technology and the
+classification of such software or technology under applicable regulations. In
+the absence of notice from Client, Nexgenix shall presume that the software and
+technology are not subject to U.S. export controls. The parties agree that they
+shall not export, re-export, or provide access directly or indirectly to any
+Deliverable other than in strict compliance with all applicable laws and this
+Agreement shall indemnify, defend, and hold the other party hereunder harmless
+from and against any and all claims, demands, actions, suits, proceedings,
+losses, damages, penalties, obligations, liabilities, costs and expenses
+(including, without limitation, reasonable attorneys' fees and costs) arising
+directly or indirectly from a breach of this provision.
+
+         14.15 Governing Law. This Agreement shall be governed by and construed
+in accordance with the laws of the State of California.
+
+         14.16 Section Headings; Exhibits. The section and subsection headings
+used herein are for reference and convenience only, and shall not enter into the
+interpretation hereof. The exhibits referred to herein and attached hereto, or
+to be attached hereto, including all Statement(s) of Work issued hereunder from
+time to time, are incorporated herein to the same extent as if set forth in full
+herein.
+
+         14.17 Multiple Counterparts. This Agreement may be executed in several
+counterparts, all of which taken together shall constitute one single Agreement
+between the parties.
+
+         14.18 Entire Agreement. This Agreement and the exhibits annexed hereto,
+together with the Statements of Work issued from time to time hereunder,
+constitute the entire agreement between the parties hereto with respect to the
+subject matter hereof, and all prior or contemporaneous agreements or
+understandings are merged herein. No change, waiver, or discharge hereof shall
+be valid unless it is in writing and is executed by the party against whom such
+change, waiver, or discharge is sought to be enforced. The invalidity or
+unenforceability of any provision(s) of this Agreement shall not affect the
+validity or enforceability of any other provision(s) of this Agreement which
+shall remain in full force and effect.
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 13
+
+<PAGE>   14
+
+
+         IN WITNESS THEREOF, the parties have executed this Agreement, effective
+as of the date first set forth above.
+
+
+High Speed Net Solutions, Inc.            NEXGENIX, INC.
+
+
+By: /s/ Harris B. Glover                  By: /s/ Paul T. Anthony
+    --------------------------                ---------------------------------
+Printed Name: Harris B. Glover            Printed Name: Paul T. Anthony
+              ----------------                          -----------------------
+Title: CTO                                Title: Controller
+       -----------------------                   ------------------------------
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 14
+
+<PAGE>   15
+
+
+                                    EXHIBIT A
+
+
+                          OUTLINE OF STATEMENT OF WORK
+           (ACTUAL STATEMENT OF WORK TO REPLACE THIS EXHIBIT OUTLINE)
+
+
+Cover Page
+
+Copyright Page
+
+Statement of Work Acceptance Memo
+
+     1.0      EXECUTIVE SUMMARY
+              1.1      Overview
+              1.2      Project Summary
+              1.3      Development Approach Summary
+              1.4      Investment Summary Overview
+              1.5      Acceptance Procedure
+              1.6      Glossary of Terms (Optional)
+     2.0      PROJECT SCOPE
+              2.1      Project Overview
+              2.2      Baseline Business/Functional Requirements
+              2.3      Baseline Component Matrix
+              2.4      Issues to be Resolved (Optional)
+     3.0      TECHNICAL APPROACH
+              3.1      Technical Requirements
+              3.2      Proposed Hardware and Network Architecture
+              3.3      Proposed Application Architecture
+              3.4      Infrastructure Required for the Project
+              3.5      Development Environment
+     4.0      PROJECT APPROACH AND DELIVERABLES
+              4.1      Project Approach
+              4.2      Approach Summary (Optional)
+              4.3      Project Management Roles and Responsibilities
+              4.4      Knowledge Transfer (Optional)
+              4.5      Deployment Support (Optional)
+     5.0      ASSUMPTIONS
+              5.1      Scope Assumptions
+              5.2      Technical Architecture Assumptions
+              5.3      Project Approach Assumptions
+              5.4      Infrastructure Assumptions
+              5.5      Investment and Pricing Assumptions
+     6.0      INVESTMENT SUMMARY
+              6.1      Delivery and Payment Schedule
+              6.2      Work Segment I Deliverable Schedule and Investment
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 15
+<PAGE>   16
+
+
+              6.3      Warranty
+              6.4      Infrastructure for Nexgenix Consultants
+              6.5      Travel and Living Expenses
+              6.6      Changes to Fees and Schedules
+              6.7      Validity of Statement of Work
+              6.8      Delivery and Acceptance Procedure
+     7.0      APPENDIX A: PROJECT COMMUNICATIONS
+              7.1      Weekly Status Report
+              7.2      Project Weekly Status Meeting
+              7.3      Executive Review (Optional)
+              7.4      Project Meetings
+              7.5      Delivery Receipt Memo
+              7.6      Delivery Acceptance Memo
+     8.0      APPENDIX B: CHANGE AND ISSUE MANAGEMENT PROCESS
+     9.0      APPENDIX C: TABLE OF CONTENTS FOR WORK SEGMENT 1 DELIVERABLES
+     10.0     APPENDIX D: BUSINESS BACKGROUND
+     11.0     APPENDIX E: BASELINE REQUIREMENTS DETAIL (OO APPROACH)
+              11.1     Business Requirements Matrix
+              11.2     Preliminary Use Cases
+              11.3     Preliminary Business Classes
+              11.4     Preliminary Class Association Diagram
+              11.5     Preliminary List of Screens
+              11.6     Preliminary List of Reports
+              11.7     Preliminary List of Batch Server Programs (Optional)
+              11.8     Preliminary List of Data Entities
+              11.9     Preliminary List of External Interfaces (Optional)
+              11.10    Domain Areas
+
+
+
+--------------------------------------------------------------------------------
+                                     Page 16
+</TEXT>
+</DOCUMENT>

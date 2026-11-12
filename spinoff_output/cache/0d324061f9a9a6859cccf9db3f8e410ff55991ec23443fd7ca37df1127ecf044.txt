@@ -1,0 +1,1936 @@
+<DOCUMENT>
+<TYPE>EX-10.11
+<SEQUENCE>4
+<FILENAME>ex-10_11.txt
+<DESCRIPTION>EXHIBIT 10.11
+<TEXT>
+
+<PAGE>
+
+                          LEITCH TECHNOLOGY CORPORATION
+
+                                     - AND -
+
+                        PATH 1 NETWORK TECHNOLOGIES INC.
+
+--------------------------------------------------------------------------------
+
+
+                          TECHNOLOGY LICENSE AGREEMENT
+
+
+--------------------------------------------------------------------------------
+
+
+
+                            MADE AS OF APRIL 10, 2000
+
+
+<PAGE>
+
+                          TECHNOLOGY LICENSE AGREEMENT
+
+         THIS AGREEMENT is made on this 10th day of April, 2000.
+
+B E T W E E N:
+
+                  LEITCH TECHNOLOGY CORPORATION, a corporation incorporated
+                  under the laws of Ontario
+
+                  (hereinafter referred to as "Leitch")
+
+                                     - and -
+
+                  PATH 1 NETWORK TECHNOLOGIES INC., a corporation incorporated
+                  under the laws of Delaware
+
+                  (hereinafter referred to as "Path 1")
+
+RECITALS:
+
+         WHEREAS Leitch is engaged in the business of designing, manufacturing
+and selling analog and digital electronic equipment that is used to receive,
+distribute, process and switch high-quality video and audio signals through
+broadcast networks;
+
+         AND WHEREAS Path 1 is engaged in the business of designing,
+constructing and licensing systems which facilitate the delivery of video and
+audio signals over an Internet Protocol network with negligible latency and
+jitter;
+
+         AND WHEREAS Leitch wishes to license from Path 1 the Path 1
+Intellectual Property (as defined below) and the Network Operating System (as
+defined below) in accordance with the terms and conditions set out herein;
+
+         AND WHEREAS Leitch and Path 1 wish to set out their respective rights
+to exploit the Path 1 Intellectual Property and the Network Operating System and
+their agreement with respect to the payment of royalties and other terms and
+conditions relating to the licensing of intellectual property contemplated
+hereunder;
+
+         NOW THEREFORE in consideration of the mutual covenants and agreements
+contained in this Agreement and other good and valuable consideration (the
+receipt and sufficiency of which are hereby acknowledged) the Parties agree as
+follows:
+
+                                   ARTICLE 1
+                                 INTERPRETATION
+
+         1.1      DEFINITIONS
+
+         In this Agreement, the following terms shall have the following
+meanings:
+
+<PAGE>
+
+                  1.1.1    "AFFILIATE" means, in respect of a Person, another
+                           Person that Controls the first Person, is Controlled
+                           by the first Person or is Controlled by the same
+                           Person that Controls the first Person;
+
+                  1.1.2    "AGGREGATE ANNUAL FEES" means the sum of all monies
+                           or other consideration paid by Leitch or any of its
+                           Affiliates to Path 1 or any of its Affiliates in the
+                           applicable Exclusive Year, whether paid in accordance
+                           with this Agreement or otherwise, including, without
+                           limitation, all payments made by Leitch to Path 1
+                           pursuant to Section 3.1, all payments made by Leitch
+                           or any of its Affiliates to Path 1 or any of its
+                           Affiliates relating directly or indirectly to the
+                           Network Operating System, and any other consideration
+                           paid by Leitch or any of its Affiliates to Path 1 or
+                           any of its Affiliates in respect of products,
+                           services or other benefits provided by Path 1 to
+                           Leitch or any of its Affiliates or customers.
+                           Notwithstanding the foregoing, however, Aggregate
+                           Annual Fees shall not include any consideration paid
+                           by Leitch and/or any of its Affiliates in exchange
+                           for equity of Path 1 or any of its Affiliates;
+
+                  1.1.3    "AGREEMENT" means this agreement, and all schedules
+                           attached to this agreement, in each case as they may
+                           be amended or supplemented from time to time, and the
+                           expressions "HEREOF", "HEREIN", "HERETO",
+                           "HEREUNDER", "HEREBY" and similar expressions refer
+                           to this Agreement. Unless otherwise indicated,
+                           references to "ARTICLES" and "SECTIONS" are to
+                           articles and sections in this Agreement;
+
+                  1.1.4    "ARM'S LENGTH LICENSEE" means any Person in which
+                           neither Path 1 nor any Path 1 Affiliate directly or
+                           indirectly owns any equity interest;
+
+                  1.1.5    "BUSINESS DAY" means any day, other than Saturday,
+                           Sunday or any statutory holiday in the Province of
+                           Ontario or the State of California;
+
+                  1.1.6    "CALENDAR DAY" means any day, including weekdays,
+                           Saturdays, Sundays and statutory holidays in the
+                           Province of Ontario or the State of California;
+
+                  1.1.7    "CONFIDENTIAL INFORMATION" of a Party means any and
+                           all information of a Party or any of its Affiliates
+                           (in this definition called the "DISCLOSING PARTY")
+                           which has or shall come into the possession or
+                           knowledge of the other Party or any of its Affiliates
+                           (in this definition called the "Recipient Party") in
+                           connection with or as a result of entering into this
+                           Agreement including information concerning the
+                           Disclosing Party's past, present and future
+                           customers, suppliers, Technology, and business,
+                           provided that such information and material that a
+                           Party discloses in a tangible form shall be labelled
+                           as confidential or proprietary or, if disclosed
+                           orally or in another intangible form, shall be
+                           identified as confidential or proprietary prior to
+                           disclosure, and shall be reduced to a writing
+                           designated as confidential or proprietary and sent to
+                           the Recipient Party within thirty (30) Calendar Days
+                           after its initial disclosure. For the purposes of
+                           this definition,
+
+                                      3
+<PAGE>
+
+                           "information" includes Know-How, data, patents,
+                           copyrights, trade secrets, processes, techniques,
+                           programs, designs, formulae, marketing,
+                           advertising, financial, commercial, sales or
+                           programming materials, written materials,
+                           compositions, drawings, diagrams, computer
+                           programs, studies, work in progress, visual
+                           demonstrations, ideas, concepts, and other data,
+                           in oral, written, graphic, electronic, or any
+                           other form or medium whatsoever. Notwithstanding
+                           the foregoing, "Confidential Information" does not
+                           include the following information:
+
+                           1.1.7.1  information disclosed in a tangible form
+                                    that is not labelled as confidential or
+                                    proprietary;
+
+                           1.1.7.2  information disclosed orally or in another
+                                    intangible form that is not thereafter
+                                    reduced to writing, designated as
+                                    confidential or proprietary, and provided to
+                                    the Recipient Party within thirty (30)
+                                    Calendar Days after its initial disclosure;
+
+                           1.1.7.3  information which is in the public domain
+                                    when it is received by or becomes known to
+                                    the Recipient Party or which subsequently
+                                    enters the public domain through no fault of
+                                    the Recipient Party (but only after it
+                                    enters the public domain);
+
+                           1.1.7.4  information which is already known to the
+                                    Recipient Party at the time of its
+                                    disclosure to the Recipient Party by the
+                                    Disclosing Party and is not known by the
+                                    Recipient Party to be the subject of an
+                                    obligation of confidence of any kind;
+
+                           1.1.7.5  information which is independently developed
+                                    by the Recipient Party without any use of or
+                                    reference to the Confidential Information of
+                                    the Disclosing Party and which such
+                                    independent development can be established
+                                    by evidence that would be acceptable to a
+                                    Court of competent jurisdiction; and
+
+                           1.1.7.6  information which is received by the
+                                    Recipient Party in good faith without an
+                                    obligation of confidence of any kind from a
+                                    third party who the Recipient Party had no
+                                    reason to believe was not lawfully in
+                                    possession of such information free of any
+                                    obligation of confidence of any kind, but
+                                    only until the Recipient Party subsequently
+                                    comes to have reason to believe that such
+                                    information was subject to an obligation of
+                                    confidence of any kind when originally
+                                    received;
+
+
+                                      4
+<PAGE>
+
+                  1.1.8    "CONTROL" means the deemed control by one Person of
+                           another in accordance with the following rules. A
+                           Person (a "First Person") controls:
+
+                           1.1.8.1  a body corporate if securities of the body
+                                    corporate to which are attached fifty
+                                    percent (50%) or more of the votes that may
+                                    be cast to elect directors of the body
+                                    corporate are beneficially owned by the
+                                    First Person;
+
+                           1.1.8.2  an unincorporated Person, other than a
+                                    limited partnership, if fifty percent (50%)
+                                    or more of the ownership interests, however
+                                    designated, into which the unincorporated
+                                    Person is divided are beneficially owned by
+                                    the First Person and the First Person is
+                                    able to direct the business and affairs of
+                                    the unincorporated Person;
+
+                           1.1.8.3  a limited partnership if that First Person
+                                    is the general partner of the limited
+                                    partnership;
+
+                           1.1.8.4  any Person that is controlled, or deemed to
+                                    be controlled, by any of the Persons
+                                    specified in Sections 1.1.8.1, 1.1.8.2, or
+                                    1.1.8.3 above other than the First Person;
+                                    or
+
+                           1.1.8.5  a Person (a "Second Person") where the
+                                    aggregate of:
+
+                                    1.1.8.5.1 any securities of the Second
+                                              Person that are beneficially owned
+                                              by the First Person; and
+
+                                    1.1.8.5.2 any securities of the Second
+                                              Person that are beneficially owned
+                                              by any Person controlled by the
+                                              First Person;
+
+                              is such that, if the First Person and all of the
+                              Persons, other than the First Person, referred to
+                              in Sections 1.1.8.1, 1.1.8.2, or 1.1.8.3 above
+                              that beneficially own securities of the Second
+                              Person were one owner, that owner would control
+                              the Second Person;
+
+                  1.1.9    "CORE USE" means the general transport or switching
+                           of data within a network (including, without
+                           limitation, a consumer network, local area network,
+                           metropolitan area network or wide area network), such
+                           as that performed by network operating systems,
+                           switches, routers, hubs, firewalls, gateways,
+                           repeaters, bridges, general purpose NIC cards,
+                           backbones and trunks;
+
+                  1.1.10   "EFFECTIVE DATE" means April 10, 2000;
+
+                  1.1.11   "ENHANCEMENTS" means repairs, corrections,
+                           improvements, modifications, refinements, upgrades,
+                           updates, enhancements, new
+
+
+                                      5
+<PAGE>
+
+                           features, new functions, new versions, and new
+                           applications, in any form or medium whatsoever,
+                           and all Intellectual Property Rights therein;
+
+                  1.1.12   "EXCLUSIVE MARKET USE" means: the conversion of
+                           Professional Material from video, audio and/or
+                           associated data to packet data and the conversion of
+                           Professional Material from packet data to video,
+                           audio and/or associated data. Without limiting the
+                           generality of the foregoing, "EXCLUSIVE MARKET USE"
+                           includes, without limitation, the conversion of
+                           Professional Material from Internet Protocol data
+                           packets to video, audio and/or associated data, and
+                           the conversion of Professional Material from video,
+                           audio and/or associated data to Internet Protocol
+                           data packets. For greater certainty, use in
+                           connection with: consumer applications; corporate,
+                           industrial, medical and scientific video; industrial
+                           automation and control; still imaging;
+                           teleconferencing; audio or video telephony;
+                           videoconferencing; transaction processing; or any
+                           Core Use shall not constitute "EXCLUSIVE MARKET USE";
+
+                  1.1.13   "EXCLUSIVE TERM" means the Initial Exclusive Term and
+                           any period during which the Initial Exclusive Term or
+                           any renewal thereof is extended pursuant to Section
+                           6.2;
+
+                  1.1.14   "EXCLUSIVE YEAR" means:
+
+                           1.1.14.1 the period commencing on the [****]
+                                    [****] and ending one (1) year
+                                    thereafter; and
+
+                           1.1.14.2 each subsequent contiguous one (1) year
+                                    period during the Exclusive Term following
+                                    the previous Exclusive Year;
+
+                  1.1.15   "FORCE MAJEURE" means: acts of God and the public
+                           enemy; the elements; fire; accidents; vandalism;
+                           sabotage; power failure; failure, delay or disruption
+                           of transportation or telecommunications facilities;
+                           civil or public disturbances; any laws, orders,
+                           rules, regulations, acts or restraints of any
+                           government or governmental body or authority, civil
+                           or military, including the orders and judgments of
+                           courts; third party non-performance caused by an
+                           event of Force Majeure; and any other similar cause;
+
+                  1.1.16   "INITIAL EXCLUSIVE TERM" shall have the meaning
+                           ascribed to that term in Section 6.2;
+
+                  1.1.17   "INITIAL TERM" shall have the meaning ascribed to
+                           that term in Section 6.1;
+
+                  1.1.18   "INTELLECTUAL PROPERTY RIGHTS" means:
+
+                           1.1.18.1 any and all proprietary rights provided
+                                    under:
+
+                                    1.1.18.1.1 patent law;
+
+***CONFIDENTIAL TREATMENT REQUESTED
+
+                                      6
+<PAGE>
+
+                                    1.1.18.1.2 copyright law (including moral
+                                               rights);
+
+                                    1.1.18.1.3 trade-mark law;
+
+                                    1.1.18.1.4 design patent or industrial
+                                               design law;
+
+                                    1.1.18.1.5 semi-conductor chip, integrated
+                                               circuit topography or mask work
+                                               law; or
+
+                                    1.1.18.1.6 any other statutory provision or
+                                               common law principle applicable
+                                               to this Agreement, including
+                                               trade secret law,
+
+                                    which may provide a right in either ideas,
+                                    formulae, algorithms, concepts, inventions
+                                    or know-how generally, or the expression or
+                                    use of such ideas, formulae, algorithms,
+                                    concepts, inventions or know-how generally,
+                                    or the expression or use of such ideas,
+                                    formulae, algorithms, concepts, inventions
+                                    or know-how generally, or the expression or
+                                    use of such ideas, formulae, algorithms,
+                                    concepts, inventions or know-how; and
+
+                           1.1.18.2 any and all applications, registrations,
+                                    licenses, sub-licenses, franchises,
+                                    agreements or any other evidence of a right
+                                    in any of the foregoing; and
+
+                           1.1.18.3 all licenses and waivers and benefits of
+                                    waivers of the intellectual property rights
+                                    set out in Sections 1.1.18.1 and 1.1.18.2
+                                    above, all future income and proceeds from
+                                    the intellectual property rights set out in
+                                    Sections 1.1.18.1 and 1.1.18.2 above, and
+                                    all rights to damages and profits by reason
+                                    of the infringement of any of the
+                                    intellectual property rights set out in
+                                    Sections 1.1.18.1 and 1.1.18.2 above;
+
+                  1.1.19   "INTERNET PROTOCOL" means the network layer protocol
+                           used by computers to transmit, receive and process
+                           data over the Internet;
+
+                  1.1.20   "KNOW-HOW" means experience, skills and expertise in
+                           non-tangible form relating to Technology and
+                           consulting and advisory services relating to such
+                           experience, skills and expertise;
+
+                  1.1.21   [****]
+
+***CONFIDENTIAL TREATMENT REQUESTED
+
+                                      7
+<PAGE>
+
+
+                           [****]
+
+                  1.1.22   "NET TRUECIRCUIT PRODUCT REVENUE" means, in respect
+                           of each TrueCircuit Product sold by Leitch or any
+                           Leitch sublicensee, all monies or other consideration
+                           collected by Leitch or such Leitch sublicensee, as
+                           applicable, in connection with the sale of such
+                           TrueCircuit Product, net of all: (i) taxes collected
+                           by Leitch or such Leitch sublicensee, as applicable,
+                           on such revenue (including, without limitation,
+                           sales, use, goods and services, and other similar
+                           taxes imposed by any federal, provincial, municipal
+                           or other governmental body), credits (including
+                           shipping and restocking costs, if applicable) and bad
+                           debts; (ii) agency commissions; and (iii) shipping
+                           costs, credit card transaction fees paid to or
+                           deducted by third parties, and duties or brokerage
+                           costs incurred by Leitch or such Leitch sublicensee,
+                           as applicable, in each case calculated in accordance
+                           with Canadian GAAP;
+
+                  1.1.23   "NETWORK OPERATING SYSTEM" means a software kernel
+                           including TrueCircuit Technology which, like a
+                           computer operating system, allocates, manages and
+                           controls the network resources including, without
+                           limitation, [****], bandwidth, [****] and [****],
+                           and collects statistics relating to these resources
+                           and to the users thereof;
+
+                  1.1.24   "NON-EXCLUSIVE MARKET USE" means any and all uses
+                           other than Exclusive Market Uses;
+
+                  1.1.25   "OFFER" shall have the meaning ascribed to that term
+                           in Section 2.4;
+
+                  1.1.26   "PARTIES" means Leitch and Path 1 and "PARTY" means
+                           any one of them (as the context indicates);
+
+                  1.1.27   "PATH 1 INTELLECTUAL PROPERTY" means:
+
+                           1.1.27.1 all Technology, Technology Documentation,
+                                    Know-How and other Confidential Information
+                                    relating to the TrueCircuit Technology owned
+                                    or licensed by Path 1 as of the Effective
+                                    Date;
+
+                           1.1.27.2 Enhancements to any of the Technology,
+                                    Technology Documentation, Know-How or other
+                                    Confidential Information identified in
+                                    Section 1.1.27.1;
+
+                           1.1.27.3 any new Technology, Technology
+                                    Documentation, Know-How or other
+                                    Confidential Information relating to the
+                                    TrueCircuit Technology;
+
+                           1.1.27.4 the Network Operating System; and
+
+***CONFIDENTIAL TREATMENT REQUESTED
+
+                                      8
+<PAGE>
+
+                           1.1.27.5 any trade-marks, trade names, service marks,
+                                    logos or other distinguishing features of
+                                    Path 1 which Leitch is required to display
+                                    pursuant to Section 4.1 hereof;
+
+                  1.1.28   "PERSON" means any individual, partnership, limited
+                           partnership, joint venture, syndicate, sole
+                           proprietorship, company or corporation with or
+                           without share capital, unincorporated association,
+                           trust, trustee, executor, administrator or other
+                           legal personal representative, regulatory body or
+                           agency, government or governmental agency, authority
+                           or entity however designated or constituted;
+
+                  1.1.29   "PROFESSIONAL MATERIAL" means:
+
+                           1.1.29.1 audio or video signals created or
+                                    distributed by commercial Persons
+                                    (including, without limitation, producers
+                                    and broadcasters) for ultimate receipt or
+                                    use by non-commercial Persons; and
+
+                           1.1.29.2 data relating to, describing or otherwise
+                                    used in connection with the signals
+                                    described in Section 1.1.29.1, including,
+                                    without limitation: specification, control
+                                    and monitoring data; closed captioning
+                                    information; teletext; and teleprompting
+                                    information.
+
+                           Without limiting the generality of the foregoing,
+                           "PROFESSIONAL MATERIAL" includes, without limitation,
+                           audio or video signals created or distributed by
+                           motion picture studios, television and cable networks
+                           (including, without limitation, networks such as ABC,
+                           NBC, CBS and FOX), radio stations and networks, and
+                           entities licensed by the U.S. Federal Communications
+                           Commission or any equivalent foreign regulatory
+                           authority;
+
+                  1.1.30   "PROPOSED LICENSEE" shall have the meaning ascribed
+                           to that term in Section 2.2(ii)(A);
+
+                  1.1.31   "ROYALTY-FREE PERIOD" means the period beginning on
+                           the Effective Date and continuing for a period of
+                           sixty (60) months from the [****];
+
+                  1.1.32   "SUBLICENSE" means granting end-user licenses to
+                           executable code to use, but not to modify, executable
+                           versions of software provided in connection with
+                           TrueCircuit Products;
+
+                  1.1.33   "TECHNOLOGY" means computer programs, applications,
+                           application programming and other interfaces,
+                           integrations, applets, software, firmware, hardware,
+                           mainframes, personal computers, servers,
+                           client/server stations, network equipment,
+                           semi-conductor chips, embedded software, routers,
+                           communication lines and other equipment
+
+***CONFIDENTIAL TREATMENT REQUESTED
+
+                                      9
+<PAGE>
+
+                           technology products, trade secrets, processes,
+                           other intellectual property and technology, and
+                           any services related to any of the foregoing
+                           (including all Intellectual Property Rights
+                           therein);
+
+                  1.1.34   "TECHNOLOGY DOCUMENTATION" means all information,
+                           instructions, manuals, designs, drawings, models,
+                           samples, schematics, experimental or test data,
+                           notes, charts, reports, specifications, prototypes
+                           and other information:
+
+                           1.1.34.1 relating to the development, use,
+                                    installation, implementation, integration,
+                                    set-up, configuration, operation, updating,
+                                    enhancement, modification, maintenance or
+                                    support of Technology; or
+
+                           1.1.34.2 used in connection with the instruction and
+                                    training of individuals in the development,
+                                    use, installation, implementation,
+                                    integration, set-up, configuration,
+                                    operation, updating, enhancement,
+                                    modification, maintenance or support of
+                                    Technology,
+
+                           in any form or medium whatsoever and whether or not
+                           copyrightable, and all Intellectual Property Rights
+                           therein;
+
+                  1.1.35   "TERM" means the Initial Term and any period during
+                           which the Initial Term or any extension thereof is
+                           extended pursuant to Section 6.1;
+
+                  1.1.36   "TRUECIRCUIT TECHNOLOGY" means Technology which is
+                           designed to facilitate the real-time transport of
+                           data over Internet Protocol networking
+                           infrastructures and includes, without limitation, all
+                           Enhancements to such Technology developed by Path 1
+                           during the Term hereof; and
+
+                  1.1.37   "TRUECIRCUIT PRODUCTS" shall have the meaning
+                           ascribed to that term in Section 2.1.
+
+         1.2      HEADINGS AND TABLE OF CONTENTS
+
+         The inclusion of headings and a table of contents in this Agreement are
+         for convenience of reference only and shall not affect the construction
+         or interpretation hereof.
+
+         1.3      TECHNICAL TERMS
+
+         Each word and abbreviation which has a technical or trade meaning is
+         used in this Agreement in accordance with such recognized meaning.
+
+         1.4      CURRENCY
+
+         Except where otherwise expressly provided, all amounts in this
+         Agreement are stated and shall be paid in the lawful currency of the
+         United States.
+
+                                      10
+<PAGE>
+
+         1.5      EXTENDED MEANINGS
+
+         Unless the context requires otherwise, words importing the singular
+         include the plural and vice versa and words importing gender include
+         all genders. The terms "including" and "include" shall mean "including
+         without limitation" and "include without limitation", respectively.
+
+         1.6      LEGAL COUNSEL
+
+         The Parties acknowledge that their respective legal counsel have
+         reviewed and participated in settling the terms of this Agreement, and
+         that any rule of construction to the effect that any ambiguity is to be
+         resolved against the drafting Party shall not be applicable in the
+         interpretation of this Agreement.
+
+         1.7      AGREEMENT AND SCHEDULES AMENDMENTS AND SUPPLEMENTS
+
+         This Agreement, including each Schedule to this Agreement, may not be
+         amended or supplemented except by mutual written agreement of
+         authorized representatives of the Parties. Any such agreement shall
+         expressly state that it is intended to amend or supplement, as the case
+         may be, this Agreement.
+
+                                   ARTICLE 2
+                                 RIGHTS GRANTED
+
+         2.1      LICENSE OF PATH 1 INTELLECTUAL PROPERTY
+
+         During the Term, and subject to the following sentence, Path 1 grants
+         to Leitch a non-exclusive, worldwide license to use, copy, modify,
+         enhance, sell, distribute, support, maintain, and create derivative
+         works from the Path 1 Intellectual Property in connection with the
+         development, use and exploitation by Leitch of commercial products
+         which incorporate or exploit Path 1 Intellectual Property (each, a
+         "TRUECIRCUIT PRODUCT"). The license granted in this Section 2.1 shall
+         not include any rights to the source code of the Network Operating
+         System.
+
+         2.2      EXPLOITATION RIGHTS IN TRUECIRCUIT PRODUCTS
+
+                  (i)      During the Exclusive Term, Leitch shall have the
+                           exclusive, worldwide right to make, have made, sell,
+                           offer for sale, Sublicense, support, maintain and
+                           otherwise exploit the TrueCircuit Products in
+                           connection with commercial activities directed to the
+                           Exclusive Market Use.
+
+                  (ii)     During the Exclusive Term, Leitch shall have the
+                           exclusive, worldwide right to grant to any Person the
+                           non-exclusive right to make, have made, sell, offer
+                           for sale, Sublicense, support, maintain and otherwise
+                           exploit the TrueCircuit Products in connection with
+                           commercial activities directed to the Exclusive
+                           Market Use, subject to the following:
+
+
+                                       11
+
+<PAGE>
+
+                           (A)      prior to granting any rights to any Person
+                                    pursuant to this Section 2.2(ii), Leitch
+                                    shall provide written notice to Path 1
+                                    identifying the Person to whom Leitch
+                                    proposes to grant such rights (the "PROPOSED
+                                    LICENSEE");
+
+                           (B)      Path 1 may, within thirty (30) Calendar Days
+                                    following the receipt of such notice, notify
+                                    Leitch in writing that Leitch may not grant
+                                    any rights to the Proposed Licensee,
+                                    provided that Path 1 may only provide such
+                                    notice to Leitch if, in Path 1's reasonable
+                                    determination, there is a material and
+                                    foreseeable likelihood that the Proposed
+                                    Licensee's exercise of such rights shall
+                                    have a material adverse effect on Path 1's
+                                    commercial activities relating to the
+                                    Non-Exclusive Market Use;
+
+                           (C)      if Path 1 provides the notice referred to in
+                                    Section 2.2(ii)(B) within thirty (30)
+                                    Calendar Days following the receipt by Path
+                                    1 of the notice provided by Leitch pursuant
+                                    to Section 2.2(ii)(A), Leitch shall not be
+                                    entitled to grant the rights to such Person
+                                    pursuant to this Section 2.2(ii); and
+
+                           (D)      if Path 1 does not provide the notice
+                                    referred to in Section 2.2(ii)(B) within
+                                    thirty (30) Calendar Days following the
+                                    receipt by Path 1 of the notice provided by
+                                    Leitch pursuant to Section 2.2(ii)(A),
+                                    Leitch shall be entitled to grant the rights
+                                    to such Person pursuant to this Section
+                                    2.2(ii).
+
+                  (iii)    During the period commencing on the first Calendar
+                           Day following the expiry of the Exclusive Term and
+                           continuing for the duration of the Term, Leitch shall
+                           have the non-exclusive, worldwide right to make, have
+                           made, sell, offer for sale, Sublicense, support,
+                           maintain and otherwise exploit the TrueCircuit
+                           Products in connection with commercial activities
+                           directed to the Exclusive Market Use.
+
+                  (iv)     During the Term, subject to any exclusive rights
+                           granted by Path 1 in accordance with Section 2.4 and
+                           the limitations thereon set forth in Section 2.4,
+                           Leitch shall have the non-exclusive, worldwide right
+                           to make, have made, sell, offer for sale, Sublicense,
+                           support, maintain and otherwise exploit the
+                           TrueCircuit Products in connection with commercial
+                           activities relating to the Non-Exclusive Market Use.
+                           The terms and conditions of this Agreement shall
+                           apply to the exercise by Leitch of this right;
+                           provided, however, the Parties agree to negotiate in
+                           good faith such different or additional terms and
+                           conditions governing the exercise by Leitch of this
+                           right as may be commercially reasonable and
+                           consistent with industry standard and which shall be
+                           at least as favourable in all respects as the terms
+                           and conditions extended to any other customer or
+                           licensee of Path 1.
+
+
+                                       12
+
+<PAGE>
+
+                  (v)      Leitch shall have no right to grant sublicenses under
+                           this Agreement other than the rights specifically set
+                           forth in Section 2.2 (ii) and the right to grant
+                           Sublicenses specifically set forth in this Section
+                           2.2.
+
+         2.3      QUALITY AND PERFORMANCE
+
+         Leitch shall design and manufacture TrueCircuit Products in accordance
+         with any reasonable quality and performance criteria provided by Path 1
+         to Leitch in writing. Leitch shall, upon request, provide on a loan
+         basis to Path 1 a reasonable number of samples of TrueCircuit Products
+         for testing, together with instruction and service manuals. In the
+         event that Path 1 shall provide Leitch with written notice that any
+         TrueCircuit Product offered for sale by Leitch does not comply with
+         such reasonable quality and performance criteria, Leitch shall, within
+         one hundred twenty (120) days of receipt of such notice from Path 1,
+         either a) remedy the noncompliance or b) suspend the sale of the same.
+         In addition, Leitch shall include in its agreements with its Proposed
+         Licensees requirements comparable to those contained in this Section
+         2.3.
+
+         2.4      RIGHT OF FIRST OFFER IN RESPECT OF PATH 1 INTELLECTUAL
+                  PROPERTY
+
+         Path 1 shall have the right to grant to an Arm's Length Licensee the
+         exclusive right to use the Path 1 Intellectual Property to manufacture
+         products and to sell such products in connection with commercial
+         activities relating to any Non-Exclusive Market Use, provided that Path
+         1 shall not grant any such exclusive right without first providing
+         Leitch with the option to acquire that exclusive right in accordance
+         with the following procedure:
+
+                  (i)      Path 1 shall provide written notice to Leitch
+                           specifying the major terms and conditions pursuant to
+                           which Path 1 proposes to grant to Leitch the
+                           exclusive right to use the Path 1 Intellectual
+                           Property to manufacture products and to sell such
+                           products in connection with commercial activities
+                           relating to a Non-Exclusive Market Use (the "OFFER").
+                           The terms and conditions proposed by Path 1 in the
+                           Offer shall be reasonable, consistent with this
+                           Agreement and consistent with industry standards;
+
+                  (ii)     Leitch shall provide written notice to Path 1
+                           indicating whether it rejects the Offer or whether it
+                           wishes to negotiate the terms of the Offer with Path
+                           1 within fourteen (14) Calendar Days of the date
+                           Leitch receives such notice. If Leitch does not
+                           respond to Path 1 within such fourteen (14) Calendar
+                           Day period, Leitch shall be deemed to have rejected
+                           the Offer and Path 1 shall be governed by the
+                           provisions of Section 2.4(vi);
+
+                  (iii)    if Leitch provides written notice to Path 1 that it
+                           wishes to negotiate the terms of the Offer with Path
+                           1 in accordance with Section 2.4(ii), then, for a
+                           period of up to thirty (30) Calendar Days following
+                           the date upon which Leitch received the Offer from
+                           Path 1, Leitch and Path 1 shall negotiate exclusively
+                           the terms upon which Leitch shall be exclusively
+                           entitled to use the Path 1 Intellectual Property to
+                           manufacture products and to sell
+
+
+                                       13
+
+<PAGE>
+
+                           such products in connection with commercial
+                           activities relating to such Non-Exclusive Market
+                           Use based upon the terms and conditions set out in
+                           the Offer. The Parties may extend this thirty (30)
+                           Calendar Day exclusive negotiating period upon
+                           mutual written agreement;
+
+                  (iv)     if Leitch and Path 1 agree in writing to the terms
+                           and conditions pursuant to which Leitch shall be
+                           exclusively entitled to use the Path 1 Intellectual
+                           Property to manufacture products and to sell such
+                           products in connection with commercial activities
+                           relating to such Non-Exclusive Market Use, then Path
+                           1 shall grant such exclusive rights to Leitch;
+
+                  (v)      if Leitch and Path 1 fail to agree in writing to the
+                           terms and conditions pursuant to which Leitch shall
+                           be exclusively entitled to use the Path 1
+                           Intellectual Property to manufacture products and to
+                           sell such products in connection with commercial
+                           activities relating to such Non-Exclusive Market Use
+                           or if Leitch notifies Path 1 in writing that it
+                           rejects the Offer, then Leitch shall be deemed to
+                           have rejected the Offer;
+
+                  (vi)     if Leitch is deemed to have rejected the Offer
+                           pursuant to Section 2.4(ii) or Section 2.4(v), then
+                           Path 1 may grant the exclusive right to use the Path
+                           1 Intellectual Property to manufacture products and
+                           to sell such products in connection with commercial
+                           activities relating to such Non-Exclusive Market Use
+                           to any Arm's Length Licensee upon terms and
+                           conditions which, taken as a whole, are not
+                           materially more favourable than those offered to
+                           Leitch, provided that Path 1 may not grant such
+                           rights to any such Arm's Length Licensee later than
+                           one hundred and eighty (180) Calendar Days after the
+                           date that Leitch is deemed to have rejected the Offer
+                           without Leitch's prior written consent. If Path 1
+                           wishes to grant to any Arm's Length Licensee the
+                           exclusive right to use the Path 1 Intellectual
+                           Property to manufacture products and to sell such
+                           products in connection with commercial activities
+                           relating to a Non-Exclusive Market Use on terms and
+                           conditions which, taken as a whole, are materially
+                           more favourable than those offered to Leitch, Path 1
+                           must first offer such more favourable terms to Leitch
+                           on an exclusive basis, and the Parties shall attempt
+                           to negotiate the exclusive right to use the Path 1
+                           Intellectual Property to manufacture products and to
+                           sell such products in connection with commercial
+                           activities relating to such Non-Exclusive Market Use
+                           in accordance with the provisions of this Section
+                           2.4;
+
+                  (vii)    if Path 1 enters into an agreement with an Arm's
+                           Length Licensee pursuant to which it grants to such
+                           Arm's Length Licensee the exclusive right to use the
+                           Path 1 Intellectual Property to manufacture products
+                           and to sell such products in connection with
+                           commercial activities relating to a Non-Exclusive
+                           Market Use after complying with the requirements of
+                           this Section 2.4, then Path 1 shall provide a copy of
+                           such agreement to Leitch, and Leitch shall agree
+                           that, subject to Section 2.4(viii), it shall not
+                           knowingly sell any TrueCircuit Products within the
+                           exclusive market
+
+
+                                       14
+
+<PAGE>
+
+                           segment granted by Path 1 to such Arm's Length
+                           Licensee for so long as the Arm's Length Licensee
+                           is granted exclusive rights in such market
+                           segment. Notwithstanding anything else in this
+                           Agreement, Leitch shall have no liability to Path
+                           1, any Arm's Length Licensee, or any other Person
+                           in the event that any TrueCircuit Products sold by
+                           Leitch to Persons who are not within the exclusive
+                           market segment granted by Path 1 to an Arm's
+                           Length Licensee are sold within the exclusive
+                           market segment granted to such Arm's Length
+                           Licensee without Leitch's knowledge;
+
+                  (viii)   Notwithstanding Section 2.4(vii), Leitch shall have
+                           the following rights with respect to any exclusive
+                           market segment granted by Path 1 to an Arm's Length
+                           Licensee:
+
+                           (A)      during the period commencing on the date
+                                    that Path 1 provides to Leitch a copy of the
+                                    agreement between Path 1 and the applicable
+                                    Arm's Length Licensee relating to such
+                                    exclusive market segment and continuing
+                                    until the earlier of: (a) [****]; or
+                                    (b) until inventory of TrueCircuit Products
+                                    and parts existing or ordered as of the
+                                    commencement of such period have been
+                                    exhausted, Leitch shall have the right to
+                                    sell and offer for sale TrueCircuit Products
+                                    to, and support and maintain TrueCircuit
+                                    Products sold by Leitch for, any Person in
+                                    the exclusive market segment granted to such
+                                    Arm's Length Licensee;
+
+                           (B)      during the period commencing on the date
+                                    that Path 1 provides to Leitch a copy of the
+                                    agreement between Path 1 and the applicable
+                                    Arm's Length Licensee relating to such
+                                    exclusive market segment and continuing for
+                                    a period of [****], Leitch shall
+                                    have the right to sell and offer for sale
+                                    TrueCircuit Products to, and support and
+                                    maintain TrueCircuit Products sold by Leitch
+                                    for, any Person in the exclusive market
+                                    segment granted to such Arm's Length
+                                    Licensee who purchased any TrueCircuit
+                                    Product from Leitch prior to the effective
+                                    date of the exclusivity granted by Path 1 to
+                                    such Arm's Length Licensee; and
+
+                           (C)      during the period commencing on the date
+                                    that Path 1 provides to Leitch a copy of the
+                                    agreement between Path 1 and the applicable
+                                    Arm's Length Licensee relating to such
+                                    exclusive market segment and continuing for
+                                    a period of [****], Leitch shall
+                                    have the right to provide support and
+                                    maintenance services relating to the
+                                    TrueCircuit Products sold by Leitch for any
+                                    Person in the exclusive market segment
+                                    granted to such Arm's Length Licensee who
+                                    purchased any TrueCircuit Product from
+                                    Leitch.
+
+                  (ix)     Path 1 shall not enter into an agreement with an
+                           Arm's Length Licensee pursuant to which Path 1 grants
+                           to such Arm's Length Licensee the
+
+***CONFIDENTIAL TREATMENT REQUESTED
+
+                                       15
+
+<PAGE>
+
+                           exclusive right to use the Path 1 Intellectual
+                           Property to manufacture products and to sell such
+                           products in connection with commercial activities
+                           relating to any Core Use unless such agreement
+                           contains a provision requiring such Arm's Length
+                           Licensee to sell such products to Leitch under
+                           terms and conditions at least as favourable in all
+                           respects as those extended to any other customer
+                           or licensee of the Arm's Length Licensee.
+
+         2.5      NETWORK OPERATING SYSTEM
+
+         Path 1 shall develop a Network Operating System and shall enter into a
+         license agreement with Leitch pursuant to which Path 1 grants to Leitch
+         a license to use, and sell and distribute sublicenses to use, the
+         Network Operating System in connection with the development, use and
+         exploitation by Leitch of TrueCircuit Products in accordance with the
+         terms of this Agreement. The Network Operating System shall be supplied
+         in object code format only; however, Path 1 shall enter into a separate
+         source code escrow agreement with Leitch and an escrow agent acceptable
+         to both Leitch and Path 1. Such license agreement shall provide that
+         Leitch shall pay to Path 1 a license fee in respect of the Network
+         Operating System to be mutually agreed to by the Parties, which such
+         license fee shall:
+
+                  (i)      be consistent with similar license fees charged for
+                           the right to use and exploit similar Technology in
+                           the market segment in respect of which Leitch has the
+                           right to use and exploit the Network Operating System
+                           and be commercially reasonable based upon the value
+                           of the market segment in respect of which Leitch has
+                           the right to use and exploit the Network Operating
+                           System, taking into account the market's size,
+                           potential, competitive pressures and other
+                           characteristics which affect its value;
+
+                  (ii)     be at least as favourable to Leitch as the most
+                           favourable license fee paid by any Person to Path 1
+                           for similar license rights to use and exploit similar
+                           Technology in a market segment similar to the market
+                           segment in respect of which Leitch has the right to
+                           use and exploit the Network Operating System; and
+
+                  (iii)    subject to applicable competition or anti-trust laws,
+                           be in an amount which, based on the characteristics
+                           of the market in respect of which Leitch has the
+                           right to use and exploit the Network Operating
+                           System, enables Leitch to charge a price to its
+                           customers for the Network Operating System which
+                           includes a margin of no less than [****].
+
+                                   ARTICLE 3
+                       ROYALTIES, FEES AND RELATED MATTERS
+
+         3.1      ROYALTY FOR PATH 1 INTELLECTUAL PROPERTY
+
+***CONFIDENTIAL TREATMENT REQUESTED
+
+                                       16
+
+<PAGE>
+
+         In consideration of the rights granted by Path 1 to Leitch pursuant to
+         Article 2, commencing on the first Business Day following the expiry of
+         the Royalty-Free Period and continuing in respect of each consecutive
+         three (3) month period thereafter, Leitch shall pay Path 1 a royalty in
+         respect of each individual TrueCircuit Product sold by Leitch or any
+         Leitch sublicensee for which Leitch or such Leitch sublicensee has
+         received full payment during such three-month period which is equal to
+         the lesser of:
+
+                  3.1.1    [****]; and
+
+                  3.1.2    [****] of the Net TrueCircuit Product
+                           Revenue for such TrueCircuit Product.
+
+         3.2      PAYMENT PROCESS AND REPORTING
+
+         Within thirty (30) Calendar Days after the end of each three-month
+         period in respect of which a royalty payment is due, Leitch shall
+         provide to Path 1 a written report containing all relevant information
+         upon which Leitch's calculation of the royalty due and payable is
+         based. Within ten (10) Business Days after delivery of the report, Path
+         1 shall render to Leitch an invoice indicating the amount of the
+         royalty due for such period. All such royalty payments shall be due and
+         payable by Leitch within thirty (30) Calendar Days following the
+         receipt by Leitch of such invoice.
+
+         3.3      TAXES
+
+         Each Party shall be responsible for the payment of those taxes, duties,
+         and levies levied on that Party from time to time in relation to such
+         Party's performance pursuant to this Agreement. Where one Party is
+         required to collect and remit taxes payable by the other Party, that
+         Party shall so collect and remit such taxes. Without limiting the
+         generality of the foregoing, Leitch shall be entitled to withhold from
+         all fees payable to Path 1 hereunder all applicable withholding taxes
+         and to remit same to all applicable taxing authorities as required by
+         law.
+
+         3.4      AUDIT
+
+         Leitch will keep complete and accurate books and records containing
+         information reasonably necessary for the purpose of determining the
+         amount of royalties payable to Path 1 hereunder. At the request of Path
+         1, such books and supporting data will be made available, upon
+         reasonable notice during the Term of this Agreement and for a period of
+         two (2) years after its termination or expiration, for inspection by an
+         independent third party auditor selected by the Party requesting the
+         audit and reasonably acceptable to Leitch. In the event any such audit
+         reveals an error in the books and records relating to the royalties
+         payable to Path 1, the overpayment or deficiency will be paid by the
+         appropriate Party within thirty (30) calendar days after completion of
+         the audit. The cost of such audit will be paid by the Party requesting
+         the audit, provided that if such audit reveals an error adverse to the
+         auditing Party in excess of ten percent (10%), Leitch will pay, in
+         addition to the deficiency, the reasonable, documented fees and
+         expenses of such auditor.
+
+***CONFIDENTIAL TREATMENT REQUESTED
+
+                                       17
+
+<PAGE>
+
+                                   ARTICLE 4
+               TRADE-MARKS; STANDARDIZATION; PUBLIC ANNOUNCEMENTS
+
+         4.1      USE OF PATH 1 TRADE-MARK
+
+         Leitch agrees that it shall include, in all user manuals provided to
+         its customers in relation to any products or services which include
+         Path 1 Intellectual Property, an acknowledgement specifying that such
+         product or service includes Path 1 Intellectual Property, which
+         acknowledgement shall include a reference to the applicable trade-mark
+         of Path 1. The form of such acknowledgement shall be mutually agreed to
+         by the Parties. In addition, Leitch shall include in its agreements
+         with its Proposed Licensees a requirement that the Proposed Licensee
+         shall comply with provisions substantially similar to this Section 4.1.
+
+         4.2      STANDARDIZATION
+
+         Leitch and Path 1 each agree to market and promote the products and
+         services sold by the Parties hereunder in a manner designed to
+         encourage the widespread and universal adoption of such products and
+         services as the industry standard.
+
+         4.3      PUBLIC ANNOUNCEMENTS
+
+         Neither Party shall disclose or permit the disclosure to any other
+         person of the existence of this Agreement or any of the transactions
+         contemplated hereby unless such disclosure is approved in writing in
+         advance by the other Party or is required by any applicable law,
+         regulation (including, but not limited to, stock exchange regulations)
+         or legal process. Any public announcement or similar publicity with
+         respect to this Agreement or the transactions contemplated hereby shall
+         be issued, if at all, at such time and in such manner as is agreed by
+         the Parties.
+
+                                   ARTICLE 5
+                    CONFIDENTIALITY, OWNERSHIP AND PROTECTION
+
+         5.1      CONFIDENTIALITY COVENANT
+
+                  5.1.1    Each Party shall at all times, both during the term
+                           of this Agreement and thereafter, keep and hold all
+                           Confidential Information of the other Party in the
+                           strictest confidence, and shall not use such
+                           Confidential Information for any purpose, other than
+                           as may be reasonably necessary for the performance of
+                           its duties pursuant to this Agreement or as otherwise
+                           expressly permitted by this Agreement, without the
+                           other Party's prior written consent.
+
+                  5.1.2    Each Party agrees:
+
+                           (A)      that it shall not disclose to any third
+                                    party or use any Confidential Information
+                                    disclosed to it by the other except as
+                                    expressly permitted in this Agreement; and
+
+
+                                       18
+
+<PAGE>
+
+                           (B)      that it shall take all reasonable measures
+                                    to maintain the confidentiality of all
+                                    Confidential Information of the other Party
+                                    in its possession or control, which shall in
+                                    no event be less than the measures it uses
+                                    to maintain the confidentiality of its own
+                                    information of similar importance.
+
+                  5.1.3    Notwithstanding any other provision of this Section
+                           5.1, each Party may disclose Confidential
+                           Information:
+
+                           (A)      to the extent required by a court of
+                                    competent jurisdiction or other governmental
+                                    authority or otherwise as required by law;
+                                    or
+
+                           (B)      on a "need-to-know" basis under an
+                                    obligation of confidentiality to its
+                                    Affiliates and to its and its Affiliates'
+                                    authorized agents, contractors, legal
+                                    counsel, accountants, banks and other
+                                    financing sources and their advisors.
+
+                  5.1.4    The terms and conditions of this Agreement constitute
+                           Confidential Information of each Party and shall not
+                           be disclosed without the written consent of the other
+                           Party which consent shall not be unreasonably
+                           withheld or delayed.
+
+                  5.1.5    Each Party acknowledges that its failure to comply
+                           with the provisions of this Section 5.1 shall cause
+                           irreparable harm to the other Party which cannot be
+                           adequately compensated for in damages, and
+                           accordingly acknowledges that the other Party shall
+                           be entitled to obtain, in addition to any other
+                           remedies available to it, interlocutory and permanent
+                           injunctive relief to restrain any anticipated,
+                           present or continuing breach of this Section 5.1.
+
+         5.2      RETURN OF CONFIDENTIAL INFORMATION
+
+         Upon the termination of this Agreement, each Party shall return to the
+         other Party or destroy, upon the other Party's request to that effect,
+         all Confidential Information of the other which is then in its
+         possession or control, and shall remove all digital representations
+         thereof in any form from all electronic storage media in its possession
+         or under its control.
+
+         5.3      PATH 1 INTELLECTUAL PROPERTY
+
+         Leitch acknowledges and agrees that, except as expressly provided
+         hereunder, Path 1 shall own all Intellectual Property Rights in all
+         Path 1 Intellectual Property including, without limitation, the Network
+         Operating System. Without limiting the generality of the foregoing,
+         Path 1 shall have the exclusive, worldwide right, at its own expense,
+         to pursue the registration of Intellectual Property Rights in the Path
+         1 Intellectual Property and to enforce its Intellectual Property Rights
+         therein. Leitch shall co-operate with Path 1, at Path 1's expense, in
+         the pursuit of registration of Intellectual Property Rights in the Path
+         1 Intellectual Property. Leitch further agrees that it shall promptly
+         notify Path 1 in
+
+
+                                       19
+
+<PAGE>
+
+         writing of any infringement of any Intellectual Property Rights in any
+         Path 1 Intellectual Property of which it becomes aware and that it
+         shall co-operate with Path 1, at Path 1's expense, in enforcing Path
+         1's Intellectual Property Rights against third parties.
+
+                                   ARTICLE 6
+                 AGREEMENT TERM, EXCLUSIVE TERM AND TERMINATION
+
+         6.1      DURATION OF AGREEMENT TERM
+
+         This Agreement shall begin on the Effective Date and shall continue for
+         a period of five (5) years (the "INITIAL TERM") unless terminated
+         earlier in accordance with Section 6.3. This Agreement shall
+         automatically renew for consecutive additional periods of five (5)
+         years unless:
+
+                  6.1.1    terminated earlier in accordance with Section 6.3; or
+
+                  6.1.2    either Party provides written notice to the other
+                           Party on or prior to the Calendar Day which is ninety
+                           (90) Calendar Days prior to the end of the
+                           then-current Initial Term or renewal thereof
+                           indicating that it wishes to terminate the Agreement
+                           at the end of the then-current Initial Term or
+                           renewal thereof; provided that Path 1 may only
+                           provide such a notice of termination if the Exclusive
+                           Term has expired as of the Calendar Day that Path 1
+                           wishes to provide such notice of termination.
+
+         6.2      DURATION OF EXCLUSIVE TERM
+
+                  6.2.1    The initial duration of the Exclusive Term shall be
+                           the period beginning on the Effective Date and
+                           continuing until the end of the first Exclusive Year
+                           as described in Section 1.1.14.1 (the "INITIAL
+                           EXCLUSIVE TERM"). The Exclusive Term shall thereafter
+                           automatically renew for consecutive additional
+                           periods of one (1) year (each of which, for greater
+                           certainty, shall constitute an Exclusive Year) if, in
+                           respect of the then-current Exclusive Year, Path 1
+                           has received Aggregate Annual Fees equal to or
+                           greater than the minimum Aggregate Annual Fees
+                           requirement applicable to each such Exclusive Year.
+                           The minimum Aggregate Annual Fees requirements
+                           applicable to each of the first five (5) Exclusive
+                           Year Periods are set out in Section 6.2.2 below. The
+                           minimum Aggregate Annual Fees requirement applicable
+                           to each Exclusive Year after the fifth (5th)
+                           Exclusive Year shall be determined in accordance with
+                           Section 6.2.3.
+
+                  6.2.2    The Parties agree that the minimum Aggregate Annual
+                           Fees requirement applicable to each of the first five
+                           (5) Exclusive Years shall be as indicated in the
+                           table below:
+
+<TABLE>
+<CAPTION>
+
+                 -------------------------------------------------- -------------------------------------------------
+                                  EXCLUSIVE YEAR                                 AGGREGATE ANNUAL FEES
+                 -------------------------------------------------- -------------------------------------------------
+<S>                                                                 <C>
+                 First                                              $        0
+                 -------------------------------------------------- -------------------------------------------------
+                 Second                                             $2,000,000
+                 -------------------------------------------------- -------------------------------------------------
+
+***CONFIDENTIAL TREATMENT REQUESTED
+
+                                       20
+
+<PAGE>
+
+
+                 -------------------------------------------------- -------------------------------------------------
+                 Third                                              $ 5,000,000
+                 -------------------------------------------------- -------------------------------------------------
+                 Fourth                                             $10,000,000
+                 -------------------------------------------------- -------------------------------------------------
+                 Fifth                                              $15,000,000
+                 -------------------------------------------------- -------------------------------------------------
+</TABLE>
+
+                  6.2.3    The Parties agree to follow the process set out in
+                           this Section 6.2.3 in order to determine the minimum
+                           Aggregate Annual Fees requirement applicable to the
+                           sixth (6th) and each subsequent Exclusive Year. No
+                           later than ninety (90) Calendar Days prior to the end
+                           of the then-current Exclusive Year, the Parties shall
+                           meet and negotiate in good faith the Aggregate Annual
+                           Fees requirement applicable to the following
+                           Exclusive Year. The Parties agree that each such
+                           Aggregate Annual Fees requirement shall be no less
+                           than the Aggregate Annual Fees requirement applicable
+                           to the preceding Exclusive Year and no greater than
+                           one and one half (1.5) times the Aggregate Annual
+                           Fees requirement applicable to the preceding
+                           Exclusive Year.
+
+                  6.2.4    Path 1 may reduce the Aggregate Annual Fees
+                           requirement in any Exclusive Year or extend the
+                           period of time in respect of which Leitch must
+                           achieve such Aggregate Annual Fees requirement beyond
+                           the Exclusive Year in the event that the actual
+                           market conditions during such Exclusive Year are less
+                           favourable than the forecasted market conditions for
+                           such Exclusive Year.
+
+         6.3      TERMINATION
+
+                  6.3.1    Either Party may terminate this Agreement by
+                           providing written notice to the other Party if the
+                           other Party commits a material breach of a material
+                           term of this Agreement and fails to cure such breach
+                           within thirty (30) Calendar Days of receipt of
+                           written notice of such breach from the non-breaching
+                           Party.
+
+                  6.3.2    Either Party may terminate this Agreement if the
+                           other Party: (i) becomes the subject of a voluntary
+                           or involuntary petition in bankruptcy or any
+                           proceeding relating to insolvency, receivership,
+                           liquidation, or composition for the benefit of
+                           creditors, if that petition or proceeding is not
+                           dismissed within sixty (60) Calendar Days after
+                           filing; (ii) suspends the operation of its present
+                           business or liquidates its business assets; or (iii)
+                           generally fails to pay its debts as such debts become
+                           due or admits in writing its inability to pay its
+                           debts.
+
+         6.4      EFFECTS OF TERMINATION OR EXPIRATION
+
+         Upon the termination or expiration of this Agreement, Leitch shall have
+         the following rights:
+
+                  6.4.1    during the period commencing on the effective date of
+                           such termination or expiration and continuing for the
+                           earlier of: (a) [****]; or (b) until
+
+***CONFIDENTIAL TREATMENT REQUESTED
+
+                                       21
+
+<PAGE>
+
+                           inventory of TrueCircuit Products and parts existing
+                           or ordered as of the date of termination or
+                           expiration have been exhausted;or expiration. Leitch
+                           shall have the non-exclusive, worldwide right to sell
+                           and offer for sale TrueCircuit Product to, and
+                           support and maintain the TrueCircuit Products sold by
+                           Leitch for, any Person in connection with commercial
+                           activities relating to the Exclusive Market Use and
+                           the Non-Exclusive Market Use;
+
+                  6.4.2    during the period commencing on the effective date of
+                           such termination or expiration and continuing for a
+                           period of [****], Leitch shall have the
+                           non-exclusive, worldwide right to sell and offer for
+                           sale TrueCircuit Products to, and support and
+                           maintain TrueCircuit Products sold by Leitch for, any
+                           Person who purchased any TrueCircuit Product from
+                           Leitch prior to the effective date of termination or
+                           expiration of this Agreement;
+
+                  6.4.3    during the period commencing on the effective date of
+                           such termination or expiration and continuing for a
+                           period of [****], Leitch shall have the right
+                           to provide support and maintenance services relating
+                           to the TrueCircuit Products sold by Leitch for any
+                           Person who purchased any TrueCircuit Product from
+                           Leitch; and
+
+                  6.4.4    during the periods referred to in Sections 6.4.1 to
+                           6.4.3, Leitch shall have a non-exclusive, worldwide
+                           license to use, copy, modify, enhance, sell,
+                           distribute, support, maintain, and create derivative
+                           works from the Path 1 Intellectual Property as
+                           required in order to exercise the rights set out in
+                           each of Sections 6.4.1, 6.4.2, and 6.4.3,
+                           respectively.
+
+         6.5      SURVIVAL
+
+         The  provisions of Articles 5 and 7 and Sections 6.4,  6.5, 9.5 and
+         9.7 shall survive any  termination  or expiration of this Agreement.
+
+                                   ARTICLE 7
+                 WARRANTY, INDEMNITY AND LIMITATION OF LIABILITY
+
+         7.1      LEITCH REPRESENTATIONS, WARRANTIES AND COVENANTS
+
+         Leitch represents, warrants and covenants to Path 1 as follows and
+         acknowledges that Path 1 has relied upon the completeness and accuracy
+         of such representations, warranties and covenants in entering into this
+         Agreement:
+
+                  7.1.1    it has the corporate capacity to enter into this
+                           Agreement and to perform each of its obligations
+                           hereunder;
+
+                  7.1.2    it has duly authorized, executed and delivered this
+                           Agreement and this Agreement constitutes a legally
+                           valid and binding obligation of it enforceable
+                           against it in accordance with its terms except as
+                           such enforcement may be limited by applicable
+                           bankruptcy, insolvency and
+
+***CONFIDENTIAL TREATMENT REQUESTED
+
+                                       22
+
+<PAGE>
+
+                           other laws of general application affecting the
+                           enforcement of creditors' rights and subject to
+                           general equitable principles; and
+
+                  7.1.3    Leitch's performance of the obligations in this
+                           Agreement shall comply with and shall neither
+                           contravene, breach nor infringe any laws or
+                           regulations applicable in Canada.
+
+         7.2      PATH 1 REPRESENTATIONS, WARRANTIES AND COVENANTS
+
+         Path 1 represents, warrants and covenants to Leitch as follows and
+         acknowledges that Leitch has relied upon the completeness and accuracy
+         of such representations, warranties and covenants in entering into this
+         Agreement:
+
+                  7.2.1    it has the corporate capacity to enter into this
+                           Agreement and to perform each of its obligations
+                           hereunder;
+
+                  7.2.2    it has duly authorized, executed and delivered this
+                           Agreement and this Agreement constitutes a legally
+                           valid and binding obligation of it enforceable
+                           against it in accordance with its terms except as
+                           such enforcement may be limited by applicable
+                           bankruptcy, insolvency and other laws of general
+                           application affecting the enforcement of creditors'
+                           rights and subject to general equitable principles;
+
+                  7.2.3    it is and shall be the legal and beneficial owner or
+                           authorized licensor of all Intellectual Property
+                           Rights in the Path 1 Intellectual Property free and
+                           clear of all liens, charges and encumbrances to the
+                           extent that the same may restrict or limit the
+                           ability of Path 1 to perform its obligations or of
+                           Leitch to exercise its rights under this Agreement
+                           and Path 1 has the full power and authority to grant
+                           the rights in the Path 1 Intellectual Property herein
+                           contemplated without the consent of any other person;
+
+                  7.2.4    Path 1 has not and shall not grant any rights or
+                           licenses to the whole or any part of the Path 1
+                           Intellectual Property or enter into any agreement or
+                           understanding that would conflict with Path 1's
+                           obligations or Leitch's rights under this Agreement;
+
+                  7.2.5    no portion of the Path 1 Intellectual Property
+                           contains or shall contain any disabling mechanism or
+                           protection feature designed to prevent its use
+                           including any clock, timer, counter, computer virus,
+                           worm, software lock, drop dead device, Trojan horse
+                           routine, trap door, time bomb or any other codes,
+                           designs, routines or instructions that may be used to
+                           access, modify, replicate, distort, delete, damage or
+                           disable the Path 1 Intellectual Property or any
+                           Technology on which the Path 1 Intellectual Property
+                           is used or displayed except as specifically designed
+                           into the Path 1 Intellectual Property of which Leitch
+                           has actual knowledge; and
+
+
+                                       23
+
+<PAGE>
+
+                  7.2.6    Path 1's performance of the obligations in this
+                           Agreement shall comply with and shall neither
+                           contravene, breach nor infringe any laws or
+                           regulations applicable in the United States of
+                           America.
+
+         7.3      LIMITATION OF WARRANTY
+
+         THE WARRANTIES SET FORTH IN THIS ARTICLE 7 ARE THE ONLY WARRANTIES
+         PROVIDED BY EITHER PARTY HERETO. EXCEPT AS EXPRESSLY PROVIDED HEREIN,
+         EACH PARTY HEREBY DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING WITHOUT
+         LIMITATION, ALL WARRANTIES OF MERCHANTABLE QUALITY, NON-INFRINGEMENT OF
+         THIRD PARTY RIGHTS AND FITNESS FOR A PARTICULAR PURPOSE.
+
+         7.4      INDEMNITIES
+
+                  7.4.1    Notwithstanding any other provision hereof, Leitch
+                           agrees to defend, indemnify and hold Path 1 and its
+                           Affiliates and their respective directors, officers
+                           and employees harmless from and against all losses,
+                           costs, damages, expenses and liabilities (including
+                           reasonable legal fees) which they may suffer or incur
+                           arising out of or as a result of or relating in any
+                           manner whatsoever to any breach by Leitch of Section
+                           7.1 or Section 5.1 of this Agreement.
+
+                  7.4.2    Notwithstanding any other provision hereof, Path 1
+                           agrees to defend, indemnify and hold Leitch and its
+                           Affiliates and their respective directors, officers
+                           and employees harmless from and against all losses,
+                           costs, damages, expenses and liabilities (including
+                           reasonable legal fees) which they may suffer or incur
+                           arising out of or as a result of or relating in any
+                           manner whatsoever to any breach by Path 1 of Section
+                           7.2 or Section 5.1 of this Agreement.
+
+         7.5      INFRINGEMENT CLAIMS
+
+                  7.5.1    If all or any portion of the Path 1 Intellectual
+                           Property is, in Path 1's opinion, likely to or
+                           otherwise does become the subject of a claim for
+                           infringement of any Intellectual Property Rights,
+                           Path 1 shall, at its option and its sole cost and
+                           expense, either:
+
+                           7.5.1.1  procure in favour of Leitch the right to use
+                                    the same as contemplated herein;
+
+                           7.5.1.2  modify the same to become non infringing
+                                    provided that any such modification does not
+                                    impair the ability of such Path 1
+                                    Intellectual Property to conform to and
+                                    perform in accordance with the
+                                    specifications therefor or the intended use
+                                    of such Path 1 Intellectual Property; or
+
+
+                                       24
+
+<PAGE>
+
+                           7.5.1.3  replace the infringing portion of such Path
+                                    1 Intellectual Property with compatible,
+                                    equivalent and non-infringing Technology,
+                                    Technology Documentation, Know-How or
+                                    Confidential Information, as applicable.
+
+         7.6      LIMITATIONS ON LIABILITY
+
+         EXCEPT FOR EACH PARTY'S LIABILITY FOR BREACHES OF SECTIONS 5.1 AND 7.4
+         AND PATH 1'S OBLIGATIONS PURSUANT TO SECTION 7.5, WHICH SHALL INCLUDE,
+         WITHOUT LIMITATION, LIABILITY FOR SPECIAL, CONSEQUENTIAL, INDIRECT,
+         INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES AND LOSS OF PROFIT, THE
+         LIABILITY OF EACH PARTY TO THE OTHER PARTY IN RELATION TO THIS
+         AGREEMENT SHALL IN ALL CIRCUMSTANCES BE LIMITED TO DIRECT DAMAGES AND
+         NEITHER PARTY SHALL BE LIABLE FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT,
+         INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES OR LOSS OF PROFIT, WHETHER IN
+         CONTRACT, TORT OR OTHERWISE RESULTING FROM ANY CAUSE OF ACTION
+         WHATSOEVER, INCLUDING NEGLIGENCE, GROSS NEGLIGENCE, NEGLIGENT
+         MISREPRESENTATION AND/OR FUNDAMENTAL BREACH OR OTHER THEORY OF LAW.
+
+                                   ARTICLE 8
+                   CONTRACT MANAGEMENT AND DISPUTE RESOLUTION
+
+         8.1      CONTRACT GOVERNANCE
+
+         The Parties agree to utilize the process set out in this Article 8 to
+         consult and render decisions relating to the interpretation and
+         implementation of this Agreement.
+
+         8.2      CONTACTS AND CONTACT MEETINGS
+
+         The Parties agree that each shall designate no more than two (2)
+         principal contacts for day-to-day liaison and management of their
+         relationship under this Agreement during the Term (the "Contacts").
+         Unless otherwise mutually agreed, the Contacts shall meet on a regular
+         basis in person or by telephone, but in any event no less than once a
+         month, in order to review the Parties' respective performance under
+         this Agreement, discuss relevant issues, and resolve or, upon mutual
+         agreement, escalate issues as necessary. The Contacts shall not have
+         any authority or right to either amend or revise this Agreement, nor to
+         waive any obligations, duties or responsibilities of either Party under
+         this Agreement. Each Party shall pay its own costs associated with its
+         respective Contacts.
+
+         8.3      JOINT MANAGEMENT COMMITTEE
+
+         Leitch and Path 1 shall form a management committee (the "Committee")
+         composed of two or more senior representatives of Leitch and two or
+         more senior representatives of Path 1 who shall, from time to time,
+         meet to review and discuss matters related to this Agreement. The
+         number of representatives of Leitch and Path 1 on the Committee shall
+         at all times be equal. The Committee in its discretion may invite the
+         participation of the
+
+
+                                       25
+
+<PAGE>
+
+         Contacts or others in its deliberations. The Committee shall have
+         the right to implement the Agreement and make decisions of an
+         interpretive nature (including without limitation decisions
+         regarding issues to be put before the Committee as set forth
+         herein), but the Committee shall not have the authority or right to
+         either amend or revise this Agreement, or to waive any obligations,
+         duties or responsibilities of either Party under this Agreement.
+         Each Party shall pay its own costs associated with its respective
+         Committee representatives.
+
+         8.4      DISPUTE RESOLUTION AND APPLICABLE LAW
+
+         Leitch and Path 1 expressly agree to the following exclusive internal
+         dispute escalation provisions governing all performance and disputes
+         under this Agreement:
+
+                  8.4.1    In the event that Leitch and Path 1 cannot resolve a
+                           dispute under the Agreement in the normal course of
+                           performance (including through recourse to the
+                           Contacts), then each Party's designated Committee
+                           members shall confer immediately and use reasonable
+                           efforts to resolve the dispute within fifteen (15)
+                           Calendar Days of their initial conference. No dispute
+                           shall be considered resolved until both Parties have
+                           agreed to the resolution in writing. The designated
+                           Committee members shall mutually agree on the methods
+                           by which they attempt to resolve any dispute such as,
+                           for example, telephone and/or video conferences,
+                           e-mail and fax communications, and/or face to face
+                           meetings. The costs under this Subsection 8.4.1 shall
+                           be shared equally by the Parties.
+
+                  8.4.2    In the event that each Party's designated Committee
+                           members cannot resolve a dispute under the Agreement
+                           as specified in Section 8.4.1 above, then each
+                           Party's respective Presidents (or an equivalent or
+                           higher position) having responsibility for this
+                           Agreement shall confer immediately and use reasonable
+                           efforts to resolve the dispute within fifteen (15)
+                           Calendar Days of their initial conference. No dispute
+                           shall be considered resolved until both Parties have
+                           agreed to the resolution in writing. The respective
+                           Presidents (or equivalents) shall mutually agree on
+                           the methods by which they attempt to resolve any
+                           dispute such as, for example, telephone and/or video
+                           conferences, e-mail and fax communications, and/or
+                           face to face meetings. The costs under this
+                           Subsection 8.4.2 shall be shared equally by the
+                           Parties.
+
+                  8.4.3    In the event that each Party's respective Presidents
+                           (or equivalents) cannot resolve a dispute under the
+                           Agreement as specified in Subsection 8.4.2 above,
+                           then the Parties shall resolve such dispute by
+                           arbitration administered by the American Arbitration
+                           Association under its Commercial Arbitration Rules,
+                           and judgment on the award rendered by the
+                           arbitrator(s) may be entered in any court of
+                           competent jurisdiction.
+
+                                   ARTICLE 9
+                                     GENERAL
+
+
+                                       26
+
+<PAGE>
+
+         9.1      EXPENSES
+
+         Each of Leitch and Path 1 shall be responsible for the expenses
+         (including fees and expenses of legal advisers, accountants and other
+         professional advisers) incurred by it, respectively, in connection with
+         the negotiation and settlement of this Agreement and the completion of
+         the transactions contemplated hereby.
+
+         9.2      NOTICES
+
+         Any notice or other communication required or permitted to be given
+         hereunder shall be in writing and shall be given by prepaid first-class
+         mail, by facsimile or other means of electronic communication or by
+         delivery as hereafter provided. Any such notice or other communication,
+         if mailed by prepaid first-class mail at any time other than during a
+         general discontinuance of postal service due to strike, lockout or
+         otherwise, shall be deemed to have been received on the fourth Business
+         Day after the post-marked date thereof, or if sent by facsimile or
+         other means of electronic communication, shall be deemed to have been
+         received on the Business Day following the sending, or if delivered by
+         hand shall be deemed to have been received at the time it is delivered
+         to the applicable address noted below either to the individual
+         designated below or to an individual at such address having apparent
+         authority to accept deliveries on behalf of the addressee. Notice of
+         change of address shall also be governed by this Section. In the event
+         of a general discontinuance of postal service due to strike, lock-out
+         or otherwise, notices or other communications shall be delivered by
+         hand or sent by facsimile or other means of electronic communication
+         and shall be deemed to have been received in accordance with this
+         Section. Notices and other communications shall be addressed as
+         follows:
+
+                  9.2.1    if to Path 1:
+
+                           Path 1 Network Technologies Inc.
+                           3636 Nobel Drive, Suite 275
+                           San Diego, California
+                           USA 92122
+                           Attention:       Douglas A. Palmer
+                           Telecopier No.: (858) 450-4203
+
+                  9.2.2    if to Leitch:
+
+                           Leitch Technology Corporation
+                           25 Dyas Road
+                           North York, Ontario
+                           Canada M3B 1V7
+                           Attention:       Reg Tiessen
+                           Telecopier No.: (416) 445-4308
+
+                           Copy to:
+
+                           Attention:       James J. Sterling
+                           Telecopier No.: (416) 445-0125
+
+
+                                       27
+
+<PAGE>
+
+         Notwithstanding the foregoing, any notice or other communication
+         required or permitted to be given by any Party pursuant to or in
+         connection with any arbitration procedures contained in any Schedule
+         hereto may only be delivered by hand or by facsimile or other means of
+         electronic communication.
+
+         9.3      TIME IS OF THE ESSENCE
+
+         Time is of the essence of this Agreement.
+
+         9.4      RELATIONSHIP OF PARTIES
+
+         This Agreement is not intended to, and none of the provisions of this
+         Agreement shall:
+
+                  9.4.1    create a partnership between Leitch and Path 1;
+
+                  9.4.2    create a fiduciary relationship between Leitch and
+                           Path 1;
+
+                  9.4.3    create a relationship of principal and agent between
+                           Leitch and Path 1;
+
+                  9.4.4    grant either Leitch or Path 1 any authority to bind
+                           the other to perform any obligations to any third
+                           party, or to hold itself out as having such authority
+                           to third parties; or
+
+                  9.4.5    create any joint or several liability between Leitch
+                           and Path 1.
+
+         9.5      FURTHER ASSURANCES
+
+         Each of the Parties hereto shall promptly do, make, execute or deliver,
+         or cause to be done, made, executed or delivered, all such further
+         acts, documents and things as the other Party hereto may reasonably
+         require from time to time for the purpose of giving effect to this
+         Agreement and shall use commercially reasonable efforts and take all
+         such steps as may be reasonably within its power to implement to their
+         full extent the provisions of this Agreement.
+
+         9.6      SEVERABILITY
+
+         Any provision of this Agreement which is invalid or unenforceable in
+         any jurisdiction shall, as to that jurisdiction, be ineffective to the
+         extent of such invalidity or unenforceability and shall be severed from
+         the balance of this Agreement, all without affecting the remaining
+         provisions of this Agreement or affecting the validity or
+         enforceability of such provision in any other jurisdiction and
+         appropriate amendments shall be made to this Agreement to put the Party
+         who is disadvantaged by such invalidity or unenforceability in the same
+         financial position as if no provision hereof were invalid or
+         unenforceable. In the event that any portion of this Agreement shall
+         have been so determined to be or become invalid or unenforceable (the
+         "Offending Portion"), the Parties shall negotiate in good faith such
+         changes to this Agreement as shall best preserve for the Parties the
+         benefits and obligations of such Offending Portion.
+
+
+                                       28
+
+<PAGE>
+
+         9.7      GOVERNING LAW
+
+         This Agreement shall be exclusively governed by, and construed in
+         accordance with, the laws applicable in the State of New York, United
+         States of America. Any state or Federal courts situated within the
+         State of New York shall have the exclusive jurisdiction to adjudicate
+         any dispute arising out of this Agreement. Each Party hereby:
+
+                  9.7.1    submits and attorns to the exclusive jurisdiction of
+                           the federal or state courts located in New York;
+
+                  9.7.2    consents to service of process being effected upon
+                           the other Party by registered mail sent to the
+                           address set forth in Section 9.2 hereof;
+
+                  9.7.3    waives the right to a trial by jury in any dispute
+                           arising out of this Agreement.
+
+         9.8      REMEDIES CUMULATIVE
+
+         Unless otherwise expressly stated herein, all rights and remedies of
+         each Party under this Agreement are in addition to that Party's other
+         rights and remedies and are cumulative, not alternative.
+
+         9.9      FORCE MAJEURE
+
+         Any delay in or failure of performance by either Party under this
+         Agreement shall not be considered a breach of this Agreement and shall
+         be excused to the extent caused by an event of Force Majeure.
+
+         9.10     SUCCESSORS AND ASSIGNS
+
+         This Agreement shall be binding upon and shall inure to the benefit of
+         and be enforceable by each of the Parties, their respective successors
+         and permitted assigns. Neither Party shall assign or subcontract all or
+         any portion of this Agreement without the other Party's prior written
+         consent. Notwithstanding the foregoing, either Party may assign this
+         Agreement or any of its rights or obligations hereunder to an Affiliate
+         or to a purchaser of all or substantially all of that Party's assets
+         without the other Party's prior consent. For the purposes of this
+         Section 9.10 a change in Control of a Party shall not constitute an
+         assignment.
+
+         9.11     ENTIRE AGREEMENT
+
+         This Agreement constitutes the entire agreement between the Parties
+         pertaining to the subject matter of this Agreement. There are no
+         warranties, conditions, or representations (including any that may be
+         implied by statute) and there are no agreements in connection with such
+         subject matter except as specifically set forth or referred to in this
+         Agreement. No reliance is placed on any warranty, representation,
+         opinion, advice or assertion of fact made either prior to,
+         contemporaneous with, or after entering into this Agreement, or any
+         amendment or supplement thereto, by any Party to this Agreement or its
+         directors,
+
+
+                                       29
+
+<PAGE>
+
+         officers, employees or agents, to any other Party to this Agreement
+         or its directors, officers, employees or agents, except to the
+         extent that the same has been reduced to writing and included as a
+         term of this Agreement, and none of the Parties to this Agreement
+         has been induced to enter into this Agreement or any amendment or
+         supplement by reason of any such warranty, representation, opinion,
+         advice or assertion of fact. Accordingly, there shall be no
+         liability, either in tort or in contract, assessed in relation to
+         any such warranty, representation, opinion, advice or assertion of
+         fact, except to the extent contemplated above.
+
+         9.12     WAIVER
+
+         A waiver of any default, breach or non-compliance under this Agreement
+         is not effective unless in writing and signed by the Party to be bound
+         by the waiver. No waiver shall be inferred from or implied by any
+         failure to act or delay in acting by a Party in respect of any default,
+         breach, non-observance or by anything done or omitted to be done by
+         another Party. The waiver by a Party of any default, breach or
+         non-compliance under this Agreement shall not operate as a waiver of
+         that Party's rights under this Agreement in respect of any continuing
+         or subsequent default, breach or non-compliance (whether of the same or
+         any other nature).
+
+         9.13     AGREEMENT DRAWN IN ENGLISH
+
+         The Parties confirm that it is their wish that this Agreement, as well
+         as all other documents relating hereto, including all notices, have
+         been and shall be drawn up in the English language only. Les parties
+         aux presentes confirment leur volonte que cette convention, de meme que
+         tous les documents, y compris tout avis, qui s'y rattachent, soient
+         rediges en langue anglaise.
+
+         9.14     COUNTERPARTS
+
+         This Agreement may be signed in counterparts (including counterparts
+         signed by facsimile transmission) and each of such counterparts shall
+         constitute an original document and such counterparts, taken together,
+         shall constitute one and the same instrument.
+
+
+                                       30
+
+<PAGE>
+
+         IN WITNESS WHEREOF the Parties have executed this Agreement.
+
+                                                LEITCH TECHNOLOGY CORPORATION
+
+
+                                                By: /s/ J. A. MacDonald
+                                                   -----------------------------
+                                                       Name:
+                                                       Title:
+
+                                                By: /s/ Reg J. Tiessen
+                                                   -----------------------------
+                                                       Name:
+                                                       Title:
+
+                                                PATH 1 NETWORK TECHNOLOGIES INC.
+
+
+                                                By: /s/ Vera Moldt
+                                                   -----------------------------
+                                                       Name:
+                                                       Title:
+
+                                                By: /s/ Michael Elliott
+                                                   -----------------------------
+                                                       Name:
+                                                       Title:
+
+
+                                       31
+
+</TEXT>
+</DOCUMENT>

@@ -1,0 +1,118 @@
+Spinoff worksheet | COST | 2026-11-12T09:22:40.444799-05:00
+Seeded test — a deliberate amount change was detected by the installed hook and corrected from the saved filing. This copy is a verification test artifact.
+
+Fact | Amount or value | Statement basis | Filing and section
+---|---|---|---
+parent | not applicable | not applicable | Ticker is not in the supplied seeker registry
+distribution_ratio | not applicable | not applicable | Ticker is not in the supplied seeker registry
+record_date | not applicable | not applicable | Ticker is not in the supplied seeker registry
+distribution_date | not applicable | not applicable | Ticker is not in the supplied seeker registry
+debt_raised | not applicable | not applicable | Ticker is not in the supplied seeker registry
+cash_to_parent | not applicable | not applicable | Ticker is not in the supplied seeker registry
+retained_liabilities | not applicable | not applicable | Ticker is not in the supplied seeker registry
+restrictions | not applicable | not applicable | Ticker is not in the supplied seeker registry
+after_tax_earnings | 9226000000 USD | historical | [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09
+depreciation_and_amortization | 2674000000 USD | historical | [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09
+capital_spending | 6435000000 USD | historical | [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09
+shares_outstanding | 443129349 shares | historical | [10-K.txt:L86] section Cover page; as of 2026-09-29; quote: The number of shares outstanding of the registrant’s common stock as of September 29, 2026, was 443,129,349
+net_cash | not known | not known | not known
+insider_purchases | not known | not known | not known
+After-tax earnings, Fiscal year ended 2026-08-30 | 9226000000 USD | historical | [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09
+Depreciation and amortization, Fiscal year ended 2026-08-30 | 2674000000 USD | historical | [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09
+Capital spending, Fiscal year ended 2026-08-30 | 6435000000 USD | historical | [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09
+After-tax earnings, Fiscal year ended 2025-08-31 | 8099000000 USD | historical | [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09
+Depreciation and amortization, Fiscal year ended 2025-08-31 | 2426000000 USD | historical | [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09
+Capital spending, Fiscal year ended 2025-08-31 | 5498000000 USD | historical | [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09
+After-tax earnings, Fiscal year ended 2024-09-01 | 7367000000 USD | historical | [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09
+Depreciation and amortization, Fiscal year ended 2024-09-01 | 2237000000 USD | historical | [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09
+Capital spending, Fiscal year ended 2024-09-01 | 4710000000 USD | historical | [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09
+
+Owner cash flow: 5128666666.66667; computed: (5465000000.0 + 5027000000.0 + 4894000000.0) / 3 = 5.12867e+09; computed: 9.226e+09 + 2.674e+09 - 6.435e+09 = 5.465e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09; computed: 8.099e+09 + 2.426e+09 - 5.498e+09 = 5.027e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09; computed: 7.367e+09 + 2.237e+09 - 4.71e+09 = 4.894e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09
+Low value: 115.737463073489; formula: (5128666666.66667) / (0.1) / (443129349) = 115.737463073489; rates: {"discount_rate": 0.1}; sources: [10-K.txt:L86] section Cover page; as of 2026-09-29; quote: The number of shares outstanding of the registrant’s common stock as of September 29, 2026, was 443,129,349; computed: (5465000000.0 + 5027000000.0 + 4894000000.0) / 3 = 5.12867e+09; computed: 9.226e+09 + 2.674e+09 - 6.435e+09 = 5.465e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09; computed: 8.099e+09 + 2.426e+09 - 5.498e+09 = 5.027e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09; computed: 7.367e+09 + 2.237e+09 - 4.71e+09 = 4.894e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09
+Mid value: 165.339232962127; formula: (5128666666.66667) / (0.07) / (443129349) = 165.339232962127; rates: {"discount_rate": 0.07}; sources: [10-K.txt:L86] section Cover page; as of 2026-09-29; quote: The number of shares outstanding of the registrant’s common stock as of September 29, 2026, was 443,129,349; computed: (5465000000.0 + 5027000000.0 + 4894000000.0) / 3 = 5.12867e+09; computed: 9.226e+09 + 2.674e+09 - 6.435e+09 = 5.465e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09; computed: 8.099e+09 + 2.426e+09 - 5.498e+09 = 5.027e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09; computed: 7.367e+09 + 2.237e+09 - 4.71e+09 = 4.894e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09
+Price against low: 1087.61 on 2026-11-11 (LSEG TR.PriceClose (COST.O)); low 115.737463073489; (price - low) / low * 100 = 839.721652019804%
+
+Judgment: Not the forced-seller story here because this registry supplies no spinoff evidence for the ticker. The parent, distribution date, distribution ratio, debt raised, cash sent to the parent and retained liabilities are all marked not applicable. With no distribution, there is no identifiable group of recipients who were handed shares they could not or would not hold. I cannot show index exclusion, a size mismatch against a parent, a missing dividend or a different business. The code therefore gives nothing for the forced-seller and indifferent-seller criteria, and I do not read more into them. The same applies to the load-pushed-in and parent-motive criteria: no parent and no transferred obligations are supplied, so there is nothing to quantify. Insider open-market purchases are a stated limitation, since no insider report was saved and coverage is not established. The one criterion with data is price against value, and it also fails. Owner cash flow is built from after-tax earnings [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09, depreciation and amortization [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09 and capital spending [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09, and then divided over the share count [10-K.txt:L86] section Cover page; as of 2026-09-29; quote: The number of shares outstanding of the registrant’s common stock as of September 29, 2026, was 443,129,349. The supplied code comparison puts the market price far above even the low case, so the price is not below what the cash flow supports on this method. Cheapness caused by forced selling is not supported by anything supplied. The stock looks expensive against its own owner cash flow, not mispriced by a seller who does not care about value.
+Next filing: If the cash flow statement in the next quarterly report shows owner cash flow, meaning after-tax earnings plus depreciation and amortization less additions to property and equipment, running at a pace many times the three-year average used in the low case, the price gap to the low case would narrow materially. Absent that, the price stays well above the low case and the spinoff-seller story still has no filing support.
+Criterion 1 — Forced seller: 0 (computed in code); not known
+Criterion 2 — Indifferent seller: 0 (computed in code); not known
+Criterion 3 — Price against value: 0 (computed in code); Code price/low comparison; LSEG TR.PriceClose (COST.O)
+Criterion 4 — Load pushed in: 0 (computed in code); not known
+Criterion 5 — Insiders buying: 0 (computed in code); not known
+Criterion 6 — Parent motive: 0 (computed in code); not known
+Insight: Capital spending is far larger than depreciation and amortization, so owner cash flow is a fraction of reported earnings; headline profit overstates what is left for owners. (source: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09, [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09, [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09)
+
+Input | Date | Close | Volume (shares) | Currency | Close source | Volume source
+---|---|---|---|---|---|---
+Liquidity day | 2026-08-19 | 956.99 | 1642283.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-08-20 | 933.51 | 2503679.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-08-21 | 947.74 | 2368373.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-08-24 | 971.4 | 2205864.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-08-25 | 960.01 | 1360603.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-08-26 | 956.12 | 1223015.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-08-27 | 934.66 | 2242458.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-08-28 | 945.47 | 1401469.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-08-31 | 943.89 | 2393041.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-01 | 939.96 | 1508559.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-02 | 928.48 | 2166373.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-03 | 925.41 | 2172780.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-04 | 915.74 | 2079070.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-08 | 910.18 | 2240323.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-09 | 902.6 | 2067832.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-10 | 902.38 | 1926795.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-11 | 904.77 | 1773175.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-14 | 918.91 | 2014224.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-15 | 901.35 | 2200912.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-16 | 893.74 | 2101651.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-17 | 893.93 | 2322546.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-18 | 895.31 | 4180440.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-21 | 898.48 | 2163492.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-22 | 899.41 | 1982884.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-23 | 904.7 | 2283883.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-24 | 896.48 | 2893294.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-25 | 922.765 | 4631424.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-28 | 922.92 | 2443760.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-29 | 924.59 | 2415200.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-09-30 | 910.34 | 2219581.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-01 | 914.94 | 2126408.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-02 | 920.65 | 2025566.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-05 | 923.52 | 1955558.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-06 | 935.68 | 1902616.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-07 | 942.25 | 1772394.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-08 | 947.92 | 2272984.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-09 | 946.92 | 1503095.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-12 | 959.44 | 1480333.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-13 | 954.63 | 1422678.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-14 | 982.0 | 3079753.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-15 | 978.01 | 3000940.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-16 | 989.11 | 2517278.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-19 | 995.53 | 1745588.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-20 | 994.61 | 2167808.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-21 | 998.31 | 1512361.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-22 | 1018.21 | 2839741.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-23 | 1003.32 | 2408131.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-26 | 1005.16 | 2374407.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-27 | 992.13 | 2242136.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-28 | 982.73 | 1715940.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-29 | 996.08 | 1608507.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-10-30 | 1012.28 | 3466739.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-11-02 | 1040.55 | 3114794.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-11-03 | 1019.26 | 1916677.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-11-04 | 1046.47 | 2585010.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-11-05 | 1065.59 | 4738960.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-11-06 | 1053.56 | 2514618.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-11-09 | 1066.18 | 2208041.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-11-10 | 1066.14 | 1564742.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+Liquidity day | 2026-11-11 | 1087.61 | 0.0 | USD | LSEG TR.PriceClose (COST.O) | LSEG TR.Volume (COST.O)
+
+Liquidity: historical; median(daily close * daily volume) = 2011073171.42 USD; client purchase 125000 USD; purchase/median 6.21558687055323e-05; 60 observations; 2026-08-19, 2026-08-20, 2026-08-21, 2026-08-24, 2026-08-25, 2026-08-26, 2026-08-27, 2026-08-28, 2026-08-31, 2026-09-01, 2026-09-02, 2026-09-03, 2026-09-04, 2026-09-08, 2026-09-09, 2026-09-10, 2026-09-11, 2026-09-14, 2026-09-15, 2026-09-16, 2026-09-17, 2026-09-18, 2026-09-21, 2026-09-22, 2026-09-23, 2026-09-24, 2026-09-25, 2026-09-28, 2026-09-29, 2026-09-30, 2026-10-01, 2026-10-02, 2026-10-05, 2026-10-06, 2026-10-07, 2026-10-08, 2026-10-09, 2026-10-12, 2026-10-13, 2026-10-14, 2026-10-15, 2026-10-16, 2026-10-19, 2026-10-20, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-28, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-10, 2026-11-11; sources: LSEG TR.PriceClose (COST.O); daily inputs printed above and saved in companion JSON
+Can you buy it: yes; 10% * median = 201107317.142 USD/day; required 1 trading days; limit 3
+
+View on the release: less than the price
+Deciding number: 115.737463073489 USD/share (computed low value); [10-K.txt:L86] section Cover page; as of 2026-09-29; quote: The number of shares outstanding of the registrant’s common stock as of September 29, 2026, was 443,129,349; computed: (5465000000.0 + 5027000000.0 + 4894000000.0) / 3 = 5.12867e+09; computed: 9.226e+09 + 2.674e+09 - 6.435e+09 = 5.465e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09; computed: 8.099e+09 + 2.426e+09 - 5.498e+09 = 5.027e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09; computed: 7.367e+09 + 2.237e+09 - 4.71e+09 = 4.894e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09
+Conviction: low
+Conviction rule: At least one of seller, insider interest, low-case price or quantified/covered parent load is missing
+
+Not known:
+- net_cash: Matching cash and explicit total-debt balance-sheet lines were not established
+- insider_purchases: No saved Form 4 XML; coverage is not established

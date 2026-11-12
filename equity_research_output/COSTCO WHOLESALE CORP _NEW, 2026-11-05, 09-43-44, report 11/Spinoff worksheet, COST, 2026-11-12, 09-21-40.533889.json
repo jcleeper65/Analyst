@@ -1,0 +1,873 @@
+{
+  "ticker": "COST",
+  "run": "/Users/jacksonleeper/Documents/Purdue_MSBAIM/Mod 2/AI for Finance/Repos/Analyst/equity_research_output/COSTCO WHOLESALE CORP _NEW, 2026-11-05, 09-43-44, report 11",
+  "worksheet_time": "2026-11-12T09:21:40.533889-05:00",
+  "facts": {
+    "parent": {
+      "value": "not applicable",
+      "source": "Ticker is not in the supplied seeker registry",
+      "kind": "not applicable"
+    },
+    "distribution_ratio": {
+      "value": "not applicable",
+      "source": "Ticker is not in the supplied seeker registry",
+      "kind": "not applicable"
+    },
+    "record_date": {
+      "value": "not applicable",
+      "source": "Ticker is not in the supplied seeker registry",
+      "kind": "not applicable"
+    },
+    "distribution_date": {
+      "value": "not applicable",
+      "source": "Ticker is not in the supplied seeker registry",
+      "kind": "not applicable"
+    },
+    "debt_raised": {
+      "value": "not applicable",
+      "source": "Ticker is not in the supplied seeker registry",
+      "kind": "not applicable"
+    },
+    "cash_to_parent": {
+      "value": "not applicable",
+      "source": "Ticker is not in the supplied seeker registry",
+      "kind": "not applicable"
+    },
+    "retained_liabilities": {
+      "value": "not applicable",
+      "source": "Ticker is not in the supplied seeker registry",
+      "kind": "not applicable"
+    },
+    "restrictions": {
+      "value": "not applicable",
+      "source": "Ticker is not in the supplied seeker registry",
+      "kind": "not applicable"
+    },
+    "after_tax_earnings": {
+      "value": 9226000000.0,
+      "unit": "USD",
+      "period": "Fiscal year ended 2026-08-30",
+      "period_end": "2026-08-30",
+      "kind": "historical",
+      "source": "[10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09",
+      "reason": null
+    },
+    "depreciation_and_amortization": {
+      "value": 2674000000.0,
+      "unit": "USD",
+      "period": "Fiscal year ended 2026-08-30",
+      "period_end": "2026-08-30",
+      "kind": "historical",
+      "source": "[10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09",
+      "reason": null
+    },
+    "capital_spending": {
+      "value": 6435000000.0,
+      "unit": "USD",
+      "period": "Fiscal year ended 2026-08-30",
+      "period_end": "2026-08-30",
+      "kind": "historical",
+      "source": "[10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09",
+      "reason": null
+    },
+    "shares_outstanding": {
+      "value": 443129349.0,
+      "unit": "shares",
+      "kind": "historical",
+      "as_of": "2026-09-29",
+      "period": "As of 2026-09-29",
+      "source": "[10-K.txt:L86] section Cover page; as of 2026-09-29; quote: The number of shares outstanding of the registrant\u2019s common stock as of September 29, 2026, was 443,129,349",
+      "reason": null
+    },
+    "net_cash": {
+      "value": null,
+      "kind": "not known",
+      "source": "not known",
+      "reason": "Matching cash and explicit total-debt balance-sheet lines were not established"
+    },
+    "insider_purchases": {
+      "value": null,
+      "source": "not known",
+      "kind": "not known",
+      "reason": "No saved Form 4 XML; coverage is not established"
+    }
+  },
+  "owner_cash_flow": {
+    "value": 5128666666.666667,
+    "unit": "USD",
+    "kind": "historical",
+    "period": "3-fiscal-year average",
+    "annual_inputs": [
+      {
+        "value": 5465000000.0,
+        "unit": "USD",
+        "period": "Fiscal year ended 2026-08-30",
+        "kind": "historical",
+        "inputs": [
+          {
+            "value": 9226000000.0,
+            "unit": "USD",
+            "period": "Fiscal year ended 2026-08-30",
+            "period_end": "2026-08-30",
+            "kind": "historical",
+            "source": "[10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09",
+            "reason": null
+          },
+          {
+            "value": 2674000000.0,
+            "unit": "USD",
+            "period": "Fiscal year ended 2026-08-30",
+            "period_end": "2026-08-30",
+            "kind": "historical",
+            "source": "[10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09",
+            "reason": null
+          },
+          {
+            "value": 6435000000.0,
+            "unit": "USD",
+            "period": "Fiscal year ended 2026-08-30",
+            "period_end": "2026-08-30",
+            "kind": "historical",
+            "source": "[10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09",
+            "reason": null
+          }
+        ],
+        "source": "computed: 9.226e+09 + 2.674e+09 - 6.435e+09 = 5.465e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09"
+      },
+      {
+        "value": 5027000000.0,
+        "unit": "USD",
+        "period": "Fiscal year ended 2025-08-31",
+        "kind": "historical",
+        "inputs": [
+          {
+            "value": 8099000000.0,
+            "unit": "USD",
+            "period": "Fiscal year ended 2025-08-31",
+            "period_end": "2025-08-31",
+            "kind": "historical",
+            "source": "[10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09",
+            "reason": null
+          },
+          {
+            "value": 2426000000.0,
+            "unit": "USD",
+            "period": "Fiscal year ended 2025-08-31",
+            "period_end": "2025-08-31",
+            "kind": "historical",
+            "source": "[10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09",
+            "reason": null
+          },
+          {
+            "value": 5498000000.0,
+            "unit": "USD",
+            "period": "Fiscal year ended 2025-08-31",
+            "period_end": "2025-08-31",
+            "kind": "historical",
+            "source": "[10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09",
+            "reason": null
+          }
+        ],
+        "source": "computed: 8.099e+09 + 2.426e+09 - 5.498e+09 = 5.027e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09"
+      },
+      {
+        "value": 4894000000.0,
+        "unit": "USD",
+        "period": "Fiscal year ended 2024-09-01",
+        "kind": "historical",
+        "inputs": [
+          {
+            "value": 7367000000.0,
+            "unit": "USD",
+            "period": "Fiscal year ended 2024-09-01",
+            "period_end": "2024-09-01",
+            "kind": "historical",
+            "source": "[10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09",
+            "reason": null
+          },
+          {
+            "value": 2237000000.0,
+            "unit": "USD",
+            "period": "Fiscal year ended 2024-09-01",
+            "period_end": "2024-09-01",
+            "kind": "historical",
+            "source": "[10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09",
+            "reason": null
+          },
+          {
+            "value": 4710000000.0,
+            "unit": "USD",
+            "period": "Fiscal year ended 2024-09-01",
+            "period_end": "2024-09-01",
+            "kind": "historical",
+            "source": "[10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09",
+            "reason": null
+          }
+        ],
+        "source": "computed: 7.367e+09 + 2.237e+09 - 4.71e+09 = 4.894e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09"
+      }
+    ],
+    "reason": null,
+    "source": "computed: (5465000000.0 + 5027000000.0 + 4894000000.0) / 3 = 5.12867e+09; computed: 9.226e+09 + 2.674e+09 - 6.435e+09 = 5.465e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09; computed: 8.099e+09 + 2.426e+09 - 5.498e+09 = 5.027e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09; computed: 7.367e+09 + 2.237e+09 - 4.71e+09 = 4.894e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09"
+  },
+  "value_range": {
+    "low": {
+      "value": 115.73746307348887,
+      "unit": "USD/share",
+      "formula": "owner_cash_flow / discount_rate / shares_outstanding",
+      "arithmetic": "(5128666666.66667) / (0.1) / (443129349) = 115.737463073489",
+      "rates": {
+        "discount_rate": 0.1
+      },
+      "sources": [
+        "[10-K.txt:L86] section Cover page; as of 2026-09-29; quote: The number of shares outstanding of the registrant\u2019s common stock as of September 29, 2026, was 443,129,349",
+        "computed: (5465000000.0 + 5027000000.0 + 4894000000.0) / 3 = 5.12867e+09; computed: 9.226e+09 + 2.674e+09 - 6.435e+09 = 5.465e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09; computed: 8.099e+09 + 2.426e+09 - 5.498e+09 = 5.027e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09; computed: 7.367e+09 + 2.237e+09 - 4.71e+09 = 4.894e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09"
+      ],
+      "reason": null
+    },
+    "mid": {
+      "value": 165.33923296212697,
+      "unit": "USD/share",
+      "formula": "owner_cash_flow / discount_rate / shares_outstanding",
+      "arithmetic": "(5128666666.66667) / (0.07) / (443129349) = 165.339232962127",
+      "rates": {
+        "discount_rate": 0.07
+      },
+      "sources": [
+        "[10-K.txt:L86] section Cover page; as of 2026-09-29; quote: The number of shares outstanding of the registrant\u2019s common stock as of September 29, 2026, was 443,129,349",
+        "computed: (5465000000.0 + 5027000000.0 + 4894000000.0) / 3 = 5.12867e+09; computed: 9.226e+09 + 2.674e+09 - 6.435e+09 = 5.465e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09; computed: 8.099e+09 + 2.426e+09 - 5.498e+09 = 5.027e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09; computed: 7.367e+09 + 2.237e+09 - 4.71e+09 = 4.894e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09"
+      ],
+      "reason": null
+    }
+  },
+  "price_vs_low": {
+    "price": 1087.61,
+    "price_date": "2026-11-11",
+    "price_source": "LSEG TR.PriceClose (COST.O)",
+    "low_value": 115.73746307348887,
+    "difference": -971.872536926511,
+    "comparison": "less than the price",
+    "percent_price_minus_low": 839.7216520198036
+  },
+  "judgment": {
+    "judgment": "not known",
+    "next_filing_trigger": "not known"
+  },
+  "liquidity": {
+    "median_daily_dollar_volume": 2011073171.42,
+    "purchase_size": 125000.0,
+    "purchase_fraction": 6.215586870553232e-05,
+    "exceeds_median": false,
+    "dates": [
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-08",
+      "2026-09-09",
+      "2026-09-10",
+      "2026-09-11",
+      "2026-09-14",
+      "2026-09-15",
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-28",
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-02",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "observations": 60,
+    "unit": "USD",
+    "reason": null,
+    "basis": "historical",
+    "method": "median of same-day close * volume",
+    "inputs": [
+      {
+        "date": "2026-08-19",
+        "close": 956.99,
+        "volume": 1642283.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-08-20",
+        "close": 933.51,
+        "volume": 2503679.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-08-21",
+        "close": 947.74,
+        "volume": 2368373.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-08-24",
+        "close": 971.4,
+        "volume": 2205864.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-08-25",
+        "close": 960.01,
+        "volume": 1360603.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-08-26",
+        "close": 956.12,
+        "volume": 1223015.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-08-27",
+        "close": 934.66,
+        "volume": 2242458.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-08-28",
+        "close": 945.47,
+        "volume": 1401469.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-08-31",
+        "close": 943.89,
+        "volume": 2393041.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-01",
+        "close": 939.96,
+        "volume": 1508559.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-02",
+        "close": 928.48,
+        "volume": 2166373.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-03",
+        "close": 925.41,
+        "volume": 2172780.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-04",
+        "close": 915.74,
+        "volume": 2079070.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-08",
+        "close": 910.18,
+        "volume": 2240323.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-09",
+        "close": 902.6,
+        "volume": 2067832.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-10",
+        "close": 902.38,
+        "volume": 1926795.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-11",
+        "close": 904.77,
+        "volume": 1773175.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-14",
+        "close": 918.91,
+        "volume": 2014224.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-15",
+        "close": 901.35,
+        "volume": 2200912.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-16",
+        "close": 893.74,
+        "volume": 2101651.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-17",
+        "close": 893.93,
+        "volume": 2322546.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-18",
+        "close": 895.31,
+        "volume": 4180440.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-21",
+        "close": 898.48,
+        "volume": 2163492.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-22",
+        "close": 899.41,
+        "volume": 1982884.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-23",
+        "close": 904.7,
+        "volume": 2283883.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-24",
+        "close": 896.48,
+        "volume": 2893294.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-25",
+        "close": 922.765,
+        "volume": 4631424.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-28",
+        "close": 922.92,
+        "volume": 2443760.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-29",
+        "close": 924.59,
+        "volume": 2415200.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-09-30",
+        "close": 910.34,
+        "volume": 2219581.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-01",
+        "close": 914.94,
+        "volume": 2126408.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-02",
+        "close": 920.65,
+        "volume": 2025566.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-05",
+        "close": 923.52,
+        "volume": 1955558.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-06",
+        "close": 935.68,
+        "volume": 1902616.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-07",
+        "close": 942.25,
+        "volume": 1772394.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-08",
+        "close": 947.92,
+        "volume": 2272984.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-09",
+        "close": 946.92,
+        "volume": 1503095.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-12",
+        "close": 959.44,
+        "volume": 1480333.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-13",
+        "close": 954.63,
+        "volume": 1422678.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-14",
+        "close": 982.0,
+        "volume": 3079753.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-15",
+        "close": 978.01,
+        "volume": 3000940.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-16",
+        "close": 989.11,
+        "volume": 2517278.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-19",
+        "close": 995.53,
+        "volume": 1745588.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-20",
+        "close": 994.61,
+        "volume": 2167808.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-21",
+        "close": 998.31,
+        "volume": 1512361.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-22",
+        "close": 1018.21,
+        "volume": 2839741.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-23",
+        "close": 1003.32,
+        "volume": 2408131.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-26",
+        "close": 1005.16,
+        "volume": 2374407.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-27",
+        "close": 992.13,
+        "volume": 2242136.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-28",
+        "close": 982.73,
+        "volume": 1715940.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-29",
+        "close": 996.08,
+        "volume": 1608507.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-10-30",
+        "close": 1012.28,
+        "volume": 3466739.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-11-02",
+        "close": 1040.55,
+        "volume": 3114794.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-11-03",
+        "close": 1019.26,
+        "volume": 1916677.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-11-04",
+        "close": 1046.47,
+        "volume": 2585010.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-11-05",
+        "close": 1065.59,
+        "volume": 4738960.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-11-06",
+        "close": 1053.56,
+        "volume": 2514618.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-11-09",
+        "close": 1066.18,
+        "volume": 2208041.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-11-10",
+        "close": 1066.14,
+        "volume": 1564742.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      },
+      {
+        "date": "2026-11-11",
+        "close": 1087.61,
+        "volume": 0.0,
+        "currency": "USD",
+        "source": "LSEG TR.PriceClose (COST.O)",
+        "volume_source": "LSEG TR.Volume (COST.O)"
+      }
+    ],
+    "sources": [
+      "LSEG TR.PriceClose (COST.O)"
+    ],
+    "daily_capacity": 201107317.14200002,
+    "minimum_trading_days": 1,
+    "buyable": true,
+    "participation_rate": 0.1,
+    "max_trading_days": 3
+  },
+  "view": {
+    "direction": "less than the price",
+    "deciding_number": 115.73746307348887,
+    "source": "[10-K.txt:L86] section Cover page; as of 2026-09-29; quote: The number of shares outstanding of the registrant\u2019s common stock as of September 29, 2026, was 443,129,349; computed: (5465000000.0 + 5027000000.0 + 4894000000.0) / 3 = 5.12867e+09; computed: 9.226e+09 + 2.674e+09 - 6.435e+09 = 5.465e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2026-08-30; units 1e+06; NET INCOME = 9.226e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Depreciation and amortization = 2.674e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2026-08-30; units 1e+06; Additions to property and equipment = -6.435e+09; spending = -(-6.435e+09) = 6.435e+09; computed: 8.099e+09 + 2.426e+09 - 5.498e+09 = 5.027e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2025-08-31; units 1e+06; NET INCOME = 8.099e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Depreciation and amortization = 2.426e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2025-08-31; units 1e+06; Additions to property and equipment = -5.498e+09; spending = -(-5.498e+09) = 5.498e+09; computed: 7.367e+09 + 2.237e+09 - 4.71e+09 = 4.894e+09; historical: [10-K.txt:L1204] section CONSOLIDATED STATEMENTS OF INCOME; year ended 2024-09-01; units 1e+06; NET INCOME = 7.367e+09; historical: [10-K.txt:L1660] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Depreciation and amortization = 2.237e+09; historical: [10-K.txt:L1708] section CONSOLIDATED STATEMENTS OF CASH FLOWS; year ended 2024-09-01; units 1e+06; Additions to property and equipment = -4.71e+09; spending = -(-4.71e+09) = 4.71e+09"
+  },
+  "conviction": "low",
+  "not_known": [
+    "model judgment rejected",
+    "net_cash: Matching cash and explicit total-debt balance-sheet lines were not established",
+    "insider_purchases: No saved Form 4 XML; coverage is not established"
+  ],
+  "judgment_attempts": 1,
+  "model_error_type": "ValueError",
+  "model_error_message": "Judgment cites an unknown fact",
+  "criteria_scores": [
+    {
+      "criterion": 1,
+      "name": "Forced seller",
+      "score": 0,
+      "source": "not known"
+    },
+    {
+      "criterion": 2,
+      "name": "Indifferent seller",
+      "score": 0,
+      "source": "not known"
+    },
+    {
+      "criterion": 3,
+      "name": "Price against value",
+      "score": 0,
+      "source": "Code price/low comparison; LSEG TR.PriceClose (COST.O)"
+    },
+    {
+      "criterion": 4,
+      "name": "Load pushed in",
+      "score": 0,
+      "source": "not known"
+    },
+    {
+      "criterion": 5,
+      "name": "Insiders buying",
+      "score": 0,
+      "source": "not known"
+    },
+    {
+      "criterion": 6,
+      "name": "Parent motive",
+      "score": 0,
+      "source": "not known"
+    }
+  ],
+  "conviction_reason": "At least one of seller, insider interest, low-case price or quantified/covered parent load is missing",
+  "worksheet_source": "/Users/jacksonleeper/Documents/Purdue_MSBAIM/Mod 2/AI for Finance/Repos/Analyst/spinoff-rules.md"
+}

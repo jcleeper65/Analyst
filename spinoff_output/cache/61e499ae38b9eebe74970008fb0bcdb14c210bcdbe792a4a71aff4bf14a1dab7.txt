@@ -1,0 +1,1349 @@
+<DOCUMENT>
+<TYPE>EX-10.36
+<SEQUENCE>5
+<FILENAME>b37900a1ex10-36.txt
+<DESCRIPTION>RTP OEM SOFTWARE LICENSE AGREEMENT
+<TEXT>
+
+<PAGE>   1
+                                                                   Exhibit 10.36
+
+
+RTP OEM SOFTWARE LICENSE AGREEMENT
+
+This OEM Software License Agreement is made and entered into as of the Effective
+Date MARCH 1ST, 2001 by and between FUJITSU-SIEMENS Computers GmbH (hereinafter
+called "FSC") and UNISPHERE NETWORKS INC. (hereinafter called "LICENSEE") with a
+place of business at One Executive Drive, Chelmsford Massachusetts, 01824, USA
+on behalf of itself and its Subsidiaries.
+
+RECITALS
+
+FSC develops and licenses software, APIs, documentation and other intellectual
+property that enable Original Equipment Manufacturers ("OEMs") to build highly
+available computing clusters for target applications which include
+telecommunications equipment.
+
+LICENSEE is an OEM who designs, manufactures, sells and supports a variety of
+telecommunications equipment and software.
+
+LICENSEE wishes to license the software known as the "Resilient Telco Platform",
+hereinafter referred to as "RTP", subject to the terms and conditions of this
+Agreement, for the purpose of building and redistributing software applications
+with LICENSEE's equipment and/or software. RTP as used throughout this document
+is understood to include also third party components as defined in Schedule D.
+
+RTP-C Source code will be provided to enable LICENSEE to honor the response time
+expectations of its service level agreements with its customers in making defect
+corrections and for no other than these limited service purposes. Any other
+source code changes need the prior written approval of FSC.
+
+RTP-C can be run on both a single node as well as a multi node cluster without
+requiring changes to the LICENSEE's API (except eventually changes due to timing
+behavior). The target platform for the licensee is the Sun Microsystems Netra /
+Solaris Operating System computer.
+
+It is understood that both parties intend to decouple the existing SS7 protocol
+stack (by Ulticom) and porting a new one into RTP. FSC is willing to provide RTP
+without the existing SS7 stack, and will provide documentation and information
+including a one-week workshop on the interaction between the SS7-stack and the
+RTP. Any further support needs to be agreed upon separately.
+
+Furthermore it is understood that FSC intends to replace the Oracle database by
+another company's product. In this case the new database can only be used by
+RTP, any applications built on top of RTP by Unisphere need a separate database
+to be provided by Unisphere.
+
+
+                                                                    Page 1 of 27
+<PAGE>   2
+NOW, THEREFORE, in consideration of the mutual promises and covenants herein,
+the parties hereby agree as follows:
+
+1.0      GENERAL TERMS - LICENSE GRANT
+
+Terms of this agreement are individually negotiated and come under the purview
+of Confidential Information and are governed by the Confidential Information
+clause defined in Section 9.0.
+
+1.1      FSC will provide to LICENSEE the human readable source code and all
+         applicable user documentation (the "Source Code") and the matching
+         machine readable binary code and all applicable user documentation (the
+         "Object Code") for any delivered RTP version or release or patch,
+         including comments, tools, notes, and related and supporting technical
+         documentation of RTP to LICENSEE, excluding third party software
+         components of RTP, for which FSC will supply to LICENSEE the machine
+         readable object code. RTP is governed by the Confidential Information
+         clause below.
+
+1.2      In respect of RTP Software, FSC hereby grants to LICENSEE, and LICENSEE
+         accepts, a nonexclusive (except as provided herein), world-wide,
+         non-transferable (except as provided herein) license to:
+
+         (i)      use, copy and modify the Source Code version of the RTP
+                  Software (except 3rd party software) for purposes of
+                  development of bug fixes, patches or work-arounds for any
+                  reported problems or errors, which are of severity, level 1
+                  and 2 and which require urgent resolution.
+
+         (ii)     copy the Source Code as required for purposes of back-up,
+                  disaster recovery or source code control, and
+
+         (iii)    incorporate the Object Code version of the RTP Software into
+                  the "Named Products" as hereinafter defined.
+
+         (iv)     distribute and sublicense copies of the Object Code version of
+                  the RTP Software to Licensee's end users for use with the
+                  Named Products, under a sublicense agreement containing terms
+                  and conditions substantially similar to those set forth in
+                  this Agreement, and
+
+         (v)      grant to Licensee's resellers the right to distribute and
+                  sublicense copies of the Object Code version of the RTP
+                  Software to end users for use with the Named Products, under
+                  the same terms and subject to the same limitations and
+                  obligations specified for Licensee above.
+
+
+                                                                    Page 2 of 27
+<PAGE>   3
+1.3      Any use of RTP other than as provided in section 1.2 above is expressly
+         prohibited by this Agreement. LICENSEE shall not have the right to
+         place machine-readable object code for the SS7 and the database
+         components of the RTP Software on its Internet site for downloading by
+         its customers. Prior written approval of FSC is required if Licensee
+         wishes to download the remaining components of RTP over the Internet.
+         In no event shall Licensee place source code of RTP software on any
+         Internet site. There is no limit on the number of copies of RTP as part
+         of the Named Product that LICENSEE can sell or distribute, bundled with
+         the Named Products but never on a stand-alone basis only, and whether
+         directly to end user customers of LICENSEE or through third party
+         distributors, or system integrators.
+
+1.4      The License includes a limited license under patents owned by FSC, or
+         in which FSC has sufficient rights from third parties to grant such
+         rights, but only to the extent necessary or to exercise any license
+         right granted by FSC to LICENSEE pursuant to this Agreement.
+
+1.5      RTP (object code and source code) is licensed, not sold, to the
+         LICENSEE. RTP and all modifications to the RTP are and shall become the
+         sole property of FSC and its suppliers, and, other than as set forth
+         above, this Agreement in no way confers any ownership rights to the RTP
+         to the LICENSEE.
+
+1.6      Except as otherwise provided in Section 1.5, Named Products are the
+         sole property of LICENSEE and all ownership rights to the Named
+         Products shall be and remain with the LICENSEE, and this Agreement in
+         no way confers any right title or interest in or to the Named Products
+         or any intellectual property rights included therein.
+
+1.7      RTP Dependencies With 3rd Party Suppliers: It is FSC's responsibility
+         to work with third parties to provide the agreed upon functionality and
+         problem resolution required. The list of third party suppliers
+         currently consists of:
+
+- SS7 stack (Ulticom) [as long as it is bundled with RTP]
+
+- Database (currently Oracle) [as far as RTP-C usage is concerned]
+
+- Sun Cluster Software and Sun Solaris (as far as RTP-C usage is concerned)
+
+- SNMP agent (SNMP Research International)
+
+- Freeware/Shareware components.
+
+
+
+
+                                                                    Page 3 of 27
+<PAGE>   4
+2.0      NAMED PRODUCTS
+
+LICENSEE shall use the RTP for the purpose of creating the following Named
+Products of the LICENSEE. The Named Products shall include any future revisions,
+model numbers and successors for these products as well.
+
+Named Products:  Unisphere Networks Inc. SRX-3000
+
+The SRX-3000 is a service creation and delivery platform that allows providers
+to integrate converged voice and multimedia services on cable modem access,
+xDSL, and next-generation wireless networks as well as ATM and circuit-switched
+networks. The SRX-3000 supports legacy and next- generation interfaces in a
+integration of legacy and "new world" technologies. It enables a service
+creation environment that gives service providers a choice of turnkey and mix
+and match solutions. It provides control over IP, ATM, and legacy TDM
+connections allowing mediation.
+
+The Unisphere Networks Universal Call Engine provides delivery of services over
+a normalized calling service interface. The Softswitch enables high-availability
+and scalability to carrier grade Busy Hour Call Attempts through hardware
+redundancy and multi-node clustering and rolling upgrades. It leverages
+directory enabled technology to provide subscriber profile management, including
+service level enforcement.
+
+3.0      LICENSING AND ROYALTY FEES
+
+3.1      ROYALTY FEES: LICENSEE will pay royalties per the royalty schedule
+         defined in Schedule A.
+
+
+3.2      DEPLOYMENT SUPPORT LICENSE FEE: LICENSEE will pay fees defined in
+         Schedule B.
+
+3.3      Royalty Fees and Deployment Support Fees due and payable shall be
+         reported calendar quarterly within 10 days after each such period and
+         be paid within 30 days after receipt of respective invoice. As soon as
+         tools are available both parties intend to automate this process when
+         technically and commercially feasible.
+
+         Not more than once every two years, FSC may designate an independent
+         certified auditor acceptable to LICENSEE to inspect the directly
+         relevant records of LICENSEE during LICENSEE's regular business hours
+         and at a time that is mutually agreed upon by both FSC and LICENSEE to
+         determine the accuracy of all payments previously made by LICENSEE
+         hereunder. The auditors will act under NDA to be mutually agreed by
+         Licensee and FSC. Any expenses of such inspection shall be borne by
+         FSC, unless the audit evidences an underpayment of more than five (5)
+         percent. In case of an underpayment exceeding five (5) percent the
+         reasonable cost for the audit shall be borne by LICENSEE. Any
+         information derived from LICENSEE's reports or records shall be
+         maintained in confidence by the auditor and FSC as Confidential
+         Information of LICENSEE. Auditor is entitled to take notes on payment,
+
+                                                                    Page 4 of 27
+<PAGE>   5
+         Ulticom boards, license fees and number of copies only. LICENSEE shall
+         receive a copy of auditor's reports.
+
+3.4      DEVELOPMENT SUPPORT LICENSE FEE: The normal up front development fee
+         shall be waived due to the beneficial nature of the LICENSEE's project
+         to FSC. All other development fee payments are due 30 days after
+         receipt of invoice. FSC will invoice LICENSEE annually.
+
+3.5      SOURCE CODE BUY OUT - FSC offers a source code buyout price of
+         $250,000, not including the OMNI or database source code, but only in
+         the event that FSC or any legal successor or any legal entity which has
+         taken over the rights and obligations on RTP generally and permanently
+         discontinues development and support of the RTP product. Any such
+         buyout shall give Licensee non-exclusive rights to use the source code
+         for the purposes of this Agreement especially for on going developments
+         of the Named Product and for maintenance purposes. It is especially
+         agreed upon by the parties, that any such buy out does not prevent FSC
+         to grant third parties similar buyout rights, however limited to the
+         specific purposes of respective license and service agreements
+         concluded between FSC and such third parties. FSC shall provide at
+         least a six-month notice of plans to terminate active development of
+         the RTP product. In case of a source code buyout this Agreement shall
+         be considered as terminated in accordance with section 5. Further
+         details shall be mutually agreed upon in a separate source code buyout
+         agreement.
+
+3.6      DISCOUNTED TRANSFER PRICE - LICENSEE receives a transfer price of 60%
+         of RTP list prices for software (Schedule A) and support and
+         maintenance fees (Schedule B) and 65% for hardware (Schedule A). FSC
+         agrees that LICENSEE shall receive it's best discounting structure at
+         the time this agreement has been concluded under comparable conditions
+         and further agrees not to discriminate against LICENSEE in the future.
+
+3.7      MAINTENANCE: FSC provides Maintenance, which consists of Technical
+         Support and includes all minor releases of RTP. Minor releases are
+         those Software releases that add minor improvements and/or bug fixes to
+         an existing major release, and are designated by alphabetic characters
+         after the version number (e.g. 1.1B, 1.1C). FSC will provide Technical
+         Support via telephone and e-mail as described in Schedules B and C of
+         this Agreement. Under Technical Support, FSC shall use commercially
+         reasonable efforts to assist LICENSEE in diagnosing errors/malfunctions
+         and either correcting such errors/malfunctions, or assisting LICENSEE
+         in using the Software to avoid them.
+
+3.8      UPGRADES: Upgrades are major new releases of the RTP. A major release
+         adds significant new functionality, and/or performance increase to a
+         prior release, and is designated by a version number (e.g., 1.1, 2.0).
+         FSC commits to continue upgrading RTP and provide it to LICENSEE.
+         Maintenance and Upgrades are both covered by
+
+
+                                                                    Page 5 of 27
+<PAGE>   6
+         the mandatory Development Support license and the Deployment
+         Support license. For the current list prices see Schedule B.
+
+3.9      Development Support: Source code must have a version number that
+         matches the latest executable delivered. FSC will provide to Licensee
+         the necessary information to construct its own "build environment" for
+         RTP. Specifically FSC will provide support for problems encountered
+         with executables, containing 3rd party components like e.g. Interfaces
+         with Java, etc., if caused by the use of RTP.
+
+3.10     New FEATURE REQUESTS: The process of feature requests has been
+         introduced to address the occasional need for functionality of features
+         deviating from the RTP manuals or for extending the documented RTP
+         functionality. This process should be used for any additional
+         requirements or features, licensee sees necessary for their respective
+         applications. Feature request enter the RTP planning process and are
+         discussed with RTP's customers for priority, time schedule and business
+         impact. In the event that major RTP feature development, not previously
+         included in the roadmap, is required by LICENSEE, additional costs for
+         these features will be negotiated in good faith.
+
+4.0      COPYRIGHTS
+
+LICENSEE shall reproduce and apply any copyright or other proprietary rights
+notices of third party products embedded in RTP to any copies of RTP, in whole
+or in part, in any form. FSC acknowledges that LICENSEE's plan to either place
+copyright notices within the Named Product itself (where it will not be viewed
+by end user customers) or within a `help' or `about the Named Product' box in
+the Named Product will satisfy this requirement.
+
+4.1      Ulticom specifics: Each portion of the Software and Documentation
+         reproduced by Licensee shall include the intellectual property notice
+         or notices appearing in or on the corresponding portion of such
+         materials as delivered by Licensor hereunder. Licensee shall ensure
+         that all copies of the Software made pursuant to this Agreement
+         CONSPICUOUSLY display a notice substantially in the following form:
+
+COPYRIGHT (C) 1998 (OR OTHER APPROPRIATE YEAR(S)), ULTICOM, INC. ALL RIGHTS
+RESERVED.
+
+If Licensee is unsure of the appropriate year(s), it shall consult Licensor to
+obtain the correct designation. Such notice shall be on labels on all media
+containing Software. If the copyright symbol "(C)" cannot technically be
+reproduced, Licensee shall use the word "Copyright" followed by the notation
+"(c)" in its place.
+
+
+                                                                    Page 6 of 27
+<PAGE>   7
+5.0      TERM AND TERMINATION
+
+5.1      The initial term of this AGREEMENT shall commence on the EFFECTIVE DATE
+         and continue thereafter for a period of 2 (two) years. Thereafter the
+         term shall automatically extend from year to year unless both parties
+         mutually agree to terminate the AGREEMENT including a termination by
+         source code buy-out according to section 3.5.
+
+5.2      Either Party may elect to terminate this AGREEMENT for a material
+         breach of contract by the other Party upon delivery of at least 30 days
+         prior written notice to the other Party; provided, however, if such
+         material breach of contract is cured by the other Party within said 30
+         days on or before the EFFECTIVE DATE of termination, such election and
+         notice shall be of no further force and effect and this AGREEMENT shall
+         not be terminated thereby.
+
+5.3      Termination of this AGREEMENT shall not affect the licenses granted or
+         copies of the Named Product sold by LICENSEE according to this
+         AGREEMENT at the time of termination.
+
+5.4      In case LICENSEE becomes a direct competitor of FSC by merging with or
+         being acquired (50% or more) by a direct competitor of FSC in the field
+         of Information Technology, LICENSEE will inform FSC promptly in
+         writing. FSC is entitled within two months after receipt of such notice
+         to terminate this AGREEMENT unless it consents to such a merger or
+         acquisition. FSC shall not unreasonably withhold its consent. For
+         purposes of this clause, and without limiting the generality of the
+         foregoing, any withholding of consent by FSC shall not be deemed
+         unreasonable if, in FSC's reasonable judgment, access by such third
+         party to the RTP Software would be significantly injurious to FSC's
+         business or reputation. Licenses already granted will remain unaffected
+         by such termination and a reimbursement of prepaid license fees - if
+         any - will be made on a pro-rata basis.
+
+         5.5      In case FSC or its RTP-C technology is acquired by or is
+         subject to a merger with a direct competitor of LICENSEE, FSC will
+         inform LICENSEE promptly in writing. LICENSEE is entitled within two
+         months after receipt of such notice to terminate this AGREEMENT unless
+         LICENSEE consents to such a merger or acquisition. LICENSEE shall not
+         unreasonably withhold its consent. For purposes of this clause, and
+         without limiting the generality of the foregoing, any withholding of
+         consent by LICENSEE shall not be deemed unreasonable if in LICENSEE's
+         reasonable judgment, reliance by LICENSEE upon the performance by such
+         competitor of FSC's duties under this Agreement would be significantly
+         injurious to LICENSEE's business or reputation. Software licenses
+         granted pursuant to Section 1 of this Agreement prior to the effective
+         date of the termination shall be unaffected by such termination and a
+         reimbursement of prepaid license fees, if any, will be made on a
+         pro-rata basis. In addition to its right to terminate this Agreement,
+         LICENSEE shall upon notice have the right to acquire the RTP C Source
+         Code and all accompanying documentation and FSC shall grant a
+         non-exclusive, perpetual and worldwide license to use, copy, modify,
+         enhance, create derivative works from, produce, distribute,
+
+
+
+                                                                    Page 7 of 27
+<PAGE>   8
+         license and support the Source Code. FSC shall deliver the Source Code
+         and documentation within thirty days after the effective date of
+         Licensee's termination. The price for the Source Code and documentation
+         shall be twelve and one half million U.S. Dollars ($12,500,000) minus
+         fifty percent (50%) of the cumulative royalty fees, after discount, (as
+         defined in Schedule A of this Agreement) paid to FSC as of the
+         effective date of such termination. Notwithstanding the foregoing, in
+         no event shall the price for the Source Code and documentation be less
+         than two and one half million U.S. Dollars ($2,500,000).
+
+5.6      If this Agreement terminates for other reasons than Source Code buyout
+         according to section 3.5 or 5.5, LICENSEE shall return all copies of
+         the RTP (source code and object code) to FSC and shall certify in
+         writing that all components of the RTP have been returned, made
+         unreadable, or erased from the memory of LICENSEE's computers, all
+         except the ones that may be necessary for LICENSEE to use in order to
+         honor written maintenance commitments to customers existing as of the
+         termination date; and LICENSEE shall have no further rights of
+         distribution; however, termination of the License shall not affect any
+         existing agreements with customers or licensees, whose license rights
+         shall continue perpetually.
+
+5.7      EXCEPT FOR TERMINATION DUE TO MATERIAL BREACH OF CONTRACT BY LICENSEE
+         OR SOURCE CODE BUY OUT ACCORDING TO SECTIONS 3.5 AND 5.5, THE
+         OBLIGATION OF FSC PURSUANT TO SECTION 2 OF SCHEDULE B AND SCHEDULE C TO
+         PROVIDE SUPPORT AND MAINTENANCE ENDS 7 YEARS AFTER THE TERMINATION DATE
+         OF THIS AGREEMENT.
+
+6        REPRESENTATIONS AND WARRANTIES
+
+6.1      FSC represents and warrants that FSC owns or has the legal right to use
+         and license the RTP as licensed under this Agreement, that the RTP does
+         not infringe any patent or copyright or violate any other proprietary
+         rights of a third party, and that FSC has the full power and authority
+         to enter into this Agreement. Concerning Ulticom the above statement is
+         subject to pending contract signature between Siemens AG and Ulticom.
+         FSC further represents and warrants to the best of its knowledge and
+         belief that as of the Effective Date and thereafter throughout the
+         term, the statements contained in this Article 6.0 are and shall be
+         true and correct.
+
+6.2      FSC warrants that the RTP, including related supporting data and files,
+         will function correctly when dealing with dates, times and date/time
+         related data in the following manner; (i) the RTP will accurately
+         process date/time data (including calculating, comparing, and
+         sequencing) from, into, and between the twentieth and twenty-first
+         centuries, and the years 1999 and 2000 and leap year calculations, (ii)
+         when used in combination with information technology products from
+         other vendors used by RTP,
+
+
+
+                                                                    Page 8 of 27
+<PAGE>   9
+         the RTP will accurately process date/time to data with the other
+         vendor's information technology products, and (iii) the RTP will
+         neither contain nor create any logical or mathematical inconsistency,
+         will not malfunction, and will not cease to function when processing
+         date/time data.
+
+6.3      If LICENSEE requires information concerning origin of the RTP due to
+         government contract requirements or other U.S. reporting requirements,
+         LICENSEE will provide FSC with a written outline of the specific
+         information requirements, which products such requirements apply to,
+         and the reason or legal basis for the requirement. Upon receipt of such
+         information from LICENSEE, FSC will supply the information requested.
+
+6.4      EXCEPT AS EXPRESSLY PROVIDED HEREIN, FSC DOES NOT MAKE AND HEREBY
+         DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTIES RELATING TO THE RTP,
+         INCLUDING BUT NOT LIMITED TO, MERCHANTABILITY OR FITNESS FOR A
+         PARTICULAR PURPOSE, OR ANY WARRANTIES THAT MIGHT ARISE FROM A COURSE OF
+         DEALING, USAGE OR TRADE PRACTICE.
+
+7        LIMITATION OF LIABILITY
+
+7.1      TO THE MAXIMUM EXTENT PERMITTED BY LAW, UNDER NO CIRCUMSTANCES AND
+         UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), PRODUCT
+         LIABILITY, CONTRACT, OR OTHERWISE, SHALL EITHER PARTY BE LIABLE TO THE
+         OTHER OR ANY OTHER PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL,
+         RELIANCE OR CONSEQUENTIAL DAMAGES, EVEN IF IT SHALL HAVE BEEN INFORMED
+         OF THE POSSIBILITY OF SUCH DAMAGES.
+
+7.2      In no event shall the aggregate liability of either party exceed the
+         aggregate amount paid by LICENSEE for the RTP under this Agreement,
+         except for loss or damage arising out of:
+
+         (a)      breach of Sections 8.0 (INDEMNIFICATION) or 9.0 (CONFIDENTIAL
+                  INFORMATION)of this Agreement, or
+
+         (b)      Licensee's breach of its obligations under Section 1.3 of this
+                  Agreement to (i) distribute the RTP Software only when bundled
+                  with the Named Products and not on a stand-alone basis, and
+                  (ii) not place the source code of the RTP Software on any
+                  Internet site.
+
+                                                                    Page 9 of 27
+<PAGE>   10
+         Each party's liability arising out of subparagraphs 7.2(a) and 7.2(b)
+         shall be limited to the greater of (c) the amount of its applicable
+         insurance coverage limits or (d) the aggregate amount paid by Licensee
+         for the RTP under this Agreement, provided however that in no event
+         shall such limitation of liability arising out of subparagraphs 7.2(a)
+         and 7.2(b) be less than ten million US dollars ($10,000,000).
+
+8. INDEMNIFICATION
+
+8.1      Notwithstanding Article 7 above, FSC agrees that it will, at its own
+         expense, defend LICENSEE in respect of any action brought against
+         LICENSEE, and indemnify LICENSEE against any award of damages and costs
+         made against LICENSEE in any and all claims, actions or suits alleging
+         that the RTP used within the scope of the License herein granted
+         constitutes an infringement of any patent or copyright or other
+         intellectual property rights. The indemnification obligation shall not
+         apply, where the infringement is caused by modifications of RTP made by
+         LICENSEE, if the infringement is solely based on said modifications or
+         attributably caused by any use of the RTP in combination, operation or
+         use with any machine, program or other material, if the infringement is
+         solely based on such combination.
+
+8.2      LICENSEE shall notify FSC promptly in writing of any action brought
+         against LICENSEE based on a claim described in Section 8.1. FSC shall
+         defend such action at its expense and pay all expenses and costs
+         attributable to such claim incurred by LICENSEE, and all settlements
+         and damages awarded against LICENSEE in such action or settlement that
+         are attributable to such claim. FSC shall have control of the defense
+         of such action including appeals, and of all negotiations thereof,
+         including the right to effect any settlement or compromise with the
+         written consent of LICENSEE. LICENSEE shall reasonably cooperate with
+         FSC in the defense of such claim at FSC cost, and may be represented,
+         at LICENSEE's expense, by counsel of LICENSEE's selection. In the event
+         that counsel retained by FSC advises FSC and/or Licensee that in the
+         opinion of such counsel there exists a conflict between the interests
+         of FSC and the interests of Licensee in connection with any issues
+         arising out of such infringement claim, including without limitation
+         the litigation or settlement thereof, then FSC shall retain, at its
+         expense, additional outside counsel acceptable to Licensee to represent
+         the interests of Licensee with respect to such conflict.
+
+8.3      In case the RTP is held to constitute an infringement and its use is in
+         any way enjoined, FSC shall at its option and expense (a) procure for
+         LICENSEE the right to continue using the RTP or (b) replace or modify
+         the same so that it becomes non-infringing and performs the same
+         service with substantially the same quality, or, if neither of the
+         foregoing options (a) or (b) are commercially practicable, (c) grant
+
+
+                                                                   Page 10 of 27
+<PAGE>   11
+         LICENSEE a credit, less reasonable depreciation for use, damage and
+         obsolescence, upon return of the RTP to FSC , but in no event less than
+         the amount LICENSEE is obligated to return to its customers.
+
+8.4      Except as expressly provided in Section 8.1, LICENSEE shall defend FSC
+         from all third party claims brought against FSC to the extent based
+         upon the combination of RTP with the Named Product, provided that FSC
+         shall notify Licensee promptly in writing of any action brought against
+         FSC based on a claim described in this Section 8.4. Licensee sole
+         obligation shall be to defend such action at its expense and pay all
+         expenses and costs attributable to such claim incurred by FSC, and all
+         settlements and damages awarded against FSC in such action or
+         settlement that are attributable to such claim. Licensee shall have
+         control of the defense of such action including appeals, and of all
+         negotiations thereof, including the right to effect any settlement or
+         compromise with the written consent of FSC. FSC shall reasonably
+         cooperate with Licensee in the defense of such claim at Licensee's
+         cost, and may be represented, at FSC's expense, by counsel of FSC's
+         selection. In the event that counsel retained by Licensee advises FSC
+         and/or Licensee that in the opinion of such counsel there exists a
+         conflict between the interests of FSC and the interests of Licensee in
+         connection with any issues arising out of such infringement claim,
+         including without limitation the litigation or settlement thereof, then
+         Licensee shall retain, at its expense, additional outside counsel
+         acceptable to FSC to represent the interests of FSC with respect to
+         such conflict.
+
+9        CONFIDENTIAL INFORMATION
+
+9.1      Each party shall maintain the confidentiality of the other party's
+         Confidential Information and shall not, without the other party's prior
+         written consent, (a) use such Confidential Information in any manner
+         not authorized under this Agreement, or (b) disclose any such
+         Confidential Information in any form to any person, except to (i) its
+         employees or agents whose access is necessary in connection with the
+         performance of this Agreement and (ii) licensees licensed under this
+         Agreement to receive such Confidential Information. Each party shall
+         protect the other party's Confidential Information to the same extent
+         and with all reasonable efforts as it protects its own Confidential
+         Information in order to maintain the security and confidentiality of
+         Confidential Information. "Confidential Information" means any business
+         or technical information of either party, that (a) is provided to the
+         other party in connection with this Agreement, (b) is designated in
+         writing as confidential information, and (c) concerns the party's
+         business, methods, plans, designs, procedures, systems operations, or
+         technology, research, customer or financial data. Confidential
+         Information includes the RTP and the Source Code, except to the extent
+         that the License and rights granted under this Agreement permit
+         distribution of the same (and derivative works thereof) to third
+         parties. Confidential Information does not include
+
+
+                                                                   Page 11 of 27
+<PAGE>   12
+         any information that (a) is or becomes publicly available through no
+         act, omission or fault of the receiving party, (b) was or is known to
+         the receiving party without any obligation of confidentiality before
+         being received from the disclosing party, (c) is disclosed to the
+         receiving party by a third party not under any obligation of
+         confidentiality owing to the disclosing party, or (d) is independently
+         developed by the receiving party.
+
+9.2      Any breach of Section 9.1 above may cause immediate and irreparable
+         harm for which monetary damages would be an inadequate remedy and
+         therefore, if any Confidential Information is wrongfully disclosed or
+         used, then in addition to the remedies provided by this Agreement and
+         by law, the party whose Confidential Information is wrongfully
+         disclosed or used shall be entitled to an injunction preventing further
+         disclosure or use of the Confidential Information by the other party or
+         by any third party to whom the Confidential Information has been
+         wrongfully disclosed.
+
+9.3      The obligations of this Article 9 shall continue throughout the term of
+         this Agreement and shall survive for three (3) years following any
+         expiration or termination of this Agreement.
+
+10       EXPORT; RESTRICTED RIGHTS
+
+The Parties agree to cooperate in complying with any export laws and regulations
+of the United States, including the regulations of the U.S. Department of
+Commerce, with respect to the export of U.S. origin technical data and
+commodities, and agree to provide the Letters of Assurance and other documents
+as may be required under such laws and regulations and secure licenses for
+export or re-export.
+
+11       ACCEPTANCE
+
+11.1     LICENSEE shall diligently evaluate the RTP Software and shall submit a
+         written acceptance or rejection to FSC within ninety (90) days after
+         delivery of each RTP object code release or thirty (30) days after the
+         last reported severity 1/2 error, whichever is later.
+
+11.2     In the absence of written rejection by such date, LICENSEE will be
+         deemed to have accepted the Licensed Programs.
+
+11.3     LICENSEE may reject the Licensed Programs if:
+
+
+                                                                   Page 12 of 27
+<PAGE>   13
+
+
+11.3.1   On the Acceptance Date, there are any unresolved problems of Severity 1
+         or 2 (as set forth in Schedule C of each Addendum) reported to FSC at
+         least thirty (30) days previously, or
+
+11.3.2   On the Acceptance Date, there is an unreasonable number of open
+         problems of Severity 3 or 4 which FSC has failed to resolve within the
+         committed resolution time described in Schedule C.
+
+11.4     Upon written rejection by such date, LICENSEE's license rights to the
+         rejected Licensed Programs shall be terminated, LICENSEE shall destroy
+         all of the Proprietary Information associated with the rejected
+         Licensed Programs, and FSC will promptly refund to LICENSEE all
+         payments made for the rejected Licensed Programs.
+
+11.5     Following acceptance of the Licensed Programs by LICENSEE, FSC will
+         have no liability for the consequences of any use, which LICENSEE makes
+         of the Licensed Programs except, as otherwise provided in this
+         Agreement.
+
+12.0     MISCELLANEOUS
+
+12.1     This Agreement may be amended only by the written agreement of the
+         parties.
+
+12.2     This Agreement, and the rights and obligations of a party hereunder,
+         may not be assigned or delegated, voluntarily or by operation of law,
+         without the prior written consent of the other party, which shall not
+         be unreasonably withheld or delayed, provided, however, that either
+         party may assign this Agreement without the prior written consent of
+         the other (i) to any subsidiary or company of which the assigning party
+         is a subsidiary so long as the assigning party remains responsible for
+         such subsidiary's performance. or (ii) subject to sections 5.5 or 5.6
+         of this Agreement, to a person or entity into which it has merged or
+         which has otherwise succeeded to all or substantially all of its
+         business and assets to which this Agreement pertains, by purchase of
+         stock, assets, merger, reorganization or otherwise, and which has
+         assumed in writing or by operation of law its obligations under this
+         Agreement.
+
+12.3     This Agreement is the result of negotiation between the parties and,
+         accordingly, shall not be construed for or against either party
+         regardless of which party drafted this Agreement or any portion
+         thereof.
+
+12.4     This Agreement constitutes the whole and entire agreement of the
+         parties on the subject matter hereof. This Agreement supersedes all
+         prior representations, proposals, correspondence, memoranda or other
+         communications, whether written or oral, all of which are expressly
+         excluded from this Agreement. In the event of a conflict between the
+         terms of this Agreement and any schedules attached hereto the terms of
+         the Agreement shall prevail.
+
+
+                                                                   Page 13 of 27
+<PAGE>   14
+12.5     This Agreement shall be governed by and construed in accordance with
+         the laws of the State of New York, exclusive of its conflict of law
+         principles
+
+12.6     FORCE MAJEURE. Neither party shall be liable for any loss or damage due
+         to failure or delay arising out of acts of God or any other cause
+         beyond that party's reasonable control.
+
+12.7     Notwithstanding injunctive relief according to Section 9.2, all
+         disputes arising out of or in connection with the present agreement,
+         including any questions regarding its existence, validity or
+         termination, shall be finally settled by binding arbitration under the
+         "Commercial Rules" of arbitration of the American Arbitration
+         Association (AAA) by three arbitrators in accordance with said Rules.
+         Each party shall nominate one arbitrator for confirmation by the
+         competent authority under the applicable Rules (Appointing Authority).
+         Both arbitrators shall agree on the third arbitrator within 30 days.
+         Should the two arbitrators fail, within the above time limit, to reach
+         agreement on the third arbitrator, he shall be appointed by the
+         Appointing Authority. If there are two or more defendants, any
+         nomination of an arbitrator by or on behalf of such defendants must be
+         by joint agreement between them. If such defendants fail, within the
+         time limit fixed by the Appointing Authority, to agree on such joint
+         nomination, the proceedings against each of them must be separated. All
+         arbitrators must have sufficient experience in the IT industry and in
+         international business transactions.
+         Notwithstanding the rules of arbitration of the AAA, the parties (i)
+         shall submit their dispute to the arbitrators within 2 months following
+         their decision that they could not resolve their dispute, (ii) each
+         party shall have no more than 5 days to present their case and (iii)
+         the arbitrators shall be instructed to render their decision within 30
+         days following the conclusion of each party's presentation. The
+         arbitrators shall specify the basis for their decision. The arbitrators
+         shall not award any punitive damages. The decision of the arbitrators
+         shall be considered as a final and binding resolution of the dispute,
+         shall not be subject of appeal and may be entered as a judgment in any
+         court of competent jurisdiction. The seat of arbitration shall be
+         Switzerland. The procedural law of this place shall apply where the
+         Rules are silent, however no pre-trial discovery procedure or jury
+         trial shall be allowed in the arbitration proceedings. The language to
+         be used in the arbitration proceedings shall be English. The whole
+         arbitration procedure shall be executed pursuant to a strict
+         non-disclosure agreement signed by the parties and the arbitrators
+         agreeing to conduct such proceedings and maintaining in confidence all
+         confidential information or trade secrets disclosed or produced in the
+         course thereof. All press releases or public statements regarding the
+         status of such proceedings shall be prepared jointly and only by the
+         parties, unless otherwise required by law.
+
+12.8     Each party is and shall remain an independent contractor. Nothing in
+         this Agreement shall be deemed to establish a partnership, joint
+         venture or agency relationship between the parties. Neither party may
+         obligate or bind the other party in any manner to a third party.
+
+
+
+                                                                   Page 14 of 27
+<PAGE>   15
+12.9     Any notices required to be given under this Agreement shall be in
+         writing and sent to the address of the appropriate party as set forth
+         below or to such other address as may have been substituted by written
+         notice and shall be effective upon receipt.
+
+
+If to LICENSEE:
+
+Michael Regan
+VP Engineering - Voice
+Unisphere Networks Inc.
+One Executive Drive
+Chelmsford, MA, 01824
+978-848-0350 (voice)
+978-848-0399 (fax)
+e-mail: mregan@unispherenetworks.com
+
+
+Georg Haubs
+Vice President - Strategic Planning and Business Development
+Unisphere Networks Inc.
+One Executive Drive
+Chelmsford, MA, 01824
+978-848-0313 (voice)
+978-848-0399 (fax)
+e-mail: ghaubs@unispherenetworks.com
+
+
+If to FSC:
+
+Dr. Bartholomaeus Kellerer
+Director UNIX Products
+Fujitsu Siemens Computers GmbH
+FSC EP OS XP
+81730 Munchen
+Phone: +49 89 636 47805
+Fax: +49 89 636 48976
+mailto: bartholomaeus.kellerer@fujitsu-siemens.com
+
+Dr. Mathias Lejeune
+FSC Legal
+Fujitsu Siemens Computers GmbH
+81730 Munchen
+Phone: +49 89 636 42651
+Fax: +49 89 636 46648
+mailto: mathias.lejeune@fujitsu-siemens.com
+
+
+
+                                                                   Page 15 of 27
+<PAGE>   16
+12.10    Any notices given shall be deemed to have been received as follows: if
+         sent by facsimile, when transmitted; if sent by certified first class
+         mail, on the date of delivery as shown on the return receipt; if sent
+         by Federal Express or equivalent overnight delivery services or by
+         personal delivery, on the date delivered.
+
+12.11    The waiver by either party of a breach or default by the other party,
+         or the failure to exercise any remedy, shall not be deemed to be a
+         waiver of any future breach, default or remedy. All remedies of a party
+         provided herein, together with all remedies available at law or in
+         equity, shall be cumulative.
+
+12.12    If any provision or provisions of this Agreement shall be held to be
+         illegal, invalid or unenforceable, the legality, validity and
+         enforceability of the remaining provisions of this Agreement shall not
+         in any way be affected or impaired. The parties agree to negotiate to
+         replace the illegal, invalid or unenforceable provision with a legal,
+         valid and enforceable provision that preserves the rights and
+         obligations of the parties to the fullest practicable extent.
+
+12.13    This Agreement shall be binding upon, and inure to the benefit of, the
+         successors and permitted assigns of the parties.
+
+
+
+IN WITNESS WHEREOF, the parties have caused this Agreement to be executed by
+their respective duly authorized representatives as of the Effective Date.
+
+
+
+
+FSC                                              UNISPHERE NETWORKS INC.
+
+
+
+
+By: /s/ Kellerer                                 By:  /s/ James A. Dolce, Jr.
+  ----------------------------------                 ---------------------------
+         (Signature)                                        (Signature)
+
+Name: Kellerer                                   Name:    James A. Dolce, Jr.
+    --------------------------------                      ----------------------
+
+Title: Director                                  Title:   CEO and President
+     -------------------------------                      ----------------------
+
+Date: March 9th, 2001                            Date:    March 9th, 2001
+    --------------------------------                      ----------------------
+
+
+
+By: /s/ illegible
+  ----------------------------------
+         (Signature)
+
+Name: illegible
+    --------------------------------
+
+Title: Counsel
+     -------------------------------
+
+Date: March 9th, 2001
+    --------------------------------
+
+
+                                                                   Page 16 of 27
+<PAGE>   17
+SCHEDULE A - OFFERED PRODUCTS, TECHNOLOGY LICENSING FEES & ROYALTY SCHEDULE
+
+RTP LIST PRICE-PRODUCT DELIVERABLES:
+
+
+1. RTP-C
+
+RTP-C is a package which bundles the following modules:
+
+RTP-CS (Core Simplex) provides complete RTP API.
+
+RTP-CNS (Core Non-Stop)
+
+Upgrades a Simplex system to a highly available n-node cluster which allows full
+non-stop computing functionality, distributed across multiple computing nodes
+(for pricing purposes only, technically already contained in RTP-CS).
+
+The simplex version is created for pricing purposes only; technically a
+multi-node SW will be delivered.
+
+2.    RTP-SS7 (provide SS7-Stack including ISUP + TCAP + MAP)
+
+RTP- CS /CNS DEPLOYMENT LICENSES
+
+INTERNET OFFLOAD
+
+
+<TABLE>
+<CAPTION>
+PRODUCT           40,000 PORTS    EXPANSION FROM  40,001   EXPANSION FROM 200,001    EXPANSION ABOVE
+                                  TO 200,000  PORTS        TO 600,000 PORTS          600,001  PORTS
+------------------------------------------------------------------------------------------------------
+<S>               <C>             <C>                      <C>                       <C>
+RTP-CS            $ 20,000        $ 0.30 per port          $ 0.15 per port           $ 0.05   per port
+
+RTP-CNS                                                    $ 25,000
+</TABLE>
+
+                                                                   Page 17 of 27
+<PAGE>   18
+VOICE APPLICATIONS
+
+
+<TABLE>
+<CAPTION>
+PRODUCT           10,000 PORTS    EXPANSION FROM    EXPANSION FROM    EXPANSION FROM    EXPANSION FROM    EXPANSION
+                                  10,001 TO         20,001 TO         60,001            120,001 TO        ABOVE 240,001
+                                  20,000 PORTS      60,000 PORTS      TO 120,000 PORTS  240,000 PORTS     PORTS
+-------------------------------------------------------------------------------------------------------------------------
+<S>               <C>             <C>               <C>               <C>               <C>               <C>
+RTP-CS            $ 35,000        $ 3.00 per port   $ 1.50 per port   $ 0.50 per port   $ 0.45 per port   $ 0.35 per port
+
+RTP-CNS                                                               $ 25,000
+</TABLE>
+
+
+For small start configurations a special 5,000 port configuration is offered at
+the price of $17,500.
+
+Lab evaluation licenses for both applications are free of charge for 6 months
+(maximum five simultaneous).
+
+These prices are based on the following performance and configuration
+assumptions provided by Licensee:
+
+-    Voice: call duration 4 min; 1.5 ports per call on average
+
+-    IOL: call duration 30 min; 2 ports per call
+
+-    83 tps per CPU under normal system load including application processing
+     (70%)
+
+-    3 tps per call
+
+Substantial Changes of these assumptions shall be reported from Licensee to FSC
+and new prices will be negotiated in good faith.
+
+
+RTP-SS7 DEPLOYMENT LICENSE (ULTICOM)
+License prices are based on the aggregate annual purchasing volumes of Ulticom's
+Software, Board and Link revenues including revenues for RM-series of Siemens AG
+and related companies.
+
+<TABLE>
+<S>                                                             <C>
+Less than $ 2,500,000                                           $ 106,000
+$ 2,500,001 to $ 4,000,000                                      $  98,000
+$ 4,000,001 and above                                           $  85,000
+</TABLE>
+
+
+RTP-SS7 BOARDS
+
+ Board Prices are based on the aggregate annual purchasing volumes of software,
+boards and link revenues including revenues for RM-series of Siemens AG and
+related companies.
+
+                                                                   Page 18 of 27
+<PAGE>   19
+<TABLE>
+<CAPTION>
+      BOARD                                               BOARD PRICE
+                      --------------------------------------------------------------------------------
+                        LESS THAN                 $2,500,001                     $ 4,000,001 AND ABOVE
+                      $ 2, 500,000               TO $ 4,000,000
+                      ------------               --------------                  ---------------------
+<S>                   <C>                        <C>                             <C>
+Two link V.35            $ 8.400                    $ 7.400                             $ 6.400
+PCI Board
+
+4-link T1/ E1           $ 13.000                    $ 11.600                           $ 10.600
+PCI Board
+
+8-link T1/E1 PCI        $ 17.000                    $ 16.000                           $ 14.800
+Board
+
+8-link T1/E1 PCI        $ 5.500 (net, no
+Board for               additional discount)
+development
+purposes
+</TABLE>
+
+NOTE: HW support for Ulticom boards are not covered by this agreement and need
+to be contracted separately between LICENSEE and Ulticom.
+
+
+                                                                   Page 19 of 27
+<PAGE>   20
+SCHEDULE B - SUPPORT AND MAINTENANCE FEES
+
+
+1. RTP-DEVELOPMENT- AND -SUPPORT LICENSE:
+
+
+    RTP-DEVELOPMENT / SUPPORT LICENSE is required for each different
+    application/project which is developed on top of RTP (example: Voice
+    Application including Internet Offload). If the development group is spread
+    over several development sites, the license has to be paid only once. The
+    license includes 7x24 premium support for one year. For subsequent years a
+    reduced support license is available.
+
+
+
+
+
+    RTP-DEVELOPMENT LICENSE
+
+    RTP-C-Development:  $  120,000
+    RTP-SS7-Development:  $  127,000
+
+    These development licenses are waived for the applications covered by this
+    agreement on the day of signature.
+
+
+    RTP-DEVELOPMENT-SUPPORT LICENSE
+
+
+    RTP-PREMIUM-CARE (7X24) is an annual fee, which includes beside the
+    maintenance all new update and upgrade versions of RTP. RTP-Premium-Care
+    (7x24) is tailored to meet the support and maintenance needs of application
+    developers. Standard support contracts for end customers are licensed per
+    cluster. In opposite to these licenses, RTP-Premium-Care is a package for
+    the complete development site. It covers a pool of cluster servers, which
+    are deployed for application development. RTP-Premium-Care provides direct
+    access to RTP engineering. RTP-Premium-Care is mandatory for each
+    development and test site.
+
+
+    The following table defines the support licenses available:
+
+
+<TABLE>
+<CAPTION>
+        PRODUCT LICENSE                          NUMBER OF SYSTEMS       TOTAL LICENSE LIST
+                                                                         PRICE
+        -----------------------------------------------------------------------------------
+<S>                                              <C>                     <C>
+        RTP-C-Premium-Care-4                             1-4                   $ 40,000
+
+        RTP-C-Premium-Care-UL                            > 4                   $ 60,000
+
+        RTP-SS7-Premium-Care-4                           1-4                   $ 42,000
+
+        RTP-SS7-Premium-Care-UL                          > 4                   $ 63,000
+</TABLE>
+
+
+                                                                   Page 20 of 27
+<PAGE>   21
+    For V1.0 the first annual fee is due with FCS (First Customer Shipment)
+    planned for April/May 2001.
+
+2. DEPLOYMENT SUPPORT LICENSE:
+
+
+    For each deployed license of the Named Product, the licensee has to sell a
+    RTP support license to the end customer (can be embedded in the support
+    license of the Named Product). The deployment support license will be 15% of
+    the RTP product list price. This annual support fee includes the maintenance
+    support as described in Schedule C plus the new update and upgrade versions
+    of RTP. FSC will provide second level support; front-line support has to be
+    provided by the licensee (details in Schedule C).
+
+
+                                                                   Page 21 of 27
+<PAGE>   22
+SCHEDULE C MAINTENANCE AND SUPPORT
+
+In accordance with the article 3.0 and Schedule B of this Agreement, FSC will
+provide Licensee and Licensee's customer with Maintenance and Support Services
+as further described herein. These Services are only applicable to Licensee and
+Licensee's customer with properly licensed RTP Software from FSC and a
+non-terminated Development- or Deployment-Support License.
+
+
+FSC RESPONSIBILITIES
+
+FSC will provide back-end or third level technical support and maintenance for
+RTP Software in accordance with the Maintenance and Support Services for
+
+     -    RTP-Core as described below in section C 1
+
+     -    RTP-SS7 (as long as Ulticom's SS7 stack is bundled with RTP) as
+          described in Attachment D, OEM Maintenance and Support of the OEM
+          License Agreement between Siemens AG and Ulticom.
+
+FSC will also provide a support management escalation contact, to which any
+concerns with quality of service or status of critical support incidents may be
+directed.
+
+Should Licensee request for on-site Engineering Support, Licensee shall
+reimburse FSC for all reasonable travel and lodging expenses incurred by FSC
+personnel to provide such support, and shall pay FSC its then-current
+professional services daily consulting rate for the FSC personnel providing
+Engineering Support.
+
+
+LICENSEE RESPONSIBILITIES
+
+Licensee will, at its own expense, provide front-line or first and second level
+technical support to its distributors and end-customers. Such support includes
+call receipt, call screening, installation assistance, problem identification
+and diagnosis, efforts to create a repeatable demonstration of the Problem and,
+if applicable, the distribution of any defective media or Updates.
+
+When requesting support, Licensee will follow FSC's prescribed support
+procedures and will make best efforts to provide necessary access to technical
+information, diagnostic data, system configurations, and other items that FSC
+will require to resolve reported Problems. Licensee will designate no more than
+two (2) authorized contacts through which support will be routed to FSC.
+
+
+
+SCHEDULE C 1 - MAINTENANCE AND SUPPORT SERVICES FOR RTP-CORE (RTP-C)
+
+
+
+                                  Page 22 of 27
+<PAGE>   23
+SOFTWARE UPDATE SERVICES
+
+Licensee with non-terminated Support License automatically receives a copy of
+new releases of RTP-C and accompanying documentation when made generally
+available by FSC. Licensee may install the new release on each device with a
+valid Support License.
+
+MAJOR RELEASES: FSC periodically produces "Major Releases" (e.g. Version 1.1,
+2.0 etc.) of the RTP-C Software, which may contain significant new functions and
+problem repairs. Each Major Release is supported with Minor Releases, Bug Fixing
+Packages and Technical Support for thirty-six (36) months following the general
+availability date of that Major Release.
+
+MINOR RELEASES: During the support for a Major Release, FSC periodically
+produces "Minor Releases" (e.g. Version 1.1B, 1.1C etc.) that may contain new
+functions with limited impact and problem corrections. Minor Releases also
+contain the official version of all fast bug fixes agreed upon between licensor
+and licensee, which are implemented by Licensee between two Minor Releases.
+
+BUG FIXING PACKAGES: During the support period of a Major Release and in between
+Minor Release deliveries, FSC will deliver Bug Fixing Packages with corrections
+to Critical Problems.
+
+FSC reserves the right to change the frequency of Major Releases and Minor
+Releases.
+
+
+TECHNICAL SUPPORT
+
+FSC shall maintain a trained staff capable of rendering Technical Support for
+RTP-C Software.
+
+PROBLEM REPORTING: FSC shall maintain a Customer Support Team capable of
+receiving Licensee generated Problem Reports for Problems manifested on RTP-C.
+The Customer Support Team is reachable 24 hours per day, 7 days per week via
+e-mail or via telephone.
+
+PROBLEM REPORTS: Problem Reports submitted by Licensee shall contain the
+following information and shall be assigned a tracking number by FSC:
+
+-    Identification of end-customers environment.
+
+-    Problem Severity (see Table 1).
+
+-    Identification of Software Releases in use.
+
+-    Machine and Network Configuration.
+
+-    Description of Problem, Circumstances leading to the Problem, Licensee's
+     evaluation of the Problem, any other reasonable analysis data available
+     such as line monitor traces, log files etc.
+
+Licensee shall assist FSC, as reasonably requested, to perform additional tests
+and gather information to aid FSC's analysis of the Problem. In the event of
+critical problems that are not reproducible at FSC's facilities, FSC may request
+remote access to Licensee's development center to assist FSC in collecting
+and analyzing data in the data collection process. In the event the critical
+problem is not reproducible at Licensee's development center, FSC may request
+Licensee to obtain remote access to Licensee's
+
+                                  Page 23 of 27
+<PAGE>   24
+End-customer site in consent with Licensee's end-customer.
+
+PROBLEM SOLUTION. Within the Response Time (see Table 1) of verifying that such
+Problem is present, FSC shall initiate work in a diligent manner toward
+development of a Problem Solution (solution that enables the RTP Software to
+substantially conform to the accompanying documentation for the release). FSC
+shall inform Licensee of the expected time frame within which such Problem
+Solution shall be delivered. Notwithstanding any such estimated time frame, FSC
+shall make reasonable commercial efforts to provide Problem Solution within the
+Resolution Time defined in Table 1.
+
+
+RESPONSE AND RESOLUTION TIMES
+
+
+<TABLE>
+<CAPTION>
+     SEVERITY       DESCRIPTION                                          RESPONSE TIME         RESOLUTION TIME
+--------------------------------------------------------------------------------------------------------------------
+<S>                 <C>                                                  <C>                   <C>
+                    Critical - Problem that prevents or seriously
+                    impairs the execution of a major function in the
+        1           Licensed Programs either by LICENSEE or a
+                    sublicensee of LICENSEE.  No suitable work-around    4 hours               1 working day
+                    is available.
+
+                    Severe Impact - Problem that significantly impairs                         5 working days
+                    the execution of a major function in the Licensed
+        2           Programs either by LICENSEE or a sub licensee of
+                    LICENSEE. A short-term work-around is available.     4 hours
+
+                    Degraded Operation - Problem that disables or        1 working day         20 working days
+        3           impairs the execution of a minor function in the
+                    Licensed Programs.
+
+                                                                         14 working days       180 working days or in
+                    Minor Impact - Problem in a rarely used function                           next maintenance
+        4           or problem for which an easy and effective method                          release, whichever
+                    for avoiding the impact exists.                                            comes sooner
+</TABLE>
+
+TABLE 1.
+
+Proposals for temporary workarounds like reboot system/reload HW-Controller,
+changes of configuration, reducing system load or deactivate single components
+will be made by our support team within the Response Time.
+
+                                  Page 24 of 27
+<PAGE>   25
+
+All Problem Solutions shall be deemed part of the RTP-C Software and subject to
+the terms and conditions of the License Agreement. Depending on the nature of
+the Problem and the timing of the next scheduled Major Release or Minor Release,
+the Problem Solution may take one of the following forms:
+
+-    Major Release or Minor Release.
+
+-    Bug Fixing Package of RTP-C that delivers a correction of the Critical
+     Problem.
+
+-    Problem Repairs are only made to the Major Release, the latest Minor
+     Release of the supported Major Release or the latest Bug Fixing Package.
+
+-    Workaround instructions to enable Licensee to avoid the adverse effects of
+     the Problem, including restarting some or all of the RTP components in the
+     event a solution or fix has not been finalized.
+
+-    Temporary "Fast Bug Fixes" implemented by Licensee. Licensee shall report
+     these changes of the source code to FSC. FSC may integrate these changes
+     into the next release of RTP-C or implement an own solution of this
+     problem.
+
+FSC shall include all Problem Solutions as agreed upon between Licensee and
+Licensor in the next practical and all subsequent releases of the RTP-C.
+
+
+
+                                  Page 25 of 27
+<PAGE>   26
+SCHEDULE D  - LIST OF DELIVERABLES
+
+SOFTWARE
+RTP-C  (CORE)
+       RTP-C as specified in the documentation listed below
+       Source Code RTP-C
+       Machine-readable object code of  RTP-C
+       Makefiles
+       Tools and appropriate sources
+
+RTP-SS7
+       Machine-readable object code of SignalWare(R) from Ulticom
+       No source code and no headerfiles
+
+DOCUMENTATION
+RTP-C
+       Installation/Configuration Guide
+       Administration Guide
+       Programmer Guide
+       Online Release Documentation
+       Performance Documentation
+           FSC will provide for Major Releases basic component-specific
+           Performance figures, including (but in the future not limited)
+           Context Manager, Communication Manager and Timer Manager.
+       Data Sheet
+       The high availability concept of the Resilient Telco Platform
+
+RTP-SS7
+       SignalWare(R) customer documentation from Ulticom
+
+
+
+TESTING ON SUN-CLUSTER
+
+RTP tests are performed on a limited set of non PrimePower configurations (at
+the moment SUN-450 with 4 processors). Tests on other customer specific
+configurations are in the responsibility of the application developer. On
+request, test and problem Analysis support can be provided in the framework of
+RTP service offerings. Of course, FSC takes responsibility for bug fixing in
+case of identified RTP problems.
+
+
+Each release shall be certified by FSC to provide the features, and successfully
+work in the configurations, stated in its Release notes. Furthermore, FSC shall
+certify that its software performs correctly with the base platform stated
+above.
+
+SUN CLUSTER CERTIFICATION
+
+
+                                 Page 26 of 27
+<PAGE>   27
+In the event that the Named Product needs to be certified by Sun, both partners
+will jointly go through this certification process, support each other and cover
+all its portion of the cost. The initial certification cost payable to Sun will
+be shared 50/50. FSC will pay its share by providing licenses free of charge up
+to the amount due.
+
+Annual renewal fees have to be carried by licensee. Additional certifications
+due to major changes in the products have to be carried by the party whose
+product causes the additional certification. FSC will not carry fees caused by
+changes in the Sun Cluster Software.
+
+3RD PARTY PRODUCTS PROVIDED BY FSC
+
+SNMP AGENT (SNMP RESEARCH INC)
+
+
+FSC provides LICENSEE with license for the RTP SNMP master-agent. Subagents
+would have to be procured by LICENSEE from another vendor.
+
+
+
+
+
+SS7 STACK
+
+
+Development support of the Ulticom SS7 stack and SS7 boards is the
+responsibility of FSC. Inter-operational feature negotiations and support issues
+between RTP (including OS, clustering software and RTP) and the Ulticom solution
+are the responsibility of FSC.
+
+
+ SHAREWARE/FREEWARE USED IN RTP
+
+
+ as listed in the RTP Data Sheet.
+
+
+                                 Page 27 of 27
+
+</TEXT>
+</DOCUMENT>

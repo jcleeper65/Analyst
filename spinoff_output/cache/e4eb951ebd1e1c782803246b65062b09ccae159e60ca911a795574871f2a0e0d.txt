@@ -1,0 +1,948 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>34
+<FILENAME>R29.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Significant Accounting Policies (Policies)<br></strong></div></th>
+<th class="th" colspan="1">12 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Dec. 31, 2025</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_AccountingPoliciesAbstract', window );"><strong>Accounting Policies [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConsolidationPolicyTextBlock', window );">Basis of Presentation</a></td>
+<td class="text"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Basis of Presentation</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - The consolidated financial statements include the accounts of Zimmer Biomet Holdings and its subsidiaries in which it holds a controlling financial interest.  All significant intercompany accounts and transactions are eliminated.  Amounts reported in millions within these notes to the consolidated financial statements are computed based on the actual amounts.  As a result, the sum of the components may not equal the total amount reported in millions due to rounding.  In addition, certain columns and rows within tables may not sum to the totals due to the use of rounded numbers.  Percentages presented are calculated from the underlying unrounded amounts.</span><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_UseOfEstimates', window );">Use of Estimates</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Use of Estimates -</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> The consolidated financial statements are prepared in conformity with accounting principles generally accepted in the United States of America (&#8220;GAAP&#8221;), which requires us to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period.  We have made our best estimates, as appropriate under GAAP, in the recognition of our assets and liabilities.  Such estimates include, but are not limited to, variable consideration to our customers, our allowance for doubtful accounts for expected credit losses, the net realizable value of our inventory, the fair value of our goodwill, the recoverability of other long-lived assets, contingent consideration that may be payable related to our business combinations and unrecognized tax benefits.  Actual results could differ materially from these estimates.</span></p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ForeignCurrencyTransactionsAndTranslationsPolicyTextBlock', window );">Foreign Currency Translation</a></td>
+<td class="text"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Foreign Currency Translation -</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> The financial statements of our foreign subsidiaries are translated into U.S. Dollars using period-end exchange rates for assets and liabilities and average exchange rates for operating results.  Unrealized translation gains and losses are included in accumulated other comprehensive loss in stockholders&#8217; equity.  When a transaction is denominated in a currency other than the subsidiary&#8217;s functional currency, we remeasure the transaction into the functional currency and recognize any transactional gains or losses in earnings. </span><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_zbh_RevenueFromContractWithCustomerShippingAndHandlingCostsPolicyPolicyTextBlock', window );">Shipping and Handling</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Shipping and Handling</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - Amounts billed to customers for shipping and handling of products are reflected in net sales and are not significant.  Expenses incurred relate</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">d to shipping and handling of products are reflected in selling, general and administrative (&#8220;SG&amp;A&#8221;) expenses and were $</span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">301.3</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> million</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">, $</span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">288.3</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> million and $</span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">272.7</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> million for the years ended </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">December 31, 2025, 2024 and 2023</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">, respectively.</span></p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ResearchAndDevelopmentExpensePolicy', window );">Research and Development</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Research and Development -</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> We expense all research and development (&#8220;R&amp;D&#8221;) costs as incurred except when there is an alternative future use for the R&amp;D.  R&amp;D costs include salaries, prototypes, depreciation of equipment used in R&amp;D, consultant fees, service fees paid to collaborative partners, and arrangements to gain access to or acquire third-party in-process R&amp;D projects with no alternative future use.  Where contingent milestone payments are due to third parties under R&amp;D arrangements, we expense the milestone payment obligations when it is probable that the milestone results will be achieved.</span></p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_LegalCostsPolicyTextBlock', window );">Litigation</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Litigation</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - We record an undiscounted liability for contingent losses, including future legal costs, settlements and judgments, when we consider it is probable that a liability has been incurred and the amount of the loss can be reasonably estimated.</span></p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CostsAssociatedWithExitOrDisposalActivitiesOrRestructuringsPolicyTextBlock', window );">Restructuring and Other Cost Reduction Initiatives</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Restructuring and other cost reduction initiatives -</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> A restructuring is defined as a program that is planned and controlled by management, and materially changes either the scope of a business undertaken by an entity, or the manner in which that business is conducted.  Restructuring charges include (i) employee termination benefits, (ii) contract termination costs and (iii) other related costs associated with exit or disposal activities.</span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">In February 2025 and then further expanded in December 2025, and December 2023, 2021 and 2019, we approved separate global restructuring programs intended to further reduce costs and to reorganize our global operations.  Restructuring charges for the years ended </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">December 31, 2025, 2024 and 2023 were attributable to these programs. See Note 4 for additional information regarding these restructuring programs.</span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We have also initiated other cost reduction and optimization projects that have the goal of reducing costs across the organization.  Costs related to these projects are included in our &#8220;Restructuring and other cost reduction initiatives&#8221; financial statement line item.</span></p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_BusinessCombinationsAndOtherPurchaseOfBusinessTransactionsPolicyTextBlock', window );">Acquisition, Integration, Divestiture and Related</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Acquisition, integration, divestiture and related &#8211;</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> We use the financial statement line item, &#8220;Acquisition, integration, divestiture and related&#8221; to recognize expenses resulting from the consummation of business mergers and acquisitions and the related integration of those businesses, and expenses related to the divestiture of our businesses.  Acquisition, integration, divestiture and related gains and expenses are primarily composed of:</span></p><div class="item-list-element-wrapper" style="margin-left:4.537%;display:flex;margin-top:0;justify-content:flex-start;align-items:baseline;margin-bottom:0;min-width:3.333%;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:3.491405046981553%;word-break:keep-all;display:inline-flex;justify-content:flex-start;">&#8226;</span><div style="display:inline;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Consulting and professional fees related to third-party integration performed in a variety of areas, such as finance, tax, compliance, logistics and human resources, and legal fees related to the consummation of mergers and acquisitions.  </span></div></div><div class="item-list-element-wrapper" style="margin-left:4.537%;display:flex;margin-top:0;justify-content:flex-start;align-items:baseline;margin-bottom:0;min-width:3.333%;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:3.491405046981553%;word-break:keep-all;display:inline-flex;justify-content:flex-start;">&#8226;</span><div style="display:inline;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Compensation from the discretionary accelerated vesting of share-based payments as agreed upon as part of the business combination.</span></div></div><div class="item-list-element-wrapper" style="margin-left:4.537%;display:flex;margin-top:0;justify-content:flex-start;align-items:baseline;margin-bottom:0;min-width:3.333%;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:3.491405046981553%;word-break:keep-all;display:inline-flex;justify-content:flex-start;">&#8226;</span><div style="display:inline;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Employee termination benefits related to terminating employees with overlapping responsibilities in various areas of our business.  </span></div></div><div class="item-list-element-wrapper" style="margin-left:4.537%;display:flex;margin-top:0;justify-content:flex-start;align-items:baseline;margin-bottom:0;min-width:3.333%;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:3.491405046981553%;word-break:keep-all;display:inline-flex;justify-content:flex-start;">&#8226;</span><div style="display:inline;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Dedicated project personnel expenses which include the salary, benefits, travel expenses and other costs directly associated with employees who are </span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">100</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> percent dedicated to our integration of acquired businesses and employees who have been notified of termination, but are continuing to work on transferring their responsibilities.  </span></div></div><div class="item-list-element-wrapper" style="margin-left:4.537%;display:flex;margin-top:0;justify-content:flex-start;align-items:baseline;margin-bottom:0;min-width:3.333%;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:3.491405046981553%;word-break:keep-all;display:inline-flex;justify-content:flex-start;">&#8226;</span><div style="display:inline;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Contract termination expenses related to terminated contracts, primarily with sales agents and distribution agreements.  </span></div></div><div class="item-list-element-wrapper" style="margin-left:4.537%;display:flex;margin-top:0;justify-content:flex-start;align-items:baseline;margin-bottom:0;min-width:3.333%;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:3.491405046981553%;word-break:keep-all;display:inline-flex;justify-content:flex-start;">&#8226;</span><div style="display:inline;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Changes to our contingent consideration liabilities related to our mergers and acquisitions. </span></div></div><div class="item-list-element-wrapper" style="margin-left:4.537%;display:flex;margin-top:0;justify-content:flex-start;align-items:baseline;margin-bottom:0;min-width:3.333%;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:3.491405046981553%;word-break:keep-all;display:inline-flex;justify-content:flex-start;">&#8226;</span><div style="display:inline;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Other various expenses to relocate facilities, integrate information technology, losses incurred on assets resulting from the applicable acquisition, and other various expenses.</span></div></div><div class="item-list-element-wrapper" style="margin-left:4.537%;display:flex;margin-top:0;justify-content:flex-start;align-items:baseline;margin-bottom:0;min-width:3.333%;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:3.491405046981553%;word-break:keep-all;display:inline-flex;justify-content:flex-start;">&#8226;</span><div style="display:inline;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Income and expenses related to providing a divested business certain services after the separation date.</span></div></div><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_CashAndCashEquivalentsPolicyTextBlock', window );">Cash and Cash Equivalents</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Cash and Cash Equivalents -</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> We consider all highly liquid investments with an original maturity of three months or less to be ca</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">sh equivalents.  The carrying amounts reported in the balance sheet for cash and cash equivalents are valued at cost, which approximates their fair value.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> </span></p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ReceivablesPolicyTextBlock', window );">Accounts Receivable</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:12pt;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Accounts Receivable</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - Accounts receivable consists of trade and other miscellaneous receivables.  We grant credit to customers in the normal course of business and maintain an allowance for expected credit losses.  We determine the allowance for credit losses by geographic market and take into consideration historical credit experience, creditworthiness of the customer and other pertinent information.  We make concerted efforts to collect all accounts receivable, but sometimes we have to write-off the account against the allowance when we determine the account is uncollectible.  The allowance for credit losses was </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">$</span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">109.8</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> million a</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">nd $</span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">93.2</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> million as of </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">December 31, 2025 and 2024</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">, respectively.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InventoryPolicyTextBlock', window );">Inventories</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Inventories -</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> Inventories are stated at the lower of cost and net realizable value, with cost determined on a first-in first-out basis.</span></p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_PropertyPlantAndEquipmentPolicyTextBlock', window );">Property, Plant and Equipment</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Property, Plant and Equipment -</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> Property, plant and equipment is carried at cost less accumulated depreciation.  Depreciation is computed using the straight-line method based on estimated useful lives of </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="-sec-ix-hidden:F_d8bcd4ce-0d4c-44d6-b06a-7e126873b069;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">ten</span></span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> to </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">forty years</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> for buildings and improvements and </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="-sec-ix-hidden:F_1a5eaab1-06b2-4553-803d-b82d596b128f;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">three</span></span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> to </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">eight years</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> for </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">machinery and equipment.  Maintenance and repairs are expensed as incurred.  We review property, plant and equipment for impairment whenever events or changes in circumstances indicate that the carrying value of an asset may not be recoverable.  An impairment loss would be</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> </span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">recognized </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">when estimated future undiscounted cash flows relating to the asset are less than its carrying amount.  An impairment loss is measured as the amount by which the carrying amount of an asset exceeds its fair value.</span></p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_InternalUseSoftwarePolicy', window );">Software Costs</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Software Costs</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - We capitalize certain computer software and software development costs incurred in connection with developing or obtaining computer software for internal use when both the preliminary project stage is completed and it is probable that the software will be used as intended.  Capitalized software costs generally include external direct costs of materials and services utilized in developing or obtaining computer software and compensation and related benefits for employees who are directly associated with the software project.  Capitalized software costs are included in property, plant and equipment on our balance sheet and amortized on a straight-line or weighted average estimated user basis when the software is ready for its intended use over the estimated useful lives of the software, which approximate </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="-sec-ix-hidden:F_5def49c3-f819-4fe5-a77f-a04651841569;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">three</span></span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> to </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">ten years</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">For cloud computing arrangements that are considered a service contract, our capitalization of implementation costs is aligned with the internal use software requirements.  However, on our consolidated balance sheet these implementation costs are recognized in other noncurrent assets.  On our consolidated statement of cash flows, these implementations costs are recognized in operating cash flows.  The implementation costs are recognized on a straight-line basis over the expected term of the related service contract. </span><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_zbh_InstrumentsPolicyTextBlock', window );">Instruments</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Instruments</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - Instruments are hand-held devices used by surgeons during total joint replacement and other surgical procedures.  Instruments are recognized as long-lived assets and are included in property, plant and equipment.  Undeployed instruments are carried at cost or net realizable value.  Instruments that have been deployed to be used in surgeries are carried at cost less accumulated depreciation.  Depreciation is computed using the straight-line method based on average estimated useful lives, determined principally in reference to associated product life cycles, primarily </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">five years</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">.  We review instruments for impairment whenever events or changes in circumstances indicate that the carrying value of an instrument may not be recoverable.  Depreciation of instruments is recognized as SG&amp;A expense.</span></p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_GoodwillAndIntangibleAssetsGoodwillPolicy', window );">Goodwill</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Goodwill</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - Goodwill is not amortized but is subject to annual impairment tests.  Goodwill has been assigned to reporting units.  Potential impairment of a reporting unit is identified by either comparing a reporting unit&#8217;s estimated fair value to its carrying amount or doing a qualitative assessment of a reporting unit&#8217;s fair value from the last quantitative assessment to determine if there is potential impairment.  We may do a qualitative assessment when the results of the previous quantitative test indicated the reporting unit&#8217;s estimated fair value was significantly in excess of the carrying value of its net assets and we do not believe there have been significant changes in the reporting unit&#8217;s operations that would significantly decrease its estimated fair value.  If a quantitative assessment is performed, the fair value of the reporting unit and the fair value of goodwill are determined based upon a discounted cash flow analysis and/or use of a market approach by looking at market values of comparable companies.  Significant assumptions are incorporated into our discounted cash flow analyses such as forecasted net sales, revenue growth rates, forecasted operating expenses and risk-adjusted discount rates.  We perform this test in the fourth quarter of the year or whenever events or changes in circumstances indicate that the fair value of the reporting unit is more likely than not below its carrying amount.  If the fair value of the reporting unit is less than its carrying value, an impairment loss is recorded in the amount that the carrying value of the reporting unit exceeds the fair value. See Note 10 for more information regarding goodwill.</span></p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_GoodwillAndIntangibleAssetsIntangibleAssetsPolicy', window );">Intangible Assets</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Intangible Assets</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - Intangible assets are initially measured at their fair value.  We have determined the fair value of our intangible assets either by the fair value of the consideration exchanged for the intangible asset or the estimated after-tax discounted cash flows expected to be generated from the intangible asset.  Intangible assets with a finite life, including technology, certain trademarks and trade names, customer-related intangibles, intellectual property rights and patents and licenses are amortized on a straight-line basis over their estimated useful life or contractual life, which may range from less than </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">one year</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> to </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">twenty years</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">.  Intangible assets with a finite life are tested for impairment whenever events or circumstances indicate that the carrying amount may not be recoverable.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Intangible assets with an indefinite life, including certain trademarks and trade names and in-process research and development (&#8220;IPR&amp;D&#8221;) projects, are not amortized.  Indefinite life intangible assets are assessed annually to determine whether events and circumstances continue to support an indefinite life.  Intangible assets with an indefinite life are tested for impairment annually or whenever events or circumstances indicate that the fair value of the asset is more likely than not below its carrying amount.  An impairment loss is recognized if the carrying amount exceeds the estimated fair value of the asset.  The amount of the impairment loss to be recorded would be determined based upon the excess of the asset&#8217;s carrying value over its fair value.  The fair values of indefinite lived intangible assets are determined based upon a discounted cash flow analysis using the relief from royalty method or</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> </span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">a qualitative assessment may be performed for any changes to the asset&#8217;s fair value from the last quantitative assessment.  The relief from royalty method estimates the cost savings associated with owning, rather than licensing, assets.  Significant assumptions are incorporated into these discounted cash flow analyses such as estimated growth rates, royalty rates and risk-adjusted discount rates.  We may do a qualitative assessment when the results of the previous quantitative test indicated that the asset&#8217;s fair value was significantly in excess of its carrying value.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">In determining the useful lives of intangible assets, we consider the expected use of the assets and the effects of obsolescence, demand, competition, anticipated technological advances, changes in surgical techniques, market influences and other economic factors.  For technology-based intangible assets, we consider the expected life cycles of products, absent unforeseen technological advances, which incorporate the corresponding technology.  Trademarks and trade names that do not have a wasting characteristic (i.e., there are no legal, regulatory, contractual, competitive, economic or other factors which limit the useful life) are assigned an indefinite life.  Trademarks and trade names that are related to products expected to be phased out are assigned lives consistent with the period in which the products bearing each brand are expected to be sold.  For customer relationship intangible assets, we assign useful lives based upon historical levels of customer attrition.  Intellectual property rights are assigned useful lives that approximate the contractual life of any related patent or the period for which we maintain exclusivity over the intellectual property. </span><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_zbh_ContingentConsiderationPolicyTextBlock', window );">Contingent Consideration</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Contingent Consideration</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - Contingent consideration related to business combinations is recognized at its estimated fair value on the acquisition date.  Subsequent changes to the fair value of those contingent consideration arrangements are recognized in the financial statement line item "Acquisition, integration, divestiture and related".  Contingent consideration obligations related to business acquisitions may consist of development, regulatory and commercial milestone payments, and revenue or earnings-based payments, and are valued using discounted cash flow techniques.  The estimated fair value related to achievement of development, regulatory and commercial milestone payments reflects management&#8217;s expectations of the probability of payment, and increases or decreases as the probability of payment or expectation of timing or amount of payments changes.  The estimated fair value related to achievement of revenue-based payments is based upon probability-weighted future revenue estimates and increases or decreases as revenue estimates or expectation of timing or amount of payments changes.</span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">At the end of each reporting period, we remeasure the fair value of these obligations based upon new information and record changes in their fair values until either the contingent consideration obligation is satisfied through payment upon achievement of, or the obligation no longer exists due to the failure to achieve the specified objectives.  Changes to contingent consideration obligations can result from adjustments to discount rates, accretion of the discount rates due to the passage of time, changes in our estimates of the likelihood or timing of achieving development or commercial milestones, changes in the assumed probability associated with regulatory approval, and changes in the projected cashflows related to certain revenue milestones.</span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">The assumptions related to estimating the fair value of contingent consideration include a significant amount of judgment, and any changes in the underlying estimates could have a material impact on the amount of contingent consideration recorded in any given period.</span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">If the transaction is determined to be an asset acquisition rather than a business combination, a contingent consideration liability is recognized when the specified objective is deemed probable and is estimable.</span></p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_IncomeTaxPolicyTextBlock', window );">Income Taxes</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Income Taxes - </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We account for income taxes under the asset and liability method, which requires the recognition of deferred tax assets and liabilities for the expected future tax consequences of events that have been included in the financial statements.  Under this method, deferred tax assets and liabilities are determined based on the differences between the financial statements and tax basis of assets and liabilities using enacted tax rates in effect for the year in which the differences are expected to reverse.  The effect of a change in tax rates on deferred tax assets and liabilities is recognized in income in the period the new tax rate is enacted.</span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We reduce our deferred tax assets by a valuation allowance if it is more likely than not that we will not realize some portion or all of the deferred tax assets.  In making such determination, we consider all available positive and negative evidence, including future reversals of existing taxable temporary differences, projected future taxable income, tax planning strategies and recent financial operations.  In the event we were to determine that we would be able to realize our deferred income tax assets in the future in excess of their net recorded amount, we would make an adjustment to the valuation allowance which would reduce the provision for income taxes.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We operate on a global basis and are subject to numerous and complex tax laws and regulations.  The calculation of our tax liabilities involves dealing with uncertainties in the application of complex tax laws and regulations in numerous jurisdictions across our global operations.  Our income tax filings are regularly under audit in multiple federal, state, and foreign jurisdictions.  Income tax audits may require an extended period of time to reach resolution and may result in significant income tax adjustments when interpretation of tax laws or allocation of company profits is disputed.  Because income tax adjustments in certain jurisdictions can be significant, we record tax positions based upon our estimates.  For those tax positions where it is more likely than not that a tax benefit will be sustained, we have recorded the largest amount of tax benefit with a greater than 50 percent likelihood of being realized upon ultimate settlement with a taxing authority that has full knowledge of all relevant information.  For those income tax positions where it is not more likely than not that a tax benefit will be sustained, no tax benefit has been recognized in the financial statements.</span></p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DerivativesPolicyTextBlock', window );">Derivative Financial Instruments</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Derivative Financial Instruments - </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We measure all derivative instruments at fair value and report them on our consolidated balance sheet as assets or liabilities.  We maintain written policies and procedures that permit, under appropriate circumstances and subject to proper authorization, the use of derivative financial instruments solely for risk management purposes.  The use of derivative financial instruments for trading or speculative purposes is prohibited by our policy.  See Note 14 for more information regarding our derivative and hedging activities.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> </span></p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ComprehensiveIncomePolicyPolicyTextBlock', window );">Accumulated Other Comprehensive Income (Loss)</a></td>
+<td class="text"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Accumulated Other Comprehensive Income (Loss) &#8211;</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> Accumulated other comprehensive income (loss) (&#8220;AOCI&#8221;) refers to gains and losses that under GAAP are included in comprehensive income but are excluded from net earnings as these amounts are recorded directly as an adjustment to stockholders&#8217; equity.  Our AOCI is comprised of foreign currency translation adjustments, including unrealized gains and losses on net investments hedges, unrealized gains and losses on cash flow hedges and amortization of prior service costs and unrecognized gains and losses in actuarial assumptions. </span><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_zbh_OtherExpenseIncomeNetPolicyTextBlock', window );">Other Income (Expense), Net</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Other Income (Expense), Net </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">- Other income (expense)</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">, </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">net includes gains/(losses) on changes in fair value of our investments, gains/(losses) on remeasurement of monetary assets and liabilities denominated in a currency other than an subsidiary's functional currency and the related gains/(losses) on derivative instruments that are not designated as hedging instruments that we use to manage the currency exposures of these assets and liabilities, certain components of pension expense, and other non-operating gains/(losses).  In the years ended December 31, 2025, 2024 and 2023, we recognized gains of $</span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">14.7</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> million, losses of $</span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">42.1</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> million and losses of $</span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">18.5</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> million, respectively, on our investments in </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="-sec-ix-hidden:F_1932d9d7-3991-48eb-8e57-5891e961e7d9;"><span style="-sec-ix-hidden:F_5064e860-9c41-415f-b331-898ce2a1e51d;"><span style="-sec-ix-hidden:F_19fa2a40-6814-41cf-bea7-509b4ac9eb5b;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">other debt and equity securities</span></span></span></span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">.</span></p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_zbh_TreasuryStockPolicyTextBlock', window );">Treasury Stock</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Treasury Stock</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - We account for repurchases of common stock under the cost method and present treasury stock as a reduction of stockholders&#8217; equity.  We reissue common stock held in treasury only for limited purposes.</span></p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_ConsolidationSubsidiariesOrOtherInvestmentsConsolidatedEntitiesPolicy', window );">Noncontrolling Interest</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Noncontrolling Interest</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> - We have investments in other companies in which we have a controlling financial interest, but not 100 percent of the equity.  Further information related to the noncontrolling interests of those investments has not been provided as it is not significant to our consolidated financial statements.</span></p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock', window );">Accounting Pronouncements Recently Adopted and Not Yet Adopted</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Accounting Pronouncements Recently Adopted</span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">In December 2023, the Financial Accounting Standards Board ("FASB") issued Accounting Standards Update ("ASU") 2023-09, Improvements to Income Tax Disclosures, which is an amendment to ASC Topic 740 - Income Taxes.  The ASU improves the transparency of income tax disclosures by requiring greater disaggregated information about an entity&#8217;s effective tax rate reconciliation and requiring additional disclosures and disaggregation of income taxes paid, among other amendments to improve the effectiveness of income tax disclosures.  We adopted the guidance effective for the year ended December 31, 2025, on a prospective basis.  See Note 16 for the additional income tax disclosures.</span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-style:italic;font-kerning:none;min-width:fit-content;">Accounting Pronouncements Not Yet Adopted</span></p><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">&#160;</span></p><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">In November 2024, the FASB issued ASU 2024-03, Disaggregation of Income Statement Expenses, which is an amendment to ASC Topic 220 - Comprehensive Income.  The ASU improves financial reporting by requiring disclosure of additional information about specific expense categories included in the expense captions presented on the income statement as well as disclosures about selling expenses.  The ASU is effective for fiscal years beginning after December 15, 2026, and interim periods for fiscal years beginning after December 15, 2027. The guidance will be applied prospectively with an option to apply the guidance retrospectively. Early adoption of this ASU is permitted.  We are currently evaluating the impact this ASU will have on our disclosures.</span></p><p style="font-size:10pt;margin-top:12pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">In September 2025, the FASB issued ASU 2025-06, Targeted Improvements to the Accounting for Internal-Use Software, which is an amendment to ASC Topic 350 - Intangibles - Goodwill and Other.  The ASU amends the criteria and threshold for capitalizing software costs.  The ASU removes the sequential software project stages from the previous guidance and will now require companies to capitalize internal-use software when: (1) management has authorized and committed to funding the software project, and (2) it is probable that the project will be completed and the software will be used to perform the function intended.  The ASU is effective for fiscal years beginning after December 15, 2027, and interim periods within that reporting year. The guidance can be applied prospectively with an option to apply the guidance retrospectively or through a modified transition approach. Early adoption of this ASU is permitted.  We are currently evaluating the impact this ASU will have on our consolidated financial statements.</span></p><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RevenueFromContractWithCustomerPolicyTextBlock', window );">Revenue from Contract with Customer</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We recognize revenue when our performance obligations under the terms of a contract with our customer are satisfied.  This happens when we transfer control of our products to the customer, which generally occurs upon implantation or when title passes upon shipment.  Revenue is measured as the amount of consideration we expect to receive in exchange for transferring our product.  Taxes collected from customers and remitted to governmental authorities are excluded from revenues.</span></p><p style="font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We sell products through two principal channels: 1) direct to healthcare institutions, such as hospitals and ambulatory surgery centers, referred to as direct channel accounts; and 2) through stocking distributors and healthcare dealers.  In direct channel accounts and with some healthcare dealers, inventory is generally consigned to sales agents or customers so that products are available when needed for surgical procedures.  No revenue is recognized upon the placement of inventory into consignment, as we retain the ability to control the inventory.  Upon implantation, we issue an invoice and revenue is recognized.  Consignment sales represented approximately</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> </span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">85</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> percent of our net sales in</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> 2025.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  Pricing for products is generally predetermined by contracts with customers, agents acting on behalf of customer groups or by government regulatory bodies, depending on the market.  Price discounts under group purchasing contracts are generally linked to volume of implant purchases by customer healthcare institutions within a specified group.  At negotiated thresholds within a contract buying period, price discounts may increase.  Payment terms vary by customer, but are typically less than </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">90 days</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><p style="font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">With sales to stocking distributors and some healthcare dealers and hospitals, revenue is generally recognized when control of our product passes to the customer, which can be upon shipment of the product or receipt by the customer.  We estimate sales recognized in this manner represented approximately</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> </span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">15</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> percent of our net sales in</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> 2025. </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> These customers may purchase items in large quantities if incentives are offered or if there are new product offerings in a market, which could cause period-to-period differences in sales.  Direct channel accounts may also make opportunistic orders where control of our product passes in this manner.  It is our accounting policy to account for shipping and handling activities as a fulfillment cost rather than as an additional promised service.  We have contracts with these customers or orders may be placed from available price lists.  Payment terms vary by customer, but are typically less than </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">90 days</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><p style="font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We offer standard warranties to our customers that our products are not defective.  These standard warranties are not considered separate performance obligations.  In limited circumstances, we offer extended warranties that are separate performance obligations.  We have very few contracts that have multiple performance obligations.  Since we do </span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">no</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">t have significant multiple element arrangements and essentially all of our sales are recognized upon implantation of a product or when title passes, very little judgment is required to allocate the transaction price of a contract or determine when control has passed to a customer.  Our costs to obtain contracts consist primarily of sales commissions to employees or third-party agents that are earned when control of our product passes to the customer.  Therefore, sales commissions are expensed as part of SG&amp;A expenses at the same time revenue is recognized.  Accordingly, we do </span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">no</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">t have significant contract assets, liabilities or future performance obligations.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><p style="font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We offer volume-based discounts, rebates, prompt pay discounts, limited rights of return and other various incentives which we account for under the variable consideration model.  If sales incentives may be earned by a customer for purchasing a specified amount of our product, we estimate whether such incentives will be achieved and recognize these incentives as a reduction in revenue in the same period the underlying revenue transaction is recognized.  We primarily use the expected value method to estimate incentives.  Under the expected value method, we consider the historical experience of similar programs as well as review sales trends on a customer-by-customer basis to estimate what levels of incentives will be earned.  Occasionally, products are returned and, accordingly, we maintain an estimated refund liability based upon the expected value method that is recorded as a reduction in revenue.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><p style="font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We analyze sales by </span><span style="font-size:10pt;font-family:Times New Roman;color:#000000;white-space:pre-wrap;font-kerning:none;min-width:fit-content;">two</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> geographies, the United States and International; and by the following product categories: Knees; Hips; Sports Medicine, Extremities and Trauma (&#8220;S.E.T.&#8221;), which includes Craniomaxillofacial and Thoracic (&#8220;CMFT&#8221;); and Technology &amp; Data, Bone Cement and Surgical.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><p style="font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">This net sales presentation differs from our reportable operating segments, which are based upon our senior management organizational structure and how we allocate resources toward achieving operating profit goals.  Each of our reportable operating segments sells all the product categories noted above.  Accordingly, the only difference from the presentation below and our reportable operating segments are the geographic groupings.</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span></p><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_LesseeLeasesPolicyTextBlock', window );">Leases</a></td>
+<td class="text"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We own most of our manufacturing facilities, but lease various office space, vehicles and other less significant assets throughout the world.  Our contracts contain a lease if they convey a right to control the use of an identified asset, either explicitly or implicitly, in exchange for consideration.  We have elected not to recognize a right-of-use asset nor a lease liability for leases with an initial term of twelve months or less.  Additionally, we have elected not to separate non-lease components from the leased components in the valuation of our right-of-use asset and lease liability for all asset classes.  Our lease contracts are a necessary part of our business, but we do not believe they are significant to our overall operations.  We do not have any significant finance leases.  Additionally, we do not have significant leases: where we are considered a lessor; where we sublease our assets; with an initial term of twelve months or less; with related parties; with residual value guarantees; that impose restrictions or covenants on us; or that have not yet commenced, but create significant rights and obligations against us.</span></p><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">&#160;</span></p><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Our real estate leases generally have terms of between </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">5</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> to </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">10 years</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> and contain </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">lease extension options</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> that can vary from month-to-month extensions to up to </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">5 year</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> extensions.  We include </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">extension options</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> in our lease term if we are reasonably certain to exercise that option.</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">  </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">In determining whether an extension is reasonably certain, we</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> </span></p><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">consider </span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">the uniqueness of the property for our needs, the availability of similar properties, whether the extension period payments remain the same or may change due to market rates or fixed price increases in the contract, and other economic factors.  </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">Our vehicle leases generally have terms of between </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">3</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> to </span><span style="font-size:10pt;font-family:Times New Roman;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">5 years</span></span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;"> and contain lease extension options on a month-to-month basis.  Our vehicle leases are generally not reasonably certain to be extended.</span></span></p><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">&#160;</span></p><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;font-kerning:none;min-width:fit-content;">We are required to discount our lease liabilities to present value using the rate implicit in the lease, or our incremental borrowing rate for a similar term as the lease term if the implicit rate is not readily available.  We generally do not have adequate information to know the implicit rate in a lease and therefore use our incremental borrowing rate.  The incremental borrowing rate must be on a collateralized basis, but our debt arrangements are unsecured.  We have determined our incremental borrowing rate by using our credit rating to estimate our unsecured borrowing rate and applying reasonable assumptions to reduce the unsecured rate for a risk adjustment effect from collateral.</span></p><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_AccountingPoliciesAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_AccountingPoliciesAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_BusinessCombinationsAndOtherPurchaseOfBusinessTransactionsPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for business combination and other business acquisition transaction not accounted for using acquisition method of accounting. Includes, but is not limited to, combination between entities or businesses under common control.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 805<br> -SubTopic 50<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/805-50/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_BusinessCombinationsAndOtherPurchaseOfBusinessTransactionsPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CashAndCashEquivalentsPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for cash and cash equivalents, including the policy for determining which items are treated as cash equivalents. Other information that may be disclosed includes (1) the nature of any restrictions on the entity's use of its cash and cash equivalents, (2) whether the entity's cash and cash equivalents are insured or expose the entity to credit risk, (3) the classification of any negative balance accounts (overdrafts), and (4) the carrying basis of cash equivalents (for example, at cost) and whether the carrying amount of cash equivalents approximates fair value.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Topic 230<br> -SubTopic 10<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482913/230-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CashAndCashEquivalentsPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ComprehensiveIncomePolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for comprehensive income.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ComprehensiveIncomePolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ConsolidationPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy regarding (1) the principles it follows in consolidating or combining the separate financial statements, including the principles followed in determining the inclusion or exclusion of subsidiaries or other entities in the consolidated or combined financial statements and (2) its treatment of interests (for example, common stock, a partnership interest or other means of exerting influence) in other entities, for example consolidation or use of the equity or cost methods of accounting. The accounting policy may also address the accounting treatment for intercompany accounts and transactions, noncontrolling interest, and the income statement treatment in consolidation for issuances of stock by a subsidiary.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483426/235-10-50-4<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Topic 810<br> -SubTopic 10<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481203/810-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ConsolidationPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ConsolidationSubsidiariesOrOtherInvestmentsConsolidatedEntitiesPolicy">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for subsidiaries or other investments that are consolidated, including the accounting treatment for intercompany accounts or transactions and any noncontrolling interest.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -SubTopic 10<br> -Topic 810<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481203/810-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ConsolidationSubsidiariesOrOtherInvestmentsConsolidatedEntitiesPolicy</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_CostsAssociatedWithExitOrDisposalActivitiesOrRestructuringsPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for recognizing and reporting costs associated with exiting, disposing of, and restructuring certain operations.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 420<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SAB Topic 5.P.3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-1<br><br>Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 420<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Subparagraph (SAB Topic 5.P.4)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2<br><br>Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -SubTopic 10<br> -Topic 420<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_CostsAssociatedWithExitOrDisposalActivitiesOrRestructuringsPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DerivativesPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for its derivative instruments and hedging activities.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 8<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480434/815-10-50-8<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 8<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480434/815-10-50-8<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479693/815-10-S50-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 8C<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480434/815-10-50-8C<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 8<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480434/815-10-50-8<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 7<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480434/815-10-50-7<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4F<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4F<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 815<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/815/tableOfContent<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 250<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 9<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483443/250-10-50-9<br><br>Reference 11: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.4-08(n))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DerivativesPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ForeignCurrencyTransactionsAndTranslationsPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for (1) transactions denominated in a currency other than the reporting enterprise's functional currency, (2) translating foreign currency financial statements that are incorporated into the financial statements of the reporting enterprise by consolidation, combination, or the equity method of accounting, and (3) remeasurement of the financial statements of a foreign reporting enterprise in a hyperinflationary economy.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 830<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/830/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ForeignCurrencyTransactionsAndTranslationsPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_GoodwillAndIntangibleAssetsGoodwillPolicy">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for goodwill. This accounting policy also may address how an entity assesses and measures impairment of goodwill, how reporting units are determined, how goodwill is allocated to such units, and how the fair values of the reporting units are determined.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 24<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482548/350-20-55-24<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482573/350-20-50-2<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/350-20/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_GoodwillAndIntangibleAssetsGoodwillPolicy</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_GoodwillAndIntangibleAssetsIntangibleAssetsPolicy">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for intangible assets. This accounting policy may address both intangible assets subject to amortization and those that are not. The following also may be disclosed: (1) a description of intangible assets (2) the estimated useful lives of those assets (3) the amortization method used (4) how the entity assesses and measures impairment of such assets (5) how future cash flows are estimated (6) how the fair values of such asset are determined.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/350-30/tableOfContent<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482665/350-30-50-5<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 30<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 3<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482665/350-30-50-3<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_GoodwillAndIntangibleAssetsIntangibleAssetsPolicy</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_IncomeTaxPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for income taxes, which may include its accounting policies for recognizing and measuring deferred tax assets and liabilities and related valuation allowances, recognizing investment tax credits, operating loss carryforwards, tax credit carryforwards, and other carryforwards, methodologies for determining its effective income tax rate and the characterization of interest and penalties in the financial statements.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482685/740-10-50-20<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 19<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482685/740-10-50-19<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 25<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482525/740-10-45-25<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 946<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 3<br> -Subparagraph (SX 210.6-03(h)(1))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 17<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482685/740-10-50-17<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 9<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482685/740-10-50-9<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 740<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 28<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482525/740-10-45-28<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 220<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482765/220-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_IncomeTaxPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InternalUseSoftwarePolicy">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for costs incurred when both (1) the software is acquired, internally developed, or modified solely to meet the entity's internal needs, and (2) during the software's development or modification, no substantive plan exists or is being developed to market the software externally.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 350<br> -SubTopic 40<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/350-40/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InternalUseSoftwarePolicy</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_InventoryPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of inventory accounting policy for inventory classes, including, but not limited to, basis for determining inventory amounts, methods by which amounts are added and removed from inventory classes, loss recognition on impairment of inventories, and situations in which inventories are stated above cost.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.5-02(6)(b))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 330<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483080/330-10-50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 210<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483489/210-10-50-1<br><br>Reference 4: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 235<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483426/235-10-50-4<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 912<br> -SubTopic 330<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478411/912-330-50-1<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 330<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/330/tableOfContent<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 330<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483080/330-10-50-4<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 6<br> -Subparagraph (a)<br> -SubTopic 10<br> -Topic 270<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482989/270-10-45-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_InventoryPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LegalCostsPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for legal costs incurred to protect or defend the entity's assets and rights, or to obtain assets, including monetary damages, or to obtain rights.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 450<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 2<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LegalCostsPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_LesseeLeasesPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for leasing arrangement entered into by lessee.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 842<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478964/842-20-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_LesseeLeasesPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy pertaining to new accounting pronouncements that may impact the entity's financial reporting. Includes, but is not limited to, quantification of the expected or actual impact.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_PropertyPlantAndEquipmentPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for long-lived, physical asset used in normal conduct of business and not intended for resale. Includes, but is not limited to, work of art, historical treasure, and similar asset classified as collections.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -SubTopic 10<br> -Topic 360<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482099/360-10-50-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 944<br> -SubTopic 210<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.7-03(a)(8)(a))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -SubTopic 360<br> -Topic 958<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477798/958-360-50-6<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (d)<br> -SubTopic 360<br> -Topic 958<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477798/958-360-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_PropertyPlantAndEquipmentPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ReceivablesPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for receivable. Includes, but is not limited to, accounts receivable and financing receivable.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 310<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481962/310-10-50-2<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 310<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481569/310-20-50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 310<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481962/310-10-50-2<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 310<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481962/310-10-50-2<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 310<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 2<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147481962/310-10-50-2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ReceivablesPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_ResearchAndDevelopmentExpensePolicy">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for costs it has incurred (1) in a planned search or critical investigation aimed at discovery of new knowledge with the hope that such knowledge will be useful in developing a new product or service, a new process or technique, or in bringing about a significant improvement to an existing product or process; or (2) to translate research findings or other knowledge into a plan or design for a new product or process or for a significant improvement to an existing product or process.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 730<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 05<br> -Paragraph 1<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483044/730-10-05-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_ResearchAndDevelopmentExpensePolicy</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RevenueFromContractWithCustomerPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for revenue from contract with customer.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 17<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-17<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 19<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-19<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-18<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 18<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-18<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-20<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-20<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Subparagraph (c)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-20<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 606<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 20<br> -Subparagraph (d)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147479806/606-10-50-20<br><br>Reference 9: http://www.xbrl.org/2003/role/exampleRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Subparagraph (e)<br> -SubTopic 10<br> -Topic 235<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147483426/235-10-50-4<br><br>Reference 10: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Topic 606<br> -Publisher FASB<br> -URI https://asc.fasb.org/606/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RevenueFromContractWithCustomerPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_UseOfEstimates">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Disclosure of accounting policy for the use of estimates in the preparation of financial statements in conformity with generally accepted accounting principles.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 235<br> -Name Accounting Standards Codification<br> -Section S50<br> -Paragraph 1<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147478671/942-235-S50-1<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 942<br> -SubTopic 235<br> -Name Accounting Standards Codification<br> -Section S99<br> -Paragraph 1<br> -Subparagraph (SX 210.9-05(b)(2))<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 12<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-12<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 9<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-9<br><br>Reference 5: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482836/275-10-55-6<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-6<br><br>Reference 7: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 275<br> -SubTopic 10<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 4<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-4<br><br>Reference 8: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (b)<br> -SubTopic 10<br> -Topic 275<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-1<br><br>Reference 9: http://www.xbrl.org/2003/role/disclosureRef<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (c)<br> -SubTopic 10<br> -Topic 275<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147482861/275-10-50-1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_UseOfEstimates</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_zbh_ContingentConsiderationPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Contingent consideration.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">zbh_ContingentConsiderationPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>zbh_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_zbh_InstrumentsPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Instruments policy.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">zbh_InstrumentsPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>zbh_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_zbh_OtherExpenseIncomeNetPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Other expense (income) net.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">zbh_OtherExpenseIncomeNetPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>zbh_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_zbh_RevenueFromContractWithCustomerShippingAndHandlingCostsPolicyPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Revenue from contract with customer shipping and handling costs policy.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">zbh_RevenueFromContractWithCustomerShippingAndHandlingCostsPolicyPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>zbh_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_zbh_TreasuryStockPolicyTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Treasury Stock.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">zbh_TreasuryStockPolicyTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>zbh_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

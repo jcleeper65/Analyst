@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+    <schemaVersion>X0201</schemaVersion>
+
+    <documentType>4</documentType><periodOfReport>2004-01-21</periodOfReport>
+    <issuer>
+        <issuerCik>0001069249</issuerCik>
+        <issuerName>NURESCELL INC</issuerName>
+        <issuerTradingSymbol>NUSL</issuerTradingSymbol></issuer><reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001049598</rptOwnerCik>
+            <rptOwnerName>TRITON PRIVATE EQUITIES FUND LP /KS</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>225 N. MARKET STREET, #333</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>WICHITA</rptOwnerCity>
+            <rptOwnerState>KS</rptOwnerState>
+            <rptOwnerZipCode>67202</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+            <reportingOwnerRelationship>
+<isDirector>0</isDirector><isOfficer>0</isOfficer><isTenPercentOwner>1</isTenPercentOwner><isOther>0</isOther></reportingOwnerRelationship></reportingOwner><nonDerivativeTable><nonDerivativeTransaction><securityTitle><value>Common Stock</value></securityTitle><transactionDate><value>2004-01-21</value></transactionDate><transactionCoding><transactionFormType>4</transactionFormType><transactionCode>C</transactionCode><equitySwapInvolved>0</equitySwapInvolved></transactionCoding><transactionAmounts><transactionShares><value>1067111062</value></transactionShares><transactionPricePerShare><value>.0013</value></transactionPricePerShare><transactionAcquiredDisposedCode><value>A</value></transactionAcquiredDisposedCode></transactionAmounts><postTransactionAmounts><sharesOwnedFollowingTransaction><value>1097111062</value></sharesOwnedFollowingTransaction></postTransactionAmounts><ownershipNature><directOrIndirectOwnership><value>D</value></directOrIndirectOwnership><natureOfOwnership><value/></natureOfOwnership></ownershipNature></nonDerivativeTransaction></nonDerivativeTable><derivativeTable><derivativeTransaction><securityTitle><value>Convertible Promissory Note</value></securityTitle><conversionOrExercisePrice><footnoteId id="F1"/></conversionOrExercisePrice><transactionDate><value>2003-03-21</value></transactionDate><transactionCoding><transactionFormType>4</transactionFormType><transactionCode>P</transactionCode><equitySwapInvolved>0</equitySwapInvolved></transactionCoding><transactionAmounts><transactionShares><value>.01</value><footnoteId id="F2"/></transactionShares><transactionPricePerShare><footnoteId id="F2"/></transactionPricePerShare><transactionAcquiredDisposedCode><value>A</value></transactionAcquiredDisposedCode></transactionAmounts><exerciseDate><value>2003-03-21</value></exerciseDate><expirationDate><footnoteId id="F3"/></expirationDate><underlyingSecurity><underlyingSecurityTitle><value>Common Stock</value></underlyingSecurityTitle><underlyingSecurityShares><footnoteId id="F1"/></underlyingSecurityShares></underlyingSecurity><postTransactionAmounts><sharesOwnedFollowingTransaction><value>0</value><footnoteId id="F2"/></sharesOwnedFollowingTransaction></postTransactionAmounts><ownershipNature><directOrIndirectOwnership><value>D</value></directOrIndirectOwnership><natureOfOwnership><value/></natureOfOwnership></ownershipNature></derivativeTransaction></derivativeTable><footnotes><footnote id="F1">Varies based on percentage of specified average closing bid price during specified period prior to conversion date.</footnote><footnote id="F2">Amount of note varies.</footnote><footnote id="F3">There is no expiration date.</footnote></footnotes><remarks/><ownerSignature><signatureName>Triton Private Equities Fund, L.P.</signatureName><signatureDate>2004-01-22</signatureDate></ownerSignature></ownershipDocument>
+

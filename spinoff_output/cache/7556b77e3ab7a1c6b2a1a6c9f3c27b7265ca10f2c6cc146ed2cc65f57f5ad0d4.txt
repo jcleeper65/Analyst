@@ -1,0 +1,562 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:us-roles="http://fasb.org/us-roles/2025" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:srt="http://fasb.org/srt/2025" xmlns:ese="http://escotechnologies.com/20261001">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02E_US%2DGAAP%2D2025 -->
+<!-- Field: Set; Name: xdx; ID: xdx_032_ese_escotechnologies.com_20261001 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04B_20261001_20261001 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_058_edei%2D%2DEntityCentralIndexKey_0000866706 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000004" name="dei:EntityCentralIndexKey">0000866706</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="ese-20261001.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-10-01">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000866706</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-10-01</xbrli:startDate>
+        <xbrli:endDate>2026-10-01</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="margin: 0"></p>
+
+<p style="margin-top: 0pt; margin-bottom: 0pt"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<!-- Field: Rule-Page -->
+<div style="text-align: left; margin-top: 0px; margin-bottom: 0px"><div style="border-top: black 2pt solid; border-bottom: black 1pt solid; width: 100%; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page --><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">UNITED STATES</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">SECURITIES AND EXCHANGE COMMISSION&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">WASHINGTON, D.C. 20549</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"></p>
+
+<!-- Field: Rule-Page --><div style="margin: 3pt auto; width: 25%"><div style="border-top: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">FORM&#160;<span id="xdx_900_edei--DocumentType_c20261001__20261001_zAd7vSbYp4u8"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000009" name="dei:DocumentType">8-K</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">CURRENT REPORT</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">PURSUANT TO SECTION&#160;13 OR 15(d)&#160;OF THE</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">SECURITIES EXCHANGE ACT
+OF 1934</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Date of Report (Date of earliest event reported):
+<span id="xdx_909_edei--DocumentPeriodEndDate_c20261001__20261001_zqR9o0VuAD06"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:datemonthdayyearen" id="Fact000010" name="dei:DocumentPeriodEndDate">October 1, 2026</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span id="xdx_90C_edei--EntityRegistrantName_c20261001__20261001_zd0yqwZfXNEg"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000011" name="dei:EntityRegistrantName">ESCO
+TECHNOLOGIES INC.</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;(Exact Name of Registrant
+as Specified in Charter)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; border-collapse: collapse; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="width: 33%; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt"><span id="xdx_904_edei--EntityIncorporationStateCountryCode_c20261001__20261001_zHBLKTZuvW47"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt-sec:stateprovnameen" id="Fact000012" name="dei:EntityIncorporationStateCountryCode">Missouri</ix:nonNumeric></span></td>
+    <td style="width: 34%; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt"><span id="xdx_90F_edei--EntityFileNumber_c20261001__20261001_zqLtERoINQX4"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000013" name="dei:EntityFileNumber">1-10596</ix:nonNumeric></span></td>
+    <td style="width: 33%; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt"><span id="xdx_90E_edei--EntityTaxIdentificationNumber_c20261001__20261001_z4hRtwxwB074"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000014" name="dei:EntityTaxIdentificationNumber">43-1554045</ix:nonNumeric></span></td></tr>
+<tr style="vertical-align: top">
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">(State or Other</td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">(Commission</td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">(I.R.S. Employer</td></tr>
+<tr style="vertical-align: top">
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">Jurisdiction of Incorporation)</td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">File Number)</td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">Identification No.)</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; border-collapse: collapse; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="width: 50%; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt"><span id="xdx_907_edei--EntityAddressAddressLine1_c20261001__20261001_z6mRYXed8Kv5"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000015" name="dei:EntityAddressAddressLine1">645
+    Maryville Centre Drive</ix:nonNumeric></span>, <span id="xdx_905_edei--EntityAddressAddressLine2_c20261001__20261001_z1JEcEFUkxb4"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000016" name="dei:EntityAddressAddressLine2">Suite 300</ix:nonNumeric></span>
+    <span id="xdx_908_edei--EntityAddressCityOrTown_c20261001__20261001_zCOzzrdciNbh"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000017" name="dei:EntityAddressCityOrTown">St. Louis</ix:nonNumeric></span>, <span id="xdx_908_edei--EntityAddressStateOrProvince_c20261001__20261001_zx6SZ0RcyCJ6"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt-sec:stateprovnameen" id="Fact000018" name="dei:EntityAddressStateOrProvince">Missouri</ix:nonNumeric></span></td>
+    <td style="vertical-align: bottom; width: 50%; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt"><span id="xdx_908_edei--EntityAddressPostalZipCode_c20261001__20261001_z9kZ0DnUIdX9"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000019" name="dei:EntityAddressPostalZipCode">63141-5855</ix:nonNumeric></span></td></tr>
+<tr style="vertical-align: top">
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">(Address of Principal Executive Offices)</td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">(Zip Code)</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Registrant&#8217;s telephone number, including
+area code: (<span id="xdx_907_edei--CityAreaCode_c20261001__20261001_z4bqQNRfVqPk"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000020" name="dei:CityAreaCode">314</ix:nonNumeric></span>) <span id="xdx_90C_edei--LocalPhoneNumber_c20261001__20261001_zJAuxsQbLRfg"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000021" name="dei:LocalPhoneNumber">213-7200</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Securities registered pursuant to section&#160;12(b)&#160;of
+the Act:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; border-collapse: collapse; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="width: 34%; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">&#160;</td>
+    <td style="width: 1%; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">&#160;</td>
+    <td style="width: 32%; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">&#160;</td>
+    <td style="width: 1%; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">&#160;</td>
+    <td style="width: 32%; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">Name of each exchange</td></tr>
+<tr style="vertical-align: top">
+    <td style="border-bottom: black 1pt solid; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">Title of each class</td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">&#160;</td>
+    <td style="border-bottom: black 1pt solid; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">Trading Symbol(s)</td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">&#160;</td>
+    <td style="border-bottom: black 1pt solid; text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">on which registered</td></tr>
+<tr style="vertical-align: top">
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt"><span id="xdx_908_edei--Security12bTitle_c20261001__20261001_zGpEPzri0MEl"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000022" name="dei:Security12bTitle">Common
+    Stock, par value $0.01 per share</ix:nonNumeric></span></td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">&#160;</td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt"><span id="xdx_90F_edei--TradingSymbol_c20261001__20261001_zOnfmpTc0CWj"><ix:nonNumeric contextRef="AsOf2026-10-01" id="Fact000023" name="dei:TradingSymbol">ESE</ix:nonNumeric></span></td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt">&#160;</td>
+    <td style="text-align: center; padding-right: 5.4pt; padding-left: 5.4pt"><span id="xdx_906_edei--SecurityExchangeName_c20261001__20261001_zb4GZv48Fzvj"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt-sec:exchnameen" id="Fact000024" name="dei:SecurityExchangeName">New
+    York Stock Exchange</ix:nonNumeric></span></td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Check the appropriate box below if the Form&#160;8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 24pt; text-align: left; text-indent: -0.25in"><span id="xdx_90D_edei--WrittenCommunications_c20261001__20261001_zyjMJ7o6FZB9" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleanfalse" id="Fact000025" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span>&#160;&#160;&#160;Written
+communications pursuant to Rule&#160;425 under the Securities Act (17 CFR 230.425)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 24pt; text-align: left; text-indent: -0.25in"><span id="xdx_906_edei--SolicitingMaterial_c20261001__20261001_zs6fSnSsHJBl" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleanfalse" id="Fact000026" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span>&#160;&#160;&#160;Soliciting
+material pursuant to Rule&#160;14a-12 under the Exchange Act (17 CFR 240.14a-12)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 24pt; text-align: left; text-indent: -0.25in"><span id="xdx_90E_edei--PreCommencementTenderOffer_c20261001__20261001_zbu6A7oQJ14b" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleanfalse" id="Fact000027" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span>&#160;&#160;&#160;Pre-commencement
+communications pursuant to Rule&#160;14d-2 (b)&#160;under the Exchange Act (17 CFR 240.14d-2 (b))</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 24pt; text-align: left; text-indent: -0.25in"><span id="xdx_901_edei--PreCommencementIssuerTenderOffer_c20261001__20261001_za74e31ePyCa" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleanfalse" id="Fact000028" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span>&#160;&#160;&#160;Pre-commencement
+communications pursuant to Rule&#160;13e-4 (c)&#160;under the Exchange Act (17 CFR 240.13d-4 (c))</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Indicate by check mark whether the registrant is an emerging growth
+company as defined in Rule&#160;405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule&#160;12b-2 of the Securities
+Exchange Act of 1934 (&#167;240.12b-2 of this chapter).&#8239;&#8239;&#8239;&#8239;&#8239;&#8239;&#8239;Emerging growth company&#160;<span id="xdx_908_edei--EntityEmergingGrowthCompany_c20261001__20261001_zr3kzqGieSP9" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-10-01" format="ixt:booleanfalse" id="Fact000029" name="dei:EntityEmergingGrowthCompany">&#168;</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">If an emerging growth company, indicate by check mark if the registrant
+has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant
+to Section&#160;13(a)&#160;of the Exchange Act.&#160;<span style="font-family: Wingdings">&#168;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Rule-Page -->
+<div style="text-align: left; margin-top: 0px; margin-bottom: 0px"><div style="border-top: black 1pt solid; border-bottom: black 2pt solid; width: 100%; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page --><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0"/><td style="width: 63pt"><span style="font-size: 10pt"><b><span style="text-decoration: underline">Item 1.01</span></b></span></td><td><b><span style="text-decoration: underline">Entry into
+                                            a Material Definitive Agreement</span></b></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The information set forth under Item 2.01 of this Current Report on
+Form&#160;8-K related to the entry into the Shareholder Agreement (as defined below) and Item 2.03 of this Current Report on Form&#160;8-K
+related to the entry into the New Credit Agreement (as defined below) is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0"/><td style="width: 63pt"><span style="font-size: 10pt"><b><span style="text-decoration: underline">Item 1.02</span></b></span></td><td><b><span style="text-decoration: underline">Termination
+                                            of a Material Definitive Agreement</span></b></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Upon the effectiveness of the New Credit Agreement, the Existing Credit
+Agreement (as defined below) was terminated. The Existing Credit Agreement had been scheduled to mature by its terms on August&#160;30,
+2028.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0"/><td style="width: 63pt"><span style="font-size: 10pt"><b><span style="text-decoration: underline">Item 2.01</span></b></span></td><td><b><span style="text-decoration: underline">Completion
+                                            of Acquisition or Disposition of Assets</span></b></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-size: 10pt">On October&#160;1, 2026 (the &#8220;<span style="text-decoration: underline">Closing
+Date</span>&#8221;), </span>ESCO Technologies Inc., a Missouri corporation (the &#8220;<span style="text-decoration: underline">Registrant</span>&#8221;), completed its previously
+announced purchase of the entire issued share capital of Megger Group Limited, a company incorporated in England and Wales (the &#8220;<span style="text-decoration: underline">Company</span>,&#8221;
+and such transaction, the &#8220;<span style="text-decoration: underline">Transaction</span>&#8221;), pursuant to a share purchase agreement dated April&#160;15, 2026 (the &#8220;<span style="text-decoration: underline">Purchase
+Agreement</span>&#8221;) with TBG AG, a Swiss stock corporation (the &#8220;<span style="text-decoration: underline">Seller</span>&#8221;). The aggregate cash and stock consideration
+paid by the Registrant to Seller was approximately $2.3 billion, consisting of $922 million in cash and 5.10 million shares (the &#8220;<span style="text-decoration: underline">Consideration
+Shares</span>&#8221;) of the Registrant&#8217;s common stock, par value $0.01 per share (the &#8220;<span style="text-decoration: underline">Common Stock</span>&#8221;). The purchase
+price is subject to a post-closing adjustment based on the net debt and working capital of the Company, with such adjustment payable
+in cash.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">This summary of the Purchase Agreement does not purport to be complete
+and is qualified in its entirety by reference to the full text thereof, a copy of which was attached as<a href="https://www.sec.gov/Archives/edgar/data/866706/000110465926044425/tm2611835d1_ex10-1.htm" style="-sec-extract: exhibit">
+Exhibit&#160;10.1</a> to the Registrant&#8217;s Form&#160;8-K filed on April&#160;16, 2026, and incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="text-decoration: underline">Shareholder Agreement</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">In connection with the Transaction, the Registrant and Seller entered
+into a shareholder agreement (the &#8220;<span style="text-decoration: underline">Shareholder Agreement</span>&#8221;) dated October&#160;1, 2026. The Shareholder Agreement provides
+for, among other things: (i)&#160;the right of Seller to have one designated individual appointed as a member of the Registrant&#8217;s
+board of directors (the &#8220;<span style="text-decoration: underline">Board</span>,&#8221; and such individual, the &#8220;<span style="text-decoration: underline">Seller Designee</span>&#8221;), with such Board representation
+continuing for so long as Seller maintains, together with its permitted transferees and certain affiliated holders (collectively, &#8220;<span style="text-decoration: underline">Seller
+Holders</span>&#8221;), aggregate beneficial ownership of at least 50% of the Consideration Shares (the &#8220;<span style="text-decoration: underline">Minimum Ownership Threshold</span>&#8221;);
+(ii)&#160;certain restrictions on the transfer of the Consideration Shares during the 12-month period following the Closing Date (such
+period, the &#8220;<span style="text-decoration: underline">Restricted Period</span>&#8221;), with 50% of the Consideration Shares released from such restrictions six months
+after the Closing Date, in all cases subject to certain specified exceptions and limitations; (iii)&#160;certain standstill provisions
+including, during and after the Restricted Period until the date that is six months after no Seller Designee is a member of the Board
+and Seller has irrevocably waived its right to designate a Seller Designee, limitations on Seller Holders acquiring an aggregate beneficial
+ownership, inclusive of any Consideration Shares, of more than 24.5% of the then-outstanding shares of Common Stock unless Seller has
+obtained the consent of the Registrant&#8217;s Board, subject to certain exceptions; (iv)&#160;certain voting provisions applicable during
+the Restricted Period and continuing thereafter until no Seller Designee is a member of the Board; (v)&#160;the right of Seller to consent
+to various actions of the Registrant during the Restricted Period (and assuming Seller satisfies the Minimum Ownership Threshold during
+such time) relating to fundamental changes to the Registrant&#8217;s business and changes to the Registrant&#8217;s bylaws that would
+disproportionately and materially adversely affect Seller&#8217;s rights under the Shareholder Agreement or relative to other shareholders;
+(vi)&#160;certain customary resale, demand and piggyback registration rights; and (vii)&#160;certain preemptive and information rights.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-size: 10pt">The foregoing description of the Shareholder
+Agreement </span>does not purport to be complete and is qualified in its entirety by reference to the full text thereof, a copy of the
+substantially final form of which was attached as <a href="https://www.sec.gov/Archives/edgar/data/866706/000110465926044425/tm2611835d1_ex10-2.htm" style="-sec-extract: exhibit">Exhibit&#160;10.2</a>
+to the Registrant&#8217;s Form&#160;8-K filed on April&#160;16, 2026, and incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0"/><td style="width: 63pt"><span style="font-size: 10pt"><b><span style="text-decoration: underline">Item 2.03</span></b></span></td><td><b><span style="text-decoration: underline">Creation
+                                            of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement
+                                            of a Registrant</span></b></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-size: 10pt">As previously disclosed, on May&#160;29,
+2026, </span>the Registrant and certain of its subsidiaries entered into a Credit Agreement with a group of banks led by JPMorgan Chase
+Bank, N.A. as administrative agent,&#160;Bank of America, N.A. as syndication agent, BMO Capital Markets Corp., Commerce Bank, Regions
+Capital Markets, a Division of Regions Bank, TD Bank, N.A. and Wells Fargo Bank, National Association as co-documentation agents (the
+&#8220;<span style="text-decoration: underline">New Credit Agreement</span>&#8221;). The New Credit Agreement became effective substantially concurrently with the consummation
+of the Transaction on the Closing Date and replaced the Amended and Restated Credit Agreement, dated as of August&#160;30, 2023 among
+the Registrant, the Foreign Subsidiary Borrowers party thereto, the Lenders party thereto, JPMorgan Chase Bank, N.A. as Administrative
+Agent, Bank of America, N.A. as Syndication Agent, Commerce Bank and TD Bank, N.A. as Co-Documentation Agents, and the Departing Lenders
+as defined therein (as amended, the &#8220;<span style="text-decoration: underline">Existing Credit Agreement</span>&#8221;), which terminated on the Closing Date upon the effectiveness
+of the New Credit Agreement.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 2 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The New Credit Agreement provides for (a)&#160;a senior secured revolving
+credit facility in an initial aggregate commitment amount of $500 million (the &#8220;<span style="text-decoration: underline">Revolving Credit Facility</span>&#8221;), (b)&#160;a
+senior secured term loan A facility in an initial aggregate principal amount of $500 million (the &#8220;<span style="text-decoration: underline">Term Loan A Facility</span>&#8221;),
+and (c)&#160;a senior secured term loan B facility in an initial aggregate principal amount of $500 million (the &#8220;<span style="text-decoration: underline">Term Loan
+B Facility</span>,&#8221; and together with the Revolving Credit Facility and the Term Loan A Facility, the &#8220;<span style="text-decoration: underline">Senior Secured Credit
+Facilities</span>&#8221;).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">On the Closing Date, the Registrant borrowed approximately $1.0 billion
+under the Term Loan A Facility, the Term Loan B Facility and the Revolving Credit Facility under the New Credit Agreement to (i)&#160;fund
+the cash portion of the purchase price for the Transaction, (ii)&#160;consummate the refinancing of existing indebtedness of the Registrant
+and the Company, and (iii)&#160;pay the fees, premiums, expenses, and other transaction costs incurred in connection with the Transaction.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The obligations under the New Credit Agreement are guaranteed by the
+Registrant (with respect to the obligations of the foreign borrowers), the other borrowers and the Registrant&#8217;s direct and indirect
+material U.S. subsidiaries, subject to a number of exceptions.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The obligations of the Registrant and the borrowers and the guarantors
+under the Senior Secured Credit Facilities are secured by a first priority perfected security interest, subject to permitted liens and
+certain customary exceptions, in substantially all tangible and intangible personal property of the Registrant and the other borrowers
+and the guarantors, including the pledge of 100% of the equity interests of each of the borrowers&#8217; and guarantors&#8217; existing
+and future material domestic and foreign subsidiaries (except where such a pledge as to certain foreign or other subsidiaries would cause
+an adverse tax or accounting consequence, 65% of the voting equity interests and 100% of the non-voting equity interests of such foreign
+subsidiary or other subsidiary).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Through a credit facility expansion option, the Registrant may elect
+to increase the aggregate amount of the Revolving Credit Facility or obtain incremental term loans in any agreed currency up to the U.S.
+Dollar equivalent of up to (a)&#160;the greater of (x)&#160;$451 million or (y)&#160;100% of Consolidated EBITDA (as defined and for
+periods set forth therein) plus (b)&#160;additional amounts subject to certain terms and conditions (including compliance with certain
+maximum leverage ratios). In addition to loans drawn down by the Registrant, certain of the Registrant&#8217;s foreign subsidiaries may
+draw loans on the New Credit Agreement. Under the Revolving Credit Facility, up to the U.S. dollar equivalent of $75 million may be made
+available in certain specified foreign currencies, and up to the U.S. dollar equivalent of $75 million may be made available for the
+issuance of letters of credit.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Interest on loans under the New Credit Agreement may be calculated
+at a spread over either an Adjusted Term SOFR Rate, Adjusted EURIBOR Rate, Daily Simple SONIA Rate or Alternate Base Rate, at the Registrant&#8217;s
+election. In addition, the Registrant will pay a facility fee on the aggregate amount of the Senior Secured Credit Facilities, and certain
+other fees.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The loans under the Revolving Credit Facility and Term Loan A Facility
+are scheduled to mature on October&#160;1, 2031 and the loans under the Term Loan B Facility are scheduled to mature on October&#160;1,
+2033.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The New Credit Agreement imposes various restrictions on the Registrant,
+including usual and customary representations and warranties, financial covenants including a leverage ratio and an interest coverage
+ratio, yield protection covenants, limitations on the ability of the Registrant or any of its subsidiaries to incur debt, to grant liens
+upon their assets, and prohibition of certain consolidations, mergers and sales and transfers of assets by the Registrant and its subsidiaries
+without the consent of the lenders. The New Credit Agreement includes usual and customary events of default for facilities of this nature
+(with customary grace periods, as applicable) and provides that, upon the occurrence of an event of default, payment of all amounts payable
+under the New Credit Agreement may be accelerated and/or the lenders&#8217; commitments may be terminated. In addition, upon the occurrence
+of certain insolvency or bankruptcy related events of default, all amounts payable under the New Credit Agreement will automatically
+become immediately due and payable, and the lenders&#8217; commitments will automatically terminate.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The foregoing summary of the New Credit Agreement does not purport
+to be complete and is qualified in its entirety by reference to the full text thereof, a copy of which was attached as <a href="https://www.sec.gov/Archives/edgar/data/866706/000110465926070116/tm2616691d1_ex10-1.htm" style="-sec-extract: exhibit">Exhibit&#160;10.1</a>
+to the Registrant&#8217;s Form&#160;8-K filed on June&#160;3, 2026, and incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The Registrant has various relationships with JPMorgan Chase Bank,
+N.A., as well as certain of the other lenders under the New Credit Agreement. Certain of such lenders and their affiliates have engaged,
+and may in the future engage, in investment banking, commercial banking and other financial advisory and commercial dealings with the
+Registrant and its affiliates.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Page; Sequence: 3 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0"/><td style="width: 63pt"><span style="font-size: 10pt"><b><span style="text-decoration: underline">Item 5.02</span></b></span></td><td><b><span style="text-decoration: underline">Departure
+                                            of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers;
+                                            Compensatory Arrangements of Certain Officers</span></b></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Effective October&#160;1, 2026, the Registrant's Board of Directors,
+by unanimous written consent pursuant to Section&#160;3.1 of its Bylaws, increased the authorized size of its Board of Directors from
+eight to nine members and elected Mr.&#160;Jeremy P. Abson as a director to fill the vacancy thereby created.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Mr.&#160;Abson will receive compensation for his service on the Board
+of Directors and its Committees pursuant to the Registrant's Compensation Plan for Non-Employee Directors, as amended, on the same basis
+as the Registrant's other directors; consistent with the compensation described in the Company&#8217;s most recent Annual Report on Form&#160;10-K
+filed with the Securities and Exchange Commission on December&#160;10, 2025, under the heading &#8220;Director Compensation&#8221; and
+as updated from time to time.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Mr.&#160;Abson was designated as a Class&#160;III Director, to serve
+for a term ending at the 2029 annual meeting of shareholders. He will also serve on the Nominating and Corporate Governance Committee
+and the Executive Committee of the Board of Directors. In order to retain equality of size among the three director classes as nearly
+as practicable, Mr.&#160;Khilnani, previously a Class&#160;III director, was reclassified as a Class&#160;I Director to serve for a term
+ending at the 2027 annual meeting of shareholders.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Mr.&#160;Abson was appointed to the Board of Directors as an independent
+director in accordance with the terms of the Shareholder Agreement. Mr.&#160;Abson does not have a direct or indirect material interest
+in any transaction required to be disclosed pursuant to Item 404(a)&#160;of Regulation S-K involving the Registrant.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0"/><td style="width: 63pt"><span style="font-size: 10pt"><b><span style="text-decoration: underline">Item 9.01</span></b></span></td><td><b><span style="text-decoration: underline">Financial
+                                            Statements and Exhibits</span></b></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in">(a)&#160;Financial Statements. To the extent financial statements
+are required to be filed with this item, such financial statements will be filed by amendment to this Current Report on Form&#160;8-K
+not later than 71 calendar days after the date on which this Current Report on Form&#160;8-K is required to be filed.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in">(b)&#160;Pro Forma Financial Information. To the extent
+pro forma financial information is required to be filed by this item, such financial information will be filed by amendment to this Current
+Report on Form&#160;8-K not later than 71 calendar days after the date on which this Current Report on Form&#160;8-K is required to be
+filed.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in"><span style="font-size: 10pt">(d)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>Exhibits</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td>&#160;</td><td><span style="font-size: 10pt"><span style="text-decoration: underline">Exhibit&#160;No.</span></span></td><td><span style="text-decoration: underline">Description of Exhibit</span></td></tr>
+                                                                                                                                          <tr style="vertical-align: top">
+<td>&#160;</td><td>&#160;</td><td>&#160;</td></tr>
+                                                                                                                                          <tr style="vertical-align: top">
+<td style="width: 72pt"/><td style="width: 61.05pt"><a href="https://www.sec.gov/Archives/edgar/data/866706/000110465926044425/tm2611835d1_ex10-2.htm" style="-sec-extract: exhibit">10.1</a></td><td><a href="https://www.sec.gov/Archives/edgar/data/866706/000110465926044425/tm2611835d1_ex10-2.htm" style="-sec-extract: exhibit">Form&#160;of
+                                            Shareholder Agreement between TBG AG and ESCO Technologies Inc. (incorporated by reference
+                                            to Exhibit&#160;10.2 to the Registrant&#8217;s Form&#160;8-K filed on April&#160;16, 2026)</a></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 72pt"/><td style="width: 61.05pt"><a href="https://www.sec.gov/Archives/edgar/data/866706/000110465926070116/tm2616691d1_ex10-1.htm" style="-sec-extract: exhibit">10.2</a></td><td><a href="https://www.sec.gov/Archives/edgar/data/866706/000110465926070116/tm2616691d1_ex10-1.htm" style="-sec-extract: exhibit">Credit
+                                            Agreement, dated as of May&#160;29, 2026 among the Registrant, the Foreign Subsidiary Borrowers
+                                            party thereto, the Lenders from time to time party thereto, JPMorgan Chase Bank, N.A. as
+                                            Administrative Agent, Bank of America, N.A. as Syndication Agent, and BMO Capital Markets
+                                            Corp., Commerce Bank, Regions Capital Markets, a Division of Regions Bank, TD Bank, N.A.
+                                            and Wells Fargo Bank, National Association, as Co-Documentation Agents (incorporated by reference
+                                            to Exhibit&#160;10.1 to the Registrant&#8217;s Form&#160;8-K filed on June&#160;3, 2026)</a></td></tr>
+                               <tr style="vertical-align: top">
+<td>&#160;</td><td>&#160;</td><td>&#160;</td></tr>
+                               <tr style="vertical-align: top">
+<td>&#160;</td><td><span style="font-size: 10pt">104</span></td><td>Cover Page&#160;Inline Interactive Data File</td></tr>
+                               </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 4 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span style="text-decoration: underline">SIGNATURE</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Pursuant to the requirements of the Securities Exchange Act of 1934,
+the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: bottom">
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Date: October&#160;2, 2026</span></td>
+    <td colspan="2">&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td>
+    <td colspan="2">&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td>
+    <td colspan="2"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">ESCO TECHNOLOGIES INC.</span></td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td>
+    <td colspan="2">&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td style="width: 50%">&#160;</td>
+    <td style="width: 3%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</span></td>
+    <td style="border-bottom: black 1pt solid; width: 47%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/Christopher
+    L. Tucker</span></td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Christopher L. Tucker</span></td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Senior Vice President and Chief Financial Officer</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 5; Options: Last -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJxFjd0KwjAMhZ9g7xB6PbQb/uAuHVPEKTJEvK0uk+LWjLT+PZJvad0QQyAk53w5QoRiSQtdI8NxXuSwx6atlUMosEJGc0bvSFfrBPws8KKtY2Vct/7AlDyDnpkMxid/75x3bbFMQE6H8WwYTyCSiRzBbiOCr56SqXSJxmlVgzIl7Jha1ugUv/oPe/UkQ82rSzogW00mgWgge/kNsYxi2NJdPYivFvI8FUHYVSCWTLfWu7KnQ/MlIaux8XG2p/8dfADQxUpk -->
+<script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>

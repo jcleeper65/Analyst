@@ -1,0 +1,1757 @@
+<DOCUMENT>
+<TYPE>EX-10.10
+<SEQUENCE>2
+<FILENAME>a2042396zex-10_10.txt
+<DESCRIPTION>EXHIBIT 10.10
+<TEXT>
+
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+                                                                   EXHIBIT 10.10
+
+
+              MASTER SOFTWARE LICENSE AGREEMENT (#ADAP001)
+
+
+This MASTER SOFTWARE LICENSE AGREEMENT (this "Agreement"), number ADAP001, is
+made, and is effective, as of December 4, 1999 ("Effective Date") by and between
+HEWLETT-PACKARD COMPANY ("HP"), and ADAPTEC, INC. ("Licensor").
+
+
+
+         1.       DEFINITIONS
+
+                  1.1 "PROGRAM" shall mean Licensor's software program(s) listed
+and described in a SOW attached hereto, including [*] and Enhancements
+for such Programs delivered to HP on or after the Effective Date, and localized
+versions available for such Programs.
+
+                  1.2 "ENHANCEMENTS" shall mean all (1) updates, modifications,
+new features, new functionalities or upgrades of a Program [*]
+
+                  1.3 [*]
+
+                  1.4 "SPECIFICATIONS" shall mean the functional specifications
+of a Program as described in a SOW.
+
+                  1.5 "GOLD BYTES" shall mean the master copy of a Program, in
+object code form, and any additional software necessary to load such Program on
+a HP Product, provided on the media described in a SOW.
+
+                  1.6 "DOCUMENTATION" shall mean the manuals (including
+technical manual) and other standard documentation that Licensor makes available
+with a Program, listed and described in a SOW.
+
+                  1.7 "COMPLETE COPY" of a Program shall include (i) Gold Bytes,
+(ii) all Documentation and technical manuals for the Program in the form(s) and
+on the media described in
+
+
+                                      -1-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+a SOW, and (iii) any other documentation and information regarding the Program
+which HP reasonably requests to accomplish evaluation and use of the Program
+as contemplated in this Agreement.
+
+                  1.8 "PROGRAM PLUS" means additions to a Program, and any
+changes to such Program required to make such additions function, licensed by
+Licensor directly to end users.
+
+                  1.9 "HP PRODUCT" shall mean the HP products described in a
+SOW, which may be amended by the parties from time to time to include new
+products.
+
+                  1.10 "NEW RELEASE" shall mean a major upgrade or successor
+version of a Program for which Licensor charges a separate license fee, and
+which is designated by Licensor as a new release.
+
+                  1.11 "PER COPY FEE" shall mean the amount set forth in a SOW
+payable to Licensor by HP for the rights licensed herein.
+
+                  1.12 "STATEMENT OF WORK" ("SOW") shall mean a document in the
+form attached as Exhibit B describing the Division Specifications, Support,
+other requirements such as Enhancements requested by HP, and the respective
+obligations of the parties with respect thereto, as may be agreed upon by the
+parties from time to time during the term of this Agreement.
+
+         2.       DELIVERY AND ACCEPTANCE
+
+                  2.1 DELIVERY. Licensor agrees to deliver to HP a Complete Copy
+of the Program, no later than ten (10) days after the execution of this
+Agreement or the applicable SOW, unless otherwise provided in such SOW.
+
+                  2.2 ACCEPTANCE. HP shall have [*] days from the date of
+receipt of a Complete Copy of the Program to evaluate the Program for conformity
+with the Specifications, and either accept, or reject the Program. HP shall be
+entitled to test and evaluate any Program by whatever means it deems appropriate
+consistent with Licensor's fights in the Program. Licensor hereby grants to HP
+any licenses necessary for HP to perform its evaluation. Subject to the
+foregoing evaluation license grant, HP has the right to use third party
+subcontractors to achieve the foregoing; provided, however, that any such
+subcontractors will be parties to written agreements with HP containing
+obligations no less restrictive than those in this Agreement. If HP identifies a
+failure of a Program to meet the Specifications Licensor agrees to correct the
+identified defects and resubmit the Program for re-evaluation under the same
+acceptance procedure. In the event HP rejects a Program, it shall give Licensor
+written notice of rejection stating the reasons for its unacceptability. No
+payment shall be payable to Licensor until the Program has been accepted by HP
+in writing or HP fails to reject the Program within such [*] day period.
+
+                  2.3 ENHANCEMENTS. Licensor agrees to deliver to HP a Complete
+Copy of any Enhancement within [*] days of its being released to
+manufacturing by Licensor. HP shall have the right to test and evaluate the
+Enhancement under the acceptance procedure described above.
+
+
+
+                                      -2-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+         3.       RIGHTS GRANTED AND RESTRICTIONS
+
+                  3.1 LICENSE TO THE PROGRAM. Subject to the terms and
+conditions set forth herein, Licensor hereby grants to HP, its subsidiaries,
+divisions and affiliates a non-exclusive, worldwide license to use,
+reproduce, display, and distribute the Program in object code format and as
+bundled with a HP Product. Such license shall include the right of HP to
+sublicense distributors, resellers, and other third parties to achieve the
+foregoing. [*] All HP Products will be licensed to end users pursuant to
+the HP Software License Terms, the current form of which is attached hereto
+as EXHIBIT B.
+
+                  3.2 LICENSE TO THE DOCUMENTATION. Subject to the terms and
+conditions set forth herein, Licensor hereby grants to HP, its subsidiaries,
+divisions and affiliates a non-exclusive, worldwide license to use, reproduce,
+display, translate, distribute and modify and prepare derivative works or
+compilations of the Documentation and modifications and derivative works and
+compilations based thereon for use with a Program. Such license shall include
+the right of HP to sublicense distributors, resellers, and other third parties
+to achieve the foregoing. The right to modify and prepare derivative works and
+compilations is granted solely for the purposes of combining Documentation of
+more than one program, condensing Documentation, and formatting and preparing
+Documentation for user accessibility.
+
+                  3.3 LICENSE TO PHOTOGRAPH (MARKETING MATERIALS). Subject to
+the terms and conditions set forth herein, Licensor hereby grants to HP, its
+subsidiaries, divisions and affiliates a non exclusive, worldwide license to
+photograph Program screen displays and packaging, the Documentation and the
+CD-ROM, if any, and to use, reproduce, display and modify such photographs and
+modifications thereto and images therefrom solely in connection with HP's
+marketing of the Program. Such license shall include the right of HP to
+sublicense distributors, resellers, and other third parties to achieve the
+foregoing. This license is subject to HP's compliance with Licensor's marketing
+and software-packaging guidelines (as provided by Licensor) and Section 3.6
+("Trademarks") of this Agreement.
+
+                  3.4 RESTRICTIONS. HP shall not reverse engineer, disassemble,
+or otherwise modify any Program without written authorization from Licensor.
+
+                  3.5 LOCALIZED VERSIONS. The licenses granted hereunder with
+respect to a Program and associated Documentation shall include all localized
+versions of such Program listed a SOW or made available by Licensor on or after
+the Effective Date.
+
+                  3.6 TRADEMARKS. Neither party is granted any right or interest
+to the trademarks, marks or trade names (collectively, "Marks") of the other
+party. Neither party may use the other's Marks without the prior written consent
+of the other party. Notwithstanding the foregoing, Licensor agrees that: (1) HP
+may use Licensor's name and the name and/or trademark of a Program ("Licensor
+Program Marks") in the course of marketing and distributing such Program in
+accordance with the terms and conditions of this Agreement provided that such
+use is in accordance with Licensor's trademark usage guidelines as modified from
+time-to time and supplied to HP; (3) HP acknowledges that nothing in this
+Agreement gives HP right, title, or interest in Licensor
+
+
+                                      -3-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+Program Marks other than the right to use the Licensor Program Marks in
+accordance with this Agreement; and (4) HP acknowledges that the use of
+Licensor's Program Marks shall inure to the benefit of Licensor.
+
+
+                  3.7 OWNERSHIP. Subject to the rights and licenses granted to
+HP hereunder, Licensor retains all right, title and interest in the Programs,
+Documentation, Gold Byte, and any Bug Fixes, and New Releases, including all
+copyrights thereto. HP agrees that it will not remove any copyright notices,
+trademarks or tradenames of Licensor from the Programs or Documentation.
+
+                  3.8 COPYRIGHT NOTICES. Licensor and HP agree that mutually
+acceptable copyright notices of Licensor shall be used for the Programs and any
+localizations of the Programs.
+
+         4.       PROGRAM MAINTENANCE AND SUPPORT
+
+                  4.1 MAINTENANCE AND SUPPORT.
+
+                      4.1.1 Licensor agrees to provide HP maintenance and
+support for the Programs as set forth in a SOW. Licensor agrees to maintain such
+number of qualified personnel as is necessary to provide such timely and
+knowledgeable maintenance and support service.
+
+                      4.1.2 Notwithstanding any termination of this
+Agreement, Licensor agrees to maintain and support the Programs distributed
+by HP for at least [*] months after a Program is made available to HP for
+distribution hereunder. The version of a Program immediately preceding [*]
+or New Release shall be supported and maintained by Licensor for [*] months
+after the [*] or New Release is made available to HP for distribution
+hereunder.
+
+                  4.2 TECHNICAL ASSISTANCE AND TRAINING. Licensor agrees to
+provide to HP the technical assistance and training to HP personnel as may be
+reasonably requested for HP to use, copy and distribute the Program as
+contemplated here, and as may be further described in a SOW.
+
+                  4.3 NEW HP PRODUCTS. The parties intend that during the
+term of this Agreement Licensor may design product changes and new product
+releases which are compatible with future releases and revisions of the HP
+Products [*]. Upon request by HP for a change or enhancement to the Program
+pursuant to section 4.4 below Licensor agrees to [*] days (unless the
+parties mutually agree otherwise).
+
+                  4.4 FUNCTIONALITY ENHANCEMENTS. HP may from time to time
+request significant functionality enhancements to a Program. If Licensor, in its
+sole and absolute discretion, agrees to develop any such enhancements, the
+parties shall enter into a mutually agreeable written SOW setting forth the
+terms and conditions of the development of such enhancements, which may provide
+for additional payments by HP to Licensor. The fee for any such enhancements
+shall be [*]. Prior to commencing work, Licensor will provide HP with a written
+estimate of the total "not to exceed" fee
+
+
+                                      -4-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+for the proposed enhancement and the final fee shall not exceed the estimate by
+more than [*] unless mutually agreed to by HP and Licensor.
+
+                  4.5 HP PROPERTY. HP may provide HP property to Licensor for
+purposes related to this Agreement under the terms of an HP Equipment Loan
+Agreement in the form attached as Exhibit D to this Agreement.
+
+         5.       PAYMENT
+
+                  5.1 ROYALTY. In consideration for the rights and licenses
+granted to HP under this Agreement, HP agrees to pay Licensor a Per Copy Fee
+royalty for each copy of a Program that HP distributes as bundled with an HP
+Product, in the amount set forth in the applicable SOW. Such royalty shall
+include the right to reproduce and distribute associated Documentation.
+
+                  5.2 ROYALTY PAYMENT. Per Copy Fees will accrue upon
+distribution of any copy of a Program bundled with an HP Product. All accrued
+Per Copy Fees will be paid by HP to Licensor within [*] days after the end of
+each HP fiscal quarter, which ends on the last day of each January, April, July
+and October. Payments will be accompanied by a report stating the number of
+units shipped with the Program distributed in the relevant quarter, and the
+calculation of the royalty payment.
+
+                  5.3 AUDIT. Upon fifteen (15) days prior written notice to HP,
+Licensor may, at its own expense, appoint a nationally recognized independent
+auditor, to whom HP has no reasonable objection, to audit and examine HP's
+records of the royalty payments under Sections 5.2 of this Agreement, at HP's
+offices during normal business hours, solely for the purpose of confirming the
+accuracy of royalty payments hereunder. Such audit may be made no more often
+than once every twelve calendar month period.
+
+                  5.4 [*]
+
+                  5.5 TAXES. Licensor shall be solely responsible for income
+based taxes on amounts paid to Licensor by HP under this Agreement.
+
+         6.       WARRANTY AND INDEMNIFICATION
+
+                  6.1 GENERAL WARRANTY. (1) Licensor warrants that, it owns all
+rights to, or has licensed all or a portion of, each Program and accompanying
+Documentation, and that such interests are free of any and all restrictions,
+settlements, judgments or adverse claims; and (2) Licensor warrants it has full
+power and authority to grant HP the rights granted in this Agreement.
+
+                  6.2 PROGRAM WARRANTY. Licensor warrants that each Program
+referred to herein will operate in accordance with and substantially conform
+to the Specifications, Documentation, manuals, and data sheets; and,
+promotional literature, presentations, and any other written materials [*]
+concerning the Programs that are made publicly available by Licensor or are
+provided by Licensor to HP.
+
+                  6.3 YEAR 2000 COMPLIANCE WARRANTY. Licensor warrants that the
+Program will be "Year 2000 Compliant". Year 2000 Compliant products will perform
+without error, loss of data, or
+
+
+                                      -5-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+loss of functionality on account of any inability to process, calculate, compare
+or sequence date data accurately from, into and between the years 1999 and 2000
+and between the twentieth century and the twenty-first century. In addition,
+Year 2000 Compliant products will not cause any associated HP Products or any
+systems in which they may be used to fail in any of the ways described above
+provided such HP Products or systems will properly send and receive necessary
+data, and in a format compatible, with the Program. This Year 2000 Compliance
+warranty will remain in effect through January 31, 2001, notwithstanding any
+other warranty period specified in this Agreement.
+
+                  6.4      GENERAL INDEMNITY.
+
+                           6.4.1 Licensor agrees to indemnify and hold HP
+harmless of and from [*]
+
+                           6.4.2 HP agrees to indemnify and hold Licensor
+harmless of and from [*]
+
+                  6.5      [*]
+
+
+                                      -6-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+[*]
+
+                  6.6 ENTIRE LIABILITY FOR INFRINGEMENT. THIS SECTION 6 STATES
+THE ENTIRE LIABILITY OF LICENSOR AND HP WITH RESPECT TO ANY CLAIM OF
+INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS. THE OBLIGATIONS SET FORTH IN THIS
+SECTION 6 SHALL NOT BE LIMITED IN ANY WAY BY ANY OTHER PROVISIONS OF THIS
+AGREEMENT, INCLUDING THE LIMITATION OF LIABILITY PROVISION IN SECTION 8 BELOW.
+
+                  6.7 WARRANTY DISCLAIMER. EXCEPT AS EXPRESSLY PROVIDED HEREIN,
+[*] LICENSOR [*] MAKES ANY OTHER WARRANTIES, EITHER EXPRESS OR IMPLIED,
+REGARDING THE PROGRAM, ITS MERCHANTABILITY OR ITS FITNESS FOR ANY PARTICULAR
+PURPOSE.
+
+                  6.8 [*]
+
+         7.       TERM AND TERMINATION
+
+
+
+
+                                      -7-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                  7.1 TERM. Unless otherwise terminated earlier under this
+Section 7, this Agreement shall commence as of the Effective Date, and shall
+continue until [*]. This Agreement will renew automatically for
+additional one (1) year periods unless written notice is given by one party to
+the other as to its intention not to renew this Agreement at least sixty (60)
+days prior to the end of the initial or any subsequent term. The term of each
+SOW will be specified in the SOW. If this Agreement is terminated or expires
+prior to the end of the term of a SOW, this Agreement will remain in effect only
+with respect to such SOW until such SOW is terminated or expires.
+
+                  7.2 TERMINATION FOR BREACH. Either party may terminate this
+Agreement, a SOW, or both, by written notice to the other party if the other
+party breaches any material provision of this Agreement and such breach is not
+cured within thirty (30) days after written notice thereof is received by the
+breaching party. Any breach by either party of the Confidentiality provisions of
+this Agreement shall be considered a breach that cannot be cured and may be the
+basis for immediate termination of this Agreement by the other party.
+
+                  7.3 EFFECT OF TERMINATION. Notwithstanding any termination
+of this Agreement or a SOW, all licenses granted to end users prior to the
+date of termination for use of the Program shall survive. In the event of
+termination by Licensor, HP may continue to license and distribute Programs
+[*], as necessary to support and maintain the Programs, and as necessary to
+distribute remanufactured systems that originally contained the Program so
+long as HP continues to pay Licensor the applicable Per Copy Fees hereunder.
+If this Agreement is terminated by HP due to breach by Licensor, HP may
+continue to license and distribute Programs as provided hereunder until the
+expiration of the initial term of this Agreement or the term of the
+applicable SOW, whichever is longer, as long as HP continues to pay Licensor
+the applicable Per Copy Fees hereunder. Upon termination by either party, HP
+must return to Licensor all Complete Copies and shall either return to
+Licensor, or destroy all copies of A Programs not incorporated into the final
+software build for the HP Product prior to the effective date of termination,
+except for a reasonable number of copies of the Program which may be retained
+for support and archival purposes.
+
+                  7.4 SURVIVAL. Notwithstanding any termination of this
+Agreement, the following provisions of this Agreement shall survive: Sections 1,
+4.1.2, 5, 6, 8, 9, and 10, and this Section 7.
+
+         8.       LIMITED LIABILITY
+
+                  IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER FOR
+CONSEQUENTIAL, INDIRECT OR SPECIAL DAMAGES ARISING FROM ANY CLAIM OR ACTION
+HEREUNDER, BASED ON CONTRACT, TORT OR OTHER LEGAL THEORY. [*]
+
+         9.       CONFIDENTIAL INFORMATION
+
+                  9.1 THE PROGRAM. The Program in object code form and related
+Documentation provided to HP hereunder are deemed non-confidential, and., HP is
+not under any obligation to Licensor to restrict access to or use of such
+Programs in object code form or related Documentation, provided HP complies with
+the term of this Agreement.
+
+
+
+                                      -8-
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+
+                  9.2 CONFIDENTIAL INFORMATION. During the term of this
+Agreement, either party may receive or have access to technical information, as
+well as information about product plans and strategies, promotions, customers
+and related non-technical business information which the disclosing party
+considers to be confidential ("Confidential Information"). In the event such
+information is disclosed, the parties shall first agree to disclose and receive
+such information in confidence. If then disclosed, the information shall be
+labeled [HP or Licensor] Confidential, or if not marked (e.g. orally disclosed)
+but treated as confidential at the time of disclosure shall be designated as
+confidential in a written memorandum or mail sent to recipient prior to or
+within thirty days of disclosure, summarizing the confidential information
+sufficiently for identification. Such Confidential Information shall be used by
+only those employees of the receiving party who have a need to know such
+information for purposes related to this Agreement. Notwithstanding any
+provision to the contrary, all source code provided by Licensor or HP to the
+other, and all business information with respect to any unpublished Licensor or
+HP products, are deemed Confidential Information for the purposes of this
+Section 9.
+
+                  9.3 NONDISCLOSURE. The receiving party shall protect any such
+Confidential Information of the disclosing party from unauthorized disclosure to
+third parties with the same degree of care as the receiving party uses for its
+own similar information for a period of [*] years from the date of
+disclosure. The foregoing restriction shall not apply to any information which
+(i) was in the public domain or publicly known at the time it was communicated
+to the receiving party by the disclosing party; (ii) entered the public domain
+or became publicly known after it was communicated to the receiving party by the
+disclosing party through no fault of the receiving party; (iii) was in the
+receiving party's possession free of any obligation of confidence at the time it
+was communicated to the receiving party by the disclosing party; or (vi) was
+developed by employees or agents of the receiving party independently of and
+without reference to any information communicated to the receiving party by the
+disclosing party. In addition, Section 10 will not be construed to prohibit any
+disclosure that is (a) necessary to establish the rights of either party under
+this Agreement or (b) required by a valid court order or subpoena, provided in
+the latter case that the party required to make such disclosure notifies the
+other party (whose Confidential Information is to be disclosed) thereof promptly
+and in writing and cooperates with the other party if the other party seeks to
+contest or limit the scope of such disclosure.
+
+         10.      OTHER PROVISIONS
+
+                  10.1     [*]
+
+                  10.2 RELATIONSHIP MANAGERS. Each party designates the person
+set forth in EXHIBIT D as the primary contact of each party with respect to this
+Agreement, which person may be redesignated a party by notice to the other.
+
+                  10.3 INDEPENDENT CONTRACTORS. The relationship of HP and
+Licensor under this Agreement is that of independent contractors, and neither
+party is an employee, agent, partner or joint venturer of the other.
+
+                  10.4 NOTICE. Unless otherwise stated, all notices required
+under this Agreement shall be in writing and shall be considered given upon
+personal delivery of the written notice or
+
+
+                                      -9-
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+
+within forty eight (48) hours after deposit in the U.S. Mail, certified or
+registered, and appropriately addressed to the Account Manager as set forth in
+EXHIBIT D hereto.
+
+                  10.5 GOVERNING LAW. This Agreement is made under and shall be
+construed in accordance with the laws of the State of California, without
+reference to conflict of laws principles.
+
+                  10.6 EXPORT CONTROL. Both parties agree to comply with all
+applicable United States laws and regulations which may govern the export of
+Program abroad, including the Export Administration Act of 1979, as amended, any
+successor legislation, and the Export Administration Regulations issued by the
+Department of Commerce.
+
+                  10.7 SEVERABILITY. The terms of this Agreement shall be
+applicable severally to each Program, if more than one, and any dispute
+affecting either party's rights or obligations as to one or more Program(s)
+shall not affect the rights granted hereunder as to any other Program. If any
+provision of this Agreement is held to be invalid or unenforceable by a court of
+competent jurisdiction, then the remaining provisions will nevertheless remain
+in full force and effect. The parties agree to negotiate in good faith a
+substitute, valid and enforceable provision which most nearly effects the
+parties' intent in entering into this Agreement.
+
+                  10.8 HEADINGS. The captions of Sections of this Agreement are
+for reference only and are not to be construed in any way as terms.
+
+                  10.9 ASSIGNMENT. Neither this Agreement nor any part hereof
+may be assigned by either party without the other party's prior written consent,
+and any attempted assignment is void. Any merger, reorganization, transfer of
+substantially all assets of a party, or other change in control or ownership
+will be considered an assignment for the purposes of this Agreement, except that
+no such consent will be required for Licensor to assign this Agreement, or
+certain SOWs thereunder, or both, as part of a divestiture of all or
+substantially all of the assets of Licensor's Software Products Group into a
+publicly held company as announced on June 8, 2000.
+
+                  10.10 NO MINIMUM OBLIGATION. Nothing in this Agreement shall
+be construed or interpreted as placing a "best efforts" standard upon HP with
+respect to the use and distribution of the Program, or placing any minimum
+obligation to pay Per Copy Fees.
+
+                  10.11 NON-RESTRICTIVE_RELATIONSHIP. Nothing in this Agreement
+shall be construed to preclude HP from independently developing, acquiring or
+marketing computer software packages which may perform the same or similar
+functions as those software packages provided by Licensor. Nothing in this
+Agreement shall be construed to preclude either party from independently
+developing, acquiring or marketing products which may perform the same or
+similar functions as the HP products.
+
+                  10.12 WAIVER. Neither party's failure to exercise any of its
+rights hereunder shall constitute or be deemed a waiver or forfeiture of any
+such rights.
+
+                  10.13 FORCE MAJEURE. Nonperformance of either party will be
+excused to the extent that performance is rendered impossible by strike, fire,
+flood, governmental acts or orders or restrictions or other similar reason where
+failure to perform is beyond the control and not caused by
+
+
+
+                                      -10-
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+
+the negligence of the non-performing party, provided that the non-performing
+party gives prompt notice of such conditions to the other party and makes all
+reasonable efforts to perform. Non-performance resulting from earthquakes,
+hurricanes and other similar storms, and other natural calamities shall be
+deemed to be beyond the control and not caused by the negligence of a party
+under this Section 10.13.
+
+                  10.14 EXHIBITS. Each Exhibit referred to in this Agreement is
+incorporated in full in this Agreement. This Master Software License Agreement
+may have multiple Exhibits/SOWs in place; each Exhibit/SOW will be managed by
+the HP entity entering into it. Each Exhibit is separate and as such may be
+terminated or amended without any impact on the remaining Exhibits.
+
+                  10.15 ENTIRE AGREEMENT. This document represents the entire
+agreement between the parties as to the matters set forth and supersedes all
+prior discussions or understandings between them, whether written or oral,
+concerning the subject matter hereof `this Agreement may only be modified by a
+writing signed by an authorized representative of each of Licensor and HP.
+
+                  10.16 COUNTERPARTS. This Agreement may be executed in
+counterparts, each of which shall be deemed an original.
+
+  Agreed:                                       Agreed:
+
+
+
+  HEWLETT-PACKARD COMPANY                       LICENSOR
+
+By:          /s/ Larry Wuerz                     By:          /s/ Tom Shea
+    ----------------------------                    ---------------------------
+Name:        Larry Wuerz                         Name:        Tom Shea
+     ---------------------------                      -------------------------
+Title:       HPD MPG MGR                         Title:       VP & GM
+      --------------------------                       ------------------------
+Date:        12/19/2000                          Date:        12/14/00
+     ---------------------------                       ------------------------
+
+
+
+  Exhibits:
+
+EXHIBIT A - Home Products Division Product ("SOW")
+EXHIBIT B - HP Software License Terms
+EXHIBIT C - Statement of Work ("SOW") Template
+EXHIBIT D - Relationship Managers
+EXHIBIT E - Equipment Loan Agreement
+  APPENDIX I TO EXHIBIT E - Equipment Schedule
+  APPENDIX 11 TO EXHIBIT E - HP Software License Terms
+
+
+
+
+                                      -11-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+
+EXHIBIT F - Adaptec Privacy Statement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      -12-
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                                    EXHIBIT A
+                            STATEMENT OF WORK #HPD-1
+                            HP HOME PRODUCTS DIVISION
+
+  This Statement of Work is governed by the Master Software License Agreement
+  (the "Agreement"), number ADAP001, between Hewlett-Packard Company ("HP") and
+  Adaptec, Inc. ("Licensor") effective as of December 7, 1999, and is fully
+  incorporated therein. In the event of a conflict between the terms of the
+  Agreement and the provisions of this SOW, the SOW shall govern and control
+  with respect to the transactions contemplated by such SOW. All terms used in
+  this Statement of Work and not otherwise defined will have the same meaning as
+  in the Agreement.
+
+  1.    PURPOSE OF THIS SOW:
+
+       This SOW sets forth the understanding of the objectives, deliverables,
+       timing, staffing and fees for the bundling of Licensor's Program (as
+       described below) on the HP Pavilion Desktop [*]
+
+
+<TABLE>
+<S><C>
+  II.  RESOURCES ASSIGNED TO THIS SOW
+
+       A.  HP'S PROJECT MANAGER
+
+           HP's Project Manager will be the person authorized to act as
+           the primary point of contact for HP and who will be
+           responsible for HP's performance under this SOW.
+
+           HP'S PROJECT MANAGER.                    [*]
+           PHONE NUMBER OF PROJECT MANAGER:         [*]
+           ADDRESS OF PROJECT MANAGER:              [*]
+
+       B.  LICENSOR'S PROJECT MANAGER
+
+           Licensor's Project Manager will be the person authorized to
+           act as the primary point of contact for Contractor and will be
+           responsible for Contractor's performance under this SOW.
+
+           LICENSOR'S PROJECT MANAGER:              [*]
+           PHONE NUMBER OF PROJECT MANAGER:         [*]
+           ADDRESS OF PROJECT MANAGER:              [*]
+
+       C.  HP'S ESCALATION MANAGER
+
+           HP's Escalation Manager will be the person authorized to
+           negotiate, in good faith, with Licensor's Escalation Manager
+           to properly resolve disputes as to the matters contained in
+           this Statement of Work.
+
+           HP'S ESCALATION MANAGER.                 [*]
+
+
+
+
+
+                                      -13-
+
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                PHONE NUMBER OF ESCALATION MANAGER:     [*]
+                ADDRESS OF ESCALATION MANAGER:          [*]
+
+
+           D.   LICENSOR'S ESCALATION MANAGER
+
+                Licensor's Escalation Manager will be the person authorized to
+                negotiate, in good faith, with HP's Escalation Manager to
+                properly resolve disputes as to the matters contained in this
+                Statement of Work.
+
+                LICENSOR'S ESCALATION MANAGER:          [*]
+                PHONE NUMBER OF ESCALATION MANAGER.,    [*]
+                ADDRESS OF ESCALATION MANAGER:          [*]
+
+</TABLE>
+
+   III.  PROGRAMS AND SERVICES TO BE DELIVERED BY LICENSOR UNDER THIS SOW
+
+           3.1      OBJECTIVES: The Licensor will provide the Program described
+                    below.
+
+           3.2      DELIVERABLES (LICENSOR'S "PROGRAM"):
+
+                    3.2.1. PROGRAM NAME: Easy CD Creator Standard Edition
+                    version 3.5x and its successor 4.x with DirectCD version
+                    3.01
+
+                    3.2.2. SPECIFICATIONS: Easy CD Creator Standard Edition with
+                    DirectCD is a software solution for CD-Recording systems
+                    that runs on: Windows 95, Windows 98, NT 4, Windows 2000 and
+                    Windows Millennium. This product allows a user to make audio
+                    CDs, data CDs, CD labels and jewel case inserts, and to drag
+                    and drop files directly to CD using drive letter access. See
+                    attached technical specification.
+
+                    3.2.3 DOCUMENTATION: Quick Reference Guide, context
+                    sensitive Help
+
+                    3.2.4 TRADEMARK/TRADENAME/PRODUCT NAME AS THEY ARE TO APPEAR
+                    IN PROGRAM DOCUMENTATION: Adaptec, the Adaptec logo, Easy CD
+                    Creator and DirectCD are trademarks of Adaptec, Inc which
+                    may be registered in some jurisdictions. All other
+                    trademarks are owned by their respective owners.
+
+                    3.2.5    FORM AND MEDIA FOR PROGRAM AND DOCUMENTATION
+
+                            (A) PROGRAM FORM/MEDIA: The program will be provided
+                            on CD.
+
+                            (B) DOCUMENTATION FORM/MEDIA: The documentation will
+                            be provided on CD as PDF files and/or Framemaker
+                            files and/or HTML files, per HP's request.
+
+
+
+
+                                      -14-
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                            (C) CD FACE ART AND FILE: Adaptec will provide
+                            written guidelines for HP to create CD Face Art.
+                            Adaptec does not provide graphic images for face
+                            art.
+
+                    3.2.6    LOCALIZED VERSIONS
+
+                            3.2.6.1    REQUIRED: [*]
+
+                            3.2.6.2    LOCALIZED VERSIONS CURRENTLY AVAILABLE:
+                                       [*]
+
+                    3.2.7    SUPPORT AND MAINTENANCE:
+
+                             3.2.7.1   SUPPORT TO END USERS:
+
+                              (1) Free Support: Licensor's ASK On-Line system
+                              [*]
+
+                              (2) Additional Licensor Technical Support
+                              Resources:
+
+                              [*]
+
+                             3.2.7.2 TECHNICAL SUPPORT TO : Licensor agrees to
+                             provide technical support to HP for all regions in
+                             which HP sells the program. Licensor agrees to
+                             maintain such number of qualified personnel as is
+                             necessary to provide timely and knowledgeable
+                             technical support services.
+
+                             3.2.7.3 TRAINING. Licensor will provide such
+                             training to HP personnel as may be reasonably
+                             requested in order for HP to use, copy, distribute
+                             and support the Program as contemplated herein, and
+                             will provide periodic technical support information
+                             and updated training per HP's reasonable request.
+
+                             3.2.7.4   LICENSOR SUPPORT:
+
+                             (1) Telephone number for:
+                                                   [*]
+
+                             (2) Hours of operation: 9 AM - 5PM (PST)
+
+                             (3) Additional Licensor Technical Support
+                                 Resources: N/A
+
+
+
+
+                                      -15-
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                   3.2.8 BUNDLING REQUIREMENTS: The Program will be bundled
+                   with [*]("HP Product").
+
+          3.3      HP RESPONSIBILITIES:
+
+                   -   HP will work with Licensor on all phases of the software
+                       build, software qualification and bug identification.
+
+                   -   HP will Provide all necessary information to inform
+                       Licensor of any current system configuration that would
+                       help in identifying any system configuration issues.
+
+                   -   HP will provide access to our R&D staff engineer, (during
+                       standard business hours) to communicate any known issues
+                       and work with Licensor to create a fix.
+
+                   -   Upon request HP will provide Licensor with the most
+                       current Hardware available for support of the Program.
+
+          3.4      TIMING:
+                   GOLD BYTES DELIVERY DATE:
+                   SOFTWARE WAS QUALIFIED AND ACCEPTED FOR [*]
+                   AS VERSION 4.X ON: [*]
+
+          3.5      GOLD BYTE DELIVERY DATES FOR [*]: SOFTWARE GOLD BYTE
+                   WAS QUALIFIED AND ACCEPTED AS VERSION 4.X ON: [*]
+
+  IV.     PAYMENT; EXPENSES; AND INVOICES
+
+          4.1      PAYMENT
+
+                   4.1.1   PRICING: PER COPY FEES:
+                           Licensor and HPD will work together to develop and
+                           implement programs to generate increased revenue from
+                           software upgrades. The pricing, for [*] is:
+                           - Easy CD Creator 4.X with DirectCD 3.x - [*]
+                           - Easy CD Creator 4.X. with DirectCD 3.x - [*]
+
+
+
+                                      -16-
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+  V.      OTHER TERMS AND CONDITIONS THAT SHALL APPLY TO THIS SOW
+
+          5.1      TERM AND TERMINATION
+
+                   This SOW will be effective commencing upon [*]. If all
+                   services and Deliverables described herein are not
+                   completed by the end date, HP may elect to extend this SOW
+                   by providing written notice to Licensor prior to the
+                   initial ending date or any subsequent ending date and upon
+                   Licensor's mutual agreement. The parties' rights to
+                   terminate this SOW and any renewals are as set forth in
+                   Section 7 of the Agreement.
+
+  VI.      END USER DATA
+
+           6.1      Any and all identifying information regarding HP Pavilion
+                    Desktop PC End Users (including but not limited to personal
+                    names, addresses, telephone and social security numbers, or
+                    other identifying information) collected by Adaptec through
+                    their Web Site (the "HP End User Information") will be
+                    deemed to be Confidential Information of HP and subject to
+                    Section 9 ("Confidential Information) hereof. Adaptec will
+                    have the limited and restricted right to use the HP End User
+                    Information solely in connection with registration of and
+                    provision of the Services to such end users and for future
+                    Services offered for marketing purposes consistent with
+                    promotion defined herein. For the purpose of this SOW, when
+                    a HP Pavilion Desktop PC End User elects to register their
+                    information to take advantage of any further Adaptec:
+                    products, services, or by electing to receive additional
+                    information, such person becomes an Adaptec Customer. Any
+                    information provided by such customer is subject solely to
+                    the Adaptec policies attached here to as Exhibit "F".
+                    Adaptec hereby agrees to indemnify and hold HP harmless of
+                    and from any and all claims, suits, judgments, or
+                    proceedings arising out of any claim that HP End User
+                    Information or Other End User Information has been
+                    collected, distributed, or otherwise used by Adaptec in a
+                    manner that violates the representations made to the
+                    customer in Adaptec's privacy policy concerning such
+                    information ("Adaptec Privacy Policy"). Such Adaptec:
+                    Privacy Policy is currently in the form attached hereto as
+                    Exhibit F. Adaptec may amend the Adaptec: Privacy Policy
+                    from time to time without notice to HP as long as the
+                    substantive protections in the terms of any amended Adaptec
+                    Privacy Policy are as protective of the information as the
+                    term of the Adaptec Privacy Policy as referenced hereto.
+
+  IN WITNESS WHEREOF, the parties to the above referenced Agreement between HP
+  and Licensor have caused this Statement of Work #HPD-1 to be executed by their
+  authorized representatives.
+
+HEWLETT-PACKARD COMPANY                         LICENSOR:
+
+BY:            /s/ Larry Wuerz                  BY:        /s/ Tom Shea
+   ------------------------------                  ----------------------------
+NAME:          Larry Wuerz                      NAME:      Tom Shea
+     ----------------------------                    --------------------------
+
+
+
+                                      -17-
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+      ------------------------                        -------------------------
+TITLE:         HPD MPG MGR                      TITLE:     VP & GM
+      ------------------------                        -------------------------
+DATE:          12/19/2000                       DATE:      12/14/00
+     -------------------------                        -------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      -18-
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                                    EXHIBIT B
+
+  ATTENTION: USE OF THE SOFTWARE IS SUBJECT TO THE SOFTWARE LICENSE TERMS SET
+  FORTH BELOW. USING THE SOFTWARE INDICATES YOUR ACCEPTANCE OF THESE TERMS. IF
+  YOU DO NOT ACCEPT THESE TERMS, YOU MAY RETURN THE ENTIRE UNUSED PERSONAL
+  COMPUTER PRODUCT FOR A FULL REFUND.
+
+   SOFTWARE LICENSE TERMS
+
+  The following Terms govern your use of the Software.
+
+  LICENSE GRANT. Hewlett-Packard grants you a license to Use one copy of the
+  version of the Software preloaded on the hard drive of the Hewlett-Packard
+  computer and in the box containing the CD-ROMs bundled with the
+  Hewlett-Packard computer, on any one computer. "You" means the company, entity
+  or individual whose funds are used to pay the license fee. "Use" means
+  storing, loading, installing, executing or displaying the Software. You may
+  not modify the Software or disable any licensing or control features of the
+  Software except as an intended part of the Software's programming features.
+
+  OWNERSHIP. The Software is owned and copyrighted by Hewlett-Packard or its
+  third party suppliers. Your license confers no title or ownership in the
+  Software and should not be construed as a sale of any rights in the Software.
+  Hewlett-Packard's third party suppliers may protect their rights in the event
+  of any violation of these terms.
+
+  COPIES AND ADAPTATIONS. You may only make copies or adaptations of the
+  Software for archival purposes or when copying or adaptation is an essential
+  step in the authorized Use of the Software. You must reproduce all copyright
+  notices in the original Software on all authorized copies or adaptations. You
+  may not copy the Software onto any bulletin board or similar system.
+
+  NO DISASSEMBLY OR DECRYPTION. You may not disassemble, decompile or decrypt
+  the Software unless Hewlett-Packard's prior written consent is obtained. In
+  some jurisdictions, Hewlett-Packard's consent may not be required for
+  disassembly or decompilation. Upon request, you will provide Hewlett-Packard
+  with reasonably detailed information regarding any disassembly or
+  decompilation.
+
+  TRANSFER. You may not rent or lease the Software, but you may transfer the
+  Software. Your license will automatically terminate upon any transfer of the
+  Software. Upon transfer, you must deliver the original and all complete,
+  partial or electronically stored copies of the Software and related
+  documentation to the transferee. The transferee must accept these Terms as a
+  condition to the transfer.
+
+  TERMINATION. Hewlett-Packard may terminate your license upon notice for
+  failure to comply with any of these Terms. Upon termination, you must
+  immediately destroy the Software, together with all copies, adaptations and
+  merged portions in any form.
+
+
+
+                                      -19-
+
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+  EXPORT REQUIREMENTS. You may not export or re-export the Software or any copy
+  or adaptation in violation of any applicable laws or regulations.
+
+  U.S. GOVERNMENT RESTRICTED RIGHTS. The Software and documentation have been
+  developed entirely at private expense and are provided as "Commercial Computer
+  Software" or "restricted computer software". Use, duplication or disclosure by
+  the U.S. Government or a U.S. Government subcontractor is subject to the
+  restrictions set forth in subparagraph (c) (1) (ii) of the Rights in Technical
+  Data and Computer Software clauses in DFARS 252.227-7013 or as set forth in
+  subparagraph (c) (1) and (2) of the Commercial Computer Software - Restricted
+  Rights clauses at FAR 52.227-19, as applicable. The Contractor is
+  Hewlett-Packard Company, 3000 Hanover Street, Palo Alto, California 94304.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      -20-
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                                    EXHIBIT C
+                           STATEMENT OF WORK TEMPLATE
+
+                           STATEMENT OF WORK ("SOW") #
+
+  This Statement of Work is governed by the Master Software License Agreement
+  (the "Agreement"), number ADAP001, between Hewlett-Packard Company ("HP") and
+  Adaptec, Inc. ("Licensor") effective as of April 3, 2000, and is fully
+  incorporated therein. In the event of a conflict between the terms of the
+  Agreement and the provisions of this SOW, the SOW shall govern and control
+  with respect to the transactions contemplated by such SOW. All terms used in
+  this Statement of Work and not otherwise defined will have the same meaning as
+  in the Agreement.
+
+  I.       PURPOSE OF THIS SOW:
+
+          This SOW sets forth the parties' understanding of the objectives,
+          deliverables, timing, staffing and fees for [DESCRIBE SPECIFIC WORK]
+          described below with HP's [NAME OF HP PRODUCT AND SPECIFIC OTHER
+          IDENTIFIERS OF PRODUCT AS NECESSARY].
+
+  II.    RESOURCES ASSIGNED TO THIS SOW
+
+           A.      HP'S PROJECT MANAGER
+
+                   HP's Project Manager will be the person authorized to act as
+                   the primary point of contact for HP and who will be
+                   responsible for HP's performance under this SOW.
+
+                   HP'S PROJECT MANAGER.
+                   PHONE NUMBER OF PROJECT MANAGER:
+                   ADDRESS OF PROJECT MANAGER:
+
+           B.      LICENSOR'S PROJECT MANAGER
+
+                   Licensor's Project Manager will be the person authorized to
+                   act as the primary point of contact for Contractor and will
+                   be responsible for Contractor's performance under this SOW.
+
+                   LICENSOR'S PROJECT MANAGER.
+                   PHONE NUMBER OF PROJECT MANAGER:
+                   ADDRESS OF PROJECT MANAGER.
+
+           C.      HP'S ESCALATION MANAGER (DELETE ITEM IF NOT NEEDED)
+
+                   HP's Escalation Manager will be the person authorized to
+                   negotiate, in good faith, with Licensor's Escalation Manager
+                   to properly resolve disputes as to the matters contained in
+                   this Statement of Work.
+
+                   HP'S ESCALATION MANAGER:
+
+
+
+                                      -21-
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                   PHONE NUMBER OF ESCALATION MANAGER:
+                   ADDRESS OF ESCALATION MANAGER.
+
+           D.      LICENSOR'S ESCALATION MANAGER (DELETE ITEM IF NOT NEEDED)
+
+                   Licensor's Escalation Manager will be the person authorized
+                   to negotiate, in good faith, with HP's Escalation Manager to
+                   properly resolve disputes as to the matters contained in this
+                   Statement of Work.
+
+                   LICENSOR'S ESCALATION MANAGER:
+                   PHONE NUMBER OF ESCALATION MANAGER:
+                   ADDRESS OF ESCALATION MANAGER:
+
+           E.      EMPLOYEES LICENSOR ASSIGNS TO COMPLETE SERVICES AND
+                   DELIVERABLES UNDER THIS SOW
+
+                   Employees of Licensor assigned to provide services and
+                   deliverable's under this SOW are as follows:
+
+
+                   -------------------------------------------------------------
+                   Resource                       Role
+                   -------------------------------------------------------------
+
+                   -------------------------------------------------------------
+
+                   -------------------------------------------------------------
+
+                   -------------------------------------------------------------
+
+                   -------------------------------------------------------------
+
+                   -------------------------------------------------------------
+
+
+  III.   PROGRAMS AND SERVICES TO BE DELIVERED BY LICENSOR UNDER THIS SOW
+
+   3.1     OBJECTIVES:
+           (STATE HIGH-LEVEL PROJECT OBJECTIVES.)
+           The Licensor will support these efforts as presented below.
+
+
+
+
+   3.2     DELIVERABLES:
+           (CLEARLY DEFINE DELIVERABLES AND PROVIDE EXCEPTION CRITERIA FOR EACH
+           DELIVERABLE. THIS AREA OF THE SOW WILL PROVIDE THE MOST PROTECTION
+           WHEN YOU PROVIDE A CLEAR MAP OF CRITICAL PROJECT REQUIREMENTS AND MAP
+           THEM TO PROJECT MILESTONES. BE SURE TO INCLUDE AT A MINIMUM THE
+           PROGRAM NAME, SPECIFICATIONS (THESE SHOULD BE DETAILED TECHNICAL
+           SPECIFICATIONS), DESCRIPTION OF DOCUMENTATION, FORM AND MEDIA FOR
+           DELIVERY OF PROGRAM
+
+
+
+
+                                      -22-
+
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+           AND DOCUMENTATION, LOCALIZED VERSIONS REQUIRED, SUPPORT AND
+           MAINTENANCE, TRAINING, BUNDLING REQUIREMENTS).
+
+   3.3     HP RESPONSIBILITIES:
+
+   3.4     TIMING:
+           (STATE THE PERIOD OF TIME, OR ESTIMATE OF THE TIMELINE THAT THE
+           PROJECT/DELIVERABLES WILL REQUIRE FOR COMPLETION, DELIVERY AND
+           ACCEPTANCE. USE THIS SECTION TO STATE THE DEADLINES FOR THE PROJECT.)
+
+  IV.      PAYMENT; EXPENSES; AND INVOICES
+
+          4.1      PAYMENT
+                   (THIS SECTION OF THE SOW IS DESIGNED TO PROVIDE A BREAKDOWN
+                   OF PROJECT COSTS. PROJECT NOT TO EXCEED FIGURE SHOULD BE
+                   BROKEN DOWN AND MAPPED TO A SPECIFIC DELIVERABLE. NOTE:
+                   [*])
+                   Payment shall be made subject to the terms and conditions
+                   of the Agreement.
+
+           4.2     EXPENSES
+                   (THIS SECTION OF THE SOW ALLOWS YOU TO DEFINE ANY ADDITIONAL
+                   PROJECT EXPENSES, I.E. IS THERE A NEED TO PROCURE HARDWARE UP
+                   FRONT? WILL THERE BE ANY TRAVEL REQUIRED DURING THE
+                   ENGAGEMENT? [*])
+
+                   Expenses shall be paid subject to the terms and conditions of
+                   the Agreement.
+
+           4.3     INVOICES
+                   [*]
+
+  V.       OTHER TERMS AND CONDITIONS THAT SHALL APPLY TO THIS SOW
+
+           5.1     TERM AND TERMINATION
+
+                   This SOW will be effective commencing upon INSERT START DATE
+                   and ending INSERT END DATE. If all services and Deliverables
+                   described herein are not completed by the end date, HP may
+                   elect to extend this SOW by providing written notice to
+                   Licensor prior to the initial ending date or any subsequent
+                   ending dates. The parties' rights to terminate this SOW and
+                   any renewals are as set forth in Section 7 of the Agreement
+
+         6.1      TERMS RELATING TO NETWORK OR INTERNET CONNECTIVITY PROVIDED
+                  THROUGH THE PROGRAM.
+
+                   []
+
+
+
+                                      -23-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+IN WITNESS WHEREOF, the parties to the above referenced Agreement have caused
+this Statement of Work [insert #] to be executed by their authorized
+representatives.
+
+
+HEWLETT-PACKARD                       LICENSOR:
+COMPANY
+
+By:_________________________________  By:_________________________________
+
+Name:_______________________________  Name:_______________________________
+
+Title:______________________________  Title:______________________________
+
+Date:_______________________________  Date:_______________________________
+
+
+
+
+
+
+
+
+
+
+                                      -24-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                                    EXHIBIT D
+
+                          RELATIONSHIP/ACCOUNT MANAGERS
+
+
+HP:
+
+[*]
+
+
+
+  LICENSOR:
+
+[*]
+
+
+  Royalties Pay To:                Revenue Accounting
+  Pay to Name:                     Adaptec Inc.
+  Address:                         461 South Milpitas Blvd.
+                                   Milpitas, CA 95035
+  Telephone:                       (408) 957-6839
+
+
+
+                                      -25-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                                    EXHIBIT E
+
+                            EQUIPMENT LOAN AGREEMENT
+
+
+
+THIS EQUIPMENT LOAN AGREEMENT, NO.___________ (the "Agreement") is entered into
+between HEWLETT-PACKARD COMPANY, a Delaware corporation ("HP"), and ADAPTEC
+INC., a Delaware company located at 691 South Milpitas Boulevard, Milpitas, CA
+95035 ("Recipient"). This Agreement is effective as of August 1, 1999 (the
+"Effective Date").
+
+1.       LOAN OF EQUIPMENT. HP hereby loans to Recipient, for the applicable
+         Term defined below, the HP-owned equipment (collectively, "HP
+         Equipment"), which may consist of hardware, software and documentation
+         described in the HP Equipment Schedule attached as APPENDIX I TO THIS
+         EXHIBIT E. HP may, from time to time, add, upgrade, or remove HP
+         Equipment from Recipient's site during the Term. All HP Equipment
+         received by Recipient during the Term will be described in an amended
+         HP Equipment Schedule signed by Recipient and appended to this
+         Equipment Loan Agreement. Recipient agrees, by its receipt of HP
+         Equipment, that all HP Equipment is subject to the provisions of this
+         Agreement.
+
+2.       TERM. This Agreement will begin as of the Effective Date and run for a
+         term of 24 months (the "Term"), unless earlier terminated by HP or
+         Recipient upon thirty (30) days written notice to the other. HP may in
+         writing extend the Term, or establish a separate Term with respect to
+         particular items of HP Equipment.
+
+3.       USE. Recipient may use the HP Equipment solely for the purpose of
+         developing and testing the Programs (as such term is defined in the
+         Master Software License Agreement effective as of between HP and
+         Adaptec). Recipient may not move any HP Equipment from the location
+         specified in the HP Equipment Schedule without the prior written
+         consent of HP. Recipient's right to use the HP Equipment is
+         non-transferable.
+
+4.       SOFTWARE AND DOCUMENTATION. All software provided with the HP Equipment
+         is hereby licensed to Recipient under HP's Software License Terms
+         attached as APP~JNDIX H TO THIS EXHIBIT E. If Recipient requires a
+         license to use any software other than as stated in the Software
+         License Terms, that license must be specified in the HP Equipment
+         Schedule. Any documentation listed in the HP Equipment Schedule is
+         licensed to Recipient for its use solely for the purposes stated in
+         Section 3 above. If Recipient wishes to make copies of any
+         documentation, it must first obtain HP's prior written consent.
+
+5.       OWNERSHIP. HP retains all right, title and ownership to the HP
+         Equipment, unless any such HP Equipment is purchased by Recipient.
+         Recipient hereby nominates and appoints HP as its attorney-in-fact for
+         the sole purpose of executing and filing, on Recipient's behalf, UCC-1
+         financing statements (and any appropriate amendments thereto) or a
+         suitable substitute document (including this Agreement) under the
+         provisions of the Uniform Commercial Code for the HP Equipment loaned
+         to Recipient hereunder. If requested by HP, Recipient will affix any
+         label or marking supplied by HP evidencing HP's ownership of the HP
+         Equipment. HP may, from time to time, inspect the HP Equipment.
+         Recipient may not sell, transfer, assign, pledge, or in any way
+         encumber or convey the HP Equipment or any portion or component of such
+         equipment.
+
+
+
+                                      -26-
+<PAGE>
+
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+6.       WARRANTY DISCLAIMER. ALL HP EQUIPMENT IS PROVIDED "AS IS", WITHOUT
+         WARRANTY OF ANY KIND, WRITTEN OR ORAL, EXPRESS OR IMPLIED, INCLUDING
+         BUT NOT LIMITED TO ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A
+         PARTICULAR PURPOSE. Recipient understands that some newly manufactured
+         HP Equipment may contain remanufactured parts equivalent to new in
+         performance.
+
+7.       INDEMNIFICATION. Recipient hereby agrees to defend, indemnify and hold
+         HP harmless from any claims or suits against HP arising from
+         Recipient's use of the HP Equipment, including use by its employees,
+         agents or subcontractor. Recipient will pay all costs, damages, losses
+         and expenses (including reasonable attorneys' fees) incurred by HP and
+         will pay any award with respect to any such claim or agreed to in any
+         settlement.
+
+8.       MAINTENANCE. During the Term, Recipient will maintain all HP Equipment
+         in good operating order and condition. All maintenance must be provided
+         by personnel authorized by HP. HP will provide standard installation,
+         support and maintenance for the HP Equipment at HP's standard rates to
+         Recipient during the Term; however, all maintenance costs and expenses
+         due to Recipient's negligence will be borne by Recipient. Recipient
+         will be responsible for providing HP personnel ready and safe access to
+         the HP Equipment for such maintenance and support.
+
+9.       RISK OF LOSS. Recipient will bear all risk of loss with respect to the
+         HP Equipment from receipt until such HP Equipment is returned to HP.
+         All HP Equipment returned to HP must include the same components as
+         received by Recipient, and must be in good operating order and
+         condition. Charges may be imposed by HP if Recipient fails to return
+         the HP Equipment in such condition or within the return timeframe set
+         forth herein.
+
+10.      SHIPPING COSTS. Unless otherwise agreed in writing by HP, Recipient
+         will be responsible for and pay all delivery, freight and rigging
+         charges, all taxes and duties, and all other shipping costs and
+         expenses with respect to the delivery or return of any HP Equipment
+         hereunder.
+
+11.      LIMITATION OF LIABILITY. HP WILL NOT BE LIABLE FOR ANY DIRECT,
+         INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES, WHETHER BASED
+         ON CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, ARISING OUT OF THIS
+         EQUIPMENT LOAN AGREEMENT OR RECIPIENT'S USE OF THE HP EQUIPMENT.
+
+12.      TERMINATION. Upon expiration or earlier termination of the Term,
+         Recipient will return to HP all HP Equipment within 10 business days.
+         HP may permit Recipient to purchase certain items of the HP Equipment
+         upon termination under the purchase terms set forth below. In the event
+         that Recipient is permitted to purchase any of the HP Equipment and
+         fails to return that Equipment to HP upon expiration of the Term within
+         such 10-day period, Recipient will be deemed to have elected to
+         purchase the HP Equipment, and HP will invoice Recipient accordingly.
+
+13.      PURCHASE OPTION. If HP permits Recipient to purchase any of the HP
+         Equipment, Recipient may elect to purchase those items of the HP
+         Equipment under HP's then current standard terms and conditions,
+         provided that such HP Equipment may not be purchased solely for resale.
+         Upon purchase, such HP Equipment will be provided with HP's then
+         current standard warranty provisions for used equipment. The purchase
+         price for HP Equipment purchased under this Section will be a price
+         mutually agreed upon by the parties. No promotional or purchase
+         discounts will apply. Such purchase will not qualify for any stock
+         rotation or price protection under any other agreement which Recipient
+         may have with HP.
+
+14.      GENERAL PROVISIONS.
+
+                                      -27-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+         (a)      NOTICES. All notices to be given under this Agreement must be
+                  in writing and addressed to the location specified in the
+                  Master Agreement or as designated in the opening paragraph of
+                  this Agreement if there is no Master Agreement. Notices are
+                  validly given upon the earlier of confirmed receipt by the
+                  receiving party or three days after dispatch by courier or
+                  certified mail, postage prepaid, properly addressed to the
+                  receiving party. Notices may also be delivered by telefax and
+                  will be validly given upon oral or written confirmation of
+                  receipt. Either party may change its address for purposes of
+                  notice by giving notice to the other party in accordance with
+                  these provisions.
+
+         (b)      NO ASSIGNMENT. Neither this Agreement nor any right,
+                  privilege, license or obligation set forth herein may be
+                  assigned, transferred or shared by Recipient without HP's
+                  prior written consent, and any such attempted assignment or
+                  transfer is void. Any merger, consolidation, reorganization,
+                  transfer of substantially all assets of Recipient or other
+                  change in control or ownership of Recipient will be considered
+                  an assignment for the purposes of this Agreement.
+
+         (c)      ENTIRE AGREEMENT. This Agreement and the attached Exhibits
+                  comprise the entire understanding between the parties with
+                  respect to its subject matter and supersede any previous
+                  communications, representations, or agreements, whether oral
+                  or written. No modification of this Agreement will be binding
+                  on either party unless in writing and signed by an authorized
+                  representative of each party.
+
+         (d)      GOVERNING LAW. This Agreement will be governed in all respects
+                  by the laws of California without reference to any choice of
+                  laws provisions, as though this Agreement were entered into by
+                  residents of that State to be wholly performed within that
+                  State. The parties hereby waive any application of the United
+                  Nations Convention on Contracts for the International Sale of
+                  Goods (as promulgated in 1980 and any successor or subsequent
+                  conventions) with respect to the performance or interpretation
+                  of this Agreement.
+
+
+
+  APPROVED AND AGREED:
+
+  RECIPIENT: ADAPTEC, INC.                          HEWLETT-PACKARD COMPANY
+
+  By:                                               By:
+
+  Print Name:                                       Print Name:
+
+  Title:                                            Title:
+
+  Date:                                             Date:
+
+
+
+                                      -28-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                                  APPENDIX I TO
+                      EXHIBIT E (EQUIPMENT LOAN AGREEMENT)
+
+
+
+                           (insert) EQUIPMENT SCHEDULE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      -29-
+<PAGE>
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                                 APPENDIX II TO
+                      EXHIBIT E (EQUIPMENT LOAN AGREEMENT)
+                            HP SOFTWARE LICENSE TERMS
+
+  ATTENTION: USE OF THE SOFTWARE IS SUBJECT TO THE HP SOFTWARE LICENSE TERMS SET
+  FORTH BELOW. USING THE SOFTWARE INDICATES YOUR ACCEPTANCE OF THESE LICENSE
+  TERMS. IF YOU DO NOT ACCEPT THESE LICENSE TERMS, YOU MAY RETURN THE SOFTWARE
+  FOR A FULL REFUND. IF THE SOFTWARE IS BUNDLED WITH ANOTHER PRODUCT, YOU MAY
+  RETURN THE ENTIRE UNUSED PRODUCT FOR A FULL REFUND.
+
+  HP SOFTWARE LICENSE TERMS
+
+The following License Terms govern your use of the accompanying Software unless
+you have a separate written agreement with HP.
+
+LICENSE GRANT. HP grants you a license to Use one copy of the Software. "Use"
+means storing, loading, installing, executing or displaying the Software. You
+may not modify the Software or disable any licensing or control features of the
+Software. If the Software is licensed for "concurrent use", you may not allow
+more than the maximum number of authorized users to Use the Software
+concurrently.
+
+OWNERSHIP. The Software is owned and copyrighted by HP or its third party
+suppliers. Your license confers no title or ownership and is not a sale of any
+rights in the Software, its documentation or the media on which they are
+recorded or printed. Third party suppliers may protect their rights in the
+Software in the event of any infringement.
+
+COPIES AND ADAPTATIONS. You may only make copies or adaptations of the Software
+for archival purposes or when copying or adaptation is an essential step in the
+authorized Use of the Software on a backup product, provided that copies and
+adaptations are used in no other manner and provided further that Use on the
+backup product is discontinued when the original or replacement product becomes
+operable. You must reproduce all copyright notices in the original Software on
+all copies or adaptations. You may not copy the Software onto any public or
+distributed network.
+
+NO DISASSEMBLY OR DECRYPTION. You may not disassemble or decompile the Software
+without HP's prior written consent. Where you have other rights under statute,
+you will provide HP with reasonably detailed information regarding any intended
+disassembly or decompilation. You may not decrypt the Software unless necessary
+for the legitimate use of the Software.
+
+TRANSFER. Your license will automatically terminate upon any transfer of the
+Software. Upon transfer, you must deliver the Software, including any copies and
+related documentation, to the transferee. The transferee must accept these
+License Terms as a condition to the transfer.
+
+TERMINATION. HP may terminate your license upon notice for failure to comply
+with any of these License Terms. Upon termination, you must immediately destroy
+the Software, together with all copies, adaptations and merged portions in any
+form.
+
+EXPORT REQUIREMENTS. You may not export or re-export the Software or any copy or
+adaptation in violation of any applicable laws or regulations.
+
+U.S. GOVERNMENT RESTRICTED RIGHTS. The Software and any accompanying
+documentation have been developed entirely at private expense. They are
+delivered and licensed as "commercial computer software" as defined in DFARS
+252.227-7013 (Oct 1988), DFARS 252.211-7015 (May 1991) or DFARS 252.227-7014
+(Jun 1995), as a "commercial item" as defined in FAR 2.101(a), or as "Restricted
+computer software" as defined in FAR 52.227-19 (Jun 1987)(or any equivalent
+agency regulation or contract clause), whichever is applicable. You have only
+those rights provided for such Software and any accompanying documentation by
+the applicable FAR or DFARS clause or the HP standard software agreement for the
+product involved.
+
+                                      -30-
+<PAGE>
+
+Confidential treatment has been requested with respect to the omitted portions
+of this exhibit. The copy filed herewith omits the information subject to the
+confidentiality request. Omissions are designated as [*]. A complete version of
+this exhibit has been filed separately with the Securities and Exchange
+Commission.
+
+                                    EXHIBIT F
+                           ADAPTEC'S PRIVACY STATEMENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      -31-
+
+</TEXT>
+</DOCUMENT>

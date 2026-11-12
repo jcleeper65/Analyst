@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:us-roles="http://fasb.org/us-roles/2025" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:exch="http://xbrl.sec.gov/exch/2025" xmlns:srt="http://fasb.org/srt/2025" xmlns:nrg="http://nrgenergy.com/20260227">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_027_US%2DGAAP%2D2025_exch -->
+<!-- Field: Set; Name: xdx; ID: xdx_03C_nrg_nrgenergy.com_20260227 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04C_20260227_20260227 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_054_edei%2D%2DEntityCentralIndexKey_0001013871 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000004" name="dei:EntityCentralIndexKey">0001013871</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="nrg-20260227.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-02-27">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-02-27</xbrli:startDate>
+        <xbrli:endDate>2026-02-27</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-02-272026-02-27_us-gaap_CommonStockMember_exch_XNYS">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+          <xbrldi:explicitMember dimension="dei:EntityListingsExchangeAxis">exch:XNYS</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-02-27</xbrli:startDate>
+        <xbrli:endDate>2026-02-27</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-02-272026-02-27_us-gaap_CommonStockMember_custom_NYSETexasMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+          <xbrldi:explicitMember dimension="dei:EntityListingsExchangeAxis">nrg:NYSETexasMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-02-27</xbrli:startDate>
+        <xbrli:endDate>2026-02-27</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 12pt; margin-bottom: 3pt; width: 100%"><div style="border-top: Black 2pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>UNITED STATES </b></p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION </b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span style="font-size: 10pt"><b>WASHINGTON, D.C.
+20549</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>FORM&#160;<span id="xdx_907_edei--DocumentType_c20260227__20260227_zTYigaduCYn2"><ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000009" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span style="font-size: 10pt"><b>CURRENT REPORT</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Pursuant to Section 13 or 15(d) of the Securities
+Exchange Act of 1934</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_90F_edei--DocumentPeriodEndDate_c20260227__20260227_zFj8lIruaFl3"><ix:nonNumeric contextRef="AsOf2026-02-27" format="ixt:datemonthdayyearen" id="Fact000010" name="dei:DocumentPeriodEndDate">February 27, 2026</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Date of Report (Date Earliest Event Reported)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_904_edei--EntityRegistrantName_c20260227__20260227_zvkOjxepM4Gl"><ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000011" name="dei:EntityRegistrantName">NRG ENERGY, INC.</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Exact name of registrant as specified in its
+charter)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table border="0" cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr>
+    <td style="vertical-align: top; width: 48%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_90A_edei--EntityIncorporationStateCountryCode_c20260227__20260227_zhrOsZxWb1y9"><ix:nonNumeric contextRef="AsOf2026-02-27" format="ixt-sec:stateprovnameen" id="Fact000012" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span><br/>
+(State or other jurisdiction of incorporation or organization)</td>
+    <td style="vertical-align: bottom; width: 2%">&#160;</td>
+    <td style="vertical-align: top; width: 20%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_90D_edei--EntityFileNumber_c20260227__20260227_zqA73yPWz9c8"><ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000013" name="dei:EntityFileNumber">001-15891</ix:nonNumeric></span></b></span><br/>
+(Commission File Number)</td>
+    <td style="vertical-align: bottom; width: 2%">&#160;</td>
+    <td style="vertical-align: top; width: 28%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_90E_edei--EntityTaxIdentificationNumber_c20260227__20260227_zGgoMaS2fjz5"><ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000014" name="dei:EntityTaxIdentificationNumber">41-1724239</ix:nonNumeric></span></b></span><br/>
+(IRS Employer <br/>
+Identification No.)</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="text-align: center; width: 70%"><b><span id="xdx_902_edei--EntityAddressAddressLine1_c20260227__20260227_zKDS39RxqcCa"><ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000015" name="dei:EntityAddressAddressLine1">1301 McKinney Street</ix:nonNumeric></span>, <span id="xdx_907_edei--EntityAddressCityOrTown_c20260227__20260227_zFkOVDzhAeb1"><ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000016" name="dei:EntityAddressCityOrTown">Houston</ix:nonNumeric></span>, <span id="xdx_909_edei--EntityAddressStateOrProvince_c20260227__20260227_zwaUNvxGAjNl"><ix:nonNumeric contextRef="AsOf2026-02-27" format="ixt-sec:stateprovnameen" id="Fact000017" name="dei:EntityAddressStateOrProvince">Texas</ix:nonNumeric></span></b></td>
+    <td style="text-align: center; width: 2%">&#160;</td>
+    <td style="text-align: center; width: 28%"><b><span id="xdx_907_edei--EntityAddressPostalZipCode_c20260227__20260227_zUDoNPIIkOI1"><ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000018" name="dei:EntityAddressPostalZipCode">77010</ix:nonNumeric></span></b></td></tr>
+  <tr style="vertical-align: top">
+    <td style="text-align: center">(Address of Principal Executive Offices)</td>
+    <td style="text-align: center">&#160;</td>
+    <td style="text-align: center">(Zip Code)</td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; font-size: 10pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b>(<span id="xdx_901_edei--CityAreaCode_c20260227__20260227_z4Hn1NBlJlIe"><ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000019" name="dei:CityAreaCode">713</ix:nonNumeric></span>)
+<span id="xdx_901_edei--LocalPhoneNumber_c20260227__20260227_zSo2RVqyFc9i"><ix:nonNumeric contextRef="AsOf2026-02-27" id="Fact000020" name="dei:LocalPhoneNumber">537-3000</ix:nonNumeric></span></b></span><br/>
+(Registrant&#8217;s telephone number, including area code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; font-size: 10pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>N/A</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Former Name or Former Address, if Changed Since Last Report)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Check the appropriate box below if the Form&#160;8-K filing
+is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font-size: 10pt; margin-top: 0; margin-bottom: 0; width: 100%"><tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_90A_edei--WrittenCommunications_c20260227__20260227_zUMPenyN01B3" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-02-27" format="ixt:booleanfalse" id="Fact000021" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Written communications pursuant to Rule&#160;425 under the Securities
+Act (17 CFR 230.425)</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: justify">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_90C_edei--SolicitingMaterial_c20260227__20260227_zzDbNRLEjVS7" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-02-27" format="ixt:booleanfalse" id="Fact000022" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Soliciting material pursuant to Rule&#160;14a-12 under the Exchange
+Act (17 CFR 240.14a-12)</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: justify">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_90D_edei--PreCommencementTenderOffer_c20260227__20260227_zAu0RvtPrsAd" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-02-27" format="ixt:booleanfalse" id="Fact000023" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Pre-commencement communications pursuant to Rule&#160;14d-2(b)&#160;under
+the Exchange Act (17 CFR 240.14d-2(b))</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: justify">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_907_edei--PreCommencementIssuerTenderOffer_c20260227__20260227_zpDG9pIlSxpl" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-02-27" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Pre-commencement communications pursuant to Rule&#160;13e-4(c)&#160;under
+the Exchange Act (17 CFR 240.13e-4(c))</td>
+</tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt"><b>Securities registered pursuant
+to Section&#160;12(b)&#160;of the Act:</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt"></p>
+
+<table border="0" cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr style="vertical-align: bottom">
+    <td style="border-bottom: Black 1pt solid; border-image: none; width: 34%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Title&#160;of&#160;each&#160;class</b></span></td>
+    <td style="width: 2%; text-align: center"><b>&#160;</b></td>
+    <td style="border-bottom: Black 1pt solid; padding-bottom: 1pt; border-image: none; width: 26%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Trading&#160;Symbol(s)</b></span></td>
+    <td style="width: 2%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>&#160;</b></span></td>
+    <td style="border-bottom: Black 1pt solid; padding-bottom: 1pt; border-image: none; width: 36%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Name&#160;of&#160;each&#160;exchange&#160;on&#160;which
+    registered</b></span></td></tr>
+<tr style="font-weight: normal; vertical-align: top">
+    <td style="vertical-align: middle; text-align: center"><span id="xdx_90C_edei--Security12bTitle_c20260227__20260227__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_zf6wpRzmnhwf"><ix:nonNumeric contextRef="From2026-02-272026-02-27_us-gaap_CommonStockMember_exch_XNYS" id="Fact000025" name="dei:Security12bTitle">Common stock, par value $0.01</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; vertical-align: middle; text-align: center"><span id="xdx_90D_edei--TradingSymbol_c20260227__20260227__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_z18AvMZfiKZ7"><ix:nonNumeric contextRef="From2026-02-272026-02-27_us-gaap_CommonStockMember_exch_XNYS" id="Fact000026" name="dei:TradingSymbol">NRG</ix:nonNumeric></span></td>
+    <td style="font-weight: normal; text-align: center">&#160;</td>
+    <td style="font-weight: normal; text-align: center"><span id="xdx_90F_edei--SecurityExchangeName_c20260227__20260227__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_zLSfO1TXgbR5"><ix:nonNumeric contextRef="From2026-02-272026-02-27_us-gaap_CommonStockMember_exch_XNYS" format="ixt-sec:exchnameen" id="Fact000027" name="dei:SecurityExchangeName">New York Stock Exchange</ix:nonNumeric></span></td></tr>
+<tr style="font-weight: normal; vertical-align: top">
+    <td style="vertical-align: middle; text-align: center"><span id="xdx_909_edei--Security12bTitle_c20260227__20260227__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zxEtLLL7vuA"><ix:nonNumeric contextRef="From2026-02-272026-02-27_us-gaap_CommonStockMember_custom_NYSETexasMember" id="Fact000028" name="dei:Security12bTitle">Common stock, par value $0.01</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; vertical-align: middle; text-align: center"><span id="xdx_904_edei--TradingSymbol_c20260227__20260227__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zd2IHTgpBU58"><ix:nonNumeric contextRef="From2026-02-272026-02-27_us-gaap_CommonStockMember_custom_NYSETexasMember" id="Fact000029" name="dei:TradingSymbol">NRG</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; text-align: center"><span id="xdx_90A_edei--SecurityExchangeName_c20260227__20260227__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zV2T8oCZoOq1"><ix:nonNumeric contextRef="From2026-02-272026-02-27_us-gaap_CommonStockMember_custom_NYSETexasMember" format="ixt-sec:exchnameen" id="Fact000030" name="dei:SecurityExchangeName">NYSE</ix:nonNumeric></span> Texas</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant is an emerging
+growth company as defined in Rule&#160;405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule&#160;12b-2 of
+the Securities Exchange Act of 1934 (&#167;240.12b-2 of this chapter).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0; text-align: left; font-size: 10pt"><span style="font: 10pt Times New Roman, Times, Serif">Emerging growth company &#160;</span><span style="font-family: Wingdings"><span id="xdx_903_edei--EntityEmergingGrowthCompany_c20260227__20260227_zFOmSBt2e3p5"><ix:nonNumeric contextRef="AsOf2026-02-27" format="ixt:booleanfalse" id="Fact000031" name="dei:EntityEmergingGrowthCompany">&#168;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; text-align: justify; font-size: 10pt"><span style="font: 10pt Times New Roman, Times, Serif">If an emerging
+growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with
+any new or revised financial accounting standards provided pursuant to Section&#160;13(a)&#160;of the Exchange Act. </span><span style="font-family: Wingdings">&#168;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;&#160;</p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><div style="border-top: Black 1pt solid; border-bottom: Black 2pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="margin-top: 0pt; margin-bottom: 0pt"></p>
+
+<p style="margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="margin: 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0"/><td style="width: 1in"><b>Item 1.01</b></td><td style="text-align: justify"><b>Entry into a Material Definitive Agreement </b></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i>Secondary Offering </i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On March 2, 2026, NRG Energy, Inc. (the
+&#8220;Company&#8221;) entered into an underwriting agreement (the &#8220;Underwriting Agreement&#8221;) with Lightning Power
+Holdings, LLC, Thunder Generation, LLC, and CCS Power Holdings, LLC (collectively, the &#8220;Selling Stockholders&#8221;) and
+Barclays Capital Inc. and Citigroup Global Markets Inc., as representatives of the several underwriters named therein (collectively,
+the &#8220;Underwriters&#8221;) pursuant to which, among other things, the Selling Stockholders agreed to sell to the
+Underwriters, and the Underwriters agreed to purchase from the Selling Stockholders, 14,300,000 shares of the Company&#8217;s common
+stock, par value $0.01 per share (the &#8220;Common Stock&#8221;) in a registered public offering (the &#8220;Offering&#8221;).
+Additionally, the Selling Stockholders granted the Underwriters a 30-day option to purchase an additional 2,145,000 shares of Common
+Stock. The Company did not receive any of the proceeds from the sale of the Common Stock in the Offering. The Underwriting Agreement
+contains customary representations, warranties and agreements of the Company and the Selling Stockholders and other customary
+obligations of the parties, termination and indemnity provisions.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Additionally, in connection with the Offering,
+the Selling Stockholders entered into a lock-up agreement with the Underwriters with respect to the remaining 8,120,731 shares not sold
+in the Offering or repurchased by the Company pursuant to the Share Repurchase (defined below) for a 45-day period beginning the date
+of the Underwriting Agreement (the &#8220;Offering Lock-Up&#8221;).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The foregoing description of the
+Underwriting Agreement does not purport to be complete and is subject to and is qualified in its entirety by reference to the
+full text of the Underwriting Agreement, a copy of which is attached hereto as Exhibit 1.1 and the terms of which are incorporated
+herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">White &amp; Case LLP has issued an opinion, dated
+March 4, 2026, regarding certain legal matters with respect to the Offering, a copy of which is filed as Exhibit 5.1 hereto.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Registration Rights Agreement and Lock-up
+Waiver</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As previously disclosed, the Selling Stockholders
+acquired 24,250,000 shares of Common Stock (the &#8220;LSP Shares&#8221;) from us on January 30, 2026 as part of the consideration in
+connection with the consummation of the transactions contemplated by that certain Purchase and Sale Agreement, dated as of May 12, 2025,
+by and among the Company, NRG East Generation Holdings LLC, a Delaware limited liability company and direct, wholly-owned subsidiary of NRG, NRG
+Texas LLC, a Delaware limited liability company and direct, wholly-owned subsidiary of NRG, NRG Demand Response Holdings LLC, a Delaware
+limited liability company and direct, wholly-owned subsidiary of NRG, NRG Gas Development Company, LLC, a Delaware limited liability company
+and direct, wholly-owned subsidiary of NRG, Lightning Power Holdings, LLC, a Delaware limited liability company, Thunder Generation, LLC,
+a Delaware limited liability company, CCS Power Holdings, LLC, a Delaware limited liability company, and Linebacker Power Development
+Funding, LLC, a Delaware limited liability company (the &#8220;LSP Transaction&#8221;).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">At the closing of the LSP Transaction, the
+Company entered into a Registration Rights Agreement, pursuant to which the Company agreed to file a shelf registration statement
+registering for resale the LSP Shares, which was filed with the Securities and Exchange Commission on February 2, 2026.
+Additionally, all of the LSP Shares were subject to a lock-up period beginning on the LSP Transaction closing date and ending six
+(6) months after the closing of the LSP Transaction (July 30, 2026), during which the Selling Stockholders agreed to not transfer
+their shares, subject to certain exceptions set forth in the Registration Rights Agreement. In connection with the Offering, the
+Company has waived the lock-up under the Registration Rights Agreement with respect to all the LSP Shares. As disclosed above, the
+LSP Shares that were not sold in the Offering or repurchased by the Company in the Share
+Repurchase are subject to the Offering Lockup.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i></i></b></p>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 2 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0"/><td style="width: 1in"><b>Item 8.01</b></td><td style="text-align: justify"><b>Other Events </b></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Share Repurchase </i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On February 27, 2026, the Company entered
+into a stock purchase agreement with the Selling Stockholders for the
+repurchase of 1,829,269 shares of Common Stock from the Selling Stockholders, in a privately negotiated transaction at a per share
+price equal to the public offering price in the Offering (the &#8220;Share Repurchase&#8221;) for a total payment of approximately
+$300 million. The Share Repurchase was made pursuant to the Company&#8217;s previously announced share repurchase program. The Share
+Repurchase closed concurrently with the Offering on March 4, 2026.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="font-size: 10pt; width: 1in"><b>Item 9.01</b></td>
+    <td style="font-size: 10pt"><b>Financial Statements and Exhibits</b></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>(d) Exhibits</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; background-color: white; border-collapse: collapse">
+  <tr style="vertical-align: bottom">
+    <td style="border-bottom: black 1pt solid; white-space: nowrap; text-align: center; width: 0.9in">Exhibit No.</td>
+    <td style="padding-bottom: 1.25pt; width: 0.1in">&#160;</td>
+    <td style="border-bottom: black 1pt solid; white-space: nowrap">Description</td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td colspan="2">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><a href="tm267426d5_1-1.htm" style="-sec-extract: exhibit">1.1</a></td>
+    <td>&#160;</td>
+    <td style="text-align: justify"><a href="tm267426d5_1-1.htm" style="-sec-extract: exhibit">Underwriting Agreement, dated March 2, 2026, by and among NRG Energy, Inc., Lightning Power Holdings, LLC, Thunder Generation, LLC, CCS Power Holdings, LLC, and Barclays Capital Inc. and Citigroup Global Markets Inc.</a></td></tr>
+  <tr>
+    <td style="vertical-align: top">&#160;</td>
+    <td>&#160;</td>
+    <td style="text-align: justify"><span style="color: #0000EE">&#160;</span></td></tr>
+  <tr>
+    <td style="vertical-align: top"><a href="tm267426d5_5-1.htm" style="-sec-extract: exhibit">5.1</a></td>
+    <td>&#160;</td>
+    <td style="text-align: justify"><a href="tm267426d5_5-1.htm" style="-sec-extract: exhibit">Opinion of White &amp; Case LLP</a></td></tr>
+  <tr>
+    <td style="vertical-align: top">&#160;</td>
+    <td>&#160;</td>
+    <td style="text-align: justify">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><a href="tm267426d5_99-1.htm" style="-sec-extract: exhibit">99.1</a></td>
+    <td>&#160;</td>
+    <td><a href="tm267426d5_99-1.htm" style="-sec-extract: exhibit">
+    Launch Press Release</a></td></tr>
+  <tr>
+    <td style="vertical-align: top">&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><a href="tm267426d5_99-2.htm" style="-sec-extract: exhibit">99.2</a></td>
+    <td>&#160;</td>
+    <td style="text-align: justify"><a href="tm267426d5_99-2.htm" style="-sec-extract: exhibit">Pricing Press Release</a></td></tr>
+  <tr>
+    <td style="vertical-align: top">&#160;</td>
+    <td>&#160;</td>
+    <td style="text-align: justify">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top">104</td>
+    <td>&#160;</td>
+    <td>Cover Page Interactive Data File - the cover page XBRL tags are embedded within the IXBRL document.</td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 3 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SIGNATURES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf
+by the undersigned hereunto duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Dated: March&#160;4, 2026</span></td>
+    <td colspan="2"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>NRG Energy,&#160;Inc.</b></span></td></tr>
+  <tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td colspan="2"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">(Registrant)</span></td></tr>
+  <tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td colspan="2">&#160;</td></tr>
+  <tr style="vertical-align: top">
+    <td style="width: 50%">&#160;</td>
+    <td style="width: 3%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</span></td>
+    <td style="border-bottom: black 1pt solid; width: 47%">/s/ Christine A. Zoino</td></tr>
+  <tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Christine A. Zoino</span></td></tr>
+  <tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Corporate Secretary</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 4; Options: Last -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></p>
+
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJxVjl1qwzAQhE/gOyx6Dons9Af81ho3lDohuKa0lD4o8aaIWlqzUlLnSL1lZZlQKgRid+abkRAzsaIH3SHD631dQYOm75RHqPGAjHaPwVE8PuUQ3ho/tfOsrI/jBSwoMBiYm3m2C/voPGmHbQ6pXMjbRXYNcpnLK9iuRTLqBdmDbtF6rTpQtoUtU88aveLzlNCogSyZc2x6QXaabIiby0n+gUymGWzopL6JvxxUVSGSWTyJWDEd++AqB492JKHs0IQ6N9F/N/5mf3SeTL55ey4bHJRbo9khB0HKbJnKu7FzFCGq/wZ4n8wfl7xfzGhhSQ== -->
+<script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>

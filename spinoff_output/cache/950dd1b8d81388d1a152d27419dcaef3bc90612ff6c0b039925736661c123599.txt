@@ -1,0 +1,98 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>25
+<FILENAME>R11.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Acquisitions and Divestitures<br></strong></div></th>
+<th class="th" colspan="1">3 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Mar. 31, 2026</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_BusinessCombinationAndAssetAcquisitionAbstract', window );"><strong>Business Combination, Asset Acquisition, Transaction between Entities under Common Control, and Joint Venture Formation [Abstract]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_MergersAcquisitionsAndDispositionsDisclosuresTextBlock', window );">Acquisitions and Divestitures</a></td>
+<td class="text"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:700;line-height:120%">Acquisitions and Divestitures</span><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:700;line-height:120%">PureCircle Acquisition</span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">In the first quarter of 2026, we purchased the remaining shares of PureCircle Limited (&#8220;PureCircle&#8221;) from minority shareholders for $7 million, which increased our ownership from 98 percent as of December 31, 2025 to 100 percent as March&#160;31, 2026.</span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:700;line-height:120%">Pakistan Business Divestiture</span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">On September&#160;25, 2025, we entered into a definitive agreement to sell a 51% ownership interest in Rafhan Maize Products Co. Ltd. (the &#8220;Pakistan business&#8221;) to Nishat Group, a diversified group of companies headquartered in Lahore, Pakistan. The transaction remains subject to the satisfaction of specified closing conditions and receipt of regulatory approvals from the Competition Commission of Pakistan. In addition, the transaction is subject to the Nishat Group&#8217;s successful completion of a tender offer for shares of the Pakistan business on the Pakistani Stock Exchange and to action by the State </span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Bank of Pakistan allowing us to receive our share of the proceeds in U.S. dollars. Based on the conditions required for the transaction to close, we have determined that the Pakistan business does not qualify for held for sale classification as of March&#160;31, 2026.</span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-style:italic;font-weight:700;line-height:120%">South Korea Business Divestiture</span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">During the first quarter of 2025 and 2026, we received the first and second installment payments of 18 billion South Korean won, or $12 million, of consideration for the February&#160;1, 2024 sale of our South Korea business. We expect to receive the final installment payment of 18 billion South Korean won, or approximately $12 million, in February 2027, which we recorded in Accounts receivable, net on the Condensed Consolidated Balance Sheets as of March&#160;31, 2026.</span></div><span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_BusinessCombinationAndAssetAcquisitionAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_BusinessCombinationAndAssetAcquisitionAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_MergersAcquisitionsAndDispositionsDisclosuresTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>The entire disclosure for business combinations, including leverage buyout transactions (as applicable), and divestitures. This may include a description of a business combination or divestiture (or series of individually immaterial business combinations or divestitures) completed during the period, including background, timing, and assets and liabilities recognized and reclassified or sold. This element does not include fixed asset sales and plant closings.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef<br> -Topic 205<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/205-20/tableOfContent<br><br>Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef<br> -Topic 805<br> -Name Accounting Standards Codification<br> -Publisher FASB<br> -URI https://asc.fasb.org/805/tableOfContent<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_MergersAcquisitionsAndDispositionsDisclosuresTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

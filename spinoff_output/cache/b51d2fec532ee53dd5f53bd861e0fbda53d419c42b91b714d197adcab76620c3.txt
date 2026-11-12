@@ -1,0 +1,746 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:us-roles="http://fasb.org/us-roles/2025" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:exch="http://xbrl.sec.gov/exch/2025" xmlns:srt="http://fasb.org/srt/2025" xmlns:nrg="http://nrgenergy.com/20260130">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_027_US%2DGAAP%2D2025_exch -->
+<!-- Field: Set; Name: xdx; ID: xdx_033_nrg_nrgenergy.com_20260130 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04F_20260130_20260130 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_054_edei%2D%2DEntityCentralIndexKey_0001013871 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000004" name="dei:EntityCentralIndexKey">0001013871</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="nrg-20260130.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-01-30">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-01-30</xbrli:startDate>
+        <xbrli:endDate>2026-01-30</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-01-302026-01-30_us-gaap_CommonStockMember_exch_XNYS">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+          <xbrldi:explicitMember dimension="dei:EntityListingsExchangeAxis">exch:XNYS</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-01-30</xbrli:startDate>
+        <xbrli:endDate>2026-01-30</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-01-302026-01-30_us-gaap_CommonStockMember_custom_NYSETexasMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+          <xbrldi:explicitMember dimension="dei:EntityListingsExchangeAxis">nrg:NYSETexasMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-01-30</xbrli:startDate>
+        <xbrli:endDate>2026-01-30</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 12pt; margin-bottom: 3pt; width: 100%"><div style="border-top: Black 2pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>UNITED STATES </b></p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION </b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span style="font-size: 10pt"><b>WASHINGTON, D.C.
+20549</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>FORM&#160;<span id="xdx_902_edei--DocumentType_c20260130__20260130_zFUMlVTSFtMh"><ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000009" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span style="font-size: 10pt"><b>CURRENT REPORT</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Pursuant to Section 13 or 15(d) of the Securities
+Exchange Act of 1934</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_907_edei--DocumentPeriodEndDate_c20260130__20260130_zUk6zqzQQjxh"><ix:nonNumeric contextRef="AsOf2026-01-30" format="ixt:datemonthdayyearen" id="Fact000010" name="dei:DocumentPeriodEndDate">January
+30, 2026</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Date of Report (Date Earliest Event Reported)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_901_edei--EntityRegistrantName_c20260130__20260130_zwrBd74ii4od"><ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000011" name="dei:EntityRegistrantName">NRG ENERGY, INC.</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Exact name of registrant as specified in its
+charter)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table border="0" cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr>
+    <td style="vertical-align: top; width: 48%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_909_edei--EntityIncorporationStateCountryCode_c20260130__20260130_zHoRLBtnCksa"><ix:nonNumeric contextRef="AsOf2026-01-30" format="ixt-sec:stateprovnameen" id="Fact000012" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span><br/>
+(State or other jurisdiction of incorporation or organization)</td>
+    <td style="vertical-align: bottom; width: 2%">&#160;</td>
+    <td style="vertical-align: top; width: 20%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_900_edei--EntityFileNumber_c20260130__20260130_zISWBPxLS8ai"><ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000013" name="dei:EntityFileNumber">001-15891</ix:nonNumeric></span></b></span><br/>
+(Commission File Number)</td>
+    <td style="vertical-align: bottom; width: 2%">&#160;</td>
+    <td style="vertical-align: top; width: 28%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_903_edei--EntityTaxIdentificationNumber_c20260130__20260130_zVdu1Eq6QFni"><ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000014" name="dei:EntityTaxIdentificationNumber">41-1724239</ix:nonNumeric></span></b></span><br/>
+(IRS Employer <br/>
+Identification No.)</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="text-align: center; width: 70%"><b><span id="xdx_900_edei--EntityAddressAddressLine1_c20260130__20260130_zLKBGuEcmPP4"><ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000015" name="dei:EntityAddressAddressLine1">1301 McKinney Street</ix:nonNumeric></span>, <span id="xdx_90A_edei--EntityAddressCityOrTown_c20260130__20260130_zvISsKn8ZtFg"><ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000016" name="dei:EntityAddressCityOrTown">Houston</ix:nonNumeric></span>, <span id="xdx_900_edei--EntityAddressStateOrProvince_c20260130__20260130_zrkI03rCFxPg"><ix:nonNumeric contextRef="AsOf2026-01-30" format="ixt-sec:stateprovnameen" id="Fact000017" name="dei:EntityAddressStateOrProvince">Texas</ix:nonNumeric></span></b></td>
+    <td style="text-align: center; width: 2%">&#160;</td>
+    <td style="text-align: center; width: 28%"><b><span id="xdx_901_edei--EntityAddressPostalZipCode_c20260130__20260130_z4V4lufPfIyb"><ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000018" name="dei:EntityAddressPostalZipCode">77010</ix:nonNumeric></span></b></td></tr>
+  <tr style="vertical-align: top">
+    <td style="text-align: center">(Address of Principal Executive Offices)</td>
+    <td style="text-align: center">&#160;</td>
+    <td style="text-align: center">(Zip Code)</td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; font-size: 10pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b>(<span id="xdx_90C_edei--CityAreaCode_c20260130__20260130_zfOaeGCaeAj4"><ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000019" name="dei:CityAreaCode">713</ix:nonNumeric></span>)
+<span id="xdx_90C_edei--LocalPhoneNumber_c20260130__20260130_zUkDPAXcIpD1"><ix:nonNumeric contextRef="AsOf2026-01-30" id="Fact000020" name="dei:LocalPhoneNumber">537-3000</ix:nonNumeric></span></b></span><br/>
+(Registrant&#8217;s telephone number, including area code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; font-size: 10pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>N/A</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Former Name or Former Address, if Changed Since Last Report)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Check the appropriate box below if the Form&#160;8-K filing
+is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font-size: 10pt; margin-top: 0; margin-bottom: 0; width: 100%"><tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_901_edei--WrittenCommunications_c20260130__20260130_zEPsQ0qjfGR4" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-01-30" format="ixt:booleanfalse" id="Fact000021" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Written communications pursuant to Rule&#160;425 under the Securities
+Act (17 CFR 230.425)</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: justify">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_902_edei--SolicitingMaterial_c20260130__20260130_ztxpHX1epH9h" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-01-30" format="ixt:booleanfalse" id="Fact000022" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Soliciting material pursuant to Rule&#160;14a-12 under the Exchange
+Act (17 CFR 240.14a-12)</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: justify">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_907_edei--PreCommencementTenderOffer_c20260130__20260130_z2i0P71bYq4f" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-01-30" format="ixt:booleanfalse" id="Fact000023" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Pre-commencement communications pursuant to Rule&#160;14d-2(b)&#160;under
+the Exchange Act (17 CFR 240.14d-2(b))</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: justify">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_901_edei--PreCommencementIssuerTenderOffer_c20260130__20260130_zHv5mrVQEk2j" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-01-30" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Pre-commencement communications pursuant to Rule&#160;13e-4(c)&#160;under
+the Exchange Act (17 CFR 240.13e-4(c))</td>
+</tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt"><b>Securities registered pursuant
+to Section&#160;12(b)&#160;of the Act:</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt"></p>
+
+<table border="0" cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr style="vertical-align: bottom">
+    <td style="border-bottom: Black 1pt solid; border-image: none; width: 34%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Title&#160;of&#160;each&#160;class</b></span></td>
+    <td style="width: 2%; text-align: center"><b>&#160;</b></td>
+    <td style="border-bottom: Black 1pt solid; padding-bottom: 1pt; border-image: none; width: 26%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Trading&#160;Symbol(s)</b></span></td>
+    <td style="width: 2%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>&#160;</b></span></td>
+    <td style="border-bottom: Black 1pt solid; padding-bottom: 1pt; border-image: none; width: 36%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Name&#160;of&#160;each&#160;exchange&#160;on&#160;which&#160;<br/>
+registered</b></span></td></tr>
+<tr style="font-weight: normal; vertical-align: top">
+    <td style="vertical-align: middle; text-align: center"><span id="xdx_906_edei--Security12bTitle_c20260130__20260130__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_zPGD4iw04g41"><ix:nonNumeric contextRef="From2026-01-302026-01-30_us-gaap_CommonStockMember_exch_XNYS" id="Fact000025" name="dei:Security12bTitle">Common stock, par value $0.01</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; vertical-align: middle; text-align: center"><span id="xdx_90C_edei--TradingSymbol_c20260130__20260130__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_zy9ylClrzhV7"><ix:nonNumeric contextRef="From2026-01-302026-01-30_us-gaap_CommonStockMember_exch_XNYS" id="Fact000026" name="dei:TradingSymbol">NRG</ix:nonNumeric></span></td>
+    <td style="font-weight: normal; text-align: center">&#160;</td>
+    <td style="font-weight: normal; text-align: center"><span id="xdx_906_edei--SecurityExchangeName_c20260130__20260130__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_zTlXJlnE0Rbf"><ix:nonNumeric contextRef="From2026-01-302026-01-30_us-gaap_CommonStockMember_exch_XNYS" format="ixt-sec:exchnameen" id="Fact000027" name="dei:SecurityExchangeName">New York Stock Exchange</ix:nonNumeric></span></td></tr>
+<tr style="font-weight: normal; vertical-align: top">
+    <td style="vertical-align: middle; text-align: center"><span id="xdx_90A_edei--Security12bTitle_c20260130__20260130__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zQNqbwHnsNdf"><ix:nonNumeric contextRef="From2026-01-302026-01-30_us-gaap_CommonStockMember_custom_NYSETexasMember" id="Fact000028" name="dei:Security12bTitle">Common stock, par value $0.01</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; vertical-align: middle; text-align: center"><span id="xdx_903_edei--TradingSymbol_c20260130__20260130__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zjouJP0KJb4f"><ix:nonNumeric contextRef="From2026-01-302026-01-30_us-gaap_CommonStockMember_custom_NYSETexasMember" id="Fact000029" name="dei:TradingSymbol">NRG</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; text-align: center"><span id="xdx_900_edei--SecurityExchangeName_c20260130__20260130__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zs3YmWZaAkmd"><ix:nonNumeric contextRef="From2026-01-302026-01-30_us-gaap_CommonStockMember_custom_NYSETexasMember" format="ixt-sec:exchnameen" id="Fact000030" name="dei:SecurityExchangeName">NYSE</ix:nonNumeric></span> Texas</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant is an emerging
+growth company as defined in Rule&#160;405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule&#160;12b-2 of
+the Securities Exchange Act of 1934 (&#167;240.12b-2 of this chapter).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0; text-align: left; font-size: 10pt"><span style="font: 10pt Times New Roman, Times, Serif">Emerging growth company &#160;</span><span style="font-family: Wingdings"><span id="xdx_90C_edei--EntityEmergingGrowthCompany_c20260130__20260130_zwEwVlTECyIb"><ix:nonNumeric contextRef="AsOf2026-01-30" format="ixt:booleanfalse" id="Fact000031" name="dei:EntityEmergingGrowthCompany">&#168;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; text-align: justify; font-size: 10pt"><span style="font: 10pt Times New Roman, Times, Serif">If an emerging
+growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with
+any new or revised financial accounting standards provided pursuant to Section&#160;13(a)&#160;of the Exchange Act. </span><span style="font-family: Wingdings">&#168;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;&#160;</p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><div style="border-top: Black 1pt solid; border-bottom: Black 2pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="margin-top: 0pt; margin-bottom: 0pt"></p>
+
+<p style="margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="margin: 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>INTRODUCTORY NOTE</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">On January 30, 2026 (the
+&#8220;Closing Date&#8221;), NRG Energy, Inc., a Delaware corporation (the &#8220;Company&#8221;), completed the previously announced
+transactions contemplated by the Purchase and Sale Agreement, dated May 12, 2025 (the &#8220;Purchase Agreement&#8221;), by and among
+the Company, NRG East Generation Holdings LLC, a Delaware limited liability company and direct, wholly-owned subsidiary of the Company
+(&#8220;Lightning Buyer&#8221;), NRG Texas LLC, a Delaware limited liability company and direct, wholly-owned subsidiary of the Company
+(&#8220;Linebacker Buyer&#8221;), NRG Demand Response Holdings LLC, a Delaware limited liability company and direct, wholly-owned subsidiary
+of the Company (&#8220;CCS Buyer&#8221;), NRG Gas Development Company, LLC, a Delaware limited liability company and direct, wholly-owned
+subsidiary of the Company (&#8220;JCPD Buyer&#8221; and, collectively with Lightning Buyer, Linebacker Buyer and CCS Buyer, the &#8220;Buyer
+Entities&#8221;), Lightning Power Holdings, LLC, a Delaware limited liability company (&#8220;Lightning PH Seller&#8221;), Thunder Generation,
+LLC, a Delaware limited liability company (&#8220;Linebacker Seller&#8221;), CCS Power Holdings, LLC, a Delaware limited liability company
+(&#8220;CCS PH Seller&#8221;), and Linebacker Power Development Funding, LLC, a Delaware limited liability company (&#8220;Linebacker
+PDF Seller&#8221; and, collectively with Lightning PH Seller, Linebacker Seller and CCS PH Seller, the &#8220;Sellers&#8221;). As a result
+of the transactions contemplated by the Purchase Agreement, the Buyer Entities acquired all of the issued and outstanding equity interests
+of&#160;Lightning Power, LLC, a Delaware limited liability company (&#8220;Lightning&#8221;), Linebacker Power Holdings, LLC, a Delaware&#160;limited
+liability company (&#8220;Linebacker&#8221;), CCS Intermediate HoldCo, LLC, a Delaware limited liability company (&#8220;CCS&#8221;),
+and Jack County Power Development, LLC, a Delaware limited liability company (&#8220;JCPD&#8221; and, collectively with Lightning, Linebacker
+and CCS and their respective subsidiaries, the &#8220;Acquired Companies&#8221;). The acquisition of the equity interests, together with
+the other transactions contemplated by the Purchase Agreement, are referred to herein as the &#8220;Transaction.&#8221; Capitalized terms
+used but not defined herein have the meanings ascribed to them in the Purchase Agreement.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 1in; font-size: 10pt"><span style="font-size: 10pt"><b>Item 1.01.</b></span></td>
+    <td style="font-size: 10pt"><span style="font-size: 10pt"><b>Entry into a Material Definitive Agreement. </b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i>The information set forth in the Introductory
+Note of this Current Report on&#160;Form&#160;8-K&#160;is&#160;incorporated herein by reference into this Item 1.01.</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i>&#160;</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i>Registration Rights Agreement</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">On the Closing Date, the
+Company entered into a registration rights agreement (the &#8220;Registration Rights Agreement&#8221;) with the Sellers, who received
+Stock Consideration (as defined below) in the Transaction (each such Seller, a &#8220;Selling Stockholder&#8221;), pursuant to which
+the Sellers will have certain customary &#8220;piggy-back&#8221; and shelf registration rights relating to the shares of the Company&#8217;s
+common stock comprising the Stock Consideration received by such Sellers as a result of the Transaction.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">Pursuant to the Registration
+Rights Agreement, the Company is required (subject to certain conditions and exceptions) to prepare and file with the U.S. Securities
+and Exchange Commission (the &#8220;SEC&#8221;) a registration statement on Form S-3 for the resale of the shares of the Company&#8217;s
+common stock comprising the Stock Consideration received by the Sellers as a result of the Transaction.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The shares of Company common
+stock received by the Selling Stockholders in the Transaction are subject to a lock-up period <span style="font-size: 10pt">beginning
+on the Closing Date and ending on the date that is six (6) months after the Closing Date (July 30, 2026). During the lock-up period, the Selling Stockholders may not transfer their shares, subject to certain exceptions set forth in the
+Registration Rights Agreement.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The foregoing description
+of the Registration Rights Agreement does not purport to be complete and is qualified in its entirety by reference to the Registration
+Rights Agreement, a copy of which is attached hereto as Exhibit 4.1 and incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i>Voting Agreement</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i>&#160;</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">On the Closing Date, in connection
+with the Selling Stockholders&#8217; receipt of the Stock Consideration in the Transaction, the Selling Stockholders entered into a voting
+trust agreement with Wilmington Savings Fund Society, FSB, as trustee (the &#8220;Trustee&#8221;), to limit certain voting rights of
+the Selling Stockholders with respect to their common stock to an aggregate level below ten percent (10%) of the Company&#8217;s total
+outstanding common stock in order to address certain requirements under the Federal Energy Regulation Commission&#8217;s rules and regulations
+and related order approving the Transaction.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left"></p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i>Lightning Notes</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">On the Closing Date, Lightning
+(an indirect, wholly-owned subsidiary of the Company as of such date) remained the issuer of $1,500 million aggregate principal amount
+of 7.250% Senior Secured Notes due 2032 (the &#8220;Lightning Notes&#8221;) issued pursuant to an indenture, dated August 16, 2024 (the
+&#8220;Lightning Indenture&#8221;), by and among Lightning, Lightning&#8217;s subsidiaries that are guarantors from time to time party
+thereto, and U.S. Bank Trust Company, National Association, in its capacities as trustee and collateral trustee.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The Lightning Notes accrue
+interest at a rate of 7.250% per annum, payable semi-annually on February 15 and August 15 of each year. The Lightning Notes mature on
+August 15, 2032. At any time prior to August 15, 2027, Lightning may redeem all or a part of the Lightning Notes, at a redemption price
+equal to&#160;100% of the principal amount of the notes redeemed, plus accrued and unpaid interest to the redemption date, plus a premium.
+In addition, on or after August&#160;15, 2027, Lightning may redeem all or part of the Lightning Notes at the redemption prices expressed
+as percentages of principal amount as set forth in the following table, plus accrued and unpaid interest on the notes redeemed up to
+the redemption date:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%">
+  <tr style="vertical-align: bottom">
+    <td style="border-bottom: Black 1pt solid; font-size: 10pt; font-weight: bold; text-align: justify">Redemption Period</td><td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt">&#160;</td>
+    <td colspan="2" style="border-bottom: Black 1pt solid; font: bold 10pt Times New Roman, Times, Serif; white-space: nowrap; text-align: center">Redemption
+    Percentage</td><td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="width: 87%; font-size: 10pt; text-align: justify">August 15, 2027 to August 14, 2028</td><td style="width: 1%; font-size: 10pt">&#160;</td>
+    <td style="width: 1%; font-size: 10pt; text-align: left">&#160;</td><td style="width: 10%; font-size: 10pt; text-align: right">103.6250</td><td style="width: 1%; font-size: 10pt; text-align: left">%</td></tr>
+  <tr style="vertical-align: bottom; background-color: White">
+    <td style="font-size: 10pt; text-align: justify">August 15, 2028 to August 14, 2029</td><td style="font-size: 10pt">&#160;</td>
+    <td style="font-size: 10pt; text-align: left">&#160;</td><td style="font-size: 10pt; text-align: right">101.8125</td><td style="font-size: 10pt; text-align: left">%</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="font-size: 10pt; text-align: justify">August 15, 2029 and thereafter</td><td style="font-size: 10pt">&#160;</td>
+    <td style="font-size: 10pt; text-align: left">&#160;</td><td style="font-size: 10pt; text-align: right">100.0000</td><td style="font-size: 10pt; text-align: left">%</td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">Subject to certain qualifications
+and exceptions, the Lightning Indenture, among other things, limits Lightning&#8217;s ability and the ability of Lightning&#8217;s restricted
+subsidiaries to incur or guarantee additional indebtedness; create or incur liens; make certain restricted payments; and consolidate,
+merge or transfer all or substantially all of Lightning&#8217;s and its subsidiaries&#8217; assets on a consolidated basis.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The foregoing description
+of the Lightning Indenture and the Lightning Notes does not purport to be complete and is qualified in its entirety by reference to the
+Lightning Indenture and the Lightning Notes, a copy of which is attached hereto as Exhibit 4.2 and incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i>Lightning Credit Facility</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">On the Closing Date, Lightning
+(an indirect, wholly-owned subsidiary of the Company as of such date) remains party to a credit agreement (the &#8220;Lightning Credit
+Agreement&#8221;) with Morgan Stanley Senior Funding, Inc. as administrative agent and collateral agent and various lenders and issuing
+banks from time to time party thereto. The Lightning Credit Agreement consists of a term loan in an original aggregate principal amount
+of $1.75 billion (the &#8220;Lightning Term Loan&#8221;) and revolving loan facility of $600 million (the &#8220;Lightning Revolving
+Facility&#8221;). The maturity date of the Lightning Term Loan and the Lightning Revolving Facility is August 16, 2031, and August 16,
+2029, respectively. Interest on the Lightning Term Loan accrues at a rate per annum equal to the SOFR rate plus a margin of 2.25%, subject
+to leverage-based margin step-downs. Interest on revolving credit borrowings under the Lightning Revolving Facility accrues at a rate
+per annum equal to the SOFR rate plus a margin of 2.00%, subject to leverage-based margin step-downs.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The foregoing description
+of the Lightning Credit Agreement does not purport to be complete and is qualified in its entirety by reference to Amendment No. 1 to
+Credit Agreement, a copy of which is attached hereto as Exhibit 10.1 and incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left"></p>
+
+<!-- Field: Page; Sequence: 2 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 1in; font-size: 10pt"><span style="font-size: 10pt"><b>Item 2.01.</b></span></td>
+    <td style="font-size: 10pt"><span style="font-size: 10pt"><b>Completion of Acquisition or Disposition of Assets. </b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in"><i>The information set forth
+in the Introductory Note Item and 1.01 of this Current Report on&#160;Form&#160;8-K&#160;is&#160;incorporated herein by reference into
+this Item 2.01.</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">As discussed in the Introductory
+Note above, on the Closing Date, the Company completed the previously announced Transaction contemplated by the Purchase Agreement. As
+a result of the Transaction, the Acquired Companies became indirect, wholly-owned subsidiaries of the Company.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">Subject to the terms and
+conditions of the Purchase Agreement, the purchase price for the Transaction consisted of (i) $6.4 billion in cash, subject to certain
+adjustments set forth in the Purchase Agreement (the &#8220;Cash Consideration&#8221;), (ii) an aggregate of 24,250,000 shares of common
+stock of the Company, par value $0.01 per share (the &#8220;Stock Consideration&#8221;), and (iii) the assumption of approximately $3.2
+billion of debt of the Acquired Companies.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The Company used a portion
+of the net proceeds from the previously announced offerings of the $1.25 billion aggregate principal amount of its senior secured notes
+and $3.65&#160;billion aggregate principal amount of its senior unsecured notes that were issued on October 8, 2025, together with proceeds
+from certain borrowings under the Company&#8217;s revolving credit facility, to fund the Cash Consideration.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The foregoing description
+does not purport to be complete and is qualified in its entirety by reference to the Purchase Agreement, a copy of which is attached
+hereto as Exhibit 2.1 and incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 1in; font-size: 10pt"><span style="font-size: 10pt"><b>Item 2.03.</b></span></td>
+    <td style="font-size: 10pt"><span style="font-size: 10pt"><b>Creation of a Direct Financial Obligation or an Obligation under an
+    Off-Balance Sheet Arrangement of a Registrant. </b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The disclosure set forth
+in the Introductory Note, Item 1.01 under the heading &#8220;Lightning Notes&#8221; and &#8220;Lightning Credit Facility&#8221; of this
+Current Report on Form 8-K is incorporated herein by reference in this Item 2.03.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 1in; font-size: 10pt"><span style="font-size: 10pt"><b>Item 3.02.</b></span></td>
+    <td style="font-size: 10pt"><span style="font-size: 10pt"><b>Unregistered Sales of Equity Securities. </b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The information set forth
+in the Introductory Note and Items 1.01 and 2.01 of this Current Report on Form 8-K is incorporated herein by reference in response to
+this Item 3.02. The issuance of the Stock Consideration to the Sellers was completed in reliance upon the exemption from the registration
+requirements of the Securities Act of 1933, as amended, provided by Section 4(a)(2) thereof as a transaction by an issuer not involving
+any public offering.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 1in; font-size: 10pt"><span style="font-size: 10pt"><b>Item 7.01.</b></span></td>
+    <td style="font-size: 10pt"><span style="font-size: 10pt"><b>Regulation FD Disclosure.</b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">On the Closing Date, the
+Company issued a press release announcing the closing of the Transaction. A copy of the press release is attached as Exhibit 99.1 to
+this Current Report.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>Forward-Looking Statements</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">In addition to historical
+information, the information presented in this Current Report includes forward-looking statements within the meaning of Section&#160;27A
+of the Securities Act of 1933, as amended and Section&#160;21E of the Securities Exchange Act of 1934, as amended. These statements involve
+estimates, expectations, projections, goals, assumptions, known and unknown risks and uncertainties and can typically be identified by
+terminology such as &#8220;may,&#8221; &#8220;should,&#8221; &#8220;could,&#8221; &#8220;objective,&#8221; &#8220;projection,&#8221;
+&#8220;forecast,&#8221; &#8220;goal,&#8221; &#8220;guidance,&#8221; &#8220;outlook,&#8221; &#8220;expect,&#8221; &#8220;intend,&#8221;
+&#8220;seek,&#8221; &#8220;plan,&#8221; &#8220;think,&#8221; &#8220;anticipate,&#8221; &#8220;estimate,&#8221; &#8220;predict,&#8221;
+&#8220;target,&#8221; &#8220;potential&#8221; or &#8220;continue&#8221; or the negative of these terms or other comparable terminology.
+Such forward-looking statements include, but are not limited to, statements about the Transaction, enhancements to the Company&#8217;s
+credit profile, synergies, opportunities, anticipated future financial and operational performance, and the Company&#8217;s future revenues,
+income, indebtedness, capital structure, plans, expectations, objectives, projected financial performance and/or business results and
+other future events, and views of economic and market conditions.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 3 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">Although the Company believes
+that its expectations are reasonable, it can give no assurance that these expectations will prove to be correct, and actual results may
+vary materially. Factors that could cause actual results to differ materially from those contemplated herein include, among others, general
+economic conditions, the imposition of tariffs and escalation of international trade disputes (and inflationary impacts resulting therefrom),
+risks associated with the integration of the Acquired Companies, including potential disruption to ongoing operations and other transition
+difficulties, the inability of the combined company to realize expected synergies and benefits of integration of the Acquired Companies
+(or that it takes longer than expected) which may result in the combined company not operating as effectively as expected, hazards customary
+in the power industry, weather conditions and extreme weather events, competition in wholesale power, gas and smart home markets, the
+volatility of energy and fuel prices, the volatility in demand for power and gas, customer affordability concerns that may constrain
+the pricing of the Company&#8217;s products and services and limit its ability to recover costs, failure of customers or counterparties
+to perform under contracts, changes in the wholesale power and gas markets, the failure of the Company&#8217;s expectations regarding
+load growth to materialize, changes in government or market regulations, the Company&#8217;s ability to execute its supply strategy,
+risks related to data privacy, cyberterrorism and inadequate cybersecurity, the loss of data, unanticipated outages at the Company&#8217;s
+generation facilities, operational and reputational risks related to the use of artificial intelligence and the adherence to developing
+laws and regulations related to the use thereof, the Company&#8217;s ability to achieve its net debt targets, adverse results in current
+and future litigation, complaints, product liability claims and/or adverse publicity, failure to identify, execute or successfully implement
+acquisitions or asset sales, risks of the smart home and security industry, including risks of and publicity surrounding the sales, customer
+origination and retention process, the impact of changes in consumer spending patterns, consumer preferences, geopolitical tensions,
+demographic trends, supply chain disruptions, the Company&#8217;s ability to implement value enhancing improvements to plant operations
+and company wide processes, the Company&#8217;s ability to achieve or maintain investment grade credit metrics, the Company&#8217;s ability
+to proceed with projects under development or the inability to complete the construction of such projects on schedule or within budget,
+the inability to maintain or create successful partnering relationships, the Company&#8217;s ability to operate its business efficiently,
+the Company&#8217;s ability to retain customers, the ability to successfully integrate businesses of acquired assets or companies (including
+the Acquired Companies), the Company&#8217;s ability to realize anticipated benefits of transactions (including expected cost savings
+and other synergies) or the risk that anticipated benefits may take longer to realize than expected, the Company&#8217;s ability to execute
+its capital allocation plan, and the other risks and uncertainties discussed in the Company&#8217;s Forms 10-K, 10-Q, and 8-K filed with
+or furnished to the&#160;SEC.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The Company undertakes no
+obligation to update or revise any forward-looking statements, whether as a result of new information, future events or otherwise, except
+as required by law. The foregoing review of factors that could cause the Company&#8217;s actual results to differ materially from those
+contemplated in the forward-looking statements included in this Current Report should be considered in connection with information regarding
+risks and uncertainties that may affect the Company&#8217;s future results included in the Company&#8217;s filings with the SEC at&#160;<span style="text-decoration: underline">www.sec.gov</span>.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 1in; font-size: 10pt"><span style="font-size: 10pt"><b>Item 9.01.</b></span></td>
+    <td style="font-size: 10pt"><span style="font-size: 10pt"><b>Financial Statements and Exhibits. </b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>(a) Financial Statements of Business Acquired</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The Company intends to
+file the financial statements of the Acquired Companies required by Item&#160;9.01(a) as part of an amendment to this Current Report
+on Form 8-K promptly after the date hereof but no later than 71 calendar days after the required filing date for this Current Report
+on Form 8-K.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>(b) Pro Forma Financial Information</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The Company intends to
+file the pro forma financial information required by Item&#160;9.01(b) as an amendment to this Current Report on Form 8-K promptly
+after the date hereof but no later than 71 days after the required filing date for this Current Report on Form 8-K.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 4 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>(d) Exhibits</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>&#160;</b></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; background-color: white; border-collapse: collapse">
+  <tr style="vertical-align: bottom">
+    <td style="border-bottom: black 1pt solid; white-space: nowrap; text-align: center; width: 8%"><span style="font-size: 10pt">Exhibit<br/>
+    No.</span></td>
+    <td style="padding-bottom: 1.25pt; width: 2%">&#160;</td>
+    <td style="border-bottom: black 1pt solid; white-space: nowrap; width: 90%"><span style="font-size: 10pt">Description</span></td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td colspan="2">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><a href="https://www.sec.gov/Archives/edgar/data/1013871/000110465925049673/tm2514561d2_ex2-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">2.1*</span></a></td>
+    <td>&#160;</td>
+    <td style="text-align: justify"><a href="https://www.sec.gov/Archives/edgar/data/1013871/000110465925049673/tm2514561d2_ex2-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">Purchase
+    and Sale Agreement, dated May&#160;12, 2025, by and among the Company, the Buyer Entities and the Sellers (incorporated by reference
+    to Exhibit 2.1 to the Company&#8217;s Current Report on Form 8-K filed with the SEC on May 12, 2025, File No. 001-15891).</span></a></td></tr>
+  <tr>
+    <td style="vertical-align: top"><span style="font-size: 10pt">&#160;</span></td>
+    <td>&#160;</td>
+    <td style="text-align: justify">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><a href="tm264311d1_ex4-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">4.1</span></a></td>
+    <td>&#160;</td>
+    <td style="text-align: justify"><a href="tm264311d1_ex4-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">Registration Rights Agreement, dated January 30, 2026, by and among
+    NRG Energy, Inc., Lighting Power Holdings, LLC, Thunder Generation, LLC and CCS Power Holdings, LLC. </span></a></td></tr>
+  <tr>
+    <td style="vertical-align: top"><span style="font-size: 10pt">&#160;</span></td>
+    <td>&#160;</td>
+    <td style="text-align: justify">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><a href="tm264311d1_ex4-2.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">4.2</span></a></td>
+    <td>&#160;</td>
+    <td style="text-align: justify"><a href="tm264311d1_ex4-2.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">Indenture, dated August 16, 2024, by and among Lighting Power, LLC,
+    each of the subsidiary guarantors from time to time party thereto and U.S. Bank Trust Company, National Association, in its capacities
+    as trustee and collateral trustee (including Form of 7.250% Senior Secured Notes due 2032).</span></a></td></tr>
+  <tr>
+    <td style="vertical-align: top"><span style="font-size: 10pt">&#160;</span></td>
+    <td>&#160;</td>
+    <td style="text-align: justify">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><a href="tm264311d1_ex10-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">10.1*</span></a></td>
+    <td style="text-align: justify"><span style="font-size: 10pt">&#160;</span></td>
+    <td style="text-align: justify"><a href="tm264311d1_ex10-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">Amendment No. 1 to Credit Agreement, dated February 18, 2025, by and
+    among Lightning Power, LLC, the subsidiary guarantors party thereto, each of the lenders party thereto and Morgan Stanley Senior
+    Funding, Inc. as administrative agent, collateral agent and replacement lender, and included as Exhibit A thereto a clean, conformed
+    copy of the Lightning Credit Agreement.</span></a></td></tr>
+  <tr>
+    <td style="vertical-align: top"><span style="font-size: 10pt">&#160;</span></td>
+    <td>&#160;</td>
+    <td style="text-align: justify">&#160;</td></tr>
+  <tr>
+    <td><a href="tm264311d1_ex99-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">99.1</span></a></td>
+    <td>&#160;</td>
+    <td><a href="tm264311d1_ex99-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">Press Release, dated January 30, 2026.</span></a></td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td style="text-align: justify">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><span style="font-size: 10pt">104</span></td>
+    <td>&#160;</td>
+    <td><span style="font-size: 10pt">Cover Page Interactive Data File - the cover page XBRL tags are embedded within the IXBRL document.</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">* The Schedules and exhibits have been omitted
+from this filing pursuant to Item 601(b)(2)&#160;of Regulation S K. A copy of any omitted schedule or exhibit will be furnished to the
+Securities and Exchange Commission upon request.</p>
+
+<p style="margin: 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 5 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SIGNATURES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Pursuant to the requirements
+of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto
+duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Dated: January&#160;30, 2026</span></td>
+    <td colspan="2"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>NRG Energy,&#160;Inc.</b></span></td></tr>
+  <tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td colspan="2"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">(Registrant)</span></td></tr>
+  <tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td colspan="2">&#160;</td></tr>
+  <tr style="vertical-align: top">
+    <td style="width: 50%">&#160;</td>
+    <td style="width: 5%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</span></td>
+    <td style="border-bottom: black 1pt solid; width: 45%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/
+    Christine A. Zoino</span></td></tr>
+  <tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Christine A. Zoino</span></td></tr>
+  <tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Corporate Secretary</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 6; Options: Last -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJxVjl1qwzAQhE/gOyx6Dons9Af81ho3lDohuKa0lD4o8aaIWlqzUlLnSL1lZZlQKgRid+abkRAzsaIH3SHD631dQYOm75RHqPGAjHaPwVE8PuUQ3ho/tfOsrI/jBSwoMBiYm3m2C/voPGmHbQ6pXMjbRXYNcpnLK9iuRTLqBdmDbtF6rTpQtoUtU88aveLzlNCogSyZc2x6QXaabIiby0n+gUymGWzopL6JvxxUVSGSWTyJWDEd++AqB492JKHs0IQ6N9F/N/5mf3SeTL55ey4bHJRbo9khB0HKbJnKu7FzFCGq/wZ4n8wfl7xfzGhhSQ== -->
+<script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>

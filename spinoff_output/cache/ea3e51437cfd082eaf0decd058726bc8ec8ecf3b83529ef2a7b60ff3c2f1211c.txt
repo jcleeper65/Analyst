@@ -1,0 +1,559 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>113
+<FILENAME>R26.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.25.4</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Cybersecurity Risk Management and Strategy Disclosure<br></strong></div></th>
+<th class="th" colspan="1">12 Months Ended</th>
+</tr>
+<tr><th class="th"><div>Dec. 31, 2025</div></th></tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskManagementStrategyAndGovernanceLineItems', window );"><strong>Cybersecurity Risk Management, Strategy, and Governance [Line Items]</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskManagementProcessesForAssessingIdentifyingAndManagingThreatsTextBlock', window );">Cybersecurity Risk Management Processes for Assessing, Identifying, and Managing Threats [Text Block]</a></td>
+<td class="text"><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">We have implemented a number of cybersecurity risk management processes to assess, identify and manage material risks from cybersecurity threats. We conduct real-time monitoring of our environment for suspicious cyber activity using a variety of security tools and centralized logging systems. In addition, we leverage threat intelligence monitoring to stay updated on emerging cyber threats and vulnerabilities and, utilizing this information, conduct regular vulnerability assessments. Furthermore, we conduct regular penetration tests to simulate real-world attacks and identify weaknesses.</span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">To supplement our internal resources, we engage external consultants to conduct independent assessments, perform penetration testing, and provide other cybersecurity-related services as needed. We also utilize external consultants and legal counsel to facilitate cybersecurity tabletop simulations. In addition, we engage external vendors to review and test key controls within our cybersecurity program.</span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">We regularly assess cybersecurity risks associated with our use of suppliers and other third-party service providers. In this process, we classify by level of risk our principal suppliers and other key service providers and evaluate their data security controls and changes in potential cybersecurity risk levels. In addition, our contracts with these service providers require them to promptly report security incidents to us and to provide us with access to relevant information and resources to allow us to conduct related investigations.</span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Our cybersecurity risk management processes are integrated as part of our overall enterprise risk management processes. Our Audit Committee conducts its oversight of our cybersecurity risk management as part of its oversight of our enterprise risk management policies and procedures. In addition, we conduct an annual survey of over 500 Ingredion business leaders across multiple functions and geographic locations that asks them to evaluate the potential severity and likelihood of cybersecurity matters, among other enterprise and information technology risks. We solicit their views on information and data security protection against cyber and internal threats, reliability of systems including disaster recovery related to malware or other cyber threats, and system implementation failures, and evaluate the responses to modify our risk mitigation strategies accordingly.</span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Subject to oversight by our Board of Directors and Audit Committee, as described above, our Chief Digital and Information Officer is responsible for developing and guiding our global information technology and digital strategy, which includes overseeing cybersecurity risk management. The Chief Digital and Information Officer provides guidance on cybersecurity strategy initiatives and risk mitigation activities to the Senior Director, Global Information Security and the associated function. Our Chief Digital and Information Officer and our Senior Director, Global Information Security provide regular reports on security incident activity, including containment and remediation measures as relevant, and other cybersecurity risk management matters to the Board of Directors and the Audit Committee.</span></div><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskManagementProcessesIntegratedFlag', window );">Cybersecurity Risk Management Processes Integrated [Flag]</a></td>
+<td class="text">true<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskManagementProcessesIntegratedTextBlock', window );">Cybersecurity Risk Management Processes Integrated [Text Block]</a></td>
+<td class="text">Our cybersecurity risk management processes are integrated as part of our overall enterprise risk management processes.<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskManagementThirdPartyEngagedFlag', window );">Cybersecurity Risk Management Third Party Engaged [Flag]</a></td>
+<td class="text">true<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskThirdPartyOversightAndIdentificationProcessesFlag', window );">Cybersecurity Risk Third Party Oversight and Identification Processes [Flag]</a></td>
+<td class="text">true<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskMateriallyAffectedOrReasonablyLikelyToMateriallyAffectRegistrantFlag', window );">Cybersecurity Risk Materially Affected or Reasonably Likely to Materially Affect Registrant [Flag]</a></td>
+<td class="text">false<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskBoardOfDirectorsOversightTextBlock', window );">Cybersecurity Risk Board of Directors Oversight [Text Block]</a></td>
+<td class="text"><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">The Board of Directors, directly and through its Audit Committee, oversees our cybersecurity risk management by reviewing material cybersecurity trends, potential risks and strategic priorities, and by monitoring progress towards those </span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">priorities. The Audit Committee is responsible under its charter for reviewing with our management the processes management has implemented to monitor and mitigate cybersecurity risk exposures. On a regular basis, the Audit Committee considers management&#8217;s reports on significant changes to our cybersecurity strategy, as well as risk mitigation and remediation efforts being undertaken with respect to cybersecurity incidents and under the program generally. The Audit Committee regularly reports to the Board of Directors on its activities with respect to cybersecurity matters.</span></div><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskBoardCommitteeOrSubcommitteeResponsibleForOversightTextBlock', window );">Cybersecurity Risk Board Committee or Subcommittee Responsible for Oversight [Text Block]</a></td>
+<td class="text"><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">The Board of Directors, directly and through its Audit Committee, oversees our cybersecurity risk management by reviewing material cybersecurity trends, potential risks and strategic priorities, and by monitoring progress towards those </span></div>priorities.<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskProcessForInformingBoardCommitteeOrSubcommitteeResponsibleForOversightTextBlock', window );">Cybersecurity Risk Process for Informing Board Committee or Subcommittee Responsible for Oversight [Text Block]</a></td>
+<td class="text">On a regular basis, the Audit Committee considers management&#8217;s reports on significant changes to our cybersecurity strategy, as well as risk mitigation and remediation efforts being undertaken with respect to cybersecurity incidents and under the program generally. The Audit Committee regularly reports to the Board of Directors on its activities with respect to cybersecurity matters.<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskRoleOfManagementTextBlock', window );">Cybersecurity Risk Role of Management [Text Block]</a></td>
+<td class="text"><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Subject to oversight by our Board of Directors and Audit Committee, as described above, our Chief Digital and Information Officer is responsible for developing and guiding our global information technology and digital strategy, which includes overseeing cybersecurity risk management. The Chief Digital and Information Officer provides guidance on cybersecurity strategy initiatives and risk mitigation activities to the Senior Director, Global Information Security and the associated function. Our Chief Digital and Information Officer and our Senior Director, Global Information Security provide regular reports on security incident activity, including containment and remediation measures as relevant, and other cybersecurity risk management matters to the Board of Directors and the Audit Committee.</span></div><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Our Chief Digital and Information Officer, who holds a bachelor&#8217;s degree in computer science, has over 30 years of experience at multinational companies, including seven years of service at Ingredion in his current position as a digital leader and executive, which includes experience managing and responding to cybersecurity risks. Our Senior Director, Global Information Security, who has over two decades of service at multinational companies and a federal government agency, including over three years of service at Ingredion in his current position dedicated to information technology and cybersecurity, possesses significant experience in protecting critical data and building cybersecurity-resilient organizations. He holds a bachelor&#8217;s degree in telecommunications management and a master&#8217;s degree in cybersecurity, as well as a current Certified Information Systems Security Professional (&#8220;CISSP&#8221;) certification.</span></div><span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskManagementPositionsOrCommitteesResponsibleFlag', window );">Cybersecurity Risk Management Positions or Committees Responsible [Flag]</a></td>
+<td class="text">true<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskManagementPositionsOrCommitteesResponsibleTextBlock', window );">Cybersecurity Risk Management Positions or Committees Responsible [Text Block]</a></td>
+<td class="text">Chief Digital and Information Officer is responsible for developing and guiding our global information technology and digital strategy, which includes overseeing cybersecurity risk management.<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskManagementExpertiseOfManagementResponsibleTextBlock', window );">Cybersecurity Risk Management Expertise of Management Responsible [Text Block]</a></td>
+<td class="text"><div style="margin-top:12pt"><span style="color:#000000;font-family:'Times New Roman',serif;font-size:10pt;font-weight:400;line-height:120%">Our Chief Digital and Information Officer, who holds a bachelor&#8217;s degree in computer science, has over 30 years of experience at multinational companies, including seven years of service at Ingredion in his current position as a digital leader and executive, which includes experience managing and responding to cybersecurity risks. Our Senior Director, Global Information Security, who has over two decades of service at multinational companies and a federal government agency, including over three years of service at Ingredion in his current position dedicated to information technology and cybersecurity, possesses significant experience in protecting critical data and building cybersecurity-resilient organizations. He holds a bachelor&#8217;s degree in telecommunications management and a master&#8217;s degree in cybersecurity, as well as a current Certified Information Systems Security Professional (&#8220;CISSP&#8221;) certification.</span></div><span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskProcessForInformingManagementOrCommitteesResponsibleTextBlock', window );">Cybersecurity Risk Process for Informing Management or Committees Responsible [Text Block]</a></td>
+<td class="text">Our Chief Digital and Information Officer and our Senior Director, Global Information Security provide regular reports on security incident activity, including containment and remediation measures as relevant, and other cybersecurity risk management matters to the Board of Directors and the Audit Committee.<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl custom" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_cyd_CybersecurityRiskManagementPositionsOrCommitteesResponsibleReportToBoardFlag', window );">Cybersecurity Risk Management Positions or Committees Responsible Report to Board [Flag]</a></td>
+<td class="text">true<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskBoardCommitteeOrSubcommitteeResponsibleForOversightTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection c<br> -Paragraph 1<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection c<br> -Paragraph 1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskBoardCommitteeOrSubcommitteeResponsibleForOversightTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskBoardOfDirectorsOversightTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection c<br> -Paragraph 1<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection c<br> -Paragraph 1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskBoardOfDirectorsOversightTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskManagementExpertiseOfManagementResponsibleTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection c<br> -Paragraph 2<br> -Subparagraph i<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection c<br> -Paragraph 2<br> -Subparagraph i<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskManagementExpertiseOfManagementResponsibleTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskManagementPositionsOrCommitteesResponsibleFlag">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection c<br> -Paragraph 2<br> -Subparagraph i<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection c<br> -Paragraph 2<br> -Subparagraph i<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskManagementPositionsOrCommitteesResponsibleFlag</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>i:booleanItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskManagementPositionsOrCommitteesResponsibleReportToBoardFlag">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection c<br> -Paragraph 2<br> -Subparagraph iii<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection c<br> -Paragraph 2<br> -Subparagraph iii<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskManagementPositionsOrCommitteesResponsibleReportToBoardFlag</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>i:booleanItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskManagementPositionsOrCommitteesResponsibleTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection c<br> -Paragraph 2<br> -Subparagraph i<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection c<br> -Paragraph 2<br> -Subparagraph i<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskManagementPositionsOrCommitteesResponsibleTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskManagementProcessesForAssessingIdentifyingAndManagingThreatsTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection b<br> -Paragraph 1<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection b<br> -Paragraph 1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskManagementProcessesForAssessingIdentifyingAndManagingThreatsTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskManagementProcessesIntegratedFlag">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection b<br> -Paragraph 1<br> -Subparagraph i<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection b<br> -Paragraph 1<br> -Subparagraph i<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskManagementProcessesIntegratedFlag</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>i:booleanItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskManagementProcessesIntegratedTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection b<br> -Paragraph 1<br> -Subparagraph i<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection b<br> -Paragraph 1<br> -Subparagraph i<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskManagementProcessesIntegratedTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskManagementStrategyAndGovernanceLineItems">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskManagementStrategyAndGovernanceLineItems</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>i:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskManagementThirdPartyEngagedFlag">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection b<br> -Paragraph 1<br> -Subparagraph ii<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection b<br> -Paragraph 1<br> -Subparagraph ii<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskManagementThirdPartyEngagedFlag</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>i:booleanItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskMateriallyAffectedOrReasonablyLikelyToMateriallyAffectRegistrantFlag">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection b<br> -Paragraph 2<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection b<br> -Paragraph 2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskMateriallyAffectedOrReasonablyLikelyToMateriallyAffectRegistrantFlag</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>i:booleanItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskProcessForInformingBoardCommitteeOrSubcommitteeResponsibleForOversightTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection c<br> -Paragraph 1<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection c<br> -Paragraph 1<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskProcessForInformingBoardCommitteeOrSubcommitteeResponsibleForOversightTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskProcessForInformingManagementOrCommitteesResponsibleTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection c<br> -Paragraph 2<br> -Subparagraph ii<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection c<br> -Paragraph 2<br> -Subparagraph ii<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskProcessForInformingManagementOrCommitteesResponsibleTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskRoleOfManagementTextBlock">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection c<br> -Paragraph 2<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection c<br> -Paragraph 2<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskRoleOfManagementTextBlock</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>dtr-types:textBlockItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_cyd_CybersecurityRiskThirdPartyOversightAndIdentificationProcessesFlag">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>Reference 1: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Regulation S-K<br> -Section 106<br> -Subsection b<br> -Paragraph 1<br> -Subparagraph iii<br><br>Reference 2: http://www.xbrl.org/2003/role/presentationRef<br> -Publisher SEC<br> -Name Form 20-F<br> -Section 16K<br> -Subsection b<br> -Paragraph 1<br> -Subparagraph iii<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">cyd_CybersecurityRiskThirdPartyOversightAndIdentificationProcessesFlag</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>cyd_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>i:booleanItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

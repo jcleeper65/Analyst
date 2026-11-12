@@ -1,0 +1,54 @@
+<DOCUMENT>
+<TYPE>EX-27.1
+<SEQUENCE>5
+<FILENAME>ex27-1.txt
+<DESCRIPTION>FINANCIAL DATA SCHEDULE
+<TEXT>
+
+<TABLE> <S> <C>
+
+<ARTICLE> 5
+<MULTIPLIER> 1,000
+
+<S>                             <C>                     <C>
+<PERIOD-TYPE>                   3-MOS                   YEAR
+<FISCAL-YEAR-END>                          DEC-31-2000             DEC-31-1999
+<PERIOD-START>                             JAN-01-2000             JAN-01-1999
+<PERIOD-END>                               MAR-31-2000             DEC-31-1999
+<CASH>                                             172                     792
+<SECURITIES>                                         0                       0
+<RECEIVABLES>                                  583,310                 440,809
+<ALLOWANCES>                                     7,384                   6,743
+<INVENTORY>                                     26,877                  38,701
+<CURRENT-ASSETS>                               655,641                 518,256
+<PP&E>                                       5,053,060               3,005,510
+<DEPRECIATION>                                 628,535                 596,125
+<TOTAL-ASSETS>                               5,625,785               3,471,835
+<CURRENT-LIABILITIES>                        3,379,551               2,640,585
+<BONDS>                                              0                       0
+<PREFERRED-MANDATORY>                                0                       0
+<PREFERRED>                                          0                       0
+<COMMON>                                             0                       1
+<OTHER-SE>                                   2,212,531                 386,470
+<TOTAL-LIABILITY-AND-EQUITY>                 5,625,785               3,471,835
+<SALES>                                      1,415,465               3,310,260
+<TOTAL-REVENUES>                             1,451,211               3,458,310
+<CGS>                                        1,278,511               2,965,297
+<TOTAL-COSTS>                                1,327,550               3,146,689
+<OTHER-EXPENSES>                                38,094                 130,788
+<LOSS-PROVISION>                                     0                       0
+<INTEREST-EXPENSE>                              14,477                  52,915
+<INCOME-PRETAX>                                 47,909                  74,358
+<INCOME-TAX>                                 (313,991)                  31,029
+<INCOME-CONTINUING>                            361,900                  43,329
+<DISCONTINUED>                                       0                       0
+<EXTRAORDINARY>                                      0                       0
+<CHANGES>                                            0                       0
+<NET-INCOME>                                   361,900                  43,329
+<EPS-BASIC>                                       0.00                    0.00
+<EPS-DILUTED>                                     0.00                    0.00
+
+
+</TABLE>
+</TEXT>
+</DOCUMENT>

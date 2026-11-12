@@ -1,0 +1,717 @@
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>92
+<FILENAME>R87.htm
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="include/report.css">
+<script type="text/javascript" src="Show.js">/* Do Not Remove This Comment */</script><script type="text/javascript">
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+							}</script>
+</head>
+<body>
+<span style="display: none;">v3.26.1</span><table class="report" border="0" cellspacing="2" id="id2">
+<tr>
+<th class="tl" colspan="1" rowspan="2"><div style="width: 200px;"><strong>Retirement Benefit Plans - Components of Net Pension Expense (Detail) - USD ($)<br> $ in Millions</strong></div></th>
+<th class="th" colspan="3">12 Months Ended</th>
+</tr>
+<tr>
+<th class="th"><div>Dec. 31, 2025</div></th>
+<th class="th"><div>Dec. 31, 2024</div></th>
+<th class="th"><div>Dec. 31, 2023</div></th>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RetirementPlanSponsorLocationAxis=country_US', window );">United States [Member]</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostAbstract', window );"><strong>Net Periodic Benefit Cost</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanServiceCost', window );">Service cost</a></td>
+<td class="nump">$ 0.2<span></span>
+</td>
+<td class="nump">$ 0.3<span></span>
+</td>
+<td class="nump">$ 0.4<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanInterestCost', window );">Interest cost</a></td>
+<td class="nump">$ 18.1<span></span>
+</td>
+<td class="nump">$ 18.3<span></span>
+</td>
+<td class="nump">$ 18.7<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditInterestCostStatementOfIncomeOrComprehensiveIncomeExtensibleList', window );">Defined Benefit Plan, Net Periodic Benefit Cost (Credit), Interest Cost, Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanExpectedReturnOnPlanAssets', window );">Expected return on plan assets</a></td>
+<td class="num">$ (30.7)<span></span>
+</td>
+<td class="num">$ (30.7)<span></span>
+</td>
+<td class="num">$ (30.1)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditExpectedReturnLossStatementOfIncomeOrComprehensiveIncomeExtensibleList', window );">Defined Benefit Plan, Net Periodic Benefit (Cost) Credit, Expected Return (Loss), Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanRecognizedNetGainLossDueToSettlements1', window );">Settlements</a></td>
+<td class="nump">$ 0.0<span></span>
+</td>
+<td class="nump">$ 0.0<span></span>
+</td>
+<td class="nump">$ 0.1<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditSettlementGainLossStatementOfIncomeOrComprehensiveIncomeExtensibleList', window );">Defined Benefit Plan, Net Periodic Benefit (Cost) Credit, Settlement Gain (Loss), Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanAmortizationOfPriorServiceCostCredit', window );">Amortization of prior service cost</a></td>
+<td class="nump">$ 0.2<span></span>
+</td>
+<td class="nump">$ 0.1<span></span>
+</td>
+<td class="nump">$ 0.2<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditAmortizationOfPriorServiceCostCreditStatementOfIncomeOrComprehensiveIncomeExtensibleList', window );">Defined Benefit Plan, Net Periodic Benefit Cost (Credit), Amortization of Prior Service Cost (Credit), Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanAmortizationOfGainsLosses', window );">Amortization of unrecognized actuarial loss</a></td>
+<td class="nump">$ 2.8<span></span>
+</td>
+<td class="nump">$ 3.5<span></span>
+</td>
+<td class="nump">$ 2.8<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditAmortizationOfGainLossStatementOfIncomeOrComprehensiveIncomeExtensibleList', window );">Defined Benefit Plan, Net Periodic Benefit (Cost) Credit, Amortization of Gain (Loss), Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCost', window );">Net periodic (income) benefit expense</a></td>
+<td class="num">$ (9.4)<span></span>
+</td>
+<td class="num">$ (8.5)<span></span>
+</td>
+<td class="num">$ (7.9)<span></span>
+</td>
+</tr>
+<tr class="rh">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_RetirementPlanSponsorLocationAxis=us-gaap_ForeignPlanMember', window );">Foreign [Member]</a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostAbstract', window );"><strong>Net Periodic Benefit Cost</strong></a></td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+<td class="text">&#160;<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanServiceCost', window );">Service cost</a></td>
+<td class="nump">20.9<span></span>
+</td>
+<td class="nump">18.1<span></span>
+</td>
+<td class="nump">15.5<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanInterestCost', window );">Interest cost</a></td>
+<td class="nump">$ 12.4<span></span>
+</td>
+<td class="nump">$ 14.2<span></span>
+</td>
+<td class="nump">$ 15.7<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditInterestCostStatementOfIncomeOrComprehensiveIncomeExtensibleList', window );">Defined Benefit Plan, Net Periodic Benefit Cost (Credit), Interest Cost, Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanExpectedReturnOnPlanAssets', window );">Expected return on plan assets</a></td>
+<td class="num">$ (24.2)<span></span>
+</td>
+<td class="num">$ (24.4)<span></span>
+</td>
+<td class="num">$ (22.5)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditExpectedReturnLossStatementOfIncomeOrComprehensiveIncomeExtensibleList', window );">Defined Benefit Plan, Net Periodic Benefit (Cost) Credit, Expected Return (Loss), Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanRecognizedNetGainLossDueToSettlements1', window );">Settlements</a></td>
+<td class="num">$ (2.4)<span></span>
+</td>
+<td class="num">$ (2.2)<span></span>
+</td>
+<td class="num">$ (2.6)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditSettlementGainLossStatementOfIncomeOrComprehensiveIncomeExtensibleList', window );">Defined Benefit Plan, Net Periodic Benefit (Cost) Credit, Settlement Gain (Loss), Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanAmortizationOfPriorServiceCostCredit', window );">Amortization of prior service cost</a></td>
+<td class="nump">$ 0.9<span></span>
+</td>
+<td class="num">$ (3.1)<span></span>
+</td>
+<td class="num">$ (4.4)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditAmortizationOfPriorServiceCostCreditStatementOfIncomeOrComprehensiveIncomeExtensibleList', window );">Defined Benefit Plan, Net Periodic Benefit Cost (Credit), Amortization of Prior Service Cost (Credit), Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanAmortizationOfGainsLosses', window );">Amortization of unrecognized actuarial loss</a></td>
+<td class="nump">$ 0.4<span></span>
+</td>
+<td class="nump">$ 0.6<span></span>
+</td>
+<td class="num">$ (2.2)<span></span>
+</td>
+</tr>
+<tr class="re">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditAmortizationOfGainLossStatementOfIncomeOrComprehensiveIncomeExtensibleList', window );">Defined Benefit Plan, Net Periodic Benefit (Cost) Credit, Amortization of Gain (Loss), Statement of Income or Comprehensive Income [Extensible Enumeration]</a></td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+<td class="text">Other Nonoperating Income (Expense)<span></span>
+</td>
+</tr>
+<tr class="ro">
+<td class="pl" style="border-bottom: 0px;" valign="top"><a class="a" href="javascript:void(0);" onclick="Show.showAR( this, 'defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCost', window );">Net periodic (income) benefit expense</a></td>
+<td class="nump">$ 8.0<span></span>
+</td>
+<td class="nump">$ 3.2<span></span>
+</td>
+<td class="num">$ (0.5)<span></span>
+</td>
+</tr>
+</table>
+<div style="display: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanAmortizationOfGainsLosses">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of gain (loss) recognized in net periodic benefit (cost) credit of defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 17<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3A<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3A<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 18<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)(4)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(4)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanAmortizationOfGainsLosses</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanAmortizationOfPriorServiceCostCredit">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of prior service cost (credit) recognized in net periodic benefit cost (credit) of defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 17<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3A<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3A<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 18<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)(5)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(5)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanAmortizationOfPriorServiceCostCredit</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanExpectedReturnOnPlanAssets">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of expected return (loss) recognized in net periodic benefit (cost) credit, calculated based on expected long-term rate of return and market-related value of plan assets of defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 17<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3A<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3A<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 18<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(3)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanExpectedReturnOnPlanAssets</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanInterestCost">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of cost recognized for passage of time related to defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 17<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3A<br> -Subparagraph (b)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3A<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 18<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (a)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 6: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(2)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanInterestCost</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCost">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of net periodic benefit cost (credit) for defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5<br> -Subparagraph (q)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5<br><br>Reference 2: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 17<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17<br><br>Reference 3: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 18<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanNetPeriodicBenefitCost</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostAbstract">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- References</a><div><p>No definition available.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostAbstract</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:stringItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditAmortizationOfGainLossStatementOfIncomeOrComprehensiveIncomeExtensibleList">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Indicates line item in statement of income or comprehensive income that includes amortization of gain (loss) component of net periodic benefit (cost) credit for defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5<br> -Subparagraph (q)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditAmortizationOfGainLossStatementOfIncomeOrComprehensiveIncomeExtensibleList</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>enum2:enumerationSetItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditAmortizationOfPriorServiceCostCreditStatementOfIncomeOrComprehensiveIncomeExtensibleList">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Indicates line item in statement of income or comprehensive income that includes amortization of prior service cost (credit) component of net periodic benefit cost (credit) for defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5<br> -Subparagraph (q)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditAmortizationOfPriorServiceCostCreditStatementOfIncomeOrComprehensiveIncomeExtensibleList</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>enum2:enumerationSetItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditExpectedReturnLossStatementOfIncomeOrComprehensiveIncomeExtensibleList">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Indicates line item in statement of income or comprehensive income that includes expected return (loss) on plan asset component of net periodic benefit (cost) credit for defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5<br> -Subparagraph (q)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditExpectedReturnLossStatementOfIncomeOrComprehensiveIncomeExtensibleList</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>enum2:enumerationSetItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditInterestCostStatementOfIncomeOrComprehensiveIncomeExtensibleList">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Indicates line item in statement of income or comprehensive income that includes interest cost component of net periodic benefit cost (credit) for defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5<br> -Subparagraph (q)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditInterestCostStatementOfIncomeOrComprehensiveIncomeExtensibleList</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>enum2:enumerationSetItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditSettlementGainLossStatementOfIncomeOrComprehensiveIncomeExtensibleList">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Indicates line item in statement of income or comprehensive income that includes settlement gain (loss) component of net periodic benefit (cost) credit for defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 5<br> -Subparagraph (q)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanNetPeriodicBenefitCostCreditSettlementGainLossStatementOfIncomeOrComprehensiveIncomeExtensibleList</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>enum2:enumerationSetItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanRecognizedNetGainLossDueToSettlements1">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of gain (loss) recognized in net periodic benefit (cost) credit from irrevocable action relieving primary responsibility for benefit obligation and eliminating risk related to obligation and assets used to effect settlement.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 45<br> -Paragraph 3A<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3A<br><br>Reference 2: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)(7)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(7)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanRecognizedNetGainLossDueToSettlements1</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>credit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_DefinedBenefitPlanServiceCost">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Definition</a><div><p>Amount of cost for actuarial present value of benefits attributed to service rendered by employee for defined benefit plan.</p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ References</a><div style="display: none;"><p>Reference 1: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 17<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17<br><br>Reference 2: http://www.xbrl.org/2003/role/exampleRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 55<br> -Paragraph 18<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18<br><br>Reference 3: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 4: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 1<br> -Subparagraph (h)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1<br><br>Reference 5: http://www.xbrl.org/2003/role/disclosureRef<br> -Topic 715<br> -SubTopic 20<br> -Name Accounting Standards Codification<br> -Section 50<br> -Paragraph 6<br> -Subparagraph (a)(1)<br> -Publisher FASB<br> -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6<br></p></div>
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">+ Details</a><div style="display: none;"><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_DefinedBenefitPlanServiceCost</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td>us-gaap_</td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>xbrli:monetaryItemType</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td>debit</td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td>duration</td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RetirementPlanSponsorLocationAxis=country_US">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RetirementPlanSponsorLocationAxis=country_US</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="authRefData" style="display: none;" id="defref_us-gaap_RetirementPlanSponsorLocationAxis=us-gaap_ForeignPlanMember">
+<tr><td class="hide"><a style="color: white;" href="javascript:void(0);" onclick="Show.hideAR();">X</a></td></tr>
+<tr><td><div class="body" style="padding: 2px;">
+<a href="javascript:void(0);" onclick="Show.toggleNext( this );">- Details</a><div><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong> Name:</strong></td>
+<td style="white-space:nowrap;">us-gaap_RetirementPlanSponsorLocationAxis=us-gaap_ForeignPlanMember</td>
+</tr>
+<tr>
+<td style="padding-right: 4px;white-space:nowrap;"><strong> Namespace Prefix:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Data Type:</strong></td>
+<td>na</td>
+</tr>
+<tr>
+<td><strong> Balance Type:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> Period Type:</strong></td>
+<td></td>
+</tr>
+</table></div>
+</div></td></tr>
+</table>
+</div>
+<script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

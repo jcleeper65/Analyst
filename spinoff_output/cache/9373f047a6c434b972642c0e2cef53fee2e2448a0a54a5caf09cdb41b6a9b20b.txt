@@ -1,0 +1,70 @@
+<DOCUMENT>
+<TYPE>EX-27
+<SEQUENCE>15
+<FILENAME>ex27.txt
+<DESCRIPTION>FINANCIAL DATA SCHEDULE
+<TEXT>
+
+<TABLE> <S> <C>
+
+<ARTICLE> 9
+<MULTIPLIER> 1,000
+
+<S>                             <C>                     <C>
+<PERIOD-TYPE>                   3-MOS                   YEAR
+<FISCAL-YEAR-END>                          DEC-31-2000             DEC-31-1999
+<PERIOD-START>                             JAN-01-2000             JAN-01-1999
+<PERIOD-END>                               MAR-31-2000             DEC-31-1999
+<CASH>                                          11,783                   8,428
+<INT-BEARING-DEPOSITS>                               0                       0
+<FED-FUNDS-SOLD>                                47,810                     120
+<TRADING-ASSETS>                                     0                       0
+<INVESTMENTS-HELD-FOR-SALE>                    171,810                 164,409
+<INVESTMENTS-CARRYING>                               0                       0
+<INVESTMENTS-MARKET>                                 0                       0
+<LOANS>                                        278,160                 227,570
+<ALLOWANCE>                                      3,475                   2,775
+<TOTAL-ASSETS>                                 518,463                 408,579
+<DEPOSITS>                                     444,905                 287,068
+<SHORT-TERM>                                         0                  46,267
+<LIABILITIES-OTHER>                              2,602                   2,332
+<LONG-TERM>                                      2,089                       0
+<PREFERRED-MANDATORY>                                0                       0
+<PREFERRED>                                          0                       0
+<COMMON>                                            77                      77
+<OTHER-SE>                                      68,790                  72,835
+<TOTAL-LIABILITIES-AND-EQUITY>                 518,463                 408,579
+<INTEREST-LOAN>                                  5,463                   8,293
+<INTEREST-INVEST>                                2,813                   5,560
+<INTEREST-OTHER>                                   310                     561
+<INTEREST-TOTAL>                                 8,586                  14,414
+<INTEREST-DEPOSIT>                               4,484                   5,563
+<INTEREST-EXPENSE>                               4,907                   6,166
+<INTEREST-INCOME-NET>                            3,679                   8,248
+<LOAN-LOSSES>                                      700                   2,687
+<SECURITIES-GAINS>                                   0                     (1)
+<EXPENSE-OTHER>                                  6,286                  15,217
+<INCOME-PRETAX>                                (2,970)                 (9,298)
+<INCOME-PRE-EXTRAORDINARY>                     (2,970)                 (9,298)
+<EXTRAORDINARY>                                      0                       0
+<CHANGES>                                            0                       0
+<NET-INCOME>                                   (2,970)                 (9,298)
+<EPS-BASIC>                                      (.39)                  (1.23)
+<EPS-DILUTED>                                    (.39)                  (1.23)
+<YIELD-ACTUAL>                                    .034                    .041
+<LOANS-NON>                                          0                       0
+<LOANS-PAST>                                         0                       0
+<LOANS-TROUBLED>                                     0                       0
+<LOANS-PROBLEM>                                      0                       0
+<ALLOWANCE-OPEN>                                 2,775                     100
+<CHARGE-OFFS>                                        0                      12
+<RECOVERIES>                                         0                       0
+<ALLOWANCE-CLOSE>                                3,475                   2,775
+<ALLOWANCE-DOMESTIC>                             3,475                   2,775
+<ALLOWANCE-FOREIGN>                                  0                       0
+<ALLOWANCE-UNALLOCATED>                              0                       0
+
+
+</TABLE>
+</TEXT>
+</DOCUMENT>

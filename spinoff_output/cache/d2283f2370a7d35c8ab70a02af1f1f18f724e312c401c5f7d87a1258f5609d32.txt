@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:us-roles="http://fasb.org/us-roles/2025" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:exch="http://xbrl.sec.gov/exch/2025" xmlns:srt="http://fasb.org/srt/2025" xmlns:nrg="http://nrgenergy.com/20261109">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_027_US%2DGAAP%2D2025_exch -->
+<!-- Field: Set; Name: xdx; ID: xdx_03C_nrg_nrgenergy.com_20261109 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04C_20261109_20261109 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_054_edei%2D%2DEntityCentralIndexKey_0001013871 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000004" name="dei:EntityCentralIndexKey">0001013871</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="nrg-20261109.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-11-09">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-11-09</xbrli:startDate>
+        <xbrli:endDate>2026-11-09</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-11-092026-11-09_us-gaap_CommonStockMember_exch_XNYS">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+          <xbrldi:explicitMember dimension="dei:EntityListingsExchangeAxis">exch:XNYS</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-11-09</xbrli:startDate>
+        <xbrli:endDate>2026-11-09</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-11-092026-11-09_us-gaap_CommonStockMember_custom_NYSETexasMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+          <xbrldi:explicitMember dimension="dei:EntityListingsExchangeAxis">nrg:NYSETexasMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-11-09</xbrli:startDate>
+        <xbrli:endDate>2026-11-09</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 12pt; margin-bottom: 3pt; width: 100%"><div style="border-top: Black 2pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>UNITED STATES </b></p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION </b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span style="font-size: 10pt"><b>WASHINGTON, D.C.
+20549</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>FORM <span id="xdx_90C_edei--DocumentType_c20261109__20261109_zXfEu4qELXh4"><ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000009" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span style="font-size: 10pt"><b>CURRENT REPORT</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Pursuant to Section 13 or 15(d) of the Securities
+Exchange Act of 1934</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>&#160;</b></p>
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Date of Report (Date of earliest event
+reported): November 10, 2026 (<span id="xdx_903_edei--DocumentPeriodEndDate_c20261109__20261109_zl2lL9Fa4ek7"><ix:nonNumeric contextRef="AsOf2026-11-09" format="ixt:datemonthdayyearen" id="Fact000010" name="dei:DocumentPeriodEndDate">November 9, 2026</ix:nonNumeric></span>)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_904_edei--EntityRegistrantName_c20261109__20261109_zLkibAMQkps7"><ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000011" name="dei:EntityRegistrantName">NRG ENERGY, INC.</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Exact name of registrant as specified in its
+charter)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table border="0" cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr>
+    <td style="vertical-align: top; width: 32%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_906_edei--EntityIncorporationStateCountryCode_c20261109__20261109_zB7Z3lU8mD0j"><ix:nonNumeric contextRef="AsOf2026-11-09" format="ixt-sec:stateprovnameen" id="Fact000012" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span><br/>
+(State or other jurisdiction of<br/>
+ incorporation)</td>
+    <td style="vertical-align: bottom; width: 2%">&#160;</td>
+    <td style="vertical-align: top; width: 32%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_90F_edei--EntityFileNumber_c20261109__20261109_zjS5WmXtt1bj"><ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000013" name="dei:EntityFileNumber">001-15891</ix:nonNumeric></span></b></span><br/>
+(Commission File Number)</td>
+    <td style="vertical-align: bottom; width: 2%">&#160;</td>
+    <td style="vertical-align: top; width: 32%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_907_edei--EntityTaxIdentificationNumber_c20261109__20261109_zcXNAK7Ri9ml"><ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000014" name="dei:EntityTaxIdentificationNumber">41-1724239</ix:nonNumeric></span></b></span><br/>
+(IRS Employer <br/>
+Identification No.)</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><b><span id="xdx_902_edei--EntityAddressAddressLine1_c20261109__20261109_z7gfQYPMchn7"><ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000015" name="dei:EntityAddressAddressLine1">1301 McKinney St</ix:nonNumeric></span>, <span id="xdx_906_edei--EntityAddressCityOrTown_c20261109__20261109_z9EEICTaAJWf"><ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000016" name="dei:EntityAddressCityOrTown">Houston</ix:nonNumeric></span>, <span id="xdx_907_edei--EntityAddressStateOrProvince_c20261109__20261109_zTV3JvESJ0D5"><ix:nonNumeric contextRef="AsOf2026-11-09" format="ixt-sec:stateprovnameen" id="Fact000017" name="dei:EntityAddressStateOrProvince">Texas</ix:nonNumeric></span> <span id="xdx_90C_edei--EntityAddressPostalZipCode_c20261109__20261109_zpYJr9kYf2G1"><ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000018" name="dei:EntityAddressPostalZipCode">77010</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Address of principal executive offices, including
+zip code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; font-size: 10pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b>(<span id="xdx_90F_edei--CityAreaCode_c20261109__20261109_zDerXSIrRPm6"><ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000019" name="dei:CityAreaCode">713</ix:nonNumeric></span>)
+<span id="xdx_90A_edei--LocalPhoneNumber_c20261109__20261109_zwcDxx2THUd7"><ix:nonNumeric contextRef="AsOf2026-11-09" id="Fact000020" name="dei:LocalPhoneNumber">537-3000</ix:nonNumeric></span></b></span><br/>
+(Registrant&#8217;s telephone number, including area code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; font-size: 10pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>N/A</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Former Name or Former Address, if Changed Since
+Last Report)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">Check the appropriate box below if the Form&#160;8-K filing
+is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font-size: 10pt; margin-top: 0; margin-bottom: 0; width: 100%"><tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_90E_edei--WrittenCommunications_c20261109__20261109_zMQlLDt19ALh" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-11-09" format="ixt:booleanfalse" id="Fact000021" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span></td><td style="text-align: left">Written communications pursuant to Rule&#160;425 under the Securities
+Act (17 CFR 230.425)</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: left">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_904_edei--SolicitingMaterial_c20261109__20261109_zJpHYMklnpFg" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-11-09" format="ixt:booleanfalse" id="Fact000022" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span></td><td style="text-align: left">Soliciting material pursuant to Rule&#160;14a-12 under the Exchange
+Act (17 CFR 240.14a-12)</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: left">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_903_edei--PreCommencementTenderOffer_c20261109__20261109_zwSoKTPsguX4" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-11-09" format="ixt:booleanfalse" id="Fact000023" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span></td><td style="text-align: left">Pre-commencement communications pursuant to Rule&#160;14d-2(b)&#160;under
+the Exchange Act (17 CFR 240.14d-2(b))</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: left">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_90A_edei--PreCommencementIssuerTenderOffer_c20261109__20261109_zGTEpd2hJCNf" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-11-09" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span></td><td style="text-align: left">Pre-commencement communications pursuant to Rule&#160;13e-4(c)&#160;under
+the Exchange Act (17 CFR 240.13e-4(c))</td>
+</tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt"><b>Securities registered pursuant
+to Section&#160;12(b)&#160;of the Act:</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt">&#160;</p>
+
+<table border="0" cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr style="vertical-align: bottom">
+    <td style="border-bottom: Black 1pt solid; border-image: none; width: 34%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Title&#160;of&#160;each&#160;class</b></span></td>
+    <td style="width: 2%; text-align: center"><b>&#160;</b></td>
+    <td style="border-bottom: Black 1pt solid; padding-bottom: 1pt; border-image: none; width: 26%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Trading&#160;Symbol(s)</b></span></td>
+    <td style="width: 2%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>&#160;</b></span></td>
+    <td style="border-bottom: Black 1pt solid; padding-bottom: 1pt; border-image: none; width: 36%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Name&#160;of&#160;each&#160;exchange&#160;on&#160;which<br/>
+
+    registered</b></span></td></tr>
+<tr style="font-weight: normal; vertical-align: top">
+    <td style="vertical-align: middle; text-align: center"><span id="xdx_90A_edei--Security12bTitle_c20261109__20261109__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_zPMdN3j50Xnl"><ix:nonNumeric contextRef="From2026-11-092026-11-09_us-gaap_CommonStockMember_exch_XNYS" id="Fact000025" name="dei:Security12bTitle">Common Stock, par value $0.01</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; vertical-align: middle; text-align: center"><span id="xdx_90E_edei--TradingSymbol_c20261109__20261109__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_zn6wIQ6Wn4el"><ix:nonNumeric contextRef="From2026-11-092026-11-09_us-gaap_CommonStockMember_exch_XNYS" id="Fact000026" name="dei:TradingSymbol">NRG</ix:nonNumeric></span></td>
+    <td style="font-weight: normal; text-align: center">&#160;</td>
+    <td style="font-weight: normal; text-align: center"><span id="xdx_90D_edei--SecurityExchangeName_c20261109__20261109__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_zjTQPeJXew8k"><ix:nonNumeric contextRef="From2026-11-092026-11-09_us-gaap_CommonStockMember_exch_XNYS" format="ixt-sec:exchnameen" id="Fact000027" name="dei:SecurityExchangeName">New York Stock Exchange</ix:nonNumeric></span></td></tr>
+<tr style="font-weight: normal; vertical-align: top">
+    <td style="vertical-align: middle; text-align: center"><span id="xdx_90D_edei--Security12bTitle_c20261109__20261109__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zvkAbNu6hcA6"><ix:nonNumeric contextRef="From2026-11-092026-11-09_us-gaap_CommonStockMember_custom_NYSETexasMember" id="Fact000028" name="dei:Security12bTitle">Common Stock, par value $0.01</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; vertical-align: middle; text-align: center"><span id="xdx_905_edei--TradingSymbol_c20261109__20261109__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zP5aSrHJopK2"><ix:nonNumeric contextRef="From2026-11-092026-11-09_us-gaap_CommonStockMember_custom_NYSETexasMember" id="Fact000029" name="dei:TradingSymbol">NRG</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; text-align: center"><span id="xdx_900_edei--SecurityExchangeName_c20261109__20261109__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zqzlVnEjSK4b"><ix:nonNumeric contextRef="From2026-11-092026-11-09_us-gaap_CommonStockMember_custom_NYSETexasMember" format="ixt-sec:exchnameen" id="Fact000030" name="dei:SecurityExchangeName">NYSE</ix:nonNumeric></span> Texas</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">Indicate by check mark whether the registrant is an emerging
+growth company as defined in Rule&#160;405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule&#160;12b-2 of
+the Securities Exchange Act of 1934 (&#167;240.12b-2 of this chapter).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0; text-align: left; font-size: 10pt"><span style="font: 10pt Times New Roman, Times, Serif">Emerging growth company &#160;</span><span style="font-family: Wingdings"><span id="xdx_908_edei--EntityEmergingGrowthCompany_c20261109__20261109_zbPUZtP2ZFNb"><ix:nonNumeric contextRef="AsOf2026-11-09" format="ixt:booleanfalse" id="Fact000031" name="dei:EntityEmergingGrowthCompany">&#168;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; text-align: left; font-size: 10pt"><span style="font: 10pt Times New Roman, Times, Serif">If an emerging
+growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with
+any new or revised financial accounting standards provided pursuant to Section&#160;13(a)&#160;of the Exchange Act. </span><span style="font-family: Wingdings">&#168;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;&#160;</p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><div style="border-top: Black 1pt solid; border-bottom: Black 2pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="margin-top: 0pt; margin-bottom: 0pt"></p>
+
+<p style="margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="margin: 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; color: #212529"><b>Item 1.01 Entry into a Material Definitive Agreement</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; background-color: white; color: #212529">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white"><span style="font-family: Times New Roman, Times, Serif; color: #212529">On
+November 9, 2026, NRG Energy, Inc., a Delaware corporation (the &#8220;<span style="text-decoration: underline">Company</span>&#8221;), entered into a Purchase and Sale Agreement
+(the &#8220;<span style="text-decoration: underline">Purchase Agreement</span>&#8221;), by and between the Company</span> <span style="color: #212529">and Orbit Acquisition Holdco,
+LLC, a Delaware limited liability company and an affiliate of LS Power Equity Advisors, LLC (&#8220;<span style="text-decoration: underline">Buyer</span>&#8221;). Subject to the
+terms and conditions of the Purchase Agreement, the Company has agreed to </span>cause certain of its subsidiaries to <span style="color: #212529">sell
+to Buyer all of the issued and outstanding equity interests in </span>(i) Linebacker Power Funding, LLC, a Delaware limited liability
+company, (ii) Jack County Power Development, LLC, a Delaware limited liability company, (iii) Ravenswood Operations, LLC, a New York limited
+liability company, (iv) Ravenswood Services, LLC, a New York limited liability company, (v) Ravenswood Holdings, LLC, a Delaware limited
+liability company, (vi) Ravenswood Unit 40, LLC, a New York limited liability company, (vii) Ocean State Power, LLC, a Rhode Island limited
+liability company, (viii) Wallingford Energy, LLC, a Connecticut limited liability company, and (ix) Rise Development, LLC, a Delaware
+limited liability company (collectively, together with their respective direct and indirect subsidiaries, the &#8220;<span style="text-decoration: underline">Acquired Companies</span>&#8221;).
+The acquisition of the equity interests, together with the other transactions contemplated by the Purchase Agreement, is referred to herein
+as the &#8220;<span style="text-decoration: underline">Transaction</span>.&#8221;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white; color: #212529">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white"><span style="font-family: Times New Roman, Times, Serif">Subject
+to the terms and conditions of the Purchase Agreement, the aggregate purchase price for the Transaction will consist of $4.0 billion
+in cash, subject to net working capital and other adjustments set forth in the Purchase Agreement.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Purchase Agreement contains representations
+and warranties customary for transactions of this type. The parties have agreed to various customary covenants and agreements, including,
+among others, an agreement by the Company to cause the Acquired Companies to conduct their businesses in the ordinary course of business
+in all material respects during the period between the execution of the Purchase Agreement and the closing of the Transaction (the &#8220;<span style="text-decoration: underline">Closing</span>&#8221;).
+In addition, the Company, solely with respect to the Acquired Companies, has agreed to certain limitations on the operation of their respective
+businesses during such period, as set forth more fully in the Purchase Agreement.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">Subject to the terms
+and limitations set forth in the Purchase Agreement, Buyer has agreed to take, and to cause certain of its affiliates to take, all actions
+necessary to obtain the required governmental approvals as promptly as practicable and in any event before May 9, 2027 (as such date may
+be extended pursuant to the Purchase Agreement, the &#8220;<span style="text-decoration: underline">End Date</span>&#8221;).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Consummation of the Transaction is subject to
+customary closing conditions, including (i)&#160;the absence of any law or order that restrains, enjoins or otherwise prohibits the consummation
+of the Transaction, (ii)&#160;the expiration or termination of the waiting period and the receipt of other required approvals under the
+Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended, (iii) the receipt of all necessary approvals, waivers and rulings from
+the United States Federal Energy Regulatory Commission and the New York State Public Service Commission, and (iv)&#160;other customary
+closing conditions, including the accuracy of each party&#8217;s representations and warranties and each party&#8217;s compliance with
+its covenants and agreements contained in the Purchase Agreement (subject in the case of this clause (iv)&#160;to certain materiality
+qualifiers). The Transaction is not subject to a financing condition. The Closing is expected to occur in 2027, subject to, among other
+things, the satisfaction of the foregoing conditions.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Purchase Agreement provides customary termination
+rights to the Company and Buyer, including the right of either party to terminate the Purchase Agreement if (i) a final, non-appealable
+order prohibits consummation of the Transaction; (ii) the other party breaches certain representations, warranties or covenants in a manner
+that would prevent the satisfaction of a closing condition, subject to applicable cure periods; or (iii) the Transaction has not been
+consummated by the End Date. The End Date may be automatically extended for up to two successive 90-day periods in certain circumstances,
+subject to the terms and limitations set forth in the Purchase Agreement.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Buyer will be required to pay the Company a termination
+fee of $200 million if (i) the Company terminates the Purchase Agreement due to certain breaches by Buyer, subject to applicable cure
+provisions, including Buyer&#8217;s failure to pursue required regulatory remedies; (ii) the Company terminates the Purchase Agreement
+due to Buyer&#8217;s failure to consummate the Transaction when required; or (iii) either party terminates the Purchase Agreement following
+the End Date when the Company would have been entitled to terminate the Purchase Agreement pursuant to either of the foregoing clauses.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+<!-- Field: Page; Sequence: 2 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 0pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">In connection with the Closing, the parties will
+enter into certain ancillary agreements, including a transition services agreement and other commercial agreements between certain Acquired
+Companies and a subsidiary of the Company relating to power and fuel management, natural gas supply and transportation capacity management.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="font-family: Times New Roman, Times, Serif">A
+copy of the Purchase Agreement has been included to provide investors with information regarding its terms. It is not intended to provide
+any other factual information about Buyer, the Company or the </span><span style="color: #212529">Acquired</span> Companies. In particular,
+the representations and warranties contained in the Purchase Agreement were made only for the purposes of the Purchase Agreement as of
+the specific dates therein, and were solely for the benefit of the parties to the Purchase Agreement. The representations and warranties
+contained in the Purchase Agreement may be subject to limitations agreed upon by the parties to the Purchase Agreement and are qualified
+by information in confidential disclosure schedules provided in connection with the signing of the Purchase Agreement. These confidential
+disclosure schedules contain information that modifies, qualifies and creates exceptions to the representations and warranties set forth
+in the Purchase Agreement. Additionally, certain representations and warranties in the Purchase Agreement may be subject to a standard
+of materiality provided for in the Purchase Agreement and have been used for the purpose of allocating risk among the parties, rather
+than establishing matters of fact. Investors are not third-party beneficiaries under the Purchase Agreement and should not rely on the
+representations, warranties and covenants or any descriptions thereof as characterizations of the actual state of facts or condition of
+Buyer, the Company or any of their respective subsidiaries or affiliates. Moreover, information concerning the subject matter of the representations
+and warranties may change after the date of the Purchase Agreement, which subsequent information may or may not be fully reflected in
+the Company&#8217;s public disclosures.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The foregoing description of the Purchase Agreement
+and the Transaction does not purport to be complete and is subject to, and qualified in its entirety by, the full text of the Purchase
+Agreement attached hereto as Exhibit&#160;2.1 to this Current Report on Form&#160;8-K, which is incorporated into this Item 1.01 by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i>&#160;</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; color: #212529"><b>Forward-Looking Statements</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; color: #212529">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">In addition to historical information, the information
+presented in this Current Report on Form 8-K includes forward-looking statements within the meaning of Section 27A of the Securities Act
+of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. These statements involve estimates, expectations,
+projections, goals, assumptions, known and unknown risks and uncertainties and can typically be identified by terminology such as &#8220;may,&#8221;
+&#8220;should,&#8221; &#8220;could,&#8221; &#8220;objective,&#8221; &#8220;projection,&#8221; &#8220;forecast,&#8221; &#8220;goal,&#8221;
+&#8220;guidance,&#8221; &#8220;outlook,&#8221; &#8220;expect,&#8221; &#8220;intend,&#8221; &#8220;seek,&#8221; &#8220;plan,&#8221; &#8220;think,&#8221;
+&#8220;anticipate,&#8221; &#8220;estimate,&#8221; &#8220;predict,&#8221; &#8220;target,&#8221; &#8220;potential&#8221; or &#8220;continue&#8221;
+or the negative of these terms or other comparable terminology. Such forward-looking statements include, but are not limited to, statements
+relating to the proposed Transaction, the satisfaction or waiver of the conditions necessary for the Company to complete the Transaction,
+as well as the anticipated timing of the Closing, including receipt of required regulatory approvals and satisfaction
+of other customary closing conditions, the anticipated benefits of the Transaction and use of proceeds therefrom, and the Company&#8217;s
+future revenues, income, indebtedness, capital structure, plans, expectations, objectives, projected financial performance and/or business
+results and other future events, and views of economic and market conditions.&#160; These forward-looking statements are subject to a
+variety of risks and uncertainties.&#160; Such risks and uncertainties include, but are not limited to, the possibility that the closing
+conditions to the Transaction may not be satisfied or waived in a timely manner or at all, including that a governmental entity may prohibit,
+delay or refuse to grant a necessary regulatory approval, as well as other risks and uncertainties described from time to time in the
+Company&#8217;s Forms 10-K, 10-Q, and 8-K filed with or furnished to the Securities and Exchange Commission.&#160; Consequently, actual
+results and experience may materially differ from those contained in any forward-looking statements.&#160; The Company makes no commitment
+to revise or update any forward-looking statements in order to reflect events or circumstances occurring or existing after the date any
+forward-looking statement is made, except as required by law.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; color: #212529"><b>Item
+9.01</b></span><b> Financial Statements and <span style="color: #212529">Exhibits.</span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; color: #212529"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><i>(d) Exhibits.</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; color: #212529">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="border: Black 1pt solid; width: 10%; padding-right: 5.4pt; padding-left: 5.4pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Exhibit<br/>
+ Number</span></td>
+    <td style="border-top: Black 1pt solid; border-right: Black 1pt solid; border-bottom: Black 1pt solid; width: 90%; padding-right: 5.4pt; padding-left: 5.4pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Document</span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="border-right: Black 1pt solid; border-bottom: Black 1pt solid; border-left: Black 1pt solid; padding-right: 5.4pt; padding-left: 5.4pt"><span style="font-size: 10pt"><a href="tm2629511d1_ex2-1.htm"><span style="font-family: Times New Roman, Times, Serif">2.1</span></a></span></td>
+    <td style="border-right: Black 1pt solid; border-bottom: Black 1pt solid; padding-right: 5.4pt; padding-left: 5.4pt"><span style="font-size: 10pt"><a href="tm2629511d1_ex2-1.htm"><span style="font-family: Times New Roman, Times, Serif">Purchase
+    and Sale Agreement, dated </span>as of November 9, 2026, by and between NRG Energy, Inc. and Orbit Acquisition Holdco, LLC.*</a></span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="border-right: Black 1pt solid; border-bottom: Black 1pt solid; border-left: Black 1pt solid; padding-right: 5.4pt; padding-left: 5.4pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: #212529">104</span></td>
+    <td style="border-right: Black 1pt solid; border-bottom: Black 1pt solid; padding-right: 5.4pt; padding-left: 5.4pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: #212529">Cover Page Interactive Data File (embedded within the Inline XBRL document)</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; color: #212529">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">* The schedules and exhibits have been omitted
+from this filing pursuant to Item 601(b)(2)&#160;of Regulation S-K. A copy of any omitted schedule or exhibit will be furnished to the
+Securities and Exchange Commission upon request.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 3 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 0pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SIGNATURES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">Pursuant to the requirements of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td>&#160;</td>
+    <td colspan="2" style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>NRG Energy,&#160;Inc.</b></span></td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td colspan="2" style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">(Registrant)</span></td>
+    <td>&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td style="width: 2%">&#160;</td>
+    <td style="width: 3%">&#160;</td>
+    <td style="width: 45%">&#160;</td>
+    <td style="width: 50%">&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td>
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</span></td>
+    <td style="border-bottom: black 1pt solid"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/ Christine A. Zoino</span></td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Christine A. Zoino</span></td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Corporate Secretary</span></td>
+    <td>&#160;</td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Dated: November&#160;10, 2026</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Page; Sequence: 4; Options: Last -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0">&#160;</p>
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJxVjl1qwzAQhE/gOyx6Dons9Af81ho3lDohuKa0lD4o8aaIWlqzUlLnSL1lZZlQKgRid+abkRAzsaIH3SHD631dQYOm75RHqPGAjHaPwVE8PuUQ3ho/tfOsrI/jBSwoMBiYm3m2C/voPGmHbQ6pXMjbRXYNcpnLK9iuRTLqBdmDbtF6rTpQtoUtU88aveLzlNCogSyZc2x6QXaabIiby0n+gUymGWzopL6JvxxUVSGSWTyJWDEd++AqB492JKHs0IQ6N9F/N/5mf3SeTL55ey4bHJRbo9khB0HKbJnKu7FzFCGq/wZ4n8wfl7xfzGhhSQ== -->
+<script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>

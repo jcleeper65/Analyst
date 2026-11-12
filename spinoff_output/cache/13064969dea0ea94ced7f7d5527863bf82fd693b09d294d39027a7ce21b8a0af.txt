@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:us-roles="http://fasb.org/us-roles/2025" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:srt="http://fasb.org/srt/2025" xmlns:mpx="http://marineproductscorp.com/20260515">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02E_US%2DGAAP%2D2025 -->
+<!-- Field: Set; Name: xdx; ID: xdx_039_mpx_marineproductscorp.com_20260515 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04C_20260515_20260515 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_051_edei%2D%2DCurrentFiscalYearEndDate_%2D%2DLS0xMi0zMQ== -->
+<!-- Field: Set; Name: xdx; ID: xdx_051_edei%2D%2DEntityCentralIndexKey_0001129155 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000004" name="dei:CurrentFiscalYearEndDate">--12-31</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000005" name="dei:EntityCentralIndexKey">0001129155</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="mpx-20260515.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-05-15">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001129155</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-05-15</xbrli:startDate>
+        <xbrli:endDate>2026-05-15</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-05-152026-05-15_dei_FormerAddressMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001129155</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="dei:EntityAddressesAddressTypeAxis">dei:FormerAddressMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-05-15</xbrli:startDate>
+        <xbrli:endDate>2026-05-15</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="margin: 0"></p>
+
+<!-- Field: Rule-Page -->
+<div style="text-align: left; margin-top: 12pt; margin-bottom: 3pt">
+<div style="border-top: black 2pt solid; border-bottom: black 1pt solid; width: 100%; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page --><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>UNITED STATES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span style="font-size: 14pt"><b>SECURITIES AND
+EXCHANGE COMMISSION</b></span><b><span style="font-size: 10pt"><br/>
+</span><span style="font-size: 13pt">Washington, DC 20549</span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<!-- Field: Rule-Page --><div style="width: 100%"><div style="border-top: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>FORM <span id="xdx_904_edei--DocumentType_c20260515__20260515_z4QagCH5Sbh5"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000010" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>CURRENT REPORT<br/>
+Pursuant to Section 13 or 15(d) of</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>The Securities Exchange Act of 1934</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Date of Report (Date of earliest event reported)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_907_edei--DocumentPeriodEndDate_c20260515__20260515_zZNRuVPEFRv8"><ix:nonNumeric contextRef="AsOf2026-05-15" format="ixt:datemonthdayyearen" id="Fact000011" name="dei:DocumentPeriodEndDate">May 15, 2026</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Rule-Page --><div style="width: 100%"><div style="border-top: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_901_edei--EntityRegistrantName_c20260515__20260515_ztLFVe5H8pN8"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000012" name="dei:EntityRegistrantName">Marine Products Group, LLC</ix:nonNumeric></span></b></p>
+
+<p style="font: bold 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(as successor in interest to Marine Products Corporation)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Exact name of registrant as specified in its charter)</p>
+
+<p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 34%; padding-right: 5.65pt; padding-left: 5.65pt; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_908_edei--EntityIncorporationStateCountryCode_c20260515__20260515_zczC04QrrAKl"><ix:nonNumeric contextRef="AsOf2026-05-15" format="ixt-sec:stateprovnameen" id="Fact000013" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span></td>
+    <td style="width: 33%; padding-right: 5.65pt; padding-left: 5.65pt; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_906_edei--EntityFileNumber_c20260515__20260515_zc3GQvpMoGLd"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000014" name="dei:EntityFileNumber">001-16263</ix:nonNumeric></span></b></span></td>
+    <td style="width: 33%; padding-right: 5.65pt; padding-left: 5.65pt; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_90C_edei--EntityTaxIdentificationNumber_c20260515__20260515_zAQhhGIQdyB"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000015" name="dei:EntityTaxIdentificationNumber">58-2572419</ix:nonNumeric></span></b></span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="padding-right: 5.65pt; padding-left: 5.65pt; text-align: center"><span style="font-size: 10pt">(State or other jurisdiction of<br/>
+incorporation)</span></td>
+    <td style="padding-right: 5.65pt; padding-left: 5.65pt; text-align: center"><span style="font-size: 10pt">(Commission<br/>
+File Number)</span></td>
+    <td style="padding-right: 5.65pt; padding-left: 5.65pt; text-align: center"><span style="font-size: 10pt">(IRS Employer<br/>
+Identification No.)</span></td></tr>
+  </table>
+
+<p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span id="xdx_90D_edei--EntityAddressAddressLine1_c20260515__20260515_zZeDGlzWM4id"><b><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000016" name="dei:EntityAddressAddressLine1">100
+Cherokee Cove Drive</ix:nonNumeric></b></span><b>, <span id="xdx_905_edei--EntityAddressCityOrTown_c20260515__20260515_zrkqRGJaJ5R2"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000017" name="dei:EntityAddressCityOrTown">Vonore</ix:nonNumeric></span></b><b>,
+<span id="xdx_90C_edei--EntityAddressStateOrProvince_c20260515__20260515_ztEwQmqpWkk6"><ix:nonNumeric contextRef="AsOf2026-05-15" format="ixt-sec:stateprovnameen" id="Fact000018" name="dei:EntityAddressStateOrProvince">Tennessee</ix:nonNumeric></span></b><b> <span id="xdx_90D_edei--EntityAddressPostalZipCode_c20260515__20260515_zK51qQ89pFzl"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000019" name="dei:EntityAddressPostalZipCode">37885</ix:nonNumeric></span></b><br/>
+(Address of principal executive offices, including zip code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b> <span id="xdx_90B_edei--CityAreaCode_c20260515__20260515_zrVI3LckAFOc"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000020" name="dei:CityAreaCode">423</ix:nonNumeric></span> <span id="xdx_902_edei--LocalPhoneNumber_c20260515__20260515_zMY6Z4Dk0mlf"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000021" name="dei:LocalPhoneNumber">884-2221</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Registrant&#8217;s telephone number, including area code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_901_edei--EntityInformationFormerLegalOrRegisteredName_c20260515__20260515_zP4pGFqoI04"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000022" name="dei:EntityInformationFormerLegalOrRegisteredName">Marine Products Corporation</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_905_edei--EntityAddressAddressLine1_c20260515__20260515__dei--EntityAddressesAddressTypeAxis__dei--FormerAddressMember_zuu6NE7DY5M5"><ix:nonNumeric contextRef="From2026-05-152026-05-15_dei_FormerAddressMember" id="Fact000023" name="dei:EntityAddressAddressLine1">2801 Buford Highway NE</ix:nonNumeric></span>, <span id="xdx_903_edei--EntityAddressAddressLine2_c20260515__20260515__dei--EntityAddressesAddressTypeAxis__dei--FormerAddressMember_zGQbCaC5Exfb"><ix:nonNumeric contextRef="From2026-05-152026-05-15_dei_FormerAddressMember" id="Fact000024" name="dei:EntityAddressAddressLine2">Suite 300</ix:nonNumeric></span>, <span id="xdx_90E_edei--EntityAddressCityOrTown_c20260515__20260515__dei--EntityAddressesAddressTypeAxis__dei--FormerAddressMember_zPqZ50szZpTl"><ix:nonNumeric contextRef="From2026-05-152026-05-15_dei_FormerAddressMember" id="Fact000025" name="dei:EntityAddressCityOrTown">Atlanta</ix:nonNumeric></span>,
+<span id="xdx_904_edei--EntityAddressStateOrProvince_c20260515__20260515__dei--EntityAddressesAddressTypeAxis__dei--FormerAddressMember_zC9xYHObxKaf"><ix:nonNumeric contextRef="From2026-05-152026-05-15_dei_FormerAddressMember" format="ixt-sec:stateprovnameen" id="Fact000026" name="dei:EntityAddressStateOrProvince">Georgia</ix:nonNumeric></span> <span id="xdx_903_edei--EntityAddressPostalZipCode_c20260515__20260515__dei--EntityAddressesAddressTypeAxis__dei--FormerAddressMember_zDYH3Uxwpr06"><ix:nonNumeric contextRef="From2026-05-152026-05-15_dei_FormerAddressMember" id="Fact000027" name="dei:EntityAddressPostalZipCode">30329</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Former name or former address, if changed since
+last report)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Check the appropriate box below if the Form 8-K
+filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; border-collapse: collapse; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="width: 0.25in; text-align: justify; text-indent: 0px"><span style="font-family: Wingdings"><span id="xdx_906_edei--WrittenCommunications_c20260515__20260515_zxzriy2tpNQ7"><ix:nonNumeric contextRef="AsOf2026-05-15" format="ixt:booleanfalse" id="Fact000028" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span></span></td>
+    <td style="text-align: justify; text-indent: 0px"><span style="font-size: 10pt">Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</span></td></tr>
+</table>
+
+<p style="margin: 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; border-collapse: collapse; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="text-align: justify; text-indent: 0px; width: 0.25in"><span style="font-family: Wingdings"><span id="xdx_90B_edei--SolicitingMaterial_c20260515__20260515_zWE76is1cxD8"><ix:nonNumeric contextRef="AsOf2026-05-15" format="ixt:booleanfalse" id="Fact000029" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span></span></td>
+    <td style="text-align: justify; text-indent: 0px"><span style="font-size: 10pt">Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</span></td></tr>
+</table>
+
+<p style="margin: 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; border-collapse: collapse; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="text-align: justify; text-indent: 0px; width: 0.25in"><span style="font-family: Wingdings"><span id="xdx_908_edei--PreCommencementTenderOffer_c20260515__20260515_zH4DDPO9MPo5"><ix:nonNumeric contextRef="AsOf2026-05-15" format="ixt:booleanfalse" id="Fact000030" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span></span></td>
+    <td style="text-align: justify; text-indent: 0px"><span style="font-size: 10pt">Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</span></td></tr>
+</table>
+
+<p style="margin: 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; border-collapse: collapse; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="text-align: justify; text-indent: 0px; width: 0.25in"><span style="font-family: Wingdings"><span id="xdx_906_edei--PreCommencementIssuerTenderOffer_c20260515__20260515_zsTELf6Gfctg"><ix:nonNumeric contextRef="AsOf2026-05-15" format="ixt:booleanfalse" id="Fact000031" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span></span></td>
+    <td style="text-align: justify; text-indent: 0px"><span style="font-size: 10pt">Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</span></td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">Securities registered pursuant to Section
+12(b) of the Act:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; border-collapse: collapse; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="border-bottom: black 1pt solid; width: 34%; text-align: center"><span style="font-size: 10pt">Title of each class</span></td>
+    <td style="padding-bottom: 1pt; width: 2%; text-align: center">&#160;</td>
+    <td style="border-bottom: black 1pt solid; width: 28%; text-align: center"><span style="font-size: 10pt">Trading Symbol(s)</span></td>
+    <td style="padding-bottom: 1pt; width: 2%; text-align: center">&#160;</td>
+    <td style="border-bottom: black 1pt solid; width: 34%; text-align: center"><span style="font-size: 10pt">Name of each exchange on which registered</span></td></tr>
+<tr style="vertical-align: top">
+    <td style="text-align: center"><span style="font-size: 10pt"><span id="xdx_908_edei--Security12bTitle_c20260515__20260515_z9wMki3lx20h"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000032" name="dei:Security12bTitle">Common Stock, $0.10 par value</ix:nonNumeric></span></span></td>
+    <td style="text-align: center">&#160;</td>
+    <td style="text-align: center"><span style="font-size: 10pt"><span id="xdx_90A_edei--TradingSymbol_c20260515__20260515_zJ06vjHIQ6a2"><ix:nonNumeric contextRef="AsOf2026-05-15" id="Fact000033" name="dei:TradingSymbol">MPX</ix:nonNumeric></span></span></td>
+    <td style="text-align: center">&#160;</td>
+    <td style="text-align: center"><span style="font-size: 10pt"><span id="xdx_90F_edei--SecurityExchangeName_c20260515__20260515_zgU2jLMQbne9"><ix:nonNumeric contextRef="AsOf2026-05-15" format="ixt-sec:exchnameen" id="Fact000034" name="dei:SecurityExchangeName">New York Stock Exchange</ix:nonNumeric></span></span></td></tr>
+</table>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant
+is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule 12b-2 of the
+Securities Exchange Act of 1934 (&#167;240.12b-2 of this chapter).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right">Emerging growth company <span id="xdx_908_edei--EntityEmergingGrowthCompany_c20260515__20260515_zWTefFYS0Ow6" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-05-15" format="ixt:booleanfalse" id="Fact000035" name="dei:EntityEmergingGrowthCompany">&#168;</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">If an emerging growth company, indicate
+by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial
+accounting standards provided pursuant to Section 13(a) of the Exchange Act. <span style="font-family: Wingdings">&#168;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>&#160;</b></p>
+
+<!-- Field: Rule-Page -->
+<div style="text-align: left; margin-top: 3pt; margin-bottom: 12pt">
+<div style="border-top: black 1pt solid; border-bottom: black 2pt solid; width: 100%; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page --><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>Introductory Note</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This Current Report on Form 8-K is being filed in connection with the
+completion of the previously announced Mergers (as defined below) pursuant to the Agreement and Plan of Merger dated as of February 5,
+2026 (the &#8220;Merger Agreement&#8221;) by and among MasterCraft Boat Holdings, Inc., a Delaware corporation (&#8220;MasterCraft&#8221;),
+Titan Merger Sub 1, Inc., a Delaware corporation and a wholly owned, direct subsidiary of MasterCraft (&#8220;Merger Sub I&#8221;), Titan
+Merger Sub 2, LLC., a Delaware limited liability company and a wholly owned, direct subsidiary of MasterCraft (&#8220;Merger Sub II&#8221;),
+and Marine Products Corporation (&#8220;Marine Products&#8221;).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On May 15, 2026, pursuant to the Merger Agreement, Merger Sub I merged
+with and into Marine Products (the &#8220;First Merger&#8221;), with Marine Products surviving the First Merger as a direct wholly owned
+subsidiary of MasterCraft, and (ii) immediately following the First Merger, Marine Products merged with and into Merger Sub II (the &#8220;Second
+Merger&#8221; and, together with the First Merger, the &#8220;Mergers&#8221;), with Merger Sub II surviving the Second Merger as a wholly
+owned subsidiary of MasterCraft. At the effective time of the Second Merger, Merger Sub II was renamed &#8220;Marine Products Group, LLC&#8221;.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The descriptions of the Merger Agreement and the transactions contemplated
+thereby (including without limitation, the Mergers) in this Current Report on Form 8-K are only a summary, do not purport to be complete
+and are subject to, and qualified in their entirety by reference to, the full text of the Merger Agreement, a copy of which was filed
+as Exhibit 2.1 to Marine Products&#8217; Current Report on Form 8-K filed with the Securities and Exchange Commission (&#8220;SEC&#8221;)
+on February 5, 2026, which is incorporated herein by reference. Capitalized terms used herein but not otherwise defined will have the
+meanings ascribed to them in the Merger Agreement.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Item 2.01. Completion of Acquisition or Disposition
+of Assets.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information set forth in the Introductory Note of this Current
+Report on Form 8-K is incorporated by reference into this Item 2.01.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">At the effective time of the First Merger (the &#8220;First Effective
+Time&#8221;), each share of Marine Products common stock, par value $0.10 per share (&#8220;Marine Products Common Stock&#8221;) issued
+and outstanding immediately prior to the First Effective Time, except for shares held by MasterCraft or Marine Products, or their direct
+or indirect subsidiaries, converted into the right to receive 0.232 shares (the &#8220;Stock Consideration&#8221;) of MasterCraft common
+stock, par value $0.01 per share (&#8220;MasterCraft Common Stock&#8221;) and $2.43 in cash, without interest (the &#8220;Cash Consideration&#8221;
+and, together with the Stock Consideration, the &#8220;Merger Consideration&#8221;). The Merger Consideration was not delivered with respect
+to (i)&#160;shares of Marine Products Common Stock that were directly owned by Marine Products, any subsidiary of Marine Products, MasterCraft,
+Merger Sub I or Merger Sub II immediately prior to the First Merger, each of which were canceled and ceased to exist upon the completion
+of the First Merger, (ii)&#160;Dissenting Shares (as defined in the Merger Agreement), and (iii)&#160;Assumed RSAs (as defined below).
+No fractional shares of MasterCraft Common Stock were issued in connection with the First Merger. Instead, the total number of shares
+that each Marine Products stockholder received in the First Merger was rounded down to the nearest whole number, and each Marine Products
+stockholder received cash payable in lieu of any fractional share of MasterCraft Common Stock to which they otherwise would have been
+entitled. The amount of cash payable for a fractional share of MasterCraft Common Stock was determined by multiplying the fraction by
+$25.27, the Closing VWAP (as defined in the Merger Agreement), rounded to the nearest whole cent (with 0.5 being rounded down).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the Merger Agreement, immediately prior to the First Effective
+Time, each Marine Products restricted stock award (&#8220;Marine Products RSA&#8221;) that was outstanding immediately prior to the First
+Effective Time, automatically and without any action on the part of the holder thereof accelerated and vested in full and was treated
+in the same manner as shares of Marine Products Common Stock for purposes of receiving the Merger Consideration, except that certain Marine
+Products RSAs granted in 2026 and held by employees who are continuing with the combined company following the closing (the &#8220;Assumed
+RSAs&#8221;), converted into (i) the Cash Consideration for each share of Marine Products restricted stock subject to such Assumed RSAs
+and (ii) MasterCraft restricted stock awards (&#8220;MasterCraft&#160;RSAs&#8221;), corresponding to a number of shares of MasterCraft
+Common Stock equal to the product of (x) the number of shares of Marine Products restricted stock subject to such Assumed RSA and (y)
+the Stock Consideration. Each MasterCraft RSA issued in respect of an Assumed RSA has the same time-vesting restrictions that applied
+to the corresponding Marine Products RSAs immediately prior to the First Effective Time, provided that such MasterCraft RSAs also includes
+double-trigger&#160;change-in-control&#160;vesting provisions following the Mergers.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Additionally, immediately prior to the First Effective Time, (i) each
+unvested Marine Products performance stock unit (&#8220;Marine Products PSU&#8221;) with an incomplete performance period as of the First
+Effective Time vested in full based on &#8220;target&#8221; performance and was treated in the same manner as shares of Marine Products
+Common Stock for purposes of receiving the Merger Consideration, (ii) each unvested Marine Products PSU with a completed performance period
+as of the First Effective Time vested in full based on &#8220;actual&#8221; performance and was treated in the same manner as shares of
+Marine Products Common Stock for purposes of receiving the Merger Consideration, and (iii) each Marine Products dividend equivalent right
+that was outstanding as of immediately prior to the closing was settled in Marine Products Common Stock, and the number of Marine Products
+Common Stock issued in respect of each such Marine Products dividend equivalent right was determined by dividing (a) the value of such
+Marine Products dividend equivalent right by (b) $8.18, the per share closing price of Marine Products Common Stock on the New York Stock
+Exchange (&#8220;NYSE&#8221;) on the trading day immediately preceding the closing (&#8220;DER Settlement Shares&#8221;), and such DER
+Settlement Shares were treated in the same manner as shares of Marine Products Common Stock for purposes of receiving the Merger Consideration.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+<!-- Field: Page; Sequence: 2 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Item 3.01. Notice of Delisting or Failure to
+Satisfy a Continued Listing Rule or Standard; Transfer of Listing.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information set forth in the Introductory
+Note and under Item 2.01 of this Current Report on Form 8-K is incorporated by reference in this Item 3.01.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Prior to the completion of the Mergers, shares
+of Marine Products Common Stock were listed and traded on the NYSE under the trading symbol &#8220;MPX&#8221;. In connection with the
+consummation of the Mergers, Marine Products Group, LLC, as successor in interest to Marine Products (&#8220;Marine Products Group&#8221;),
+notified NYSE that each issued and outstanding share of Marine Products Common Stock as of immediately prior to the First Effective Time
+(except as described in Item 2.01) was cancelled and converted, at the First Effective Time, into the right to receive the Merger Consideration
+pursuant to the Merger Agreement as described under Item 2.01, and requested that NYSE file a Form 25 with the SEC to remove the Marine
+Products Common Stock from listing on NYSE and deregister Marine Products Common Stock pursuant to Section 12(b) of the&#160;Securities
+Exchange Act of 1934, as amended (the &#8220;Exchange Act&#8221;).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Marine Products Common Stock ceased trading
+on NYSE effective before the open of business on May 15, 2026. After effectiveness of the Form 25, Marine Products Group intends to file
+with the SEC a certification and notice of termination on Form 15 to terminate the registration of Marine Products Common Stock under
+the&#160;Exchange Act&#160;and suspend Marine Products Group&#8217;s reporting obligations under Sections 13 and 15(d) of the&#160;Exchange
+Act.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Item 3.03. Material Modification to Rights
+of Security Holders.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information set forth in the Introductory
+Note and in Items 2.01, 3.01, 5.01 and 5.03 of this Current Report on Form 8-K is incorporated by reference in this Item 3.03.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">At the First Effective Time, each holder of shares
+of Marine Products Common Stock outstanding immediately prior to the First Effective Time ceased to have any rights as a stockholder of
+Marine Products (other than the right to receive the Merger Consideration for such shares pursuant to the terms of the Merger Agreement).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Item 5.01. Changes in Control of Registrant.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information set forth in the Introductory
+Note and under Item 2.01 of this Current Report on Form 8-K is incorporated by reference in this Item 5.01.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As a result of the consummation of the Mergers,
+a change in control of Marine Products occurred effective as of the First Effective Time, with Marine Products surviving the First Merger
+as a wholly owned subsidiary of MasterCraft, and immediately following the First Merger, Marine Products merged with and into Merger Sub
+II, with Merger Sub II surviving the Second Merger as a wholly owned subsidiary of MasterCraft.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Effective as of the First Effective Time, MasterCraft
+increased the size of the MasterCraft board of directors from seven (7)&#160;members to ten (10)&#160;members, and appointed Timothy C.
+Rollins, Callum C. Macgregor and Stephen E. Lewis to the MasterCraft board of directors.&#160; In addition, in accordance with that certain
+Stockholders&#8217; Agreement (the &#8220;Stockholders&#8217; Agreement&#8221;), dated as of February 5, 2026, as amended on March&#160;11,
+2026, by and among MasterCraft and the specified stockholders party thereto (the &#8220;Specified Stockholders&#8221;), from the closing
+of the Mergers and until the expiration date defined therein, the Specified Stockholders, acting by majority consent, have the right to
+nominate up to two (2)&#160;directors (one &#8220;Family Designee&#8221; (initially Timothy C. Rollins) and one &#8220;Independent Designee&#8221;
+(initially Callum C. Macgregor)) while the Specified Stockholders beneficially own at least 15% of the total voting power of the MasterCraft
+Common Stock, and one Family Designee while the Specified Stockholders beneficially own at least 10% but less than 15% of the total voting
+power of the MasterCraft Common Stock. If the Specified Stockholders&#8217; aggregate beneficial ownership drops below 15% (for the Independent
+Designee) or below 10% (for the Family Designee), the applicable designee must promptly resign, and MasterCraft may fill the vacancy.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+<!-- Field: Page; Sequence: 3 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Item 5.02. Departure of Directors or Certain
+Officers&#894; Election of Directors&#894; Appointment of Certain Officers&#894; Compensatory Arrangements of Certain Officers.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The information set forth in the Introductory Note and in Item 2.01
+of this Current Report on Form 8-K is incorporated by reference in this Item 5.02.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">In connection with the Mergers, the following persons, who were directors
+of Marine Products immediately prior to the completion of the First Merger, voluntarily resigned from the board of directors of Marine
+Products (the &#8220;Board&#8221;) and the committees of the Board on which they served, if any, immediately prior to the First Effective
+Time: Richard A. Hubbell, Jerry W. Nix, Susan R. Bell, Patrick J. Gunning, Gary Kolstad, Amy R. Kreisler, Stephen E. Lewis, Ben M. Palmer,
+Timothy C. Rollins and John F. Wilson.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Effective upon completion of the First Merger, the following named
+executive officers of Marine Products voluntarily resigned from any and all of their respective director, manager, or officer positions
+with Marine Products or any of its subsidiaries: Richard A. Hubbell, Ben M. Palmer and Michael L. Schmit.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the terms of the Merger Agreement, at the First Effective
+Time, the directors and officers of Merger Sub I immediately prior to the First Effective Time became the directors and officers of Marine
+Products immediately following the First Effective Time: Bradley M. Nelson and W. Scott Kent.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the terms of the Merger Agreement, at the Second Effective
+Time, the officers of Merger Sub II immediately prior to the Second Effective Time became the officers of Merger Sub II immediately following
+the Second Effective Time: Bradley M. Nelson, as Chief Executive Officer, and W. Scott Kent, Chief Financial Officer.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Item 5.03. Amendments to Articles of Incorporation
+of Bylaws; Change in Fiscal Year.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information contained in the Introductory
+Note and in Item 2.01 of this Current Report on Form 8-K is incorporated by reference in this Item 5.03.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the Merger Agreement, at the First
+Effective Time, Marine Products&#8217; certificate of incorporation, as amended, as in effect immediately prior to the First Effective
+Time became the certificate of incorporation for the First Merger surviving entity, and Marine Products&#8217; bylaws, as amended and
+restated, as in effect immediately prior to the First Effective Time, became the bylaws of the First Merger surviving entity.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the Merger Agreement, at the Second
+Effective Time, the certificate of formation of Merger Sub II as in effect immediately prior to the Second Effective Time became the certificate
+of formation for the Second Merger surviving entity, and the Limited Liability Company Agreement of Merger Sub II as in effect immediately
+prior to the Second Effective Time was amended and restated in its entirety to be in the form of limited liability company agreement of
+Merger Sub II as in effect immediately prior to the Second Effective Time, except that references to Merger Sub II&#8217;s name were replaced
+with references to Marine Products Group, LLC. A copy of the Amended and Restated Limited Liability Company Agreement of Marine Products
+Group, LLC is filed as Exhibit 3.1 to this Current Report on Form 8-K.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Item 9.01. Financial Statements and Exhibits.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">(d) Exhibits</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 5%; text-align: justify"><a href="https://www.sec.gov/Archives/edgar/data/1129155/000110465926010931/tm265315d2_ex2-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">2.1</span></a></td>
+    <td style="width: 1%; text-align: justify">&#160;</td>
+    <td style="width: 94%; text-align: justify"><a href="https://www.sec.gov/Archives/edgar/data/1129155/000110465926010931/tm265315d2_ex2-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">Agreement and Plan of Merger, dated as of February 5, 2026, by and among MasterCraft Boat Holdings, Inc., Titan Merger Sub 1, Inc., Titan Merger Sub 2, LLC and Marine Products Corporation (incorporated herein by reference to Exhibit 2.1 of Marine Products Corporation&#8217;s Current Report on Form 8-K filed with the SEC on February 5, 2026)*</span></a></td></tr>
+  <tr style="vertical-align: top">
+    <td style="text-align: justify"><a href="tm2614719d1_ex3-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">3.1</span></a></td>
+    <td style="text-align: justify">&#160;</td>
+    <td style="text-align: justify"><a href="tm2614719d1_ex3-1.htm" style="-sec-extract: exhibit"><span style="font-size: 10pt">Amended and Restated Limited Liability Company Agreement of Marine Products Group, LLC</span></a></td></tr>
+  <tr style="vertical-align: top">
+    <td style="text-align: justify"><span style="font-size: 10pt">104</span></td>
+    <td style="text-align: justify">&#160;</td>
+    <td style="text-align: justify"><span style="font-size: 10pt">Cover Page Interactive Data File (embedded within the Inline XBRL document)</span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="text-align: justify">&#160;</td>
+    <td style="text-align: justify">&#160;</td>
+    <td style="text-align: justify">&#160;</td></tr>
+  <tr style="vertical-align: top">
+    <td colspan="3" style="text-align: justify"><span style="font-size: 10pt">*All schedules and/or exhibits have been omitted pursuant to Item 601(b)(2) of Regulation S-K. A copy of any omitted schedule and/or exhibit will be furnished to the SEC upon request. </span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 5 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt"></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SIGNATURES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">Pursuant to the requirements of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="vertical-align: top; width: 50%"><span style="font-size: 10pt">Date: May 15, 2026</span></td>
+    <td style="vertical-align: top; width: 3%">&#160;</td>
+    <td style="vertical-align: bottom; width: 47%">
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>MARINE PRODUCTS GROUP, LLC</b></p>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">(as successor in interest to Marine Products Corporation)</p></td></tr>
+  <tr>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top">&#160;</td>
+    <td style="vertical-align: top">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top"><span style="font-size: 10pt">By:</span></td>
+    <td style="border-bottom: Black 1pt solid; vertical-align: top"><span style="font-size: 10pt">/s/ W. Scott Kent </span></td></tr>
+  <tr>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top">&#160;</td>
+    <td style="vertical-align: top"><span style="font-size: 10pt">Name: W. Scott Kent</span></td></tr>
+  <tr>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top">&#160;</td>
+    <td style="vertical-align: top"><span style="font-size: 10pt">Title: Chief Financial Officer </span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 6; Options: Last -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt"></p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJxFjd0KwjAMhZ9g7xB6LVs3f8BdOlTEKWOIeFtclOLWjLROfSTf0rohhkBIzvlyhBiJNa10jQynRZnDAZu2Vg6hxAsymjN6R7bZpuBniVdtHSvj+vUHZuQZ9MwsnCp/752dtlilICfRWEbJDOQ8jcdQ7ETw1TMyF12hcVrVoEwFBVPLGp3i1/DhoJ5kqHn1SUdkq8mkEIdykN+QyDiBPXXqQXyzkOeZCEZ9BWLNdG+9a/l0aL4kLGtsfJwd6H8HH84FSmA= -->
+<script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>

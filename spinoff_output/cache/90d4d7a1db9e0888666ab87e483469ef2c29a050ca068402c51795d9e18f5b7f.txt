@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:us-roles="http://fasb.org/us-roles/2025" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:exch="http://xbrl.sec.gov/exch/2025" xmlns:srt="http://fasb.org/srt/2025" xmlns:nrg="http://nrgenergy.com/20260106">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_027_US%2DGAAP%2D2025_exch -->
+<!-- Field: Set; Name: xdx; ID: xdx_030_nrg_nrgenergy.com_20260106 -->
+<!-- Field: Set; Name: xdx; ID: xdx_044_20260106_20260106 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_054_edei%2D%2DEntityCentralIndexKey_0001013871 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000004" name="dei:EntityCentralIndexKey">0001013871</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="nrg-20260106.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2026-01-06">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-01-06</xbrli:startDate>
+        <xbrli:endDate>2026-01-06</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-01-062026-01-06_us-gaap_CommonStockMember_exch_XNYS">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+          <xbrldi:explicitMember dimension="dei:EntityListingsExchangeAxis">exch:XNYS</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-01-06</xbrli:startDate>
+        <xbrli:endDate>2026-01-06</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2026-01-062026-01-06_us-gaap_CommonStockMember_custom_NYSETexasMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001013871</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+          <xbrldi:explicitMember dimension="dei:EntityListingsExchangeAxis">nrg:NYSETexasMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2026-01-06</xbrli:startDate>
+        <xbrli:endDate>2026-01-06</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 12pt; margin-bottom: 3pt; width: 100%"><div style="border-top: Black 2pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>UNITED STATES </b></p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION </b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span style="font-size: 10pt"><b>WASHINGTON, D.C.
+20549</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>FORM&#160;<span id="xdx_90E_edei--DocumentType_c20260106__20260106_zjk8XVFwbAZ7"><ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000009" name="dei:DocumentType">8-K/A</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span style="font-size: 10pt"><b>CURRENT REPORT</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Pursuant to Section 13 or 15(d) of the Securities
+Exchange Act of 1934</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Date of Report (Date of earliest event reported): <b><span id="xdx_903_edei--DocumentPeriodEndDate_c20260106__20260106_zQsLW655Epvi"><ix:nonNumeric contextRef="AsOf2026-01-06" format="ixt:datemonthdayyearen" id="Fact000010" name="dei:DocumentPeriodEndDate">January 6, 2026</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_908_edei--EntityRegistrantName_c20260106__20260106_zPaYGd06ETf1"><ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000011" name="dei:EntityRegistrantName">NRG ENERGY, INC.</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Exact name of registrant as specified in its
+charter)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table border="0" cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr>
+    <td style="vertical-align: top; width: 48%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_900_edei--EntityIncorporationStateCountryCode_c20260106__20260106_z8fMJ5317Xg4"><ix:nonNumeric contextRef="AsOf2026-01-06" format="ixt-sec:stateprovnameen" id="Fact000012" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span><br/>
+(State or other jurisdiction of incorporation)</td>
+    <td style="vertical-align: bottom; width: 2%">&#160;</td>
+    <td style="vertical-align: top; width: 20%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_904_edei--EntityFileNumber_c20260106__20260106_zDXk0K8Oufb4"><ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000013" name="dei:EntityFileNumber">001-15891</ix:nonNumeric></span></b></span><br/>
+(Commission File Number)</td>
+    <td style="vertical-align: bottom; width: 2%">&#160;</td>
+    <td style="vertical-align: top; width: 28%; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_90A_edei--EntityTaxIdentificationNumber_c20260106__20260106_zWOKNS2hxig8"><ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000014" name="dei:EntityTaxIdentificationNumber">41-1724239</ix:nonNumeric></span></b></span><br/>
+(IRS Employer <br/>
+Identification No.)</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="text-align: center; width: 100%"><span id="xdx_900_edei--EntityAddressAddressLine1_c20260106__20260106_znUUoPcPLsZa"><b><ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000015" name="dei:EntityAddressAddressLine1">1301
+    McKinney Street</ix:nonNumeric></b></span><b>, <span id="xdx_90A_edei--EntityAddressCityOrTown_c20260106__20260106_zkx4i2wVAPhb"><ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000016" name="dei:EntityAddressCityOrTown">Houston</ix:nonNumeric></span></b><b>,
+    <span id="xdx_907_edei--EntityAddressStateOrProvince_c20260106__20260106_zWWHz8czGGNg"><ix:nonNumeric contextRef="AsOf2026-01-06" format="ixt-sec:stateprovnameen" id="Fact000017" name="dei:EntityAddressStateOrProvince">Texas</ix:nonNumeric></span></b><b> <span id="xdx_90C_edei--EntityAddressPostalZipCode_c20260106__20260106_zZSryA67U5V8"><ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000018" name="dei:EntityAddressPostalZipCode">77010</ix:nonNumeric></span></b></td>
+    </tr>
+  <tr style="vertical-align: top">
+    <td style="text-align: center">(Address of principal executive offices, including zip code)</td>
+    </tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; font-size: 10pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b>(<span id="xdx_907_edei--CityAreaCode_c20260106__20260106_z2EpwDE2NTR8"><ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000019" name="dei:CityAreaCode">713</ix:nonNumeric></span>)
+<span id="xdx_905_edei--LocalPhoneNumber_c20260106__20260106_zD7JXMwAd2u1"><ix:nonNumeric contextRef="AsOf2026-01-06" id="Fact000020" name="dei:LocalPhoneNumber">537-3000</ix:nonNumeric></span></b></span><br/>
+(Registrant&#8217;s telephone number, including area code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; font-size: 10pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>N/A</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Former Name or Former Address, if Changed Since Last Report)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Check the appropriate box below if the Form&#160;8-K filing
+is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font-size: 10pt; margin-top: 0; margin-bottom: 0; width: 100%"><tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_901_edei--WrittenCommunications_c20260106__20260106_zVXTXgFCA5nc" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-01-06" format="ixt:booleanfalse" id="Fact000021" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Written communications pursuant to Rule&#160;425 under the Securities
+Act (17 CFR 230.425)</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: justify">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_90E_edei--SolicitingMaterial_c20260106__20260106_zAiacHVAYxge" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-01-06" format="ixt:booleanfalse" id="Fact000022" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Soliciting material pursuant to Rule&#160;14a-12 under the Exchange
+Act (17 CFR 240.14a-12)</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: justify">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_90F_edei--PreCommencementTenderOffer_c20260106__20260106_zuShqIsGc9Vl" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-01-06" format="ixt:booleanfalse" id="Fact000023" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Pre-commencement communications pursuant to Rule&#160;14d-2(b)&#160;under
+the Exchange Act (17 CFR 240.14d-2(b))</td>
+</tr><tr style="vertical-align: top; text-align: justify">
+<td style="text-align: left">&#160;</td><td style="text-align: justify">&#160;</td></tr>
+
+<tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left"><span id="xdx_90B_edei--PreCommencementIssuerTenderOffer_c20260106__20260106_ziHprvs5H328" style="font-family: Wingdings"><ix:nonNumeric contextRef="AsOf2026-01-06" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span></td><td style="text-align: justify">Pre-commencement communications pursuant to Rule&#160;13e-4(c)&#160;under
+the Exchange Act (17 CFR 240.13e-4(c))</td>
+</tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt"><b>Securities registered pursuant
+to Section&#160;12(b)&#160;of the Act:</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt"></p>
+
+<table border="0" cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr style="vertical-align: bottom">
+    <td style="border-bottom: Black 1pt solid; border-image: none; width: 34%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Title&#160;of&#160;each&#160;class</b></span></td>
+    <td style="width: 2%; text-align: center"><b>&#160;</b></td>
+    <td style="border-bottom: Black 1pt solid; padding-bottom: 1pt; border-image: none; width: 26%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Trading&#160;Symbol(s)</b></span></td>
+    <td style="width: 2%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>&#160;</b></span></td>
+    <td style="border-bottom: Black 1pt solid; padding-bottom: 1pt; border-image: none; width: 36%; text-align: center"><span style="font: normal 10pt Times New Roman, Times, Serif"><b>Name&#160;of&#160;each&#160;exchange&#160;on&#160;which&#160;<br/>
+registered</b></span></td></tr>
+<tr style="font-weight: normal; vertical-align: top">
+    <td style="vertical-align: middle; text-align: center"><span id="xdx_905_edei--Security12bTitle_c20260106__20260106__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_zVL6wTqdnmqf"><ix:nonNumeric contextRef="From2026-01-062026-01-06_us-gaap_CommonStockMember_exch_XNYS" id="Fact000025" name="dei:Security12bTitle">Common Stock, par value $0.01</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; vertical-align: middle; text-align: center"><span id="xdx_901_edei--TradingSymbol_c20260106__20260106__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_z1M0BDeVO4b4"><ix:nonNumeric contextRef="From2026-01-062026-01-06_us-gaap_CommonStockMember_exch_XNYS" id="Fact000026" name="dei:TradingSymbol">NRG</ix:nonNumeric></span></td>
+    <td style="font-weight: normal; text-align: center">&#160;</td>
+    <td style="font-weight: normal; text-align: center"><span id="xdx_90A_edei--SecurityExchangeName_c20260106__20260106__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__exch--XNYS_z3eJbgG3wRn2"><ix:nonNumeric contextRef="From2026-01-062026-01-06_us-gaap_CommonStockMember_exch_XNYS" format="ixt-sec:exchnameen" id="Fact000027" name="dei:SecurityExchangeName">New York Stock Exchange</ix:nonNumeric></span></td></tr>
+<tr style="font-weight: normal; vertical-align: top">
+    <td style="vertical-align: middle; text-align: center"><span id="xdx_90D_edei--Security12bTitle_c20260106__20260106__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zh0d1s1SnjQk"><ix:nonNumeric contextRef="From2026-01-062026-01-06_us-gaap_CommonStockMember_custom_NYSETexasMember" id="Fact000028" name="dei:Security12bTitle">Common Stock, par value $0.01</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; vertical-align: middle; text-align: center"><span id="xdx_90B_edei--TradingSymbol_c20260106__20260106__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_znFA3dTlTNw6"><ix:nonNumeric contextRef="From2026-01-062026-01-06_us-gaap_CommonStockMember_custom_NYSETexasMember" id="Fact000029" name="dei:TradingSymbol">NRG</ix:nonNumeric></span></td>
+    <td style="font-weight: bold; text-align: center">&#160;</td>
+    <td style="font-weight: normal; text-align: center"><span id="xdx_90F_edei--SecurityExchangeName_c20260106__20260106__us-gaap--StatementClassOfStockAxis__us-gaap--CommonStockMember__dei--EntityListingsExchangeAxis__custom--NYSETexasMember_zht9R3q9Jktc"><ix:nonNumeric contextRef="From2026-01-062026-01-06_us-gaap_CommonStockMember_custom_NYSETexasMember" format="ixt-sec:exchnameen" id="Fact000030" name="dei:SecurityExchangeName">NYSE</ix:nonNumeric></span> Texas</td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant is an emerging
+growth company as defined in Rule&#160;405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule&#160;12b-2 of
+the Securities Exchange Act of 1934 (&#167;240.12b-2 of this chapter).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0; text-align: left; font-size: 10pt"><span style="font: 10pt Times New Roman, Times, Serif">Emerging growth company &#160;</span><span style="font-family: Wingdings"><span id="xdx_901_edei--EntityEmergingGrowthCompany_c20260106__20260106_zvu5TXbCPSN"><ix:nonNumeric contextRef="AsOf2026-01-06" format="ixt:booleanfalse" id="Fact000031" name="dei:EntityEmergingGrowthCompany">&#168;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="margin: 0pt 0; text-align: justify; font-size: 10pt"><span style="font: 10pt Times New Roman, Times, Serif">If an emerging
+growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with
+any new or revised financial accounting standards provided pursuant to Section&#160;13(a)&#160;of the Exchange Act. </span><span style="font-family: Wingdings">&#168;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;&#160;</p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><div style="border-top: Black 1pt solid; border-bottom: Black 2pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="margin-top: 0pt; margin-bottom: 0pt"></p>
+
+<p style="margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="margin: 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>Explanatory Note</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">NRG Energy,&#160;Inc. (the &#8220;Company&#8221;) is filing this Form&#160;8-K/A
+as an amendment to the Current Report on Form&#160;8-K filed by the Company on January&#160;7, 2026 (the &#8220;Original 8-K&#8221;),
+reporting the appointment of Robert J. Gaudette as the Company&#8217;s Chief Executive Officer effective April&#160;30, 2026. This Amendment
+to the Original 8-K discloses, among other things, the material terms of Mr.&#160;Gaudette&#8217;s employment agreement, which was not
+yet finalized at the time of the filing of the Original 8-K.</p>
+
+<p style="margin: 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>Item 5.02&#160; Departure of Directors or Certain Officers; Election
+of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><i>Appointment of Mr.&#160;Gaudette as Chief Executive Officer</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">As previously disclosed in the Original 8-K, the Board of Directors
+of the Company appointed Mr.&#160;Gaudette as President of the Company, effective January&#160;6, 2026, and as Chief Executive Officer,
+effective April&#160;30, 2026.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Biographical and other information about Mr.&#160;Gaudette is included
+in the Company&#8217;s definitive proxy statement on Schedule 14A filed with the SEC on March&#160;18, 2026, as supplemented on April&#160;16,
+2026 (the &#8220;2026 Proxy Statement&#8221;). Mr.&#160;Gaudette does not have any family relationships with any director or executive
+officer of the Company, and there are no arrangements or understandings with any persons pursuant to which Mr.&#160;Gaudette has been
+appointed to his position. In addition, there have been no transactions directly or indirectly involving Mr.&#160;Gaudette that would
+be required to be disclosed pursuant to Item 404(a)&#160;of Regulation S-K promulgated under the Securities Exchange Act of 1934, as amended
+(the &#8220;Exchange Act&#8221;).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">In connection with his appointment as Chief Executive Officer, Mr.&#160;Gaudette
+entered into an employment agreement (the &#8220;Employment Agreement&#8221;) with the Company effective as of April&#160;30, 2026 (the
+&#8220;Effective Date&#8221;), pursuant to which he will serve as President and Chief Executive Officer until the date that his employment
+is terminated by either party in accordance with the Employment Agreement (the &#8220;Employment Period&#8221;).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The Employment Agreement entitles Mr.&#160;Gaudette to an annual base
+salary of $1,200,000. For each annual period thereafter, the Board will determine whether to increase Mr.&#160;Gaudette&#8217;s annual
+base salary. The Board may decrease Mr.&#160;Gaudette&#8217;s base salary in the case of an across-the-board adjustment for senior executives,
+but not in excess of the same percentage as other senior executives as a group.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The Employment Agreement provides that, commencing on the Effective
+Date and for each fiscal year during the Employment Period, Mr.&#160;Gaudette is eligible to receive an annual bonus based on achievement
+of criteria determined by the Board as soon as administratively practicable following the beginning of the applicable fiscal year, with
+input from Mr.&#160;Gaudette. Mr.&#160;Gaudette&#8217;s target annual bonus will be equal to 125% of his base salary, and the actual annual
+bonus earned for 2026 will be prorated for the portion of the 2026 fiscal year following the Effective Date. For the portion of the 2026
+fiscal year before the Effective Date, Mr.&#160;Gaudette will remain eligible to receive the annual bonus previously awarded to him for
+fiscal year 2026, which had a target amount equal to 100% of his base salary and which will be prorated for the portion of the 2026 fiscal
+year before the Effective Date.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The Employment Agreement provides that Mr.&#160;Gaudette is eligible
+to participate in the NRG Energy,&#160;Inc. Long-Term Incentive Plan (as may be amended from time to time or any successor plan), on such
+terms as are set forth in the plan, subject to the Board&#8217;s approval. For fiscal year 2026, Mr.&#160;Gaudette will receive a supplemental
+equity grant in the form of relative performance stock units (RPSUs) with a target grant-date fair value equal to $5,072,285. For fiscal
+year 2027, Mr.&#160;Gaudette will be eligible for an equity grant with a target grant-date fair value equal to no less than 825% of his
+base salary.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 2 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt"></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">In addition to the compensation and benefits described above, the Employment
+Agreement provides that Mr.&#160;Gaudette will receive the following:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0.25in"/><td style="width: 0.25in"><span style="font-family: Symbol">&#183;</span></td><td><span style="font-family: Times New Roman, Times, Serif">Reimbursement for annual tax return preparation expenses and tax advice
+                                                                                                             and financial planning, up to a maximum of $25,000 per year, and reimbursement for legal fees and expenses incurred in connection
+                                                                                                             with negotiating the Employment Agreement and other agreements referenced therein, up to a maximum of $10,000;</span></td></tr>
+<tr style="vertical-align: top">
+<td style="width: 0.25in"/><td style="width: 0.25in"><span style="font-family: Symbol">&#183;</span></td><td><span style="font-family: Times New Roman, Times, Serif">Eligibility to participate in the Company&#8217;s retirement plans, health
+and welfare plans, and disability insurance plans under the terms of such plans and to the same extent and under the same conditions as
+other senior management of the Company; and</span></td></tr>
+<tr style="vertical-align: top">
+<td style="width: 0.25in"/><td style="width: 0.25in"><span style="font-family: Symbol">&#183;</span></td><td><span style="font-family: Times New Roman, Times, Serif">Reimbursement of certain expenses in connection with litigation or other
+disputes under the Employment Agreement, subject to specified conditions.</span></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Mr.&#160;Gaudette will receive the following severance benefits if
+his employment is involuntarily terminated by the Company without cause or if he terminates employment for good reason (each as defined
+in the Employment Agreement), subject to Mr.&#160;Gaudette executing a release of claims and compliance with the post-termination restrictive
+covenants described below:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; margin-top: 0pt; margin-bottom: 0pt"><tr style="vertical-align: top">
+<td style="width: 0.25in"/><td style="width: 0.25in"><span style="font-family: Symbol">&#183;</span></td><td><span style="font-family: Times New Roman, Times, Serif">A lump sum payment equal to two times Mr.&#160;Gaudette&#8217;s annual base
+salary (if such termination occurs within 6 months prior to or 24 months following a change in control, equal to 2.99 times the sum of
+Mr.&#160;Gaudette&#8217;s (a)&#160;annual base salary and (b)&#160;target annual bonus for the year of termination);</span></td></tr>
+<tr style="vertical-align: top">
+<td style="width: 0.25in"/><td style="width: 0.25in"><span style="font-family: Symbol">&#183;</span></td><td><span style="font-family: Times New Roman, Times, Serif">A lump sum payment equal to the target annual bonus for the year of termination,
+which amount will be prorated based on the number of days during the year that he was employed by the Company; and</span></td></tr>
+<tr style="vertical-align: top">
+<td style="width: 0.25in"/><td style="width: 0.25in"><span style="font-family: Symbol">&#183;</span></td><td><span style="font-family: Times New Roman, Times, Serif">Reimbursement of COBRA premiums for up to 18 months after the date of termination,
+except that such coverage will be discontinued if Mr.&#160;Gaudette becomes eligible for medical benefits from a subsequent employer or
+otherwise.</span></td></tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">If Mr.&#160;Gaudette&#8217;s employment is terminated as a result of
+his death or disability, the Company agrees to pay him a lump sum payment equal to the target annual bonus for the year of termination,
+which amount will be prorated based on the number of days during the year that he was employed by the Company.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">If an excise tax under Section&#160;4999 of the Internal Revenue Code
+would be triggered by any payments under the Employment Agreement or otherwise upon a change in control, the Company will either (a)&#160;pay
+Mr.&#160;Gaudette any amounts, subject to Section&#160;4999 of the Internal Revenue Code (and Mr.&#160;Gaudette will be responsible for
+the excise tax) or (b)&#160;reduce such payments so that no amounts are subject to Section&#160;4999 of the Internal Revenue Code, whichever
+results in a better after-tax amount for Mr.&#160;Gaudette.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The Employment Agreement includes non-competition and non-solicitation
+restrictions on Mr.&#160;Gaudette during the term of his employment and for one year after his termination of employment. The Employment
+Agreement also includes Company indemnification obligations and, for Mr.&#160;Gaudette, confidentiality, non-disparagement and intellectual
+property restrictions and an obligation for Mr.&#160;Gaudette to cooperate with the Company in the event of any internal, administrative,
+regulatory, or judicial proceeding.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The foregoing summary of the Employment Agreement is not complete and
+is qualified in its entirety by the terms and provisions of the Employment Agreement. A copy of the Employment Agreement is filed as Exhibit&#160;10.1
+to this report and is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><i>Transition and Retirement Agreement with Dr.&#160;Coben</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">Also as previously disclosed, Lawrence S. Coben stepped down as Chief
+Executive Officer and Chair of the Board effective April&#160;30, 2026. In connection with Dr.&#160;Coben&#8217;s transition, on April&#160;30,
+2026, the Company entered into a transition and retirement agreement (the &#8220;Retirement Agreement&#8221;) with Dr.&#160;Coben, pursuant
+to which Dr.&#160;Coben will provide services to the Company as a non-executive employee advisor for the period beginning on April&#160;30,
+2026 and ending on January&#160;4, 2027, or such later date as agreed in writing between the Company and Dr.&#160;Coben, unless earlier
+terminated in accordance with the Retirement Agreement.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Under the Retirement Agreement, Dr.&#160;Coben will receive a
+base salary at an annualized rate of $739,500, continued benefit plan participation, subject to the terms of the applicable plan,
+and will be eligible to receive an annual bonus for 2026 with a target amount equal to $1,848,750, subject to proration based on the
+time Dr.&#160;Coben served as the Company&#8217;s Chief Executive Officer in 2026, with the actual bonus earned based on the
+achievement of criteria determined by the Board of Directors. Dr.&#160;Coben will also be eligible for reimbursement of reasonable
+business expenses incurred in performing services under the Retirement Agreement in accordance with the Company&#8217;s
+policies.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 3 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt"></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">Because Dr.&#160;Coben is retirement eligible, upon his departure from
+the Company on April&#160;30, 2026, all of his outstanding equity awards that were granted at least 12 months prior to April&#160;30,
+2026 will continue to vest in accordance with the applicable terms.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">The foregoing summary of the Retirement Agreement is not complete and
+is qualified in its entirety by the terms and provisions of the Retirement Agreement. A copy of the Retirement Agreement is filed as Exhibit&#160;10.2
+to this report and is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b>Item 9.01. Financial Statements and Exhibits.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><i>(d)&#160;Exhibits.</i></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="vertical-align: bottom; width: 8%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><span style="text-decoration: underline">Exhibit<br/>
+Number</span></span></td>
+    <td style="width: 1%">&#160;</td>
+    <td style="vertical-align: bottom; width: 91%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><span style="text-decoration: underline">Description</span></span></td></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td style="white-space: nowrap">&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: top"><a href="tm2612875d2_ex10-1.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.1*</span></a></td>
+    <td>&#160;</td>
+    <td style="vertical-align: bottom"><a href="tm2612875d2_ex10-1.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Employment Agreement, dated April&#160;30, 2026, by and between NRG Energy,&#160;Inc. and Robert J. Gaudette</span></a></td></tr>
+  <tr>
+    <td style="vertical-align: top"><a href="tm2612875d2_ex10-2.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.2*</span></a></td>
+    <td>&#160;</td>
+    <td style="vertical-align: bottom"><a href="tm2612875d2_ex10-2.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Transition and Retirement Agreement, dated April&#160;30, 2026, by and between NRG Energy,&#160;Inc. and Lawrence S. Coben</span></a></td></tr>
+  <tr>
+    <td style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">104</span></td>
+    <td>&#160;</td>
+    <td style="vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Cover Page&#160;Interactive Data File (formatted as Inline XBRL)</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Exhibit&#160;relates
+to compensation arrangements.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 4 -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt"></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SIGNATURES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 0.5in">Pursuant to the requirements of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td colspan="2" style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>NRG Energy,&#160;Inc.</b></span></td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td colspan="2" style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">(Registrant)</span></td>
+    <td>&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td style="width: 3%">&#160;</td>
+    <td style="width: 47%">&#160;</td>
+    <td style="width: 50%">&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</span></td>
+    <td style="border-bottom: black 1pt solid"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/ Christine A. Zoino</span></td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Christine A. Zoino</span></td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td style="vertical-align: bottom">&#160;</td>
+    <td style="vertical-align: top"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Corporate Secretary</span></td>
+    <td>&#160;</td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Dated: April&#160;30, 2026</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 5; Options: Last -->
+    <div style="border-bottom: Black 1pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="margin: 0pt"></p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJxVjl1qwzAQhE/gOyx6Dons9Af81ho3lDohuKa0lD4o8aaIWlqzUlLnSL1lZZlQKgRid+abkRAzsaIH3SHD631dQYOm75RHqPGAjHaPwVE8PuUQ3ho/tfOsrI/jBSwoMBiYm3m2C/voPGmHbQ6pXMjbRXYNcpnLK9iuRTLqBdmDbtF6rTpQtoUtU88aveLzlNCogSyZc2x6QXaabIiby0n+gUymGWzopL6JvxxUVSGSWTyJWDEd++AqB492JKHs0IQ6N9F/N/5mf3SeTL55ey4bHJRbo9khB0HKbJnKu7FzFCGq/wZ4n8wfl7xfzGhhSQ== -->
+<script type="text/javascript"  src="/-JBR7li4DkT5p/OZVi4VcD8h/adzw/7fEtQmwkLrLcwGSO/NiohS1Jc/fhsqEBM-/PkA"></script></body>
+</html>
