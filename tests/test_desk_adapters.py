@@ -18,6 +18,7 @@ from desk_parts import Parts
 from desk_sources import Sources,write_json
 from desk_files import AssignedFiles
 from desk_timing import timed_role
+from desk_claims import parse_response
 import re
 
 
@@ -111,7 +112,7 @@ class AdapterTests(unittest.TestCase):
         def tool(store):captured['store']=store;return store
         scope={'Any':Any,'Path':Path,'json':json,'re':re,'AssignedFiles':AssignedFiles,'file_tool':tool,'timed_role':timed_role,'CLAIMS_ROLES':{'research_analyst.md'},'ROLE_CONTRACTS':{},
                'Agent':lambda **k:None,'Task':lambda **k:None,
-               'Crew':FakeCrew,'Process':SimpleNamespace(sequential='sequential'),'_safe_json':lambda raw,role:json.loads(raw)}
+               'Crew':FakeCrew,'Process':SimpleNamespace(sequential='sequential'),'parse_response':parse_response}
         exec(compile(ast.fix_missing_locations(ast.Module(body=[numbered,method],type_ignores=[])),str(source),'exec'),scope)
         path=self.run/'pick.json';path.write_text('{"ticker":"ZZZZ"}\n')
         self_stub=SimpleNamespace(output_dir=self.run,skill_files=[path],role_call_counts={},llm=object(),instructions=lambda name:'Role instructions',save_node=Mock())

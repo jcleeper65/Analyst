@@ -10,6 +10,18 @@ AUTHORS=('Research Analyst','Financial Analyst','Investment Advisor')
 PREFIX={role:role.replace(' ','_') for role in (*AUTHORS,'Strategy Manager','Verifier')}
 
 
+def manager_contract(run):
+    sections={}
+    for part,owner in PART_OWNERS.items():
+        try:path,_=latest(run,owner);name=str(path.with_name('draft.md').relative_to(Path(run)))
+        except ValueError:name=f'nodes/{PREFIX[owner]}_1/draft.md'
+        sections[part]={'file':name,'start':1,'end':1}
+    example={'claims':[],'failures':[],'sections':sections}
+    return ('Return exactly one JSON object. claims and failures are arrays. sections is an OBJECT keyed by the five exact section names, never a list. '
+            'Every section value is an object with file, start and end. Do not return draft or a part field inside a sections list. '
+            'Required shape (replace example start/end with actual inclusive body line ranges from the assigned files):\n'+json.dumps(example,indent=2))
+
+
 def latest(run,role):
     run=Path(run)
     for number in (2,1):
@@ -69,8 +81,11 @@ def validate(run,role,raw):
         return result
     if role=='Strategy Manager':
         failures=raw.get('failures');refs=raw.get('sections')
-        if not isinstance(failures,list) or not isinstance(refs,dict):
-            result.errors.append('Return claims, failures array, and sections containing saved file/start/end references.');return result
+        if not isinstance(raw.get('claims'),list):result.errors.append('claims must be an array; received '+type(raw.get('claims')).__name__+'.')
+        if not isinstance(failures,list):result.errors.append('failures must be an array; received '+type(failures).__name__+'.')
+        if not isinstance(refs,dict):result.errors.append('sections must be an object keyed by the five exact section names; received '+type(refs).__name__+'.')
+        if result.errors:
+            result.errors.append(manager_contract(run));return result
         prose=[]
         for item in failures:
             if not isinstance(item,dict) or item.get('part') not in PART_OWNERS or item.get('role')!=PART_OWNERS.get(item.get('part')) or not isinstance(item.get('feedback'),str):

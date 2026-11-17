@@ -38,12 +38,21 @@ LIST_LABEL = re.compile(r"(?:^|\n)\s*(?:\(\d{1,2}\)|\d{1,2}[.)])\s|\(\d{1,2}\)")
 ITEM_REF = re.compile(r"\bItem\s+\d+[A-C]?\b", re.I)
 LABEL_REF=re.compile(r'\b(?:section|criterion|table|figure|chapter)\s+\d+\b|\bclaim\s+c\d+\b',re.I)
 ISO_DATE=re.compile(r'(?<![\w$])\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})?)?\b')
-TEXT_DATE=re.compile(r'\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+(?:19|20)\d{2}\b')
+MONTHS=(r'(?:January|February|March|April|May|June|July|August|September|October|November|December|'
+        r'Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sept?|Oct|Nov|Dec)\.?')
+# "August 30", "Aug. 30, 2026", "August 30th" -- the year is optional; a day is 1-31 only.
+TEXT_DATE=re.compile(r'\b'+MONTHS+r'\s+(?:[1-9]|[12]\d|3[01])(?:st|nd|rd|th)?\b(?:,?\s+(?:19|20)\d{2}\b)?')
+# Source line identifiers in prose: L1030, L83-L85, L83–85, 10-K.txt:L1030, "line 83", "lines 83-85".
+LINE_REF=re.compile(r'(?:\b[\w./-]+\.(?:txt|json|md):)?(?<![\w$])L\d+(?:\s*[-–—]\s*L?\d+)?\b'
+                    r'|\blines?\s+\d+(?:\s*(?:[-–—]|to|and)\s*\d+)?\b',re.I)
 ACCESSION_REF=re.compile(r'\b\d{10}-\d{2}-\d{6}\b')
 FORM_REF = re.compile(r'\b(?:10-K|10-Q|8-K|20-F|40-F|6-K)(?:/A)?\b|\bForm\s+(?:3|4|5|10|144)\b',re.I)
 NUMBER_WORDS = '|'.join(SMALL|TENS|SCALES|{'hundred':100})
 UNIT_WORDS = (r"percent|percentage points?|basis points?|bps|trillion|billion|million|thousand|"
               r"warehouses?|stores?|members?|shares?|units?|cents?|dollars?|USD|EUR|GBP|times|x")
+IDENTIFIER_END=r'(?![\w%$€£]|\.\d|\s*(?:'+UNIT_WORDS+r')\b)'
+LINE_REF=re.compile('(?:'+LINE_REF.pattern+')'+IDENTIFIER_END,re.I)
+TEXT_DATE=re.compile('(?:'+TEXT_DATE.pattern+')'+IDENTIFIER_END)
 YEAR = re.compile(r'\b(?:fiscal(?:\s+year)?|year|in|for|during|the|from|since|through|versus|vs\.?|with)\s+(?:19|20)\d{2}\b(?!\s*(?:'+UNIT_WORDS+r')\b)|(?<![\w$.,])(?:19|20)\d{2}(?=\s+(?:net\s+(?:sales|income)|gross\s+margin|fiscal\s+year|revenue|results)\b)',re.I)
 WORD_AMOUNT = re.compile(
     rf"\b(?:{NUMBER_WORDS})(?:[\s-]+(?:{NUMBER_WORDS}))*\s+(?:{UNIT_WORDS})\b", re.I)
@@ -68,6 +77,45 @@ def complete_value(value,quote,source):
             if not re.search(r'\d|\b(?:'+NUMBER_WORDS+r')\b',value,re.I):continue
             return True
     return False
+
+
+class ResponseFormatError(ValueError):
+    """A model reply that is not exactly one JSON object. Keeps the raw text for the record."""
+    def __init__(self, message: str, raw: str):
+        super().__init__(message)
+        self.raw = raw
+
+
+def parse_response(text: str, role: str) -> dict[str, Any]:
+    """Exactly one JSON object, optionally in a ```json fence. Anything else is a repairable error."""
+    cleaned=(text or '').strip()
+    if cleaned.startswith('```') or cleaned.endswith('```'):
+        fence=re.fullmatch(r'```(?:json)?\s*\n?(.*?)\s*```',cleaned,re.I|re.S)
+        if not fence:raise ResponseFormatError(f'{role} reply has an unmatched JSON fence. Return exactly one JSON object.',text)
+        cleaned=fence[1].strip()
+    start = cleaned.find("{")
+    if start < 0:
+        raise ResponseFormatError(f"{role} reply contained no JSON object. Return exactly one JSON object.", text)
+    try:
+        def unique(pairs):
+            result={}
+            for key,value in pairs:
+                if key in result:raise ValueError('duplicate JSON key: '+key)
+                result[key]=value
+            return result
+        def finite(value):raise ValueError('nonfinite JSON number: '+value)
+        value, end = json.JSONDecoder(object_pairs_hook=unique,parse_constant=finite).raw_decode(cleaned, start)
+    except ValueError as error:
+        raise ResponseFormatError(f"{role} reply is not valid JSON ({error}). Return exactly one JSON object.", text) from None
+    if not isinstance(value, dict):
+        raise ResponseFormatError(f"{role} reply was JSON but not an object. Return exactly one JSON object.", text)
+    before, after = cleaned[:start].strip(), cleaned[end:].strip()
+    if before or after:
+        # Never guess which part was meant: a trailing object may be a revised answer.
+        extra = (before or after)[:160]
+        raise ResponseFormatError(f"{role} reply had text outside its JSON object ({extra!r}). Return exactly one "
+                                  "JSON object with nothing before or after it.", text)
+    return value
 
 
 @dataclass
@@ -258,6 +306,7 @@ def check(output: dict[str, Any], texts: dict[str, str], facts: dict[str, Any] |
     for n, line in enumerate(draft.splitlines(), 1):
         prose = PLACEHOLDER.sub("", line)
         prose = re.sub(r"\[[\w./-]+\.txt:L\d+\]", "", prose) # source identifiers only
+        prose = LINE_REF.sub(" ", prose)
         for start,end in reversed(enumeration_spans(prose)):
             prose=prose[:start]+' '*(end-start)+prose[end:]
         for allowed in (ISO_DATE,TEXT_DATE,ACCESSION_REF,YEAR, QUARTER, ITEM_REF, FORM_REF,LABEL_REF):
@@ -311,8 +360,13 @@ def with_repairs(ask, texts: dict[str, str], facts: dict[str, Any], repairs: int
     """
     attempts, feedback = [], None
     for _ in range(repairs + 1):
-        raw = ask(feedback)
-        result = validator(raw) if validator else check(raw, texts, facts)
+        try:
+            raw = ask(feedback)
+        except ResponseFormatError as error:
+            # A malformed reply uses one bounded repair attempt instead of stopping the run.
+            raw, result = {"unparsed_response": error.raw}, Result(errors=[str(error)])
+        else:
+            result = validator(raw) if validator else check(raw, texts, facts)
         attempts.append({"output": raw, "errors": result.errors})
         if on_attempt:on_attempt(attempts)
         if result.ok:

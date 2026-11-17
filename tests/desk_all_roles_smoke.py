@@ -58,11 +58,21 @@ with tempfile.TemporaryDirectory() as tmp:
     corrected_sections=json.loads(json.dumps(sections))
     corrected_sections['Valuation Insights']['file']='nodes/Financial_Analyst_2/draft.md'
     corrected_financial={**financial,'draft':financial['draft'].replace('Cash generation','Reported cash generation')}
+    manager_review={'claims':[],'failures':[{'role':'Financial Analyst','part':'Valuation Insights','feedback':'Clarify the reported cash generation definition.'}],'sections':sections}
+    malformed=json.dumps(manager_review)+'\n'+json.dumps({'failures':[]})
     runtime.llm=StubLLM(emit_events=False,responses=[
-        *replies(author_files(all_authors),{'claims':[],'failures':[{'role':'Financial Analyst','part':'Valuation Insights','feedback':'Clarify the reported cash generation definition.'}],'sections':sections}),
+        *[tool_call('read_assigned_file',{'file':f}) for f in author_files(all_authors)],
+        'Final Answer: '+malformed,
+        *replies(author_files(all_authors),manager_review),
         *replies(['calculated_facts.json'],corrected_financial),
         *replies(corrected_files,{'claims':[],'failures':[],'sections':corrected_sections})])
     report=Path(flow.strategy_manager(''))
+    manager_node=run/'nodes/Strategy_Manager_1'
+    raws=json.loads((manager_node/'raw_responses.json').read_text())
+    attempts=json.loads((manager_node/'claim_attempts.json').read_text())
+    assert len(raws)==2 and raws[0]['raw']==malformed
+    assert len(attempts)==2 and attempts[0]['output']['unparsed_response']==malformed
+    assert attempts[0]['errors'] and not attempts[1]['errors']
     catalog=report_catalog(run)
     checks=[{'target':c['target'],'status':'correct','reason':'The saved evidence supports the meaning and period.','correction':''} for c in catalog]
     answer(['calculated_facts.json',*corrected_files,'report.md','verifier_input.json'],{'claims':[],'checks':checks})

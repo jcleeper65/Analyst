@@ -101,6 +101,14 @@ Each role invocation permits at most two claim-repair attempts after its first
 attempt. These require paid model work in a real run, including any file-tool
 round trips. They do not consume another role invocation. Attempts and errors
 are saved under `nodes/<role>_N/claim_attempts.json`, including exhausted attempts.
+Malformed JSON uses this same budget. Every completed reply is saved verbatim
+to `nodes/<role>_N/raw_responses.json` before parsing or the required-read check.
+These raw logs are diagnostic evidence, not accepted report claims. Repair
+feedback includes the previous reply and exact errors. The parser requires one
+JSON object, optionally in a matched code fence; it rejects extra text, a second
+object, duplicate keys, and nonfinite numbers. It never selects an answer from
+ambiguous replies. Dates without years and prose line references are identifiers;
+nearby financial amounts still require checked claims.
 The existing limit of two invocations per role remains. Manager-requested
 corrections run in Research, Financial, Advisor order. Unresolved review failures
 stop the run. Provider/tool failures still stop the run. The worksheet's

@@ -21,8 +21,8 @@ from report_naming import create_run, report_number
 from equity_research_desk import Desk
 from desk_files import AssignedFiles, file_tool
 from desk_timing import timed_role, elapsed
-from desk_claims import load_sources, with_repairs
-from desk_role_contracts import validate as validate_role,latest,report_text,report_catalog,code_marks as ledger_marks,verified_text
+from desk_claims import load_sources, parse_response, with_repairs
+from desk_role_contracts import validate as validate_role,latest,report_text,report_catalog,code_marks as ledger_marks,verified_text,manager_contract
 
 
 SECTIONS = (
@@ -75,15 +75,8 @@ class DeskStepTool(BaseTool):
 
 
 def _safe_json(text: str, role: str) -> dict[str, Any]:
-    cleaned = text.strip()
-    cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", cleaned, flags=re.I)
-    try:
-        result = json.loads(cleaned)
-    except json.JSONDecodeError as exc:
-        raise RuntimeError(f"{role} did not return valid JSON: {exc}") from exc
-    if not isinstance(result, dict):
-        raise RuntimeError(f"{role} returned JSON that was not an object")
-    return result
+    """Kept for callers outside role_call; same rules as the repair loop's parser."""
+    return parse_response(text, role)
 
 
 def numbered_lines(path: Path) -> str:
@@ -211,10 +204,15 @@ class Runtime:
             # Keep verify-only support for historical reports without ledgers.
             claims_mode=False;contract_role='Legacy Verifier'
         if claims_mode:
+            if contract_role=='Strategy Manager':
+                instruction=' Select saved file/start/end ranges. Return sections as an object keyed by the five exact section names, never a list. Do not return a draft. Use checked claim placeholders only if feedback needs an amount.'
+            elif contract_role=='Verifier':
+                instruction=' Select published claim targets by role and claim ID. Return checks, not a draft. Use checked placeholders for any amounts in reasons or corrections.'
+            else:
+                instruction=' Record every reported number as a checked claim and write it in the draft only as its {cN} placeholder. A filing quote must come from its cited line and its complete value must be copied exactly.'
             envelope={**envelope,"task":envelope["task"]+
-                      " Record every reported number as a claim with its exact quote, file, and line, and write it in the draft only as its {cN} placeholder."
-                      " The quote must come from the single cited line and the value must be copied exactly from the quote.",
-                      "expected_output":("JSON with claims and sections of saved file/start/end references, plus failures with feedback templates." if contract_role=='Strategy Manager' else
+                      instruction,
+                      "expected_output":(manager_contract(self.output_dir) if contract_role=='Strategy Manager' else
                           "JSON with claims and checks; each check has target (role, claim), status, reason and correction templates." if contract_role=='Verifier' else
                           "JSON object with claims array and draft string. The draft contains no typed financial numbers, only {cN} placeholders.")}
         else:
@@ -247,6 +245,8 @@ class Runtime:
                       "context":{"assigned_context":envelope["context"],"skill_output_files":store.manifest()}}
         print(f"Node starting: {node}", flush=True)
         self.save_node(node, "input", envelope)
+        raw_replies: list[str] = []
+
         def ask(current: dict[str, Any]) -> dict[str, Any]:
             prompt = json.dumps(current, ensure_ascii=False)
             agent = Agent(
@@ -282,19 +282,19 @@ class Runtime:
                 "role_instructions":(self.instructions(instruction_file) if contract_role!='Legacy Verifier' else
                     'Verify the supplied historical report. Return checks with claim, status, reason, correction and source. Preserve exact saved source values; never calculate or invent them.'),
                 "role_expected_output":envelope['expected_output']})
+            # Save every reply verbatim before parsing, so a malformed one can be inspected.
+            raw_replies.append(str(result.raw))
+            self.save_node(node, "raw_responses", [{"attempt": i + 1, "raw": r} for i, r in enumerate(raw_replies)])
             if store:store.verify()
-            return _safe_json(result.raw, role)
+            return parse_response(raw_replies[-1], role)
 
         if claims_mode:
             texts, facts = load_sources(self.output_dir)
-            previous: list[Any] = []
-
             def attempt(feedback: str | None) -> dict[str, Any]:
+                # Show the model its own last reply verbatim, parsed or not.
                 current = envelope if feedback is None else {**envelope, "task": envelope["task"]
-                    + "\n\nYour previous JSON:\n" + json.dumps(previous[-1], ensure_ascii=False)
-                    + "\n\n" + feedback}
+                    + "\n\nYour previous reply:\n" + raw_replies[-1] + "\n\n" + feedback}
                 raw = ask(current)
-                previous.append(raw)
                 return raw if isinstance(raw, dict) else {}
 
             output, attempts = with_repairs(attempt, texts, facts,

@@ -7,7 +7,7 @@ import subprocess
 import sys
 from desk_claims import check,load_sources,with_repairs
 from desk_sources import write_json,Sources
-from desk_role_contracts import validate,verify_output,report_text,verify_team_file,report_catalog,code_marks,verified_text
+from desk_role_contracts import validate,verify_output,report_text,verify_team_file,report_catalog,code_marks,verified_text,manager_contract
 from desk_hook import Hook,HookFailure,report_errors
 from insight_layout import PART_OWNERS
 
@@ -78,6 +78,24 @@ class AllRoleContracts(unittest.TestCase):
         self.assertEqual(verify_output(self.run,out),[])
         raw['sections']['Overview']='Income $999'
         self.assertFalse(validate(self.run,'Strategy Manager',raw).ok)
+
+    def test_manager_list_error_names_required_type_and_shows_complete_shape(self):
+        raw,_,_=self.manager()
+        raw['sections']=[{'part':part,**ref} for part,ref in raw['sections'].items()]
+        result=validate(self.run,'Strategy Manager',raw)
+        self.assertFalse(result.ok)
+        self.assertIn('sections must be an object keyed by the five exact section names; received list.',result.errors)
+        shape=json.loads(result.errors[-1].split('):\n',1)[1])
+        self.assertEqual(set(shape['sections']),set(PART_OWNERS))
+        self.assertIsInstance(shape['claims'],list)
+        self.assertIsInstance(shape['failures'],list)
+        self.assertTrue(all(set(ref)=={'file','start','end'} for ref in shape['sections'].values()))
+
+    def test_manager_prompt_example_uses_latest_saved_author_filename(self):
+        self.authors()
+        self.save('Financial Analyst',{'claims':[{'id':'c1','computed':'free_cash_flow'}],'draft':'Cash {c1}.\nInsight: Cash matters at {c1}.'},number=2)
+        shape=json.loads(manager_contract(self.run).split('):\n',1)[1])
+        self.assertEqual(shape['sections']['Valuation Insights']['file'],'nodes/Financial_Analyst_2/draft.md')
 
     def test_manager_cannot_change_owner_or_choose_arbitrary_file(self):
         raw,_,_=self.manager()

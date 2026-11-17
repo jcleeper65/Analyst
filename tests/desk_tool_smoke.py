@@ -42,6 +42,8 @@ with tempfile.TemporaryDirectory() as tmp:
     except ValueError as error:assert 'did not read' in str(error)
     else:raise AssertionError('Unread assigned file was accepted')
     assert not (run/'nodes/Seeded_Reader_2/output.json').exists()
+    unread_raw=json.loads((run/'nodes/Seeded_Reader_2/raw_responses.json').read_text())
+    assert unread_raw[0]['raw']=='{"draft":"No read."}'
 
     # Test the real ToolFailure path with strict CrewAI failure policy.
     runtime.llm=StubLLM(emit_events=False,responses=[tool_call('read_assigned_file',{'file':'secret.env'})])
@@ -84,6 +86,21 @@ with tempfile.TemporaryDirectory() as tmp:
     assert len(attempts)==3 and all(a['errors'] for a in attempts)
     assert not (run/'nodes/Research_Analyst_2/output.json').exists()
     assert runtime.role_call_counts['Research Analyst']==2
+
+    # Malformed replies exhaust the same three-attempt budget, and every
+    # original reply and parse error remains in the run.
+    malformed_reply='{"claims": []}\n{"claims": [], "draft": "another answer"}'
+    runtime.llm=StubLLM(emit_events=False,responses=[
+        tool_call('read_assigned_file',{'file':'skill.md'}),
+        *['Final Answer: '+malformed_reply]*3])
+    try:runtime.role_call('Financial Analyst','financial_analyst.md',packet)
+    except ValueError as error:assert 'after repairs' in str(error)
+    else:raise AssertionError('Malformed replies escaped the repair cap')
+    f=run/'nodes/Financial_Analyst_1'
+    attempts=json.loads((f/'claim_attempts.json').read_text())
+    raw=json.loads((f/'raw_responses.json').read_text())
+    assert len(raw)==len(attempts)==3 and all(r['raw']==malformed_reply for r in raw)
+    assert all(a['errors'] for a in attempts) and not (f/'output.json').exists()
 
     # Reading a valid file does not permit changing a quoted amount.
     runtime.llm=StubLLM(emit_events=False,responses=[

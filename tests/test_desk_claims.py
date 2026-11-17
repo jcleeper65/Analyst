@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from desk_claims import check, verify_saved, with_repairs
+from desk_claims import ResponseFormatError, check, parse_response, verify_saved, with_repairs
 
 RUN = Path(__file__).resolve().parents[1] / "equity_research_output" / \
     "COSTCO WHOLESALE CORP _NEW, 2026-11-03, 09-34-33, verify 3"
@@ -166,6 +166,82 @@ class ClaimBoundaryRegressions(unittest.TestCase):
         r=check({'claims':[{'id':'c1','fact':'net_income'}],'draft':'Income {c1}.'},{},facts)
         self.assertTrue(r.ok,r.errors)
         self.assertIn('$1.23456789 billion',r.rendered)
+
+
+class FinancialRepairFalseFlags(unittest.TestCase):
+    def test_identifiers_cannot_hide_decimal_or_percentage_amounts(self):
+        for prose in ['Line 15% improved with {c1}.','L1030% improved with {c1}.','August 30% improved with {c1}.',
+                      'Line 15 million was spent with {c1}.','August 30 million was spent with {c1}.']:
+            self.assertFalse(run([SALES],prose).ok,prose)
+
+    """The five identifiers flagged in the COST practice run's Financial repair."""
+
+    def test_dates_and_line_identifiers_are_not_amounts(self):
+        for prose in ("For the year ended August 30, sales were {c1}.",
+                      "As of Aug. 30, 2026 and August 30th, sales were {c1}.",
+                      "See L1030 and L2278: sales were {c1}.",
+                      "Quarter revenue (L83–L85) and L83-85 show sales of {c1}.",
+                      "The 10-K.txt:L1030 passage and lines 83 to 85 show sales of {c1}."):
+            r = run([SALES], prose)
+            self.assertTrue(r.ok, (prose, r.errors))
+
+    def test_real_amounts_next_to_identifiers_still_fail(self):
+        for prose, typed in (("On August 30 sales were 93.9 billion, or {c1}.", "93.9"),
+                             ("L1030 shows capex of $6,435 and {c1}.", "$6,435"),
+                             ("August 32 sales were {c1}.", "32"),
+                             ("Lines rose 15% with {c1}.", "15%")):
+            r = run([SALES], prose)
+            self.assertTrue(any(typed in e for e in r.errors), (prose, r.errors))
+
+
+class MalformedReplies(unittest.TestCase):
+    GOOD = {"claims": [SALES], "draft": "Sales were {c1}."}
+
+    def test_unmatched_fences_and_ambiguous_or_nonfinite_objects_are_rejected(self):
+        text=json.dumps(self.GOOD)
+        for raw in ['```json\n'+text,text+'\n```','{"claims":[],"claims":[{}],"draft":"x"}',
+                    '{"claims":[],"draft":"x","n":NaN}','{"claims":[],"draft":"x","n":Infinity}']:
+            with self.assertRaises(ResponseFormatError) as caught:parse_response(raw,'Strategy Manager')
+            self.assertEqual(caught.exception.raw,raw)
+
+    def test_one_object_with_or_without_a_fence_parses(self):
+        text = json.dumps(self.GOOD)
+        self.assertEqual(parse_response(text, "Manager"), self.GOOD)
+        self.assertEqual(parse_response("```json\n" + text + "\n```", "Manager"), self.GOOD)
+
+    def test_extra_data_after_the_object_is_a_repairable_error_not_a_guess(self):
+        for text in (json.dumps(self.GOOD) + "\nI checked every section.",
+                     json.dumps(self.GOOD) + json.dumps({"failures": []}),
+                     "Here is my answer: " + json.dumps(self.GOOD),
+                     '{"claims": [', "[]"):
+            with self.assertRaises(ResponseFormatError) as caught:
+                parse_response(text, "Strategy Manager")
+            self.assertEqual(caught.exception.raw, text)          # raw reply is kept
+
+    def test_malformed_reply_uses_a_repair_attempt_and_is_recorded(self):
+        replies = [json.dumps(self.GOOD) + "\nDone.", json.dumps(self.GOOD)]
+        sent = []
+
+        def ask(feedback):
+            sent.append(feedback)
+            return parse_response(replies[len(sent) - 1], "Strategy Manager")
+
+        output, attempts = with_repairs(ask, TEXTS, FACTS)
+        self.assertEqual(len(attempts), 2)
+        self.assertEqual(attempts[0]["output"], {"unparsed_response": replies[0]})
+        self.assertIn("text outside its JSON object", sent[1])
+        self.assertEqual(output["claim_attempts"], 2)
+
+    def test_repeated_malformed_replies_stop_after_the_repair_limit(self):
+        calls = []
+
+        def ask(feedback):
+            calls.append(feedback)
+            return parse_response("not json", "Strategy Manager")
+
+        with self.assertRaisesRegex(ValueError, "no JSON object"):
+            with_repairs(ask, TEXTS, FACTS, repairs=2)
+        self.assertEqual(len(calls), 3)
 
 
 class SavedOutputCheck(unittest.TestCase):
