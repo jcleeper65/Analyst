@@ -12,6 +12,27 @@ spec.loader.exec_module(web)
 
 
 class WebAppTests(unittest.TestCase):
+    def test_screen_refresh_and_live_flags(self):
+        self.assertEqual(web.validate_inputs({'ticker':'screen','refresh_screen':'2026-01-01','live':True}),
+                         ['screen','--peers','--refresh-screen','2026-01-01','--live'])
+        with self.assertRaises(ValueError):
+            web.validate_inputs({'ticker':'screen','refresh_screen':'invalid'})
+
+    def test_page_runs_joined_command_and_shows_full_final_report(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);report=root/'final_report.md'
+            report.write_text('Filings read: saved accession\n\nVerified team report\n\n## Worksheet view and evidence\n\nSaved view')
+            web.JOBS['joined']={'status':'running','nodes':[],'error':''}
+            process=type('Process',(),{'stdout':io.StringIO(f'Part starting: worksheet\nPart worksheet: 0.123 seconds\nFinal report: {report}\n'),'wait':lambda self:0})()
+            with patch.object(web,'OUTPUT',root),patch.object(web.subprocess,'Popen',return_value=process) as launch:
+                web.run_job('joined',['screen'])
+            self.assertEqual(Path(launch.call_args.args[0][2]).name,'desk.py')
+            self.assertEqual(launch.call_args.args[0][-1],'screen')
+            self.assertEqual(web.JOBS['joined']['status'],'complete')
+            self.assertIn('Verified team report',web.JOBS['joined']['report'])
+            self.assertIn('Saved view',web.JOBS['joined']['report'])
+            self.assertEqual(len(web.JOBS['joined']['timings']),1)
+
     def test_peer_input_and_price(self):
         args = web.validate_inputs({'ticker': 'abc', 'peers': 'def, ghi'})
         self.assertEqual(args, ['ABC', '--peers', 'DEF', 'GHI'])

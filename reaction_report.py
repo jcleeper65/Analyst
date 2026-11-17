@@ -66,7 +66,7 @@ def load_view(run,old):
             if ', model ' in path.name:continue
             data=read(path)
             if isinstance(data.get('view'),dict) and data.get('worksheet_time'):
-                candidates.append((path,data['worksheet_time'],data['view'].get('direction')))
+                candidates.append((path,data.get('view_time') or data['view'].get('time') or data['worksheet_time'],data['view'].get('direction')))
     if not candidates:return None
     # Keep the earliest view, including an early "not computed". Never select
     # a later successful view because the reaction is now visible.
@@ -78,6 +78,8 @@ def load_view(run,old):
         raise ValueError('conflicting views have the same earliest timestamp')
     data=read(path)
     practice=data.get('artifact_type') in ('seeded_test','practice','practice_run') or bool(data.get('seeded_test'))
+    identity=read(run/'run_identity.json') if (run/'run_identity.json').exists() else {}
+    practice=practice or identity.get('artifact_type') in ('seeded_test','practice','practice_run') or identity.get('kind') in ('practice','practice_run') or bool(identity.get('seeded_test'))
     return {'path':path.name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
             'time':timestamp(when).isoformat(),'direction':normalized,'practice':practice}
 
@@ -139,6 +141,7 @@ def refresh(run,now,fetch,offline=False):
     with (run/'.reaction.lock').open('a') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX)
         path=run/'reaction.json';old=read(path) if path.exists() else {}
+        view=None;filed=None;ticker=None
         try:
             # Resolve issuer separately so a missing filing time still prints it.
             facts=read(run/'facts.json') if (run/'facts.json').exists() else read(run/'view.json') if (run/'view.json').exists() else {}
@@ -157,6 +160,7 @@ def refresh(run,now,fetch,offline=False):
             start=(filed.date()-timedelta(days=10)).isoformat()
             end=now.date().isoformat()
             stored=old.get('reader_rows',[])
+            observed_window={'start':start,'end':end}
             if old.get('status')=='available':
                 # Recompute from saved reader evidence; do not rewrite an outcome.
                 rows=close_rows(stored,ticker,now)
@@ -165,22 +169,35 @@ def refresh(run,now,fetch,offline=False):
                 rows=[]
                 if snapshot.exists():
                     data=read(snapshot)
-                    if data.get('ticker')!=ticker or data.get('start','9999')>start or data.get('end','')<end:
-                        raise ValueError('saved market_closes.json does not cover the requested reaction window')
-                    rows=data.get('rows',[])
-                elif not offline:
+                    if data.get('ticker')!=ticker:
+                        raise ValueError('saved market_closes.json has a different ticker')
+                    rows=close_rows(data.get('rows',[]),ticker,now)
+                    complete=compute(rows,filed)
+                    # The snapshot need only cover the event, not every day
+                    # through today. A pending snapshot must not block a refresh.
+                    covered=(data.get('start','9999')<=start and complete is not None
+                             and data.get('end','')>=complete['after']['date'])
+                    if covered or offline:
+                        if data.get('start','9999')>start:
+                            raise ValueError('saved market_closes.json does not cover the requested reaction window')
+                        observed_window={'start':data.get('start'),'end':data.get('end')}
+                    else:rows=[]
+                if not offline and not rows:
                     try:rows=fetch(ticker,start,end)
                     except Exception as error:raise ValueError('reader request failed: '+type(error).__name__) from error
-                elif stored:
+                elif not rows and offline and stored:
                     rows=stored
                 rows=close_rows(rows,ticker,now)
+            post=[r for r in rows if timestamp(r['close_time'])>filed]
+            if view and post:
+                row['timing']='after' if timestamp(view['time'])>timestamp(post[0]['close_time']) else ''
             reaction=compute(rows,filed)
             if old.get('status')=='available' and reaction is None:
                 raise ValueError('saved available reaction has incomplete reader evidence')
             if old.get('status')!='available':
                 record={'schema_version':1,'ticker':ticker,'filing_time':filed.isoformat(),
                         'view_source':view,'status':'available' if reaction else 'pending',
-                        'reader_window':{'start':start,'end':end},'reader_rows':rows,
+                        'reader_window':observed_window,'reader_rows':rows,
                         'reaction':reaction,'checked_at':now.isoformat()}
                 atomic_write(path,record)
             row['reaction']=reaction
@@ -190,14 +207,19 @@ def refresh(run,now,fetch,offline=False):
             if not view:
                 row['reason']='no saved, timestamped directional view'
                 return row
-            after=timestamp(view['time'])>timestamp(reaction['after']['close_time'])
-            row['timing']='after' if after else ''
+            after=row['timing']=='after'
             if view['direction']=='not computed':return row
             row['agreement']='agree' if view['direction']==reaction['direction'] else 'disagree'
             row['eligible']=not after
             return row
         except (OSError,ValueError,KeyError,TypeError,ArithmeticError) as error:
             row['reason']=str(error)
+            # A missing quote must not allow a different view to be substituted
+            # before the next refresh. Keep the original source hash and time.
+            if not old and view and filed and ticker:
+                atomic_write(path,{'schema_version':1,'ticker':ticker,'filing_time':filed.isoformat(),
+                    'view_source':view,'status':'pending','reader_rows':[],
+                    'reaction':None,'checked_at':now.isoformat(),'reason':row['reason']})
             return row
 
 

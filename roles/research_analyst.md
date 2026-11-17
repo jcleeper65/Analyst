@@ -12,8 +12,9 @@ If the evidence is absent from your input, write “not established by the suppl
 
 What would change your view. Name one measurable result in the next filing that would challenge your strongest conclusion. Tie it to a cited current measure and specify why.
 
-The output. Own Overview, Market Positioning and Growth Outlook, and Future Developments and Strategic Recommendations. Return JSON with one string field, draft. Attach an exact quotation and [filename.txt:L123] citation to every factual claim. End the draft with:
+The output. Own Overview, Market Positioning and Growth Outlook, and Future Developments and Strategic Recommendations. Return JSON with one string field, draft. Write each factual claim on a separate output line. Attach its own exact quotation and [filename.txt:L123] citation. Do not combine facts from different source lines in one sentence or output line. The cited source line must support the whole claim, including every financial amount and its period. If another fact needs another source line, write it as a separate claim with its own quotation and citation. End the draft with:
 Insight: [A claim supported by a reported number that goes beyond the earnings release’s first paragraph.] [filename.txt:L123] "[Exact supporting line]"
 
 Include exactly one Insight: line in the entire draft, as its final line. Do not add an Insight line to each report part.
+Use only evidence from the Insight's single cited source line. Do not add financial amounts, growth rates, or explanations from other lines to the Insight.
 Place the single Insight only at the end of Future Developments and Strategic Recommendations. Overview and Market Positioning and Growth Outlook have no Insight line.

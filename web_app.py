@@ -15,7 +15,7 @@ from pathlib import Path
 from markdown_it import MarkdownIt
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT / 'equity_research_output'
+OUTPUT = ROOT / 'runs'
 JOBS = {}
 LOCK = threading.Lock()
 MARKDOWN = MarkdownIt('commonmark', {'html': False}).enable('table')
@@ -24,7 +24,7 @@ MARKDOWN = MarkdownIt('commonmark', {'html': False}).enable('table')
 def run_job(job_id, arguments):
     report_path = None
     try:
-        process = subprocess.Popen([sys.executable, '-u', str(ROOT / 'equity_research_desk.py'), *arguments],
+        process = subprocess.Popen([sys.executable, '-u', str(ROOT / 'desk.py'), *arguments],
                                    cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                                    text=True, env={**os.environ, 'NO_COLOR': '1'})
         for raw in process.stdout:
@@ -33,15 +33,22 @@ def run_job(job_id, arguments):
                 job = JOBS[job_id]
                 if line.startswith('Node starting:'):
                     job['nodes'].append(line.removeprefix('Node starting:').strip())
+                if line.startswith('Part starting:'):
+                    job['nodes'].append(line.removeprefix('Part starting:').strip())
+                if line.startswith('Part ') and ' seconds' in line:
+                    job.setdefault('timings',[]).append(line)
+                    job['nodes'].append(line)
                 if line.startswith('Error:'):
                     job['error'] = line.removeprefix('Error:').strip()
                 if line.startswith('Verified report:'):
                     report_path = Path(line.removeprefix('Verified report:').strip()).resolve()
+                if line.startswith('Final report:'):
+                    report_path = Path(line.removeprefix('Final report:').strip()).resolve()
         result = process.wait()
         if result != 0:
             raise RuntimeError(JOBS[job_id]['error'] or 'The run stopped before verification completed.')
         if not report_path or not report_path.is_relative_to(OUTPUT.resolve()) or not report_path.is_file():
-            raise RuntimeError('The process finished without a saved verified report.')
+            raise RuntimeError('The process finished without a checked final report.')
         report = report_path.read_text(encoding='utf-8')
         marks_path = report_path.parent / 'nodes/Verifier/output.json'
         marks = json.loads(marks_path.read_text()) if marks_path.exists() else {}
@@ -59,7 +66,7 @@ def run_job(job_id, arguments):
 
 def validate_inputs(data):
     ticker = str(data.get('ticker', '')).strip().upper()
-    if not re.fullmatch(r'[A-Z0-9][A-Z0-9.\-]{0,19}', ticker):
+    if not re.fullmatch(r'[A-Z][A-Z0-9.\-]{0,15}', ticker):
         raise ValueError('Enter a valid ticker symbol.')
     peers = re.split(r'[,\s]+', str(data.get('peers', '')).strip().upper())
     peers = [p for p in peers if p]
@@ -69,7 +76,14 @@ def validate_inputs(data):
     if filed:
         from closes_reader import filing_time
         filing_time(filed)
-    return [ticker, '--peers', *peers] + (['--filed', filed] if filed else [])
+    selected='screen' if ticker=='SCREEN' else ticker
+    refresh=str(data.get('refresh_screen','')).strip()
+    if refresh:
+        from datetime import date
+        date.fromisoformat(refresh)
+    live=data.get('live',False)
+    if live not in (False,True,'on',''):raise ValueError('Invalid live-run selection.')
+    return [selected, '--peers', *peers] + (['--filed', filed] if filed else []) + (['--refresh-screen',refresh] if refresh else []) + (['--live'] if live in (True,'on') else [])
 
 
 

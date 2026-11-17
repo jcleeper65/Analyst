@@ -46,6 +46,34 @@ class ReactionReportTests(unittest.TestCase):
         self.assertEqual(self.refresh(p)['agreement'],'agree')
         self.assertEqual(json.loads((p/'reaction.json').read_text())['status'],'available')
 
+    def test_old_snapshot_does_not_prevent_online_reaction_refresh(self):
+        p=self.run_dir()
+        (p/'market_closes.json').write_text(json.dumps({'ticker':'TEST','start':'2026-10-01','end':'2026-11-10','rows':self.fetch.return_value[:1]}))
+        self.assertEqual(self.refresh(p)['agreement'],'agree')
+        self.fetch.assert_called_once()
+
+    def test_pending_snapshot_with_future_window_is_refreshed(self):
+        p=self.run_dir()
+        (p/'market_closes.json').write_text(json.dumps({'ticker':'TEST','start':'2026-10-01','end':'2026-11-30','rows':self.fetch.return_value[:1]}))
+        self.assertEqual(self.refresh(p)['agreement'],'agree')
+
+    def test_completed_snapshot_does_not_need_coverage_through_today(self):
+        p=self.run_dir()
+        (p/'market_closes.json').write_text(json.dumps({'ticker':'TEST','start':'2026-10-01','end':'2026-11-11','rows':self.fetch.return_value[:2]}))
+        self.assertEqual(self.refresh(p,offline=True)['agreement'],'agree')
+        self.fetch.assert_not_called()
+
+    def test_after_tag_is_known_even_when_before_close_is_missing(self):
+        self.fetch.return_value=self.fetch.return_value[1:]
+        row=self.refresh(self.run_dir(view='2026-11-11T16:00:01-05:00'))
+        self.assertIsNone(row['reaction']);self.assertEqual(row['timing'],'after')
+        self.assertFalse(row['eligible'])
+
+    def test_real_view_time_takes_precedence_over_worksheet_start(self):
+        p=self.run_dir();(p/'view.json').unlink()
+        (p/'Spinoff worksheet, test.json').write_text(json.dumps({'worksheet_time':'2026-11-11T15:59:00-05:00','view_time':'2026-11-11T16:01:00-05:00','view':{'direction':'up'}}))
+        self.assertEqual(self.refresh(p)['timing'],'after')
+
     def test_complete_reaction_is_not_fetched_or_rewritten(self):
         p=self.run_dir();self.refresh(p);path=p/'reaction.json'
         before=(path.read_bytes(),path.stat().st_mtime_ns)
@@ -165,6 +193,21 @@ class ReactionReportTests(unittest.TestCase):
         self.assertEqual(len(rows),1);self.assertIn('reader request failed',rows[0]['reason'])
         self.fetch.side_effect=None
         self.assertEqual(self.refresh(p)['agreement'],'agree')
+
+    def test_reader_failure_still_freezes_the_original_view(self):
+        p=self.run_dir();self.fetch.side_effect=RuntimeError('offline reader')
+        self.refresh(p)
+        (p/'view.json').write_text(json.dumps({'view_time':'2026-11-11T09:00:00-05:00','direction':'down'}))
+        self.fetch.side_effect=None;self.fetch.reset_mock()
+        row=self.refresh(p)
+        self.assertIn('saved view changed',row['reason']);self.fetch.assert_not_called()
+
+    def test_practice_identity_is_excluded_from_live_even_without_view_flag(self):
+        p=self.run_dir('live/practice')
+        (p/'run_identity.json').write_text(json.dumps({'artifact_type':'seeded_test'}))
+        with patch.object(r,'DEFAULT_FOLDER',self.root/'live'):row=self.refresh(p)
+        self.assertFalse(row['eligible']);self.assertIn('seeded/practice',row['reason'])
+        self.fetch.assert_not_called()
 
     def test_delayed_first_reaction_is_not_cut_off_after_two_weeks(self):
         self.now=r.timestamp('2026-12-02T17:00:00-05:00')

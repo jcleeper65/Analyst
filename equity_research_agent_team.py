@@ -19,6 +19,8 @@ from pydantic import BaseModel, ConfigDict, Field
 from insight_layout import insight_failures
 from report_naming import create_run, report_number
 from equity_research_desk import Desk
+from desk_files import AssignedFiles, file_tool
+from desk_timing import timed_role, elapsed
 
 
 SECTIONS = (
@@ -44,6 +46,10 @@ class DeskStepTool(BaseTool):
     args_schema: Type[BaseModel] = NoToolInput
 
     def _run(self) -> str:
+        with elapsed(self.desk.output_dir,f'data step {self.step_number}'):
+            return self._step()
+
+    def _step(self) -> str:
         method = getattr(self.desk, f"step{self.step_number}")
         method()
         if self.step_number == 4:
@@ -160,6 +166,8 @@ class Runtime:
         self.output_dir: Path | None = desk.output_dir if desk else None
         self.nodes_dir: Path | None = None
         self.role_call_counts: dict[str, int] = {}
+        self.skill_files: list[Path] = []
+        self.output_hook = None
 
     def set_output_dir(self, path: Path) -> None:
         self.output_dir = path
@@ -171,13 +179,18 @@ class Runtime:
             raise RuntimeError("Run folder is not ready")
         folder = self.nodes_dir / re.sub(r"[^A-Za-z0-9_-]+", "_", node)
         folder.mkdir(parents=True, exist_ok=True)
-        (folder / f"{direction}.json").write_text(
+        target = folder / f"{direction}.json"
+        target.write_text(
             json.dumps(payload, ensure_ascii=False, indent=2, default=str), encoding="utf-8"
         )
+        if self.output_hook:
+            self.output_hook(node, [target])
 
     def instructions(self, file_name: str) -> str:
-        return (ROLES_DIR / file_name).read_text(encoding="utf-8")
+        saved=self.output_dir/'inputs/roles'/file_name if self.output_dir else None
+        return (saved if saved and saved.is_file() else ROLES_DIR/file_name).read_text(encoding="utf-8")
 
+    @timed_role
     def role_call(
         self,
         role: str,
@@ -186,11 +199,25 @@ class Runtime:
     ) -> dict[str, Any]:
         if set(envelope) != {"task", "context", "expected_output"}:
             raise ValueError(f"Invalid {role} envelope")
+        envelope={**envelope,"task":envelope["task"]+
+                  " Keep each factual claim on a separate output line with its own exact source quotation and file/line citation."
+                  " Do not combine facts from different source lines in one sentence or output line."
+                  " Each cited source line must support the entire factual claim on that output line, including every financial amount and its period."
+                  " Keep this separation when revising or assembling the report."
+                  " For an Insight, use only the evidence in its single cited source line; omit facts that require another source line.",
+                  "expected_output":envelope["expected_output"]+
+                  " One factual claim per output line, supported in full by its own exact cited source line. No combined facts from different source lines."}
         current = self.role_call_counts.get(role, 0) + 1
         if current > 2:
             raise RuntimeError(f"Role call limit exceeded for {role}")
         self.role_call_counts[role] = current
         node = f"{role} {current}"
+        store=None
+        if self.skill_files:
+            folder=re.sub(r"[^A-Za-z0-9_-]+", "_", node)
+            store=AssignedFiles(self.output_dir,self.skill_files,self.output_dir/'nodes'/folder/'files_read.json')
+            envelope={**envelope,"task":envelope["task"]+" Use read_assigned_file to read every assigned saved skill file before answering. You may quote its lines with file/line citations. Never recompute, adjust or invent its numerical values.",
+                      "context":{"assigned_context":envelope["context"],"skill_output_files":store.manifest()}}
         print(f"Node starting: {node}", flush=True)
         self.save_node(node, "input", envelope)
         prompt = json.dumps(envelope, ensure_ascii=False)
@@ -199,7 +226,9 @@ class Runtime:
             goal=envelope["task"],
             backstory=self.instructions(instruction_file),
             llm=self.llm,
-            max_iter=1,
+            max_iter=len(self.skill_files)+3 if store else 1,
+            tools=[file_tool(store)] if store else [],
+            tool_failure_policy='raise',
             max_retry_limit=0,
             allow_delegation=False,
             verbose=False,
@@ -208,6 +237,7 @@ class Runtime:
             description="Read and follow this assigned graph-state JSON: {payload}",
             expected_output=envelope["expected_output"],
             agent=agent,
+            tool_failure_policy='raise',
         )
         crew = Crew(
             agents=[agent],
@@ -216,8 +246,10 @@ class Runtime:
             verbose=False,
             memory=False,
             planning=False,
+            tool_failure_policy='raise',
         )
         result = crew.kickoff(inputs={"payload": prompt})
+        if store:store.verify()
         output = _safe_json(result.raw, role)
         self.save_node(node, "output", output)
         return output
@@ -235,7 +267,7 @@ class Runtime:
 
     def financial_context(self) -> dict[str, Any]:
         assert self.desk and self.output_dir
-        return {
+        context = {
             "ticker": self.desk.ticker,
             "fiscal_year_end": self.desk.report_period,
             "facts": self.desk.facts,
@@ -250,6 +282,11 @@ class Runtime:
             "peers": self.desk.peer_results,
             "calculation_inputs": calculator_inputs(self.desk),
         }
+        if self.skill_files:
+            for name in ('facts','computed_metrics','latest_quarter_results','peers','calculation_inputs'):
+                context.pop(name)
+            context['saved_values']={'facts':'facts.json','metrics_and_quarters':'calculated_facts.json'}
+        return context
 
     @staticmethod
     def envelope(task: str, context: Any, expected_output: str) -> dict[str, Any]:
@@ -476,7 +513,8 @@ class Runtime:
 class EquityResearchFlow(Flow):
     """Full run graph: data -> research -> financial -> advisor -> manager -> verifier."""
 
-    def __init__(self, ticker: str, peers: list[str], price: float | None = None, filed: str | None = None):
+    def __init__(self, ticker: str, peers: list[str], price: float | None = None, filed: str | None = None,
+                 desk: Desk | None = None, skill_files: list[Path] | None = None, output_hook=None):
         super().__init__()
         self.ticker = ticker
         self.peers = peers
@@ -486,12 +524,19 @@ class EquityResearchFlow(Flow):
         self.role_outputs: dict[str, str] = {}
         self.contexts: dict[str, Any] = {}
         self.report_path: Path | None = None
+        self.shared_desk = desk
+        self.skill_files = skill_files or []
+        self.output_hook = output_hook
 
     @start()
     def data_steps(self) -> dict[str, Any]:
         print("Node starting: Seven data steps", flush=True)
-        desk = Desk(self.ticker, self.peers, filed=self.filed_override)
+        desk = self.shared_desk or Desk(self.ticker, self.peers, filed=self.filed_override)
         self.runtime = Runtime(desk)
+        self.runtime.skill_files = self.skill_files
+        self.runtime.output_hook = self.output_hook
+        if desk.output_dir:
+            self.runtime.set_output_dir(desk.output_dir)
         step_names = (
             "Resolve ticker to CIK",
             "Find required filings",
