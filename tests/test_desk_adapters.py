@@ -109,14 +109,14 @@ class AdapterTests(unittest.TestCase):
                 captured['read_text']=captured['store'].read('pick.json')
                 return SimpleNamespace(raw='{"draft":"No figures."}')
         def tool(store):captured['store']=store;return store
-        scope={'Any':Any,'Path':Path,'json':json,'re':re,'AssignedFiles':AssignedFiles,'file_tool':tool,'timed_role':timed_role,
+        scope={'Any':Any,'Path':Path,'json':json,'re':re,'AssignedFiles':AssignedFiles,'file_tool':tool,'timed_role':timed_role,'CLAIMS_ROLES':{'research_analyst.md'},'ROLE_CONTRACTS':{},
                'Agent':lambda **k:None,'Task':lambda **k:None,
                'Crew':FakeCrew,'Process':SimpleNamespace(sequential='sequential'),'_safe_json':lambda raw,role:json.loads(raw)}
         exec(compile(ast.fix_missing_locations(ast.Module(body=[numbered,method],type_ignores=[])),str(source),'exec'),scope)
         path=self.run/'pick.json';path.write_text('{"ticker":"ZZZZ"}\n')
         self_stub=SimpleNamespace(output_dir=self.run,skill_files=[path],role_call_counts={},llm=object(),instructions=lambda name:'Role instructions',save_node=Mock())
         envelope={'task':'Quote the assigned file','context':{},'expected_output':'JSON draft'}
-        with redirect_stdout(io.StringIO()):scope['role_call'](self_stub,'Research Analyst','research_analyst.md',envelope)
+        with redirect_stdout(io.StringIO()):scope['role_call'](self_stub,'Financial Analyst','financial_analyst.md',envelope)
         self.assertIn('Never recompute',captured['task'])
         self.assertIn('Do not combine facts from different source lines',captured['task'])
         self.assertIn('Keep this separation when revising or assembling the report',captured['task'])
@@ -125,7 +125,7 @@ class AdapterTests(unittest.TestCase):
         self.assertEqual(assigned['file'],'pick.json')
         self.assertNotIn('lines',assigned)
         self.assertIn('pick.json:L1: {"ticker":"ZZZZ"}',captured['read_text'])
-        self.assertTrue((self.run/'nodes/Research_Analyst_1/files_read.json').is_file())
+        self.assertTrue((self.run/'nodes/Financial_Analyst_1/files_read.json').is_file())
 
     def test_financial_context_uses_saved_values_without_inline_copies(self):
         source=Path(__file__).resolve().parents[1]/'equity_research_agent_team.py'

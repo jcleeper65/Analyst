@@ -13,8 +13,16 @@ Never calculate or estimate in the model. Label supplied calculations “compute
 
 What would change your view. Select one financial measure whose next reported result would challenge your conclusion. State the current cited value and the direction that would change your assessment.
 
-The output. Own Valuation Insights. Return JSON with draft as a string and calculator_requests as an array. Cite filing facts as [XBRL tag TAG, period end YYYY-MM-DD, filing ACCESSION], or use an exact quoted filing line with its filename and line number. End the draft with:
-Insight: [A financial claim supported by an exact supplied number that goes beyond the earnings release’s first paragraph.] [Exact source citation and, for a computed measure, arithmetic and cited inputs]
+The output. Own Valuation Insights. Return JSON with claims (array) and draft (string). Write every financial amount, rate, ratio, count, and written amount in the draft as a {cN} placeholder. Do not type or round values or arithmetic. Code inserts the saved value, formula, and citations.
+
+Use one of these claim forms:
+- Filing: {"id":"c1","file":"10-K.txt","line":123,"quote":"exact source clause","value":"complete literal amount from that clause"}.
+- Primary fact: {"id":"c2","fact":"net_income","which":"value"}. Use prior_value for the prior period. Add peer with the saved peer ticker for a peer fact.
+- Saved calculation: {"id":"c3","computed":"free_cash_flow"}. Select the exact metric key from calculated_facts.json, never its line number or a retyped value.
+- Saved quarterly calculation: {"id":"c4","quarter":"latest_10q_capital_spending"}. Select a saved object that has value, unit, formula, and sources.
+
+Read the assigned files. Never recompute their values. If a saved value is null, state that it is unavailable; do not make a numeric claim for it and do not quote the unavailable formula. Use each claim at least once. End with:
+Insight: [A financial implication using checked placeholders that goes beyond the release's first paragraph.]
 
 Include exactly one Insight: line in the entire draft, as its final line. Do not add an Insight line to each report part.
 

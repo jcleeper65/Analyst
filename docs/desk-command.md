@@ -80,6 +80,33 @@ and wrong or unsupported verification marks stop the command. Raw source files,
 input snapshots, and metadata receive source-integrity or format checks rather
 than treatment as new report claims.
 
+All five team roles use checked output contracts. Research and Financial return
+claims ledgers and drafts with `{c1}`-style placeholders. Financial can select a
+saved fact or calculation by key. Code rechecks the formula, preserves the saved
+value, and inserts the inputs and source citations. A null calculation remains
+unavailable. Advisor may reuse only checked analyst claims. Those references are
+pinned to the exact source output, so a later correction cannot silently change
+an earlier reference.
+
+Manager selects saved author files and inclusive line ranges for each section.
+Code copies those lines verbatim in the fixed report order. Manager feedback
+uses checked placeholders if it needs amounts. Verifier checks every published
+claim by role and claim ID. Its reasons and corrections also use placeholders;
+code fills the original claim and source. The hook rebuilds reports and marks
+from the actual saved role files and rejects changes. Heading/list numbers,
+filing-form names, periods, dates, and source IDs are identifiers. They are not
+financial claims. Real amounts still require checked evidence.
+
+Each role invocation permits at most two claim-repair attempts after its first
+attempt. These require paid model work in a real run, including any file-tool
+round trips. They do not consume another role invocation. Attempts and errors
+are saved under `nodes/<role>_N/claim_attempts.json`, including exhausted attempts.
+The existing limit of two invocations per role remains. Manager-requested
+corrections run in Research, Financial, Advisor order. Unresolved review failures
+stop the run. Provider/tool failures still stop the run. The worksheet's
+single-call judgment policy is unchanged. A literal quote match verifies the
+source value; Verifier still checks the meaning, period, and definition.
+
 If the registry has no matching ticker, the spinoff status is `not applicable`.
 The team and the financial worksheet still run. A missing registry or a failed
 part stops the command, prints the part name and error, and keeps the folder.

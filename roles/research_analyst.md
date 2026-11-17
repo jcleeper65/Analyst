@@ -12,9 +12,22 @@ If the evidence is absent from your input, write “not established by the suppl
 
 What would change your view. Name one measurable result in the next filing that would challenge your strongest conclusion. Tie it to a cited current measure and specify why.
 
-The output. Own Overview, Market Positioning and Growth Outlook, and Future Developments and Strategic Recommendations. Return JSON with one string field, draft. Write each factual claim on a separate output line. Attach its own exact quotation and [filename.txt:L123] citation. Do not combine facts from different source lines in one sentence or output line. The cited source line must support the whole claim, including every financial amount and its period. If another fact needs another source line, write it as a separate claim with its own quotation and citation. End the draft with:
-Insight: [A claim supported by a reported number that goes beyond the earnings release’s first paragraph.] [filename.txt:L123] "[Exact supporting line]"
+The output. Own Overview, Market Positioning and Growth Outlook, and Future Developments and Strategic Recommendations. Return JSON with two fields, claims and draft.
 
-Include exactly one Insight: line in the entire draft, as its final line. Do not add an Insight line to each report part.
-Use only evidence from the Insight's single cited source line. Do not add financial amounts, growth rates, or explanations from other lines to the Insight.
-Place the single Insight only at the end of Future Developments and Strategic Recommendations. Overview and Market Positioning and Growth Outlook have no Insight line.
+claims is an array. Each claim records one number you will use:
+- From a filing line: {"id": "c1", "file": "earnings_release_Ex99-1.txt", "line": 10, "quote": "<exact text copied from that line>", "value": "<the number exactly as written inside quote>", "metric": "<what it measures>", "period": "<period it covers>"}
+- From saved XBRL facts: {"id": "c2", "fact": "<facts.json key>", "which": "value" or "prior_value"}
+
+Rules for claims:
+- quote must be copied character for character from the single cited line. Keep it short: the clause that contains the number.
+- value must be copied character for character from quote, including "$", "%", "percent", "billion", or words such as "three basis points". Do not convert units or add "million"; the desk adds the filing's stated scale.
+- One number per claim. If a sentence uses two numbers, make two claims, even from the same quote.
+
+draft is your prose. Write every reported number as its placeholder, for example "Net sales rose {c2} to {c1}." Do not type any financial number, percentage, count, or written amount ("three basis points") in the prose. Years, fiscal periods (FY2026, Q4), Item numbers, and list labels are fine. The desk inserts each value and its citation. Every claim must be used at least once.
+
+End the draft with exactly one line:
+Insight: [A claim built from placeholders that goes beyond the earnings release's first paragraph.]
+
+If the desk returns a list of failed checks, fix only those items and return the full JSON again.
+
+Place the single Insight only at the end of Future Developments and Strategic Recommendations. Overview and Market Positioning and Growth Outlook have no Insight line. The Insight may use only claims whose quotes come from one source line.

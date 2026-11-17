@@ -129,3 +129,15 @@ def enumeration_spans(line):
     units=r'\s*(?:USD|EUR|GBP|dollars?|euros?|pounds?|thousand|million|billion|trillion|percent|basis|shares?|units?|members?|warehouses?|contracts?)\b'
     if any(re.match(units,line[m.end():],re.I) for m in labels):return []
     return [m.span() for m in labels]
+
+
+def heading_spans(line):
+    """Heading counters are IDs; a magnitude/unit immediately after is not."""
+    patterns=[r'^\s*(?:(?:#{1,6}|==)\s*)?\d+[.)]\s+',
+              r'^\s*(?:#{1,6}|==)\s*\d+\s+']
+    spans=[]
+    units=r'(?:USD|EUR|GBP|dollars?|euros?|pounds?|thousands?|millions?|billions?|trillions?|percent|basis|bps|shares?|units?|members?|warehouses?)\b'
+    for pattern in patterns:
+        m=re.match(pattern,line)
+        if m and not re.match(units,line[m.end():],re.I):spans.append(m.span())
+    return spans

@@ -16,6 +16,9 @@ def load_checks():
 
 
 class VerifierChecks(unittest.TestCase):
+    def test_section_labels_are_identifiers_in_legacy_checks(self):
+        self.assertEqual(load_checks()(None,'Filings\nRuntime\n== 1. CASH GENERATION ==\n## 2. PROFITABILITY\n3. FUNDING\n(1) Review earnings.\nRecommendations: (1) Review earnings. (2) Review debt.',{},{}),[])
+        self.assertTrue(load_checks()(None,'Filings\nRuntime\n== 1. CASH GENERATION ==\nIncome $999.',{},{}))
     def check_quote(self, amount):
         return load_checks()(None, f'Filings read\nRun time\nEPS "Annual diluted EPS was ${amount}." [release.txt:L1]', {}, {'release.txt': 'Annual diluted EPS was $20.76.'})
 

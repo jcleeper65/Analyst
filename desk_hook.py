@@ -15,7 +15,9 @@ if str(HOOK_DIR) not in sys.path:sys.path.insert(0,str(HOOK_DIR))
 from worksheet_numbers import (Auditor,NUM,DATE,ACCESSION,TEXT_DATE,FORM_ID,PERIOD_ID,
                               LABEL_ID,amount,rounded_equal,financial_word_numbers)
 from worksheet_format import arithmetic
-from desk_quantities import quantities,matches,source_quantities,enumeration_spans
+from desk_quantities import quantities,matches,source_quantities,enumeration_spans,heading_spans
+from desk_claims import verify_saved
+from desk_role_contracts import verify_output,verify_team_file,PREFIX
 
 XBRL=re.compile(r'\[XBRL\s+tag\s+([^,\]]+),\s*period end\s+(\d{4}-\d{2}-\d{2}),\s*filing\s+([^\]]+)\]',re.I)
 REF=re.compile(r'([\w./-]+\.(?:txt|json|md)):L(\d+)')
@@ -51,7 +53,8 @@ def report_errors(run,path,text=None):
         def mask(a,b):covered[a:b]=[True]*(b-a)
         for pattern in (DATE,ACCESSION,TEXT_DATE,FORM_ID,PERIOD_ID,LABEL_ID):
             for m in pattern.finditer(line):mask(*m.span())
-        for m in re.finditer(r'\b10-[KQ]\b|^\s*\d+[.)]\s+|^#{1,6}\s+\d+[.)]?\s+',line):mask(*m.span())
+        for m in re.finditer(r'\b10-[KQ]\b',line):mask(*m.span())
+        for start,end in heading_spans(line):mask(start,end)
         for m in re.finditer(r'\bL\d+(?:\s*[-–]\s*L?\d+)?\b|\b(?:Note|Item|Section)\s+\d+(?:\.\d+)*\b',line,re.I):mask(*m.span())
         for m in re.finditer(r'\b(?:FY|fiscal(?:\s+year)?)\s*20\d{2}\b|\b(?:in|during|for)\s+20\d{2}\b|\b\d+[- ](?:weeks?|months?|years?)\b',line,re.I):mask(*m.span())
         for start,end in enumeration_spans(line):mask(start,end)
@@ -209,7 +212,7 @@ class Hook:
                     if path.name=='calculated_facts.json':check_calculations(self.run,path)
                     if isinstance(data,dict) and isinstance(data.get('registry'),dict) and data.get('run_time'):
                         check_screen(self.run,path)
-                    if 'nodes/' in relative and path.parent.name.startswith('Verifier_') and path.parent.name!='Verifier_Code':
+                    if 'nodes/' in relative and path.name=='output.json' and isinstance(data,dict) and path.parent.name.startswith('Verifier_') and path.parent.name!='Verifier_Code':
                         for check in data.get('checks',[]):
                             if check.get('status')!='correct':raise ValueError('Verifier rejected a claim: '+str(check.get('claim','unknown')))
                     if isinstance(data,dict) and 'model_checks' in data:
@@ -224,12 +227,24 @@ class Hook:
                         when=evidence.get('view_time') or evidence.get('view',{}).get('time')
                         if when and when!=data['view_time']:raise ValueError('View time differs from the saved worksheet')
                     if 'nodes/' in relative and path.name=='output.json':
-                        if isinstance(data,dict) and 'draft' in data:
+                        if isinstance(data,dict) and 'contract' in data:
+                            role=data.get('role')
+                            if role not in PREFIX or not re.fullmatch(re.escape(PREFIX[role])+r'_[12]',path.parent.name):raise ValueError('Role contract does not match its saved node')
+                            errors.extend((relative,1,e,'') for e in verify_output(self.run,data))
+                            if data['contract']=='claims' and path.with_name('draft.md').read_text()!=data['draft']:raise ValueError('Saved role Markdown differs from its checked draft')
+                        elif isinstance(data,dict) and 'claims' in data:
+                            # Claims-ledger output: every number was rendered by code from
+                            # a checked quote, so recheck the claims, not the prose.
+                            errors.extend((relative,1,e,'') for e in verify_saved(self.run,data))
+                        elif isinstance(data,dict) and 'draft' in data:
                             errors.extend((relative,*e) for e in report_errors(self.run,path,data['draft']))
-                        if isinstance(data,dict) and 'sections' in data:
+                        if isinstance(data,dict) and 'sections' in data and 'contract' not in data:
                             for section,body in data['sections'].items():errors.extend((relative,*e) for e in report_errors(self.run,path,str(body)))
                 elif path.suffix=='.md':
-                    if path.name=='screen.md' or path.name.startswith('Spinoffs,'):
+                    if path.name=='draft.md' and path.parent.parent.name=='nodes':
+                        data=json.loads(path.with_name('output.json').read_text())
+                        if verify_output(self.run,data) or path.read_text()!=data.get('draft'):raise ValueError('Role Markdown differs from checked source claims')
+                    elif path.name=='screen.md' or path.name.startswith('Spinoffs,'):
                         snapshot=path.with_suffix('.json') if path.with_suffix('.json').exists() else self.run/'screen.json'
                         check_screen(self.run,snapshot,path)
                     elif path.name.startswith('Spinoff worksheet'):
@@ -242,8 +257,10 @@ class Hook:
                             if text!=expected:raise ValueError('Final report differs from the saved report/worksheet composition')
                             # Both actual source files are independently rechecked;
                             # the byte comparison above includes every final line.
-                            errors.extend((relative,*e) for e in report_errors(self.run,verified))
+                            if (self.run/'team_report.json').exists():verify_team_file(self.run,verified)
+                            else:errors.extend((relative,*e) for e in report_errors(self.run,verified))
                             for error in Auditor(self.run,self.run/'inputs').check(worksheet):errors.append((relative,error.line,error.reason,error.text))
+                        elif (self.run/'team_report.json').exists():verify_team_file(self.run,path)
                         else:errors.extend((relative,*e) for e in report_errors(self.run,path))
             except (ValueError,TypeError,OSError) as error:errors.append((relative,1,str(error),''))
         record={'part':phase,'requested_outputs':[str(p.relative_to(self.run)) for p in requested],
