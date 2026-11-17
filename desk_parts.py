@@ -4,6 +4,7 @@ from __future__ import annotations
 from contextlib import contextmanager
 from copy import deepcopy
 from datetime import datetime
+import gzip
 import json
 import os
 from pathlib import Path
@@ -16,10 +17,29 @@ from dotenv import dotenv_values
 from desk_sources import ROOT,WORKSPACE,skill,inside,write_json,digest
 
 
+def json_path(path):
+    path=Path(path)
+    compressed=path.with_name(path.name+'.gz')
+    return compressed if not path.is_file() and compressed.is_file() else path
+
+
+def read_saved_json(path):
+    path=json_path(path)
+    opener=gzip.open if path.suffix=='.gz' else open
+    with opener(path,'rt',encoding='utf-8') as source:return json.load(source)
+
+
+def copy_saved_json(source,target):
+    source=json_path(source)
+    if source.suffix=='.gz':
+        with gzip.open(source,'rb') as src,Path(target).open('wb') as dst:shutil.copyfileobj(src,dst)
+    else:shutil.copy2(source,target)
+
+
 def latest_screen(folder):
     choices=[]
-    for path in Path(folder).glob('Spinoffs, *.json'):
-        data=json.loads(path.read_text())
+    for path in sorted(set(Path(folder).glob('Spinoffs, *.json')) | set(Path(folder).glob('Spinoffs, *.json.gz'))):
+        data=read_saved_json(path)
         if 'registry' not in data or not data.get('run_time'):continue
         when=datetime.fromisoformat(data['run_time'])
         if when.tzinfo is None:raise ValueError('Screen snapshot has no timezone: '+str(path))
@@ -75,8 +95,8 @@ class Parts:
     def seeker_part(self):
         options=self.options
         if options.registry:
-            source=Path(options.registry)
-            if source.is_file():shutil.copy2(source,self.run/'registry.json')
+            source=json_path(options.registry)
+            if source.is_file():copy_saved_json(source,self.run/'registry.json')
             elif options.selector!='screen' and not options.refresh_screen:raise ValueError('Registry does not exist: '+str(source))
         if options.refresh_screen:
             args=SimpleNamespace(start=options.refresh_screen,factors=str(self.run/'inputs/spinoff_factors.json'),
@@ -87,10 +107,11 @@ class Parts:
             shutil.copy2(Path(path).with_suffix('.json'),self.snapshot)
             shutil.copy2(path,self.run/'screen.md')
         elif options.selector=='screen':
-            path=Path(options.screen_report) if options.screen_report else latest_screen(options.screen_folder)
+            path=json_path(options.screen_report) if options.screen_report else latest_screen(options.screen_folder)
             if not path.is_file():raise ValueError('Seeker snapshot does not exist')
-            self.snapshot=self.run/'screen.json';shutil.copy2(path,self.snapshot)
-            if path.with_suffix('.md').is_file():shutil.copy2(path.with_suffix('.md'),self.run/'screen.md')
+            self.snapshot=self.run/'screen.json';copy_saved_json(path,self.snapshot)
+            report=path.with_suffix('') if path.suffix=='.gz' else path
+            if report.with_suffix('.md').is_file():shutil.copy2(report.with_suffix('.md'),self.run/'screen.md')
             self.sources.import_cache(path.parent/'cache')
             write_json(self.run/'registry.json',json.loads(self.snapshot.read_text())['registry'])
         elif not (self.run/'registry.json').exists():

@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-11-16T15:21:02.187712+00:00",
+  "source": "WRDS/CRSP CIZ",
+  "schema": "crsp",
+  "requested_releases": 8,
+  "complete_close_pairs": 6,
+  "output_rows": 8,
+  "median_status": "NOT COMPUTED (incomplete release set)",
+  "monthly_schema_status": "permission denied (SQLSTATE 42501)",
+  "quarterly_schema_status": "permission denied (SQLSTATE 42501)",
+  "licensed_output_location": "/Users/jacksonleeper/Library/Application Support/Analyst/CRSP/COST-prior-releases.txt",
+  "output_permissions_owner_only": true,
+  "releases": [
+    {
+      "accession": "0000909832-26-000046",
+      "accepted_eastern": "2026-05-28T16:17:32",
+      "close_pair_status": "FAIL"
+    },
+    {
+      "accession": "0000909832-26-000025",
+      "accepted_eastern": "2026-03-05T16:19:07",
+      "close_pair_status": "FAIL"
+    },
+    {
+      "accession": "0000909832-25-000164",
+      "accepted_eastern": "2025-12-11T16:22:04",
+      "close_pair_status": "PASS"
+    },
+    {
+      "accession": "0000909832-25-000093",
+      "accepted_eastern": "2025-09-25T16:16:57",
+      "close_pair_status": "PASS"
+    },
+    {
+      "accession": "0000909832-25-000031",
+      "accepted_eastern": "2025-05-29T16:24:57",
+      "close_pair_status": "PASS"
+    },
+    {
+      "accession": "0000909832-25-000012",
+      "accepted_eastern": "2025-03-06T16:21:08",
+      "close_pair_status": "PASS"
+    },
+    {
+      "accession": "0000909832-24-000075",
+      "accepted_eastern": "2024-12-12T16:18:05",
+      "close_pair_status": "PASS"
+    },
+    {
+      "accession": "0000909832-24-000043",
+      "accepted_eastern": "2024-09-26T16:17:15",
+      "close_pair_status": "PASS"
+    }
+  ],
+  "alias_checks": [
+    {
+      "schema": "crspm",
+      "status": "CRSP schema permission denied; request access from your WRDS institution"
+    },
+    {
+      "schema": "crspq",
+      "status": "CRSP schema permission denied; request access from your WRDS institution"
+    }
+  ]
+}
