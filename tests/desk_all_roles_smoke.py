@@ -21,7 +21,8 @@ with tempfile.TemporaryDirectory() as tmp:
     (run/'10-K.txt').write_text('Income was $100.\nDebt was $20.\n')
     (run/'earnings_release_Ex99-1.txt').write_text('A seeded release.\n')
     calc=run/'calculated_facts.json'
-    write_json(calc,{'metrics':{'free_cash_flow':{'value':80,'formula':'100 - 20','unit':'USD','sources':['10-K.txt:L1','10-K.txt:L2']}},'quarter_results':{}})
+    write_json(calc,{'metrics':{'free_cash_flow':{'value':80,'formula':'100 - 20','unit':'USD','sources':['10-K.txt:L1','10-K.txt:L2']}},
+                    'quarter_results':{'latest_10q_capital_spending':{'value':80,'formula':'100 - 20','unit':'USD','sources':['10-K.txt:L1','10-K.txt:L2']}}})
     runtime=Runtime.__new__(Runtime);runtime.output_dir=run;runtime.set_output_dir(run)
     runtime.role_call_counts={};runtime.skill_files=[calc]
     runtime.desk=SimpleNamespace(filings={form:SimpleNamespace(accession='seeded-accession') for form in ('10-K','10-Q','8-K')},run_timestamp='2026-11-17T12:00:00-05:00')
@@ -74,7 +75,7 @@ with tempfile.TemporaryDirectory() as tmp:
     assert len(attempts)==2 and attempts[0]['output']['unparsed_response']==malformed
     assert attempts[0]['errors'] and not attempts[1]['errors']
     catalog=report_catalog(run)
-    checks=[{'target':c['target'],'status':'correct','reason':'The saved evidence supports the meaning and period.','correction':''} for c in catalog]
+    checks=[{'target':c['target'],'status':'correct','reason':'The saved evidence and latest_10q_capital_spending support the meaning and period.','correction':''} for c in catalog]
     answer(['calculated_facts.json',*corrected_files,'report.md','verifier_input.json'],{'claims':[],'checks':checks})
     verified=Path(flow.verifier(str(report)))
     gate.check('seeded checked reports',[report,verified])

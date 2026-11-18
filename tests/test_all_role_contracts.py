@@ -127,6 +127,21 @@ class AllRoleContracts(unittest.TestCase):
         raw['checks'][0]['reason']='The amount is $999.'
         self.assertFalse(validate(self.run,'Verifier',raw).ok)
 
+    def test_verifier_accepts_only_actual_saved_field_names(self):
+        data=json.loads((self.run/'calculated_facts.json').read_text())
+        data['quarter_results']['latest_10q_capital_spending']={'value':80,'formula':'100 - 20','unit':'USD','sources':['10-K.txt:L1','10-K.txt:L2']}
+        write_json(self.run/'calculated_facts.json',data)
+        self.manager()
+        raw={'claims':[],'checks':[{'target':c['target'],'status':'correct',
+             'reason':'calculated_facts.json latest_10q_capital_spending is the saved quarterly calculation.','correction':''} for c in report_catalog(self.run)]}
+        self.assertTrue(validate(self.run,'Verifier',raw).ok)
+        raw['checks'][0]['reason']+=' Its value was $999.'
+        self.assertFalse(validate(self.run,'Verifier',raw).ok)
+        raw['checks'][0]['reason']=raw['checks'][1]['reason']
+        del data['quarter_results']['latest_10q_capital_spending']
+        write_json(self.run/'calculated_facts.json',data)
+        self.assertFalse(validate(self.run,'Verifier',raw).ok)
+
     def test_reports_and_hook_rebuild_from_actual_saved_role_files(self):
         self.manager()
         write_json(self.run/'team_report.json',{'filings_line':'Filings read: seeded filing','run_time':'2026-11-17T12:00:00-05:00'})

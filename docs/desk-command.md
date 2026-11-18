@@ -96,6 +96,12 @@ code fills the original claim and source. The hook rebuilds reports and marks
 from the actual saved role files and rejects changes. Heading/list numbers,
 filing-form names, periods, dates, and source IDs are identifiers. They are not
 financial claims. Real amounts still require checked evidence.
+Exact field and tag names found in the run's saved inputs are also identifiers,
+including names with digits such as `latest_10q_capital_spending`. This exemption
+does not cover invented names, numeric values, or amounts beside a valid name.
+Period sequences, year-end dates, and explicitly identified clock times use the
+same identifier checks in every role, including Verifier. None of these checks
+changes the repair limit or accepts an unsupported financial claim.
 
 Each role invocation permits at most two claim-repair attempts after its first
 attempt. These require paid model work in a real run, including any file-tool

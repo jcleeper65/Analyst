@@ -1,0 +1,113 @@
+{
+  "ticker": "COST",
+  "status": "provisional; joined final report not produced",
+  "standalone_run": "equity_research_output/COSTCO WHOLESALE CORP _NEW, 2026-11-05, 09-43-44, report 11",
+  "joined_run": "runs/practice/COST_2026-11-17_17-50-49.261915",
+  "joined_state": {
+    "status": "failed",
+    "failed_part": "worksheet",
+    "error": "Worksheet judgment failed: Unsupported numeric judgment"
+  },
+  "outputs": [
+    {
+      "path": "equity_research_output/COSTCO WHOLESALE CORP _NEW, 2026-11-05, 09-43-44, report 11/verified_report.md",
+      "sha256": "53aa89b70c38e0a9420aee0a00290492cdeebea9edd1df86889108b629ee028e"
+    },
+    {
+      "path": "equity_research_output/COSTCO WHOLESALE CORP _NEW, 2026-11-05, 09-43-44, report 11/Spinoff worksheet, COST, 2026-11-12, 09-22-40.444799.json",
+      "sha256": "d6f3f953a576d11590af23e86b59ec0be8377c6c635262c42c7ef6970e994669"
+    },
+    {
+      "path": "equity_research_output/COSTCO WHOLESALE CORP _NEW, 2026-11-05, 09-43-44, report 11/Spinoff worksheet, COST, 2026-11-12, 09-22-40.444799.md",
+      "sha256": "64d1dc7f84863a93ace2773a980dbcd8ce839eddb4e36d3d0031db9488d6297b"
+    },
+    {
+      "path": "runs/practice/COST_2026-11-17_17-50-49.261915/verified_report.md",
+      "sha256": "4165516a012e68396d01477e11bc6a626c6f814f455b0c8270ecca3a1fa7d44c"
+    },
+    {
+      "path": "runs/practice/COST_2026-11-17_17-50-49.261915/Spinoff worksheet, COST, 2026-11-17, 17-50-49.261915.json",
+      "sha256": "2fafc451fc36a1519b7f3b05db927c7e115be8f2977dd7ea26898567259015fd"
+    },
+    {
+      "path": "runs/practice/COST_2026-11-17_17-50-49.261915/Spinoff worksheet, COST, 2026-11-17, 17-50-49.261915.md",
+      "sha256": "bd9d264e7e4731c47a83374dfe1f1cd479778c2fc13000378d846a896f40f6f0"
+    },
+    {
+      "path": "runs/practice/COST_2026-11-17_17-50-49.261915/desk_run.json",
+      "sha256": "dda9fabb1a0c05ef099fe0692369456daa3f6c061235fc30410d939edc7e97b7"
+    }
+  ],
+  "byte_identical_filings": [
+    {
+      "name": "10-K.txt",
+      "sha256": "edc70b7602bceae8a062d1e791e2c61c71e133752ddb38ff45c6081af63fae51"
+    },
+    {
+      "name": "10-Q.txt",
+      "sha256": "945131c2c8e981d5caa8352c711afc0e6dbaece60529cecaa60623fa4706d592"
+    },
+    {
+      "name": "earnings_release_Ex99-1.txt",
+      "sha256": "401785db8c35e88c6309b0657259c8f1f0bea83e304343a35b2ad7c193b1ce03"
+    }
+  ],
+  "filing_recomputations": {
+    "fy_total_revenue_usd": "303154000000",
+    "fy_revenue_growth_percent": "10.14369538757788798662960740",
+    "fy_operating_income_usd": "11685000000",
+    "fy_operating_margin_percent": "3.854476602650797944279145253",
+    "fy_net_income_parent_usd": "9226000000",
+    "fy_diluted_eps_usd": "20.76",
+    "fy_roe_percent": "28.40211184139640124986531624",
+    "fy_debt_equity_ratio": "0.1721084825293969779068793118",
+    "fy_fcf_usd": "9382000000",
+    "q4_total_revenue_usd": "95723000000",
+    "q4_total_revenue_growth_percent": "11.10427596452945819211662570",
+    "q4_diluted_eps_usd": "6.75"
+  },
+  "worksheet": {
+    "annual_owner_cash_flows_millions": [
+      "5465",
+      "5027",
+      "4894"
+    ],
+    "average_usd": "5128666666.666666666666666667",
+    "discount_rate": ".1",
+    "shares": "443129349",
+    "filing_input_low_value_usd_per_share": "115.7374630734888802561950521",
+    "standalone_low": 115.73746307348887,
+    "joined_low": 115.73746307348887,
+    "standalone_view": "less than the price",
+    "joined_view": "less than the price",
+    "standalone_price": {
+      "price": 1087.61,
+      "price_date": "2026-11-11",
+      "price_source": "LSEG TR.PriceClose (COST.O)",
+      "low_value": 115.73746307348887,
+      "difference": -971.872536926511,
+      "comparison": "less than the price",
+      "percent_price_minus_low": 839.7216520198036
+    },
+    "joined_price": {
+      "price": 1113.74,
+      "price_date": "2026-11-16",
+      "price_source": "LSEG TR.PriceClose (COST.O)",
+      "low_value": 115.73746307348887,
+      "difference": -998.0025369265111,
+      "comparison": "less than the price",
+      "percent_price_minus_low": 862.298611377733
+    }
+  },
+  "scope_notes": [
+    "Quarter total revenue is in the joined growth calculation inputs.",
+    "Quarter diluted EPS is in a supporting release quote, not a separate joined EPS claim.",
+    "No final report has been fabricated or inferred from a successful substage."
+  ],
+  "team_deciding_metric": {
+    "standalone": "free cash flow USD 9382000000",
+    "joined": "P/E 43.18304431599229 times",
+    "source": "saved pre-filing market_price.json and annual diluted EPS",
+    "numeric_change_type": "different deciding metric, not a correction to the old metric"
+  }
+}

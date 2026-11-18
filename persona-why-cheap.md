@@ -39,3 +39,5 @@ Fills the worksheet part "Why it may be cheap", plus one line for what would cha
 What would change the view: [one item, next filing, section].
 Insight: [a claim the filings support that the release's first paragraph does not] (source: [filing, section, date, line])
 ```
+
+Numbers. Write no number of your own, in digits or words, except the criterion scores 0, 1 and 2. Refer to a supplied value by its tag, such as [fact:capital_spending]. The worksheet's method inputs are not yours to restate: name them instead of quoting them. Write "the low case", "the mid case", "the low-case discount rate", "the multi-year owner cash flow average", "the purchase size" and "the liquidity limit", never "ten percent", "7%", "three fiscal years", "$125,000" or "3 trading days". This applies to every line you write, including "What would change the view" and "Insight". The worksheet's code prints the method inputs; you only interpret them.

@@ -169,6 +169,33 @@ class ClaimBoundaryRegressions(unittest.TestCase):
 
 
 class FinancialRepairFalseFlags(unittest.TestCase):
+    def test_exact_saved_field_and_tag_identifiers_are_not_amounts(self):
+        texts={**TEXTS,'calculated_facts.json':json.dumps({'quarter_results':{'latest_10q_capital_spending':{'value':80}}})}
+        facts={'facts':{'example':{'tag':'SavedTag12'}}}
+        raw={'claims':[],'draft':'calculated_facts.json latest_10q_capital_spending uses SavedTag12. Read calculated_facts.json#/quarter_results/latest_10q_capital_spending.'}
+        self.assertTrue(check(raw,texts,facts).ok)
+        for draft in ['unknown_10q_capital_spending is checked.','latest_10q_capital_spending999 is checked.',
+                      'latest_10q_capital_spending was $999.','latest_10q_capital_spending rose 15%.',
+                      'latest_10q_capital_spending was three million dollars.']:
+            self.assertFalse(check({'claims':[],'draft':draft},texts,facts).ok,draft)
+
+    def test_saved_numeric_values_are_not_treated_as_identifiers(self):
+        texts={'calculated_facts.json':json.dumps({'metrics':{'value':999,'label':'made_up_10q_label'}})}
+        for draft in ['Income 999.','made_up_10q_label is known.']:
+            self.assertFalse(check({'claims':[],'draft':draft},texts,{}).ok,draft)
+
+    def test_period_sequences_year_end_and_attributive_years_are_identifiers(self):
+        draft='The periods are in the 2026, 2025, 2024 sequence. Capacity is at the end of 2026. The 2026 long-term debt disclosure applies.'
+        self.assertTrue(check({'claims':[],'draft':draft},{},{}).ok)
+        for amount in ['Income 2026.','There were 2026 warehouses.','Revenue USD 2026.','Income $2026.']:
+            self.assertFalse(check({'claims':[],'draft':draft+' '+amount},{},{}).ok,amount)
+
+    def test_explicit_clock_times_are_identifiers_not_financial_values(self):
+        for time in ['before 16:00','at 4:00 PM','16:00 ET','the cutoff 16:00:00']:
+            self.assertTrue(check({'claims':[],'draft':'Use the close '+time+'.'},{},{}).ok,time)
+            self.assertFalse(check({'claims':[],'draft':'Use the close '+time+' and income $999.'},{},{}).ok)
+        self.assertFalse(check({'claims':[],'draft':'Use the close at 24:00.'},{},{}).ok)
+
     def test_identifiers_cannot_hide_decimal_or_percentage_amounts(self):
         for prose in ['Line 15% improved with {c1}.','L1030% improved with {c1}.','August 30% improved with {c1}.',
                       'Line 15 million was spent with {c1}.','August 30 million was spent with {c1}.']:

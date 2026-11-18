@@ -2,6 +2,8 @@
 
 Weak human + machine + better process
 
+[Product manual](docs/product-manual.md) · Costco comparison of the standalone parts, joined desk, and filings.
+
 ## Saved views and filing reactions
 
 From the workspace root, run `./aa runs/live` to fill available market reactions

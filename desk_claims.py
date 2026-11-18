@@ -54,6 +54,11 @@ IDENTIFIER_END=r'(?![\w%$€£]|\.\d|\s*(?:'+UNIT_WORDS+r')\b)'
 LINE_REF=re.compile('(?:'+LINE_REF.pattern+')'+IDENTIFIER_END,re.I)
 TEXT_DATE=re.compile('(?:'+TEXT_DATE.pattern+')'+IDENTIFIER_END)
 YEAR = re.compile(r'\b(?:fiscal(?:\s+year)?|year|in|for|during|the|from|since|through|versus|vs\.?|with)\s+(?:19|20)\d{2}\b(?!\s*(?:'+UNIT_WORDS+r')\b)|(?<![\w$.,])(?:19|20)\d{2}(?=\s+(?:net\s+(?:sales|income)|gross\s+margin|fiscal\s+year|revenue|results)\b)',re.I)
+PERIOD_SEQUENCE=re.compile(r'\b(?:the|years?|fiscal\s+years?|periods?)\s+(?:19|20)\d{2}(?:\s*(?:,|and)\s*(?:19|20)\d{2})+\s+(?:sequence|years?|periods?)\b',re.I)
+YEAR_END=re.compile(r'\b(?:end|beginning)\s+of\s+(?:(?:fiscal\s+)?year\s+)?(?:19|20)\d{2}\b'+IDENTIFIER_END,re.I)
+YEAR_METRIC=re.compile(r'(?<![\w$.,])(?:19|20)\d{2}(?=\s+(?:(?:long|short)[- ]term\s+debt|operating\s+income|cash\s+flow|capital\s+spending|membership\s+fees?)\b)',re.I)
+CLOCK_VALUE=r'(?:[01]?\d|2[0-3]):[0-5]\d(?::[0-5]\d)?'
+CLOCK_REF=re.compile(r'\b(?:at|before|after|by|close|closing|cutoff|time)\s+(?:'+CLOCK_VALUE+r')\b|(?<![\w$])'+CLOCK_VALUE+r'\s*(?:ET|EST|EDT|UTC|GMT|AM|PM)\b',re.I)
 WORD_AMOUNT = re.compile(
     rf"\b(?:{NUMBER_WORDS})(?:[\s-]+(?:{NUMBER_WORDS}))*\s+(?:{UNIT_WORDS})\b", re.I)
 
@@ -61,6 +66,31 @@ WORD_AMOUNT = re.compile(
 def _norm(text: str) -> str:
     text = text.replace("“", '"').replace("”", '"').replace("’", "'").replace("‘", "'")
     return re.sub(r"\s+", " ", text).strip()
+
+
+def source_identifier_pattern(texts,facts,origins):
+    """Only exempt actual saved key/tag/claim names, never arbitrary digit words."""
+    names=set()
+    def add(name):
+        if isinstance(name,str) and re.fullmatch(r'[A-Za-z_][A-Za-z_0-9]*',name) and re.search(r'\d',name):names.add(name)
+    def walk(value):
+        if isinstance(value,dict):
+            for key,item in value.items():
+                add(key)
+                if key=='tag':add(item)
+                walk(item)
+        elif isinstance(value,list):
+            for item in value:walk(item)
+    walk(facts or {})
+    for name,text in texts.items():
+        if name.endswith('.json'):
+            try:walk(json.loads(text))
+            except (ValueError,TypeError):pass # Broken saved data is checked at its source boundary.
+    for claims in (origins or {}).values():
+        if isinstance(claims,dict):
+            for name in claims:add(name)
+    if not names:return None
+    return re.compile(r'(?<![\w$])(?:'+'|'.join(re.escape(name) for name in sorted(names,key=len,reverse=True))+r')(?![\w%])')
 
 
 def complete_value(value,quote,source):
@@ -182,6 +212,7 @@ def format_fact(key: str, fact: dict, which: str) -> str:
 
 def check(output: dict[str, Any], texts: dict[str, str], facts: dict[str, Any] | None = None,origins=None,reference_only=False) -> Result:
     result = Result()
+    identifiers=source_identifier_pattern(texts,facts,origins)
     if not isinstance(output,dict):
         result.errors.append('Return JSON with "claims" (array) and "draft" (string).')
         return result
@@ -309,7 +340,8 @@ def check(output: dict[str, Any], texts: dict[str, str], facts: dict[str, Any] |
         prose = LINE_REF.sub(" ", prose)
         for start,end in reversed(enumeration_spans(prose)):
             prose=prose[:start]+' '*(end-start)+prose[end:]
-        for allowed in (ISO_DATE,TEXT_DATE,ACCESSION_REF,YEAR, QUARTER, ITEM_REF, FORM_REF,LABEL_REF):
+        if identifiers:prose=identifiers.sub(' ',prose)
+        for allowed in (ISO_DATE,TEXT_DATE,ACCESSION_REF,PERIOD_SEQUENCE,YEAR_END,YEAR_METRIC,YEAR,CLOCK_REF, QUARTER, ITEM_REF, FORM_REF,LABEL_REF):
             prose = allowed.sub(" ", prose)
         for start,end in reversed(heading_spans(prose)):
             prose=prose[:start]+' '*(end-start)+prose[end:]
